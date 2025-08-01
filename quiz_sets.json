@@ -3,8 +3,8 @@
   "items": [
     {
       "total": 25,
-      "title": "Android",
-      "description": "",
+      "title": "Android Quizzes to Sharpen Your Skills",
+      "description": "Covering modern topics like Jetpack Compose, Coroutines, Dependency Injection, and Architecture Components.",
       "sections": [
         {
           "title": "Jetpack Compose Basics",
@@ -161,8 +161,8 @@
     },
     {
       "total": 40,
-      "title": "Kotlin",
-      "description": "",
+      "title": "Kotlin Quizzes to Boost Your Expertise",
+      "description": "Including trending concepts like Coroutines, Flows, Multiplatform, DSLs, and Functional Programming.",
       "sections": [
         {
           "title": "Kotlin Basics: Syntax and Variables",
@@ -409,8 +409,8 @@
     },
     {
       "total": 13,
-      "title": "Java",
-      "description": "",
+      "title": "Java Quizzes to Master the Basics & Beyond",
+      "description": "From core Java to modern updates like Streams, Lambdas, Concurrency, and new JVM features.",
       "sections": [
         {
           "title": "Java Classes and Objects",
