@@ -1,0 +1,1325 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is the primary purpose of Retrofit in Android?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Retrofit is a type-safe HTTP client for Android and Java, used to make network requests and handle responses.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. Manage UI components",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. Handle HTTP requests",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. Store local data",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. Manage background tasks",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. Handle HTTP requests"],
+        "explanation": "Retrofit is a type-safe HTTP client for Android and Java, used to make network requests and handle responses."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "How do you create a Retrofit instance in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A Retrofit instance is created using Retrofit.Builder().baseUrl().addConverterFactory().build().",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. Retrofit.create(baseUrl)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. Retrofit.Builder().baseUrl().build()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. Retrofit(baseUrl).build()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. Retrofit.init(baseUrl)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. Retrofit.Builder().baseUrl().build()"],
+        "explanation": "A Retrofit instance is created using Retrofit.Builder().baseUrl().addConverterFactory().build()."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "What is the purpose of the @GET annotation in Retrofit?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@GET specifies that the API method performs an HTTP GET request to the specified endpoint.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. Sends POST request",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. Sends GET request",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 11,
+          "questionId": 3,
+          "data": "C. Defines query parameters",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 12,
+          "questionId": 3,
+          "data": "D. Handles responses",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [10],
+        "answer": ["B. Sends GET request"],
+        "explanation": "@GET specifies that the API method performs an HTTP GET request to the specified endpoint."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "How do you define a Retrofit API interface in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A Retrofit API is defined using an interface with annotated methods, e.g., interface ApiService { @GET('path') fun getData() }.",
+      "answerCellList": [
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "A. Create a class with @Api",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "B. Create an interface with annotated methods",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 15,
+          "questionId": 4,
+          "data": "C. Extend Retrofit class",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 16,
+          "questionId": 4,
+          "data": "D. Use @Service annotation",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [14],
+        "answer": ["B. Create an interface with annotated methods"],
+        "explanation": "A Retrofit API is defined using an interface with annotated methods, e.g., interface ApiService { @GET('path') fun getData() }."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which converter factory is commonly used with Retrofit for JSON parsing?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "GsonConverterFactory is commonly used with Retrofit to parse JSON responses into Kotlin objects.",
+      "answerCellList": [
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "A. XmlConverterFactory",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "B. GsonConverterFactory",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 19,
+          "questionId": 5,
+          "data": "C. JsonConverterFactory",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 20,
+          "questionId": 5,
+          "data": "D. MoshiConverterFactory",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [18],
+        "answer": ["B. GsonConverterFactory"],
+        "explanation": "GsonConverterFactory is commonly used with Retrofit to parse JSON responses into Kotlin objects."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "How do you add a query parameter to a Retrofit GET request?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Query parameters are added using the @Query annotation in the API method, e.g., @Query('key') value: String.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 6,
+          "data": "A. Use @Param",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 6,
+          "data": "B. Use @Query",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 6,
+          "data": "C. Use @Path",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 6,
+          "data": "D. Use @Field",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [22],
+        "answer": ["B. Use @Query"],
+        "explanation": "Query parameters are added using the @Query annotation in the API method, e.g., @Query('key') value: String."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "How do you make a POST request with a JSON body in Retrofit?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A POST request with a JSON body uses @POST and @Body annotations, e.g., @POST('path') fun postData(@Body data: Data).",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 7,
+          "data": "A. Use @POST and @Field",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 7,
+          "data": "B. Use @POST and @Body",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 7,
+          "data": "C. Use @POST and @Query",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 7,
+          "data": "D. Use @POST and @Path",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [26],
+        "answer": ["B. Use @POST and @Body"],
+        "explanation": "A POST request with a JSON body uses @POST and @Body annotations, e.g., @POST('path') fun postData(@Body data: Data)."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "How do you handle Retrofit API calls with Kotlin Coroutines?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Coroutines are used by marking the API method with suspend and returning the response, e.g., suspend fun getData(): Response<Data>.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 8,
+          "data": "A. Use Call<T>",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 8,
+          "data": "B. Use suspend fun",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 8,
+          "data": "C. Use Deferred<T>",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 8,
+          "data": "D. Use Flow<T>",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [30],
+        "answer": ["B. Use suspend fun"],
+        "explanation": "Coroutines are used by marking the API method with suspend and returning the response, e.g., suspend fun getData(): Response<Data>."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "What is the purpose of the OkHttpClient in Retrofit?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "OkHttpClient handles the underlying HTTP requests, allowing customization like timeouts, interceptors, and retries.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 9,
+          "data": "A. Parses JSON",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 9,
+          "data": "B. Handles HTTP requests",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 35,
+          "questionId": 9,
+          "data": "C. Manages UI updates",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 36,
+          "questionId": 9,
+          "data": "D. Stores data locally",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [34],
+        "answer": ["B. Handles HTTP requests"],
+        "explanation": "OkHttpClient handles the underlying HTTP requests, allowing customization like timeouts, interceptors, and retries."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "How do you add headers to a Retrofit request?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Headers are added using the @Header annotation or by configuring an OkHttpClient with an interceptor.",
+      "answerCellList": [
+        {
+          "answerId": 37,
+          "questionId": 10,
+          "data": "A. Use @Query",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 38,
+          "questionId": 10,
+          "data": "B. Use @Header or OkHttpClient",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 39,
+          "questionId": 10,
+          "data": "C. Use @Field",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 40,
+          "questionId": 10,
+          "data": "D. Use @Path",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [38],
+        "answer": ["B. Use @Header or OkHttpClient"],
+        "explanation": "Headers are added using the @Header annotation or by configuring an OkHttpClient with an interceptor."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "What is the purpose of Call<T> in Retrofit?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Call<T> represents an HTTP request that can be executed synchronously or asynchronously to get a response.",
+      "answerCellList": [
+        {
+          "answerId": 41,
+          "questionId": 11,
+          "data": "A. Parses JSON",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 42,
+          "questionId": 11,
+          "data": "B. Executes HTTP request",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 43,
+          "questionId": 11,
+          "data": "C. Manages coroutines",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 44,
+          "questionId": 11,
+          "data": "D. Observes responses",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [42],
+        "answer": ["B. Executes HTTP request"],
+        "explanation": "Call<T> represents an HTTP request that can be executed synchronously or asynchronously to get a response."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "How do you handle a Retrofit response in a Kotlin Coroutine?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A Retrofit response is handled in a coroutine by calling the suspend function and checking Response.isSuccessful.",
+      "answerCellList": [
+        {
+          "answerId": 45,
+          "questionId": 12,
+          "data": "A. Use Call<T>.enqueue()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 46,
+          "questionId": 12,
+          "data": "B. Check Response.isSuccessful",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 47,
+          "questionId": 12,
+          "data": "C. Use Flow<T>",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 48,
+          "questionId": 12,
+          "data": "D. Use LiveData",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [46],
+        "answer": ["B. Check Response.isSuccessful"],
+        "explanation": "A Retrofit response is handled in a coroutine by calling the suspend function and checking Response.isSuccessful."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "How do you add a timeout to Retrofit requests?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Timeouts are set by configuring an OkHttpClient with .connectTimeout() and .readTimeout() when building Retrofit.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 13,
+          "data": "A. Use Retrofit.setTimeout()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 13,
+          "data": "B. Use OkHttpClient with timeouts",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 13,
+          "data": "C. Use @Timeout annotation",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 13,
+          "data": "D. Use CoroutineScope",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [50],
+        "answer": ["B. Use OkHttpClient with timeouts"],
+        "explanation": "Timeouts are set by configuring an OkHttpClient with .connectTimeout() and .readTimeout() when building Retrofit."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "What is the purpose of the @Path annotation in Retrofit?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@Path replaces a placeholder in the URL path, e.g., @GET('users/{id}') fun getUser(@Path('id') id: String).",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 14,
+          "data": "A. Adds query parameters",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 14,
+          "data": "B. Replaces URL path placeholder",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 14,
+          "data": "C. Sends body data",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 14,
+          "data": "D. Adds headers",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [54],
+        "answer": ["B. Replaces URL path placeholder"],
+        "explanation": "@Path replaces a placeholder in the URL path, e.g., @GET('users/{id}') fun getUser(@Path('id') id: String)."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "How do you handle errors in a Retrofit coroutine call?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Errors are handled using try-catch blocks around the suspend function call, catching exceptions like HttpException or IOException.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 15,
+          "data": "A. Use Call<T>.enqueue()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 15,
+          "data": "B. Use try-catch with suspend call",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 15,
+          "data": "C. Use @Error annotation",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 15,
+          "data": "D. Use Flow.catch()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [58],
+        "answer": ["B. Use try-catch with suspend call"],
+        "explanation": "Errors are handled using try-catch blocks around the suspend function call, catching exceptions like HttpException or IOException."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "How do you create an API service instance with Retrofit?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An API service is created using retrofit.create(ApiService::class.java) after building the Retrofit instance.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 16,
+          "data": "A. retrofit.build(ApiService)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 16,
+          "data": "B. retrofit.create(ApiService::class.java)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 63,
+          "questionId": 16,
+          "data": "C. ApiService(retrofit)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 64,
+          "questionId": 16,
+          "data": "D. retrofit.getService()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [62],
+        "answer": ["B. retrofit.create(ApiService::class.java)"],
+        "explanation": "An API service is created using retrofit.create(ApiService::class.java) after building the Retrofit instance."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "What is the purpose of the @FormUrlEncoded annotation in Retrofit?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@FormUrlEncoded is used with POST requests to send form-encoded data, typically with @Field parameters.",
+      "answerCellList": [
+        {
+          "answerId": 65,
+          "questionId": 17,
+          "data": "A. Sends JSON body",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 66,
+          "questionId": 17,
+          "data": "B. Sends form-encoded data",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 67,
+          "questionId": 17,
+          "data": "C. Adds query parameters",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 68,
+          "questionId": 17,
+          "data": "D. Handles file uploads",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [66],
+        "answer": ["B. Sends form-encoded data"],
+        "explanation": "@FormUrlEncoded is used with POST requests to send form-encoded data, typically with @Field parameters."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "How do you upload a file using Retrofit?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "File uploads use @Multipart and @Part annotations, e.g., @Part MultipartBody.Part file, to send files in a POST request.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 18,
+          "data": "A. Use @Body",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 18,
+          "data": "B. Use @Multipart and @Part",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 18,
+          "data": "C. Use @Field",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 18,
+          "data": "D. Use @Path",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [70],
+        "answer": ["B. Use @Multipart and @Part"],
+        "explanation": "File uploads use @Multipart and @Part annotations, e.g., @Part MultipartBody.Part file, to send files in a POST request."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "How do you add an interceptor to Retrofit?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An interceptor is added to OkHttpClient using .addInterceptor() when building the client for Retrofit.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 19,
+          "data": "A. Use Retrofit.addInterceptor()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 19,
+          "data": "B. Use OkHttpClient.addInterceptor()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 19,
+          "data": "C. Use @Interceptor",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 19,
+          "data": "D. Use CoroutineScope",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [74],
+        "answer": ["B. Use OkHttpClient.addInterceptor()"],
+        "explanation": "An interceptor is added to OkHttpClient using .addInterceptor() when building the client for Retrofit."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "What is the purpose of Response<T> in Retrofit?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Response<T> encapsulates the HTTP response, including status code, headers, and body, for handling success or error cases.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 20,
+          "data": "A. Parses JSON",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 20,
+          "data": "B. Encapsulates HTTP response",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 20,
+          "data": "C. Executes requests",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 20,
+          "data": "D. Manages coroutines",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [78],
+        "answer": ["B. Encapsulates HTTP response"],
+        "explanation": "Response<T> encapsulates the HTTP response, including status code, headers, and body, for handling success or error cases."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "How do you use Retrofit with LiveData?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Retrofit with LiveData requires a CallAdapterFactory like LiveDataCallAdapterFactory to return LiveData from API methods.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 21,
+          "data": "A. Use FlowCallAdapterFactory",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 21,
+          "data": "B. Use LiveDataCallAdapterFactory",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 21,
+          "data": "C. Use CoroutineScope",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 21,
+          "data": "D. Use LiveDataConverter",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [82],
+        "answer": ["B. Use LiveDataCallAdapterFactory"],
+        "explanation": "Retrofit with LiveData requires a CallAdapterFactory like LiveDataCallAdapterFactory to return LiveData from API methods."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "How do you handle authentication in Retrofit requests?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Authentication is handled by adding an interceptor to OkHttpClient to include tokens or credentials in request headers.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 22,
+          "data": "A. Use @Auth annotation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 22,
+          "data": "B. Use OkHttpClient interceptor",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 22,
+          "data": "C. Use @Header('Auth')",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 22,
+          "data": "D. Use Retrofit.auth()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [86],
+        "answer": ["B. Use OkHttpClient interceptor"],
+        "explanation": "Authentication is handled by adding an interceptor to OkHttpClient to include tokens or credentials in request headers."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "What is the purpose of the baseUrl in Retrofit?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The baseUrl defines the root URL for all API endpoints, appended with paths specified in API methods.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 23,
+          "data": "A. Defines query parameters",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 23,
+          "data": "B. Defines root URL for endpoints",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 91,
+          "questionId": 23,
+          "data": "C. Manages headers",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 92,
+          "questionId": 23,
+          "data": "D. Parses responses",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [90],
+        "answer": ["B. Defines root URL for endpoints"],
+        "explanation": "The baseUrl defines the root URL for all API endpoints, appended with paths specified in API methods."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "How do you handle a 401 Unauthorized error in Retrofit?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A 401 error is handled by checking Response.code() in a coroutine or callback and implementing token refresh logic.",
+      "answerCellList": [
+        {
+          "answerId": 93,
+          "questionId": 24,
+          "data": "A. Use @Unauthorized annotation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 94,
+          "questionId": 24,
+          "data": "B. Check Response.code()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 95,
+          "questionId": 24,
+          "data": "C. Use Retrofit.onError()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 96,
+          "questionId": 24,
+          "data": "D. Use Flow.catch()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [94],
+        "answer": ["B. Check Response.code()"],
+        "explanation": "A 401 error is handled by checking Response.code() in a coroutine or callback and implementing token refresh logic."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "How do you use Retrofit with Kotlin data classes?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Kotlin data classes are used with Gson or Moshi to automatically map JSON responses to objects in Retrofit API calls.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 25,
+          "data": "A. Use @Data annotation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 25,
+          "data": "B. Map JSON with data classes",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 25,
+          "data": "C. Use Parcelable classes",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 25,
+          "data": "D. Use Flow objects",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [98],
+        "answer": ["B. Map JSON with data classes"],
+        "explanation": "Kotlin data classes are used with Gson or Moshi to automatically map JSON responses to objects in Retrofit API calls."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "What is the purpose of the CallAdapter in Retrofit?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "CallAdapter converts Retrofit's Call<T> into another type, like LiveData or suspend functions, for easier integration.",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 26,
+          "data": "A. Parses JSON",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 26,
+          "data": "B. Converts Call<T> to other types",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 26,
+          "data": "C. Manages headers",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 26,
+          "data": "D. Executes requests",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [102],
+        "answer": ["B. Converts Call<T> to other types"],
+        "explanation": "CallAdapter converts Retrofit's Call<T> into another type, like LiveData or suspend functions, for easier integration."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "How do you cancel a Retrofit request?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A Retrofit request is canceled by calling cancel() on the Call<T> object, e.g., call.cancel().",
+      "answerCellList": [
+        {
+          "answerId": 105,
+          "questionId": 27,
+          "data": "A. Use Retrofit.cancel()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 106,
+          "questionId": 27,
+          "data": "B. Use Call<T>.cancel()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 107,
+          "questionId": 27,
+          "data": "C. Use CoroutineScope.cancel()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 108,
+          "questionId": 27,
+          "data": "D. Use @Cancel annotation",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [106],
+        "answer": ["B. Use Call<T>.cancel()"],
+        "explanation": "A Retrofit request is canceled by calling cancel() on the Call<T> object, e.g., call.cancel()."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "How do you use Retrofit with Kotlin Flow?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Retrofit with Flow requires a FlowCallAdapterFactory and returning Flow<T> from the API method.",
+      "answerCellList": [
+        {
+          "answerId": 109,
+          "questionId": 28,
+          "data": "A. Use LiveDataCallAdapterFactory",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 110,
+          "questionId": 28,
+          "data": "B. Use FlowCallAdapterFactory",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 111,
+          "questionId": 28,
+          "data": "C. Use CoroutineScope",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 112,
+          "questionId": 28,
+          "data": "D. Use FlowConverter",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [110],
+        "answer": ["B. Use FlowCallAdapterFactory"],
+        "explanation": "Retrofit with Flow requires a FlowCallAdapterFactory and returning Flow<T> from the API method."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "What is the purpose of the @SerializedName annotation in Gson?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@SerializedName maps a JSON field name to a Kotlin data class property, handling mismatched names.",
+      "answerCellList": [
+        {
+          "answerId": 113,
+          "questionId": 29,
+          "data": "A. Validates JSON",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 114,
+          "questionId": 29,
+          "data": "B. Maps JSON field to property",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 115,
+          "questionId": 29,
+          "data": "C. Adds headers",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 116,
+          "questionId": 29,
+          "data": "D. Handles errors",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [114],
+        "answer": ["B. Maps JSON field to property"],
+        "explanation": "@SerializedName maps a JSON field name to a Kotlin data class property, handling mismatched names."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "How do you test a Retrofit API call in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Retrofit API calls are tested using a MockWebServer to simulate responses and verify requests in unit tests.",
+      "answerCellList": [
+        {
+          "answerId": 117,
+          "questionId": 30,
+          "data": "A. Use RetrofitTestServer",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 118,
+          "questionId": 30,
+          "data": "B. Use MockWebServer",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 119,
+          "questionId": 30,
+          "data": "C. Use TestCoroutineScope",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 120,
+          "questionId": 30,
+          "data": "D. Use LiveDataTest",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [118],
+        "answer": ["B. Use MockWebServer"],
+        "explanation": "Retrofit API calls are tested using a MockWebServer to simulate responses and verify requests in unit tests."
+      }
+    }
+  ]
+}

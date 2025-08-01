@@ -1,0 +1,1325 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is the primary component used to manage navigation in Jetpack Navigation?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The NavController is the central component in Jetpack Navigation, responsible for navigating between destinations in a NavGraph.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. NavGraph",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. NavController",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. NavHost",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. NavDestination",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. NavController"],
+        "explanation": "The NavController is the central component in Jetpack Navigation, responsible for navigating between destinations in a NavGraph."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "How do you obtain a NavController in a Kotlin Activity?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "In an Activity, the NavController is obtained using findNavController(), e.g., findNavController(R.id.nav_host_fragment).",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. getNavController(R.id.nav_host_fragment)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. findNavController(R.id.nav_host_fragment)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. NavController.getInstance()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. supportFragmentManager.navController",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. findNavController(R.id.nav_host_fragment)"],
+        "explanation": "In an Activity, the NavController is obtained using findNavController(), e.g., findNavController(R.id.nav_host_fragment)."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "What is a NavGraph in Jetpack Navigation?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A NavGraph is a resource file that defines destinations (Fragments, Activities) and navigation paths (actions) between them.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. A view container",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. A navigation map of destinations",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 11,
+          "questionId": 3,
+          "data": "C. A navigation controller",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 12,
+          "questionId": 3,
+          "data": "D. A Fragment manager",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [10],
+        "answer": ["B. A navigation map of destinations"],
+        "explanation": "A NavGraph is a resource file that defines destinations (Fragments, Activities) and navigation paths (actions) between them."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "How do you navigate to a destination using Jetpack Navigation in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Navigation is performed using navController.navigate(R.id.action_id), where action_id is defined in the NavGraph.",
+      "answerCellList": [
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "A. navController.navigate(R.id.action_id)",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "B. navController.goTo(R.id.destination)",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 15,
+          "questionId": 4,
+          "data": "C. supportFragmentManager.navigate()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 16,
+          "questionId": 4,
+          "data": "D. navController.replace(R.id.action_id)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [13],
+        "answer": ["A. navController.navigate(R.id.action_id)"],
+        "explanation": "Navigation is performed using navController.navigate(R.id.action_id), where action_id is defined in the NavGraph."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "What is the purpose of Safe Args in Jetpack Navigation?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Safe Args generates type-safe classes for passing arguments between destinations, reducing errors in navigation.",
+      "answerCellList": [
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "A. To manage back stack",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "B. To pass type-safe arguments",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 19,
+          "questionId": 5,
+          "data": "C. To handle deep links",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 20,
+          "questionId": 5,
+          "data": "D. To manage lifecycle events",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [18],
+        "answer": ["B. To pass type-safe arguments"],
+        "explanation": "Safe Args generates type-safe classes for passing arguments between destinations, reducing errors in navigation."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "How do you enable Safe Args in a Kotlin project?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Safe Args is enabled by adding the navigation-safe-args-gradle-plugin to the build.gradle file and applying it.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 6,
+          "data": "A. Add navigation-safe-args-gradle-plugin",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 6,
+          "data": "B. Add annotation to NavGraph",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 6,
+          "data": "C. Enable in AndroidManifest",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 6,
+          "data": "D. Use synthetic properties",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [21],
+        "answer": ["A. Add navigation-safe-args-gradle-plugin"],
+        "explanation": "Safe Args is enabled by adding the navigation-safe-args-gradle-plugin to the build.gradle file and applying it."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "How do you pass arguments to a destination using Safe Args in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Arguments are passed using a generated Directions class, e.g., navController.navigate(FragmentDirections.actionToDestination(arg)).",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 7,
+          "data": "A. navController.navigate(Bundle())",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 7,
+          "data": "B. navController.navigate(FragmentDirections.actionToDestination(arg))",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 7,
+          "data": "C. fragment.arguments = Bundle()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 7,
+          "data": "D. navController.setArguments(arg)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [26],
+        "answer": ["B. navController.navigate(FragmentDirections.actionToDestination(arg))"],
+        "explanation": "Arguments are passed using a generated Directions class, e.g., navController.navigate(FragmentDirections.actionToDestination(arg))."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "How do you retrieve arguments in a destination Fragment using Safe Args?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Arguments are retrieved using a generated Args class, e.g., val args = DestinationFragmentArgs.fromBundle(requireArguments()).",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 8,
+          "data": "A. requireArguments().getString(\"key\")",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 8,
+          "data": "B. DestinationFragmentArgs.fromBundle(requireArguments())",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 8,
+          "data": "C. navController.getArguments()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 8,
+          "data": "D. arguments.get()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [30],
+        "answer": ["B. DestinationFragmentArgs.fromBundle(requireArguments())"],
+        "explanation": "Arguments are retrieved using a generated Args class, e.g., val args = DestinationFragmentArgs.fromBundle(requireArguments())."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "What is the purpose of the NavHost in Jetpack Navigation?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The NavHost is a container (usually a NavHostFragment) that hosts the NavGraph and displays the current destination.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 9,
+          "data": "A. Manages navigation actions",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 9,
+          "data": "B. Hosts the NavGraph",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 35,
+          "questionId": 9,
+          "data": "C. Defines navigation paths",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 36,
+          "questionId": 9,
+          "data": "D. Handles back stack",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [34],
+        "answer": ["B. Hosts the NavGraph"],
+        "explanation": "The NavHost is a container (usually a NavHostFragment) that hosts the NavGraph and displays the current destination."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "How do you navigate back in Jetpack Navigation?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Navigating back is done using navController.popBackStack(), which pops the top destination from the back stack.",
+      "answerCellList": [
+        {
+          "answerId": 37,
+          "questionId": 10,
+          "data": "A. navController.goBack()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 38,
+          "questionId": 10,
+          "data": "B. navController.popBackStack()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 39,
+          "questionId": 10,
+          "data": "C. navController.navigateBack()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 40,
+          "questionId": 10,
+          "data": "D. supportFragmentManager.popBackStack()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [38],
+        "answer": ["B. navController.popBackStack()"],
+        "explanation": "Navigating back is done using navController.popBackStack(), which pops the top destination from the back stack."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "What is a deep link in Jetpack Navigation?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A deep link is a URL that navigates directly to a specific destination in the app, defined in the NavGraph.",
+      "answerCellList": [
+        {
+          "answerId": 41,
+          "questionId": 11,
+          "data": "A. A navigation action",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 42,
+          "questionId": 11,
+          "data": "B. A URL to a specific destination",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 43,
+          "questionId": 11,
+          "data": "C. A Fragment transaction",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 44,
+          "questionId": 11,
+          "data": "D. A back stack entry",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [42],
+        "answer": ["B. A URL to a specific destination"],
+        "explanation": "A deep link is a URL that navigates directly to a specific destination in the app, defined in the NavGraph."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "How do you define a deep link in a NavGraph?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A deep link is defined in the NavGraph XML using a <deepLink> tag with a uri attribute, e.g., <deepLink app:uri=\"app://destination\" />.",
+      "answerCellList": [
+        {
+          "answerId": 45,
+          "questionId": 12,
+          "data": "A. Use <action> tag",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 46,
+          "questionId": 12,
+          "data": "B. Use <deepLink> tag with uri",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 47,
+          "questionId": 12,
+          "data": "C. Add to AndroidManifest",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 48,
+          "questionId": 12,
+          "data": "D. Use Safe Args",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [46],
+        "answer": ["B. Use <deepLink> tag with uri"],
+        "explanation": "A deep link is defined in the NavGraph XML using a <deepLink> tag with a uri attribute, e.g., <deepLink app:uri=\"app://destination\" />."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "How do you handle a deep link in a Kotlin Activity?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Deep links are handled using navController.handleDeepLink(intent), typically called in the Activity's onCreate().",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 13,
+          "data": "A. navController.navigateDeepLink()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 13,
+          "data": "B. navController.handleDeepLink(intent)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 13,
+          "data": "C. intent.navigateTo()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 13,
+          "data": "D. navController.setDeepLink()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [50],
+        "answer": ["B. navController.handleDeepLink(intent)"],
+        "explanation": "Deep links are handled using navController.handleDeepLink(intent), typically called in the Activity's onCreate()."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "What is the purpose of popUpTo in a navigation action?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The popUpTo attribute in a navigation action clears the back stack up to the specified destination, controlling navigation history.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 14,
+          "data": "A. Defines the destination",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 14,
+          "data": "B. Clears back stack to a destination",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 14,
+          "data": "C. Adds to back stack",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 14,
+          "data": "D. Sets transition animation",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [54],
+        "answer": ["B. Clears back stack to a destination"],
+        "explanation": "The popUpTo attribute in a navigation action clears the back stack up to the specified destination, controlling navigation history."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "What does popUpToInclusive do in a navigation action?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The popUpToInclusive attribute, when true, removes the popUpTo destination from the back stack along with all destinations above it.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 15,
+          "data": "A. Includes the destination in the back stack",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 15,
+          "data": "B. Removes the popUpTo destination",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 15,
+          "data": "C. Defines a deep link",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 15,
+          "data": "D. Sets a transition animation",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [58],
+        "answer": ["B. Removes the popUpTo destination"],
+        "explanation": "The popUpToInclusive attribute, when true, removes the popUpTo destination from the back stack along with all destinations above it."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "How do you set up a NavHostFragment in an Activity's layout?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A NavHostFragment is set up in the layout XML using <fragment> with app:navGraph pointing to the NavGraph resource, e.g., app:navGraph=\"@navigation/nav_graph\".",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 16,
+          "data": "A. Use <NavHost> tag",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 16,
+          "data": "B. Use <fragment> with app:navGraph",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 63,
+          "questionId": 16,
+          "data": "C. Use <include> tag",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 64,
+          "questionId": 16,
+          "data": "D. Use <navigation> tag",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [62],
+        "answer": ["B. Use <fragment> with app:navGraph"],
+        "explanation": "A NavHostFragment is set up in the layout XML using <fragment> with app:navGraph pointing to the NavGraph resource, e.g., app:navGraph=\"@navigation/nav_graph\"."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "What is the purpose of the app:defaultNavHost attribute?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The app:defaultNavHost=\"true\" attribute ensures the NavHostFragment intercepts system back button presses for proper navigation.",
+      "answerCellList": [
+        {
+          "answerId": 65,
+          "questionId": 17,
+          "data": "A. Defines the default destination",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 66,
+          "questionId": 17,
+          "data": "B. Intercepts system back button",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 67,
+          "questionId": 17,
+          "data": "C. Enables deep linking",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 68,
+          "questionId": 17,
+          "data": "D. Sets transition animations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [66],
+        "answer": ["B. Intercepts system back button"],
+        "explanation": "The app:defaultNavHost=\"true\" attribute ensures the NavHostFragment intercepts system back button presses for proper navigation."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "How do you navigate to a global action in Jetpack Navigation?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Global actions are navigated using navController.navigate(R.id.global_action_id), defined in the NavGraph's root.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 18,
+          "data": "A. navController.navigateGlobal()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 18,
+          "data": "B. navController.navigate(R.id.global_action_id)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 18,
+          "data": "C. navController.globalNavigate()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 18,
+          "data": "D. supportFragmentManager.globalAction()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [70],
+        "answer": ["B. navController.navigate(R.id.global_action_id)"],
+        "explanation": "Global actions are navigated using navController.navigate(R.id.global_action_id), defined in the NavGraph's root."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "What is the purpose of the app:startDestination attribute in a NavGraph?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The app:startDestination attribute specifies the initial destination displayed when the NavGraph is loaded.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 19,
+          "data": "A. Defines the back stack",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 19,
+          "data": "B. Specifies the initial destination",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 19,
+          "data": "C. Enables deep linking",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 19,
+          "data": "D. Sets transition animations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [74],
+        "answer": ["B. Specifies the initial destination"],
+        "explanation": "The app:startDestination attribute specifies the initial destination displayed when the NavGraph is loaded."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "How do you add transition animations to a navigation action?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Transition animations are added in the NavGraph XML using app:enterAnim, app:exitAnim, app:popEnterAnim, and app:popExitAnim attributes.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 20,
+          "data": "A. Use navController.setAnimation()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 20,
+          "data": "B. Use app:enterAnim in NavGraph XML",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 20,
+          "data": "C. Define in AndroidManifest",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 20,
+          "data": "D. Use Safe Args",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [78],
+        "answer": ["B. Use app:enterAnim in NavGraph XML"],
+        "explanation": "Transition animations are added in the NavGraph XML using app:enterAnim, app:exitAnim, app:popEnterAnim, and app:popExitAnim attributes."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "How do you navigate to a nested NavGraph in Jetpack Navigation?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A nested NavGraph is navigated using an action to the nested graph's ID, e.g., navController.navigate(R.id.nested_graph_action).",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 21,
+          "data": "A. navController.navigateToGraph()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 21,
+          "data": "B. navController.navigate(R.id.nested_graph_action)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 21,
+          "data": "C. navController.setGraph()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 21,
+          "data": "D. supportFragmentManager.navigate()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [82],
+        "answer": ["B. navController.navigate(R.id.nested_graph_action)"],
+        "explanation": "A nested NavGraph is navigated using an action to the nested graph's ID, e.g., navController.navigate(R.id.nested_graph_action)."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "What happens if you call popBackStack() with an empty back stack?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Calling popBackStack() with an empty back stack has no effect, and the app remains on the current destination.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 22,
+          "data": "A. App crashes",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 22,
+          "data": "B. No effect",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 22,
+          "data": "C. Navigates to start destination",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 22,
+          "data": "D. Clears NavGraph",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [86],
+        "answer": ["B. No effect"],
+        "explanation": "Calling popBackStack() with an empty back stack has no effect, and the app remains on the current destination."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "How do you dynamically change the NavGraph in a NavController?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The NavGraph is changed dynamically using navController.setGraph(R.id.new_nav_graph), setting a new navigation graph.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 23,
+          "data": "A. navController.navigate(R.id.new_nav_graph)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 23,
+          "data": "B. navController.setGraph(R.id.new_nav_graph)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 91,
+          "questionId": 23,
+          "data": "C. navController.replaceGraph()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 92,
+          "questionId": 23,
+          "data": "D. supportFragmentManager.setGraph()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [90],
+        "answer": ["B. navController.setGraph(R.id.new_nav_graph)"],
+        "explanation": "The NavGraph is changed dynamically using navController.setGraph(R.id.new_nav_graph), setting a new navigation graph."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "What is the purpose of NavOptions in Jetpack Navigation?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "NavOptions allow customization of navigation behavior, such as setting popUpTo, animations, or singleTop behavior.",
+      "answerCellList": [
+        {
+          "answerId": 93,
+          "questionId": 24,
+          "data": "A. Define destinations",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 94,
+          "questionId": 24,
+          "data": "B. Customize navigation behavior",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 95,
+          "questionId": 24,
+          "data": "C. Handle deep links",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 96,
+          "questionId": 24,
+          "data": "D. Manage Fragment lifecycle",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [94],
+        "answer": ["B. Customize navigation behavior"],
+        "explanation": "NavOptions allow customization of navigation behavior, such as setting popUpTo, animations, or singleTop behavior."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "How do you use NavOptions to prevent duplicate destinations?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The singleTop option in NavOptions prevents duplicate destinations, e.g., NavOptions.Builder().setSingleTop(true).build().",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 25,
+          "data": "A. setUnique(true)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 25,
+          "data": "B. setSingleTop(true)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 25,
+          "data": "C. setNoDuplicates()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 25,
+          "data": "D. setPopUpTo()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [98],
+        "answer": ["B. setSingleTop(true)"],
+        "explanation": "The singleTop option in NavOptions prevents duplicate destinations, e.g., NavOptions.Builder().setSingleTop(true).build()."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "How do you obtain the NavController in a Fragment using Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "In a Fragment, the NavController is obtained using findNavController(), e.g., findNavController() from androidx.navigation.fragment.",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 26,
+          "data": "A. getNavController()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 26,
+          "data": "B. findNavController()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 26,
+          "data": "C. requireActivity().navController",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 26,
+          "data": "D. NavController.getInstance()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [102],
+        "answer": ["B. findNavController()"],
+        "explanation": "In a Fragment, the NavController is obtained using findNavController(), e.g., findNavController() from androidx.navigation.fragment."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "What is the purpose of the NavigationUI class in Jetpack Navigation?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "NavigationUI provides helper methods to connect UI components like BottomNavigationView or Toolbar to the NavController.",
+      "answerCellList": [
+        {
+          "answerId": 105,
+          "questionId": 27,
+          "data": "A. Defines NavGraph",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 106,
+          "questionId": 27,
+          "data": "B. Connects UI components to NavController",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 107,
+          "questionId": 27,
+          "data": "C. Manages deep links",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 108,
+          "questionId": 27,
+          "data": "D. Handles Safe Args",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [106],
+        "answer": ["B. Connects UI components to NavController"],
+        "explanation": "NavigationUI provides helper methods to connect UI components like BottomNavigationView or Toolbar to the NavController."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "How do you set up a BottomNavigationView with Jetpack Navigation?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A BottomNavigationView is set up using NavigationUI.setupWithNavController(bottomNavView, navController), linking menu items to destinations.",
+      "answerCellList": [
+        {
+          "answerId": 109,
+          "questionId": 28,
+          "data": "A. bottomNavView.setNavController()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 110,
+          "questionId": 28,
+          "data": "B. NavigationUI.setupWithNavController(bottomNavView, navController)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 111,
+          "questionId": 28,
+          "data": "C. navController.bind(bottomNavView)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 112,
+          "questionId": 28,
+          "data": "D. bottomNavView.navigate()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [110],
+        "answer": ["B. NavigationUI.setupWithNavController(bottomNavView, navController)"],
+        "explanation": "A BottomNavigationView is set up using NavigationUI.setupWithNavController(bottomNavView, navController), linking menu items to destinations."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "What happens if you navigate to a destination not in the current NavGraph?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Navigating to a destination not in the current NavGraph throws an IllegalArgumentException at runtime.",
+      "answerCellList": [
+        {
+          "answerId": 113,
+          "questionId": 29,
+          "data": "A. No effect",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 114,
+          "questionId": 29,
+          "data": "B. IllegalArgumentException",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 115,
+          "questionId": 29,
+          "data": "C. Compilation error",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 116,
+          "questionId": 29,
+          "data": "D. Navigates to start destination",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [114],
+        "answer": ["B. IllegalArgumentException"],
+        "explanation": "Navigating to a destination not in the current NavGraph throws an IllegalArgumentException at runtime."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "How do you handle the Up button in an Activity with Jetpack Navigation?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Up button is handled using NavigationUI.setupActionBarWithNavController(this, navController), which sets up the ActionBar to navigate up.",
+      "answerCellList": [
+        {
+          "answerId": 117,
+          "questionId": 30,
+          "data": "A. navController.navigateUp()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 118,
+          "questionId": 30,
+          "data": "B. NavigationUI.setupActionBarWithNavController(this, navController)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 119,
+          "questionId": 30,
+          "data": "C. setSupportActionBar(navController)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 120,
+          "questionId": 30,
+          "data": "D. navController.setUpButton()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [118],
+        "answer": ["B. NavigationUI.setupActionBarWithNavController(this, navController)"],
+        "explanation": "The Up button is handled using NavigationUI.setupActionBarWithNavController(this, navController), which sets up the ActionBar to navigate up."
+      }
+    }
+  ]
+}

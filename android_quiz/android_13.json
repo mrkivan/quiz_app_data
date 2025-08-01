@@ -1,0 +1,1213 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "Which composable is used to display text in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Text composable is used to display text in Jetpack Compose with customizable styling.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. TextView",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. Text",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. Label",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. BasicText",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. Text"],
+        "explanation": "The Text composable is used to display text in Jetpack Compose with customizable styling."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which component is used to style text in Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "TextStyle defines properties like font size, weight, and color for text in Compose.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. TextDecoration",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. TextStyle",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. AnnotatedString",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. FontFamily",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. TextStyle"],
+        "explanation": "TextStyle defines properties like font size, weight, and color for text in Compose."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "True or False: AnnotatedString supports multiple text styles in a single Text composable.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "AnnotatedString allows applying different styles to parts of text within a single Text composable.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [9],
+        "answer": ["A. True"],
+        "explanation": "AnnotatedString allows applying different styles to parts of text within a single Text composable."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "Which of the following are properties of TextStyle? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "TextStyle includes fontSize, fontWeight, and color, but textOverflow is a Text composable parameter.",
+      "answerCellList": [
+        {
+          "answerId": 11,
+          "questionId": 4,
+          "data": "A. fontSize",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 12,
+          "questionId": 4,
+          "data": "B. fontWeight",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "C. textOverflow",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "D. color",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [11, 12, 14],
+        "answer": ["A. fontSize", "B. fontWeight", "D. color"],
+        "explanation": "TextStyle includes fontSize, fontWeight, and color, but textOverflow is a Text composable parameter."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which composable is used for editable text input in Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "BasicTextField allows users to input and edit text in a Compose UI.",
+      "answerCellList": [
+        {
+          "answerId": 15,
+          "questionId": 5,
+          "data": "A. Text",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 16,
+          "questionId": 5,
+          "data": "B. BasicTextField",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "C. TextField",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "D. EditableText",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [16],
+        "answer": ["B. BasicTextField"],
+        "explanation": "BasicTextField allows users to input and edit text in a Compose UI."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "True or False: TextOverflow.Ellipsis truncates text with three dots.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "TextOverflow.Ellipsis truncates overflowing text and adds '...' to indicate continuation.",
+      "answerCellList": [
+        {
+          "answerId": 19,
+          "questionId": 6,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 20,
+          "questionId": 6,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [19],
+        "answer": ["A. True"],
+        "explanation": "TextOverflow.Ellipsis truncates overflowing text and adds '...' to indicate continuation."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Which property controls text alignment in a Text composable?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "textAlign in TextStyle controls the alignment of text, such as start, center, or end.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 7,
+          "data": "A. textDecoration",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 7,
+          "data": "B. textAlign",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 7,
+          "data": "C. textIndent",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 7,
+          "data": "D. lineHeight",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [22],
+        "answer": ["B. textAlign"],
+        "explanation": "textAlign in TextStyle controls the alignment of text, such as start, center, or end."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "Which of the following can be used to style text in Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "TextStyle, AnnotatedString, and SpanStyle style text, but Modifier is for layout properties.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 8,
+          "data": "A. TextStyle",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 8,
+          "data": "B. AnnotatedString",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 8,
+          "data": "C. Modifier",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 8,
+          "data": "D. SpanStyle",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [25, 26, 28],
+        "answer": ["A. TextStyle", "B. AnnotatedString", "D. SpanStyle"],
+        "explanation": "TextStyle, AnnotatedString, and SpanStyle style text, but Modifier is for layout properties."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "Which property limits the number of lines in a Text composable?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "maxLines limits the number of lines displayed in a Text composable.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 9,
+          "data": "A. lineHeight",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 9,
+          "data": "B. maxLines",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 9,
+          "data": "C. textOverflow",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 9,
+          "data": "D. textAlign",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [30],
+        "answer": ["B. maxLines"],
+        "explanation": "maxLines limits the number of lines displayed in a Text composable."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "True or False: Text composable supports clickable text spans.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Text with AnnotatedString supports clickable spans using clickable annotations.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 10,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 10,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [33],
+        "answer": ["A. True"],
+        "explanation": "Text with AnnotatedString supports clickable spans using clickable annotations."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "Which component is used for styled text with multiple formats?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "AnnotatedString enables multiple text styles and annotations in a single Text composable.",
+      "answerCellList": [
+        {
+          "answerId": 35,
+          "questionId": 11,
+          "data": "A. TextStyle",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 36,
+          "questionId": 11,
+          "data": "B. AnnotatedString",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 37,
+          "questionId": 11,
+          "data": "C. SpanStyle",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 38,
+          "questionId": 11,
+          "data": "D. TextDecoration",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [36],
+        "answer": ["B. AnnotatedString"],
+        "explanation": "AnnotatedString enables multiple text styles and annotations in a single Text composable."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "Which of the following are used for text input in Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "BasicTextField and OutlinedTextField handle text input, but Text and TextStyle are for display and styling.",
+      "answerCellList": [
+        {
+          "answerId": 39,
+          "questionId": 12,
+          "data": "A. BasicTextField",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 40,
+          "questionId": 12,
+          "data": "B. OutlinedTextField",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 41,
+          "questionId": 12,
+          "data": "C. Text",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 42,
+          "questionId": 12,
+          "data": "D. TextStyle",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [39, 40],
+        "answer": ["A. BasicTextField", "B. OutlinedTextField"],
+        "explanation": "BasicTextField and OutlinedTextField handle text input, but Text and TextStyle are for display and styling."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "Which property adds underlines or strikethrough to text?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "textDecoration in TextStyle adds underlines or strikethrough to text.",
+      "answerCellList": [
+        {
+          "answerId": 43,
+          "questionId": 13,
+          "data": "A. textAlign",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 44,
+          "questionId": 13,
+          "data": "B. textDecoration",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 45,
+          "questionId": 13,
+          "data": "C. fontWeight",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 46,
+          "questionId": 13,
+          "data": "D. lineHeight",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [44],
+        "answer": ["B. textDecoration"],
+        "explanation": "textDecoration in TextStyle adds underlines or strikethrough to text."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "True or False: BasicTextField supports custom decorations.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "BasicTextField supports custom decorations via its decorationBox parameter.",
+      "answerCellList": [
+        {
+          "answerId": 47,
+          "questionId": 14,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 48,
+          "questionId": 14,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [47],
+        "answer": ["A. True"],
+        "explanation": "BasicTextField supports custom decorations via its decorationBox parameter."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "Which component provides a Material Design text input field?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "OutlinedTextField provides a Material Design-styled text input field in Compose.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 15,
+          "data": "A. BasicTextField",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 15,
+          "data": "B. OutlinedTextField",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 15,
+          "data": "C. Text",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 15,
+          "data": "D. TextField",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [50],
+        "answer": ["B. OutlinedTextField"],
+        "explanation": "OutlinedTextField provides a Material Design-styled text input field in Compose."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "Which of the following improve text accessibility in Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Content descriptions, sufficient font size, and high contrast improve accessibility, but textDecoration does not.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 16,
+          "data": "A. Content descriptions",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 16,
+          "data": "B. Sufficient font size",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 16,
+          "data": "C. Text decoration",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 16,
+          "data": "D. High contrast colors",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [53, 54, 56],
+        "answer": ["A. Content descriptions", "B. Sufficient font size", "D. High contrast colors"],
+        "explanation": "Content descriptions, sufficient font size, and high contrast improve accessibility, but textDecoration does not."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "Which property controls the spacing between text lines?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "lineHeight in TextStyle controls the spacing between lines of text.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 17,
+          "data": "A. textIndent",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 17,
+          "data": "B. lineHeight",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 17,
+          "data": "C. letterSpacing",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 17,
+          "data": "D. textAlign",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [58],
+        "answer": ["B. lineHeight"],
+        "explanation": "lineHeight in TextStyle controls the spacing between lines of text."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "True or False: Text composable supports custom fonts.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Text supports custom fonts via FontFamily in TextStyle.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 18,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 18,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [61],
+        "answer": ["A. True"],
+        "explanation": "Text supports custom fonts via FontFamily in TextStyle."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "Which property handles text truncation in a Text composable?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "textOverflow controls how text is truncated when it exceeds the available space.",
+      "answerCellList": [
+        {
+          "answerId": 63,
+          "questionId": 19,
+          "data": "A. maxLines",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 64,
+          "questionId": 19,
+          "data": "B. textOverflow",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 65,
+          "questionId": 19,
+          "data": "C. lineHeight",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 66,
+          "questionId": 19,
+          "data": "D. fontSize",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [64],
+        "answer": ["B. textOverflow"],
+        "explanation": "textOverflow controls how text is truncated when it exceeds the available space."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "Which of the following are TextOverflow options in Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Clip and Ellipsis are TextOverflow options, but Fade and Truncate are not supported in Compose.",
+      "answerCellList": [
+        {
+          "answerId": 67,
+          "questionId": 20,
+          "data": "A. Clip",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 68,
+          "questionId": 20,
+          "data": "B. Ellipsis",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 69,
+          "questionId": 20,
+          "data": "C. Fade",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 70,
+          "questionId": 20,
+          "data": "D. Truncate",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [67, 68],
+        "answer": ["A. Clip", "B. Ellipsis"],
+        "explanation": "Clip and Ellipsis are TextOverflow options, but Fade and Truncate are not supported in Compose."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "Which component applies styles to specific parts of an AnnotatedString?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "SpanStyle applies styles to specific ranges of an AnnotatedString.",
+      "answerCellList": [
+        {
+          "answerId": 71,
+          "questionId": 21,
+          "data": "A. TextStyle",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 72,
+          "questionId": 21,
+          "data": "B. SpanStyle",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 73,
+          "questionId": 21,
+          "data": "C. ParagraphStyle",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 74,
+          "questionId": 21,
+          "data": "D. FontFamily",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [72],
+        "answer": ["B. SpanStyle"],
+        "explanation": "SpanStyle applies styles to specific ranges of an AnnotatedString."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "True or False: OutlinedTextField supports placeholder text.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "OutlinedTextField supports placeholder text via its placeholder parameter.",
+      "answerCellList": [
+        {
+          "answerId": 75,
+          "questionId": 22,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 76,
+          "questionId": 22,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [75],
+        "answer": ["A. True"],
+        "explanation": "OutlinedTextField supports placeholder text via its placeholder parameter."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "Which property controls the spacing between characters in text?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "letterSpacing in TextStyle controls the spacing between characters in text.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 23,
+          "data": "A. lineHeight",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 23,
+          "data": "B. letterSpacing",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 23,
+          "data": "C. textIndent",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 23,
+          "data": "D. fontSize",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [78],
+        "answer": ["B. letterSpacing"],
+        "explanation": "letterSpacing in TextStyle controls the spacing between characters in text."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "Which of the following are best practices for text accessibility in Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Semantic properties, scalable fonts, and clear labels enhance accessibility, but small font sizes do not.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 24,
+          "data": "A. Use semantic properties",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 24,
+          "data": "B. Use scalable fonts",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 24,
+          "data": "C. Use small font sizes",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 24,
+          "data": "D. Provide clear labels",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [81, 82, 84],
+        "answer": ["A. Use semantic properties", "B. Use scalable fonts", "D. Provide clear labels"],
+        "explanation": "Semantic properties, scalable fonts, and clear labels enhance accessibility, but small font sizes do not."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "Which property indents the first line of a paragraph in a Text composable?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "textIndent in ParagraphStyle indents the first line of a paragraph in a Text composable.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 25,
+          "data": "A. lineHeight",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 25,
+          "data": "B. textIndent",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 25,
+          "data": "C. letterSpacing",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 25,
+          "data": "D. textAlign",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [86],
+        "answer": ["B. textIndent"],
+        "explanation": "textIndent in ParagraphStyle indents the first line of a paragraph in a Text composable."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "True or False: Text composable supports text selection.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Text composable supports text selection when used with selection-enabled parameters.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 26,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 26,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [89],
+        "answer": ["A. True"],
+        "explanation": "Text composable supports text selection when used with selection-enabled parameters."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "Which component provides a custom font family for text?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "FontFamily specifies a custom font family for text in TextStyle.",
+      "answerCellList": [
+        {
+          "answerId": 91,
+          "questionId": 27,
+          "data": "A. TextStyle",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 92,
+          "questionId": 27,
+          "data": "B. FontFamily",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 93,
+          "questionId": 27,
+          "data": "C. SpanStyle",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 94,
+          "questionId": 27,
+          "data": "D. ParagraphStyle",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [92],
+        "answer": ["B. FontFamily"],
+        "explanation": "FontFamily specifies a custom font family for text in TextStyle."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "Which of the following are properties of AnnotatedString? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "AnnotatedString supports SpanStyle, ParagraphStyle, and annotations, but fontSize is part of TextStyle.",
+      "answerCellList": [
+        {
+          "answerId": 95,
+          "questionId": 28,
+          "data": "A. SpanStyle",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 96,
+          "questionId": 28,
+          "data": "B. ParagraphStyle",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 97,
+          "questionId": 28,
+          "data": "C. fontSize",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 98,
+          "questionId": 28,
+          "data": "D. Annotations",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [95, 96, 98],
+        "answer": ["A. SpanStyle", "B. ParagraphStyle", "D. Annotations"],
+        "explanation": "AnnotatedString supports SpanStyle, ParagraphStyle, and annotations, but fontSize is part of TextStyle."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "Which modifier makes text clickable in a Text composable?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The clickable modifier makes a Text composable interactive for click events.",
+      "answerCellList": [
+        {
+          "answerId": 99,
+          "questionId": 29,
+          "data": "A. onClick",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 100,
+          "questionId": 29,
+          "data": "B. clickable",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 101,
+          "questionId": 29,
+          "data": "C. tapGesture",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 102,
+          "questionId": 29,
+          "data": "D. interactionSource",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [100],
+        "answer": ["B. clickable"],
+        "explanation": "The clickable modifier makes a Text composable interactive for click events."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "True or False: BasicTextField supports keyboard options for input types.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "BasicTextField supports keyboard options to configure input types like text, number, or email.",
+      "answerCellList": [
+        {
+          "answerId": 103,
+          "questionId": 30,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 104,
+          "questionId": 30,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [103],
+        "answer": ["A. True"],
+        "explanation": "BasicTextField supports keyboard options to configure input types like text, number, or email."
+      }
+    }
+  ]
+}

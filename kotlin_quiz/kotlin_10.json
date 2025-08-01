@@ -1,0 +1,1325 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is a lambda expression in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A lambda expression is an anonymous function defined using curly braces, e.g., { x, y -> x + y }, used for concise function literals.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. A named function",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. An anonymous function",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. A class declaration",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. A variable type",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. An anonymous function"],
+        "explanation": "A lambda expression is an anonymous function defined using curly braces, e.g., { x, y -> x + y }, used for concise function literals."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "How do you define a lambda expression in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A lambda is defined using curly braces with parameters, an arrow, and body, e.g., { x, y -> x + y }.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. lambda(x, y) { x + y }",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. { x, y -> x + y }",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. fun(x, y) = x + y",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. (x, y) => x + y",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. { x, y -> x + y }"],
+        "explanation": "A lambda is defined using curly braces with parameters, an arrow, and body, e.g., { x, y -> x + y }."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "What is a higher-order function in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A higher-order function either takes a function as a parameter or returns a function, enabling functional programming patterns.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. A function that returns a class",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. A function that takes or returns a function",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 11,
+          "questionId": 3,
+          "data": "C. A function with multiple parameters",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 12,
+          "questionId": 3,
+          "data": "D. A recursive function",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [10],
+        "answer": ["B. A function that takes or returns a function"],
+        "explanation": "A higher-order function either takes a function as a parameter or returns a function, enabling functional programming patterns."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "Which keyword is used to pass a lambda as the last parameter in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "When a lambda is the last parameter, it can be passed outside parentheses, e.g., list.forEach { println(it) }.",
+      "answerCellList": [
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "A. lambda",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "B. None, it's a syntax feature",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 15,
+          "questionId": 4,
+          "data": "C. fun",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 16,
+          "questionId": 4,
+          "data": "D. block",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [14],
+        "answer": ["B. None, it's a syntax feature"],
+        "explanation": "When a lambda is the last parameter, it can be passed outside parentheses, e.g., list.forEach { println(it) }."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "What does the 'it' keyword represent in a Kotlin lambda?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'it' keyword is an implicit name for a single parameter in a lambda, e.g., { it * 2 } for a single input.",
+      "answerCellList": [
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "A. The return value",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "B. The single parameter",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 19,
+          "questionId": 5,
+          "data": "C. The function name",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 20,
+          "questionId": 5,
+          "data": "D. The loop counter",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [18],
+        "answer": ["B. The single parameter"],
+        "explanation": "The 'it' keyword is an implicit name for a single parameter in a lambda, e.g., { it * 2 } for a single input."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "How do you define a higher-order function that takes a lambda in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A higher-order function is defined with a function type parameter, e.g., fun operate(x: Int, op: (Int) -> Int): Int.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 6,
+          "data": "A. fun operate(x: Int, op: Lambda): Int",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 6,
+          "data": "B. fun operate(x: Int, op: (Int) -> Int): Int",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 6,
+          "data": "C. fun operate(x: Int, op: Function): Int",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 6,
+          "data": "D. fun operate(x: Int, op: {Int -> Int}): Int",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [22],
+        "answer": ["B. fun operate(x: Int, op: (Int) -> Int): Int"],
+        "explanation": "A higher-order function is defined with a function type parameter, e.g., fun operate(x: Int, op: (Int) -> Int): Int."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "What is the return value of a lambda expression in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The return value of a lambda is the value of its last expression, implicitly returned.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 7,
+          "data": "A. Always void",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 7,
+          "data": "B. The last expression's value",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 7,
+          "data": "C. The first expression's value",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 7,
+          "data": "D. Requires explicit return",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [26],
+        "answer": ["B. The last expression's value"],
+        "explanation": "The return value of a lambda is the value of its last expression, implicitly returned."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "Which standard library function applies a lambda to each element of a collection?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The forEach() function applies a lambda to each element of a collection, e.g., list.forEach { println(it) }.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 8,
+          "data": "A. map()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 8,
+          "data": "B. forEach()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 8,
+          "data": "C. filter()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 8,
+          "data": "D. reduce()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [30],
+        "answer": ["B. forEach()"],
+        "explanation": "The forEach() function applies a lambda to each element of a collection, e.g., list.forEach { println(it) }."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "What does the map() function do when used with a lambda in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The map() function transforms each element of a collection using a lambda and returns a new collection.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 9,
+          "data": "A. Filters elements",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 9,
+          "data": "B. Transforms elements",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 35,
+          "questionId": 9,
+          "data": "C. Sorts elements",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 36,
+          "questionId": 9,
+          "data": "D. Removes duplicates",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [34],
+        "answer": ["B. Transforms elements"],
+        "explanation": "The map() function transforms each element of a collection using a lambda and returns a new collection."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "What does the filter() function do when used with a lambda in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The filter() function returns a new collection containing only elements that satisfy a lambda predicate.",
+      "answerCellList": [
+        {
+          "answerId": 37,
+          "questionId": 10,
+          "data": "A. Transforms elements",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 38,
+          "questionId": 10,
+          "data": "B. Selects elements matching a predicate",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 39,
+          "questionId": 10,
+          "data": "C. Sorts elements",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 40,
+          "questionId": 10,
+          "data": "D. Combines elements",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [38],
+        "answer": ["B. Selects elements matching a predicate"],
+        "explanation": "The filter() function returns a new collection containing only elements that satisfy a lambda predicate."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "How do you pass a named function as a lambda to a higher-order function?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A named function is passed using the :: operator, e.g., list.map(::double).",
+      "answerCellList": [
+        {
+          "answerId": 41,
+          "questionId": 11,
+          "data": "A. list.map(double())",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 42,
+          "questionId": 11,
+          "data": "B. list.map(::double)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 43,
+          "questionId": 11,
+          "data": "C. list.map(&double)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 44,
+          "questionId": 11,
+          "data": "D. list.map(*double)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [42],
+        "answer": ["B. list.map(::double)"],
+        "explanation": "A named function is passed using the :: operator, e.g., list.map(::double)."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "What is the purpose of the 'let' function in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The let function executes a lambda on a non-null object and returns the lambda's result, useful for scoping and null safety.",
+      "answerCellList": [
+        {
+          "answerId": 45,
+          "questionId": 12,
+          "data": "A. Executes a lambda on a collection",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 46,
+          "questionId": 12,
+          "data": "B. Executes a lambda on a non-null object",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 47,
+          "questionId": 12,
+          "data": "C. Creates a new collection",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 48,
+          "questionId": 12,
+          "data": "D. Filters a collection",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [46],
+        "answer": ["B. Executes a lambda on a non-null object"],
+        "explanation": "The let function executes a lambda on a non-null object and returns the lambda's result, useful for scoping and null safety."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "What does the 'run' function do in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The run function executes a lambda on an object with 'this' as the receiver and returns the lambda's result.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 13,
+          "data": "A. Filters a collection",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 13,
+          "data": "B. Executes a lambda with receiver",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 13,
+          "data": "C. Creates a new object",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 13,
+          "data": "D. Maps a collection",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [50],
+        "answer": ["B. Executes a lambda with receiver"],
+        "explanation": "The run function executes a lambda on an object with 'this' as the receiver and returns the lambda's result."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "What is the difference between 'let' and 'run' in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "let uses 'it' to refer to the object, while run uses 'this' as the receiver, affecting how the object is accessed in the lambda.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 14,
+          "data": "A. let returns Unit, run returns the object",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 14,
+          "data": "B. let uses 'it', run uses 'this'",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 14,
+          "data": "C. let is for collections, run is for objects",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 14,
+          "data": "D. let is inline, run is not",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [54],
+        "answer": ["B. let uses 'it', run uses 'this'"],
+        "explanation": "let uses 'it' to refer to the object, while run uses 'this' as the receiver, affecting how the object is accessed in the lambda."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "What does the 'apply' function do in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The apply function executes a lambda with the object as the receiver and returns the object itself, useful for configuration.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 15,
+          "data": "A. Returns the lambda's result",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 15,
+          "data": "B. Returns the object itself",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 15,
+          "data": "C. Filters the object",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 15,
+          "data": "D. Maps the object",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [58],
+        "answer": ["B. Returns the object itself"],
+        "explanation": "The apply function executes a lambda with the object as the receiver and returns the object itself, useful for configuration."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "What does the 'also' function do in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The also function executes a lambda with the object as 'it' and returns the object itself, useful for side effects.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 16,
+          "data": "A. Returns the lambda's result",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 16,
+          "data": "B. Returns the object itself",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 63,
+          "questionId": 16,
+          "data": "C. Filters the object",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 64,
+          "questionId": 16,
+          "data": "D. Maps the object",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [62],
+        "answer": ["B. Returns the object itself"],
+        "explanation": "The also function executes a lambda with the object as 'it' and returns the object itself, useful for side effects."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "What is the purpose of the 'with' function in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The with function executes a lambda with an object as the receiver and returns the lambda's result, useful for scoping.",
+      "answerCellList": [
+        {
+          "answerId": 65,
+          "questionId": 17,
+          "data": "A. Returns the object itself",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 66,
+          "questionId": 17,
+          "data": "B. Returns the lambda's result",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 67,
+          "questionId": 17,
+          "data": "C. Filters the object",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 68,
+          "questionId": 17,
+          "data": "D. Maps the object",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [66],
+        "answer": ["B. Returns the lambda's result"],
+        "explanation": "The with function executes a lambda with an object as the receiver and returns the lambda's result, useful for scoping."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "What does the 'reduce' function do when used with a lambda in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The reduce function applies a lambda to combine collection elements into a single value, e.g., list.reduce { acc, x -> acc + x }.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 18,
+          "data": "A. Filters elements",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 18,
+          "data": "B. Combines elements into a single value",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 18,
+          "data": "C. Transforms elements",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 18,
+          "data": "D. Sorts elements",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [70],
+        "answer": ["B. Combines elements into a single value"],
+        "explanation": "The reduce function applies a lambda to combine collection elements into a single value, e.g., list.reduce { acc, x -> acc + x }."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "What does the 'fold' function do differently from 'reduce' in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The fold function takes an initial value, while reduce uses the first element as the initial accumulator.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 19,
+          "data": "A. fold sorts the collection",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 19,
+          "data": "B. fold takes an initial value",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 19,
+          "data": "C. fold filters elements",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 19,
+          "data": "D. fold transforms elements",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [74],
+        "answer": ["B. fold takes an initial value"],
+        "explanation": "The fold function takes an initial value, while reduce uses the first element as the initial accumulator."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "What is the purpose of the 'inline' modifier for higher-order functions?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The inline modifier reduces runtime overhead by inlining the lambda's code at the call site, improving performance.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 20,
+          "data": "A. Makes the function recursive",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 20,
+          "data": "B. Reduces runtime overhead",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 20,
+          "data": "C. Allows multiple returns",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 20,
+          "data": "D. Restricts function scope",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [78],
+        "answer": ["B. Reduces runtime overhead"],
+        "explanation": "The inline modifier reduces runtime overhead by inlining the lambda's code at the call site, improving performance."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "What does the 'noinline' modifier do in a higher-order function?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The noinline modifier prevents a lambda parameter from being inlined, useful for preserving function objects.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 21,
+          "data": "A. Forces lambda inlining",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 21,
+          "data": "B. Prevents lambda inlining",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 21,
+          "data": "C. Makes lambda recursive",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 21,
+          "data": "D. Restricts lambda scope",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [82],
+        "answer": ["B. Prevents lambda inlining"],
+        "explanation": "The noinline modifier prevents a lambda parameter from being inlined, useful for preserving function objects."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "What does the 'crossinline' modifier do in a higher-order function?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The crossinline modifier prevents non-local returns in an inlined lambda, ensuring control flow stays within the lambda.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 22,
+          "data": "A. Allows non-local returns",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 22,
+          "data": "B. Prevents non-local returns",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 22,
+          "data": "C. Forces lambda inlining",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 22,
+          "data": "D. Restricts lambda parameters",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [86],
+        "answer": ["B. Prevents non-local returns"],
+        "explanation": "The crossinline modifier prevents non-local returns in an inlined lambda, ensuring control flow stays within the lambda."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "What does the 'takeIf' function do in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The takeIf function returns the object if it satisfies a lambda predicate, otherwise returns null.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 23,
+          "data": "A. Returns the lambda's result",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 23,
+          "data": "B. Returns the object or null",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 91,
+          "questionId": 23,
+          "data": "C. Filters a collection",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 92,
+          "questionId": 23,
+          "data": "D. Transforms the object",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [90],
+        "answer": ["B. Returns the object or null"],
+        "explanation": "The takeIf function returns the object if it satisfies a lambda predicate, otherwise returns null."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "What does the 'takeUnless' function do in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The takeUnless function returns the object if it does not satisfy a lambda predicate, otherwise returns null.",
+      "answerCellList": [
+        {
+          "answerId": 93,
+          "questionId": 24,
+          "data": "A. Returns the lambda's result",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 94,
+          "questionId": 24,
+          "data": "B. Returns the object or null",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 95,
+          "questionId": 24,
+          "data": "C. Filters a collection",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 96,
+          "questionId": 24,
+          "data": "D. Transforms the object",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [94],
+        "answer": ["B. Returns the object or null"],
+        "explanation": "The takeUnless function returns the object if it does not satisfy a lambda predicate, otherwise returns null."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "How do you capture variables in a lambda in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Lambdas capture outer variables by reference, allowing access to variables from the surrounding scope.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 25,
+          "data": "A. By explicitly declaring them",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 25,
+          "data": "B. By reference",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 25,
+          "data": "C. By value",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 25,
+          "data": "D. By using a keyword",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [98],
+        "answer": ["B. By reference"],
+        "explanation": "Lambdas capture outer variables by reference, allowing access to variables from the surrounding scope."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "What does the 'sortedBy' function do in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The sortedBy function sorts a collection based on a key provided by a lambda, e.g., list.sortedBy { it.length }.",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 26,
+          "data": "A. Filters elements",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 26,
+          "data": "B. Sorts based on a key",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 26,
+          "data": "C. Transforms elements",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 26,
+          "data": "D. Combines elements",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [102],
+        "answer": ["B. Sorts based on a key"],
+        "explanation": "The sortedBy function sorts a collection based on a key provided by a lambda, e.g., list.sortedBy { it.length }."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "What is the purpose of the 'groupBy' function in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The groupBy function groups collection elements by a key provided by a lambda, returning a Map.",
+      "answerCellList": [
+        {
+          "answerId": 105,
+          "questionId": 27,
+          "data": "A. Filters elements",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 106,
+          "questionId": 27,
+          "data": "B. Groups elements by a key",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 107,
+          "questionId": 27,
+          "data": "C. Sorts elements",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 108,
+          "questionId": 27,
+          "data": "D. Transforms elements",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [106],
+        "answer": ["B. Groups elements by a key"],
+        "explanation": "The groupBy function groups collection elements by a key provided by a lambda, returning a Map."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "What does the 'associateBy' function do in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The associateBy function creates a Map using a lambda to determine the key for each element.",
+      "answerCellList": [
+        {
+          "answerId": 109,
+          "questionId": 28,
+          "data": "A. Filters elements",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 110,
+          "questionId": 28,
+          "data": "B. Creates a Map with keys from a lambda",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 111,
+          "questionId": 28,
+          "data": "C. Sorts elements",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 112,
+          "questionId": 28,
+          "data": "D. Combines elements",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [110],
+        "answer": ["B. Creates a Map with keys from a lambda"],
+        "explanation": "The associateBy function creates a Map using a lambda to determine the key for each element."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "What happens if a lambda contains a non-local return in a non-inline function?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A non-local return in a non-inline function causes a compilation error, as non-local returns are only allowed in inline functions.",
+      "answerCellList": [
+        {
+          "answerId": 113,
+          "questionId": 29,
+          "data": "A. It works fine",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 114,
+          "questionId": 29,
+          "data": "B. Compilation error",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 115,
+          "questionId": 29,
+          "data": "C. Runtime exception",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 116,
+          "questionId": 29,
+          "data": "D. Returns null",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [114],
+        "answer": ["B. Compilation error"],
+        "explanation": "A non-local return in a non-inline function causes a compilation error, as non-local returns are only allowed in inline functions."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "What does the 'any' function do when used with a lambda in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The any function checks if at least one element in a collection satisfies a lambda predicate, returning a Boolean.",
+      "answerCellList": [
+        {
+          "answerId": 117,
+          "questionId": 30,
+          "data": "A. Checks if all elements match",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 118,
+          "questionId": 30,
+          "data": "B. Checks if at least one element matches",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 119,
+          "questionId": 30,
+          "data": "C. Transforms elements",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 120,
+          "questionId": 30,
+          "data": "D. Combines elements",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [118],
+        "answer": ["B. Checks if at least one element matches"],
+        "explanation": "The any function checks if at least one element in a collection satisfies a lambda predicate, returning a Boolean."
+      }
+    }
+  ]
+}

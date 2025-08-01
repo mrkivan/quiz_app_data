@@ -1,0 +1,1323 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is the keyword used to declare a function in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "In Kotlin, the 'fun' keyword is used to declare a function.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. function",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. fun",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. def",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. proc",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. fun"],
+        "explanation": "In Kotlin, the 'fun' keyword is used to declare a function."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "What is the correct syntax for a function with no return type in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A function with no return type in Kotlin uses 'Unit' implicitly or explicitly, e.g., 'fun myFunction(): Unit'.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. fun myFunction(): Void",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. fun myFunction(): Unit",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. fun myFunction(): None",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. fun myFunction()",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6, 8],
+        "answer": ["B. fun myFunction(): Unit", "D. fun myFunction()"],
+        "explanation": "A function with no return type in Kotlin uses 'Unit' implicitly or explicitly, e.g., 'fun myFunction(): Unit' or 'fun myFunction()'."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "How do you define a function with a return type of Int in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "To define a function with a return type of Int, specify ': Int' after the parameter list, e.g., 'fun add(a: Int, b: Int): Int'.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. fun add(a: Int, b: Int) Int",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. fun add(a: Int, b: Int): Int",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 11,
+          "questionId": 3,
+          "data": "C. Int fun add(a: Int, b: Int)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 12,
+          "questionId": 3,
+          "data": "D. fun Int add(a: Int, b: Int)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [10],
+        "answer": ["B. fun add(a: Int, b: Int): Int"],
+        "explanation": "To define a function with a return type of Int, specify ': Int' after the parameter list, e.g., 'fun add(a: Int, b: Int): Int'."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "What is the purpose of default parameters in Kotlin functions?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Default parameters allow a function to be called without specifying all arguments, using predefined default values.",
+      "answerCellList": [
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "A. To make parameters optional",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "B. To enforce type safety",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 15,
+          "questionId": 4,
+          "data": "C. To make functions private",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 16,
+          "questionId": 4,
+          "data": "D. To define return types",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [13],
+        "answer": ["A. To make parameters optional"],
+        "explanation": "Default parameters allow a function to be called without specifying all arguments, using predefined default values."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "How do you call a function with a named parameter in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Named parameters allow specifying arguments by name, e.g., 'greet(name = \"Alice\")'.",
+      "answerCellList": [
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "A. greet(\"Alice\")",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "B. greet(name = \"Alice\")",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 19,
+          "questionId": 5,
+          "data": "C. greet(name: \"Alice\")",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 20,
+          "questionId": 5,
+          "data": "D. greet[Alice]",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [18],
+        "answer": ["B. greet(name = \"Alice\")"],
+        "explanation": "Named parameters allow specifying arguments by name, e.g., 'greet(name = \"Alice\")'."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "What is a single-expression function in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A single-expression function uses a single expression with '=', omitting curly braces and 'return'.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 6,
+          "data": "A. A function with no parameters",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 6,
+          "data": "B. A function with a single expression",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 6,
+          "data": "C. A function with no return type",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 6,
+          "data": "D. A function with multiple returns",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [22],
+        "answer": ["B. A function with a single expression"],
+        "explanation": "A single-expression function uses a single expression with '=', omitting curly braces and 'return'."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "How do you define a function with a default parameter in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Default parameters are defined by assigning a value in the parameter list, e.g., 'fun greet(name: String = \"Guest\")'.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 7,
+          "data": "A. fun greet(name: String = \"Guest\")",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 7,
+          "data": "B. fun greet(name: String) = \"Guest\"",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 7,
+          "data": "C. fun greet(name: String, default: \"Guest\")",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 7,
+          "data": "D. fun greet(name = \"Guest\")",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [25],
+        "answer": ["A. fun greet(name: String = \"Guest\")"],
+        "explanation": "Default parameters are defined by assigning a value in the parameter list, e.g., 'fun greet(name: String = \"Guest\")'."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "What is the purpose of the 'return' keyword in a Kotlin function?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'return' keyword is used to exit a function and optionally return a value.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 8,
+          "data": "A. Declares a function",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 8,
+          "data": "B. Exits the function",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 8,
+          "data": "C. Defines a parameter",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 8,
+          "data": "D. Calls another function",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [30],
+        "answer": ["B. Exits the function"],
+        "explanation": "The 'return' keyword is used to exit a function and optionally return a value."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "Which of the following is a valid single-expression function in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A single-expression function uses '=', e.g., 'fun square(x: Int) = x * x'.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 9,
+          "data": "A. fun square(x: Int) { return x * x }",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 9,
+          "data": "B. fun square(x: Int) = x * x",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 35,
+          "questionId": 9,
+          "data": "C. fun square(x: Int): Int { x * x }",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 36,
+          "questionId": 9,
+          "data": "D. fun square(x: Int) -> x * x",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [34],
+        "answer": ["B. fun square(x: Int) = x * x"],
+        "explanation": "A single-expression function uses '=', e.g., 'fun square(x: Int) = x * x'."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "How do you declare a function with variable arguments in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Variable arguments are declared using the 'vararg' keyword, e.g., 'fun sum(vararg numbers: Int)'.",
+      "answerCellList": [
+        {
+          "answerId": 37,
+          "questionId": 10,
+          "data": "A. fun sum(numbers: Int...)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 38,
+          "questionId": 10,
+          "data": "B. fun sum(vararg numbers: Int)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 39,
+          "questionId": 10,
+          "data": "C. fun sum(numbers: Array<Int>)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 40,
+          "questionId": 10,
+          "data": "D. fun sum(*numbers: Int)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [38],
+        "answer": ["B. fun sum(vararg numbers: Int)"],
+        "explanation": "Variable arguments are declared using the 'vararg' keyword, e.g., 'fun sum(vararg numbers: Int)'."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "What is the purpose of the 'inline' keyword in Kotlin functions?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'inline' keyword inlines the function's code at the call site, reducing overhead for higher-order functions.",
+      "answerCellList": [
+        {
+          "answerId": 41,
+          "questionId": 11,
+          "data": "A. Makes the function private",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 42,
+          "questionId": 11,
+          "data": "B. Inlines the function code at call site",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 43,
+          "questionId": 11,
+          "data": "C. Allows multiple return types",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 44,
+          "questionId": 11,
+          "data": "D. Defines a recursive function",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [42],
+        "answer": ["B. Inlines the function code at call site"],
+        "explanation": "The 'inline' keyword inlines the function's code at the call site, reducing overhead for higher-order functions."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "How do you define a function with a nullable return type in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A nullable return type is defined by appending '?' to the type, e.g., 'fun getName(): String?'.",
+      "answerCellList": [
+        {
+          "answerId": 45,
+          "questionId": 12,
+          "data": "A. fun getName(): String",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 46,
+          "questionId": 12,
+          "data": "B. fun getName(): String?",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 47,
+          "questionId": 12,
+          "data": "C. fun getName(): Nullable<String>",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 48,
+          "questionId": 12,
+          "data": "D. fun getName() = null",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [46],
+        "answer": ["B. fun getName(): String?"],
+        "explanation": "A nullable return type is defined by appending '?' to the type, e.g., 'fun getName(): String?'."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "What is the correct syntax for a function with no parameters in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A function with no parameters uses empty parentheses, e.g., 'fun greet()'.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 13,
+          "data": "A. fun greet[]",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 13,
+          "data": "B. fun greet()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 13,
+          "data": "C. fun greet{}",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 13,
+          "data": "D. fun greet: Unit",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [50],
+        "answer": ["B. fun greet()"],
+        "explanation": "A function with no parameters uses empty parentheses, e.g., 'fun greet()'."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "What happens if a function does not specify a return type in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "If no return type is specified, the function implicitly returns 'Unit'.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 14,
+          "data": "A. Returns null",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 14,
+          "data": "B. Returns Unit",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 14,
+          "data": "C. Compilation error",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 14,
+          "data": "D. Returns Any",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [54],
+        "answer": ["B. Returns Unit"],
+        "ex
+
+System: {
+        "questionId": 14,
+        "answerId": [54],
+        "answer": ["B. Returns Unit"],
+        "explanation": "If no return type is specified, the function implicitly returns 'Unit'."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "How do you pass an array to a vararg parameter in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "To pass an array to a vararg parameter, use the spread operator '*', e.g., 'fun(args = *array)'.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 15,
+          "data": "A. fun(args = array)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 15,
+          "data": "B. fun(args = *array)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 15,
+          "data": "C. fun(args = array[])",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 15,
+          "data": "D. fun(args = array..)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [58],
+        "answer": ["B. fun(args = *array)"],
+        "explanation": "To pass an array to a vararg parameter, use the spread operator '*', e.g., 'fun(args = *array)'."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "What is the purpose of the 'tailrec' keyword in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'tailrec' keyword optimizes recursive functions by using tail recursion to prevent stack overflow.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 16,
+          "data": "A. Defines a private function",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 16,
+          "data": "B. Optimizes recursive functions",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 63,
+          "questionId": 16,
+          "data": "C. Declares a function with no return",
+          "isItAnswer": false,
+          "positionեղ
+
+System: {
+        "questionId": 16,
+        "answerId": [62],
+        "answer": ["B. Optimizes recursive functions"],
+        "explanation": "The 'tailrec' keyword optimizes recursive functions by using tail recursion to prevent stack overflow."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "What is a lambda expression in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A lambda expression is an anonymous function defined using curly braces, e.g., '{ x -> x * x }'.",
+      "answerCellList": [
+        {
+          "answerId": 65,
+          "questionId": 17,
+          "data": "A. A named function",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 66,
+          "questionId": 17,
+          "data": "B. An anonymous function",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 67,
+          "questionId": 17,
+          "data": "C. A function with multiple returns",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 68,
+          "questionId": 17,
+          "data": "D. A recursive function",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [66],
+        "answer": ["B. An anonymous function"],
+        "explanation": "A lambda expression is an anonymous function defined using curly braces, e.g., '{ x -> x * x }'."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "How do you define a function with a lambda parameter in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A lambda parameter is defined using a function type, e.g., '(Int) -> Int'.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 18,
+          "data": "A. fun process(lambda: (Int) -> Int)",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 18,
+          "data": "B. fun process(lambda: {Int -> Int})",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 18,
+          "data": "C. fun process(lambda: Lambda<Int>)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 18,
+          "data": "D. fun process(lambda: Function)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [69],
+        "answer": ["A. fun process(lambda: (Int) -> Int)"],
+        "explanation": "A lambda parameter is defined using a function type, e.g., '(Int) -> Int'."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "What is the purpose of the 'Unit' return type in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "'Unit' indicates that a function does not return a meaningful value, similar to 'void' in other languages.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 19,
+          "data": "A. Returns a string",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 19,
+          "data": "B. Indicates no return value",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 19,
+          "data": "C. Returns an integer",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 19,
+          "data": "D. Indicates a nullable return",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [74],
+        "answer": ["B. Indicates no return value"],
+        "explanation": "'Unit' indicates that a function does not return a meaningful value, similar to 'void' in other languages."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "How do you call a function with default parameters in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "You can omit parameters with default values or use named parameters, e.g., 'greet(name = \"Alice\")'.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 20,
+          "data": "A. greet(name = \"Alice\")",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 20,
+          "data": "B. greet(\"Alice\", default)",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 20,
+          "data": "C. greet(default = \"Alice\")",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 20,
+          "data": "D. greet[Alice]",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [77],
+        "answer": ["A. greet(name = \"Alice\")"],
+        "explanation": "You can omit parameters with default values or use named parameters, e.g., 'greet(name = \"Alice\")'."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "What is the purpose of the 'suspend' keyword in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'suspend' keyword indicates that a function can be paused and resumed, used in coroutines.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 21,
+          "data": "A. Makes a function private",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 21,
+          "data": "B. Allows pausing and resuming",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 21,
+          "data": "C. Defines a recursive function",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 21,
+          "data": "D. Specifies a return type",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [82],
+        "answer": ["B. Allows pausing and resuming"],
+        "explanation": "The 'suspend' keyword indicates that a function can be paused and resumed, used in coroutines."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "Which of the following is a valid function declaration in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A valid function declaration includes 'fun', a name, parameters, and an optional return type, e.g., 'fun multiply(a: Int, b: Int): Int'.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 22,
+          "data": "A. fun multiply(a: Int, b: Int): Int",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 22,
+          "data": "B. multiply(a: Int, b: Int): Int",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 22,
+          "data": "C. fun multiply(a, b): Int",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 22,
+          "data": "D. function multiply(a: Int, b: Int)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [85],
+        "answer": ["A. fun multiply(a: Int, b: Int): Int"],
+        "explanation": "A valid function declaration includes 'fun', a name, parameters, and an optional return type, e.g., 'fun multiply(a: Int, b: Int): Int'."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "What is the result of calling a function without a return statement in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "If a function does not have a return statement, it implicitly returns 'Unit'.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 23,
+          "data": "A. null",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 23,
+          "data": "B. Unit",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 91,
+          "questionId": 23,
+          "data": "C. Nothing",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 92,
+          "questionId": 23,
+          "data": "D. Compilation error",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [90],
+        "answer": ["B. Unit"],
+        "explanation": "If a function does not have a return statement, it implicitly returns 'Unit'."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "How do you define a local function in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A local function is defined inside another function using the 'fun' keyword.",
+      "answerCellList": [
+        {
+          "answerId": 93,
+          "questionId": 24,
+          "data": "A. Inside another function",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 94,
+          "questionId": 24,
+          "data": "B. With the local keyword",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 95,
+          "questionId": 24,
+          "data": "C. Outside a class",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 96,
+          "questionId": 24,
+          "data": "D. With the inline keyword",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [93],
+        "answer": ["A. Inside another function"],
+        "explanation": "A local function is defined inside another function using the 'fun' keyword."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "What is the purpose of the 'Nothing' return type in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "'Nothing' indicates that a function never returns, typically used for functions that always throw an exception.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 25,
+          "data": "A. Returns a null value",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 25,
+          "data": "B. Never returns",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 25,
+          "data": "C. Returns Unit",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 25,
+          "data": "D. Returns Any",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [98],
+        "answer": ["B. Never returns"],
+        "explanation": "'Nothing' indicates that a function never returns, typically used for functions that always throw an exception."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "Which of the following is true about named arguments in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Named arguments allow specifying parameter names when calling a function, improving readability.",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 26,
+          "data": "A. They are mandatory",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 26,
+          "data": "B. They improve readability",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 26,
+          "data": "C. They are used for return types",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 26,
+          "data": "D. They define default values",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [102],
+        "answer": ["B. They improve readability"],
+        "explanation": "Named arguments allow specifying parameter names when calling a function, improving readability."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "What is the correct syntax for a function with a generic type in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A generic function uses angle brackets for the type parameter, e.g., 'fun <T> printItem(item: T)'.",
+      "answerCellList": [
+        {
+          "answerId": 105,
+          "questionId": 27,
+          "data": "A. fun printItem<T>(item: T)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 106,
+          "questionId": 27,
+          "data": "B. fun <T> printItem(item: T)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 107,
+          "questionId": 27,
+          "data": "C. fun printItem(item: Generic<T>)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 108,
+          "questionId": 27,
+          "data": "D. fun [T] printItem(item: T)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [106],
+        "answer": ["B. fun <T> printItem(item: T)"],
+        "explanation": "A generic function uses angle brackets for the type parameter, e.g., 'fun <T> printItem(item: T)'."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "What happens if a function with a return type lacks a return statement?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "If a function with a specified return type lacks a return statement, it causes a compilation error.",
+      "answerCellList": [
+        {
+          "answerId": 109,
+          "questionId": 28,
+          "data": "A. Returns null",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 110,
+          "questionId": 28,
+          "data": "B. Compilation error",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 111,
+          "questionId": 28,
+          "data": "C. Returns Unit",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 112,
+          "questionId": 28,
+          "data": "D. Returns Any",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [110],
+        "answer": ["B. Compilation error"],
+        "explanation": "If a function with a specified return type lacks a return statement, it causes a compilation error."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "Which modifier makes a function accessible only within the same class?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'private' modifier restricts a function to be accessible only within the same class.",
+      "answerCellList": [
+        {
+          "answerId": 113,
+          "questionId": 29,
+          "data": "A. public",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 114,
+          "questionId": 29,
+          "data": "B. private",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 115,
+          "questionId": 29,
+          "data": "C. protected",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 116,
+          "questionId": 29,
+          "data": "D. internal",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [114],
+        "answer": ["B. private"],
+        "explanation": "The 'private' modifier restricts a function to be accessible only within the same class."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "What is the purpose of the 'infix' keyword in Kotlin functions?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'infix' keyword allows a function to be called using infix notation, e.g., 'a plus b' instead of 'a.plus(b)'.",
+      "answerCellList": [
+        {
+          "answerId": 117,
+          "questionId": 30,
+          "data": "A. Defines a recursive function",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 118,
+          "questionId": 30,
+          "data": "B. Allows infix notation",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 119,
+          "questionId": 30,
+          "data": "C. Makes a function inline",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 120,
+          "questionId": 30,
+          "data": "D. Specifies a default parameter",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [118],
+        "answer": ["B. Allows infix notation"],
+        "explanation": "The 'infix' keyword allows a function to be called using infix notation, e.g., 'a plus b' instead of 'a.plus(b)'."
+      }
+    }
+  ]
+}

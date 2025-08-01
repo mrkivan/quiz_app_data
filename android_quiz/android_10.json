@@ -1,0 +1,1213 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "Which function is used to observe LiveData in a Jetpack Compose UI?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "observeAsState converts LiveData into a State object, triggering recomposition in Jetpack Compose.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. collectAsState",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. observeAsState",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. mutableStateOf",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. remember",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. observeAsState"],
+        "explanation": "observeAsState converts LiveData into a State object, triggering recomposition in Jetpack Compose."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which function is used to observe StateFlow in a Jetpack Compose UI?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "collectAsState converts StateFlow into a State object, enabling reactive UI updates in Compose.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. observeAsState",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. collectAsState",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. mutableStateOf",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. remember",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. collectAsState"],
+        "explanation": "collectAsState converts StateFlow into a State object, enabling reactive UI updates in Compose."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "True or False: LiveData is lifecycle-aware by default.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LiveData is lifecycle-aware, only notifying active observers during ON_START or ON_RESUME states.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [9],
+        "answer": ["A. True"],
+        "explanation": "LiveData is lifecycle-aware, only notifying active observers during ON_START or ON_RESUME states."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "Which of the following are differences between LiveData and StateFlow? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LiveData is lifecycle-aware, StateFlow requires manual lifecycle handling, StateFlow supports coroutines, and StateFlow holds a single value.",
+      "answerCellList": [
+        {
+          "answerId": 11,
+          "questionId": 4,
+          "data": "A. LiveData is lifecycle-aware",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 12,
+          "questionId": 4,
+          "data": "B. StateFlow requires manual lifecycle handling",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "C. StateFlow supports coroutines",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "D. LiveData supports multiple values",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [11, 12, 13],
+        "answer": ["A. LiveData is lifecycle-aware", "B. StateFlow requires manual lifecycle handling", "C. StateFlow supports coroutines"],
+        "explanation": "LiveData is lifecycle-aware, StateFlow requires manual lifecycle handling, StateFlow supports coroutines, and StateFlow holds a single value."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which class is used to emit mutable values in LiveData?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "MutableLiveData allows emitting new values to observers in a ViewModel.",
+      "answerCellList": [
+        {
+          "answerId": 15,
+          "questionId": 5,
+          "data": "A. LiveData",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 16,
+          "questionId": 5,
+          "data": "B. MutableLiveData",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "C. StateFlow",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "D. MutableStateFlow",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [16],
+        "answer": ["B. MutableLiveData"],
+        "explanation": "MutableLiveData allows emitting new values to observers in a ViewModel."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "True or False: StateFlow is part of the Kotlin Coroutines library.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "StateFlow is part of the Kotlin Coroutines Flow library, designed for reactive streams.",
+      "answerCellList": [
+        {
+          "answerId": 19,
+          "questionId": 6,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 20,
+          "questionId": 6,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [19],
+        "answer": ["A. True"],
+        "explanation": "StateFlow is part of the Kotlin Coroutines Flow library, designed for reactive streams."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Which class is used to emit mutable values in StateFlow?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "MutableStateFlow allows emitting new values to a StateFlow stream.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 7,
+          "data": "A. StateFlow",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 7,
+          "data": "B. MutableStateFlow",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 7,
+          "data": "C. LiveData",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 7,
+          "data": "D. MutableLiveData",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [22],
+        "answer": ["B. MutableStateFlow"],
+        "explanation": "MutableStateFlow allows emitting new values to a StateFlow stream."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "Which of the following are true for LiveData? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LiveData is lifecycle-aware, notifies active observers, and works with ViewModel, but is not part of Kotlin Coroutines.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 8,
+          "data": "A. Lifecycle-aware",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 8,
+          "data": "B. Notifies active observers only",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 8,
+          "data": "C. Part of Kotlin Coroutines",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 8,
+          "data": "D. Works with ViewModel",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [25, 26, 28],
+        "answer": ["A. Lifecycle-aware", "B. Notifies active observers only", "D. Works with ViewModel"],
+        "explanation": "LiveData is lifecycle-aware, notifies active observers, and works with ViewModel, but is not part of Kotlin Coroutines."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "Which library provides LiveData for Android apps?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LiveData is part of the AndroidX Lifecycle library.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 9,
+          "data": "A. Kotlin Coroutines",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 9,
+          "data": "B. AndroidX Lifecycle",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 9,
+          "data": "C. Jetpack Compose",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 9,
+          "data": "D. Hilt",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [30],
+        "answer": ["B. AndroidX Lifecycle"],
+        "explanation": "LiveData is part of the AndroidX Lifecycle library."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "True or False: StateFlow requires a coroutine scope to collect values.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "StateFlow collection requires a coroutine scope, but collectAsState handles this automatically in Compose.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 10,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 10,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [33],
+        "answer": ["A. True"],
+        "explanation": "StateFlow collection requires a coroutine scope, but collectAsState handles this automatically in Compose."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "Which component is used to hold the latest value in StateFlow?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "StateFlow always holds the latest value, accessible via its value property.",
+      "answerCellList": [
+        {
+          "answerId": 35,
+          "questionId": 11,
+          "data": "A. MutableLiveData",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 36,
+          "questionId": 11,
+          "data": "B. StateFlow",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 37,
+          "questionId": 11,
+          "data": "C. LiveData",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 38,
+          "questionId": 11,
+          "data": "D. Flow",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [36],
+        "answer": ["B. StateFlow"],
+        "explanation": "StateFlow always holds the latest value, accessible via its value property."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "Which of the following are true for StateFlow? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "StateFlow holds a single value, supports coroutines, and requires manual lifecycle handling, but is not lifecycle-aware by default.",
+      "answerCellList": [
+        {
+          "answerId": 39,
+          "questionId": 12,
+          "data": "A. Holds a single value",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 40,
+          "questionId": 12,
+          "data": "B. Supports coroutines",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 41,
+          "questionId": 12,
+          "data": "C. Lifecycle-aware by default",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 42,
+          "questionId": 12,
+          "data": "D. Requires manual lifecycle handling",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [39, 40, 42],
+        "answer": ["A. Holds a single value", "B. Supports coroutines", "D. Requires manual lifecycle handling"],
+        "explanation": "StateFlow holds a single value, supports coroutines, and requires manual lifecycle handling, but is not lifecycle-aware by default."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "Which method is used to emit a new value in MutableLiveData?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The setValue method emits a new value synchronously to MutableLiveData observers.",
+      "answerCellList": [
+        {
+          "answerId": 43,
+          "questionId": 13,
+          "data": "A. postValue",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 44,
+          "questionId": 13,
+          "data": "B. setValue",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 45,
+          "questionId": 13,
+          "data": "C. emit",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 46,
+          "questionId": 13,
+          "data": "D. update",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [44],
+        "answer": ["B. setValue"],
+        "explanation": "The setValue method emits a new value synchronously to MutableLiveData observers."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "True or False: StateFlow can be collected multiple times in a single composable.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "StateFlow can be collected multiple times, but each collection requires a coroutine scope, typically managed by collectAsState.",
+      "answerCellList": [
+        {
+          "answerId": 47,
+          "questionId": 14,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 48,
+          "questionId": 14,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [47],
+        "answer": ["A. True"],
+        "explanation": "StateFlow can be collected multiple times, but each collection requires a coroutine scope, typically managed by collectAsState."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "Which method is used to emit a new value in MutableStateFlow?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The value property is used to set a new value in MutableStateFlow.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 15,
+          "data": "A. setValue",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 15,
+          "data": "B. value",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 15,
+          "data": "C. postValue",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 15,
+          "data": "D. emit",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [50],
+        "answer": ["B. value"],
+        "explanation": "The value property is used to set a new value in MutableStateFlow."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "Which of the following are best practices for using LiveData in ViewModel? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use MutableLiveData in ViewModel, expose LiveData to UI, and use observeAsState in Compose, but avoid storing composables.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 16,
+          "data": "A. Use MutableLiveData in ViewModel",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 16,
+          "data": "B. Expose LiveData to UI",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 16,
+          "data": "C. Store composables in LiveData",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 16,
+          "data": "D. Use observeAsState in Compose",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [53, 54, 56],
+        "answer": ["A. Use MutableLiveData in ViewModel", "B. Expose LiveData to UI", "D. Use observeAsState in Compose"],
+        "explanation": "Use MutableLiveData in ViewModel, expose LiveData to UI, and use observeAsState in Compose, but avoid storing composables."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "Which lifecycle state ensures LiveData notifies observers?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LiveData notifies observers only when the lifecycle is in ON_START or ON_RESUME.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 17,
+          "data": "A. ON_CREATE",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 17,
+          "data": "B. ON_START",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 17,
+          "data": "C. ON_PAUSE",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 17,
+          "data": "D. ON_DESTROY",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [58],
+        "answer": ["B. ON_START"],
+        "explanation": "LiveData notifies observers only when the lifecycle is in ON_START or ON_RESUME."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "True or False: StateFlow automatically emits the latest value to new collectors.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "StateFlow emits its latest value to new collectors, ensuring they receive the current state.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 18,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 18,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [61],
+        "answer": ["A. True"],
+        "explanation": "StateFlow emits its latest value to new collectors, ensuring they receive the current state."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "Which method is used to emit a value asynchronously in MutableLiveData?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "postValue emits a value asynchronously to MutableLiveData observers, suitable for background threads.",
+      "answerCellList": [
+        {
+          "answerId": 63,
+          "questionId": 19,
+          "data": "A. setValue",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 64,
+          "questionId": 19,
+          "data": "B. postValue",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 65,
+          "questionId": 19,
+          "data": "C. emit",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 66,
+          "questionId": 19,
+          "data": "D. update",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [64],
+        "answer": ["B. postValue"],
+        "explanation": "postValue emits a value asynchronously to MutableLiveData observers, suitable for background threads."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "Which of the following are best practices for using StateFlow in ViewModel? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use MutableStateFlow in ViewModel, expose StateFlow to UI, and use collectAsState in Compose, but avoid storing composables.",
+      "answerCellList": [
+        {
+          "answerId": 67,
+          "questionId": 20,
+          "data": "A. Use MutableStateFlow in ViewModel",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 68,
+          "questionId": 20,
+          "data": "B. Expose StateFlow to UI",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 69,
+          "questionId": 20,
+          "data": "C. Store composables in StateFlow",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 70,
+          "questionId": 20,
+          "data": "D. Use collectAsState in Compose",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [67, 68, 70],
+        "answer": ["A. Use MutableStateFlow in ViewModel", "B. Expose StateFlow to UI", "D. Use collectAsState in Compose"],
+        "explanation": "Use MutableStateFlow in ViewModel, expose StateFlow to UI, and use collectAsState in Compose, but avoid storing composables."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "Which component ensures LiveData only notifies active observers?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LifecycleOwner ensures LiveData only notifies observers when the lifecycle is active (ON_START or ON_RESUME).",
+      "answerCellList": [
+        {
+          "answerId": 71,
+          "questionId": 21,
+          "data": "A. ViewModel",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 72,
+          "questionId": 21,
+          "data": "B. LifecycleOwner",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 73,
+          "questionId": 21,
+          "data": "C. CoroutineScope",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 74,
+          "questionId": 21,
+          "data": "D. NavController",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [72],
+        "answer": ["B. LifecycleOwner"],
+        "explanation": "LifecycleOwner ensures LiveData only notifies observers when the lifecycle is active (ON_START or ON_RESUME)."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "True or False: LiveData supports coroutines natively.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LiveData does not support coroutines natively; it uses its own observer pattern.",
+      "answerCellList": [
+        {
+          "answerId": 75,
+          "questionId": 22,
+          "data": "A. True",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 76,
+          "questionId": 22,
+          "data": "B. False",
+          "isItAnswer": true,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [76],
+        "answer": ["B. False"],
+        "explanation": "LiveData does not support coroutines natively; it uses its own observer pattern."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "Which component is used to manage StateFlow lifecycle in a composable?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "collectAsState uses LaunchedEffect to manage StateFlow collection lifecycle in Compose.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 23,
+          "data": "A. observeAsState",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 23,
+          "data": "B. collectAsState",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 23,
+          "data": "C. LifecycleOwner",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 23,
+          "data": "D. ViewModel",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [78],
+        "answer": ["B. collectAsState"],
+        "explanation": "collectAsState uses LaunchedEffect to manage StateFlow collection lifecycle in Compose."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "Which of the following are advantages of StateFlow over LiveData? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "StateFlow supports coroutines, integrates with Flow operators, and is Kotlin-first, but requires manual lifecycle handling.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 24,
+          "data": "A. Supports coroutines",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 24,
+          "data": "B. Integrates with Flow operators",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 24,
+          "data": "C. Lifecycle-aware by default",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 24,
+          "data": "D. Kotlin-first design",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [81, 82, 84],
+        "answer": ["A. Supports coroutines", "B. Integrates with Flow operators", "D. Kotlin-first design"],
+        "explanation": "StateFlow supports coroutines, integrates with Flow operators, and is Kotlin-first, but requires manual lifecycle handling."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "Which lifecycle state stops LiveData from notifying observers?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LiveData stops notifying observers when the lifecycle is in ON_STOP or lower states.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 25,
+          "data": "A. ON_RESUME",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 25,
+          "data": "B. ON_STOP",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 25,
+          "data": "C. ON_START",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 25,
+          "data": "D. ON_CREATE",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [86],
+        "answer": ["B. ON_STOP"],
+        "explanation": "LiveData stops notifying observers when the lifecycle is in ON_STOP or lower states."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "True or False: LiveData can be used with Jetpack Compose without additional dependencies.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The androidx.compose.runtime:livedata dependency is required to use observeAsState with LiveData in Compose.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 26,
+          "data": "A. True",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 26,
+          "data": "B. False",
+          "isItAnswer": true,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [90],
+        "answer": ["B. False"],
+        "explanation": "The androidx.compose.runtime:livedata dependency is required to use observeAsState with LiveData in Compose."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "Which component is used to combine multiple StateFlow streams?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "combine is a Flow operator used to merge multiple StateFlow streams into a single stream.",
+      "answerCellList": [
+        {
+          "answerId": 91,
+          "questionId": 27,
+          "data": "A. merge",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 92,
+          "questionId": 27,
+          "data": "B. combine",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 93,
+          "questionId": 27,
+          "data": "C. zip",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 94,
+          "questionId": 27,
+          "data": "D. collect",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [92],
+        "answer": ["B. combine"],
+        "explanation": "combine is a Flow operator used to merge multiple StateFlow streams into a single stream."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "Which of the following are advantages of LiveData over StateFlow? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LiveData is lifecycle-aware, simpler for basic use cases, and integrates with ViewModel, but does not support Flow operators.",
+      "answerCellList": [
+        {
+          "answerId": 95,
+          "questionId": 28,
+          "data": "A. Lifecycle-aware by default",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 96,
+          "questionId": 28,
+          "data": "B. Simpler for basic use cases",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 97,
+          "questionId": 28,
+          "data": "C. Supports Flow operators",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 98,
+          "questionId": 28,
+          "data": "D. Integrates with ViewModel",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [95, 96, 98],
+        "answer": ["A. Lifecycle-aware by default", "B. Simpler for basic use cases", "D. Integrates with ViewModel"],
+        "explanation": "LiveData is lifecycle-aware, simpler for basic use cases, and integrates with ViewModel, but does not support Flow operators."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "Which dependency is required to use StateFlow in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The kotlinx-coroutines-core dependency provides StateFlow and related APIs for Compose.",
+      "answerCellList": [
+        {
+          "answerId": 99,
+          "questionId": 29,
+          "data": "A. androidx.lifecycle",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 100,
+          "questionId": 29,
+          "data": "B. kotlinx-coroutines-core",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 101,
+          "questionId": 29,
+          "data": "C. androidx.compose.runtime",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 102,
+          "questionId": 29,
+          "data": "D. hilt-viewmodel",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [100],
+        "answer": ["B. kotlinx-coroutines-core"],
+        "explanation": "The kotlinx-coroutines-core dependency provides StateFlow and related APIs for Compose."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "True or False: LiveData requires a coroutine scope to observe values in Compose.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LiveData uses observeAsState, which does not require a coroutine scope, unlike StateFlow.",
+      "answerCellList": [
+        {
+          "answerId": 103,
+          "questionId": 30,
+          "data": "A. True",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 104,
+          "questionId": 30,
+          "data": "B. False",
+          "isItAnswer": true,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [104],
+        "answer": ["B. False"],
+        "explanation": "LiveData uses observeAsState, which does not require a coroutine scope, unlike StateFlow."
+      }
+    }
+  ]
+}

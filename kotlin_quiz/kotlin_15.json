@@ -1,0 +1,1325 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is the purpose of generics in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Generics provide type safety by allowing type parameters to define classes, interfaces, and functions that work with specific types.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. To allow dynamic typing",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. To provide type safety",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. To replace inheritance",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. To simplify syntax",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. To provide type safety"],
+        "explanation": "Generics provide type safety by allowing type parameters to define classes, interfaces, and functions that work with specific types."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "How is a generic class declared in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A generic class is declared using angle brackets with a type parameter, e.g., class MyClass<T>.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. class MyClass(T)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. class MyClass<T>",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. class MyClass[T]",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. class MyClass:T",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. class MyClass<T>"],
+        "explanation": "A generic class is declared using angle brackets with a type parameter, e.g., class MyClass<T>."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "What does the 'out' keyword indicate in a generic type?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'out' keyword indicates covariance, allowing the generic type to be used as a producer, restricting it to return types.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. The type can only be used as input",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. The type can only be used as output",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 11,
+          "questionId": 3,
+          "data": "C. The type is invariant",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 12,
+          "questionId": 3,
+          "data": "D. The type is nullable",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [10],
+        "answer": ["B. The type can only be used as output"],
+        "explanation": "The 'out' keyword indicates covariance, allowing the generic type to be used as a producer, restricting it to return types."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "What does the 'in' keyword indicate in a generic type?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'in' keyword indicates contravariance, allowing the generic type to be used as a consumer, restricting it to parameter types.",
+      "answerCellList": [
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "A. The type can only be used as output",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "B. The type can only be used as input",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 15,
+          "questionId": 4,
+          "data": "C. The type is invariant",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 16,
+          "questionId": 4,
+          "data": "D. The type is nullable",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [14],
+        "answer": ["B. The type can only be used as input"],
+        "explanation": "The 'in' keyword indicates contravariance, allowing the generic type to be used as a consumer, restricting it to parameter types."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "What is an invariant generic type in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An invariant generic type has no variance annotation, meaning it can neither be a subtype nor a supertype of another generic type.",
+      "answerCellList": [
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "A. Can only be used as input",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "B. No subtyping flexibility",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 19,
+          "questionId": 5,
+          "data": "C. Can only be used as output",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 20,
+          "questionId": 5,
+          "data": "D. Always nullable",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [18],
+        "answer": ["B. No subtyping flexibility"],
+        "explanation": "An invariant generic type has no variance annotation, meaning it can neither be a subtype nor a supertype of another generic type."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "How is a generic function declared in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A generic function is declared with a type parameter in angle brackets before the function name, e.g., fun <T> myFunction() {}.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 6,
+          "data": "A. fun myFunction(T) {}",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 6,
+          "data": "B. fun <T> myFunction() {}",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 6,
+          "data": "C. fun myFunction[T]() {}",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 6,
+          "data": "D. fun myFunction:T() {}",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [22],
+        "answer": ["B. fun <T> myFunction() {}"],
+        "explanation": "A generic function is declared with a type parameter in angle brackets before the function name, e.g., fun <T> myFunction() {}."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "What is a reified type parameter in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A reified type parameter, used with inline functions, allows access to the actual type at runtime, e.g., inline fun <reified T> myFunction() {}.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 7,
+          "data": "A. A type that is always nullable",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 7,
+          "data": "B. A type accessible at runtime",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 7,
+          "data": "C. A type that is invariant",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 7,
+          "data": "D. A type used only at compile time",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [26],
+        "answer": ["B. A type accessible at runtime"],
+        "explanation": "A reified type parameter, used with inline functions, allows access to the actual type at runtime, e.g., inline fun <reified T> myFunction() {}."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "What is required to use a reified type parameter?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Reified type parameters require the function to be marked as inline, as this allows type information to be preserved at runtime.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 8,
+          "data": "A. The suspend keyword",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 8,
+          "data": "B. The inline keyword",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 8,
+          "data": "C. The abstract keyword",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 8,
+          "data": "D. The override keyword",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [30],
+        "answer": ["B. The inline keyword"],
+        "explanation": "Reified type parameters require the function to be marked as inline, as this allows type information to be preserved at runtime."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "What does the upper bound constraint in generics do?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An upper bound constraint, e.g., <T : Number>, restricts the generic type to be a subtype of the specified type.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 9,
+          "data": "A. Allows any type",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 9,
+          "data": "B. Restricts to a subtype",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 35,
+          "questionId": 9,
+          "data": "C. Restricts to a supertype",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 36,
+          "questionId": 9,
+          "data": "D. Makes the type nullable",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [34],
+        "answer": ["B. Restricts to a subtype"],
+        "explanation": "An upper bound constraint, e.g., <T : Number>, restricts the generic type to be a subtype of the specified type."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "How is an upper bound constraint declared in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An upper bound constraint is declared using a colon, e.g., class MyClass<T : Number>.",
+      "answerCellList": [
+        {
+          "answerId": 37,
+          "questionId": 10,
+          "data": "A. class MyClass<T extends Number>",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 38,
+          "questionId": 10,
+          "data": "B. class MyClass<T : Number>",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 39,
+          "questionId": 10,
+          "data": "C. class MyClass<T is Number>",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 40,
+          "questionId": 10,
+          "data": "D. class MyClass<T super Number>",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [38],
+        "answer": ["B. class MyClass<T : Number>"],
+        "explanation": "An upper bound constraint is declared using a colon, e.g., class MyClass<T : Number>."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "What is the default upper bound for a generic type in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The default upper bound for a generic type in Kotlin is Any?, allowing any nullable type if no constraint is specified.",
+      "answerCellList": [
+        {
+          "answerId": 41,
+          "questionId": 11,
+          "data": "A. Any",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 42,
+          "questionId": 11,
+          "data": "B. Any?",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 43,
+          "questionId": 11,
+          "data": "C. Nothing",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 44,
+          "questionId": 11,
+          "data": "D. Object",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [42],
+        "answer": ["B. Any?"],
+        "explanation": "The default upper bound for a generic type in Kotlin is Any?, allowing any nullable type if no constraint is specified."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "What does a covariant type allow?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A covariant type, marked with 'out', allows a generic type to be treated as a subtype if its type parameter is a subtype, e.g., List<out Number>.",
+      "answerCellList": [
+        {
+          "answerId": 45,
+          "questionId": 12,
+          "data": "A. Use as input parameters",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 46,
+          "questionId": 12,
+          "data": "B. Subtyping flexibility",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 47,
+          "questionId": 12,
+          "data": "C. Use as mutable fields",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 48,
+          "questionId": 12,
+          "data": "D. Nullable types only",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [46],
+        "answer": ["B. Subtyping flexibility"],
+        "explanation": "A covariant type, marked with 'out', allows a generic type to be treated as a subtype if its type parameter is a subtype, e.g., List<out Number>."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "What does a contravariant type allow?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A contravariant type, marked with 'in', allows a generic type to be treated as a supertype if its type parameter is a supertype, e.g., Comparator<in Number>.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 13,
+          "data": "A. Use as output types",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 13,
+          "data": "B. Supertype flexibility",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 13,
+          "data": "C. Use as mutable fields",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 13,
+          "data": "D. Nullable types only",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [50],
+        "answer": ["B. Supertype flexibility"],
+        "explanation": "A contravariant type, marked with 'in', allows a generic type to be treated as a supertype if its type parameter is a supertype, e.g., Comparator<in Number>."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "What is a star projection in Kotlin generics?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A star projection, e.g., List<*>, is used when the specific type parameter is unknown, treating it as List<out Any?> for reading and restricting writing.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 14,
+          "data": "A. A specific type parameter",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 14,
+          "data": "B. An unknown type parameter",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 14,
+          "data": "C. A nullable type",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 14,
+          "data": "D. A reified type",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [54],
+        "answer": ["B. An unknown type parameter"],
+        "explanation": "A star projection, e.g., List<*>, is used when the specific type parameter is unknown, treating it as List<out Any?> for reading and restricting writing."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "What is the purpose of the 'where' clause in generics?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'where' clause allows multiple upper bound constraints for a type parameter, e.g., fun <T> myFunction() where T : Number, T : Comparable<T>.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 15,
+          "data": "A. To define nullable types",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 15,
+          "data": "B. To specify multiple constraints",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 15,
+          "data": "C. To make a type reified",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 15,
+          "data": "D. To define variance",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [58],
+        "answer": ["B. To specify multiple constraints"],
+        "explanation": "The 'where' clause allows multiple upper bound constraints for a type parameter, e.g., fun <T> myFunction() where T : Number, T : Comparable<T>."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "What is type erasure in Kotlin generics?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Type erasure means generic type information is removed at runtime, so the JVM cannot access the actual type parameter.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 16,
+          "data": "A. Type information is preserved at runtime",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 16,
+          "data": "B. Type information is removed at runtime",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 63,
+          "questionId": 16,
+          "data": "C. Type is made nullable",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 64,
+          "questionId": 16,
+          "data": "D. Type is made invariant",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [62],
+        "answer": ["B. Type information is removed at runtime"],
+        "explanation": "Type erasure means generic type information is removed at runtime, so the JVM cannot access the actual type parameter."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "How can you check the type of a generic parameter at runtime?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "To check the type of a generic parameter at runtime, use a reified type parameter in an inline function, e.g., inline fun <reified T> checkType(value: Any) = value is T.",
+      "answerCellList": [
+        {
+          "answerId": 65,
+          "questionId": 17,
+          "data": "A. Using the is operator directly",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 66,
+          "questionId": 17,
+          "data": "B. Using reified type in inline function",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 67,
+          "questionId": 17,
+          "data": "C. Using reflection only",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 68,
+          "questionId": 17,
+          "data": "D. Using star projection",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [66],
+        "answer": ["B. Using reified type in inline function"],
+        "explanation": "To check the type of a generic parameter at runtime, use a reified type parameter in an inline function, e.g., inline fun <reified T> checkType(value: Any) = value is T."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "What is the use-site variance in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use-site variance allows specifying variance at the point of use, e.g., List<out Number> or Comparator<in Number>, rather than at declaration.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 18,
+          "data": "A. Variance defined at declaration",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 18,
+          "data": "B. Variance defined at usage",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 18,
+          "data": "C. Variance for nullable types",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 18,
+          "data": "D. Variance for reified types",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [70],
+        "answer": ["B. Variance defined at usage"],
+        "explanation": "Use-site variance allows specifying variance at the point of use, e.g., List<out Number> or Comparator<in Number>, rather than at declaration."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "What is declaration-site variance in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Declaration-site variance defines variance in the class or interface declaration, e.g., interface List<out T>, applying to all instances.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 19,
+          "data": "A. Variance defined at usage",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 19,
+          "data": "B. Variance defined at declaration",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 19,
+          "data": "C. Variance for nullable types",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 19,
+          "data": "D. Variance for reified types",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [74],
+        "answer": ["B. Variance defined at declaration"],
+        "explanation": "Declaration-site variance defines variance in the class or interface declaration, e.g., interface List<out T>, applying to all instances."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "What is the Nothing type in Kotlin generics?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Nothing is a bottom type with no instances, used in generics to indicate a function never returns or to represent an empty type.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 20,
+          "data": "A. A type for all objects",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 20,
+          "data": "B. A type with no instances",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 20,
+          "data": "C. A nullable type",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 20,
+          "data": "D. A reified type",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [78],
+        "answer": ["B. A type with no instances"],
+        "explanation": "Nothing is a bottom type with no instances, used in generics to indicate a function never returns or to represent an empty type."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "What does the 'is' operator do with generic types?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'is' operator checks if a value is an instance of a type, but with generics, it requires reified types in inline functions for runtime checks.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 21,
+          "data": "A. Always checks at compile time",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 21,
+          "data": "B. Checks type with reified types",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 21,
+          "data": "C. Converts types automatically",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 21,
+          "data": "D. Defines variance",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [82],
+        "answer": ["B. Checks type with reified types"],
+        "explanation": "The 'is' operator checks if a value is an instance of a type, but with generics, it requires reified types in inline functions for runtime checks."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "What is a type parameter bound to Any in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A type parameter bound to Any restricts the generic type to non-nullable types, e.g., <T : Any>.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 22,
+          "data": "A. Allows nullable types",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 22,
+          "data": "B. Restricts to non-nullable types",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 22,
+          "data": "C. Allows any type",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 22,
+          "data": "D. Makes the type reified",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [86],
+        "answer": ["B. Restricts to non-nullable types"],
+        "explanation": "A type parameter bound to Any restricts the generic type to non-nullable types, e.g., <T : Any>."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "Can a generic type have multiple upper bounds?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A generic type can have multiple upper bounds using the 'where' clause, e.g., fun <T> myFunction() where T : Number, T : Comparable<T>.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 23,
+          "data": "A. No, only one bound",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 23,
+          "data": "B. Yes, using where clause",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 91,
+          "questionId": 23,
+          "data": "C. Only for interfaces",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 92,
+          "questionId": 23,
+          "data": "D. Only for reified types",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [90],
+        "answer": ["B. Yes, using where clause"],
+        "explanation": "A generic type can have multiple upper bounds using the 'where' clause, e.g., fun <T> myFunction() where T : Number, T : Comparable<T>."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "What happens if a generic type is used without specifying a type parameter?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Using a generic type without specifying a type parameter results in a compilation error unless a star projection or default type is allowed.",
+      "answerCellList": [
+        {
+          "answerId": 93,
+          "questionId": 24,
+          "data": "A. It defaults to Any",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 94,
+          "questionId": 24,
+          "data": "B. Compilation error",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 95,
+          "questionId": 24,
+          "data": "C. It becomes nullable",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 96,
+          "questionId": 24,
+          "data": "D. It uses star projection",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [94],
+        "answer": ["B. Compilation error"],
+        "explanation": "Using a generic type without specifying a type parameter results in a compilation error unless a star projection or default type is allowed."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "What is the purpose of the Any? type in generics?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Any? is the default upper bound for generic types in Kotlin, allowing any nullable type, including null.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 25,
+          "data": "A. Restricts to non-nullable types",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 25,
+          "data": "B. Allows any nullable type",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 25,
+          "data": "C. Makes types reified",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 25,
+          "data": "D. Defines variance",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [98],
+        "answer": ["B. Allows any nullable type"],
+        "explanation": "Any? is the default upper bound for generic types in Kotlin, allowing any nullable type, including null."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "Can a generic type be used with extension functions?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Generic types can be used with extension functions, e.g., fun <T> List<T>.myExtension() {}, providing type-safe functionality.",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 26,
+          "data": "A. No, only specific types",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 26,
+          "data": "B. Yes, with type parameters",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 26,
+          "data": "C. Only for interfaces",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 26,
+          "data": "D. Only for reified types",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [102],
+        "answer": ["B. Yes, with type parameters"],
+        "explanation": "Generic types can be used with extension functions, e.g., fun <T> List<T>.myExtension() {}, providing type-safe functionality."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "What is a type alias in Kotlin related to generics?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A type alias simplifies complex generic types, e.g., typealias MyMap<K, V> = Map<K, V>, improving code readability.",
+      "answerCellList": [
+        {
+          "answerId": 105,
+          "questionId": 27,
+          "data": "A. A new generic type",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 106,
+          "questionId": 27,
+          "data": "B. Simplifies complex generic types",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 107,
+          "questionId": 27,
+          "data": "C. Defines variance",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 108,
+          "questionId": 27,
+          "data": "D. Makes types reified",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [106],
+        "answer": ["B. Simplifies complex generic types"],
+        "explanation": "A type alias simplifies complex generic types, e.g., typealias MyMap<K, V> = Map<K, V>, improving code readability."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "What happens if a generic type violates its upper bound?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "If a generic type violates its upper bound, it results in a compilation error, as the type must conform to the specified constraint.",
+      "answerCellList": [
+        {
+          "answerId": 109,
+          "questionId": 28,
+          "data": "A. Runtime exception",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 110,
+          "questionId": 28,
+          "data": "B. Compilation error",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 111,
+          "questionId": 28,
+          "data": "C. Type becomes nullable",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 112,
+          "questionId": 28,
+          "data": "D. Type uses star projection",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [110],
+        "answer": ["B. Compilation error"],
+        "explanation": "If a generic type violates its upper bound, it results in a compilation error, as the type must conform to the specified constraint."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "Can a generic type be used with a sealed class?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A generic type can be used with a sealed class, allowing type-safe hierarchies, e.g., sealed class Result<T>.",
+      "answerCellList": [
+        {
+          "answerId": 113,
+          "questionId": 29,
+          "data": "A. No, only specific types",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 114,
+          "questionId": 29,
+          "data": "B. Yes, with type parameters",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 115,
+          "questionId": 29,
+          "data": "C. Only for interfaces",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 116,
+          "questionId": 29,
+          "data": "D. Only for reified types",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [114],
+        "answer": ["B. Yes, with type parameters"],
+        "explanation": "A generic type can be used with a sealed class, allowing type-safe hierarchies, e.g., sealed class Result<T>."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "What is the benefit of using generics in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Generics improve type safety, reduce casting, and enable reusable code by allowing type parameters in classes and functions.",
+      "answerCellList": [
+        {
+          "answerId": 117,
+          "questionId": 30,
+          "data": "A. Increases runtime performance",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 118,
+          "questionId": 30,
+          "data": "B. Improves type safety",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 119,
+          "questionId": 30,
+          "data": "C. Simplifies inheritance",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 120,
+          "questionId": 30,
+          "data": "D. Enables dynamic typing",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [118],
+        "answer": ["B. Improves type safety"],
+        "explanation": "Generics improve type safety, reduce casting, and enable reusable code by allowing type parameters in classes and functions."
+      }
+    }
+  ]
+}

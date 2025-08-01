@@ -1,0 +1,1325 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is the primary purpose of Hilt in Android?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Hilt is a dependency injection library built on Dagger, simplifying dependency injection in Android by providing standard components and scopes.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. Manage UI components",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. Simplify dependency injection",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. Handle network requests",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. Store local data",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. Simplify dependency injection"],
+        "explanation": "Hilt is a dependency injection library built on Dagger, simplifying dependency injection in Android by providing standard components and scopes."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which annotation is used to mark an Android application class for Hilt?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@HiltAndroidApp is used on the Application class to enable Hilt's dependency injection setup.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. @Inject",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. @HiltAndroidApp",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. @Module",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. @Component",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. @HiltAndroidApp"],
+        "explanation": "@HiltAndroidApp is used on the Application class to enable Hilt's dependency injection setup."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "How do you enable Hilt in an Activity?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@AndroidEntryPoint is used to annotate an Activity to enable Hilt dependency injection.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. Use @Inject",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. Use @AndroidEntryPoint",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 11,
+          "questionId": 3,
+          "data": "C. Use @HiltComponent",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 12,
+          "questionId": 3,
+          "data": "D. Use @Module",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [10],
+        "answer": ["B. Use @AndroidEntryPoint"],
+        "explanation": "@AndroidEntryPoint is used to annotate an Activity to enable Hilt dependency injection."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "What is the purpose of the @Inject annotation in Hilt?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@Inject marks a constructor, field, or method to be injected by Hilt, providing dependencies automatically.",
+      "answerCellList": [
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "A. Defines a module",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "B. Marks injection points",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 15,
+          "questionId": 4,
+          "data": "C. Scopes components",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 16,
+          "questionId": 4,
+          "data": "D. Creates bindings",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [14],
+        "answer": ["B. Marks injection points"],
+        "explanation": "@Inject marks a constructor, field, or method to be injected by Hilt, providing dependencies automatically."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which Hilt annotation is used to define a module?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@Module is used to define a Hilt module, which provides dependencies using @Provides or @Binds.",
+      "answerCellList": [
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "A. @Component",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "B. @Module",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 19,
+          "questionId": 5,
+          "data": "C. @Inject",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 20,
+          "questionId": 5,
+          "data": "D. @Scope",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [18],
+        "answer": ["B. @Module"],
+        "explanation": "@Module is used to define a Hilt module, which provides dependencies using @Provides or @Binds."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "What is the purpose of @InstallIn in a Hilt module?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@InstallIn specifies the Hilt component (e.g., SingletonComponent::class) where the module's bindings are installed.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 6,
+          "data": "A. Defines injection points",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 6,
+          "data": "B. Specifies component scope",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 6,
+          "data": "C. Injects dependencies",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 6,
+          "data": "D. Creates modules",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [22],
+        "answer": ["B. Specifies component scope"],
+        "explanation": "@InstallIn specifies the Hilt component (e.g., SingletonComponent::class) where the module's bindings are installed."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Which Hilt component is used for application-wide dependencies?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "SingletonComponent is used for application-wide dependencies, providing a single instance throughout the app lifecycle.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 7,
+          "data": "A. ActivityComponent",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 7,
+          "data": "B. SingletonComponent",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 7,
+          "data": "C. FragmentComponent",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 7,
+          "data": "D. ViewModelComponent",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [26],
+        "answer": ["B. SingletonComponent"],
+        "explanation": "SingletonComponent is used for application-wide dependencies, providing a single instance throughout the app lifecycle."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "How do you inject a ViewModel with Hilt?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@HiltViewModel and @Inject are used to annotate a ViewModel class, enabling dependency injection with Hilt.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 8,
+          "data": "A. Use @InjectViewModel",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 8,
+          "data": "B. Use @HiltViewModel and @Inject",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 8,
+          "data": "C. Use @Module",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 8,
+          "data": "D. Use @ViewModelScope",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [30],
+        "answer": ["B. Use @HiltViewModel and @Inject"],
+        "explanation": "@HiltViewModel and @Inject are used to annotate a ViewModel class, enabling dependency injection with Hilt."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "How do you provide a dependency in a Hilt module?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Dependencies are provided using @Provides in a Hilt module, defining how to create an instance of a dependency.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 9,
+          "data": "A. Use @Inject",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 9,
+          "data": "B. Use @Provides",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 35,
+          "questionId": 9,
+          "data": "C. Use @Binds",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 36,
+          "questionId": 9,
+          "data": "D. Use @Component",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [34],
+        "answer": ["B. Use @Provides"],
+        "explanation": "Dependencies are provided using @Provides in a Hilt module, defining how to create an instance of a dependency."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "What is the purpose of @Binds in a Hilt module?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@Binds is used to bind an interface to its implementation in a Hilt module, typically in an abstract function.",
+      "answerCellList": [
+        {
+          "answerId": 37,
+          "questionId": 10,
+          "data": "A. Creates instances",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 38,
+          "questionId": 10,
+          "data": "B. Binds interface to implementation",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 39,
+          "questionId": 10,
+          "data": "C. Injects dependencies",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 40,
+          "questionId": 10,
+          "data": "D. Scopes components",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [38],
+        "answer": ["B. Binds interface to implementation"],
+        "explanation": "@Binds is used to bind an interface to its implementation in a Hilt module, typically in an abstract function."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "Which Hilt scope is used for Activity-scoped dependencies?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@ActivityScoped is used to scope dependencies to the lifecycle of an Activity in Hilt.",
+      "answerCellList": [
+        {
+          "answerId": 41,
+          "questionId": 11,
+          "data": "A. @Singleton",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 42,
+          "questionId": 11,
+          "data": "B. @ActivityScoped",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 43,
+          "questionId": 11,
+          "data": "C. @FragmentScoped",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 44,
+          "questionId": 11,
+          "data": "D. @ViewModelScoped",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [42],
+        "answer": ["B. @ActivityScoped"],
+        "explanation": "@ActivityScoped is used to scope dependencies to the lifecycle of an Activity in Hilt."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "How do you inject a dependency into a Fragment with Hilt?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Annotate the Fragment with @AndroidEntryPoint and use @Inject on fields or constructors to inject dependencies.",
+      "answerCellList": [
+        {
+          "answerId": 45,
+          "questionId": 12,
+          "data": "A. Use @HiltFragment",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 46,
+          "questionId": 12,
+          "data": "B. Use @AndroidEntryPoint and @Inject",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 47,
+          "questionId": 12,
+          "data": "C. Use @Module",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 48,
+          "questionId": 12,
+          "data": "D. Use @FragmentScoped",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [46],
+        "answer": ["B. Use @AndroidEntryPoint and @Inject"],
+        "explanation": "Annotate the Fragment with @AndroidEntryPoint and use @Inject on fields or constructors to inject dependencies."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "What is the purpose of @Singleton in Hilt?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@Singleton scopes a dependency to the application lifecycle, ensuring a single instance throughout the app.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 13,
+          "data": "A. Scopes to Activity",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 13,
+          "data": "B. Scopes to application",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 13,
+          "data": "C. Scopes to Fragment",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 13,
+          "data": "D. Scopes to ViewModel",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [50],
+        "answer": ["B. Scopes to application"],
+        "explanation": "@Singleton scopes a dependency to the application lifecycle, ensuring a single instance throughout the app."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "How do you provide a Retrofit instance with Hilt?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A Retrofit instance is provided in a Hilt module using @Provides, configuring it with a base URL and converters.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 14,
+          "data": "A. Use @InjectRetrofit",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 14,
+          "data": "B. Use @Provides in a module",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 14,
+          "data": "C. Use @Binds",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 14,
+          "data": "D. Use @RetrofitScoped",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [54],
+        "answer": ["B. Use @Provides in a module"],
+        "explanation": "A Retrofit instance is provided in a Hilt module using @Provides, configuring it with a base URL and converters."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "Which Hilt component is used for ViewModel dependencies?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ViewModelComponent is used to scope dependencies to the lifecycle of a ViewModel in Hilt.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 15,
+          "data": "A. SingletonComponent",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 15,
+          "data": "B. ViewModelComponent",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 15,
+          "data": "C. ActivityComponent",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 15,
+          "data": "D. FragmentComponent",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+ "questionId": 15,
+        "answerId": [58],
+        "answer": ["B. ViewModelComponent"],
+        "explanation": "ViewModelComponent is used to scope dependencies to the lifecycle of a ViewModel in Hilt."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "How do you inject a dependency into a ViewModel using Hilt?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use @HiltViewModel on the ViewModel class and @Inject on its constructor to inject dependencies.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 16,
+          "data": "A. Use @InjectViewModel",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 16,
+          "data": "B. Use @HiltViewModel and @Inject",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 63,
+          "questionId": 16,
+          "data": "C. Use @Module",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 64,
+          "questionId": 16,
+          "data": "D. Use @ViewModelScoped",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [62],
+        "answer": ["B. Use @HiltViewModel and @Inject"],
+        "explanation": "Use @HiltViewModel on the ViewModel class and @Inject on its constructor to inject dependencies."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "What is the purpose of @ViewModelScoped in Hilt?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@ViewModelScoped scopes a dependency to the ViewModel's lifecycle, ensuring it is tied to the ViewModel instance.",
+      "answerCellList": [
+        {
+          "answerId": 65,
+          "questionId": 17,
+          "data": "A. Scopes to Activity",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 66,
+          "questionId": 17,
+          "data": "B. Scopes to ViewModel",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 67,
+          "questionId": 17,
+          "data": "C. Scopes to Fragment",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 68,
+          "questionId": 17,
+          "data": "D. Scopes to Application",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [66],
+        "answer": ["B. Scopes to ViewModel"],
+        "explanation": "@ViewModelScoped scopes a dependency to the ViewModel's lifecycle, ensuring it is tied to the ViewModel instance."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "How do you provide a dependency with a qualifier in Hilt?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A custom @Qualifier annotation is used to distinguish between multiple implementations of the same type in Hilt.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 18,
+          "data": "A. Use @Named",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 18,
+          "data": "B. Use custom @Qualifier",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 18,
+          "data": "C. Use @Scope",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 18,
+          "data": "D. Use @Inject",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [70],
+        "answer": ["B. Use custom @Qualifier"],
+        "explanation": "A custom @Qualifier annotation is used to distinguish between multiple implementations of the same type in Hilt."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "How do you inject a dependency into a WorkManager Worker with Hilt?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Annotate the Worker with @HiltWorker and use @AssistedInject for constructor injection, with @Assisted for Worker parameters.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 19,
+          "data": "A. Use @InjectWorker",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 19,
+          "data": "B. Use @HiltWorker and @AssistedInject",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 19,
+          "data": "C. Use @Module",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 19,
+          "data": "D. Use @WorkerScoped",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [74],
+        "answer": ["B. Use @HiltWorker and @AssistedInject"],
+        "explanation": "Annotate the Worker with @HiltWorker and use @AssistedInject for constructor injection, with @Assisted for Worker parameters."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "What is the purpose of @Assisted in Hilt?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@Assisted is used with @AssistedInject to mark constructor parameters provided at runtime, not by Hilt.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 20,
+          "data": "A. Scopes dependencies",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 20,
+          "data": "B. Marks runtime parameters",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 20,
+          "data": "C. Defines modules",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 20,
+          "data": "D. Injects dependencies",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [78],
+        "answer": ["B. Marks runtime parameters"],
+        "explanation": "@Assisted is used with @AssistedInject to mark constructor parameters provided at runtime, not by Hilt."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "Which Hilt component is used for Fragment-scoped dependencies?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "FragmentComponent is used to scope dependencies to the lifecycle of a Fragment in Hilt.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 21,
+          "data": "A. ActivityComponent",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 21,
+          "data": "B. FragmentComponent",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 21,
+          "data": "C. SingletonComponent",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 21,
+          "data": "D. ViewModelComponent",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [82],
+        "answer": ["B. FragmentComponent"],
+        "explanation": "FragmentComponent is used to scope dependencies to the lifecycle of a Fragment in Hilt."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "How do you provide a Context in a Hilt module?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Context is provided using @Provides with @ApplicationContext or @ActivityContext to specify the context type.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 22,
+          "data": "A. Use @InjectContext",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 22,
+          "data": "B. Use @ApplicationContext or @ActivityContext",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 22,
+          "data": "C. Use @Binds",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 22,
+          "data": "D. Use @ContextScoped",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [86],
+        "answer": ["B. Use @ApplicationContext or @ActivityContext"],
+        "explanation": "Context is provided using @Provides with @ApplicationContext or @ActivityContext to specify the context type."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "What is the purpose of @ActivityRetainedScoped in Hilt?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@ActivityRetainedScoped scopes dependencies to the activity's retained lifecycle, surviving configuration changes.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 23,
+          "data": "A. Scopes to Fragment",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 23,
+          "data": "B. Scopes to activity retained lifecycle",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 91,
+          "questionId": 23,
+          "data": "C. Scopes to ViewModel",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 92,
+          "questionId": 23,
+          "data": "D. Scopes to Application",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [90],
+        "answer": ["B. Scopes to activity retained lifecycle"],
+        "explanation": "@ActivityRetainedScoped scopes dependencies to the activity's retained lifecycle, surviving configuration changes."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "How do you test a Hilt-injected ViewModel?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use Hilt's @HiltAndroidTest and @Inject to inject dependencies in tests, with a test module to provide mocks.",
+      "answerCellList": [
+        {
+          "answerId": 93,
+          "questionId": 24,
+          "data": "A. Use @TestViewModel",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 94,
+          "questionId": 24,
+          "data": "B. Use @HiltAndroidTest and test module",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 95,
+          "questionId": 24,
+          "data": "C. Use @Mock",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 96,
+          "questionId": 24,
+          "data": "D. Use @TestScope",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [94],
+        "answer": ["B. Use @HiltAndroidTest and test module"],
+        "explanation": "Use Hilt's @HiltAndroidTest and @Inject to inject dependencies in tests, with a test module to provide mocks."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "What is the purpose of @EntryPoint in Hilt?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@EntryPoint defines an interface for accessing dependencies in classes not supported by @AndroidEntryPoint.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 25,
+          "data": "A. Injects dependencies",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 25,
+          "data": "B. Accesses dependencies in unsupported classes",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 25,
+          "data": "C. Scopes components",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 25,
+          "data": "D. Defines modules",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [98],
+        "answer": ["B. Accesses dependencies in unsupported classes"],
+        "explanation": "@EntryPoint defines an interface for accessing dependencies in classes not supported by @AndroidEntryPoint."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "How do you provide a dependency with a specific scope in Hilt?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use a scope annotation like @Singleton or @ActivityScoped on the @Provides method in a Hilt module.",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 26,
+          "data": "A. Use @Inject",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 26,
+          "data": "B. Use scope on @Provides",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 26,
+          "data": "C. Use @Binds",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 26,
+          "data": "D. Use @ModuleScope",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [102],
+        "answer": ["B. Use scope on @Provides"],
+        "explanation": "Use a scope annotation like @Singleton or @ActivityScoped on the @Provides method in a Hilt module."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "What happens if you forget to annotate a Fragment with @AndroidEntryPoint?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Without @AndroidEntryPoint, Hilt cannot inject dependencies into the Fragment, causing a runtime error.",
+      "answerCellList": [
+        {
+          "answerId": 105,
+          "questionId": 27,
+          "data": "A. Dependencies are injected automatically",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 106,
+          "questionId": 27,
+          "data": "B. Causes runtime error",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 107,
+          "questionId": 27,
+          "data": "C. Uses default scope",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 108,
+          "questionId": 27,
+          "data": "D. Falls back to Dagger",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [106],
+        "answer": ["B. Causes runtime error"],
+        "explanation": "Without @AndroidEntryPoint, Hilt cannot inject dependencies into the Fragment, causing a runtime error."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "How do you provide a Room database with Hilt?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use @Provides in a Hilt module to provide a Room database, typically with @Singleton and @ApplicationContext.",
+      "answerCellList": [
+        {
+          "answerId": 109,
+          "questionId": 28,
+          "data": "A. Use @InjectRoom",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 110,
+          "questionId": 28,
+          "data": "B. Use @Provides with @Singleton",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 111,
+          "questionId": 28,
+          "data": "C. Use @Binds",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 112,
+          "questionId": 28,
+          "data": "D. Use @RoomScoped",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [110],
+        "answer": ["B. Use @Provides with @Singleton"],
+        "explanation": "Use @Provides in a Hilt module to provide a Room database, typically with @Singleton and @ApplicationContext."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "What is the purpose of @HiltAndroidTest?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@HiltAndroidTest enables Hilt dependency injection in Android instrumentation tests, allowing test-specific modules.",
+      "answerCellList": [
+        {
+          "answerId": 113,
+          "questionId": 29,
+          "data": "A. Injects unit tests",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 114,
+          "questionId": 29,
+          "data": "B. Enables Hilt in instrumentation tests",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 115,
+          "questionId": 29,
+          "data": "C. Scopes dependencies",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 116,
+          "questionId": 29,
+          "data": "D. Defines modules",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [114],
+        "answer": ["B. Enables Hilt in instrumentation tests"],
+        "explanation": "@HiltAndroidTest enables Hilt dependency injection in Android instrumentation tests, allowing test-specific modules."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "How do you provide multiple implementations of an interface in Hilt?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use a custom @Qualifier to distinguish between multiple implementations of an interface in a Hilt module.",
+      "answerCellList": [
+        {
+          "answerId": 117,
+          "questionId": 30,
+          "data": "A. Use @BindsMultiple",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 118,
+          "questionId": 30,
+          "data": "B. Use custom @Qualifier",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 119,
+          "questionId": 30,
+          "data": "C. Use @MultiInject",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 120,
+          "questionId": 30,
+          "data": "D. Use @Scope",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [118],
+        "answer": ["B. Use custom @Qualifier"],
+        "explanation": "Use a custom @Qualifier to distinguish between multiple implementations of an interface in a Hilt module."
+      }
+    }
+  ]
+}

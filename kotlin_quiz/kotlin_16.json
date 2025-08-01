@@ -1,0 +1,1325 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is an annotation in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An annotation in Kotlin is metadata attached to code elements, used to provide additional information or instructions to compilers or tools.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. A function modifier",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. Metadata for code elements",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. A type alias",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. A class modifier",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. Metadata for code elements"],
+        "explanation": "An annotation in Kotlin is metadata attached to code elements, used to provide additional information or instructions to compilers or tools."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "How is an annotation declared in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An annotation is declared using the 'annotation' keyword followed by 'class', e.g., annotation class MyAnnotation.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. class MyAnnotation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. annotation class MyAnnotation",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. @annotation MyAnnotation",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. interface MyAnnotation",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. annotation class MyAnnotation"],
+        "explanation": "An annotation is declared using the 'annotation' keyword followed by 'class', e.g., annotation class MyAnnotation."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "How is an annotation applied in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An annotation is applied using the '@' symbol followed by the annotation name, e.g., @MyAnnotation.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. MyAnnotation()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. @MyAnnotation",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 11,
+          "questionId": 3,
+          "data": "C. annotation MyAnnotation",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 12,
+          "questionId": 3,
+          "data": "D. #MyAnnotation",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [10],
+        "answer": ["B. @MyAnnotation"],
+        "explanation": "An annotation is applied using the '@' symbol followed by the annotation name, e.g., @MyAnnotation."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "What is a meta-annotation in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A meta-annotation is an annotation applied to another annotation to control its behavior, such as @Target or @Retention.",
+      "answerCellList": [
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "A. An annotation on a class",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "B. An annotation on another annotation",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 15,
+          "questionId": 4,
+          "data": "C. An annotation on a function",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 16,
+          "questionId": 4,
+          "data": "D. An annotation on a variable",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [14],
+        "answer": ["B. An annotation on another annotation"],
+        "explanation": "A meta-annotation is an annotation applied to another annotation to control its behavior, such as @Target or @Retention."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which meta-annotation specifies where an annotation can be applied?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The @Target meta-annotation specifies the valid targets for an annotation, such as CLASS, FUNCTION, or PROPERTY.",
+      "answerCellList": [
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "A. @Retention",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "B. @Target",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 19,
+          "questionId": 5,
+          "data": "C. @Repeatable",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 20,
+          "questionId": 5,
+          "data": "D. @MustBeDocumented",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [18],
+        "answer": ["B. @Target"],
+        "explanation": "The @Target meta-annotation specifies the valid targets for an annotation, such as CLASS, FUNCTION, or PROPERTY."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "Which meta-annotation controls how long an annotation is retained?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The @Retention meta-annotation controls how long an annotation is retained, with options like SOURCE, BINARY, or RUNTIME.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 6,
+          "data": "A. @Target",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 6,
+          "data": "B. @Retention",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 6,
+          "data": "C. @Repeatable",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 6,
+          "data": "D. @MustBeDocumented",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [22],
+        "answer": ["B. @Retention"],
+        "explanation": "The @Retention meta-annotation controls how long an annotation is retained, with options like SOURCE, BINARY, or RUNTIME."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "What does the @Retention(SOURCE) policy mean?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The SOURCE retention policy means the annotation is only available in the source code and is discarded during compilation.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 7,
+          "data": "A. Available at runtime",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 7,
+          "data": "B. Discarded during compilation",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 7,
+          "data": "C. Available in bytecode",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 7,
+          "data": "D. Available in documentation",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [26],
+        "answer": ["B. Discarded during compilation"],
+        "explanation": "The SOURCE retention policy means the annotation is only available in the source code and is discarded during compilation."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "What does the @Retention(RUNTIME) policy mean?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The RUNTIME retention policy means the annotation is available at runtime via reflection.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 8,
+          "data": "A. Discarded during compilation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 8,
+          "data": "B. Available at runtime",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 8,
+          "data": "C. Available in source only",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 8,
+          "data": "D. Available in documentation",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [30],
+        "answer": ["B. Available at runtime"],
+        "explanation": "The RUNTIME retention policy means the annotation is available at runtime via reflection."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "What does the @Repeatable meta-annotation do?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The @Repeatable meta-annotation allows an annotation to be applied multiple times to the same code element.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 9,
+          "data": "A. Specifies retention policy",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 9,
+          "data": "B. Allows multiple applications",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 35,
+          "questionId": 9,
+          "data": "C. Defines target elements",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 36,
+          "questionId": 9,
+          "data": "D. Includes in documentation",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [34],
+        "answer": ["B. Allows multiple applications"],
+        "explanation": "The @Repeatable meta-annotation allows an annotation to be applied multiple times to the same code element."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "What does the @MustBeDocumented meta-annotation do?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The @MustBeDocumented meta-annotation ensures that the annotation is included in the generated documentation, like JavaDoc.",
+      "answerCellList": [
+        {
+          "answerId": 37,
+          "questionId": 10,
+          "data": "A. Specifies retention policy",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 38,
+          "questionId": 10,
+          "data": "B. Includes in documentation",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 39,
+          "questionId": 10,
+          "data": "C. Allows multiple applications",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 40,
+          "questionId": 10,
+          "data": "D. Defines target elements",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [38],
+        "answer": ["B. Includes in documentation"],
+        "explanation": "The @MustBeDocumented meta-annotation ensures that the annotation is included in the generated documentation, like JavaDoc."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "Which annotation target allows an annotation to be applied to a class?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The CLASS target, used in @Target(AnnotationTarget.CLASS), allows an annotation to be applied to a class.",
+      "answerCellList": [
+        {
+          "answerId": 41,
+          "questionId": 11,
+          "data": "A. FUNCTION",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 42,
+          "questionId": 11,
+          "data": "B. CLASS",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 43,
+          "questionId": 11,
+          "data": "C. PROPERTY",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 44,
+          "questionId": 11,
+          "data": "D. EXPRESSION",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [42],
+        "answer": ["B. CLASS"],
+        "explanation": "The CLASS target, used in @Target(AnnotationTarget.CLASS), allows an annotation to be applied to a class."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "Can annotations in Kotlin have parameters?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Annotations in Kotlin can have parameters, defined in the annotation class constructor, e.g., annotation class MyAnnotation(val value: String).",
+      "answerCellList": [
+        {
+          "answerId": 45,
+          "questionId": 12,
+          "data": "A. No, they cannot",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 46,
+          "questionId": 12,
+          "data": "B. Yes, with constructor",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 47,
+          "questionId": 12,
+          "data": "C. Only for meta-annotations",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 48,
+          "questionId": 12,
+          "data": "D. Only at runtime",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [46],
+        "answer": ["B. Yes, with constructor"],
+        "explanation": "Annotations in Kotlin can have parameters, defined in the annotation class constructor, e.g., annotation class MyAnnotation(val value: String)."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "What types can annotation parameters have in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Annotation parameters can have primitive types, strings, enums, other annotations, or arrays of these types.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 13,
+          "data": "A. Any type",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 13,
+          "data": "B. Primitives, strings, enums, annotations",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 13,
+          "data": "C. Only strings",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 13,
+          "data": "D. Only integers",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [50],
+        "answer": ["B. Primitives, strings, enums, annotations"],
+        "explanation": "Annotation parameters can have primitive types, strings, enums, other annotations, or arrays of these types."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "How do you apply multiple annotations to the same element?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Multiple annotations are applied by listing them with the '@' symbol, e.g., @Annotation1 @Annotation2 class MyClass.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 14,
+          "data": "A. @Annotation1, @Annotation2",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 14,
+          "data": "B. @Annotation1 @Annotation2",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 14,
+          "data": "C. @Annotation1(Annotation2)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 14,
+          "data": "D. @Annotation1[Annotation2]",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [54],
+        "answer": ["B. @Annotation1 @Annotation2"],
+        "explanation": "Multiple annotations are applied by listing them with the '@' symbol, e.g., @Annotation1 @Annotation2 class MyClass."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "What is the default retention policy for an annotation in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The default retention policy for an annotation in Kotlin is RUNTIME, meaning it is available via reflection at runtime.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 15,
+          "data": "A. SOURCE",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 15,
+          "data": "B. RUNTIME",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 15,
+          "data": "C. BINARY",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 15,
+          "data": "D. CLASS",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [58],
+        "answer": ["B. RUNTIME"],
+        "explanation": "The default retention policy for an annotation in Kotlin is RUNTIME, meaning it is available via reflection at runtime."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "Which annotation target allows an annotation to be applied to a function?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The FUNCTION target, used in @Target(AnnotationTarget.FUNCTION), allows an annotation to be applied to a function.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 16,
+          "data": "A. CLASS",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 16,
+          "data": "B. FUNCTION",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 63,
+          "questionId": 16,
+          "data": "C. PROPERTY",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 64,
+          "questionId": 16,
+          "data": "D. EXPRESSION",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [62],
+        "answer": ["B. FUNCTION"],
+        "explanation": "The FUNCTION target, used in @Target(AnnotationTarget.FUNCTION), allows an annotation to be applied to a function."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "Can annotations be applied to local variables in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Annotations can be applied to local variables if the @Target includes LOCAL_VARIABLE, e.g., @Target(AnnotationTarget.LOCAL_VARIABLE).",
+      "answerCellList": [
+        {
+          "answerId": 65,
+          "questionId": 17,
+          "data": "A. No, never",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 66,
+          "questionId": 17,
+          "data": "B. Yes, with LOCAL_VARIABLE target",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 67,
+          "questionId": 17,
+          "data": "C. Only at runtime",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 68,
+          "questionId": 17,
+          "data": "D. Only with RUNTIME retention",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [66],
+        "answer": ["B. Yes, with LOCAL_VARIABLE target"],
+        "explanation": "Annotations can be applied to local variables if the @Target includes LOCAL_VARIABLE, e.g., @Target(AnnotationTarget.LOCAL_VARIABLE)."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "What is the purpose of the @Deprecated annotation?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The @Deprecated annotation marks a code element as deprecated, warning developers and suggesting alternatives.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 18,
+          "data": "A. Marks code as private",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 18,
+          "data": "B. Marks code as deprecated",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 18,
+          "data": "C. Marks code as abstract",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 18,
+          "data": "D. Marks code as final",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [70],
+        "answer": ["B. Marks code as deprecated"],
+        "explanation": "The @Deprecated annotation marks a code element as deprecated, warning developers and suggesting alternatives."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "How do you specify a replacement for a @Deprecated annotation?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The @Deprecated annotation can include a 'replaceWith' parameter, e.g., @Deprecated(\"Use newFunction\", ReplaceWith(\"newFunction()\")) to suggest a replacement.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 19,
+          "data": "A. Using @Replace annotation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 19,
+          "data": "B. Using replaceWith parameter",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 19,
+          "data": "C. Using @Alternative annotation",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 19,
+          "data": "D. Using @Target parameter",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [74],
+        "answer": ["B. Using replaceWith parameter"],
+        "explanation": "The @Deprecated annotation can include a 'replaceWith' parameter, e.g., @Deprecated(\"Use newFunction\", ReplaceWith(\"newFunction()\")) to suggest a replacement."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "Can annotations be applied to type parameters in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Annotations can be applied to type parameters if the @Target includes TYPE_PARAMETER, e.g., @Target(AnnotationTarget.TYPE_PARAMETER).",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 20,
+          "data": "A. No, never",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 20,
+          "data": "B. Yes, with TYPE_PARAMETER target",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 20,
+          "data": "C. Only at runtime",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 20,
+          "data": "D. Only with RUNTIME retention",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [78],
+        "answer": ["B. Yes, with TYPE_PARAMETER target"],
+        "explanation": "Annotations can be applied to type parameters if the @Target includes TYPE_PARAMETER, e.g., @Target(AnnotationTarget.TYPE_PARAMETER)."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "What is the purpose of the @Suppress annotation in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The @Suppress annotation suppresses specific compiler warnings, e.g., @Suppress(\"UNUSED_VARIABLE\") to ignore unused variable warnings.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 21,
+          "data": "A. Marks code as deprecated",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 21,
+          "data": "B. Suppresses compiler warnings",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 21,
+          "data": "C. Marks code as private",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 21,
+          "data": "D. Defines annotation targets",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [82],
+        "answer": ["B. Suppresses compiler warnings"],
+        "explanation": "The @Suppress annotation suppresses specific compiler warnings, e.g., @Suppress(\"UNUSED_VARIABLE\") to ignore unused variable warnings."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "Can annotations be applied to expressions in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Annotations can be applied to expressions if the @Target includes EXPRESSION, e.g., @Target(AnnotationTarget.EXPRESSION).",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 22,
+          "data": "A. No, never",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 22,
+          "data": "B. Yes, with EXPRESSION target",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 22,
+          "data": "C. Only at runtime",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 22,
+          "data": "D. Only with RUNTIME retention",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [86],
+        "answer": ["B. Yes, with EXPRESSION target"],
+        "explanation": "Annotations can be applied to expressions if the @Target includes EXPRESSION, e.g., @Target(AnnotationTarget.EXPRESSION)."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "What does the @Retention(BINARY) policy mean?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The BINARY retention policy means the annotation is stored in the compiled bytecode but is not available at runtime.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 23,
+          "data": "A. Available at runtime",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 23,
+          "data": "B. Stored in bytecode, not runtime",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 91,
+          "questionId": 23,
+          "data": "C. Available in source only",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 92,
+          "questionId": 23,
+          "data": "D. Included in documentation",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [90],
+        "answer": ["B. Stored in bytecode, not runtime"],
+        "explanation": "The BINARY retention policy means the annotation is stored in the compiled bytecode but is not available at runtime."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "Can annotations be applied to a file in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Annotations can be applied to a file using the @file:Annotation syntax, if the @Target includes FILE, e.g., @Target(AnnotationTarget.FILE).",
+      "answerCellList": [
+        {
+          "answerId": 93,
+          "questionId": 24,
+          "data": "A. No, never",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 94,
+          "questionId": 24,
+          "data": "B. Yes, with FILE target",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 95,
+          "questionId": 24,
+          "data": "C. Only at runtime",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 96,
+          "questionId": 24,
+          "data": "D. Only with RUNTIME retention",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [94],
+        "answer": ["B. Yes, with FILE target"],
+        "explanation": "Annotations can be applied to a file using the @file:Annotation syntax, if the @Target includes FILE, e.g., @Target(AnnotationTarget.FILE)."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "What is the @JvmName annotation used for?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The @JvmName annotation specifies a custom name for a function or file in the generated JVM bytecode to avoid naming conflicts.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 25,
+          "data": "A. Marks code as deprecated",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 25,
+          "data": "B. Specifies JVM bytecode name",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 25,
+          "data": "C. Suppresses warnings",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 25,
+          "data": "D. Defines annotation targets",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [98],
+        "answer": ["B. Specifies JVM bytecode name"],
+        "explanation": "The @JvmName annotation specifies a custom name for a function or file in the generated JVM bytecode to avoid naming conflicts."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "What is the @Throws annotation used for in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The @Throws annotation specifies exceptions a function may throw, for compatibility with Java code, e.g., @Throws(IOException::class).",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 26,
+          "data": "A. Marks code as deprecated",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 26,
+          "data": "B. Specifies thrown exceptions",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 26,
+          "data": "C. Suppresses warnings",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 26,
+          "data": "D. Defines annotation targets",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [102],
+        "answer": ["B. Specifies thrown exceptions"],
+        "explanation": "The @Throws annotation specifies exceptions a function may throw, for compatibility with Java code, e.g., @Throws(IOException::class)."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "Can annotations be used with lambda expressions in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Annotations can be applied to lambda expressions if the @Target includes EXPRESSION, as lambdas are considered expressions.",
+      "answerCellList": [
+        {
+          "answerId": 105,
+          "questionId": 27,
+          "data": "A. No, never",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 106,
+          "questionId": 27,
+          "data": "B. Yes, with EXPRESSION target",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 107,
+          "questionId": 27,
+          "data": "C. Only at runtime",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 108,
+          "questionId": 27,
+          "data": "D. Only with RUNTIME retention",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [106],
+        "answer": ["B. Yes, with EXPRESSION target"],
+        "explanation": "Annotations can be applied to lambda expressions if the @Target includes EXPRESSION, as lambdas are considered expressions."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "What is the @JvmStatic annotation used for?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The @JvmStatic annotation makes a companion object function or property accessible as a static member in Java code.",
+      "answerCellList": [
+        {
+          "answerId": 109,
+          "questionId": 28,
+          "data": "A. Marks code as deprecated",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 110,
+          "questionId": 28,
+          "data": "B. Makes companion object static",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 111,
+          "questionId": 28,
+          "data": "C. Suppresses warnings",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 112,
+          "questionId": 28,
+          "data": "D. Defines annotation targets",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [110],
+        "answer": ["B. Makes companion object static"],
+        "explanation": "The @JvmStatic annotation makes a companion object function or property accessible as a static member in Java code."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "Can annotations be inherited in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Annotations are not inherited by default in Kotlin, but can be with the @Inherited meta-annotation, which is a Java annotation for compatibility.",
+      "answerCellList": [
+        {
+          "answerId": 113,
+          "questionId": 29,
+          "data": "A. Yes, always",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 114,
+          "questionId": 29,
+          "data": "B. With @Inherited meta-annotation",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 115,
+          "questionId": 29,
+          "data": "C. Only at runtime",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 116,
+          "questionId": 29,
+          "data": "D. Never",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [114],
+        "answer": ["B. With @Inherited meta-annotation"],
+        "explanation": "Annotations are not inherited by default in Kotlin, but can be with the @Inherited meta-annotation, which is a Java annotation for compatibility."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "What is the @Strictfp annotation used for in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The @Strictfp annotation ensures strict floating-point calculations for JVM compatibility, maintaining consistent precision across platforms.",
+      "answerCellList": [
+        {
+          "answerId": 117,
+          "questionId": 30,
+          "data": "A. Marks code as deprecated",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 118,
+          "questionId": 30,
+          "data": "B. Ensures strict floating-point calculations",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 119,
+          "questionId": 30,
+          "data": "C. Suppresses warnings",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 120,
+          "questionId": 30,
+          "data": "D. Defines annotation targets",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [118],
+        "answer": ["B. Ensures strict floating-point calculations"],
+        "explanation": "The @Strictfp annotation ensures strict floating-point calculations for JVM compatibility, maintaining consistent precision across platforms."
+      }
+    }
+  ]
+}

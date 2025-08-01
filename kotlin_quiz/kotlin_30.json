@@ -1,0 +1,1325 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is the primary purpose of Firebase in Android development?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Firebase provides a suite of cloud-based tools for building and managing Android apps, including authentication, database, and analytics.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. Manage UI components",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. Provide cloud-based tools",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. Handle local storage",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. Create animations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. Provide cloud-based tools"],
+        "explanation": "Firebase provides a suite of cloud-based tools for building and managing Android apps, including authentication, database, and analytics."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "How do you initialize Firebase in a Kotlin Android app?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Firebase is initialized using FirebaseApp.initializeApp(context) in the Application class or Activity.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. Firebase.init(context)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. FirebaseApp.initializeApp(context)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. Firebase.setup(context)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. Firebase.start(context)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. FirebaseApp.initializeApp(context)"],
+        "explanation": "Firebase is initialized using FirebaseApp.initializeApp(context) in the Application class or Activity."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "Which Firebase service is used for user authentication?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Firebase Authentication is used to manage user authentication in Android apps.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. Firestore",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. Firebase Authentication",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 11,
+          "questionId": 3,
+          "data": "C. Realtime Database",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 12,
+          "questionId": 3,
+          "data": "D. Cloud Messaging",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [10],
+        "answer": ["B. Firebase Authentication"],
+        "explanation": "Firebase Authentication is used to manage user authentication in Android apps."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "How do you sign in a user with email and password using Firebase Authentication in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password) to sign in a user.",
+      "answerCellList": [
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "A. FirebaseAuth.signIn(email, password)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "B. FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 15,
+          "questionId": 4,
+          "data": "C. FirebaseAuth.login(email, password)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 16,
+          "questionId": 4,
+          "data": "D. FirebaseAuth.authenticate(email, password)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [14],
+        "answer": ["B. FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password)"],
+        "explanation": "Use FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password) to sign in a user."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which Firebase service is used for NoSQL cloud database storage?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Firestore is Firebase's NoSQL cloud database for storing and syncing data.",
+      "answerCellList": [
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "A. Realtime Database",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "B. Firestore",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 19,
+          "questionId": 5,
+          "data": "C. Cloud Storage",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 20,
+          "questionId": 5,
+          "data": "D. Firebase Analytics",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [18],
+        "answer": ["B. Firestore"],
+        "explanation": "Firestore is Firebase's NoSQL cloud database for storing and syncing data."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "How do you get an instance of Firestore in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use FirebaseFirestore.getInstance() to get a Firestore instance in Kotlin.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 6,
+          "data": "A. Firestore.create()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 6,
+          "data": "B. FirebaseFirestore.getInstance()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 6,
+          "data": "C. Firestore.init()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 6,
+          "data": "D. FirebaseFirestore.createInstance()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [22],
+        "answer": ["B. FirebaseFirestore.getInstance()"],
+        "explanation": "Use FirebaseFirestore.getInstance() to get a Firestore instance in Kotlin."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "How do you add a document to a Firestore collection in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use collection().add(data) to add a document with an auto-generated ID to a Firestore collection.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 7,
+          "data": "A. collection().set(data)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 7,
+          "data": "B. collection().add(data)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 7,
+          "data": "C. collection().put(data)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 7,
+          "data": "D. collection().insert(data)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [26],
+        "answer": ["B. collection().add(data)"],
+        "explanation": "Use collection().add(data) to add a document with an auto-generated ID to a Firestore collection."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "How do you retrieve data from Firestore in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use collection().get() to retrieve data from a Firestore collection asynchronously.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 8,
+          "data": "A. collection().fetch()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 8,
+          "data": "B. collection().get()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 8,
+          "data": "C. collection().retrieve()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 8,
+          "data": "D. collection().query()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [30],
+        "answer": ["B. collection().get()"],
+        "explanation": "Use collection().get() to retrieve data from a Firestore collection asynchronously."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "Which Firebase service is used for real-time data synchronization?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Realtime Database is used for real-time data synchronization in Firebase.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 9,
+          "data": "A. Firestore",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 9,
+          "data": "B. Realtime Database",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 35,
+          "questionId": 9,
+          "data": "C. Cloud Storage",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 36,
+          "questionId": 9,
+          "data": "D. Firebase Analytics",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [34],
+        "answer": ["B. Realtime Database"],
+        "explanation": "Realtime Database is used for real-time data synchronization in Firebase."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "How do you get an instance of Firebase Realtime Database in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use FirebaseDatabase.getInstance() to get an instance of Firebase Realtime Database.",
+      "answerCellList": [
+        {
+          "answerId": 37,
+          "questionId": 10,
+          "data": "A. RealtimeDatabase.create()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 38,
+          "questionId": 10,
+          "data": "B. FirebaseDatabase.getInstance()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 39,
+          "questionId": 10,
+          "data": "C. FirebaseDatabase.init()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 40,
+          "questionId": 10,
+          "data": "D. RealtimeDatabase.getInstance()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [38],
+        "answer": ["B. FirebaseDatabase.getInstance()"],
+        "explanation": "Use FirebaseDatabase.getInstance() to get an instance of Firebase Realtime Database."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "How do you write data to Firebase Realtime Database in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use reference.setValue(data) to write data to a specific reference in Realtime Database.",
+      "answerCellList": [
+        {
+          "answerId": 41,
+          "questionId": 11,
+          "data": "A. reference.write(data)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 42,
+          "questionId": 11,
+          "data": "B. reference.setValue(data)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 43,
+          "questionId": 11,
+          "data": "C. reference.put(data)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 44,
+          "questionId": 11,
+          "data": "D. reference.insert(data)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [42],
+        "answer": ["B. reference.setValue(data)"],
+        "explanation": "Use reference.setValue(data) to write data to a specific reference in Realtime Database."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "How do you listen for real-time updates in Firebase Realtime Database?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use addValueEventListener() to listen for real-time data changes in Realtime Database.",
+      "answerCellList": [
+        {
+          "answerId": 45,
+          "questionId": 12,
+          "data": "A. addDataListener()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 46,
+          "questionId": 12,
+          "data": "B. addValueEventListener()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 47,
+          "questionId": 12,
+          "data": "C. addChangeListener()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 48,
+          "questionId": 12,
+          "data": "D. addUpdateListener()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [46],
+        "answer": ["B. addValueEventListener()"],
+        "explanation": "Use addValueEventListener() to listen for real-time data changes in Realtime Database."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "Which Firebase service is used for file storage?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Cloud Storage is used for storing files such as images and videos in Firebase.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 13,
+          "data": "A. Firestore",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 13,
+          "data": "B. Cloud Storage",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 13,
+          "data": "C. Realtime Database",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 13,
+          "data": "D. Firebase Analytics",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [50],
+        "answer": ["B. Cloud Storage"],
+        "explanation": "Cloud Storage is used for storing files such as images and videos in Firebase."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "How do you upload a file to Firebase Cloud Storage in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use storageReference.putFile(fileUri) to upload a file to Cloud Storage.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 14,
+          "data": "A. storageReference.upload(fileUri)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 14,
+          "data": "B. storageReference.putFile(fileUri)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 14,
+          "data": "C. storageReference.addFile(fileUri)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 14,
+          "data": "D. storageReference.insert(fileUri)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [54],
+        "answer": ["B. storageReference.putFile(fileUri)"],
+        "explanation": "Use storageReference.putFile(fileUri) to upload a file to Cloud Storage."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "How do you download a file from Firebase Cloud Storage in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use storageReference.downloadUrl to get a downloadable URL or getFile() to download directly to a file.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 15,
+          "data": "A. storageReference.fetchFile()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 15,
+          "data": "B. storageReference.downloadUrl or getFile()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 15,
+          "data": "C. storageReference.retrieveFile()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 15,
+          "data": "D. storageReference.getUrl()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [58],
+        "answer": ["B. storageReference.downloadUrl or getFile()"],
+        "explanation": "Use storageReference.downloadUrl to get a downloadable URL or getFile() to download directly to a file."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "Which Firebase service is used for sending push notifications?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Firebase Cloud Messaging (FCM) is used for sending push notifications in Android apps.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 16,
+          "data": "A. Firestore",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 16,
+          "data": "B. Firebase Cloud Messaging",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 63,
+          "questionId": 16,
+          "data": "C. Realtime Database",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 64,
+          "questionId": 16,
+          "data": "D. Firebase Analytics",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [62],
+        "answer": ["B. Firebase Cloud Messaging"],
+        "explanation": "Firebase Cloud Messaging (FCM) is used for sending push notifications in Android apps."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "How do you handle Firebase Cloud Messaging notifications in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extend FirebaseMessagingService and override onMessageReceived to handle FCM notifications.",
+      "answerCellList": [
+        {
+          "answerId": 65,
+          "questionId": 17,
+          "data": "A. Use FirebaseNotificationListener",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 66,
+          "questionId": 17,
+          "data": "B. Extend FirebaseMessagingService",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 67,
+          "questionId": 17,
+          "data": "C. Use NotificationManager",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 68,
+          "questionId": 17,
+          "data": "D. Use FirebaseMessageHandler",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [66],
+        "answer": ["B. Extend FirebaseMessagingService"],
+        "explanation": "Extend FirebaseMessagingService and override onMessageReceived to handle FCM notifications."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "How do you log an event with Firebase Analytics in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use FirebaseAnalytics.getInstance(context).logEvent(eventName, bundle) to log custom events.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 18,
+          "data": "A. FirebaseAnalytics.track(eventName)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 18,
+          "data": "B. FirebaseAnalytics.getInstance(context).logEvent(eventName, bundle)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 18,
+          "data": "C. FirebaseAnalytics.record(eventName)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 18,
+          "data": "D. FirebaseAnalytics.sendEvent(eventName)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [70],
+        "answer": ["B. FirebaseAnalytics.getInstance(context).logEvent(eventName, bundle)"],
+        "explanation": "Use FirebaseAnalytics.getInstance(context).logEvent(eventName, bundle) to log custom events."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "How do you sign out a user in Firebase Authentication?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use FirebaseAuth.getInstance().signOut() to sign out a user from Firebase Authentication.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 19,
+          "data": "A. FirebaseAuth.logout()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 19,
+          "data": "B. FirebaseAuth.getInstance().signOut()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 19,
+          "data": "C. FirebaseAuth.clearUser()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 19,
+          "data": "D. FirebaseAuth.removeUser()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [74],
+        "answer": ["B. FirebaseAuth.getInstance().signOut()"],
+        "explanation": "Use FirebaseAuth.getInstance().signOut() to sign out a user from Firebase Authentication."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "How do you check the current user in Firebase Authentication?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use FirebaseAuth.getInstance().currentUser to check if a user is signed in and get their details.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 20,
+          "data": "A. FirebaseAuth.getUser()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 20,
+          "data": "B. FirebaseAuth.getInstance().currentUser",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 20,
+          "data": "C. FirebaseAuth.activeUser()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 20,
+          "data": "D. FirebaseAuth.checkUser()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [78],
+        "answer": ["B. FirebaseAuth.getInstance().currentUser"],
+        "explanation": "Use FirebaseAuth.getInstance().currentUser to check if a user is signed in and get their details."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "How do you query Firestore for specific documents in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use collection().whereEqualTo(field, value).get() to query Firestore for documents matching specific criteria.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 21,
+          "data": "A. collection().query(field, value)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 21,
+          "data": "B. collection().whereEqualTo(field, value).get()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 21,
+          "data": "C. collection().filter(field, value)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 21,
+          "data": "D. collection().find(field, value)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [82],
+        "answer": ["B. collection().whereEqualTo(field, value).get()"],
+        "explanation": "Use collection().whereEqualTo(field, value).get() to query Firestore for documents matching specific criteria."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "How do you listen for real-time updates in Firestore?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use addSnapshotListener() to listen for real-time updates in Firestore collections or documents.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 22,
+          "data": "A. addDataListener()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 22,
+          "data": "B. addSnapshotListener()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 22,
+          "data": "C. addChangeListener()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 22,
+          "data": "D. addUpdateListener()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [86],
+        "answer": ["B. addSnapshotListener()"],
+        "explanation": "Use addSnapshotListener() to listen for real-time updates in Firestore collections or documents."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "How do you configure Firebase Remote Config in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use FirebaseRemoteConfig.getInstance() and set defaults with setDefaultsAsync() to configure Remote Config.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 23,
+          "data": "A. RemoteConfig.init()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 23,
+          "data": "B. FirebaseRemoteConfig.getInstance().setDefaultsAsync()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 91,
+          "questionId": 23,
+          "data": "C. FirebaseRemoteConfig.setup()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 92,
+          "questionId": 23,
+          "data": "D. RemoteConfig.create()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [90],
+        "answer": ["B. FirebaseRemoteConfig.getInstance().setDefaultsAsync()"],
+        "explanation": "Use FirebaseRemoteConfig.getInstance() and set defaults with setDefaultsAsync() to configure Remote Config."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "How do you fetch Remote Config values in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use FirebaseRemoteConfig.getInstance().fetchAndActivate() to fetch and activate Remote Config values.",
+      "answerCellList": [
+        {
+          "answerId": 93,
+          "questionId": 24,
+          "data": "A. FirebaseRemoteConfig.fetch()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 94,
+          "questionId": 24,
+          "data": "B. FirebaseRemoteConfig.getInstance().fetchAndActivate()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 95,
+          "questionId": 24,
+          "data": "C. FirebaseRemoteConfig.retrieve()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 96,
+          "questionId": 24,
+          "data": "D. FirebaseRemoteConfig.getValues()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [94],
+        "answer": ["B. FirebaseRemoteConfig.getInstance().fetchAndActivate()"],
+        "explanation": "Use FirebaseRemoteConfig.getInstance().fetchAndActivate() to fetch and activate Remote Config values."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "How do you enable offline persistence in Firestore?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use FirebaseFirestore.getInstance().firestoreSettings = FirestoreSettings.Builder().setPersistenceEnabled(true).build() to enable offline persistence.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 25,
+          "data": "A. Firestore.enableOffline()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 25,
+          "data": "B. FirestoreSettings.Builder().setPersistenceEnabled(true)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 25,
+          "data": "C. Firestore.setOffline(true)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 25,
+          "data": "D. Firestore.activateOffline()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [98],
+        "answer": ["B. FirestoreSettings.Builder().setPersistenceEnabled(true)"],
+        "explanation": "Use FirebaseFirestore.getInstance().firestoreSettings = FirestoreSettings.Builder().setPersistenceEnabled(true).build() to enable offline persistence."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "How do you update a document in Firestore in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use document().update(field, value) to update specific fields in a Firestore document.",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 26,
+          "data": "A. document().set(field, value)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 26,
+          "data": "B. document().update(field, value)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 26,
+          "data": "C. document().modify(field, value)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 26,
+          "data": "D. document().edit(field, value)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [102],
+        "answer": ["B. document().update(field, value)"],
+        "explanation": "Use document().update(field, value) to update specific fields in a Firestore document."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "How do you delete a document in Firestore in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use document().delete() to delete a specific document in Firestore.",
+      "answerCellList": [
+        {
+          "answerId": 105,
+          "questionId": 27,
+          "data": "A. document().remove()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 106,
+          "questionId": 27,
+          "data": "B. document().delete()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 107,
+          "questionId": 27,
+          "data": "C. document().clear()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 108,
+          "questionId": 27,
+          "data": "D. document().erase()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [106],
+        "answer": ["B. document().delete()"],
+        "explanation": "Use document().delete() to delete a specific document in Firestore."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "How do you handle Firebase Authentication state changes in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use FirebaseAuth.getInstance().addAuthStateListener() to listen for authentication state changes.",
+      "answerCellList": [
+        {
+          "answerId": 109,
+          "questionId": 28,
+          "data": "A. FirebaseAuth.onStateChange()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 110,
+          "questionId": 28,
+          "data": "B. FirebaseAuth.getInstance().addAuthStateListener()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 111,
+          "questionId": 28,
+          "data": "C. FirebaseAuth.listenState()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 112,
+          "questionId": 28,
+          "data": "D. FirebaseAuth.monitorAuth()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [110],
+        "answer": ["B. FirebaseAuth.getInstance().addAuthStateListener()"],
+        "explanation": "Use FirebaseAuth.getInstance().addAuthStateListener() to listen for authentication state changes."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "How do you configure Firebase Crashlytics in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Enable Crashlytics with FirebaseCrashlytics.getInstance() and ensure it’s enabled in the Firebase console.",
+      "answerCellList": [
+        {
+          "answerId": 113,
+          "questionId": 29,
+          "data": "A. Crashlytics.init()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 114,
+          "questionId": 29,
+          "data": "B. FirebaseCrashlytics.getInstance()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 115,
+          "questionId": 29,
+          "data": "C. Crashlytics.setup()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 116,
+          "questionId": 29,
+          "data": "D. FirebaseCrashlytics.enable()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [114],
+        "answer": ["B. FirebaseCrashlytics.getInstance()"],
+        "explanation": "Enable Crashlytics with FirebaseCrashlytics.getInstance() and ensure it’s enabled in the Firebase console."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "How do you log a custom crash report in Firebase Crashlytics?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use FirebaseCrashlytics.getInstance().log(message) to log custom messages for Crashlytics.",
+      "answerCellList": [
+        {
+          "answerId": 117,
+          "questionId": 30,
+          "data": "A. Crashlytics.report(message)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 118,
+          "questionId": 30,
+          "data": "B. FirebaseCrashlytics.getInstance().log(message)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 119,
+          "questionId": 30,
+          "data": "C. Crashlytics.logError(message)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 120,
+          "questionId": 30,
+          "data": "D. FirebaseCrashlytics.write(message)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [118],
+        "answer": ["B. FirebaseCrashlytics.getInstance().log(message)"],
+        "explanation": "Use FirebaseCrashlytics.getInstance().log(message) to log custom messages for Crashlytics."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1213 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "Which Android feature provides spoken feedback for users with visual impairments?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "TalkBack is Android’s built-in screen reader that provides spoken feedback to help users with visual impairments navigate their device.",[](https://support.google.com/accessibility/android/answer/6006564?hl=en)
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. Voice Access",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. TalkBack",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. Switch Access",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. Live Caption",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. TalkBack"],
+        "explanation": "TalkBack is Android’s built-in screen reader that provides spoken feedback to help users with visual impairments navigate their device."[](https://support.google.com/accessibility/android/answer/6006564?hl=en)
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which accessibility features are included in the Android Accessibility Suite? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Android Accessibility Suite includes Accessibility Menu, Select to Speak, Switch Access, and TalkBack.",[](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&hl=en_US)
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. Accessibility Menu",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. Select to Speak",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. Magnifier",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. TalkBack",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [5, 6, 8],
+        "answer": ["A. Accessibility Menu", "B. Select to Speak", "D. TalkBack"],
+        "explanation": "The Android Accessibility Suite includes Accessibility Menu, Select to Speak, Switch Access, and TalkBack."[](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&hl=en_US)
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "True or False: TalkBack’s braille keyboard supports Unified English Braille, Spanish, and Arabic.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "TalkBack’s braille keyboard supports 6-dot braille input in Unified English Braille, Spanish, and Arabic, eliminating the need for BrailleBack.",[](https://support.google.com/accessibility/android/answer/6006564?hl=en)
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [9],
+        "answer": ["A. True"],
+        "explanation": "TalkBack’s braille keyboard supports 6-dot braille input in Unified English Braille, Spanish, and Arabic, eliminating the need for BrailleBack."[](https://support.google.com/accessibility/android/answer/6006564?hl=en)
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "What is the minimum Android version required for the Android Accessibility Suite?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Android Accessibility Suite requires Android 6 (Marshmallow) or later.",[](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&hl=en_US)
+      "answerCellList": [
+        {
+          "answerId": 11,
+          "questionId": 4,
+          "data": "A. Android 5",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 12,
+          "questionId": 4,
+          "data": "B. Android 6",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "C. Android 7",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "D. Android 8",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [12],
+        "answer": ["B. Android 6"],
+        "explanation": "The Android Accessibility Suite requires Android 6 (Marshmallow) or later."[](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&hl=en_US)
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which accessibility features were enhanced with AI in Android 16? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Android 16 enhances TalkBack with Gemini-powered screen descriptions and Expressive Captions with duration and sound labels.",[](https://www.android.com/accessibility/)[](https://blog.google/outreach-initiatives/accessibility/android-gemini-ai-gaad-2025/)
+      "answerCellList": [
+        {
+          "answerId": 15,
+          "questionId": 5,
+          "data": "A. TalkBack",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 16,
+          "questionId": 5,
+          "data": "B. Expressive Captions",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "C. Switch Access",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "D. Voice Access",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [15, 16],
+        "answer": ["A. TalkBack", "B. Expressive Captions"],
+        "explanation": "Android 16 enhances TalkBack with Gemini-powered screen descriptions and Expressive Captions with duration and sound labels."[](https://www.android.com/accessibility/)[](https://blog.google/outreach-initiatives/accessibility/android-gemini-ai-gaad-2025/)
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "True or False: The Magnifier app is available on all Android devices.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Magnifier app is only available on Pixel 5 and later phones, not all Android devices.",[](https://support.google.com/accessibility/android/answer/6006564?hl=en)
+      "answerCellList": [
+        {
+          "answerId": 19,
+          "questionId": 6,
+          "data": "A. True",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 20,
+          "questionId": 6,
+          "data": "B. False",
+          "isItAnswer": true,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [20],
+        "answer": ["B. False"],
+        "explanation": "The Magnifier app is only available on Pixel 5 and later phones, not all Android devices."[](https://support.google.com/accessibility/android/answer/6006564?hl=en)
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Which feature allows users to control an Android device with switches instead of the touchscreen?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Switch Access allows users to interact with their Android device using one or more switches instead of the touchscreen.",[](https://support.google.com/accessibility/android/answer/6006564?hl=en)
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 7,
+          "data": "A. Voice Access",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 7,
+          "data": "B. Switch Access",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 7,
+          "data": "C. TalkBack",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 7,
+          "data": "D. Action Blocks",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [22],
+        "answer": ["B. Switch Access"],
+        "explanation": "Switch Access allows users to interact with their Android device using one or more switches instead of the touchscreen."[](https://support.google.com/accessibility/android/answer/6006564?hl=en)
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "Which accessibility features are available on Android 13 and up? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Android 13 introduced the Audio Description toggle and enhanced magnification features.",[](https://support.google.com/accessibility/android/answer/6006564?hl=en)[](https://blog.google/products/android/android-14/)
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 8,
+          "data": "A. Audio Description",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 8,
+          "data": "B. Magnification",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 8,
+          "data": "C. Expressive Captions",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 8,
+          "data": "D. Voice Access",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [25, 26],
+        "answer": ["A. Audio Description", "B. Magnification"],
+        "explanation": "Android 13 introduced the Audio Description toggle and enhanced magnification features."[](https://support.google.com/accessibility/android/answer/6006564?hl=en)[](https://blog.google/products/android/android-14/)
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "What is the purpose of the Accessibility Scanner for app developers?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Accessibility Scanner analyzes apps to suggest improvements for accessibility, such as content labels and touch target sizes.",[](https://support.google.com/accessibility/android/answer/6006564?hl=en)
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 9,
+          "data": "A. To optimize app performance",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 9,
+          "data": "B. To suggest accessibility improvements",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 9,
+          "data": "C. To test app security",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 9,
+          "data": "D. To manage app permissions",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [30],
+        "answer": ["B. To suggest accessibility improvements"],
+        "explanation": "Accessibility Scanner analyzes apps to suggest improvements for accessibility, such as content labels and touch target sizes."[](https://support.google.com/accessibility/android/answer/6006564?hl=en)
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "True or False: Expressive Captions capture the duration and tone of spoken words.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Expressive Captions use AI to capture the duration and tone of spoken words, such as 'nooooo' or 'amaaazing,' for a richer experience.",[](https://blog.google/outreach-initiatives/accessibility/android-gemini-ai-gaad-2025/)
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 10,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 10,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [33],
+        "answer": ["A. True"],
+        "explanation": "Expressive Captions use AI to capture the duration and tone of spoken words, such as 'nooooo' or 'amaaazing,' for a richer experience."[](https://blog.google/outreach-initiatives/accessibility/android-gemini-ai-gaad-2025/)
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "Which Android version introduced the phone as a mic input for LE Audio hearing aids?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Android 16 introduced the ability to use the phone as a microphone input for LE Audio hearing aids.",[](https://www.android.com/articles/android-16-features/)
+      "answerCellList": [
+        {
+          "answerId": 35,
+          "questionId": 11,
+          "data": "A. Android 13",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 36,
+          "questionId": 11,
+          "data": "B. Android 14",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 37,
+          "questionId": 11,
+          "data": "C. Android 15",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 38,
+          "questionId": 11,
+          "data": "D. Android 16",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [38],
+        "answer": ["D. Android 16"],
+        "explanation": "Android 16 introduced the ability to use the phone as a microphone input for LE Audio hearing aids."[](https://www.android.com/articles/android-16-features/)
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "Which accessibility features support users with hearing impairments? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Live Caption, Expressive Captions, and hearing aid support assist users with hearing impairments.",[](https://blog.google/outreach-initiatives/accessibility/google-pixel-camera-accessibility-update-2024/)[](https://blog.google/outreach-initiatives/accessibility/android-gemini-ai-gaad-2025/)[](https://blog.google/products/android/android-14/)
+      "answerCellList": [
+        {
+          "answerId": 39,
+          "questionId": 12,
+          "data": "A. Live Caption",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 40,
+          "questionId": 12,
+          "data": "B. Expressive Captions",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 41,
+          "questionId": 12,
+          "data": "C. TalkBack",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 42,
+          "questionId": 12,
+          "data": "D. Hearing aid support",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [39, 40, 42],
+        "answer": ["A. Live Caption", "B. Expressive Captions", "D. Hearing aid support"],
+        "explanation": "Live Caption, Expressive Captions, and hearing aid support assist users with hearing impairments."[](https://blog.google/outreach-initiatives/accessibility/google-pixel-camera-accessibility-update-2024/)[](https://blog.google/outreach-initiatives/accessibility/android-gemini-ai-gaad-2025/)[](https://blog.google/products/android/android-14/)
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "What is the deprecated app replaced by TalkBack’s braille keyboard?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "TalkBack’s braille keyboard replaces the need for the deprecated BrailleBack app for braille display connectivity.",[](https://support.google.com/accessibility/android/answer/6006564?hl=en)
+      "answerCellList": [
+        {
+          "answerId": 43,
+          "questionId": 13,
+          "data": "A. Voice Access",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 44,
+          "questionId": 13,
+          "data": "B. BrailleBack",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 45,
+          "questionId": 13,
+          "data": "C. Select to Speak",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 46,
+          "questionId": 13,
+          "data": "D. Magnifier",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [44],
+        "answer": ["B. BrailleBack"],
+        "explanation": "TalkBack’s braille keyboard replaces the need for the deprecated BrailleBack app for braille display connectivity."[](https://support.google.com/accessibility/android/answer/6006564?hl=en)
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "True or False: Voice Access is available in beta and only supports English.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Voice Access is no longer in beta and supports multiple languages, allowing hands-free control with spoken commands.",[](https://www.boia.org/blog/what-are-android-accessibility-features)
+      "answerCellList": [
+        {
+          "answerId": 47,
+          "questionId": 14,
+          "data": "A. True",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 48,
+          "questionId": 14,
+          "data": "B. False",
+          "isItAnswer": true,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [48],
+        "answer": ["B. False"],
+        "explanation": "Voice Access is no longer in beta and supports multiple languages, allowing hands-free control with spoken commands."[](https://www.boia.org/blog/what-are-android-accessibility-features)
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "Which languages were added to Live Caption in Android 15? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Android 15 added Korean, Polish, Portuguese, Russian, Chinese, Turkish, and Vietnamese to Live Caption.",[](https://blog.google/outreach-initiatives/accessibility/google-pixel-camera-accessibility-update-2024/)
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 15,
+          "data": "A. Korean",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 15,
+          "data": "B. Spanish",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 15,
+          "data": "C. Russian",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 15,
+          "data": "D. Portuguese",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [49, 51, 52],
+        "answer": ["A. Korean", "C. Russian", "D. Portuguese"],
+        "explanation": "Android 15 added Korean, Polish, Portuguese, Russian, Chinese, Turkish, and Vietnamese to Live Caption."[](https://blog.google/outreach-initiatives/accessibility/google-pixel-camera-accessibility-update-2024/)
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "What is the purpose of the Accessibility Menu?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Accessibility Menu provides a large on-screen menu to control actions like locking the phone, adjusting volume, and taking screenshots.",[](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&hl=en_US)
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 16,
+          "data": "A. To read screen content aloud",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 16,
+          "data": "B. To control device actions",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 16,
+          "data": "C. To manage notifications",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 16,
+          "data": "D. To adjust display colors",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [54],
+        "answer": ["B. To control device actions"],
+        "explanation": "The Accessibility Menu provides a large on-screen menu to control actions like locking the phone, adjusting volume, and taking screenshots."[](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&hl=en_US)
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "True or False: TalkBack 16.0 allows users to ask Gemini questions about screen content.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "TalkBack 16.0 integrates Gemini to provide screen descriptions and allow users to ask questions about images and screen content.",[](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&hl=en_US)
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 17,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 17,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [57],
+        "answer": ["A. True"],
+        "explanation": "TalkBack 16.0 integrates Gemini to provide screen descriptions and allow users to ask questions about images and screen content."[](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&hl=en_US)
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "Which feature provides real-time captions for audio across apps?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Live Caption provides real-time captions for any audio content across apps on Android devices.",[](https://blog.google/outreach-initiatives/accessibility/google-pixel-camera-accessibility-update-2024/)
+      "answerCellList": [
+        {
+          "answerId": 59,
+          "questionId": 18,
+          "data": "A. Select to Speak",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 60,
+          "questionId": 18,
+          "data": "B. Live Caption",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 61,
+          "questionId": 18,
+          "data": "C. Voice Access",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 62,
+          "questionId": 18,
+          "data": "D. TalkBack",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [60],
+        "answer": ["B. Live Caption"],
+        "explanation": "Live Caption provides real-time captions for any audio content across apps on Android devices."[](https://blog.google/outreach-initiatives/accessibility/google-pixel-camera-accessibility-update-2024/)
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "Which accessibility settings can be adjusted for better visibility? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Display size, font size, magnification, and contrast/color options can be adjusted for better visibility.",[](https://support.google.com/accessibility/android/answer/6006564?hl=en)
+      "answerCellList": [
+        {
+          "answerId": 63,
+          "questionId": 19,
+          "data": "A. Display size",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 64,
+          "questionId": 19,
+          "data": "B. Font size",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 65,
+          "questionId": 19,
+          "data": "C. Audio Description",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 66,
+          "questionId": 19,
+          "data": "D. Magnification",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [63, 64, 66],
+        "answer": ["A. Display size", "B. Font size", "D. Magnification"],
+        "explanation": "Display size, font size, magnification, and contrast/color options can be adjusted for better visibility."[](https://support.google.com/accessibility/android/answer/6006564?hl=en)
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "True or False: Android 14 introduced Flash Notifications for visual alerts.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Android 14 introduced Flash Notifications, which provide visual light flashes for incoming notifications.",[](https://blog.google/products/android/android-14/)
+      "answerCellList": [
+        {
+          "answerId": 67,
+          "questionId": 20,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 68,
+          "questionId": 20,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [67],
+        "answer": ["A. True"],
+        "explanation": "Android 14 introduced Flash Notifications, which provide visual light flashes for incoming notifications."[](https://blog.google/products/android/android-14/)
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "What is the minimum Android version for the Audio Description toggle?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Audio Description toggle, which plays descriptions of on-screen visuals, is available on Android 13 and up.",[](https://support.google.com/accessibility/android/answer/6006564?hl=en)
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 21,
+          "data": "A. Android 11",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 21,
+          "data": "B. Android 12",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 21,
+          "data": "C. Android 13",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 21,
+          "data": "D. Android 14",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [71],
+        "answer": ["C. Android 13"],
+        "explanation": "The Audio Description toggle, which plays descriptions of on-screen visuals, is available on Android 13 and up."[](https://support.google.com/accessibility/android/answer/6006564?hl=en)
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "Which tools help developers test app accessibility? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Accessibility Scanner and Accessibility Insights for Android help developers identify and resolve accessibility issues.",[](https://www.boia.org/blog/what-are-android-accessibility-features)[](https://apiumhub.com/tech-blog-barcelona/android-and-ios-accessibility-features/)
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 22,
+          "data": "A. Accessibility Scanner",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 22,
+          "data": "B. Accessibility Insights",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 22,
+          "data": "C. Gradle",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 22,
+          "data": "D. Android Studio",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [73, 74],
+        "answer": ["A. Accessibility Scanner", "B. Accessibility Insights"],
+        "explanation": "Accessibility Scanner and Accessibility Insights for Android help developers identify and resolve accessibility issues."[](https://www.boia.org/blog/what-are-android-accessibility-features)[](https://apiumhub.com/tech-blog-barcelona/android-and-ios-accessibility-features/)
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "What does the Action Blocks feature do?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Action Blocks allow users to create customizable buttons for daily actions on the Android home screen.",[](https://support.google.com/accessibility/android/answer/6006564?hl=en)
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 23,
+          "data": "A. Reads screen content aloud",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 23,
+          "data": "B. Creates customizable buttons for actions",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 23,
+          "data": "C. Adjusts screen colors",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 23,
+          "data": "D. Manages notifications",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [78],
+        "answer": ["B. Creates customizable buttons for actions"],
+        "explanation": "Action Blocks allow users to create customizable buttons for daily actions on the Android home screen."[](https://support.google.com/accessibility/android/answer/6006564?hl=en)
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "True or False: Android 16 supports outline text for better readability.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Android 16 introduces outline text to improve readability, unlike Android 15 and below, which use high-contrast text.",[](https://support.google.com/accessibility/android/answer/6006564?hl=en)
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 24,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 24,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [81],
+        "answer": ["A. True"],
+        "explanation": "Android 16 introduces outline text to improve readability, unlike Android 15 and below, which use high-contrast text."[](https://support.google.com/accessibility/android/answer/6006564?hl=en)
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "Which feature allows hands-free control with spoken commands?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Voice Access enables hands-free control of Android devices using spoken commands.",[](https://www.boia.org/blog/what-are-android-accessibility-features)
+      "answerCellList": [
+        {
+          "answerId": 83,
+          "questionId": 25,
+          "data": "A. TalkBack",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 84,
+          "questionId": 25,
+          "data": "B. Voice Access",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 85,
+          "questionId": 25,
+          "data": "C. Select to Speak",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 86,
+          "questionId": 25,
+          "data": "D. Action Blocks",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [84],
+        "answer": ["B. Voice Access"],
+        "explanation": "Voice Access enables hands-free control of Android devices using spoken commands."[](https://www.boia.org/blog/what-are-android-accessibility-features)
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "Which accessibility features were improved in Android 14? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Android 14 improved magnification, hearing aid support, and introduced Flash Notifications.",[](https://blog.google/products/android/android-14/)
+      "answerCellList": [
+        {
+          "answerId": 87,
+          "questionId": 26,
+          "data": "A. Magnification",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 88,
+          "questionId": 26,
+          "data": "B. Hearing aid support",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 89,
+          "questionId": 26,
+          "data": "C. Expressive Captions",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 90,
+          "questionId": 26,
+          "data": "D. Flash Notifications",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [87, 88, 90],
+        "answer": ["A. Magnification", "B. Hearing aid support", "D. Flash Notifications"],
+        "explanation": "Android 14 improved magnification, hearing aid support, and introduced Flash Notifications."[](https://blog.google/products/android/android-14/)
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "What does the Guided Frame feature do on Pixel devices?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Guided Frame provides spoken guidance to help users with visual impairments take photos by positioning the camera correctly.",[](https://blog.google/outreach-initiatives/accessibility/google-pixel-camera-accessibility-update-2024/)
+      "answerCellList": [
+        {
+          "answerId": 91,
+          "questionId": 27,
+          "data": "A. Adjusts screen brightness",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 92,
+          "questionId": 27,
+          "data": "B. Provides spoken guidance for photos",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 93,
+          "questionId": 27,
+          "data": "C. Manages notifications",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 94,
+          "questionId": 27,
+          "data": "D. Enhances audio output",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [92],
+        "answer": ["B. Provides spoken guidance for photos"],
+        "explanation": "Guided Frame provides spoken guidance to help users with visual impairments take photos by positioning the camera correctly."[](https://blog.google/outreach-initiatives/accessibility/google-pixel-camera-accessibility-update-2024/)
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "True or False: Live Transcribe supports offline use in 15 languages.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Live Transcribe supports offline use in 15 languages, including seven new ones added in Android 15.",[](https://blog.google/outreach-initiatives/accessibility/google-pixel-camera-accessibility-update-2024/)
+      "answerCellList": [
+        {
+          "answerId": 95,
+          "questionId": 28,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 96,
+          "questionId": 28,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [95],
+        "answer": ["A. True"],
+        "explanation": "Live Transcribe supports offline use in 15 languages, including seven new ones added in Android 15."[](https://blog.google/outreach-initiatives/accessibility/google-pixel-camera-accessibility-update-2024/)
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "Which tool helps developers ensure WCAG compliance for Android apps?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Axe Android is a library that provides automated WCAG 2.0 and 2.1 tests for Android apps.",[](https://apiumhub.com/tech-blog-barcelona/android-and-ios-accessibility-features/)
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 29,
+          "data": "A. Accessibility Scanner",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 29,
+          "data": "B. Axe Android",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 29,
+          "data": "C. UI Automator",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 29,
+          "data": "D. Android Studio",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [98],
+        "answer": ["B. Axe Android"],
+        "explanation": "Axe Android is a library that provides automated WCAG 2.0 and 2.1 tests for Android apps."[](https://apiumhub.com/tech-blog-barcelona/android-and-ios-accessibility-features/)
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "Which devices support enhanced hearing device control in Android 16? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Android 16 supports enhanced hearing device control on phones, tablets, and foldables with LE Audio hearing aids.",[](https://www.android.com/articles/android-16-features/)[](https://blog.google/products/android/android-16/)
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 30,
+          "data": "A. Phones",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 30,
+          "data": "B. Tablets",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 30,
+          "data": "C. Wearables",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 30,
+          "data": "D. Foldables",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [101, 102, 104],
+        "answer": ["A. Phones", "B. Tablets", "D. Foldables"],
+        "explanation": "Android 16 supports enhanced hearing device control on phones, tablets, and foldables with LE Audio hearing aids."[](https://www.android.com/articles/android-16-features/)[](https://blog.google/products/android/android-16/)
+      }
+    }
+  ]
+}

@@ -1,0 +1,1325 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is the idiomatic way to declare a read-only property in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "In Kotlin, 'val' is used for read-only properties, as they cannot be reassigned after initialization.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. var property: Type",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. val property: Type",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. const property: Type",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. let property: Type",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. val property: Type"],
+        "explanation": "In Kotlin, 'val' is used for read-only properties, as they cannot be reassigned after initialization."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which keyword is used to define a function in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'fun' keyword is used to declare functions in Kotlin.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 2,
+          "data": "A. func",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 2,
+          "data": "B. fun",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 2,
+          "data": "C. def",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 2,
+          "data": "D. function",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [2],
+        "answer": ["B. fun"],
+        "explanation": "The 'fun' keyword is used to declare functions in Kotlin."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "What is the purpose of the 'let' scope function in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "'let' is used for scoping and null checks, executing a block of code only if the object is non-null.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 3,
+          "data": "A. To create a new object",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 3,
+          "data": "B. To execute a block on non-null objects",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 3,
+          "data": "C. To define a constant",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 3,
+          "data": "D. To loop through a collection",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [2],
+        "answer": ["B. To execute a block on non-null objects"],
+        "explanation": "'let' is used for scoping and null checks, executing a block of code only if the object is non-null."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "How should you handle null safety in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Kotlin's type system distinguishes nullable and non-nullable types, using '?' for nullable types.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 4,
+          "data": "A. Use !! for all variables",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 4,
+          "data": "B. Use nullable types with ?",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 4,
+          "data": "C. Avoid null checks entirely",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 4,
+          "data": "D. Use Java's Optional class",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [2],
+        "answer": ["B. Use nullable types with ?"],
+        "explanation": "Kotlin's type system distinguishes nullable and non-nullable types, using '?' for nullable types."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "What is the idiomatic way to iterate over a list in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Kotlin prefers using 'forEach' or 'for' loops for concise and readable iteration.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 5,
+          "data": "A. Using a while loop",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 5,
+          "data": "B. Using forEach or for loop",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 5,
+          "data": "C. Using a do-while loop",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 5,
+          "data": "D. Using Java streams",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [2],
+        "answer": ["B. Using forEach or for loop"],
+        "explanation": "Kotlin prefers using 'forEach' or 'for' loops for concise and readable iteration."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "What does the 'apply' scope function do in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "'apply' configures an object and returns it, often used for initialization.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 6,
+          "data": "A. Executes a block and returns its result",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 6,
+          "data": "B. Configures an object and returns it",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 6,
+          "data": "C. Checks for null values",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 6,
+          "data": "D. Maps a collection",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [2],
+        "answer": ["B. Configures an object and returns it"],
+        "explanation": "'apply' configures an object and returns it, often used for initialization."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Which modifier makes a class open for inheritance in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "In Kotlin, classes are final by default; the 'open' modifier allows inheritance.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 7,
+          "data": "A. final",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 7,
+          "data": "B. open",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 7,
+          "data": "C. abstract",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 7,
+          "data": "D. sealed",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [2],
+        "answer": ["B. open"],
+        "explanation": "In Kotlin, classes are final by default; the 'open' modifier allows inheritance."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "What is the role of 'data' classes in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Data classes automatically generate methods like toString(), equals(), and hashCode().",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 8,
+          "data": "A. To enforce singleton pattern",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 8,
+          "data": "B. To auto-generate utility methods",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 8,
+          "data": "C. To create abstract classes",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 8,
+          "data": "D. To manage coroutines",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [2],
+        "answer": ["B. To auto-generate utility methods"],
+        "explanation": "Data classes automatically generate methods like toString(), equals(), and hashCode()."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "How do you define a singleton in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "In Kotlin, the 'object' keyword is used to create a singleton.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 9,
+          "data": "A. Using class with private constructor",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 9,
+          "data": "B. Using object keyword",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 9,
+          "data": "C. Using static keyword",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 9,
+          "data": "D. Using companion object",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [2],
+        "answer": ["B. Using object keyword"],
+        "explanation": "In Kotlin, the 'object' keyword is used to create a singleton."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "What is the idiomatic way to check if a collection is empty in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'isEmpty()' function is the idiomatic way to check if a collection is empty.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 10,
+          "data": "A. collection.size == 0",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 10,
+          "data": "B. collection.isEmpty()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 10,
+          "data": "C. collection.count() == 0",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 10,
+          "data": "D. collection.length == 0",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [2],
+        "answer": ["B. collection.isEmpty()"],
+        "explanation": "The 'isEmpty()' function is the idiomatic way to check if a collection is empty."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "What is the purpose of the 'run' scope function in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "'run' executes a block and returns its result, with the object accessible as 'this'.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 11,
+          "data": "A. To configure an object",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 11,
+          "data": "B. To execute a block and return its result",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 11,
+          "data": "C. To check for nullability",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 11,
+          "data": "D. To initialize a singleton",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [2],
+        "answer": ["B. To execute a block and return its result"],
+        "explanation": "'run' executes a block and returns its result, with the object accessible as 'this'."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "What does the 'sealed' keyword do in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "'sealed' restricts class hierarchies, allowing only defined subclasses within the same file.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 12,
+          "data": "A. Prevents class instantiation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 12,
+          "data": "B. Restricts class hierarchies",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 12,
+          "data": "C. Makes a class final",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 12,
+          "data": "D. Enables multiple inheritance",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [2],
+        "answer": ["B. Restricts class hierarchies"],
+        "explanation": "'sealed' restricts class hierarchies, allowing only defined subclasses within the same file."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "How do you define a default parameter in a Kotlin function?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Default parameters are defined using the '=' operator in the function signature.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 13,
+          "data": "A. Using @Default annotation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 13,
+          "data": "B. Using = in the parameter",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 13,
+          "data": "C. Using val keyword",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 13,
+          "data": "D. Using const keyword",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [2],
+        "answer": ["B. Using = in the parameter"],
+        "explanation": "Default parameters are defined using the '=' operator in the function signature."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "What is the idiomatic way to filter a list in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'filter' function is used to create a new list based on a predicate.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 14,
+          "data": "A. Using a for loop",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 14,
+          "data": "B. Using filter function",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 14,
+          "data": "C. Using map function",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 14,
+          "data": "D. Using reduce function",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [2],
+        "answer": ["B. Using filter function"],
+        "explanation": "The 'filter' function is used to create a new list based on a predicate."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "What does the 'const' keyword do in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "'const' is used for compile-time constants in top-level or object declarations.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 15,
+          "data": "A. Defines a mutable variable",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 15,
+          "data": "B. Defines a compile-time constant",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 15,
+          "data": "C. Creates a singleton",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 15,
+          "data": "D. Marks a class as abstract",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [2],
+        "answer": ["B. Defines a compile-time constant"],
+        "explanation": "'const' is used for compile-time constants in top-level or object declarations."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "What is the purpose of the 'also' scope function in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "'also' performs additional actions on an object and returns it, using 'it' for reference.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 16,
+          "data": "A. Returns the result of a block",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 16,
+          "data": "B. Performs actions and returns the object",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 16,
+          "data": "C. Checks for nullability",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 16,
+          "data": "D. Maps a collection",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [2],
+        "answer": ["B. Performs actions and returns the object"],
+        "explanation": "'also' performs additional actions on an object and returns it, using 'it' for reference."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "How do you declare a nullable variable in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A nullable variable is declared by adding '?' to the type, e.g., 'String?'.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 17,
+          "data": "A. var name: String",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 17,
+          "data": "B. var name: String?",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 17,
+          "data": "C. var name: Nullable<String>",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 17,
+          "data": "D. var name: String!!",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [2],
+        "answer": ["B. var name: String?"],
+        "explanation": "A nullable variable is declared by adding '?' to the type, e.g., 'String?'."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "What is the idiomatic way to handle exceptions in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Kotlin uses 'try-catch' blocks for exception handling, similar to Java but more concise.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 18,
+          "data": "A. Using if-else statements",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 18,
+          "data": "B. Using try-catch blocks",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 18,
+          "data": "C. Using null checks",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 18,
+          "data": "D. Using coroutines",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [2],
+        "answer": ["B. Using try-catch blocks"],
+        "explanation": "Kotlin uses 'try-catch' blocks for exception handling, similar to Java but more concise."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "What does the 'with' scope function do in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "'with' executes a block on an object, referencing its properties directly, and returns the block's result.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 19,
+          "data": "A. Configures and returns the object",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 19,
+          "data": "B. Executes a block and returns its result",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 19,
+          "data": "C. Checks for null values",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 19,
+          "data": "D. Creates a singleton",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [2],
+        "answer": ["B. Executes a block and returns its result"],
+        "explanation": "'with' executes a block on an object, referencing its properties directly, and returns the block's result."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "What is the purpose of 'companion object' in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "'companion object' defines static-like members within a class.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 20,
+          "data": "A. To create an instance",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 20,
+          "data": "B. To define static-like members",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 20,
+          "data": "C. To enforce inheritance",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 20,
+          "data": "D. To handle coroutines",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [2],
+        "answer": ["B. To define static-like members"],
+        "explanation": "'companion object' defines static-like members within a class."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "How do you safely access a nullable property in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The safe call operator '?.' accesses a property only if the object is non-null.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 21,
+          "data": "A. Using !! operator",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 21,
+          "data": "B. Using ?. operator",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 21,
+          "data": "C. Using ?: operator",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 21,
+          "data": "D. Using !!. operator",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [2],
+        "answer": ["B. Using ?. operator"],
+        "explanation": "The safe call operator '?.' accesses a property only if the object is non-null."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "What is the idiomatic way to transform a list in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'map' function transforms each element of a list and returns a new list.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 22,
+          "data": "A. Using filter function",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 22,
+          "data": "B. Using map function",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 22,
+          "data": "C. Using reduce function",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 22,
+          "data": "D. Using forEach function",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [2],
+        "answer": ["B. Using map function"],
+        "explanation": "The 'map' function transforms each element of a list and returns a new list."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "What does the 'lateinit' modifier do in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "'lateinit' delays initialization of non-nullable 'var' properties until later.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 23,
+          "data": "A. Makes a property nullable",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 23,
+          "data": "B. Delays property initialization",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 23,
+          "data": "C. Defines a constant",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 23,
+          "data": "D. Marks a class as abstract",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [2],
+        "answer": ["B. Delays property initialization"],
+        "explanation": "'lateinit' delays initialization of non-nullable 'var' properties until later."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "What is the purpose of the 'by lazy' delegate in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "'by lazy' initializes a property only when first accessed, caching the result.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 24,
+          "data": "A. Delays method execution",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 24,
+          "data": "B. Initializes property on first access",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 24,
+          "data": "C. Creates a singleton",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 24,
+          "data": "D. Handles null checks",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [2],
+        "answer": ["B. Initializes property on first access"],
+        "explanation": "'by lazy' initializes a property only when first accessed, caching the result."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "How do you define an extension function in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extension functions are defined by prefixing the function name with the receiver type.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 25,
+          "data": "A. Using @Extension annotation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 25,
+          "data": "B. Prefixing with receiver type",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 25,
+          "data": "C. Using companion object",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 25,
+          "data": "D. Using static keyword",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [2],
+        "answer": ["B. Prefixing with receiver type"],
+        "explanation": "Extension functions are defined by prefixing the function name with the receiver type."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "What is the idiomatic way to combine two lists in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '+' operator or 'plus' function combines two lists in Kotlin.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 26,
+          "data": "A. Using merge function",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 26,
+          "data": "B. Using + or plus function",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 26,
+          "data": "C. Using join function",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 26,
+          "data": "D. Using concatenate function",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [2],
+        "answer": ["B. Using + or plus function"],
+        "explanation": "The '+' operator or 'plus' function combines two lists in Kotlin."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "What does the 'inline' modifier do in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "'inline' copies the function's code to the call site, reducing overhead for lambdas.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 27,
+          "data": "A. Makes a function private",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 27,
+          "data": "B. Copies function code to call site",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 27,
+          "data": "C. Defines a constant",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 27,
+          "data": "D. Enables multiple inheritance",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [2],
+        "answer": ["B. Copies function code to call site"],
+        "explanation": "'inline' copies the function's code to the call site, reducing overhead for lambdas."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "What is the purpose of the 'when' expression in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "'when' is a concise replacement for switch statements, supporting multiple conditions.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 28,
+          "data": "A. To define loops",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 28,
+          "data": "B. To replace switch statements",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 28,
+          "data": "C. To handle exceptions",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 28,
+          "data": "D. To create singletons",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [2],
+        "answer": ["B. To replace switch statements"],
+        "explanation": "'when' is a concise replacement for switch statements, supporting multiple conditions."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "How do you define a lambda expression in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Lambda expressions are defined using curly braces with parameters and an arrow, e.g., { x -> x * 2 }.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 29,
+          "data": "A. Using square brackets",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 29,
+          "data": "B. Using curly braces and arrow",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 29,
+          "data": "C. Using parentheses",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 29,
+          "data": "D. Using angle brackets",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [2],
+        "answer": ["B. Using curly braces and arrow"],
+        "explanation": "Lambda expressions are defined using curly braces with parameters and an arrow, e.g., { x -> x * 2 }."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "What is the idiomatic way to check for null and provide a default value in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Elvis operator '?:' provides a default value if the expression is null.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 30,
+          "data": "A. Using !! operator",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 30,
+          "data": "B. Using ?: operator",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 30,
+          "data": "C. Using ?. operator",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 30,
+          "data": "D. Using if-else",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [2],
+        "answer": ["B. Using ?: operator"],
+        "explanation": "The Elvis operator '?:' provides a default value if the expression is null."
+      }
+    }
+  ]
+}

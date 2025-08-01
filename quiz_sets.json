@@ -1,0 +1,497 @@
+{
+  "total": 3,
+  "items": [
+    {
+      "total": 25,
+      "title": "Android",
+      "description": "",
+      "sections": [
+        {
+          "title": "Jetpack Compose Basics",
+          "description": "Introduction to Jetpack Compose and its core concepts.",
+          "position": 1,
+          "fileName": "android_1.json"
+        },
+        {
+          "title": "Composables and Modifiers",
+          "description": "Building UI with composables and customizing with modifiers.",
+          "position": 2,
+          "fileName": "android_2.json"
+        },
+        {
+          "title": "State Management",
+          "description": "Managing UI state in Jetpack Compose.",
+          "position": 3,
+          "fileName": "android_3.json"
+        },
+        {
+          "title": "Material Design 3 Theming",
+          "description": "Applying Material Design 3 themes in Compose.",
+          "position": 4,
+          "fileName": "android_4.json"
+        },
+        {
+          "title": "Navigation",
+          "description": "Implementing navigation in Jetpack Compose apps.",
+          "position": 5,
+          "fileName": "android_5.json"
+        },
+        {
+          "title": "Animations",
+          "description": "Creating animations in Jetpack Compose.",
+          "position": 6,
+          "fileName": "android_6.json"
+        },
+        {
+          "title": "Adaptive Layouts",
+          "description": "Designing layouts for different screen sizes.",
+          "position": 7,
+          "fileName": "android_7.json"
+        },
+        {
+          "title": "Jetpack Glance (Widgets)",
+          "description": "Building widgets with Jetpack Glance.",
+          "position": 8,
+          "fileName": "android_8.json"
+        },
+        {
+          "title": "ViewModel Integration",
+          "description": "Using ViewModel with Jetpack Compose.",
+          "position": 9,
+          "fileName": "android_9.json"
+        },
+        {
+          "title": "LiveData and StateFlow",
+          "description": "Handling reactive data with LiveData and StateFlow.",
+          "position": 10,
+          "fileName": "android_10.json"
+        },
+        {
+          "title": "Compose Performance",
+          "description": "Optimizing performance in Jetpack Compose.",
+          "position": 11,
+          "fileName": "android_11.json"
+        },
+        {
+          "title": "Interoperability with Views",
+          "description": "Integrating Compose with traditional Android Views.",
+          "position": 12,
+          "fileName": "android_12.json"
+        },
+        {
+          "title": "Text Handling",
+          "description": "Managing text input and display in Compose.",
+          "position": 13,
+          "fileName": "android_13.json"
+        },
+        {
+          "title": "Autofill Support",
+          "description": "Implementing autofill in Compose forms.",
+          "position": 14,
+          "fileName": "android_14.json"
+        },
+        {
+          "title": "Visibility Tracking",
+          "description": "Tracking UI element visibility in Compose.",
+          "position": 15,
+          "fileName": "android_15.json"
+        },
+        {
+          "title": "ConstraintLayout",
+          "description": "Using ConstraintLayout in Jetpack Compose.",
+          "position": 16,
+          "fileName": "android_16.json"
+        },
+        {
+          "title": "Testing",
+          "description": "Writing tests for Jetpack Compose UIs.",
+          "position": 17,
+          "fileName": "android_17.json"
+        },
+        {
+          "title": "Compose Multiplatform",
+          "description": "Using Compose for multiplatform development.",
+          "position": 18,
+          "fileName": "android_18.json"
+        },
+        {
+          "title": "Predictive Back Gestures",
+          "description": "Handling predictive back gestures in Compose.",
+          "position": 19,
+          "fileName": "android_19.json"
+        },
+        {
+          "title": "Accessibility",
+          "description": "Ensuring accessibility in Compose UIs.",
+          "position": 20,
+          "fileName": "android_20.json"
+        },
+        {
+          "title": "Dynamic Colors",
+          "description": "Implementing dynamic color theming.",
+          "position": 21,
+          "fileName": "android_21.json"
+        },
+        {
+          "title": "Side Effects",
+          "description": "Managing side effects in Jetpack Compose.",
+          "position": 22,
+          "fileName": "android_22.json"
+        },
+        {
+          "title": "Large Screens",
+          "description": "Optimizing Compose for large screens.",
+          "position": 23,
+          "fileName": "android_23.json"
+        },
+        {
+          "title": "Android Studio Tooling",
+          "description": "Using Android Studio tools for Compose.",
+          "position": 24,
+          "fileName": "android_24.json"
+        },
+        {
+          "title": "Compose for Wear OS",
+          "description": "Building Wear OS apps with Compose.",
+          "position": 25,
+          "fileName": "android_25.json"
+        }
+      ],
+      "sectionId": 1
+    },
+    {
+      "total": 40,
+      "title": "Kotlin",
+      "description": "",
+      "sections": [
+        {
+          "title": "Kotlin Basics: Syntax and Variables",
+          "description": "Core Kotlin syntax and variable declarations.",
+          "position": 1,
+          "fileName": "kotlin_1.json"
+        },
+        {
+          "title": "Kotlin Control Flow: If, When, Loops",
+          "description": "Control structures like if, when, and loops.",
+          "position": 2,
+          "fileName": "kotlin_2.json"
+        },
+        {
+          "title": "Kotlin Functions: Declaration and Usage",
+          "description": "Defining and using functions in Kotlin.",
+          "position": 3,
+          "fileName": "kotlin_3.json"
+        },
+        {
+          "title": "Kotlin Null Safety: Nullable Types and Operators",
+          "description": "Handling null safety with nullable types.",
+          "position": 4,
+          "fileName": "kotlin_4.json"
+        },
+        {
+          "title": "Kotlin Classes and Objects",
+          "description": "Creating and using classes and objects.",
+          "position": 5,
+          "fileName": "kotlin_5.json"
+        },
+        {
+          "title": "Kotlin Inheritance and Interfaces",
+          "description": "Implementing inheritance and interfaces.",
+          "position": 6,
+          "fileName": "kotlin_6.json"
+        },
+        {
+          "title": "Kotlin Data Classes",
+          "description": "Using data classes for concise data models.",
+          "position": 7,
+          "fileName": "kotlin_7.json"
+        },
+        {
+          "title": "Kotlin Sealed Classes and Enums",
+          "description": "Working with sealed classes and enums.",
+          "position": 8,
+          "fileName": "kotlin_8.json"
+        },
+        {
+          "title": "Kotlin Collections: Lists, Sets, Maps",
+          "description": "Managing collections in Kotlin.",
+          "position": 9,
+          "fileName": "kotlin_9.json"
+        },
+        {
+          "title": "Kotlin Lambdas and Higher-Order Functions",
+          "description": "Using lambdas and higher-order functions.",
+          "position": 10,
+          "fileName": "kotlin_10.json"
+        },
+        {
+          "title": "Kotlin Scope Functions: let, apply, run, with, also",
+          "description": "Applying scope functions for cleaner code.",
+          "position": 11,
+          "fileName": "kotlin_11.json"
+        },
+        {
+          "title": "Kotlin Coroutines: Basics and Syntax",
+          "description": "Introduction to coroutines for asynchronous code.",
+          "position": 12,
+          "fileName": "kotlin_12.json"
+        },
+        {
+          "title": "Kotlin Coroutines: Flow and StateFlow",
+          "description": "Using Flow and StateFlow for reactive streams.",
+          "position": 13,
+          "fileName": "kotlin_13.json"
+        },
+        {
+          "title": "Kotlin Extension Functions and Properties",
+          "description": "Extending classes with extension functions.",
+          "position": 14,
+          "fileName": "kotlin_14.json"
+        },
+        {
+          "title": "Kotlin Generics",
+          "description": "Using generics for type-safe code.",
+          "position": 15,
+          "fileName": "kotlin_15.json"
+        },
+        {
+          "title": "Kotlin Annotations",
+          "description": "Applying annotations in Kotlin.",
+          "position": 16,
+          "fileName": "kotlin_16.json"
+        },
+        {
+          "title": "Kotlin Operator Overloading",
+          "description": "Overloading operators for custom types.",
+          "position": 17,
+          "fileName": "kotlin_17.json"
+        },
+        {
+          "title": "Kotlin Companion Objects",
+          "description": "Using companion objects for static-like behavior.",
+          "position": 18,
+          "fileName": "kotlin_18.json"
+        },
+        {
+          "title": "Kotlin Delegation and Delegated Properties",
+          "description": "Implementing delegation patterns.",
+          "position": 19,
+          "fileName": "kotlin_19.json"
+        },
+        {
+          "title": "Kotlin Inline Functions and Reified Types",
+          "description": "Using inline functions and reified types.",
+          "position": 20,
+          "fileName": "kotlin_20.json"
+        },
+        {
+          "title": "Android: Kotlin in Activity and Fragment",
+          "description": "Using Kotlin in Android Activities and Fragments.",
+          "position": 21,
+          "fileName": "kotlin_21.json"
+        },
+        {
+          "title": "Android: View Binding with Kotlin",
+          "description": "Implementing view binding in Kotlin.",
+          "position": 22,
+          "fileName": "kotlin_22.json"
+        },
+        {
+          "title": "Android: Kotlin with Jetpack Navigation",
+          "description": "Using Jetpack Navigation with Kotlin.",
+          "position": 23,
+          "fileName": "kotlin_23.json"
+        },
+        {
+          "title": "Android: Room Database with Kotlin",
+          "description": "Building Room databases with Kotlin.",
+          "position": 24,
+          "fileName": "kotlin_24.json"
+        },
+        {
+          "title": "Android: WorkManager with Kotlin",
+          "description": "Scheduling tasks with WorkManager in Kotlin.",
+          "position": 25,
+          "fileName": "kotlin_25.json"
+        },
+        {
+          "title": "Android: LiveData and ViewModel with Kotlin",
+          "description": "Using LiveData and ViewModel in Kotlin.",
+          "position": 26,
+          "fileName": "kotlin_26.json"
+        },
+        {
+          "title": "Android: Kotlin with Retrofit for Networking",
+          "description": "Networking with Retrofit in Kotlin.",
+          "position": 27,
+          "fileName": "kotlin_27.json"
+        },
+        {
+          "title": "Android: Dependency Injection with Hilt in Kotlin",
+          "description": "Using Hilt for dependency injection.",
+          "position": 28,
+          "fileName": "kotlin_28.json"
+        },
+        {
+          "title": "Android: Kotlin with Glide/Picasso for Image Loading",
+          "description": "Loading images with Glide or Picasso.",
+          "position": 29,
+          "fileName": "kotlin_29.json"
+        },
+        {
+          "title": "Android: Kotlin with Firebase Integration",
+          "description": "Integrating Firebase with Kotlin.",
+          "position": 30,
+          "fileName": "kotlin_30.json"
+        },
+        {
+          "title": "Android: Unit Testing with Kotlin (JUnit, Mockito)",
+          "description": "Writing unit tests in Kotlin.",
+          "position": 31,
+          "fileName": "kotlin_31.json"
+        },
+        {
+          "title": "Android: UI Testing with Kotlin (Espresso)",
+          "description": "Writing UI tests with Espresso in Kotlin.",
+          "position": 32,
+          "fileName": "kotlin_32.json"
+        },
+        {
+          "title": "Android: Kotlin with Jetpack Compose Basics",
+          "description": "Building Compose UIs with Kotlin.",
+          "position": 33,
+          "fileName": "kotlin_33.json"
+        },
+        {
+          "title": "Android: Jetpack Compose State Management in Kotlin",
+          "description": "Managing state in Compose with Kotlin.",
+          "position": 34,
+          "fileName": "kotlin_34.json"
+        },
+        {
+          "title": "Android: Kotlin with Custom Views",
+          "description": "Creating custom views in Kotlin.",
+          "position": 35,
+          "fileName": "kotlin_35.json"
+        },
+        {
+          "title": "Android: Kotlin with Notification Handling",
+          "description": "Handling notifications in Kotlin.",
+          "position": 36,
+          "fileName": "kotlin_36.json"
+        },
+        {
+          "title": "Android: Kotlin with Permissions Handling",
+          "description": "Managing permissions in Kotlin.",
+          "position": 37,
+          "fileName": "kotlin_37.json"
+        },
+        {
+          "title": "Android: Kotlin with Background Threads and Services",
+          "description": "Using background threads and services.",
+          "position": 38,
+          "fileName": "kotlin_38.json"
+        },
+        {
+          "title": "Kotlin Interoperability with Java",
+          "description": "Using Kotlin with Java in mixed projects.",
+          "position": 39,
+          "fileName": "kotlin_39.json"
+        },
+        {
+          "title": "Kotlin Best Practices and Idiomatic Code",
+          "description": "Writing idiomatic Kotlin code.",
+          "position": 40,
+          "fileName": "kotlin_40.json"
+        }
+      ],
+      "sectionId": 2
+    },
+    {
+      "total": 13,
+      "title": "Java",
+      "description": "",
+      "sections": [
+        {
+          "title": "Java Classes and Objects",
+          "description": "Understanding class declarations, object instantiation, and encapsulation in Android contexts.",
+          "position": 1,
+          "fileName": "java_1.json"
+        },
+        {
+          "title": "Java Access Modifiers",
+          "description": "Usage of public, private, protected, and package-private modifiers in Android components.",
+          "position": 2,
+          "fileName": "java_2.json"
+        },
+        {
+          "title": "Java Interfaces",
+          "description": "Implementing interfaces for Android callbacks and contracts (e.g., OnClickListener).",
+          "position": 3,
+          "fileName": "java_3.json"
+        },
+        {
+          "title": "Java Generics",
+          "description": "Using generics in collections and custom Android data structures for type safety.",
+          "position": 4,
+          "fileName": "java_4.json"
+        },
+        {
+          "title": "Java Exception Handling",
+          "description": "Managing checked and unchecked exceptions in Android APIs.",
+          "position": 5,
+          "fileName": "java_5.json"
+        },
+        {
+          "title": "Java Collections Framework",
+          "description": "Working with Lists, Sets, and Maps in Android for data management.",
+          "position": 6,
+          "fileName": "java_6.json"
+        },
+        {
+          "title": "Java Lambda Expressions",
+          "description": "Using lambdas (Java 8+) for concise event handling in Android.",
+          "position": 7,
+          "fileName": "java_7.json"
+        },
+        {
+          "title": "Java Stream API",
+          "description": "Leveraging streams (Java 8+) for data processing in Android apps.",
+          "position": 8,
+          "fileName": "java_8.json"
+        },
+        {
+          "title": "Java Annotations",
+          "description": "Using built-in and custom annotations (e.g., @Override, @Nullable) in Android.",
+          "position": 9,
+          "fileName": "java_9.json"
+        },
+        {
+          "title": "Java Concurrency",
+          "description": "Handling threads, ExecutorService, and Handler for background tasks in Android.",
+          "position": 10,
+          "fileName": "java_10.json"
+        },
+        {
+          "title": "Java Interoperability with Kotlin",
+          "description": "Calling Kotlin code from Java in mixed-language Android projects.",
+          "position": 11,
+          "fileName": "java_11.json"
+        },
+        {
+          "title": "Java Memory Management",
+          "description": "Handling memory leaks and garbage collection in Android apps.",
+          "position": 12,
+          "fileName": "java_12.json"
+        },
+        {
+          "title": "Java Modularization",
+          "description": "Structuring Android projects with Java modules for better maintainability.",
+          "position": 13,
+          "fileName": "java_13.json"
+        }
+      ],
+      "sectionId": 3
+    }
+  ]
+}

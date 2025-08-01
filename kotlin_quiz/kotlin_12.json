@@ -1,0 +1,1325 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is the primary purpose of Kotlin Coroutines?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Kotlin Coroutines simplify asynchronous programming by providing a way to write non-blocking code in a sequential manner.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. To replace object-oriented programming",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. To simplify asynchronous programming",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. To manage database transactions",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. To create UI components",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. To simplify asynchronous programming"],
+        "explanation": "Kotlin Coroutines simplify asynchronous programming by providing a way to write non-blocking code in a sequential manner."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which Kotlin library is required to use Coroutines?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The kotlinx.coroutines library provides the necessary APIs for working with coroutines in Kotlin.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. kotlinx.serialization",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. kotlinx.coroutines",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. kotlin.collections",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. kotlin.reflect",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. kotlinx.coroutines"],
+        "explanation": "The kotlinx.coroutines library provides the necessary APIs for working with coroutines in Kotlin."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "What is a coroutine in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A coroutine is a lightweight thread that can be suspended and resumed, enabling non-blocking asynchronous code.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. A heavyweight thread",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. A suspendable computation",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 11,
+          "questionId": 3,
+          "data": "C. A database query",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 12,
+          "questionId": 3,
+          "data": "D. A class instance",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [10],
+        "answer": ["B. A suspendable computation"],
+        "explanation": "A coroutine is a lightweight thread that can be suspended and resumed, enabling non-blocking asynchronous code."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "Which keyword is used to define a function that can be suspended in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The suspend keyword marks a function that can be paused and resumed, used within coroutines.",
+      "answerCellList": [
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "A. async",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "B. suspend",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 15,
+          "questionId": 4,
+          "data": "C. coroutine",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 16,
+          "questionId": 4,
+          "data": "D. await",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [14],
+        "answer": ["B. suspend"],
+        "explanation": "The suspend keyword marks a function that can be paused and resumed, used within coroutines."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which coroutine builder launches a coroutine without returning a result?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The launch builder starts a coroutine that does not return a result, returning a Job object to manage it.",
+      "answerCellList": [
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "A. async",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "B. launch",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 19,
+          "questionId": 5,
+          "data": "C. runBlocking",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 20,
+          "questionId": 5,
+          "data": "D. withContext",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [18],
+        "answer": ["B. launch"],
+        "explanation": "The launch builder starts a coroutine that does not return a result, returning a Job object to manage it."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "Which coroutine builder is used to return a value from a coroutine?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The async builder starts a coroutine that returns a Deferred object, which can be used to retrieve a result.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 6,
+          "data": "A. launch",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 6,
+          "data": "B. async",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 6,
+          "data": "C. runBlocking",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 6,
+          "data": "D. withContext",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [22],
+        "answer": ["B. async"],
+        "explanation": "The async builder starts a coroutine that returns a Deferred object, which can be used to retrieve a result."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "What is the purpose of the 'runBlocking' coroutine builder?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The runBlocking builder runs a coroutine and blocks the current thread until completion, often used for testing or main functions.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 7,
+          "data": "A. Runs a non-blocking coroutine",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 7,
+          "data": "B. Blocks the thread until completion",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 7,
+          "data": "C. Returns a Deferred object",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 7,
+          "data": "D. Changes the coroutine context",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [26],
+        "answer": ["B. Blocks the thread until completion"],
+        "explanation": "The runBlocking builder runs a coroutine and blocks the current thread until completion, often used for testing or main functions."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "What is a CoroutineScope in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A CoroutineScope defines the lifecycle of coroutines, ensuring they are cancelled when the scope is no longer needed.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 8,
+          "data": "A. A thread pool",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 8,
+          "data": "B. A lifecycle manager for coroutines",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 8,
+          "data": "C. A suspend function",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 8,
+          "data": "D. A coroutine builder",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [30],
+        "answer": ["B. A lifecycle manager for coroutines"],
+        "explanation": "A CoroutineScope defines the lifecycle of coroutines, ensuring they are cancelled when the scope is no longer needed."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "Which function is used to change the context of a coroutine?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The withContext function changes the coroutine context, such as the dispatcher, for a block of code.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 9,
+          "data": "A. launch",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 9,
+          "data": "B. withContext",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 35,
+          "questionId": 9,
+          "data": "C. async",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 36,
+          "questionId": 9,
+          "data": "D. runBlocking",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [34],
+        "answer": ["B. withContext"],
+        "explanation": "The withContext function changes the coroutine context, such as the dispatcher, for a block of code."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "What does the 'Dispatchers.Main' dispatcher do?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Dispatchers.Main runs coroutines on the main thread, typically used for UI updates in Android applications.",
+      "answerCellList": [
+        {
+          "answerId": 37,
+          "questionId": 10,
+          "data": "A. Runs coroutines on a background thread",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 38,
+          "questionId": 10,
+          "data": "B. Runs coroutines on the main thread",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 39,
+          "questionId": 10,
+          "data": "C. Runs coroutines on a CPU-intensive thread",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 40,
+          "questionId": 10,
+          "data": "D. Runs coroutines on an I/O thread",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [38],
+        "answer": ["B. Runs coroutines on the main thread"],
+        "explanation": "Dispatchers.Main runs coroutines on the main thread, typically used for UI updates in Android applications."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "What is the role of 'Dispatchers.IO'?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Dispatchers.IO is optimized for I/O operations like network calls or file access, running coroutines on a thread pool.",
+      "answerCellList": [
+        {
+          "answerId": 41,
+          "questionId": 11,
+          "data": "A. Runs coroutines on the main thread",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 42,
+          "questionId": 11,
+          "data": "B. Optimized for I/O operations",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 43,
+          "questionId": 11,
+          "data": "C. Optimized for CPU-intensive tasks",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 44,
+          "questionId": 11,
+          "data": "D. Runs coroutines synchronously",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [42],
+        "answer": ["B. Optimized for I/O operations"],
+        "explanation": "Dispatchers.IO is optimized for I/O operations like network calls or file access, running coroutines on a thread pool."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "What does 'Dispatchers.Default' do?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Dispatchers.Default is used for CPU-intensive tasks, running coroutines on a shared thread pool.",
+      "answerCellList": [
+        {
+          "answerId": 45,
+          "questionId": 12,
+          "data": "A. Runs coroutines on the main thread",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 46,
+          "questionId": 12,
+          "data": "B. Optimized for CPU-intensive tasks",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 47,
+          "questionId": 12,
+          "data": "C. Optimized for I/O operations",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 48,
+          "questionId": 12,
+          "data": "D. Runs coroutines synchronously",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [46],
+        "answer": ["B. Optimized for CPU-intensive tasks"],
+        "explanation": "Dispatchers.Default is used for CPU-intensive tasks, running coroutines on a shared thread pool."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "What is the purpose of the 'delay' function in coroutines?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The delay function suspends a coroutine for a specified time without blocking the thread, allowing other coroutines to run.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 13,
+          "data": "A. Blocks the thread for a time",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 13,
+          "data": "B. Suspends the coroutine for a time",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 13,
+          "data": "C. Cancels the coroutine",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 13,
+          "data": "D. Changes the dispatcher",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [50],
+        "answer": ["B. Suspends the coroutine for a time"],
+        "explanation": "The delay function suspends a coroutine for a specified time without blocking the thread, allowing other coroutines to run."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "Which function is used to retrieve the result of an async coroutine?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The await function retrieves the result of a Deferred object returned by an async coroutine.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 14,
+          "data": "A. join",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 14,
+          "data": "B. await",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 14,
+          "data": "C. cancel",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 14,
+          "data": "D. withContext",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [54],
+        "answer": ["B. await"],
+        "explanation": "The await function retrieves the result of a Deferred object returned by an async coroutine."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "What does the 'join' function do in a coroutine?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The join function suspends the coroutine until the associated Job completes, used with launch coroutines.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 15,
+          "data": "A. Retrieves a result",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 15,
+          "data": "B. Waits for job completion",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 15,
+          "data": "C. Cancels the coroutine",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 15,
+          "data": "D. Changes the context",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [58],
+        "answer": ["B. Waits for job completion"],
+        "explanation": "The join function suspends the coroutine until the associated Job completes, used with launch coroutines."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "What is the default dispatcher for a coroutine launched with GlobalScope?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "GlobalScope uses Dispatchers.Default as its default dispatcher for CPU-intensive tasks.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 16,
+          "data": "A. Dispatchers.Main",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 16,
+          "data": "B. Dispatchers.Default",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 63,
+          "questionId": 16,
+          "data": "C. Dispatchers.IO",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 64,
+          "questionId": 16,
+          "data": "D. Dispatchers.Unconfined",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [62],
+        "answer": ["B. Dispatchers.Default"],
+        "explanation": "GlobalScope uses Dispatchers.Default as its default dispatcher for CPU-intensive tasks."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "What is the purpose of 'GlobalScope' in Kotlin Coroutines?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "GlobalScope launches coroutines that live for the entire application lifecycle, but its use is generally discouraged due to lack of structured concurrency.",
+      "answerCellList": [
+        {
+          "answerId": 65,
+          "questionId": 17,
+          "data": "A. Manages UI updates",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 66,
+          "questionId": 17,
+          "data": "B. Launches application-wide coroutines",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 67,
+          "questionId": 17,
+          "data": "C. Restricts coroutine scope",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 68,
+          "questionId": 17,
+          "data": "D. Handles exceptions",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [66],
+        "answer": ["B. Launches application-wide coroutines"],
+        "explanation": "GlobalScope launches coroutines that live for the entire application lifecycle, but its use is generally discouraged due to lack of structured concurrency."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "Why is 'GlobalScope' usage discouraged?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "GlobalScope lacks structured concurrency, making it harder to manage coroutine lifecycles and cancellations.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 18,
+          "data": "A. It is slower than other scopes",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 18,
+          "data": "B. It lacks structured concurrency",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 18,
+          "data": "C. It only works on the main thread",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 18,
+          "data": "D. It cannot use suspend functions",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [70],
+        "answer": ["B. It lacks structured concurrency"],
+        "explanation": "GlobalScope lacks structured concurrency, making it harder to manage coroutine lifecycles and cancellations."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "What is structured concurrency in Kotlin Coroutines?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Structured concurrency ensures coroutines are bound to a scope, automatically cancelling child coroutines when the scope ends.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 19,
+          "data": "A. Running coroutines on multiple threads",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 19,
+          "data": "B. Binding coroutines to a scope",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 19,
+          "data": "C. Blocking the main thread",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 19,
+          "data": "D. Using async for all coroutines",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [74],
+        "answer": ["B. Binding coroutines to a scope"],
+        "explanation": "Structured concurrency ensures coroutines are bound to a scope, automatically cancelling child coroutines when the scope ends."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "Which scope is recommended for Android ViewModel coroutines?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The viewModelScope is recommended for Android ViewModels, as it automatically cancels coroutines when the ViewModel is cleared.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 20,
+          "data": "A. GlobalScope",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 20,
+          "data": "B. viewModelScope",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 20,
+          "data": "C. MainScope",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 20,
+          "data": "D. DefaultScope",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [78],
+        "answer": ["B. viewModelScope"],
+        "explanation": "The viewModelScope is recommended for Android ViewModels, as it automatically cancels coroutines when the ViewModel is cleared."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "What happens when a coroutine scope is cancelled?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "When a scope is cancelled, all its child coroutines are cancelled, ensuring proper cleanup.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 21,
+          "data": "A. Only the parent coroutine is cancelled",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 21,
+          "data": "B. All child coroutines are cancelled",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 21,
+          "data": "C. The coroutine restarts",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 21,
+          "data": "D. The coroutine continues running",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [82],
+        "answer": ["B. All child coroutines are cancelled"],
+        "explanation": "When a scope is cancelled, all its child coroutines are cancelled, ensuring proper cleanup."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "Which function is used to cancel a coroutine?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The cancel function on a Job object is used to cancel a coroutine launched with launch.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 22,
+          "data": "A. await",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 22,
+          "data": "B. cancel",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 22,
+          "data": "C. join",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 22,
+          "data": "D. withContext",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [86],
+        "answer": ["B. cancel"],
+        "explanation": "The cancel function on a Job object is used to cancel a coroutine launched with launch."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "What is the role of 'CoroutineContext'?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "CoroutineContext defines the environment for a coroutine, including its dispatcher and job.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 23,
+          "data": "A. Defines coroutine scope",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 23,
+          "data": "B. Defines coroutine environment",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 91,
+          "questionId": 23,
+          "data": "C. Executes suspend functions",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 92,
+          "questionId": 23,
+          "data": "D. Manages coroutine results",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [90],
+        "answer": ["B. Defines coroutine environment"],
+        "explanation": "CoroutineContext defines the environment for a coroutine, including its dispatcher and job."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "What does 'Dispatchers.Unconfined' do?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Dispatchers.Unconfined runs a coroutine on the current thread until the first suspension, then resumes on the thread that resumed it.",
+      "answerCellList": [
+        {
+          "answerId": 93,
+          "questionId": 24,
+          "data": "A. Runs on the main thread",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 94,
+          "questionId": 24,
+          "data": "B. Runs on the current thread",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 95,
+          "questionId": 24,
+          "data": "C. Runs on a background thread",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 96,
+          "questionId": 24,
+          "data": "D. Runs on a CPU-intensive thread",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [94],
+        "answer": ["B. Runs on the current thread"],
+        "explanation": "Dispatchers.Unconfined runs a coroutine on the current thread until the first suspension, then resumes on the thread that resumed it."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "Which function is used to create a custom CoroutineScope?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The CoroutineScope function creates a custom scope with a specified context, e.g., CoroutineScope(Dispatchers.Default).",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 25,
+          "data": "A. launch",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 25,
+          "data": "B. CoroutineScope",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 25,
+          "data": "C. async",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 25,
+          "data": "D. withContext",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [98],
+        "answer": ["B. CoroutineScope"],
+        "explanation": "The CoroutineScope function creates a custom scope with a specified context, e.g., CoroutineScope(Dispatchers.Default)."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "What happens when a suspend function is called outside a coroutine?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Calling a suspend function outside a coroutine or another suspend function results in a compilation error.",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 26,
+          "data": "A. It runs synchronously",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 26,
+          "data": "B. Compilation error",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 26,
+          "data": "C. Runtime exception",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 26,
+          "data": "D. It runs asynchronously",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [102],
+        "answer": ["B. Compilation error"],
+        "explanation": "Calling a suspend function outside a coroutine or another suspend function results in a compilation error."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "What is the return type of a coroutine launched with 'launch'?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The launch builder returns a Job object, which can be used to manage the coroutine's lifecycle.",
+      "answerCellList": [
+        {
+          "answerId": 105,
+          "questionId": 27,
+          "data": "A. Deferred",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 106,
+          "questionId": 27,
+          "data": "B. Job",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 107,
+          "questionId": 27,
+          "data": "C. Unit",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 108,
+          "questionId": 27,
+          "data": "D. CoroutineScope",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [106],
+        "answer": ["B. Job"],
+        "explanation": "The launch builder returns a Job object, which can be used to manage the coroutine's lifecycle."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "What is the return type of a coroutine launched with 'async'?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The async builder returns a Deferred object, which can be used to retrieve a result via await.",
+      "answerCellList": [
+        {
+          "answerId": 109,
+          "questionId": 28,
+          "data": "A. Job",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 110,
+          "questionId": 28,
+          "data": "B. Deferred",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 111,
+          "questionId": 28,
+          "data": "C. Unit",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 112,
+          "questionId": 28,
+          "data": "D. CoroutineScope",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [110],
+        "answer": ["B. Deferred"],
+        "explanation": "The async builder returns a Deferred object, which can be used to retrieve a result via await."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "Which function is used to combine multiple async coroutines?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The awaitAll function waits for multiple Deferred objects to complete and returns their results as a list.",
+      "answerCellList": [
+        {
+          "answerId": 113,
+          "questionId": 29,
+          "data": "A. joinAll",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 114,
+          "questionId": 29,
+          "data": "B. awaitAll",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 115,
+          "questionId": 29,
+          "data": "C. withContext",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 116,
+          "questionId": 29,
+          "data": "D. launch",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [114],
+        "answer": ["B. awaitAll"],
+        "explanation": "The awaitAll function waits for multiple Deferred objects to complete and returns their results as a list."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "What does the 'coroutineScope' builder do?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The coroutineScope builder creates a new scope that waits for all child coroutines to complete before returning, supporting structured concurrency.",
+      "answerCellList": [
+        {
+          "answerId": 117,
+          "questionId": 30,
+          "data": "A. Runs coroutines on the main thread",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 118,
+          "questionId": 30,
+          "data": "B. Creates a new scope for structured concurrency",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 119,
+          "questionId": 30,
+          "data": "C. Cancels all coroutines",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 120,
+          "questionId": 30,
+          "data": "D. Returns a Deferred object",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [118],
+        "answer": ["B. Creates a new scope for structured concurrency"],
+        "explanation": "The coroutineScope builder creates a new scope that waits for all child coroutines to complete before returning, supporting structured concurrency."
+      }
+    }
+  ]
+}

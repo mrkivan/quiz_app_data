@@ -1,0 +1,1325 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is the correct syntax for an if statement in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "In Kotlin, an if statement uses the syntax 'if (condition) { }' with curly braces for the block.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. if condition { }",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. if (condition) { }",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. if condition: { }",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. if (condition): { }",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "西亚
+
+System: {
+        "questionId": 1,
+        "answerId": [2],
+        "answer folyamatosan: ["B. if (condition) { }"],
+        "explanation": "In Kotlin, an if statement uses the syntax 'if (condition) { }' with curly braces for the block."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "How can an if expression be used as an expression in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "In Kotlin, an if expression can return a value and be used as an expression, e.g., 'val result = if (condition) value1 else value2'.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. It cannot be used as an expression",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. By assigning its result to a variable",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. By using a when expression instead",
+          "isItAnswer": false,
+          "position": 3
+ EDITOR
+
+System: {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. By assigning its result to a variable"],
+        "explanation": "In Kotlin, an if expression can return a value and be used as an expression, e.g., 'val result = if (condition) value1 else value2'."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "What does the 'else' keyword do in an if statement in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'else' keyword specifies the))^0Athe code block to execute when the if condition is false.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. Declares a variable",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. Specifies an alternative code block",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 11,
+          "questionId": 3,
+          "data": "C. Ends the if statement",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 12,
+          "questionId": 3,
+          "data": "D. Declares a loop",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [10],
+        "answer": ["B. Specifies an alternative code block"],
+        "explanation": "The 'else' keyword specifies the code block to execute when the if condition is false."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "What is the purpose of the 'when' expression in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'when' expression in Kotlin is used to select a branch of code based on the value of an expression, similar to a switch statement in other languages.",
+      "answerCellList": [
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "A. Loops through a collection",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "B. Selects a code branch based on a value",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 15,
+          "questionId": 4,
+          "data": "C. Declares a variable",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 16,
+          "questionId": 4,
+          "data": "D. Defines a function",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [14],
+        "answer": ["B. Selects a code branch based on a value"],
+        "explanation": "The 'when' expression in Kotlin is used to select a branch of code based on the value of an expression, similar to a switch statement in other languages."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which loop in Kotlin is used to iterate over a range of numbers?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'for' loop in Kotlin is used to iterate over a range of numbers, e.g., 'for (i in 1..10)'.",
+      "answerCellList": [
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "A. while",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "B. for",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 19,
+          "questionId": 5,
+          "data": "C. do-while",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 20,
+          "questionId": 5,
+          "data": "D. loop",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [18],
+        "answer": ["B. for"],
+        "explanation": "The 'for' loop in Kotlin is used to iterate over a range of numbers, e.g., 'for (i in 1..10)'."
+      }
+    },
+   Uber0A{
+      "questionId": 6,
+      "question": "What is the purpose of the 'break' statement in a Kotlin loop?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'break' statement is used to exit a loop prematurely in Kotlin.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 6,
+          "data": "A. Continues the loop",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId"::wght0A6,
+          "data": "B. Exits the loop",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 6,
+          "data": "C. Starts a new loop",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 6,
+          "data": "D. Declares a variable",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [22],
+        "answer":epi": ["B. Exits the loop"],
+        "explanation": "The 'break' statement is used to exit a loop prematurely in Kotlin."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Which of the following is true about the 'when' expression in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'when' expression in Kotlin is a more concise alternative to a series of if-else statements and can return a value.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 7,
+          "data": "A. It can only be used in a loop",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 7,
+          "data": "B. It is a concise alternative to if-else",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 7,
+          "data": "C. It is used to declare variables",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 7,
+          "data": "D. It is a loop statement",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [26],
+        "answer": ["B. It is a concise alternative to if-else"],
+        "explanation": "The 'when' expression in Kotlin is a more concise alternative to a series of if-else statements and can return a value."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "What is the purpose of the 'continue' statement in a Kotlin loop?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'continue' statement skips the rest of the current iteration of a loop and proceeds to the next iteration.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId: 8,
+          "data": "A. Exits the loop",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 8,
+          "data": "B. Skips to the next iteration",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 8,
+          "data": "C. Restarts the loop",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 8,
+          "data": "D. Declares a variable",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [30],
+        "answer": ["B. Skips to the next iteration"],
+        "explanation": "The 'continue' statement skips the rest of the current iteration of a loop and proceeds to the next iteration."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "Which Kotlin loop is best suited for executing a block of code at least once?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'do-while' loop executes the block of code at least once before checking the condition.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 9,
+          "data": "A. for",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 9,
+          "data": "B. while",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 35,
+          "questionId": 9,
+          "data": "C. do-while",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 36,
+          "questionId": 9,
+          "data": "D. repeat",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [35],
+        "answer": ["C. do-while"],
+        "explanation": "The 'do-while' loop executes the block of code at least once before checking the condition."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "What happens if the condition in a 'while' loop is initially false?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "If the condition in a 'while' loop is initially false, the loop body is not executed.",
+      "answerCellList": [
+        {
+          "answerId": 37,
+          "questionId": 10,
+          "data": "A. The loop body executes once",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 38,
+          "questionId": 10,
+          "data": "B. The loop body is not executed",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 39,
+          "questionId": 10,
+          "data": "C. The loop runs indefinitely",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 40,
+          "questionId": 10,
+          "data": "D. The loop executes twice",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [38],
+        "answer": ["B. The loop body is not executed"],
+        "explanation": "If the condition in a 'while' loop is initially false, the loop body is not executed."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "How do you write a Kotlin 'for' loop that iterates over a list?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "In Kotlin, a 'for' loop iterates over a list using 'for (item in list)'.",
+      "answerCellList": [
+        {
+          "answerId": 41,
+          "questionId": 11,
+          "data": "A. for (i in 0..list.size)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 42,
+          "questionId": 11,
+          "data": "B. for (item in list)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 43,
+          "questionId": 11,
+          "data": "C. list.forEach { }",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 44,
+          "questionId": 11,
+          "data": "D. forEach(list) { }",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [42],
+        "answer": ["B. for (item in list)"],
+        "explanation": "In Kotlin, a 'for' loop iterates over a list using 'for (item in list)'."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "What is the difference between 'for' and 'while' loops in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A 'for' loop iterates over a collection or range, while 'while' repeats as long as a condition is true.",
+      "answerCellList": [
+        {
+          "answerId": 45,
+          "questionId": 12,
+          "data": "A. for has an iterator, while does not",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 46,
+          "questionId": 12,
+          "data": "B. while has an iterator, for does not",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 47,
+          "questionId": 12,
+          "data": "C. for uses a counter, while does not",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 48,
+          "questionId": 12,
+          "data": "D. They are identical",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [45],
+        "answer": ["A. for has an iterator, while does not"],
+        "explanation": "A 'for' loop iterates over a collection or range, while 'while' repeats as long as a condition is true."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "Which Kotlin control structure allows multiple conditions in one statement?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'when' expression allows multiple conditions to be checked in a single statement.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 13,
+          "data": "A. if",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 13,
+          "data": "B. when",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 13,
+          "data": "C. for",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 13,
+          "data": "D. while",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [50],
+        "answer": ["B. when"],
+        "explanation": "The 'when' expression allows multiple conditions to be checked in a single statement."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "What is the purpose of the 'return' statement in a Kotlin loop?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'return' statement exits the loop and returns a value.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 14,
+          "data": "A. Continues the loop",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 14,
+          "data": "B. Exits the loop and returns a value",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 14,
+          "data": "C. Skips to the next iteration",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 14,
+          "data": "D. Restarts the loop",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [54],
+        "answer": ["B. Exits the loop and returns a value"],
+        "explanation": "The 'return' statement exits the loop and returns a value."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "How do you write a Kotlin 'while' loop that runs indefinitely until broken?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A 'while (true)' loop runs indefinitely until a 'break' statement is used.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 15,
+          "data": "A. while (true)",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 15,
+          "data": "B. for (true)",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 15,
+          "data": "C. loop { }",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 15,
+          "data": "D. do ascended0Awhile (condition) { }",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [57],
+        "answer": ["A. while (true)"],
+        "explanation": "A 'while (true)' loop runs indefinitely until a 'break' statement is used."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "What is the difference between 'break' and 'continue' in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "'break' exits the loop entirely, while 'continue' skips to the next iteration.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 16,
+          "data": "A. break exits the loop, continue skips one iteration",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 16,
+          "data": "B. continue exits the loop, break skips one iteration",
+          "isItAnswer": false,
+          "position preparato0Aposition": 2
+        },
+        {
+          "answerId": 63,
+          "questionId": 16,
+          "data": "C. break skips one iteration, continue exits the loop",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 64,
+          "questionId": 16,
+          "data": "D. Both are identical",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [61],
+        "answer": ["A. break exits the loop, continue skips one iteration"],
+        "explanation": "'break' exits the loop entirely, while 'continue' skips to the next iteration."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "Which Kotlin control structure is used to execute a block of code repeatedly until a condition is met?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'while' loop executes a block of code repeatedly as long as a given condition is true.",
+      "answerCellList": [
+        {
+          "answerId": 65,
+          "questionId": 17,
+          "data": "A. for",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 66,
+          "questionId": 17,
+          "data": "B. while",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 67,
+          "questionId": 17,
+          "data": "C. do-while",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 68,
+          "questionId": 17,
+          "data": "D. repeat",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [66],
+        "answer": ["B. while"],
+        "explanation": "The 'while' loop executes a block of code repeatedly as long as a given condition is true."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "What is the purpose of the 'else if' statement in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'else if' statement allows multiple conditions to be checked sequentially.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 18,
+          "data": "A. Checks a single condition",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 18,
+          "data": "B. Checks multiple conditions",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 18,
+          "data": "C. Executes a block of code if no conditions are met",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 18,
+          "data": "D. Declares a variable",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [70],
+        "answer": ["B. Checks multiple conditions"],
+        "explanation": "The 'else if' statement allows multiple conditions to be checked sequentially."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "Which Kotlin loop can be used to iterate over a range in reverse order?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'downTo' operator is used to iterate over a range in reverse order, e.g., 'for (i in 10 downTo 1)'.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 19,
+          "data": "A. upTo",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 19,
+          "data": "B. downTo",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 19,
+          "data": "C. step",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 19,
+          "data": "D. reverse",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [74],
+        "answer": ["B. downTo"],
+        "explanation": "The 'downTo' operator is used to iterate over a range in reverse order, e.g., 'for (i in 10 downTo 1)'."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "What is the purpose of the 'step' parameter in a Kotlin 'for' loop?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'step' parameter in a 'for' loop specifies the increment or decrement value for each iteration.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 20,
+          "data": "A. 1",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 20,
+          "data": "B. 2",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 20,
+          "data": "C. 3",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 20,
+          "data": "D. 4",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [77],
+        "answer": ["A. 1"],
+        "explanation": "The 'step' parameter in a 'for' loop specifies the increment or decrement value for each iteration."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "Which Kotlin control structure can replace multiple if statements?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'when' expression can replace multiple if statements by checking multiple conditions in a single expression.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 21,
+          "data": "A. if",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 21,
+          "data": "B. when",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 21,
+          "data": "C. for",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 21,
+          "data": "D. while",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [82],
+        "answer": ["B. when"],
+        "explanation": "The 'when' expression can replace multiple if statements by checking multiple conditions in a single expression."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "What is the difference between 'while' and 'do-while' loops in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "'while' checks the condition before the loop starts, 'do-while' checks it after the first iteration.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 22,
+          "data": "A. while checks the condition first",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 22,
+          "data": "B. do-while checks the condition after",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 22,
+          "data": "C. Both are identical",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 22,
+          "data": "D. while requires a condition",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [85],
+        "answer": ["A. while checks the condition first"],
+        "explanation": "'while' checks the condition before the loop starts, 'do-while' checks it after the first iteration."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "Which Kotlin loop is used to execute a block of code a specific number of times?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'repeat' loop executes a block of code a specific number of times, defined by an integer.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 23,
+          "data": "A. while",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 23,
+          "data": "B. for",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 91,
+          "questionId": 23,
+          "data": "C. repeat",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 92,
+          "questionId": 23,
+          "data": "D. do-while",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [91],
+        "answer": ["C. repeat"],
+        "explanation": "The 'repeat' loop executes a block of code a specific number of times, defined by an integer."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "What does the 'in' keyword do in a Kotlin 'for' loop?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'in' keyword specifies the collection or range to iterate over in a 'for' loop.",
+      "answerCellList": [
+        {
+          "answerId": 93,
+          "questionId": 24,
+          "data": "A. Declares a variable",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 94,
+          "questionId": 24,
+          "data": "B. Specifies the collection or range",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 95,
+          "questionId": 24,
+          "data": "C. Checks a condition",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 96,
+          "questionId": 24,
+          "data": "D. Defines a loop",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [94],
+        "answer": ["B. Specifies the collection or range"],
+        "explanation": "The 'in' keyword specifies the collection or range to iterate over in a 'for' loop."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "Which Kotlin control structure is used to check multiple conditions without an 'else' branch?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'when' expression checks multiple conditions without an 'else' branch.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 25,
+          "data": "A. if",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 25,
+          "data": "B. when",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 25,
+          "data": "C. for",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 25,
+          "data": "D. while",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [98],
+        "answer": ["B. when"],
+        "explanation": "The 'when' expression checks multiple conditions without an 'else' branch."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "What is the purpose of the 'break' statement in a 'while' loop?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'break' statement immediately exits a 'while' loop.",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 26,
+          "data": "A. Skips the loop",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 26,
+          "data": "B. Exits the loop",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 26,
+          "data": "C. Restarts the loop",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 26,
+          "data": "D. Continues the loop",
+          "isItAnswer": false,
+事例
+
+System: {
+        "questionId": 26,
+        "answerId": [102],
+        "answer": ["B. Exits the loop"],
+        "explanation": "The 'break' statement immediately exits a 'while' loop."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "Which Kotlin loop executes the condition after the first iteration?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'do-while' loop executes the code block at least once before checking the condition.",
+      "answerCellList": [
+        {
+          "answerId": 105,
+          "questionId": 27,
+          "data": "A. for",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 106,
+          "questionId": 27,
+          "data": "B. while",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 107,
+          "questionId": 27,
+          "data": "C. do-while",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 108,
+          "questionId": 27,
+          "data": "D. repeat",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [107],
+        "answer": ["C. do-while"],
+        "explanation": "The 'do-while' loop executes the code block at least once before checking the condition."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "Which control structure is used to check a condition at the end of a loop?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'do-while' loop checks the condition at the end of the loop, executing the loop at least once.",
+      "answerCellList": [
+        {
+          "answerId": 109,
+          "questionId": 28,
+          "data": "A. if",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 110,
+          "questionId": 28,
+          "data": "B. for",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 111,
+          "questionId": 28,
+          "data": "C. while",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 112,
+          "questionId": 28,
+          "data": "D. do-while",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [112],
+        "answer": ["D. do-while"],
+        "explanation": "The 'do-while' loop checks the condition at the end of the loop, executing the loop at least once."
+      }
+    },
+    {
+Sony0A{
+      "questionId": 29,
+      "question": "What is the correct syntax for a 'when' expression with multiple branches in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "In Kotlin, a 'when' expression with multiple branches can have multiple '->' branches with different conditions.",
+      "answerCellList": [
+        {
+          "answerId": 113,
+          "questionId": 29,
+          "data": "A. when (condition) -> { code }",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 114,
+          "questionId": 29,
+          "data": "B. when { condition -> code }",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 115,
+          "questionId": 29,
+          "data": "C. if (condition) { code }",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 116,
+          "questionId": 29,
+          "data": "D. when { condition } code",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [114],
+        "answer": ["B. when { condition -> code }"],
+        "explanation": "In Kotlin, a 'when' expression with multiple branches can have multiple '->' branches with different conditions."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "Which Kotlin loop is used to repeat a block of code a fixed number of times?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'repeat' loop is used to execute a block of code a specific number of times, defined by an integer.",
+      "answerCellList": [
+        {
+          "answerId": 117,
+          "questionId": 30,
+          "data": "A. while",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 118,
+          "questionId": 30,
+          "data": "B. for",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 119,
+          "questionId": 30 frères0Adata": "C. do-while",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 120,
+          "questionId": 30,
+          "data": "D. repeat",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [120],
+        "answer": ["D. repeat"],
+        "explanation": "The 'repeat' loop is used to execute██████
+
+System: {
+        "questionId": 30,
+        "answerId": [120],
+        "answer": ["D. repeat"],
+        "explanation": "The 'repeat' loop is used to execute a block of code a specific number of times, defined by an integer."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1325 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "Which Java keyword is used to ensure that only one thread can access a method or block at a time?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'synchronized' keyword ensures that only one thread can execute a method or block at a time, preventing concurrent access issues.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. volatile",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. synchronized",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. transient",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. static",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. synchronized"],
+        "explanation": "The 'synchronized' keyword ensures that only one thread can execute a method or block at a time, preventing concurrent access issues."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which interface in Java represents a task that can be executed asynchronously?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'Runnable' interface defines a task that can be executed by a thread or executor, with a single 'run()' method.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. Callable",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. Runnable",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. Thread",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. Executor",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. Runnable"],
+        "explanation": "The 'Runnable' interface defines a task that can be executed by a thread or executor, with a single 'run()' method."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "Which interface is similar to Runnable but can return a result and throw checked exceptions?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'Callable' interface allows a task to return a result and throw checked exceptions, used with executors.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. Runnable",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. Callable",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 11,
+          "questionId": 3,
+          "data": "C. Future",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 12,
+          "questionId": 3,
+          "data": "D. Executor",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [10],
+        "answer": ["B. Callable"],
+        "explanation": "The 'Callable' interface allows a task to return a result and throw checked exceptions, used with executors."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "Which class in Java represents a thread of execution?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'Thread' class represents a thread of execution in Java, providing methods to start and manage threads.",
+      "answerCellList": [
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "A. Executor",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "B. Thread",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 15,
+          "questionId": 4,
+          "data": "C. Runnable",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 16,
+          "questionId": 4,
+          "data": "D. Future",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [14],
+        "answer": ["B. Thread"],
+        "explanation": "The 'Thread' class represents a thread of execution in Java, providing methods to start and manage threads."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which package contains the core Java concurrency utilities?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'java.util.concurrent' package contains Java's concurrency utilities, including executors, locks, and concurrent collections.",
+      "answerCellList": [
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "A. java.lang",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "B. java.util.concurrent",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 19,
+          "questionId": 5,
+          "data": "C. java.concurrent",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 20,
+          "questionId": 5,
+          "data": "D. java.thread",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [18],
+        "answer": ["B. java.util.concurrent"],
+        "explanation": "The 'java.util.concurrent' package contains Java's concurrency utilities, including executors, locks, and concurrent collections."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "Which interface is used to manage a pool of threads in Java?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'ExecutorService' interface manages a pool of threads, providing methods to execute tasks and control thread lifecycle.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 6,
+          "data": "A. Thread",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 6,
+          "data": "B. ExecutorService",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 6,
+          "data": "C. Runnable",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 6,
+          "data": "D. Callable",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [22],
+        "answer": ["B. ExecutorService"],
+        "explanation": "The 'ExecutorService' interface manages a pool of threads, providing methods to execute tasks and control thread lifecycle."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Which method in the Thread class starts the execution of a thread?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'start()' method initiates the execution of a thread, invoking its 'run()' method in a separate thread of control.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 7,
+          "data": "A. run()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 7,
+          "data": "B. start()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 7,
+          "data": "C. execute()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 7,
+          "data": "D. begin()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [26],
+        "answer": ["B. start()"],
+        "explanation": "The 'start()' method initiates the execution of a thread, invoking its 'run()' method in a separate thread of control."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "What is the purpose of the 'volatile' keyword in Java?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'volatile' keyword ensures that a variable's value is always read from and written to main memory, preventing thread-local caching.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 8,
+          "data": "A. Prevents inheritance",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 8,
+          "data": "B. Ensures visibility across threads",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 8,
+          "data": "C. Locks a method",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 8,
+          "data": "D. Makes a class immutable",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [30],
+        "answer": ["B. Ensures visibility across threads"],
+        "explanation": "The 'volatile' keyword ensures that a variable's value is always read from and written to main memory, preventing thread-local caching."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "Which class provides a high-level API for managing thread pools?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'Executors' class provides factory methods to create different types of thread pools, such as fixed or cached thread pools.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 9,
+          "data": "A. Thread",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 9,
+          "data": "B. Executors",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 35,
+          "questionId": 9,
+          "data": "C. ExecutorService",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 36,
+          "questionId": 9,
+          "data": "D. ThreadPool",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [34],
+        "answer": ["B. Executors"],
+        "explanation": "The 'Executors' class provides factory methods to create different types of thread pools, such as fixed or cached thread pools."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "Which interface represents the result of an asynchronous computation?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'Future' interface represents the result of an asynchronous computation, allowing retrieval of the result when ready.",
+      "answerCellList": [
+        {
+          "answerId": 37,
+          "questionId": 10,
+          "data": "A. Runnable",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 38,
+          "questionId": 10,
+          "data": "B. Future",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 39,
+          "questionId": 10,
+          "data": "C. Callable",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 40,
+          "questionId": 10,
+          "data": "D. Executor",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [38],
+        "answer": ["B. Future"],
+        "explanation": "The 'Future' interface represents the result of an asynchronous computation, allowing retrieval of the result when ready."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "What does the 'Lock' interface provide in Java concurrency?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'Lock' interface provides more flexible locking mechanisms than 'synchronized', with methods like 'lock()' and 'unlock()'.",
+      "answerCellList": [
+        {
+          "answerId": 41,
+          "questionId": 11,
+          "data": "A. Thread creation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 42,
+          "questionId": 11,
+          "data": "B. Flexible locking mechanisms",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 43,
+          "questionId": 11,
+          "data": "C. Thread pooling",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 44,
+          "questionId": 11,
+          "data": "D. Task scheduling",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [42],
+        "answer": ["B. Flexible locking mechanisms"],
+        "explanation": "The 'Lock' interface provides more flexible locking mechanisms than 'synchronized', with methods like 'lock()' and 'unlock()'."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "Which class implements the 'Lock' interface for reentrant locking?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'ReentrantLock' class implements the 'Lock' interface, supporting reentrant locking where a thread can acquire the lock multiple times.",
+      "answerCellList": [
+        {
+          "answerId": 45,
+          "questionId": 12,
+          "data": "A. Semaphore",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 46,
+          "questionId": 12,
+          "data": "B. ReentrantLock",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 47,
+          "questionId": 12,
+          "data": "C. CountDownLatch",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 48,
+          "questionId": 12,
+          "data": "D. CyclicBarrier",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [46],
+        "answer": ["B. ReentrantLock"],
+        "explanation": "The 'ReentrantLock' class implements the 'Lock' interface, supporting reentrant locking where a thread can acquire the lock multiple times."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "Which class allows a fixed number of threads to access a resource concurrently?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'Semaphore' class controls access to a resource by maintaining a set of permits, allowing a fixed number of threads to proceed.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 13,
+          "data": "A. ReentrantLock",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 13,
+          "data": "B. Semaphore",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 13,
+          "data": "C. CountDownLatch",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 13,
+          "data": "D. CyclicBarrier",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [50],
+        "answer": ["B. Semaphore"],
+        "explanation": "The 'Semaphore' class controls access to a resource by maintaining a set of permits, allowing a fixed number of threads to proceed."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "Which class allows threads to wait until a set of operations is completed?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'CountDownLatch' class allows threads to wait until a specified number of events (countdowns) have occurred.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 14,
+          "data": "A. Semaphore",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 14,
+          "data": "B. CountDownLatch",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 14,
+          "data": "C. CyclicBarrier",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 14,
+          "data": "D. ReentrantLock",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [54],
+        "answer": ["B. CountDownLatch"],
+        "explanation": "The 'CountDownLatch' class allows threads to wait until a specified number of events (countdowns) have occurred."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "Which class allows a group of threads to wait for each other to reach a common barrier point?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'CyclicBarrier' class allows a group of threads to wait until all reach a common barrier point before proceeding.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 15,
+          "data": "A. Semaphore",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 15,
+          "data": "B. CyclicBarrier",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 15,
+          "data": "C. CountDownLatch",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 15,
+          "data": "D. ReentrantLock",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [58],
+        "answer": ["B. CyclicBarrier"],
+        "explanation": "The 'CyclicBarrier' class allows a group of threads to wait until all reach a common barrier point before proceeding."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "Which method in the Thread class causes the current thread to wait until another thread invokes 'notify()' or 'notifyAll()'?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'wait()' method causes the current thread to wait until another thread calls 'notify()' or 'notifyAll()' on the same object.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 16,
+          "data": "A. sleep()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 16,
+          "data": "B. wait()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 63,
+          "questionId": 16,
+          "data": "C. join()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 64,
+          "questionId": 16,
+          "data": "D. yield()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [62],
+        "answer": ["B. wait()"],
+        "explanation": "The 'wait()' method causes the current thread to wait until another thread calls 'notify()' or 'notifyAll()' on the same object."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "Which method in the Thread class temporarily pauses the execution of the current thread?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'sleep()' method pauses the execution of the current thread for a specified duration without releasing locks.",
+      "answerCellList": [
+        {
+          "answerId": 65,
+          "questionId": 17,
+          "data": "A. wait()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 66,
+          "questionId": 17,
+          "data": "B. sleep()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 67,
+          "questionId": 17,
+          "data": "C. join()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 68,
+          "questionId": 17,
+          "data": "D. yield()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [66],
+        "answer": ["B. sleep()"],
+        "explanation": "The 'sleep()' method pauses the execution of the current thread for a specified duration without releasing locks."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "Which method in the Thread class allows one thread to wait for the completion of another thread?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'join()' method allows one thread to wait until another thread completes its execution.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 18,
+          "data": "A. wait()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 18,
+          "data": "B. join()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 18,
+          "data": "C. sleep()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 18,
+          "data": "D. yield()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [70],
+        "answer": ["B. join()"],
+        "explanation": "The 'join()' method allows one thread to wait until another thread completes its execution."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "Which class provides a thread-safe implementation of a List?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'CopyOnWriteArrayList' class provides a thread-safe List implementation that creates a new copy of the underlying array on write operations.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 19,
+          "data": "A. ArrayList",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 19,
+          "data": "B. CopyOnWriteArrayList",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 19,
+          "data": "C. LinkedList",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 19,
+          "data": "D. Vector",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [74],
+        "answer": ["B. CopyOnWriteArrayList"],
+        "explanation": "The 'CopyOnWriteArrayList' class provides a thread-safe List implementation that creates a new copy of the underlying array on write operations."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "Which class provides a thread-safe implementation of a Map?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'ConcurrentHashMap' class provides a thread-safe Map implementation with high concurrency for read and write operations.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 20,
+          "data": "A. HashMap",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 20,
+          "data": "B. ConcurrentHashMap",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 20,
+          "data": "C. TreeMap",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 20,
+          "data": "D. Hashtable",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [78],
+        "answer": ["B. ConcurrentHashMap"],
+        "explanation": "The 'ConcurrentHashMap' class provides a thread-safe Map implementation with high concurrency for read and write operations."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "What is the purpose of the 'AtomicInteger' class in Java?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'AtomicInteger' class provides atomic operations on an integer, such as increment and compare-and-set, for thread-safe updates.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 21,
+          "data": "A. Manages thread pools",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 21,
+          "data": "B. Provides atomic operations on integers",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 21,
+          "data": "C. Synchronizes threads",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 21,
+          "data": "D. Creates thread-safe lists",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [82],
+        "answer": ["B. Provides atomic operations on integers"],
+        "explanation": "The 'AtomicInteger' class provides atomic operations on an integer, such as increment and compare-and-set, for thread-safe updates."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "Which method in 'ExecutorService' is used to shut down the executor gracefully?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'shutdown()' method initiates an orderly shutdown, allowing previously submitted tasks to complete but accepting no new tasks.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 22,
+          "data": "A. terminate()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 22,
+          "data": "B. shutdown()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 22,
+          "data": "C. stop()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 22,
+          "data": "D. close()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [86],
+        "answer": ["B. shutdown()"],
+        "explanation": "The 'shutdown()' method initiates an orderly shutdown, allowing previously submitted tasks to complete but accepting no new tasks."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "Which method in 'ExecutorService' immediately stops all tasks and shuts down the executor?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'shutdownNow()' method attempts to stop all executing tasks, halts processing of waiting tasks, and returns a list of tasks that were awaiting execution.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 23,
+          "data": "A. shutdown()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 23,
+          "data": "B. shutdownNow()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 91,
+          "questionId": 23,
+          "data": "C. terminate()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 92,
+          "questionId": 23,
+          "data": "D. stop()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [90],
+        "answer": ["B. shutdownNow()"],
+        "explanation": "The 'shutdownNow()' method attempts to stop all executing tasks, halts processing of waiting tasks, and returns a list of tasks that were awaiting execution."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "Which class provides a thread-safe queue for producer-consumer scenarios?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'BlockingQueue' interface provides thread-safe queue operations, ideal for producer-consumer patterns with blocking methods like 'put()' and 'take()'.",
+      "answerCellList": [
+        {
+          "answerId": 93,
+          "questionId": 24,
+          "data": "A. ArrayList",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 94,
+          "questionId": 24,
+          "data": "B. BlockingQueue",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 95,
+          "questionId": 24,
+          "data": "C. LinkedList",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 96,
+          "questionId": 24,
+          "data": "D. PriorityQueue",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [94],
+        "answer": ["B. BlockingQueue"],
+        "explanation": "The 'BlockingQueue' interface provides thread-safe queue operations, ideal for producer-consumer patterns with blocking methods like 'put()' and 'take()'."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "Which class provides a thread-safe implementation of a Set?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'CopyOnWriteArraySet' class provides a thread-safe Set implementation, using a copy-on-write mechanism for thread safety.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 25,
+          "data": "A. HashSet",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 25,
+          "data": "B. CopyOnWriteArraySet",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 25,
+          "data": "C. TreeSet",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 25,
+          "data": "D. LinkedHashSet",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [98],
+        "answer": ["B. CopyOnWriteArraySet"],
+        "explanation": "The 'CopyOnWriteArraySet' class provides a thread-safe Set implementation, using a copy-on-write mechanism for thread safety."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "What is the purpose of the 'ForkJoinPool' class?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'ForkJoinPool' class is designed for parallel processing of recursive, divide-and-conquer tasks using the fork/join framework.",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 26,
+          "data": "A. Manages thread pools for I/O tasks",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 26,
+          "data": "B. Executes recursive, divide-and-conquer tasks",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 26,
+          "data": "C. Synchronizes threads",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 26,
+          "data": "D. Provides atomic operations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [102],
+        "answer": ["B. Executes recursive, divide-and-conquer tasks"],
+        "explanation": "The 'ForkJoinPool' class is designed for parallel processing of recursive, divide-and-conquer tasks using the fork/join framework."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "Which class is the base class for fork/join tasks in the fork/join framework?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'ForkJoinTask' class is the base class for tasks executed in the fork/join framework, supporting fork and join operations.",
+      "answerCellList": [
+        {
+          "answerId": 105,
+          "questionId": 27,
+          "data": "A. Runnable",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 106,
+          "questionId": 27,
+          "data": "B. ForkJoinTask",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 107,
+          "questionId": 27,
+          "data": "C. Callable",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 108,
+          "questionId": 27,
+          "data": "D. Thread",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [106],
+        "answer": ["B. ForkJoinTask"],
+        "explanation": "The 'ForkJoinTask' class is the base class for tasks executed in the fork/join framework, supporting fork and join operations."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "Which method in the Thread class allows a thread to give up its current use of the CPU?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'yield()' method suggests that the current thread give up its CPU time to allow other threads to run, though it’s not guaranteed.",
+      "answerCellList": [
+        {
+          "answerId": 109,
+          "questionId": 28,
+          "data": "A. sleep()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 110,
+          "questionId": 28,
+          "data": "B. yield()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 111,
+          "questionId": 28,
+          "data": "C. wait()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 112,
+          "questionId": 28,
+          "data": "D. join()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [110],
+        "answer": ["B. yield()"],
+        "explanation": "The 'yield()' method suggests that the current thread give up its CPU time to allow other threads to run, though it’s not guaranteed."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "Which class provides a thread-safe counter that can be decremented atomically?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'AtomicLong' class provides atomic operations for a long value, including decrement operations for thread-safe counting.",
+      "answerCellList": [
+        {
+          "answerId": 113,
+          "questionId": 29,
+          "data": "A. AtomicInteger",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 114,
+          "questionId": 29,
+          "data": "B. AtomicLong",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 115,
+          "questionId": 29,
+          "data": "C. LongAdder",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 116,
+          "questionId": 29,
+          "data": "D. AtomicReference",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [114],
+        "answer": ["B. AtomicLong"],
+        "explanation": "The 'AtomicLong' class provides atomic operations for a long value, including decrement operations for thread-safe counting."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "Which executor type is best suited for CPU-intensive tasks?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'newFixedThreadPool' executor is suitable for CPU-intensive tasks, as it uses a fixed number of threads to avoid excessive thread creation.",
+      "answerCellList": [
+        {
+          "answerId": 117,
+          "questionId": 30,
+          "data": "A. newCachedThreadPool",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 118,
+          "questionId": 30,
+          "data": "B. newFixedThreadPool",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 119,
+          "questionId": 30,
+          "data": "C. newSingleThreadExecutor",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 120,
+          "questionId": 30,
+          "data": "D. newScheduledThreadPool",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [118],
+        "answer": ["B. newFixedThreadPool"],
+        "explanation": "The 'newFixedThreadPool' executor is suitable for CPU-intensive tasks, as it uses a fixed number of threads to avoid excessive thread creation."
+      }
+    }
+  ]
+}

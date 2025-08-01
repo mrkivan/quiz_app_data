@@ -1,0 +1,1325 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is the primary purpose of Espresso in Android UI testing?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Espresso is a testing framework for writing automated UI tests for Android applications.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. Manage database operations",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. Write automated UI tests",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. Handle network requests",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. Create animations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. Write automated UI tests"],
+        "explanation": "Espresso is a testing framework for writing automated UI tests for Android applications."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which annotation is used to mark an Espresso test in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@Test from JUnit is used to mark a method as a test case in Espresso.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. @EspressoTest",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. @Test",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. @UITest",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. @RunTest",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. @Test"],
+        "explanation": "@Test from JUnit is used to mark a method as a test case in Espresso."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "Which Espresso method is used to find a view by its ID?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "onView(withId(R.id.view_id)) is used to find a view by its resource ID in Espresso.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. findView(R.id.view_id)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. onView(withId(R.id.view_id))",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 11,
+          "questionId": 3,
+          "data": "C. getView(R.id.view_id)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 12,
+          "questionId": 3,
+          "data": "D. view(R.id.view_id)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [10],
+        "answer": ["B. onView(withId(R.id.view_id))"],
+        "explanation": "onView(withId(R.id.view_id)) is used to find a view by its resource ID in Espresso."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "How do you perform a click action on a view in Espresso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use perform(click()) to simulate a click action on a view in Espresso.",
+      "answerCellList": [
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "A. action(click())",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "B. perform(click())",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 15,
+          "questionId": 4,
+          "data": "C. doClick()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 16,
+          "questionId": 4,
+          "data": "D. clickView()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [14],
+        "answer": ["B. perform(click())"],
+        "explanation": "Use perform(click()) to simulate a click action on a view in Espresso."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which Espresso matcher is used to find a view with specific text?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "withText(\"text\") is used to match a view with specific text in Espresso.",
+      "answerCellList": [
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "A. hasText(\"text\")",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "B. withText(\"text\")",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 19,
+          "questionId": 5,
+          "data": "C. text(\"text\")",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 20,
+          "questionId": 5,
+          "data": "D. containsText(\"text\")",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [18],
+        "answer": ["B. withText(\"text\")"],
+        "explanation": "withText(\"text\") is used to match a view with specific text in Espresso."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "How do you check if a view is displayed in Espresso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use check(matches(isDisplayed())) to verify that a view is visible on the screen.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 6,
+          "data": "A. verify(isVisible())",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 6,
+          "data": "B. check(matches(isDisplayed()))",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 6,
+          "data": "C. assertDisplayed()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 6,
+          "data": "D. checkVisible()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [22],
+        "answer": ["B. check(matches(isDisplayed()))"],
+        "explanation": "Use check(matches(isDisplayed())) to verify that a view is visible on the screen."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Which Espresso method is used to type text into an EditText?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use perform(typeText(\"text\")) to type text into an EditText in Espresso.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 7,
+          "data": "A. setText(\"text\")",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 7,
+          "data": "B. perform(typeText(\"text\"))",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 7,
+          "data": "C. input(\"text\")",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 7,
+          "data": "D. writeText(\"text\")",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [26],
+        "answer": ["B. perform(typeText(\"text\"))"],
+        "explanation": "Use perform(typeText(\"text\")) to type text into an EditText in Espresso."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "How do you clear text in an EditText using Espresso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use perform(clearText()) to clear the text in an EditText in Espresso.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 8,
+          "data": "A. perform(deleteText())",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 8,
+          "data": "B. perform(clearText())",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 8,
+          "data": "C. perform(removeText())",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 8,
+          "data": "D. perform(emptyText())",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [30],
+        "answer": ["B. perform(clearText())"],
+        "explanation": "Use perform(clearText()) to clear the text in an EditText in Espresso."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "Which Espresso matcher checks if a view is enabled?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "isEnabled() is used to check if a view is enabled in Espresso.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 9,
+          "data": "A. isActive()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 9,
+          "data": "B. isEnabled()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 35,
+          "questionId": 9,
+          "data": "C. isClickable()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 36,
+          "questionId": 9,
+          "data": "D. isVisible()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [34],
+        "answer": ["B. isEnabled()"],
+        "explanation": "isEnabled() is used to check if a view is enabled in Espresso."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "How do you test a RecyclerView item in Espresso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use onView(withId(R.id.recycler_view)).perform(actionOnItemAtPosition(position, action)) to test a RecyclerView item.",
+      "answerCellList": [
+        {
+          "answerId": 37,
+          "questionId": 10,
+          "data": "A. onRecyclerView(position, action)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 38,
+          "questionId": 10,
+          "data": "B. onView(withId(R.id.recycler_view)).perform(actionOnItemAtPosition(position, action))",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 39,
+          "questionId": 10,
+          "data": "C. recyclerView(position).perform(action)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 40,
+          "questionId": 10,
+          "data": "D. onView(position).action(action)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [38],
+        "answer": ["B. onView(withId(R.id.recycler_view)).perform(actionOnItemAtPosition(position, action))"],
+        "explanation": "Use onView(withId(R.id.recycler_view)).perform(actionOnItemAtPosition(position, action)) to test a RecyclerView item."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "How do you scroll to a specific item in a RecyclerView using Espresso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use perform(scrollToPosition(position)) to scroll to a specific item in a RecyclerView.",
+      "answerCellList": [
+        {
+          "answerId": 41,
+          "questionId": 11,
+          "data": "A. perform(moveTo(position))",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 42,
+          "questionId": 11,
+          "data": "B. perform(scrollToPosition(position))",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 43,
+          "questionId": 11,
+          "data": "C. scroll(position)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 44,
+          "questionId": 11,
+          "data": "D. perform(scroll(position))",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [42],
+        "answer": ["B. perform(scrollToPosition(position))"],
+        "explanation": "Use perform(scrollToPosition(position)) to scroll to a specific item in a RecyclerView."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "Which Espresso method is used to check the text of a view?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use check(matches(withText(\"text\"))) to verify the text of a view in Espresso.",
+      "answerCellList": [
+        {
+          "answerId": 45,
+          "questionId": 12,
+          "data": "A. verifyText(\"text\")",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 46,
+          "questionId": 12,
+          "data": "B. check(matches(withText(\"text\")))",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 47,
+          "questionId": 12,
+          "data": "C. assertText(\"text\")",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 48,
+          "questionId": 12,
+          "data": "D. checkText(\"text\")",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [46],
+        "answer": ["B. check(matches(withText(\"text\")))"],
+        "explanation": "Use check(matches(withText(\"text\"))) to verify the text of a view in Espresso."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "How do you press the back button in Espresso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use pressBack() to simulate pressing the back button in Espresso.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 13,
+          "data": "A. perform(back())",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 13,
+          "data": "B. pressBack()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 13,
+          "data": "C. perform(pressBack())",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 13,
+          "data": "D. goBack()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [50],
+        "answer": ["B. pressBack()"],
+        "explanation": "Use pressBack() to simulate pressing the back button in Espresso."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "Which Espresso rule is used to launch an activity for testing?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@Rule with ActivityScenarioRule is used to launch an activity for Espresso tests.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 14,
+          "data": "A. @ActivityTest",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 14,
+          "data": "B. @Rule with ActivityScenarioRule",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 14,
+          "data": "C. @LaunchActivity",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 14,
+          "data": "D. @TestActivity",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [54],
+        "answer": ["B. @Rule with ActivityScenarioRule"],
+        "explanation": "@Rule with ActivityScenarioRule is used to launch an activity for Espresso tests."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "How do you combine multiple matchers in Espresso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use allOf(matcher1, matcher2) to combine multiple matchers in Espresso.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 15,
+          "data": "A. combine(matcher1, matcher2)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 15,
+          "data": "B. allOf(matcher1, matcher2)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 15,
+          "data": "C. matchAll(matcher1, matcher2)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 15,
+          "data": "D. with(matcher1, matcher2)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [58],
+        "answer": ["B. allOf(matcher1, matcher2)"],
+        "explanation": "Use allOf(matcher1, matcher2) to combine multiple matchers in Espresso."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "How do you check if a view is not displayed in Espresso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use check(matches(not(isDisplayed()))) to verify that a view is not displayed.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 16,
+          "data": "A. check(isNotVisible())",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 16,
+          "data": "B. check(matches(not(isDisplayed())))",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 63,
+          "questionId": 16,
+          "data": "C. assertNotDisplayed()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 64,
+          "questionId": 16,
+          "data": "D. checkHidden()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [62],
+        "answer": ["B. check(matches(not(isDisplayed())))"],
+        "explanation": "Use check(matches(not(isDisplayed()))) to verify that a view is not displayed."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "How do you simulate a long press in Espresso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use perform(longClick()) to simulate a long press on a view in Espresso.",
+      "answerCellList": [
+        {
+          "answerId": 65,
+          "questionId": 17,
+          "data": "A. perform(pressLong())",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 66,
+          "questionId": 17,
+          "data": "B. perform(longClick())",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 67,
+          "questionId": 17,
+          "data": "C. longPress()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 68,
+          "questionId": 17,
+          "data": "D. perform(holdClick())",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [66],
+        "answer": ["B. perform(longClick())"],
+        "explanation": "Use perform(longClick()) to simulate a long press on a view in Espresso."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "Which Espresso matcher checks if a view has a specific hint?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "withHint(\"hint\") is used to match a view with a specific hint in Espresso.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 18,
+          "data": "A. hasHint(\"hint\")",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 18,
+          "data": "B. withHint(\"hint\")",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 18,
+          "data": "C. hint(\"hint\")",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 18,
+          "data": "D. containsHint(\"hint\")",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [70],
+        "answer": ["B. withHint(\"hint\")"],
+        "explanation": "withHint(\"hint\") is used to match a view with a specific hint in Espresso."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "How do you handle asynchronous operations in Espresso tests?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use IdlingRegistry to register an IdlingResource to handle asynchronous operations in Espresso.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 19,
+          "data": "A. Use waitFor()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 19,
+          "data": "B. Use IdlingRegistry with IdlingResource",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 19,
+          "data": "C. Use AsyncWait()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 19,
+          "data": "D. Use Thread.sleep()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [74],
+        "answer": ["B. Use IdlingRegistry with IdlingResource"],
+        "explanation": "Use IdlingRegistry to register an IdlingResource to handle asynchronous operations in Espresso."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "How do you test a Spinner selection in Espresso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use perform(click()) followed by onData() to select an item in a Spinner.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 20,
+          "data": "A. selectSpinnerItem(position)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 20,
+          "data": "B. perform(click()) and onData()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 20,
+          "data": "C. setSpinner(position)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 20,
+          "data": "D. perform(select(position))",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [78],
+        "answer": ["B. perform(click()) and onData()"],
+        "explanation": "Use perform(click()) followed by onData() to select an item in a Spinner."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "How do you test a dialog in Espresso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use onView(withText(\"dialog text\")) to interact with elements in a dialog.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 21,
+          "data": "A. onDialog(withText(\"dialog text\"))",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 21,
+          "data": "B. onView(withText(\"dialog text\"))",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 21,
+          "data": "C. dialog(withText(\"dialog text\"))",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 21,
+          "data": "D. checkDialog(\"dialog text\")",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [82],
+        "answer": ["B. onView(withText(\"dialog text\"))"],
+        "explanation": "Use onView(withText(\"dialog text\")) to interact with elements in a dialog."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "How do you simulate a swipe action in Espresso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use perform(swipeLeft()) or swipeRight() to simulate a swipe action in Espresso.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 22,
+          "data": "A. perform(moveLeft())",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 22,
+          "data": "B. perform(swipeLeft())",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 22,
+          "data": "C. swipe(direction)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 22,
+          "data": "D. perform(gestureSwipe())",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [86],
+        "answer": ["B. perform(swipeLeft())"],
+        "explanation": "Use perform(swipeLeft()) or swipeRight() to simulate a swipe action in Espresso."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "Which Espresso matcher checks if a view is checked?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "isChecked() is used to check if a view like a CheckBox is checked in Espresso.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 23,
+          "data": "A. hasChecked()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 23,
+          "data": "B. isChecked()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 91,
+          "questionId": 23,
+          "data": "C. checkState()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 92,
+          "questionId": 23,
+          "data": "D. isSelected()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [90],
+        "answer": ["B. isChecked()"],
+        "explanation": "isChecked() is used to check if a view like a CheckBox is checked in Espresso."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "How do you test a ViewPager in Espresso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use perform(swipeLeft()) or swipeRight() to navigate pages in a ViewPager.",
+      "answerCellList": [
+        {
+          "answerId": 93,
+          "questionId": 24,
+          "data": "A. perform(pageTo(position))",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 94,
+          "questionId": 24,
+          "data": "B. perform(swipeLeft())",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 95,
+          "questionId": 24,
+          "data": "C. navigatePage(position)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 96,
+          "questionId": 24,
+          "data": "D. perform(viewPage(position))",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [94],
+        "answer": ["B. perform(swipeLeft())"],
+        "explanation": "Use perform(swipeLeft()) or swipeRight() to navigate pages in a ViewPager."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "How do you test a custom view in Espresso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use onView(withId(R.id.custom_view)) with a custom matcher to test a custom view.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 25,
+          "data": "A. onCustomView(R.id.custom_view)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 25,
+          "data": "B. onView(withId(R.id.custom_view)) with custom matcher",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 25,
+          "data": "C. testCustomView(R.id.custom_view)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 25,
+          "data": "D. withCustomView(R.id.custom_view)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [98],
+        "answer": ["B. onView(withId(R.id.custom_view)) with custom matcher"],
+        "explanation": "Use onView(withId(R.id.custom_view)) with a custom matcher to test a custom view."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "How do you handle a permission dialog in Espresso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use grantPermissionRule with @Rule to handle permission dialogs in Espresso.",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 26,
+          "data": "A. allowPermission()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 26,
+          "data": "B. grantPermissionRule with @Rule",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 26,
+          "data": "C. permitDialog()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 26,
+          "data": "D. handlePermission()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [102],
+        "answer": ["B. grantPermissionRule with @Rule"],
+        "explanation": "Use grantPermissionRule with @Rule to handle permission dialogs in Espresso."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "How do you check if a view has focus in Espresso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use check(matches(hasFocus())) to verify that a view has focus in Espresso.",
+      "answerCellList": [
+        {
+          "answerId": 105,
+          "questionId": 27,
+          "data": "A. check(isFocused())",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 106,
+          "questionId": 27,
+          "data": "B. check(matches(hasFocus()))",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 107,
+          "questionId": 27,
+          "data": "C. assertFocus()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 108,
+          "questionId": 27,
+          "data": "D. checkFocused()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [106],
+        "answer": ["B. check(matches(hasFocus()))"],
+        "explanation": "Use check(matches(hasFocus())) to verify that a view has focus in Espresso."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "How do you test a menu item click in Espresso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use openActionBarOverflowOrOptionsMenu() and onView(withText(\"menu_item\")).perform(click()) to test a menu item click.",
+      "answerCellList": [
+        {
+          "answerId": 109,
+          "questionId": 28,
+          "data": "A. clickMenu(\"menu_item\")",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 110,
+          "questionId": 28,
+          "data": "B. openActionBarOverflowOrOptionsMenu() and onView(withText(\"menu_item\")).perform(click())",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 111,
+          "questionId": 28,
+          "data": "C. perform(menuClick(\"menu_item\"))",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 112,
+          "questionId": 28,
+          "data": "D. selectMenu(\"menu_item\")",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [110],
+        "answer": ["B. openActionBarOverflowOrOptionsMenu() and onView(withText(\"menu_item\")).perform(click())"],
+        "explanation": "Use openActionBarOverflowOrOptionsMenu() and onView(withText(\"menu_item\")).perform(click()) to test a menu item click."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "How do you test a Toast message in Espresso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use onView(withText(\"toast_message\")).inRoot(isToast()).check(matches(isDisplayed())) to test a Toast message.",
+      "answerCellList": [
+        {
+          "answerId": 113,
+          "questionId": 29,
+          "data": "A. checkToast(\"toast_message\")",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 114,
+          "questionId": 29,
+          "data": "B. onView(withText(\"toast_message\")).inRoot(isToast()).check(matches(isDisplayed()))",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 115,
+          "questionId": 29,
+          "data": "C. verifyToast(\"toast_message\")",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 116,
+          "questionId": 29,
+          "data": "D. onToast(\"toast_message\").check()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [114],
+        "answer": ["B. onView(withText(\"toast_message\")).inRoot(isToast()).check(matches(isDisplayed()))"],
+        "explanation": "Use onView(withText(\"toast_message\")).inRoot(isToast()).check(matches(isDisplayed())) to test a Toast message."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "How do you test a Fragment in Espresso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use FragmentScenario.launchInContainer to launch a Fragment and onView to interact with its views.",
+      "answerCellList": [
+        {
+          "answerId": 117,
+          "questionId": 30,
+          "data": "A. launchFragment()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 118,
+          "questionId": 30,
+          "data": "B. FragmentScenario.launchInContainer",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 119,
+          "questionId": 30,
+          "data": "C. testFragment()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 120,
+          "questionId": 30,
+          "data": "D. FragmentTest.launch()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [118],
+        "answer": ["B. FragmentScenario.launchInContainer"],
+        "explanation": "Use FragmentScenario.launchInContainer to launch a Fragment and onView to interact with its views."
+      }
+    }
+  ]
+}

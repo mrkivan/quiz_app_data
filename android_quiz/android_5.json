@@ -1,0 +1,1213 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is the primary component for managing navigation in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "NavHost is the core composable that hosts the navigation graph and manages navigation in Jetpack Compose.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. NavController",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. NavHost",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. MaterialTheme",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. Surface",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. NavHost"],
+        "explanation": "NavHost is the core composable that hosts the navigation graph and manages navigation in Jetpack Compose."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which component is used to trigger navigation actions in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "NavController is used to trigger navigation actions, such as navigating to a destination or popping the back stack.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. NavHost",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. NavController",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. NavGraph",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. Destination",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. NavController"],
+        "explanation": "NavController is used to trigger navigation actions, such as navigating to a destination or popping the back stack."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "True or False: NavHost requires a NavController to function.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "NavHost requires a NavController to manage navigation state and perform navigation actions.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [9],
+        "answer": ["A. True"],
+        "explanation": "NavHost requires a NavController to manage navigation state and perform navigation actions."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "Which of the following are valid ways to navigate in Jetpack Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "NavController supports navigating by route, popping the back stack, and deep links, but not Modifier.clickable directly.",
+      "answerCellList": [
+        {
+          "answerId": 11,
+          "questionId": 4,
+          "data": "A. Navigate by route",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 12,
+          "questionId": 4,
+          "data": "B. Pop the back stack",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "C. Modifier.clickable",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "D. Deep links",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [11, 12, 14],
+        "answer": ["A. Navigate by route", "B. Pop the back stack", "D. Deep links"],
+        "explanation": "NavController supports navigating by route, popping the back stack, and deep links, but not Modifier.clickable directly."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "What defines the structure of navigation in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The navigation graph defines the structure of navigation, including destinations and their routes.",
+      "answerCellList": [
+        {
+          "answerId": 15,
+          "questionId": 5,
+          "data": "A. NavController",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 16,
+          "questionId": 5,
+          "data": "B. Navigation graph",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "C. NavHost",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "D. MaterialTheme",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [16],
+        "answer": ["B. Navigation graph"],
+        "explanation": "The navigation graph defines the structure of navigation, including destinations and their routes."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "True or False: Navigation in Jetpack Compose supports passing arguments between destinations.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Jetpack Compose’s Navigation component allows passing arguments, such as strings or integers, between destinations.",
+      "answerCellList": [
+        {
+          "answerId": 19,
+          "questionId": 6,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 20,
+          "questionId": 6,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [19],
+        "answer": ["A. True"],
+        "explanation": "Jetpack Compose’s Navigation component allows passing arguments, such as strings or integers, between destinations."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Which method is used to navigate to a specific route with NavController?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "navigate() is used to move to a specific route or destination in the navigation graph.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 7,
+          "data": "A. popBackStack()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 7,
+          "data": "B. navigate()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 7,
+          "data": "C. push()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 7,
+          "data": "D. goBack()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [22],
+        "answer": ["B. navigate()"],
+        "explanation": "navigate() is used to move to a specific route or destination in the navigation graph."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "Which components are required for navigation in Jetpack Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "NavHost, NavController, and navigation graph are essential for navigation, while MaterialTheme is for theming.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 8,
+          "data": "A. NavHost",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 8,
+          "data": "B. NavController",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 8,
+          "data": "C. MaterialTheme",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 8,
+          "data": "D. Navigation graph",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [25, 26, 28],
+        "answer": ["A. NavHost", "B. NavController", "D. Navigation graph"],
+        "explanation": "NavHost, NavController, and navigation graph are essential for navigation, while MaterialTheme is for theming."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "What is a destination in Jetpack Compose navigation?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A destination is a specific screen or composable in the navigation graph, identified by a route.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 9,
+          "data": "A. A navigation action",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 9,
+          "data": "B. A screen or composable",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 9,
+          "data": "C. A theme configuration",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 9,
+          "data": "D. A state object",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [30],
+        "answer": ["B. A screen or composable"],
+        "explanation": "A destination is a specific screen or composable in the navigation graph, identified by a route."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "True or False: Deep links allow navigation to specific destinations from outside the app.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Deep links enable navigation to specific destinations from external sources, like URLs or notifications.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 10,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 10,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [33],
+        "answer": ["A. True"],
+        "explanation": "Deep links enable navigation to specific destinations from external sources, like URLs or notifications."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "Which NavController method is used to go back to the previous screen?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "popBackStack() removes the current destination from the back stack, navigating to the previous screen.",
+      "answerCellList": [
+        {
+          "answerId": 35,
+          "questionId": 11,
+          "data": "A. navigate()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 36,
+          "questionId": 11,
+          "data": "B. popBackStack()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 37,
+          "questionId": 11,
+          "data": "C. clearBackStack()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 38,
+          "questionId": 11,
+          "data": "D. navigateUp()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [36],
+        "answer": ["B. popBackStack()"],
+        "explanation": "popBackStack() removes the current destination from the back stack, navigating to the previous screen."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "Which features does the Navigation component in Jetpack Compose support? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Navigation component supports deep links, argument passing, and nested graphs, but not typography styling.",
+      "answerCellList": [
+        {
+          "answerId": 39,
+          "questionId": 12,
+          "data": "A. Deep links",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 40,
+          "questionId": 12,
+          "data": "B. Argument passing",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 41,
+          "questionId": 12,
+          "data": "C. Typography styling",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 42,
+          "questionId": 12,
+          "data": "D. Nested navigation graphs",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [39, 40, 42],
+        "answer": ["A. Deep links", "B. Argument passing", "D. Nested navigation graphs"],
+        "explanation": "The Navigation component supports deep links, argument passing, and nested graphs, but not typography styling."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "What is a route in Jetpack Compose navigation?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A route is a unique string identifier for a destination in the navigation graph.",
+      "answerCellList": [
+        {
+          "answerId": 43,
+          "questionId": 13,
+          "data": "A. A navigation action",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 44,
+          "questionId": 13,
+          "data": "B. A unique identifier for a destination",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 45,
+          "questionId": 13,
+          "data": "C. A state object",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 46,
+          "questionId": 13,
+          "data": "D. A theme configuration",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [44],
+        "answer": ["B. A unique identifier for a destination"],
+        "explanation": "A route is a unique string identifier for a destination in the navigation graph."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "True or False: Nested navigation graphs allow modular navigation structures.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Nested navigation graphs enable modular and reusable navigation structures within a larger graph.",
+      "answerCellList": [
+        {
+          "answerId": 47,
+          "questionId": 14,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 48,
+          "questionId": 14,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [47],
+        "answer": ["A. True"],
+        "explanation": "Nested navigation graphs enable modular and reusable navigation structures within a larger graph."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "Which NavController method navigates up the back stack or to a parent destination?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "navigateUp() navigates to the previous destination or parent in a nested graph, respecting the hierarchy.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 15,
+          "data": "A. popBackStack()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 15,
+          "data": "B. navigateUp()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 15,
+          "data": "C. navigate()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 15,
+          "data": "D. clearBackStack()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [50],
+        "answer": ["B. navigateUp()"],
+        "explanation": "navigateUp() navigates to the previous destination or parent in a nested graph, respecting the hierarchy."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "Which of the following can be passed as navigation arguments? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Navigation arguments can include strings, integers, and booleans, but not Modifiers, which are for UI customization.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 16,
+          "data": "A. Strings",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 16,
+          "data": "B. Integers",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 16,
+          "data": "C. Modifiers",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 16,
+          "data": "D. Booleans",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [53, 54, 56],
+        "answer": ["A. Strings", "B. Integers", "D. Booleans"],
+        "explanation": "Navigation arguments can include strings, integers, and booleans, but not Modifiers, which are for UI customization."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "What is the purpose of the startDestination in a navigation graph?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The startDestination defines the first screen displayed when the NavHost is initialized.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 17,
+          "data": "A. Defines the last screen",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 17,
+          "data": "B. Defines the first screen",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 17,
+          "data": "C. Defines a deep link",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 17,
+          "data": "D. Defines a theme",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [58],
+        "answer": ["B. Defines the first screen"],
+        "explanation": "The startDestination defines the first screen displayed when the NavHost is initialized."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "True or False: NavController can navigate to a destination without adding it to the back stack.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "NavController’s navigate() method can use options to replace the current destination without adding to the back stack.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 18,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 18,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [61],
+        "answer": ["A. True"],
+        "explanation": "NavController’s navigate() method can use options to replace the current destination without adding to the back stack."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "Which component holds the navigation graph in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "NavHost holds the navigation graph and displays the current destination’s composable.",
+      "answerCellList": [
+        {
+          "answerId": 63,
+          "questionId": 19,
+          "data": "A. NavController",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 64,
+          "questionId": 19,
+          "data": "B. NavHost",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 65,
+          "questionId": 19,
+          "data": "C. Surface",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 66,
+          "questionId": 19,
+          "data": "D. MaterialTheme",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [64],
+        "answer": ["B. NavHost"],
+        "explanation": "NavHost holds the navigation graph and displays the current destination’s composable."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "Which of the following support navigation in Jetpack Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "NavHost, NavController, and deep links are part of the Navigation component, while Modifier is for UI customization.",
+      "answerCellList": [
+        {
+          "answerId": 67,
+          "questionId": 20,
+          "data": "A. NavHost",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 68,
+          "questionId": 20,
+          "data": "B. NavController",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 69,
+          "questionId": 20,
+          "data": "C. Modifier",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 70,
+          "questionId": 20,
+          "data": "D. Deep links",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [67, 68, 70],
+        "answer": ["A. NavHost", "B. NavController", "D. Deep links"],
+        "explanation": "NavHost, NavController, and deep links are part of the Navigation component, while Modifier is for UI customization."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "What does the popBackStack() method do in NavController?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "popBackStack() navigates to the previous destination by removing the current one from the back stack.",
+      "answerCellList": [
+        {
+          "answerId": 71,
+          "questionId": 21,
+          "data": "A. Navigates to a new destination",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 72,
+          "questionId": 21,
+          "data": "B. Goes to the previous destination",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 73,
+          "questionId": 21,
+          "data": "C. Clears all destinations",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 74,
+          "questionId": 21,
+          "data": "D. Applies a theme",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [72],
+        "answer": ["B. Goes to the previous destination"],
+        "explanation": "popBackStack() navigates to the previous destination by removing the current one from the back stack."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "True or False: Navigation arguments must be defined in the navigation graph.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Arguments must be defined in the navigation graph to be passed and accessed between destinations.",
+      "answerCellList": [
+        {
+          "answerId": 75,
+          "questionId": 22,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 76,
+          "questionId": 22,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [75],
+        "answer": ["A. True"],
+        "explanation": "Arguments must be defined in the navigation graph to be passed and accessed between destinations."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "Which component displays the current destination in Jetpack Compose navigation?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "NavHost displays the composable associated with the current destination in the navigation graph.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 23,
+          "data": "A. NavController",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 23,
+          "data": "B. NavHost",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 23,
+          "data": "C. Surface",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 23,
+          "data": "D. MaterialTheme",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [78],
+        "answer": ["B. NavHost"],
+        "explanation": "NavHost displays the composable associated with the current destination in the navigation graph."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "Which of the following are supported by deep links in Jetpack Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Deep links support URLs, intent filters, and navigation to specific destinations, but not typography styling.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 24,
+          "data": "A. URLs",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 24,
+          "data": "B. Intent filters",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 24,
+          "data": "C. Typography styling",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 24,
+          "data": "D. Navigation to specific destinations",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [81, 82, 84],
+        "answer": ["A. URLs", "B. Intent filters", "D. Navigation to specific destinations"],
+        "explanation": "Deep links support URLs, intent filters, and navigation to specific destinations, but not typography styling."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "What happens when popBackStack() is called with an empty back stack?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "If the back stack is empty, popBackStack() does nothing and the app remains on the current screen.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 25,
+          "data": "A. Navigates to the start destination",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 25,
+          "data": "B. Does nothing",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 25,
+          "data": "C. Closes the app",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 25,
+          "data": "D. Clears the navigation graph",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [86],
+        "answer": ["B. Does nothing"],
+        "explanation": "If the back stack is empty, popBackStack() does nothing and the app remains on the current screen."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "True or False: Navigation graphs can include nested graphs for modular navigation.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Navigation graphs support nested graphs, allowing modular and reusable navigation structures.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 26,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 26,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [89],
+        "answer": ["A. True"],
+        "explanation": "Navigation graphs support nested graphs, allowing modular and reusable navigation structures."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "Which NavController method clears the back stack up to a specific destination?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "popBackStack() with a destination ID clears the back stack up to that destination, inclusive or exclusive based on options.",
+      "answerCellList": [
+        {
+          "answerId": 91,
+          "questionId": 27,
+          "data": "A. navigate()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 92,
+          "questionId": 27,
+          "data": "B. popBackStack()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 93,
+          "questionId": 27,
+          "data": "C. navigateUp()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 94,
+          "questionId": 27,
+          "data": "D. clearBackStack()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [92],
+        "answer": ["B. popBackStack()"],
+        "explanation": "popBackStack() with a destination ID clears the back stack up to that destination, inclusive or exclusive based on options."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "Which of the following are benefits of using the Navigation component? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Navigation component provides type-safe navigation, deep link support, and back stack management, but not theming.",
+      "answerCellList": [
+        {
+          "answerId": 95,
+          "questionId": 28,
+          "data": "A. Type-safe navigation",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 96,
+          "questionId": 28,
+          "data": "B. Deep link support",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 97,
+          "questionId": 28,
+          "data": "C. Theming support",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 98,
+          "questionId": 28,
+          "data": "D. Back stack management",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [95, 96, 98],
+        "answer": ["A. Type-safe navigation", "B. Deep link support", "D. Back stack management"],
+        "explanation": "The Navigation component provides type-safe navigation, deep link support, and back stack management, but not theming."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "What is the purpose of the NavBackStackEntry in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "NavBackStackEntry provides access to arguments and state for a specific destination in the back stack.",
+      "answerCellList": [
+        {
+          "answerId": 99,
+          "questionId": 29,
+          "data": "A. Defines the navigation graph",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 100,
+          "questionId": 29,
+          "data": "B. Accesses arguments and state for a destination",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 101,
+          "questionId": 29,
+          "data": "C. Applies a theme",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 102,
+          "questionId": 29,
+          "data": "D. Triggers recomposition",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [100],
+        "answer": ["B. Accesses arguments and state for a destination"],
+        "explanation": "NavBackStackEntry provides access to arguments and state for a specific destination in the back stack."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "True or False: The Navigation component supports animations during transitions.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Navigation component supports animations during transitions between destinations, customizable via options.",
+      "answerCellList": [
+        {
+          "answerId": 103,
+          "questionId": 30,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 104,
+          "questionId": 30,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [103],
+        "answer": ["A. True"],
+        "explanation": "The Navigation component supports animations during transitions between destinations, customizable via options."
+      }
+    }
+  ]
+}

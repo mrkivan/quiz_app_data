@@ -1,0 +1,1213 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "Which component is used to create a ViewModel instance in a Jetpack Compose UI?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The viewModel() function creates or retrieves a ViewModel instance scoped to the composable's lifecycle.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. remember",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. viewModel()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. mutableStateOf",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. collectAsState",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. viewModel()"],
+        "explanation": "The viewModel() function creates or retrieves a ViewModel instance scoped to the composable's lifecycle."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which state management tool is commonly used with ViewModel for reactive UI updates?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "StateFlow is commonly used with ViewModel for reactive UI updates in Jetpack Compose.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. LiveData",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. StateFlow",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. SharedPreferences",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. DataStore",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. StateFlow"],
+        "explanation": "StateFlow is commonly used with ViewModel for reactive UI updates in Jetpack Compose."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "True or False: ViewModel survives configuration changes like screen rotations.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ViewModel is designed to survive configuration changes, retaining data across screen rotations and other lifecycle events.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [9],
+        "answer": ["A. True"],
+        "explanation": "ViewModel is designed to survive configuration changes, retaining data across screen rotations and other lifecycle events."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "Which of the following are used to observe ViewModel state in Jetpack Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "collectAsState and observeAsState are used to observe StateFlow and LiveData, respectively, while remember and mutableStateOf manage local state.",
+      "answerCellList": [
+        {
+          "answerId": 11,
+          "questionId": 4,
+          "data": "A. collectAsState",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 12,
+          "questionId": 4,
+          "data": "B. observeAsState",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "C. remember",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "D. mutableStateOf",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [11, 12],
+        "answer": ["A. collectAsState", "B. observeAsState"],
+        "explanation": "collectAsState and observeAsState are used to observe StateFlow and LiveData, respectively, while remember and mutableStateOf manage local state."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which scope is used to tie a ViewModel to an activity?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ActivityViewModelStoreOwner scopes a ViewModel to the activity's lifecycle.",
+      "answerCellList": [
+        {
+          "answerId": 15,
+          "questionId": 5,
+          "data": "A. NavGraphViewModelStoreOwner",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 16,
+          "questionId": 5,
+          "data": "B. ActivityViewModelStoreOwner",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "C. FragmentViewModelStoreOwner",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "D. ComposableViewModelStoreOwner",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [16],
+        "answer": ["B. ActivityViewModelStoreOwner"],
+        "explanation": "ActivityViewModelStoreOwner scopes a ViewModel to the activity's lifecycle."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "True or False: ViewModel can be used to share data between multiple composables.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ViewModel can share data across composables by holding state in a single instance.",
+      "answerCellList": [
+        {
+          "answerId": 19,
+          "questionId": 6,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 20,
+          "questionId": 6,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [19],
+        "answer": ["A. True"],
+        "explanation": "ViewModel can share data across composables by holding state in a single instance."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Which function is used to observe StateFlow in a composable?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "collectAsState converts a StateFlow into a State object that triggers recomposition.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 7,
+          "data": "A. observeAsState",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 7,
+          "data": "B. collectAsState",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 7,
+          "data": "C. mutableStateOf",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 7,
+          "data": "D. remember",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [22],
+        "answer": ["B. collectAsState"],
+        "explanation": "collectAsState converts a StateFlow into a State object that triggers recomposition."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "Which of the following can be used to inject dependencies into a ViewModel? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Hilt and ViewModelProvider.Factory are used for dependency injection, while Room and NavController are not directly related.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 8,
+          "data": "A. Hilt",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 8,
+          "data": "B. ViewModelProvider.Factory",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 8,
+          "data": "C. Room",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 8,
+          "data": "D. NavController",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [25, 26],
+        "answer": ["A. Hilt", "B. ViewModelProvider.Factory"],
+        "explanation": "Hilt and ViewModelProvider.Factory are used for dependency injection, while Room and NavController are not directly related."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "Which lifecycle scope is used for ViewModel in a navigation graph?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "NavGraphViewModelStoreOwner scopes a ViewModel to a navigation graph for sharing data across destinations.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 9,
+          "data": "A. ActivityViewModelStoreOwner",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 9,
+          "data": "B. NavGraphViewModelStoreOwner",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 9,
+          "data": "C. FragmentViewModelStoreOwner",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 9,
+          "data": "D. ComposableViewModelStoreOwner",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [30],
+        "answer": ["B. NavGraphViewModelStoreOwner"],
+        "explanation": "NavGraphViewModelStoreOwner scopes a ViewModel to a navigation graph for sharing data across destinations."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "True or False: ViewModel is automatically cleared when its associated UI component is destroyed.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ViewModel is cleared when its associated lifecycle scope (e.g., activity or navigation graph) is destroyed.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 10,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 10,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [33],
+        "answer": ["A. True"],
+        "explanation": "ViewModel is cleared when its associated lifecycle scope (e.g., activity or navigation graph) is destroyed."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "Which function is used to observe LiveData in a composable?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "observeAsState converts LiveData into a State object for use in Jetpack Compose.",
+      "answerCellList": [
+        {
+          "answerId": 35,
+          "questionId": 11,
+          "data": "A. collectAsState",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 36,
+          "questionId": 11,
+          "data": "B. observeAsState",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 37,
+          "questionId": 11,
+          "data": "C. mutableStateOf",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 38,
+          "questionId": 11,
+          "data": "D. remember",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [36],
+        "answer": ["B. observeAsState"],
+        "explanation": "observeAsState converts LiveData into a State object for use in Jetpack Compose."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "Which of the following are benefits of using ViewModel with Jetpack Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ViewModel survives configuration changes, manages UI state, and shares data, but does not handle navigation directly.",
+      "answerCellList": [
+        {
+          "answerId": 39,
+          "questionId": 12,
+          "data": "A. Survives configuration changes",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 40,
+          "questionId": 12,
+          "data": "B. Manages UI state",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 41,
+          "questionId": 12,
+          "data": "C. Handles navigation",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 42,
+          "questionId": 12,
+          "data": "D. Shares data between composables",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [39, 40, 42],
+        "answer": ["A. Survives configuration changes", "B. Manages UI state", "D. Shares data between composables"],
+        "explanation": "ViewModel survives configuration changes, manages UI state, and shares data, but does not handle navigation directly."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "Which lifecycle event triggers ViewModel cleanup?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The onCleared method is called when the ViewModel's scope is destroyed, such as when the activity finishes.",
+      "answerCellList": [
+        {
+          "answerId": 43,
+          "questionId": 13,
+          "data": "A. onPause",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 44,
+          "questionId": 13,
+          "data": "B. onCleared",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 45,
+          "questionId": 13,
+          "data": "C. onStop",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 46,
+          "questionId": 13,
+          "data": "D. onDestroy",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [44],
+        "answer": ["B. onCleared"],
+        "explanation": "The onCleared method is called when the ViewModel's scope is destroyed, such as when the activity finishes."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "True or False: ViewModel can be used with Hilt for dependency injection.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Hilt provides annotations like @HiltViewModel to inject dependencies into ViewModels.",
+      "answerCellList": [
+        {
+          "answerId": 47,
+          "questionId": 14,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 48,
+          "questionId": 14,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [47],
+        "answer": ["A. True"],
+        "explanation": "Hilt provides annotations like @HiltViewModel to inject dependencies into ViewModels."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "Which class is extended to create a ViewModel?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The ViewModel class is extended to create a ViewModel for managing UI-related data.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 15,
+          "data": "A. LifecycleOwner",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 15,
+          "data": "B. ViewModel",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 15,
+          "data": "C. LiveData",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 15,
+          "data": "D. StateFlow",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [50],
+        "answer": ["B. ViewModel"],
+        "explanation": "The ViewModel class is extended to create a ViewModel for managing UI-related data."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "Which of the following are used to manage state in a ViewModel? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LiveData, StateFlow, and MutableStateFlow manage state, while NavController is for navigation.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 16,
+          "data": "A. LiveData",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 16,
+          "data": "B. StateFlow",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 16,
+          "data": "C. NavController",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 16,
+          "data": "D. MutableStateFlow",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [53, 54, 56],
+        "answer": ["A. LiveData", "B. StateFlow", "D. MutableStateFlow"],
+        "explanation": "LiveData, StateFlow, and MutableStateFlow manage state, while NavController is for navigation."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "Which scope is used for ViewModel in a composable?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LocalViewModelStoreOwner scopes a ViewModel to the nearest ViewModelStoreOwner, such as an activity or navigation graph.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 17,
+          "data": "A. ActivityViewModelStoreOwner",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 17,
+          "data": "B. LocalViewModelStoreOwner",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 17,
+          "data": "C. FragmentViewModelStoreOwner",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 17,
+          "data": "D. NavGraphViewModelStoreOwner",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [58],
+        "answer": ["B. LocalViewModelStoreOwner"],
+        "explanation": "LocalViewModelStoreOwner scopes a ViewModel to the nearest ViewModelStoreOwner, such as an activity or navigation graph."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "True or False: ViewModel can handle asynchronous operations like network calls.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ViewModel can handle asynchronous operations using coroutines or other mechanisms, keeping the UI responsive.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 18,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 18,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [61],
+        "answer": ["A. True"],
+        "explanation": "ViewModel can handle asynchronous operations using coroutines or other mechanisms, keeping the UI responsive."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "Which function is used to access a ViewModel in a composable with a custom factory?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "viewModel() with a factory parameter allows custom ViewModel creation with dependencies.",
+      "answerCellList": [
+        {
+          "answerId": 63,
+          "questionId": 19,
+          "data": "A. remember",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 64,
+          "questionId": 19,
+          "data": "B. viewModel()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 65,
+          "questionId": 19,
+          "data": "C. createViewModel",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 66,
+          "questionId": 19,
+          "data": "D. injectViewModel",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [64],
+        "answer": ["B. viewModel()"],
+        "explanation": "viewModel() with a factory parameter allows custom ViewModel creation with dependencies."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "Which of the following are best practices for ViewModel integration? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Keeping UI logic in ViewModel, using StateFlow for state, and injecting dependencies are best practices, while storing composables is not.",
+      "answerCellList": [
+        {
+          "answerId": 67,
+          "questionId": 20,
+          "data": "A. Keep UI logic in ViewModel",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 68,
+          "questionId": 20,
+          "data": "B. Use StateFlow for state",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 69,
+          "questionId": 20,
+          "data": "C. Store composables in ViewModel",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 70,
+          "questionId": 20,
+          "data": "D. Inject dependencies with Hilt",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [67, 68, 70],
+        "answer": ["A. Keep UI logic in ViewModel", "B. Use StateFlow for state", "D. Inject dependencies with Hilt"],
+        "explanation": "Keeping UI logic in ViewModel, using StateFlow for state, and injecting dependencies are best practices, while storing composables is not."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "Which class is used to save state in a ViewModel across process death?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "SavedStateHandle is used to save and restore state in a ViewModel across process death.",
+      "answerCellList": [
+        {
+          "answerId": 71,
+          "questionId": 21,
+          "data": "A. Bundle",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 72,
+          "questionId": 21,
+          "data": "B. SavedStateHandle",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 73,
+          "questionId": 21,
+          "data": "C. StateFlow",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 74,
+          "questionId": 21,
+          "data": "D. LiveData",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [72],
+        "answer": ["B. SavedStateHandle"],
+        "explanation": "SavedStateHandle is used to save and restore state in a ViewModel across process death."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "True or False: ViewModel should not hold references to composables.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ViewModel should not hold references to composables to avoid memory leaks and maintain separation of concerns.",
+      "answerCellList": [
+        {
+          "answerId": 75,
+          "questionId": 22,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 76,
+          "questionId": 22,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [75],
+        "answer": ["A. True"],
+        "explanation": "ViewModel should not hold references to composables to avoid memory leaks and maintain separation of concerns."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "Which scope is used for ViewModel in a fragment?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "FragmentViewModelStoreOwner scopes a ViewModel to a fragment's lifecycle.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 23,
+          "data": "A. ActivityViewModelStoreOwner",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 23,
+          "data": "B. FragmentViewModelStoreOwner",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 23,
+          "data": "C. NavGraphViewModelStoreOwner",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 23,
+          "data": "D. LocalViewModelStoreOwner",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [78],
+        "answer": ["B. FragmentViewModelStoreOwner"],
+        "explanation": "FragmentViewModelStoreOwner scopes a ViewModel to a fragment's lifecycle."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "Which of the following are used to handle asynchronous operations in ViewModel? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Coroutines and Flow are used for asynchronous operations, while Modifier and Navigation are not.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 24,
+          "data": "A. Coroutines",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 24,
+          "data": "B. Flow",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 24,
+          "data": "C. Modifier",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 24,
+          "data": "D. Navigation",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [81, 82],
+        "answer": ["A. Coroutines", "B. Flow"],
+        "explanation": "Coroutines and Flow are used for asynchronous operations, while Modifier and Navigation are not."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "Which component is used to pass initial state to a ViewModel?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "SavedStateHandle is used to pass and retrieve initial state in a ViewModel.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 25,
+          "data": "A. Bundle",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 25,
+          "data": "B. SavedStateHandle",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 25,
+          "data": "C. Intent",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 25,
+          "data": "D. StateFlow",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [86],
+        "answer": ["B. SavedStateHandle"],
+        "explanation": "SavedStateHandle is used to pass and retrieve initial state in a ViewModel."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "True or False: ViewModel can be shared across multiple navigation destinations.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Using NavGraphViewModelStoreOwner, a ViewModel can be shared across navigation destinations.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 26,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 26,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [89],
+        "answer": ["A. True"],
+        "explanation": "Using NavGraphViewModelStoreOwner, a ViewModel can be shared across navigation destinations."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "Which library provides Hilt integration for ViewModel?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The hilt-viewmodel library provides annotations like @HiltViewModel for dependency injection.",
+      "answerCellList": [
+        {
+          "answerId": 91,
+          "questionId": 27,
+          "data": "A. hilt-navigation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 92,
+          "questionId": 27,
+          "data": "B. hilt-viewmodel",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 93,
+          "questionId": 27,
+          "data": "C. hilt-compose",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 94,
+          "questionId": 27,
+          "data": "D. hilt-lifecycle",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [92],
+        "answer": ["B. hilt-viewmodel"],
+        "explanation": "The hilt-viewmodel library provides annotations like @HiltViewModel for dependency injection."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "Which of the following are used to trigger recomposition in Jetpack Compose with ViewModel? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "State, LiveData with observeAsState, and StateFlow with collectAsState trigger recomposition, while Bundle does not.",
+      "answerCellList": [
+        {
+          "answerId": 95,
+          "questionId": 28,
+          "data": "A. State",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 96,
+          "questionId": 28,
+          "data": "B. LiveData with observeAsState",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 97,
+          "questionId": 28,
+          "data": "C. Bundle",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 98,
+          "questionId": 28,
+          "data": "D. StateFlow with collectAsState",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [95, 96, 98],
+        "answer": ["A. State", "B. LiveData with observeAsState", "D. StateFlow with collectAsState"],
+        "explanation": "State, LiveData with observeAsState, and StateFlow with collectAsState trigger recomposition, while Bundle does not."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "Which function is used to provide a ViewModel with SavedStateHandle?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "viewModel() with a SavedStateHandle parameter provides state persistence across process death.",
+      "answerCellList": [
+        {
+          "answerId": 99,
+          "questionId": 29,
+          "data": "A. remember",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 100,
+          "questionId": 29,
+          "data": "B. viewModel()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 101,
+          "questionId": 29,
+          "data": "C. createViewModel",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 102,
+          "questionId": 29,
+          "data": "D. injectViewModel",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [100],
+        "answer": ["B. viewModel()"],
+        "explanation": "viewModel() with a SavedStateHandle parameter provides state persistence across process death."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "True or False: ViewModel should handle UI rendering logic.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ViewModel should handle business logic and state, not UI rendering, which is managed by composables.",
+      "answerCellList": [
+        {
+          "answerId": 103,
+          "questionId": 30,
+          "data": "A. True",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 104,
+          "questionId": 30,
+          "data": "B. False",
+          "isItAnswer": true,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [104],
+        "answer": ["B. False"],
+        "explanation": "ViewModel should handle business logic and state, not UI rendering, which is managed by composables."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1213 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "Which composable provides access to the constraints of its content for adaptive layouts?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "BoxWithConstraints provides maxWidth, maxHeight, and constraints to adapt layouts based on available space.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. Column",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. BoxWithConstraints",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. Row",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. Surface",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. BoxWithConstraints"],
+        "explanation": "BoxWithConstraints provides maxWidth, maxHeight, and constraints to adapt layouts based on available space."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "What is used to determine screen size categories in Jetpack Compose for adaptive layouts?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "WindowSizeClass categorizes screen sizes into compact, medium, and expanded for responsive design.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. MaterialTheme",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. WindowSizeClass",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. NavController",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. Modifier",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. WindowSizeClass"],
+        "explanation": "WindowSizeClass categorizes screen sizes into compact, medium, and expanded for responsive design."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "True or False: Adaptive layouts in Jetpack Compose support different layouts for different screen sizes.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Adaptive layouts use tools like WindowSizeClass and BoxWithConstraints to adjust layouts based on screen size.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [9],
+        "answer": ["A. True"],
+        "explanation": "Adaptive layouts use tools like WindowSizeClass and BoxWithConstraints to adjust layouts based on screen size."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "Which of the following are used for adaptive layouts in Jetpack Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "BoxWithConstraints, WindowSizeClass, and breakpoints are used for adaptive layouts, while MaterialTheme is for theming.",
+      "answerCellList": [
+        {
+          "answerId": 11,
+          "questionId": 4,
+          "data": "A. BoxWithConstraints",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 12,
+          "questionId": 4,
+          "data": "B. WindowSizeClass",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "C. MaterialTheme",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "D. Breakpoints",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [11, 12, 14],
+        "answer": ["A. BoxWithConstraints", "B. WindowSizeClass", "D. Breakpoints"],
+        "explanation": "BoxWithConstraints, WindowSizeClass, and breakpoints are used for adaptive layouts, while MaterialTheme is for theming."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which composable is used for navigation on medium-sized screens in adaptive layouts?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "NavigationRail is designed for navigation on medium-sized screens, such as tablets in portrait mode.",
+      "answerCellList": [
+        {
+          "answerId": 15,
+          "questionId": 5,
+          "data": "A. NavigationBar",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 16,
+          "questionId": 5,
+          "data": "B. NavigationRail",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "C. BottomNavigation",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "D. Drawer",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [16],
+        "answer": ["B. NavigationRail"],
+        "explanation": "NavigationRail is designed for navigation on medium-sized screens, such as tablets in portrait mode."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "True or False: WindowSizeClass categorizes screens into compact, medium, and expanded sizes.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "WindowSizeClass uses compact, medium, and expanded categories to help design responsive layouts.",
+      "answerCellList": [
+        {
+          "answerId": 19,
+          "questionId": 6,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 20,
+          "questionId": 6,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [19],
+        "answer": ["A. True"],
+        "explanation": "WindowSizeClass uses compact, medium, and expanded categories to help design responsive layouts."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Which Modifier is used to make a composable fill the available width adaptively?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Modifier.fillMaxWidth makes a composable take up the available width, adapting to the screen size.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 7,
+          "data": "A. Modifier.padding",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 7,
+          "data": "B. Modifier.fillMaxWidth",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 7,
+          "data": "C. Modifier.weight",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 7,
+          "data": "D. Modifier.size",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [22],
+        "answer": ["B. Modifier.fillMaxWidth"],
+        "explanation": "Modifier.fillMaxWidth makes a composable take up the available width, adapting to the screen size."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "Which components are commonly used for navigation in adaptive layouts? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "NavigationBar, NavigationRail, and NavigationDrawer are used for navigation in adaptive layouts, while Surface is for general styling.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 8,
+          "data": "A. NavigationBar",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 8,
+          "data": "B. NavigationRail",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 8,
+          "data": "C. Surface",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 8,
+          "data": "D. NavigationDrawer",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [25, 26, 28],
+        "answer": ["A. NavigationBar", "B. NavigationRail", "D. NavigationDrawer"],
+        "explanation": "NavigationBar, NavigationRail, and NavigationDrawer are used for navigation in adaptive layouts, while Surface is for general styling."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "Which WindowSizeClass category is typically used for phones in portrait mode?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Compact is used for smaller screens, such as phones in portrait mode, in WindowSizeClass.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 9,
+          "data": "A. Medium",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 9,
+          "data": "B. Compact",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 9,
+          "data": "C. Expanded",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 9,
+          "data": "D. Large",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [30],
+        "answer": ["B. Compact"],
+        "explanation": "Compact is used for smaller screens, such as phones in portrait mode, in WindowSizeClass."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "True or False: BoxWithConstraints provides access to the maxWidth of its content.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "BoxWithConstraints provides maxWidth, maxHeight, and other constraints for adaptive layout decisions.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 10,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 10,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [33],
+        "answer": ["A. True"],
+        "explanation": "BoxWithConstraints provides maxWidth, maxHeight, and other constraints for adaptive layout decisions."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "Which composable is used for navigation on small screens in adaptive layouts?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "NavigationBar is used for navigation on small screens, such as phones, in adaptive layouts.",
+      "answerCellList": [
+        {
+          "answerId": 35,
+          "questionId": 11,
+          "data": "A. NavigationRail",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 36,
+          "questionId": 11,
+          "data": "B. NavigationBar",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 37,
+          "questionId": 11,
+          "data": "C. NavigationDrawer",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 38,
+          "questionId": 11,
+          "data": "D. TopAppBar",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [36],
+        "answer": ["B. NavigationBar"],
+        "explanation": "NavigationBar is used for navigation on small screens, such as phones, in adaptive layouts."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "Which of the following are considerations for adaptive layouts? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Screen size, orientation, and device type are key considerations, while colorScheme is for theming.",
+      "answerCellList": [
+        {
+          "answerId": 39,
+          "questionId": 12,
+          "data": "A. Screen size",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 40,
+          "questionId": 12,
+          "data": "B. Orientation",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 41,
+          "questionId": 12,
+          "data": "C. colorScheme",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 42,
+          "questionId": 12,
+          "data": "D. Device type",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [39, 40, 42],
+        "answer": ["A. Screen size", "B. Orientation", "D. Device type"],
+        "explanation": "Screen size, orientation, and device type are key considerations, while colorScheme is for theming."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "Which Modifier is used to assign proportional sizing in adaptive layouts?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Modifier.weight assigns proportional sizing in layouts like Row or Column for adaptive designs.",
+      "answerCellList": [
+        {
+          "answerId": 43,
+          "questionId": 13,
+          "data": "A. Modifier.padding",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 44,
+          "questionId": 13,
+          "data": "B. Modifier.weight",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 45,
+          "questionId": 13,
+          "data": "C. Modifier.size",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 46,
+          "questionId": 13,
+          "data": "D. Modifier.fillMaxWidth",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [44],
+        "answer": ["B. Modifier.weight"],
+        "explanation": "Modifier.weight assigns proportional sizing in layouts like Row or Column for adaptive designs."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "True or False: NavigationDrawer is suitable for large screens in adaptive layouts.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "NavigationDrawer is often used for large screens, such as tablets or desktops, in adaptive layouts.",
+      "answerCellList": [
+        {
+          "answerId": 47,
+          "questionId": 14,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 48,
+          "questionId": 14,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [47],
+        "answer": ["A. True"],
+        "explanation": "NavigationDrawer is often used for large screens, such as tablets or desktops, in adaptive layouts."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "Which WindowSizeClass category is used for large screens like desktops?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Expanded is used for large screens, such as desktops or tablets in landscape, in WindowSizeClass.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 15,
+          "data": "A. Compact",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 15,
+          "data": "B. Expanded",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 15,
+          "data": "C. Medium",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 15,
+          "data": "D. Small",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [50],
+        "answer": ["B. Expanded"],
+        "explanation": "Expanded is used for large screens, such as desktops or tablets in landscape, in WindowSizeClass."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "Which of the following are used to create responsive layouts? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Modifier.weight, BoxWithConstraints, and WindowSizeClass are used for responsive layouts, while colorScheme is for theming.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 16,
+          "data": "A. Modifier.weight",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 16,
+          "data": "B. BoxWithConstraints",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 16,
+          "data": "C. colorScheme",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 16,
+          "data": "D. WindowSizeClass",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [53, 54, 56],
+        "answer": ["A. Modifier.weight", "B. BoxWithConstraints", "D. WindowSizeClass"],
+        "explanation": "Modifier.weight, BoxWithConstraints, and WindowSizeClass are used for responsive layouts, while colorScheme is for theming."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "Which composable is used to create a two-pane layout for large screens?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Row or Column with Modifier.weight can create a two-pane layout by splitting space proportionally.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 17,
+          "data": "A. Surface",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 17,
+          "data": "B. Row",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 17,
+          "data": "C. NavigationBar",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 17,
+          "data": "D. Box",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [58],
+        "answer": ["B. Row"],
+        "explanation": "Row or Column with Modifier.weight can create a two-pane layout by splitting space proportionally."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "True or False: Adaptive layouts can adjust based on device orientation.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Adaptive layouts can use orientation data from WindowSizeClass or constraints to adjust layouts.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 18,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 18,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [61],
+        "answer": ["A. True"],
+        "explanation": "Adaptive layouts can use orientation data from WindowSizeClass or constraints to adjust layouts."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "Which Modifier is used to set a maximum width for adaptive layouts?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Modifier.widthIn(max) sets a maximum width to constrain a composable in adaptive layouts.",
+      "answerCellList": [
+        {
+          "answerId": 63,
+          "questionId": 19,
+          "data": "A. Modifier.fillMaxWidth",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 64,
+          "questionId": 19,
+          "data": "B. Modifier.widthIn",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 65,
+          "questionId": 19,
+          "data": "C. Modifier.padding",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 66,
+          "questionId": 19,
+          "data": "D. Modifier.weight",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [64],
+        "answer": ["B. Modifier.widthIn"],
+        "explanation": "Modifier.widthIn(max) sets a maximum width to constrain a composable in adaptive layouts."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "Which of the following are used to handle screen size changes in adaptive layouts? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "WindowSizeClass, BoxWithConstraints, and orientation checks handle screen size changes, while typography is for text styling.",
+      "answerCellList": [
+        {
+          "answerId": 67,
+          "questionId": 20,
+          "data": "A. WindowSizeClass",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 68,
+          "questionId": 20,
+          "data": "B. BoxWithConstraints",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 69,
+          "questionId": 20,
+          "data": "C. Typography",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 70,
+          "questionId": 20,
+          "data": "D. Orientation checks",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [67, 68, 70],
+        "answer": ["A. WindowSizeClass", "B. BoxWithConstraints", "D. Orientation checks"],
+        "explanation": "WindowSizeClass, BoxWithConstraints, and orientation checks handle screen size changes, while typography is for text styling."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "Which composable is used for a dismissible navigation menu in adaptive layouts?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ModalNavigationDrawer provides a dismissible navigation menu, often used in adaptive layouts for smaller screens.",
+      "answerCellList": [
+        {
+          "answerId": 71,
+          "questionId": 21,
+          "data": "A. NavigationBar",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 72,
+          "questionId": 21,
+          "data": "B. ModalNavigationDrawer",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 73,
+          "questionId": 21,
+          "data": "C. NavigationRail",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 74,
+          "questionId": 21,
+          "data": "D. TopAppBar",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [72],
+        "answer": ["B. ModalNavigationDrawer"],
+        "explanation": "ModalNavigationDrawer provides a dismissible navigation menu, often used in adaptive layouts for smaller screens."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "True or False: Breakpoints in adaptive layouts are based on specific screen width values.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Breakpoints use specific width values (e.g., 600dp, 840dp) to switch layouts in adaptive designs.",
+      "answerCellList": [
+        {
+          "answerId": 75,
+          "questionId": 22,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 76,
+          "questionId": 22,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [75],
+        "answer": ["A. True"],
+        "explanation": "Breakpoints use specific width values (e.g., 600dp, 840dp) to switch layouts in adaptive designs."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "Which WindowSizeClass category is used for tablets in portrait mode?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Medium is used for medium-sized screens, such as tablets in portrait mode, in WindowSizeClass.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 23,
+          "data": "A. Compact",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 23,
+          "data": "B. Medium",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 23,
+          "data": "C. Expanded",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 23,
+          "data": "D. Small",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [78],
+        "answer": ["B. Medium"],
+        "explanation": "Medium is used for medium-sized screens, such as tablets in portrait mode, in WindowSizeClass."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "Which of the following Modifiers help with adaptive layouts? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "fillMaxWidth, weight, and widthIn help adapt layouts to screen sizes, while clickable is for interactions.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 24,
+          "data": "A. fillMaxWidth",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 24,
+          "data": "B. weight",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 24,
+          "data": "C. clickable",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 24,
+          "data": "D. widthIn",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [81, 82, 84],
+        "answer": ["A. fillMaxWidth", "B. weight", "D. widthIn"],
+        "explanation": "fillMaxWidth, weight, and widthIn help adapt layouts to screen sizes, while clickable is for interactions."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "Which composable is used for stacking elements in adaptive layouts?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Box is used to stack elements, often combined with constraints for adaptive layouts.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 25,
+          "data": "A. Row",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 25,
+          "data": "B. Box",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 25,
+          "data": "C. Column",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 25,
+          "data": "D. Surface",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [86],
+        "answer": ["B. Box"],
+        "explanation": "Box is used to stack elements, often combined with constraints for adaptive layouts."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "True or False: Adaptive layouts can use breakpoints to switch between single-pane and two-pane layouts.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Breakpoints, like 600dp or 840dp, are used to switch between single-pane and two-pane layouts based on screen width.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 26,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 26,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [89],
+        "answer": ["A. True"],
+        "explanation": "Breakpoints, like 600dp or 840dp, are used to switch between single-pane and two-pane layouts based on screen width."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "Which composable is used for vertical arrangement in adaptive layouts?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Column arranges elements vertically, often used with Modifiers for adaptive layouts.",
+      "answerCellList": [
+        {
+          "answerId": 91,
+          "questionId": 27,
+          "data": "A. Row",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 92,
+          "questionId": 27,
+          "data": "B. Column",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 93,
+          "questionId": 27,
+          "data": "C. Box",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 94,
+          "questionId": 27,
+          "data": "D. Surface",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [92],
+        "answer": ["B. Column"],
+        "explanation": "Column arranges elements vertically, often used with Modifiers for adaptive layouts."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "Which of the following are used to check screen constraints in adaptive layouts? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "BoxWithConstraints provides maxWidth and maxHeight, and WindowSizeClass provides width and height categories, but typography is for text styling.",
+      "answerCellList": [
+        {
+          "answerId": 95,
+          "questionId": 28,
+          "data": "A. maxWidth from BoxWithConstraints",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 96,
+          "questionId": 28,
+          "data": "B. maxHeight from BoxWithConstraints",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 97,
+          "questionId": 28,
+          "data": "C. Typography",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 98,
+          "questionId": 28,
+          "data": "D. WindowSizeClass width",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [95, 96, 98],
+        "answer": ["A. maxWidth from BoxWithConstraints", "B. maxHeight from BoxWithConstraints", "D. WindowSizeClass width"],
+        "explanation": "BoxWithConstraints provides maxWidth and maxHeight, and WindowSizeClass provides width and height categories, but typography is for text styling."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "Which composable is used for horizontal arrangement in adaptive layouts?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Row arranges elements horizontally, often used with Modifiers for adaptive layouts.",
+      "answerCellList": [
+        {
+          "answerId": 99,
+          "questionId": 29,
+          "data": "A. Column",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 100,
+          "questionId": 29,
+          "data": "B. Row",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 101,
+          "questionId": 29,
+          "data": "C. Box",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 102,
+          "questionId": 29,
+          "data": "D. Surface",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [100],
+        "answer": ["B. Row"],
+        "explanation": "Row arranges elements horizontally, often used with Modifiers for adaptive layouts."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "True or False: Adaptive layouts can use Modifier.fillMaxWidth to adapt to screen size.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Modifier.fillMaxWidth allows a composable to adapt by filling the available screen width.",
+      "answerCellList": [
+        {
+          "answerId": 103,
+          "questionId": 30,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 104,
+          "questionId": 30,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [103],
+        "answer": ["A. True"],
+        "explanation": "Modifier.fillMaxWidth allows a composable to adapt by filling the available screen width."
+      }
+    }
+  ]
+}

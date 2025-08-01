@@ -1,0 +1,1213 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is the primary function of Modifiers in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Modifiers customize the appearance and behavior of composables, such as setting size, padding, or click events.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. To manage navigation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. To customize composable appearance and behavior",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. To handle state",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. To create animations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. To customize composable appearance and behavior"],
+        "explanation": "Modifiers customize the appearance and behavior of composables, such as setting size, padding, or click events."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which composable arranges its children vertically in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Column arranges its children vertically, stacking them from top to bottom.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. Row",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. Column",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. Box",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. LazyRow",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. Column"],
+        "explanation": "Column arranges its children vertically, stacking them from top to bottom."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "True or False: Modifiers in Jetpack Compose are applied in the order they are chained.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Modifiers are applied sequentially, so the order matters (e.g., padding before background affects the background’s area).",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [9],
+        "answer": ["A. True"],
+        "explanation": "Modifiers are applied sequentially, so the order matters (e.g., padding before background affects the background’s area)."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "Which of the following Modifiers can be used to adjust a composable’s size? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Modifiers like size, width, and height adjust a composable’s dimensions, but clickable is for interaction.",
+      "answerCellList": [
+        {
+          "answerId": 11,
+          "questionId": 4,
+          "data": "A. Modifier.size",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 12,
+          "questionId": 4,
+          "data": "B. Modifier.width",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "C. Modifier.clickable",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "D. Modifier.height",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [11, 12, 14],
+        "answer": ["A. Modifier.size", "B. Modifier.width", "D. Modifier.height"],
+        "explanation": "Modifiers like size, width, and height adjust a composable’s dimensions, but clickable is for interaction."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which composable is used to stack children on top of each other?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Box stacks its children on top of each other, with the last child appearing on top.",
+      "answerCellList": [
+        {
+          "answerId": 15,
+          "questionId": 5,
+          "data": "A. Column",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 16,
+          "questionId": 5,
+          "data": "B. Box",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "C. Row",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "D. LazyColumn",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [16],
+        "answer": ["B. Box"],
+        "explanation": "Box stacks its children on top of each other, with the last child appearing on top."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "True or False: Modifier.padding() affects the clickable area of a composable.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Padding increases space around content but does not affect the clickable area unless combined with modifiers like clickable.",
+      "answerCellList": [
+        {
+          "answerId": 19,
+          "questionId": 6,
+          "data": "A. True",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 20,
+          "questionId": 6,
+          "data": "B. False",
+          "isItAnswer": true,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [20],
+        "answer": ["B. False"],
+        "explanation": "Padding increases space around content but does not affect the clickable area unless combined with modifiers like clickable."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Which Modifier makes a composable take the full available width?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "fillMaxWidth makes a composable occupy the full available width of its parent.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 7,
+          "data": "A. Modifier.width",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 7,
+          "data": "B. Modifier.fillMaxWidth",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 7,
+          "data": "C. Modifier.size",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 7,
+          "data": "D. Modifier.padding",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [22],
+        "answer": ["B. Modifier.fillMaxWidth"],
+        "explanation": "fillMaxWidth makes a composable occupy the full available width of its parent."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "Which of the following composables are used for layout in Jetpack Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Column, Row, and Box are layout composables for arranging children, while Text displays content.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 8,
+          "data": "A. Column",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 8,
+          "data": "B. Row",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 8,
+          "data": "C. Text",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 8,
+          "data": "D. Box",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [25, 26, 28],
+        "answer": ["A. Column", "B. Row", "D. Box"],
+        "explanation": "Column, Row, and Box are layout composables for arranging children, while Text displays content."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "Which Modifier is used to make a composable clickable?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The clickable Modifier adds click event handling to a composable.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 9,
+          "data": "A. Modifier.padding",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 9,
+          "data": "B. Modifier.clickable",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 9,
+          "data": "C. Modifier.size",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 9,
+          "data": "D. Modifier.background",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [30],
+        "answer": ["B. Modifier.clickable"],
+        "explanation": "The clickable Modifier adds click event handling to a composable."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "True or False: Modifier.clip() can apply rounded corners to a composable.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Modifier.clip with a shape like RoundedCornerShape can clip a composable to create rounded corners.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 10,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 10,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [33],
+        "answer": ["A. True"],
+        "explanation": "Modifier.clip with a shape like RoundedCornerShape can clip a composable to create rounded corners."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "Which composable is used for efficient scrollable lists in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LazyColumn creates efficient, scrollable lists by composing only visible items.",
+      "answerCellList": [
+        {
+          "answerId": 35,
+          "questionId": 11,
+          "data": "A. Column",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 36,
+          "questionId": 11,
+          "data": "B. LazyColumn",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 37,
+          "questionId": 11,
+          "data": "C. Row",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 38,
+          "questionId": 11,
+          "data": "D. Box",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [36],
+        "answer": ["B. LazyColumn"],
+        "explanation": "LazyColumn creates efficient, scrollable lists by composing only visible items."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "Which Modifiers are used for visual effects? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Modifiers like background, clip, and shadow apply visual effects, while size affects dimensions.",
+      "answerCellList": [
+        {
+          "answerId": 39,
+          "questionId": 12,
+          "data": "A. Modifier.background",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 40,
+          "questionId": 12,
+          "data": "B. Modifier.clip",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 41,
+          "questionId": 12,
+          "data": "C. Modifier.size",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 42,
+          "questionId": 12,
+          "data": "D. Modifier.shadow",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [39, 40, 42],
+        "answer": ["A. Modifier.background", "B. Modifier.clip", "D. Modifier.shadow"],
+        "explanation": "Modifiers like background, clip, and shadow apply visual effects, while size affects dimensions."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "What does Modifier.align() do in a Box composable?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Modifier.align sets the alignment of a composable within a Box’s bounds.",
+      "answerCellList": [
+        {
+          "answerId": 43,
+          "questionId": 13,
+          "data": "A. Sets the composable’s size",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 44,
+          "questionId": 13,
+          "data": "B. Aligns the composable within the Box",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 45,
+          "questionId": 13,
+          "data": "C. Adds padding",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 46,
+          "questionId": 13,
+          "data": "D. Makes the composable clickable",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [44],
+        "answer": ["B. Aligns the composable within the Box"],
+        "explanation": "Modifier.align sets the alignment of a composable within a Box’s bounds."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "True or False: Modifier.fillMaxSize() makes a composable take all available space.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "fillMaxSize makes a composable occupy the entire available width and height of its parent.",
+      "answerCellList": [
+        {
+          "answerId": 47,
+          "questionId": 14,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 48,
+          "questionId": 14,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [47],
+        "answer": ["A. True"],
+        "explanation": "fillMaxSize makes a composable occupy the entire available width and height of its parent."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "Which composable is used for horizontal scrolling lists?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LazyRow creates efficient, horizontally scrollable lists by composing only visible items.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 15,
+          "data": "A. Row",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 15,
+          "data": "B. LazyRow",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 15,
+          "data": "C. Column",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 15,
+          "data": "D. Box",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [50],
+        "answer": ["B. LazyRow"],
+        "explanation": "LazyRow creates efficient, horizontally scrollable lists by composing only visible items."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "Which Modifiers affect a composable’s layout? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Modifiers like offset, padding, and size affect layout, while clickable handles interaction.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 16,
+          "data": "A. Modifier.offset",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 16,
+          "data": "B. Modifier.padding",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 16,
+          "data": "C. Modifier.clickable",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 16,
+          "data": "D. Modifier.size",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [53, 54, 56],
+        "answer": ["A. Modifier.offset", "B. Modifier.padding", "D. Modifier.size"],
+        "explanation": "Modifiers like offset, padding, and size affect layout, while clickable handles interaction."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "What does Modifier.weight() do in a Row or Column?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Modifier.weight assigns a proportional size to a composable relative to others in a Row or Column.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 17,
+          "data": "A. Sets a fixed size",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 17,
+          "data": "B. Assigns proportional size",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 17,
+          "data": "C. Adds padding",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 17,
+          "data": "D. Aligns content",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [58],
+        "answer": ["B. Assigns proportional size"],
+        "explanation": "Modifier.weight assigns a proportional size to a composable relative to others in a Row or Column."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "True or False: Modifier.padding() can accept negative values.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Modifier.padding does not accept negative values, as it’s meant to add space, not reduce it.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 18,
+          "data": "A. True",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 18,
+          "data": "B. False",
+          "isItAnswer": true,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [62],
+        "answer": ["B. False"],
+        "explanation": "Modifier.padding does not accept negative values, as it’s meant to add space, not reduce it."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "Which Modifier sets a composable’s background color?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The background Modifier sets the background color or brush for a composable.",
+      "answerCellList": [
+        {
+          "answerId": 63,
+          "questionId": 19,
+          "data": "A. Modifier.fillMaxSize",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 64,
+          "questionId": 19,
+          "data": "B. Modifier.background",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 65,
+          "questionId": 19,
+          "data": "C. Modifier.padding",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 66,
+          "questionId": 19,
+          "data": "D. Modifier.align",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [64],
+        "answer": ["B. Modifier.background"],
+        "explanation": "The background Modifier sets the background color or brush for a composable."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "Which composables support lazy loading for efficiency? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LazyColumn and LazyRow use lazy loading to compose only visible items, while Column and Row compose all items.",
+      "answerCellList": [
+        {
+          "answerId": 67,
+          "questionId": 20,
+          "data": "A. LazyColumn",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 68,
+          "questionId": 20,
+          "data": "B. Column",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 69,
+          "questionId": 20,
+          "data": "C. LazyRow",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 70,
+          "questionId": 20,
+          "data": "D. Row",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [67, 69],
+        "answer": ["A. LazyColumn", "C. LazyRow"],
+        "explanation": "LazyColumn and LazyRow use lazy loading to compose only visible items, while Column and Row compose all items."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "Which Modifier rotates a composable?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The rotate Modifier rotates a composable by a specified angle in degrees.",
+      "answerCellList": [
+        {
+          "answerId": 71,
+          "questionId": 21,
+          "data": "A. Modifier.scale",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 72,
+          "questionId": 21,
+          "data": "B. Modifier.rotate",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 73,
+          "questionId": 21,
+          "data": "C. Modifier.offset",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 74,
+          "questionId": 21,
+          "data": "D. Modifier.padding",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [72],
+        "answer": ["B. Modifier.rotate"],
+        "explanation": "The rotate Modifier rotates a composable by a specified angle in degrees."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "True or False: Modifier.zIndex() controls stacking order in a Box composable.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Modifier.zIndex sets the stacking order in a Box, with higher values appearing on top.",
+      "answerCellList": [
+        {
+          "answerId": 75,
+          "questionId": 22,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 76,
+          "questionId": 22,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [75],
+        "answer": ["A. True"],
+        "explanation": "Modifier.zIndex sets the stacking order in a Box, with higher values appearing on top."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "Which composable provides Material Design styling like elevation and shape?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Surface provides a container with Material Design styling, such as background color, elevation, and shape.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 23,
+          "data": "A. Box",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 23,
+          "data": "B. Surface",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 23,
+          "data": "C. Column",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 23,
+          "data": "D. Row",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [78],
+        "answer": ["B. Surface"],
+        "explanation": "Surface provides a container with Material Design styling, such as background color, elevation, and shape."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "Which Modifiers handle user interactions? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Modifiers like clickable and scrollable handle user interactions, while size and background do not.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 24,
+          "data": "A. Modifier.clickable",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 24,
+          "data": "B. Modifier.size",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 24,
+          "data": "C. Modifier.scrollable",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 24,
+          "data": "D. Modifier.background",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [81, 83],
+        "answer": ["A. Modifier.clickable", "C. Modifier.scrollable"],
+        "explanation": "Modifiers like clickable and scrollable handle user interactions, while size and background do not."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "What does Modifier.scale() do in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Modifier.scale adjusts the size of a composable by scaling it horizontally and/or vertically.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 25,
+          "data": "A. Rotates the composable",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 25,
+          "data": "B. Scales the composable’s size",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 25,
+          "data": "C. Adds a shadow",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 25,
+          "data": "D. Sets padding",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [86],
+        "answer": ["B. Scales the composable’s size"],
+        "explanation": "Modifier.scale adjusts the size of a composable by scaling it horizontally and/or vertically."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "True or False: A Row composable can use Modifier.weight() to distribute space.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Modifier.weight in a Row distributes available horizontal space proportionally among children.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 26,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 26,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [89],
+        "answer": ["A. True"],
+        "explanation": "Modifier.weight in a Row distributes available horizontal space proportionally among children."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "Which Modifier adds a shadow to a composable?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The shadow Modifier adds a shadow effect, often used with elevation for Material Design styling.",
+      "answerCellList": [
+        {
+          "answerId": 91,
+          "questionId": 27,
+          "data": "A. Modifier.background",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 92,
+          "questionId": 27,
+          "data": "B. Modifier.shadow",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 93,
+          "questionId": 27,
+          "data": "C. Modifier.padding",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 94,
+          "questionId": 27,
+          "data": "D. Modifier.clip",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [92],
+        "answer": ["B. Modifier.shadow"],
+        "explanation": "The shadow Modifier adds a shadow effect, often used with elevation for Material Design styling."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "Which composables are Material Design components? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Card and ElevatedButton are Material Design components, while Box and LazyColumn are layout composables.",
+      "answerCellList": [
+        {
+          "answerId": 95,
+          "questionId": 28,
+          "data": "A. Card",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 96,
+          "questionId": 28,
+          "data": "B. Box",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 97,
+          "questionId": 28,
+          "data": "C. ElevatedButton",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 98,
+          "questionId": 28,
+          "data": "D. LazyColumn",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [95, 97],
+        "answer": ["A. Card", "C. ElevatedButton"],
+        "explanation": "Card and ElevatedButton are Material Design components, while Box and LazyColumn are layout composables."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "What does Modifier.offset() do in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Modifier.offset shifts a composable’s position by a specified amount without affecting layout measurements.",
+      "answerCellList": [
+        {
+          "answerId": 99,
+          "questionId": 29,
+          "data": "A. Sets the composable’s size",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 100,
+          "questionId": 29,
+          "data": "B. Shifts the composable’s position",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 101,
+          "questionId": 29,
+          "data": "C. Adds padding",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 102,
+          "questionId": 29,
+          "data": "D. Makes the composable clickable",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [100],
+        "answer": ["B. Shifts the composable’s position"],
+        "explanation": "Modifier.offset shifts a composable’s position by a specified amount without affecting layout measurements."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "True or False: A Column composable can use Modifier.align() to align its children.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Modifier.align in a Column aligns children horizontally (e.g., start, center, end), not vertically.",
+      "answerCellList": [
+        {
+          "answerId": 103,
+          "questionId": 30,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 104,
+          "questionId": 30,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [103],
+        "answer": ["A. True"],
+        "explanation": "Modifier.align in a Column aligns children horizontally (e.g., start, center, end), not vertically."
+      }
+    }
+  ]
+}

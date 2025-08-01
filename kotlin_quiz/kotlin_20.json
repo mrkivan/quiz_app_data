@@ -1,0 +1,1325 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is the primary purpose of an inline function in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An inline function in Kotlin eliminates function call overhead by inlining its body at the call site, improving performance for small functions.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. To make functions private",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. To eliminate function call overhead",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. To enforce type safety",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. To allow inheritance",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. To eliminate function call overhead"],
+        "explanation": "An inline function in Kotlin eliminates function call overhead by inlining its body at the call site, improving performance for small functions."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which keyword is used to declare an inline function in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'inline' keyword is used to declare an inline function, e.g., inline fun myFunction() {}, causing its body to be inlined at the call site.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. reified",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. inline",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. static",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. final",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. inline"],
+        "explanation": "The 'inline' keyword is used to declare an inline function, e.g., inline fun myFunction() {}, causing its body to be inlined at the call site."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "What is a reified type parameter in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A reified type parameter, marked with 'reified', allows accessing the actual type at runtime in inline functions, e.g., inline fun <reified T> myFunction() {}.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. A type erased at runtime",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. A type accessible at runtime",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 11,
+          "questionId": 3,
+          "data": "C. A sealed type",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 12,
+          "questionId": 3,
+          "data": "D. A private type",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [10],
+        "answer": ["B. A type accessible at runtime"],
+        "explanation": "A reified type parameter, marked with 'reified', allows accessing the actual type at runtime in inline functions, e.g., inline fun <reified T> myFunction() {}."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "What is a key requirement for using reified type parameters?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Reified type parameters can only be used in inline functions, as inlining preserves type information at runtime.",
+      "answerCellList": [
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "A. Must be in a sealed class",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "B. Must be in an inline function",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 15,
+          "questionId": 4,
+          "data": "C. Must be in a companion object",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 16,
+          "questionId": 4,
+          "data": "D. Must be in an interface",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [14],
+        "answer": ["B. Must be in an inline function"],
+        "explanation": "Reified type parameters can only be used in inline functions, as inlining preserves type information at runtime."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "What happens to the lambda passed to an inline function?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The lambda passed to an inline function is inlined at the call site, avoiding the creation of an object for the lambda.",
+      "answerCellList": [
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "A. Stored as an object",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "B. Inlined at the call site",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 19,
+          "questionId": 5,
+          "data": "C. Compiled to bytecode",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 20,
+          "questionId": 5,
+          "data": "D. Executed at runtime",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [18],
+        "answer": ["B. Inlined at the call site"],
+        "explanation": "The lambda passed to an inline function is inlined at the call site, avoiding the creation of an object for the lambda."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "Why are reified types useful in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Reified types allow type checks and casts at runtime, e.g., if (obj is T), which is not possible with erased generics.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 6,
+          "data": "A. Improve compile-time checks",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 6,
+          "data": "B. Enable runtime type checks",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 6,
+          "data": "C. Reduce memory usage",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 6,
+          "data": "D. Simplify inheritance",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [22],
+        "answer": ["B. Enable runtime type checks"],
+        "explanation": "Reified types allow type checks and casts at runtime, e.g., if (obj is T), which is not possible with erased generics."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Can a non-inline function use a reified type parameter?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A non-inline function cannot use a reified type parameter, as type information is erased at runtime without inlining.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 7,
+          "data": "A. Yes, with annotations",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 7,
+          "data": "B. No, requires inline function",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 7,
+          "data": "C. Only in interfaces",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 7,
+          "data": "D. Only in abstract classes",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [26],
+        "answer": ["B. No, requires inline function"],
+        "explanation": "A non-inline function cannot use a reified type parameter, as type information is erased at runtime without inlining."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "What is a potential downside of using inline functions?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Inline functions can increase the compiled bytecode size, as the function body is copied to each call site, potentially impacting performance for large functions.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 8,
+          "data": "A. Reduced performance",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 8,
+          "data": "B. Increased bytecode size",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 8,
+          "data": "C. Limited type safety",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 8,
+          "data": "D. Prevents inheritance",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [30],
+        "answer": ["B. Increased bytecode size"],
+        "explanation": "Inline functions can increase the compiled bytecode size, as the function body is copied to each call site, potentially impacting performance for large functions."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "Which modifier can prevent a lambda parameter from being inlined?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'noinline' modifier prevents a lambda parameter from being inlined, treating it as a regular function parameter, e.g., inline fun myFunction(noinline lambda: () -> Unit).",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 9,
+          "data": "A. crossinline",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 9,
+          "data": "B. noinline",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 35,
+          "questionId": 9,
+          "data": "C. reified",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 36,
+          "questionId": 9,
+          "data": "D. inline",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [34],
+        "answer": ["B. noinline"],
+        "explanation": "The 'noinline' modifier prevents a lambda parameter from being inlined, treating it as a regular function parameter, e.g., inline fun myFunction(noinline lambda: () -> Unit)."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "What is the purpose of the 'crossinline' modifier in inline functions?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'crossinline' modifier prevents non-local returns in a lambda, ensuring it can be used in contexts like nested function calls, e.g., inline fun myFunction(crossinline lambda: () -> Unit).",
+      "answerCellList": [
+        {
+          "answerId": 37,
+          "questionId": 10,
+          "data": "A. Forces lambda inlining",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 38,
+          "questionId": 10,
+          "data": "B. Prevents non-local returns",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 39,
+          "questionId": 10,
+          "data": "C. Enables type erasure",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 40,
+          "questionId": 10,
+          "data": "D. Allows inheritance",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [38],
+        "answer": ["B. Prevents non-local returns"],
+        "explanation": "The 'crossinline' modifier prevents non-local returns in a lambda, ensuring it can be used in contexts like nested function calls, e.g., inline fun myFunction(crossinline lambda: () -> Unit)."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "Can an inline function be recursive?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An inline function cannot be directly recursive, as inlining would lead to infinite code expansion, causing a compilation error.",
+      "answerCellList": [
+        {
+          "answerId": 41,
+          "questionId": 11,
+          "data": "A. Yes, without restrictions",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 42,
+          "questionId": 11,
+          "data": "B. No, causes compilation error",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 43,
+          "questionId": 11,
+          "data": "C. Only with annotations",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 44,
+          "questionId": 11,
+          "data": "D. Only in interfaces",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [42],
+        "answer": ["B. No, causes compilation error"],
+        "explanation": "An inline function cannot be directly recursive, as inlining would lead to infinite code expansion, causing a compilation error."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "Can a reified type parameter be used in a class declaration?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Reified type parameters cannot be used in class declarations, as they are only supported in inline functions due to runtime type information requirements.",
+      "answerCellList": [
+        {
+          "answerId": 45,
+          "questionId": 12,
+          "data": "A. Yes, like functions",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 46,
+          "questionId": 12,
+          "data": "B. No, only in inline functions",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 47,
+          "questionId": 12,
+          "data": "C. Only in interfaces",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 48,
+          "questionId": 12,
+          "data": "D. Only with annotations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [46],
+        "answer": ["B. No, only in inline functions"],
+        "explanation": "Reified type parameters cannot be used in class declarations, as they are only supported in inline functions due to runtime type information requirements."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "What is a common use case for reified type parameters?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Reified type parameters are commonly used for type-safe casting, e.g., inline fun <reified T> cast(obj: Any): T? = obj as? T.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 13,
+          "data": "A. Defining interfaces",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 13,
+          "data": "B. Type-safe casting",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 13,
+          "data": "C. Creating sealed classes",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 13,
+          "data": "D. Managing properties",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [50],
+        "answer": ["B. Type-safe casting"],
+        "explanation": "Reified type parameters are commonly used for type-safe casting, e.g., inline fun <reified T> cast(obj: Any): T? = obj as? T."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "What happens if you use 'return' in a lambda of an inline function without 'crossinline'?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A 'return' in a lambda of an inline function performs a non-local return, exiting the enclosing function, unless restricted by 'crossinline'.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 14,
+          "data": "A. Compilation error",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 14,
+          "data": "B. Non-local return",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 14,
+          "data": "C. Local return",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 14,
+          "data": "D. Runtime exception",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [54],
+        "answer": ["B. Non-local return"],
+        "explanation": "A 'return' in a lambda of an inline function performs a non-local return, exiting the enclosing function, unless restricted by 'crossinline'."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "Can an inline function be declared in a companion object?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An inline function can be declared in a companion object, just like in regular classes, e.g., companion object { inline fun myFunction() {} }.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 15,
+          "data": "A. No, only in classes",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 15,
+          "data": "B. Yes, like regular functions",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 15,
+          "data": "C. Only with reified types",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 15,
+          "data": "D. Only in interfaces",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [58],
+        "answer": ["B. Yes, like regular functions"],
+        "explanation": "An inline function can be declared in a companion object, just like in regular classes, e.g., companion object { inline fun myFunction() {} }."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "Can an inline function be declared in an interface?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An inline function can be declared in an interface, e.g., interface MyInterface { inline fun myFunction() {} }, and will be inlined when called.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 16,
+          "data": "A. No, only in classes",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 16,
+          "data": "B. Yes, like regular functions",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 63,
+          "questionId": 16,
+          "data": "C. Only with reified types",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 64,
+          "questionId": 16,
+          "data": "D. Only with annotations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [62],
+        "answer": ["B. Yes, like regular functions"],
+        "explanation": "An inline function can be declared in an interface, e.g., interface MyInterface { inline fun myFunction() {} }, and will be inlined when called."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "What is a benefit of using inline functions with lambdas?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Inlining lambdas avoids creating function objects, reducing runtime overhead, especially for small, frequently called operations.",
+      "answerCellList": [
+        {
+          "answerId": 65,
+          "questionId": 17,
+          "data": "A. Increases type safety",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 66,
+          "questionId": 17,
+          "data": "B. Reduces runtime overhead",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 67,
+          "questionId": 17,
+          "data": "C. Enables inheritance",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 68,
+          "questionId": 17,
+          "data": "D. Simplifies syntax",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [66],
+        "answer": ["B. Reduces runtime overhead"],
+        "explanation": "Inlining lambdas avoids creating function objects, reducing runtime overhead, especially for small, frequently called operations."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "Can an inline function have a default parameter?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An inline function can have default parameters, just like regular functions, e.g., inline fun myFunction(a: Int = 0) {}.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 18,
+          "data": "A. No, not allowed",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 18,
+          "data": "B. Yes, like regular functions",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 18,
+          "data": "C. Only with reified types",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 18,
+          "data": "D. Only with lambdas",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [70],
+        "answer": ["B. Yes, like regular functions"],
+        "explanation": "An inline function can have default parameters, just like regular functions, e.g., inline fun myFunction(a: Int = 0) {}."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "Can a reified type parameter be used in a top-level function?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A reified type parameter can be used in a top-level inline function, e.g., inline fun <reified T> myFunction() {}, as long as the function is inline.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 19,
+          "data": "A. No, only in classes",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 19,
+          "data": "B. Yes, if inline",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 19,
+          "data": "C. Only in interfaces",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 19,
+          "data": "D. Only with annotations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [74],
+        "answer": ["B. Yes, if inline"],
+        "explanation": "A reified type parameter can be used in a top-level inline function, e.g., inline fun <reified T> myFunction() {}, as long as the function is inline."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "What happens if you use a reified type in a non-inline function?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Using a reified type in a non-inline function causes a compilation error, as reified types require inlining to preserve type information.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 20,
+          "data": "A. Runtime exception",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 20,
+          "data": "B. Compilation error",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 20,
+          "data": "C. Type erasure",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 20,
+          "data": "D. No effect",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [78],
+        "answer": ["B. Compilation error"],
+        "explanation": "Using a reified type in a non-inline function causes a compilation error, as reified types require inlining to preserve type information."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "Can an inline function be used in a data class?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An inline function can be used in a data class, just like in regular classes, e.g., data class MyClass { inline fun myFunction() {} }.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 21,
+          "data": "A. No, only regular classes",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 21,
+          "data": "B. Yes, like regular classes",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 21,
+          "data": "C. Only with reified types",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 21,
+          "data": "D. Only with lambdas",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [82],
+        "answer": ["B. Yes, like regular classes"],
+        "explanation": "An inline function can be used in a data class, just like in regular classes, e.g., data class MyClass { inline fun myFunction() {} }."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "Can an inline function be declared as suspend?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An inline function cannot be declared as suspend, as suspend functions require a continuation object, which conflicts with inlining.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 22,
+          "data": "A. Yes, without restrictions",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 22,
+          "data": "B. No, conflicts with inlining",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 22,
+          "data": "C. Only with reified types",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 22,
+          "data": "D. Only with annotations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [86],
+        "answer": ["B. No, conflicts with inlining"],
+        "explanation": "An inline function cannot be declared as suspend, as suspend functions require a continuation object, which conflicts with inlining."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "What is a common use case for inline functions in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Inline functions are commonly used with higher-order functions to reduce the overhead of lambda object creation, e.g., inline fun myFunction(block: () -> Unit).",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 23,
+          "data": "A. Defining interfaces",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 23,
+          "data": "B. Higher-order functions",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 91,
+          "questionId": 23,
+          "data": "C. Creating sealed classes",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 92,
+          "questionId": 23,
+          "data": "D. Managing properties",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [90],
+        "answer": ["B. Higher-order functions"],
+        "explanation": "Inline functions are commonly used with higher-order functions to reduce the overhead of lambda object creation, e.g., inline fun myFunction(block: () -> Unit)."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "Can a reified type parameter be used with 'is' checks?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Reified type parameters can be used with 'is' checks, e.g., inline fun <reified T> isType(obj: Any): Boolean = obj is T, enabling runtime type checking.",
+      "answerCellList": [
+        {
+          "answerId": 93,
+          "questionId": 24,
+          "data": "A. No, not allowed",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 94,
+          "questionId": 24,
+          "data": "B. Yes, for type checking",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 95,
+          "questionId": 24,
+          "data": "C. Only with annotations",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 96,
+          "questionId": 24,
+          "data": "D. Only in interfaces",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [94],
+        "answer": ["B. Yes, for type checking"],
+        "explanation": "Reified type parameters can be used with 'is' checks, e.g., inline fun <reified T> isType(obj: Any): Boolean = obj is T, enabling runtime type checking."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "Can an inline function be used in a sealed class?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An inline function can be used in a sealed class, just like in regular classes, e.g., sealed class MyClass { inline fun myFunction() {} }.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 25,
+          "data": "A. No, only regular classes",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 25,
+          "data": "B. Yes, like regular classes",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 25,
+          "data": "C. Only with reified types",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 25,
+          "data": "D. Only with lambdas",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [98],
+        "answer": ["B. Yes, like regular classes"],
+        "explanation": "An inline function can be used in a sealed class, just like in regular classes, e.g., sealed class MyClass { inline fun myFunction() {} }."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "What is the effect of inlining a large function?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Inlining a large function significantly increases bytecode size, as the function body is copied to each call site, potentially degrading performance.",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 26,
+          "data": "A. Improves performance",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 26,
+          "data": "B. Increases bytecode size",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 26,
+          "data": "C. Reduces memory usage",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 26,
+          "data": "D. Enables type safety",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [102],
+        "answer": ["B. Increases bytecode size"],
+        "explanation": "Inlining a large function significantly increases bytecode size, as the function body is copied to each call site, potentially degrading performance."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "Can a reified type parameter be used with 'as' casts?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Reified type parameters can be used with 'as' casts, e.g., inline fun <reified T> cast(obj: Any): T = obj as T, enabling runtime type casting.",
+      "answerCellList": [
+        {
+          "answerId": 105,
+          "questionId": 27,
+          "data": "A. No, not allowed",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 106,
+          "questionId": 27,
+          "data": "B. Yes, for type casting",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 107,
+          "questionId": 27,
+          "data": "C. Only with annotations",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 108,
+          "questionId": 27,
+          "data": "D. Only in interfaces",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [106],
+        "answer": ["B. Yes, for type casting"],
+        "explanation": "Reified type parameters can be used with 'as' casts, e.g., inline fun <reified T> cast(obj: Any): T = obj as T, enabling runtime type casting."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "Can an inline function be declared in an object declaration?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An inline function can be declared in an object declaration, e.g., object MyObject { inline fun myFunction() {} }, just like in classes.",
+      "answerCellList": [
+        {
+          "answerId": 109,
+          "questionId": 28,
+          "data": "A. No, only in classes",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 110,
+          "questionId": 28,
+          "data": "B. Yes, like regular functions",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 111,
+          "questionId": 28,
+          "data": "C. Only with reified types",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 112,
+          "questionId": 28,
+          "data": "D. Only with lambdas",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [110],
+        "answer": ["B. Yes, like regular functions"],
+        "explanation": "An inline function can be declared in an object declaration, e.g., object MyObject { inline fun myFunction() {} }, just like in classes."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "What is the benefit of using inline functions for small functions?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Inlining small functions eliminates the overhead of function calls, improving performance by reducing stack frame creation.",
+      "answerCellList": [
+        {
+          "answerId": 113,
+          "questionId": 29,
+          "data": "A. Increases type safety",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 114,
+          "questionId": 29,
+          "data": "B. Improves performance",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 115,
+          "questionId": 29,
+          "data": "C. Enables inheritance",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 116,
+          "questionId": 29,
+          "data": "D. Simplifies syntax",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [114],
+        "answer": ["B. Improves performance"],
+        "explanation": "Inlining small functions eliminates the overhead of function calls, improving performance by reducing stack frame creation."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "Can a reified type parameter be used to create instances?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A reified type parameter can be used to create instances, e.g., inline fun <reified T> create(): T = T::class.java.newInstance(), if the type has a no-arg constructor.",
+      "answerCellList": [
+        {
+          "answerId": 117,
+          "questionId": 30,
+          "data": "A. No, not allowed",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 118,
+          "questionId": 30,
+          "data": "B. Yes, with reflection",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 119,
+          "questionId": 30,
+          "data": "C. Only with annotations",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 120,
+          "questionId": 30,
+          "data": "D. Only in interfaces",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [118],
+        "answer": ["B. Yes, with reflection"],
+        "explanation": "A reified type parameter can be used to create instances, e.g., inline fun <reified T> create(): T = T::class.java.newInstance(), if the type has a no-arg constructor."
+      }
+    }
+  ]
+}

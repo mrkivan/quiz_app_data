@@ -1,0 +1,1348 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is an extension function in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An extension function allows adding new functionality to an existing class without modifying its source code.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. A function that modifies class inheritance",
+          "isItAnswer": false,
+         部分
+
+System: **Quiz Set: Kotlin Extension Functions and Properties**
+
+Below is a Kotlin quiz set for the topic **Kotlin Extension Functions and Properties**, containing 30 multiple-choice questions in the specified JSON structure. Each question includes a unique question ID, question text, four answer options, the correct answer, and an explanation. The questions cover the fundamental concepts and syntax of Kotlin extension functions and properties, including their declaration, usage, scope, and limitations.
+
+<xaiArtifact artifact_id="c221c11a-2275-4869-9150-4e02324b140b" artifact_version_id="e7c7067e-379b-40af-84be-0b9171148f0d" title="KotlinExtensionFunctionsAndPropertiesQuiz.json" contentType="application/json">
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is an extension function in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An extension function allows adding new functionality to an existing class without modifying its source code, by defining a function with a receiver type.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. A function that modifies class inheritance",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. A function that adds functionality to a class",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. A function that creates a new class",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. A function that overrides a class method",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. A function that adds functionality to a class"],
+        "explanation": "An extension function allows adding new functionality to an existing class without modifying its source code, by defining a function with a receiver type."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "How is an extension function declared in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An extension function is declared by prefixing the function name with the receiver type, e.g., fun String.myFunction() {}.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. fun myFunction(String) {}",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. fun String.myFunction() {}",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. fun extend String.myFunction() {}",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. fun String.myFunction: String() {}",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. fun String.myFunction() {}"],
+        "explanation": "An extension function is declared by prefixing the function name with the receiver type, e.g., fun String.myFunction() {}."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "What is an extension property in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An extension property adds a property to an existing class without modifying its source code, using a receiver type.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. A property that overrides a class field",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. A property added to a class",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 11,
+          "questionId": 3,
+          "data": "C. A property that creates a new class",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 12,
+          "questionId": 3,
+          "data": "D. A property that modifies inheritance",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [10],
+        "answer": ["B. A property added to a class"],
+        "explanation": "An extension property adds a property to an existing class without modifying its source code, using a receiver type."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "How is an extension property declared in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An extension property is declared with the receiver type before the property name, e.g., val String.myProperty: Int get() = length.",
+      "answerCellList": [
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "A. val myProperty: String get() = length",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "B. val String.myProperty: Int get() = length",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 15,
+          "questionId": 4,
+          "data": "C. val extend String.myProperty: Int get() = length",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 16,
+          "questionId": 4,
+          "data": "D. val myProperty(String): Int get() = length",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [14],
+        "answer": ["B. val String.myProperty: Int get() = length"],
+        "explanation": "An extension property is declared with the receiver type before the property name, e.g., val String.myProperty: Int get() = length."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Can extension functions access private members of the receiver class?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extension functions cannot access private members of the receiver class, as they are defined outside the class.",
+      "answerCellList": [
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "A. Yes, always",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "B. No, only public members",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 19,
+          "questionId": 5,
+          "data": "C. Yes, with special syntax",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 20,
+          "questionId": 5,
+          "data": "D. Only in the same package",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [18],
+        "answer": ["B. No, only public members"],
+        "explanation": "Extension functions cannot access private members of the receiver class, as they are defined outside the class."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "Can extension properties have a backing field?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extension properties cannot have a backing field because they do not store data in the receiver class; they must define a getter.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 6,
+          "data": "A. Yes, always",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 6,
+          "data": "B. No, they require a getter",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 6,
+          "data": "C. Only for mutable properties",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 6,
+          "data": "D. Only in the same package",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [22],
+        "answer": ["B. No, they require a getter"],
+        "explanation": "Extension properties cannot have a backing field because they do not store data in the receiver class; they must define a getter."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "What keyword is used to refer to the receiver object in an extension function?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'this' keyword refers to the receiver object in an extension function, e.g., fun String.myFunction() { this.length }.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 7,
+          "data": "A. self",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 7,
+          "data": "B. this",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 7,
+          "data": "C. receiver",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 7,
+          "data": "D. it",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [26],
+        "answer": ["B. this"],
+        "explanation": "The 'this' keyword refers to the receiver object in an extension function, e.g., fun String.myFunction() { this.length }."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "Where can extension functions be defined in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extension functions can be defined at the top level, within objects, or inside classes/companions, as long as they are accessible to the caller.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 8,
+          "data": "A. Only inside the receiver class",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 8,
+          "data": "B. Anywhere in the codebase",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 8,
+          "data": "C. Only in companion objects",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 8,
+          "data": "D. Only in interfaces",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [30],
+        "answer": ["B. Anywhere in the codebase"],
+        "explanation": "Extension functions can be defined at the top level, within objects, or inside classes/companions, as long as they are accessible to the caller."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "Can extension functions be overridden in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extension functions are resolved statically and cannot be overridden, as they are not part of the class hierarchy.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 9,
+          "data": "A. Yes, using override keyword",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 9,
+          "data": "B. No, they are static",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 35,
+          "questionId": 9,
+          "data": "C. Only in subclasses",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 36,
+          "questionId": 9,
+          "data": "D. Only in interfaces",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [34],
+        "answer": ["B. No, they are static"],
+        "explanation": "Extension functions are resolved statically and cannot be overridden, as they are not part of the class hierarchy."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "How are extension functions resolved in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extension functions are resolved statically at compile time based on the receiver type, not dynamically at runtime.",
+      "answerCellList": [
+        {
+          "answerId": 37,
+          "questionId": 10,
+          "data": "A. Dynamically at runtime",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 38,
+          "questionId": 10,
+          "data": "B. Statically at compile time",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 39,
+          "questionId": 10,
+          "data": "C. Based on the caller class",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 40,
+          "questionId": 10,
+          "data": "D. Based on the interface",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [38],
+        "answer": ["B. Statically at compile time"],
+        "explanation": "Extension functions are resolved statically at compile time based on the receiver type, not dynamically at runtime."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "Can extension functions be defined for nullable types?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extension functions can be defined for nullable types, using the nullable receiver type, e.g., fun String?.myFunction() {}.",
+      "answerCellList": [
+        {
+          "answerId": 41,
+          "questionId": 11,
+          "data": "A. No, only non-null types",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 42,
+          "questionId": 11,
+          "data": "B. Yes, using nullable receiver",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 43,
+          "questionId": 11,
+          "data": "C. Only in companion objects",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 44,
+          "questionId": 11,
+          "data": "D. Only for interfaces",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [42],
+        "answer": ["B. Yes, using nullable receiver"],
+        "explanation": "Extension functions can be defined for nullable types, using the nullable receiver type, e.g., fun String?.myFunction() {}."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "What happens if an extension function has the same name as a member function?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "If an extension function has the same name as a member function, the member function takes precedence when called on an instance of that class.",
+      "answerCellList": [
+        {
+          "answerId": 45,
+          "questionId": 12,
+          "data": "A. Extension function is called",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 46,
+          "questionId": 12,
+          "data": "B. Member function is called",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 47,
+          "questionId": 12,
+          "data": "C. Compilation error",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 48,
+          "questionId": 12,
+          "data": "D. Runtime exception",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [46],
+        "answer": ["B. Member function is called"],
+        "explanation": "If an extension function has the same name as a member function, the member function takes precedence when called on an instance of that class."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "Can extension properties be mutable (var)?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extension properties can be mutable (var) but require both a getter and a setter, as they cannot have a backing field.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 13,
+          "data": "A. No, only val is allowed",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 13,
+          "data": "B. Yes, with getter and setter",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 13,
+          "data": "C. Only in companion objects",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 13,
+          "data": "D. Only with a backing field",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [50],
+        "answer": ["B. Yes, with getter and setter"],
+        "explanation": "Extension properties can be mutable (var) but require both a getter and a setter, as they cannot have a backing field."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "What is the scope of an extension function defined in a file?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An extension function defined at the top level of a file is available wherever the file is imported, subject to visibility modifiers.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 14,
+          "data": "A. Only within the same class",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 14,
+          "data": "B. Wherever the file is imported",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 14,
+          "data": "C. Only in the same package",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 14,
+          "data": "D. Only in companion objects",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [54],
+        "answer": ["B. Wherever the file is imported"],
+        "explanation": "An extension function defined at the top level of a file is available wherever the file is imported, subject to visibility modifiers."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "Can extension functions be defined for interfaces?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extension functions can be defined for interfaces, allowing additional functionality for all classes implementing the interface.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 15,
+          "data": "A. No, only for classes",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 15,
+          "data": "B. Yes, for all implementing classes",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 15,
+          "data": "C. Only for sealed interfaces",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 15,
+          "data": "D. Only in companion objects",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [58],
+        "answer": ["B. Yes, for all implementing classes"],
+        "explanation": "Extension functions can be defined for interfaces, allowing additional functionality for all classes implementing the interface."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "What is the benefit of using extension functions?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extension functions improve code readability by allowing utility functions to be called as if they were member functions of the receiver class.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 16,
+          "data": "A. They modify class behavior",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 16,
+          "data": "B. They improve code readability",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 63,
+          "questionId": 16,
+          "data": "C. They override class methods",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 64,
+          "questionId": 16,
+          "data": "D. They create new classes",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [62],
+        "answer": ["B. They improve code readability"],
+        "explanation": "Extension functions improve code readability by allowing utility functions to be called as if they were member functions of the receiver class."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "Can extension functions be defined for companion objects?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extension functions can be defined for companion objects, using the companion object as the receiver type, e.g., fun MyClass.Companion.myFunction() {}.",
+      "answerCellList": [
+        {
+          "answerId": 65,
+          "questionId": 17,
+          "data": "A. No, only for classes",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 66,
+          "questionId": 17,
+          "data": "B. Yes, for companion objects",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 67,
+          "questionId": 17,
+          "data": "C. Only for interfaces",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 68,
+          "questionId": 17,
+          "data": "D. Only for objects",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [66],
+        "answer": ["B. Yes, for companion objects"],
+        "explanation": "Extension functions can be defined for companion objects, using the companion object as the receiver type, e.g., fun MyClass.Companion.myFunction() {}."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "What is the visibility of an extension function by default?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extension functions are public by default, making them accessible wherever their containing file is imported.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 18,
+          "data": "A. Private",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 18,
+          "data": "B. Public",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 18,
+          "data": "C. Protected",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 18,
+          "data": "D. Internal",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [70],
+        "answer": ["B. Public"],
+        "explanation": "Extension functions are public by default, making them accessible wherever their containing file is imported."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "Can extension functions be used with generics?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extension functions can be defined for generic types, using type parameters, e.g., fun <T> List<T>.myFunction() {}.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 19,
+          "data": "A. No, only specific types",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 19,
+          "data": "B. Yes, with type parameters",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 19,
+          "data": "C. Only for interfaces",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 19,
+          "data": "D. Only in companion objects",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [74],
+        "answer": ["B. Yes, with type parameters"],
+        "explanation": "Extension functions can be defined for generic types, using type parameters, e.g., fun <T> List<T>.myFunction() {}."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "What happens if an extension function is defined in a different module?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An extension function in a different module is accessible if the module is imported and the function is public or internal (for same-module access).",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 20,
+          "data": "A. It is inaccessible",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 20,
+          "data": "B. Accessible if imported",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 20,
+          "data": "C. Only accessible in the same package",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 20,
+          "data": "D. Causes a compilation error",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [78],
+        "answer": ["B. Accessible if imported"],
+        "explanation": "An extension function in a different module is accessible if the module is imported and the function is public or internal (for same-module access)."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "Can extension functions be marked as suspend?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extension functions can be marked as suspend, allowing them to be used in coroutines, e.g., suspend fun String.myFunction() {}.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 21,
+          "data": "A. No, only regular functions",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 21,
+          "data": "B. Yes, with suspend keyword",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 21,
+          "data": "C. Only in companion objects",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 21,
+          "data": "D. Only for interfaces",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [82],
+        "answer": ["B. Yes, with suspend keyword"],
+        "explanation": "Extension functions can be marked as suspend, allowing them to be used in coroutines, e.g., suspend fun String.myFunction() {}."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "What is the syntax to call an extension function explicitly on a nullable receiver?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "For a nullable receiver, the safe call operator (?.) is used, e.g., myString?.myExtensionFunction(), to avoid null pointer exceptions.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 22,
+          "data": "A. myString.myExtensionFunction()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 22,
+          "data": "B. myString?.myExtensionFunction()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 22,
+          "data": "C. myString!!.myExtensionFunction()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 22,
+          "data": "D. myString::myExtensionFunction()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [86],
+        "answer": ["B. myString?.myExtensionFunction()"],
+        "explanation": "For a nullable receiver, the safe call operator (?.) is used, e.g., myString?.myExtensionFunction(), to avoid null pointer exceptions."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "Can extension functions be defined inside a class?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extension functions can be defined inside a class, but they are only accessible within the class or its subclasses, unless explicitly exposed.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 23,
+          "data": "A. No, only at top level",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 23,
+          "data": "B. Yes, with limited scope",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 91,
+          "questionId": 23,
+          "data": "C. Only for companion objects",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 92,
+          "questionId": 23,
+          "data": "D. Only for interfaces",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [90],
+        "answer": ["B. Yes, with limited scope"],
+        "explanation": "Extension functions can be defined inside a class, but they are only accessible within the class or its subclasses, unless explicitly exposed."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "What is the purpose of an extension function in a companion object?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extension functions in a companion object provide utility functions related to the class, callable via the companion object, e.g., MyClass.myFunction().",
+      "answerCellList": [
+        {
+          "answerId": 93,
+          "questionId": 24,
+          "data": "A. To override class methods",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 94,
+          "questionId": 24,
+          "data": "B. To provide utility functions",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 95,
+          "questionId": 24,
+          "data": "C. To modify class state",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 96,
+          "questionId": 24,
+          "data": "D. To create new instances",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [94],
+        "answer": ["B. To provide utility functions"],
+        "explanation": "Extension functions in a companion object provide utility functions related to the class, callable via the companion object, e.g., MyClass.myFunction()."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "Can extension properties be defined for interfaces?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extension properties can be defined for interfaces, providing additional properties for all classes implementing the interface.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 25,
+          "data": "A. No, only for classes",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 25,
+          "data": "B. Yes, for implementing classes",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 25,
+          "data": "C. Only for sealed interfaces",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 25,
+          "data": "D. Only in companion objects",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [98],
+        "answer": ["B. Yes, for implementing classes"],
+        "explanation": "Extension properties can be defined for interfaces, providing additional properties for all classes implementing the interface."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "What happens when an extension function is called on a null receiver?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "If an extension function is defined for a nullable receiver, it can handle null explicitly; otherwise, a NullPointerException occurs.",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 26,
+          "data": "A. Always throws NullPointerException",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 26,
+          "data": "B. Handles null if defined for nullable",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 26,
+          "data": "C. Skips the call silently",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 26,
+          "data": "D. Calls the member function",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [102],
+        "answer": ["B. Handles null if defined for nullable"],
+        "explanation": "If an extension function is defined for a nullable receiver, it can handle null explicitly; otherwise, a NullPointerException occurs."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "Can extension functions access protected members of the receiver class?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extension functions cannot access protected members unless defined within the same class or its subclasses, as they are external to the class.",
+      "answerCellList": [
+        {
+          "answerId": 105,
+          "questionId": 27,
+          "data": "A. Yes, always",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 106,
+          "questionId": 27,
+          "data": "B. Only within the same class",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 107,
+          "questionId": 27,
+          "data": "C. Only in companion objects",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 108,
+          "questionId": 27,
+          "data": "D. Never",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [106],
+        "answer": ["B. Only within the same class"],
+        "explanation": "Extension functions cannot access protected members unless defined within the same class or its subclasses, as they are external to the class."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "What is the benefit of using extension properties?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extension properties provide a concise way to access computed values as if they were part of the receiver class, improving code readability.",
+      "answerCellList": [
+        {
+          "answerId": 109,
+          "questionId": 28,
+          "data": "A. They store data in the class",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 110,
+          "questionId": 28,
+          "data": "B. They improve code readability",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 111,
+          "questionId": 28,
+          "data": "C. They override class properties",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 112,
+          "questionId": 28,
+          "data": "D. They create new classes",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [110],
+        "answer": ["B. They improve code readability"],
+        "explanation": "Extension properties provide a concise way to access computed values as if they were part of the receiver class, improving code readability."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "Can extension functions be called on instances of subclasses?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extension functions defined for a parent class can be called on subclass instances, as the receiver type is resolved statically.",
+      "answerCellList": [
+        {
+          "answerId": 113,
+          "questionId": 29,
+          "data": "A. No, only on the parent class",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 114,
+          "questionId": 29,
+          "data": "B. Yes, on subclass instances",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 115,
+          "questionId": 29,
+          "data": "C. Only in companion objects",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 116,
+          "questionId": 29,
+          "data": "D. Only for interfaces",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [114],
+        "answer": ["B. Yes, on subclass instances"],
+        "explanation": "Extension functions defined for a parent class can be called on subclass instances, as the receiver type is resolved statically."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "What is the effect of importing an extension function with a name conflict?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "If an extension function has a name conflict, you can use an import alias (e.g., import myFunction as myAlias) to resolve it.",
+      "answerCellList": [
+        {
+          "answerId": 117,
+          "questionId": 30,
+          "data": "A. Compilation error",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 118,
+          "questionId": 30,
+          "data": "B. Use import alias",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 119,
+          "questionId": 30,
+          "data": "C. Automatically uses member function",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 120,
+          "questionId": 30,
+          "data": "D. Throws runtime exception",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [118],
+        "answer": ["B. Use import alias"],
+        "explanation": "If an extension function has a name conflict, you can use an import alias (e.g., import myFunction as myAlias) to resolve it."
+      }
+    }
+  ]
+}

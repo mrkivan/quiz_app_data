@@ -1,0 +1,1765 @@
+{
+  "total": 40,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "Which interface is the root of the Java Collections Framework hierarchy?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Collection interface is the root interface of the Java Collections Framework, extended by interfaces like List, Set, and Queue.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. Map",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. Collection",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. Iterable",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. Iterator",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. Collection"],
+        "explanation": "The Collection interface is the root interface of the Java Collections Framework, extended by interfaces like List, Set, and Queue."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which collection class allows duplicate elements and maintains insertion order?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ArrayList allows duplicate elements and maintains the order of insertion, making it a popular choice for ordered collections.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. HashSet",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. ArrayList",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. TreeSet",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. HashMap",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. ArrayList"],
+        "explanation": "ArrayList allows duplicate elements and maintains the order of insertion, making it a popular choice for ordered collections."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "Which interface does not extend the Collection interface?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Map interface does not extend the Collection interface; it is a separate part of the Java Collections Framework for key-value pairs.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. List",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. Set",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 11,
+          "questionId": 3,
+          "data": "C. Queue",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 12,
+          "questionId": 3,
+          "data": "D. Map",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [12],
+        "answer": ["D. Map"],
+        "explanation": "The Map interface does not extend the Collection interface; it is a separate part of the Java Collections Framework for key-value pairs."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "Which collection class is synchronized by default?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Vector is a legacy collection class that is synchronized by default, making it thread-safe but slower than ArrayList.",
+      "answerCellList": [
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "A. ArrayList",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "B. Vector",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 15,
+          "questionId": 4,
+          "data": "C. LinkedList",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 16,
+          "questionId": 4,
+          "data": "D. HashSet",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [14],
+        "answer": ["B. Vector"],
+        "explanation": "Vector is a legacy collection class that is synchronized by default, making it thread-safe but slower than ArrayList."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "What is the time complexity of retrieving an element from an ArrayList by index?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ArrayList provides constant-time access (O(1)) for retrieving elements by index due to its underlying array structure.",
+      "answerCellList": [
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "A. O(n)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "B. O(1)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 19,
+          "questionId": 5,
+          "data": "C. O(log n)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 20,
+          "questionId": 5,
+          "data": "D. O(n^2)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [18],
+        "answer": ["B. O(1)"],
+        "explanation": "ArrayList provides constant-time access (O(1)) for retrieving elements by index due to its underlying array structure."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "Which collection class is best suited for a LIFO (Last-In-First-Out) data structure?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Stack is a LIFO data structure, extending Vector, and is designed for last-in-first-out operations.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 6,
+          "data": "A. ArrayList",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 6,
+          "data": "B. Stack",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 6,
+          "data": "C. LinkedList",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 6,
+          "data": "D. PriorityQueue",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [22],
+        "answer": ["B. Stack"],
+        "explanation": "Stack is a LIFO data structure, extending Vector, and is designed for last-in-first-out operations."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Which interface represents a collection that does not allow duplicate elements?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Set interface represents a collection that does not allow duplicate elements, unlike List which allows duplicates.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 7,
+          "data": "A. List",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 7,
+          "data": "B. Set",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 7,
+          "data": "C. Queue",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 7,
+          "data": "D. Map",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [26],
+        "answer": ["B. Set"],
+        "explanation": "The Set interface represents a collection that does not allow duplicate elements, unlike List which allows duplicates."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "Which class implements a hash table-based Map?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "HashMap implements a hash table-based Map, providing fast key-value lookups with average O(1) time complexity.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 8,
+          "data": "A. TreeMap",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 8,
+          "data": "B. HashMap",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 8,
+          "data": "C. LinkedHashMap",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 8,
+          "data": "D. ConcurrentHashMap",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [30],
+        "answer": ["B. HashMap"],
+        "explanation": "HashMap implements a hash table-based Map, providing fast key-value lookups with average O(1) time complexity."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "Which collection class maintains elements in a sorted order?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "TreeSet maintains elements in a sorted order using a Red-Black tree, ensuring elements are stored in their natural order or a custom comparator.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 9,
+          "data": "A. HashSet",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 9,
+          "data": "B. TreeSet",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 35,
+          "questionId": 9,
+          "data": "C. LinkedHashSet",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 36,
+          "questionId": 9,
+          "data": "D. ArrayList",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [34],
+        "answer": ["B. TreeSet"],
+        "explanation": "TreeSet maintains elements in a sorted order using a Red-Black tree, ensuring elements are stored in their natural order or a custom comparator."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "What is the primary difference between HashMap and Hashtable?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Hashtable is synchronized and does not allow null keys or values, whereas HashMap is not synchronized and allows one null key and multiple null values.",
+      "answerCellList": [
+        {
+          "answerId": 37,
+          "questionId": 10,
+          "data": "A. HashMap is synchronized",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 38,
+          "questionId": 10,
+          "data": "B. Hashtable allows null keys",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 39,
+          "questionId": 10,
+          "data": "C. Hashtable is not synchronized",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 40,
+          "questionId": 10,
+          "data": "D. HashMap allows null keys",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [40],
+        "answer": ["D. HashMap allows null keys"],
+        "explanation": "Hashtable is synchronized and does not allow null keys or values, whereas HashMap is not synchronized and allows one null key and multiple null values."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "Which collection class is used for FIFO (First-In-First-Out) operations?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LinkedList can be used as a Queue for FIFO operations, implementing the Queue interface with methods like offer() and poll().",
+      "answerCellList": [
+        {
+          "answerId": 41,
+          "questionId": 11,
+          "data": "A. Stack",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 42,
+          "questionId": 11,
+          "data": "B. LinkedList",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 43,
+          "questionId": 11,
+          "data": "C. HashSet",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 44,
+          "questionId": 11,
+          "data": "D. TreeMap",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [42],
+        "answer": ["B. LinkedList"],
+        "explanation": "LinkedList can be used as a Queue for FIFO operations, implementing the Queue interface with methods like offer() and poll()."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "Which method is used to retrieve and remove the head of a Queue?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The poll() method retrieves and removes the head of a Queue, returning null if the Queue is empty.",
+      "answerCellList": [
+        {
+          "answerId": 45,
+          "questionId": 12,
+          "data": "A. peek()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 46,
+          "questionId": 12,
+          "data": "B. poll()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 47,
+          "questionId": 12,
+          "data": "C. remove()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 48,
+          "questionId": 12,
+          "data": "D. get()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [46],
+        "answer": ["B. poll()"],
+        "explanation": "The poll() method retrieves and removes the head of a Queue, returning null if the Queue is empty."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "Which class provides a thread-safe implementation of a Map?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ConcurrentHashMap is designed for concurrent access, providing thread-safety without locking the entire map.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 13,
+          "data": "A. HashMap",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 13,
+          "data": "B. ConcurrentHashMap",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 13,
+          "data": "C. TreeMap",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 13,
+          "data": "D. LinkedHashMap",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [50],
+        "answer": ["B. ConcurrentHashMap"],
+        "explanation": "ConcurrentHashMap is designed for concurrent access, providing thread-safety without locking the entire map."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "Which collection class maintains insertion order for key-value pairs in a Map?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LinkedHashMap maintains the insertion order of key-value pairs, unlike HashMap which does not guarantee any order.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 14,
+          "data": "A. HashMap",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 14,
+          "data": "B. LinkedHashMap",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 14,
+          "data": "C. TreeMap",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 14,
+          "data": "D. ConcurrentHashMap",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [54],
+        "answer": ["B. LinkedHashMap"],
+        "explanation": "LinkedHashMap maintains the insertion order of key-value pairs, unlike HashMap which does not guarantee any order."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "Which interface defines a double-ended queue?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Deque (double-ended queue) allows elements to be added or removed from both ends, implemented by classes like LinkedList and ArrayDeque.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 15,
+          "data": "A. Queue",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 15,
+          "data": "B. Deque",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 15,
+          "data": "C. List",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 15,
+          "data": "D. Set",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [58],
+        "answer": ["B. Deque"],
+        "explanation": "Deque (double-ended queue) allows elements to be added or removed from both ends, implemented by classes like LinkedList and ArrayDeque."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "Which method in the Collection interface returns the number of elements in the collection?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The size() method returns the number of elements in a collection, applicable to all Collection implementations.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 16,
+          "data": "A. length()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 16,
+          "data": "B. size()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 63,
+          "questionId": 16,
+          "data": "C. count()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 64,
+          "questionId": 16,
+          "data": "D. capacity()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [62],
+        "answer": ["B. size()"],
+        "explanation": "The size() method returns the number of elements in a collection, applicable to all Collection implementations."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "Which collection class is optimized for fast lookup using a hash table?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "HashSet uses a hash table for fast lookup operations, providing average O(1) time complexity for add, remove, and contains operations.",
+      "answerCellList": [
+        {
+          "answerId": 65,
+          "questionId": 17,
+          "data": "A. TreeSet",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 66,
+          "questionId": 17,
+          "data": "B. HashSet",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 67,
+          "questionId": 17,
+          "data": "C. LinkedList",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 68,
+          "questionId": 17,
+          "data": "D. ArrayList",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [66],
+        "answer": ["B. HashSet"],
+        "explanation": "HashSet uses a hash table for fast lookup operations, providing average O(1) time complexity for add, remove, and contains operations."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "Which collection class is best for frequent insertions and deletions at both ends?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ArrayDeque is optimized for fast insertions and deletions at both ends, making it ideal for double-ended queue operations.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 18,
+          "data": "A. ArrayList",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 18,
+          "data": "B. ArrayDeque",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 18,
+          "data": "C. HashSet",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 18,
+          "data": "D. TreeSet",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [70],
+        "answer": ["B. ArrayDeque"],
+        "explanation": "ArrayDeque is optimized for fast insertions and deletions at both ends, making it ideal for double-ended queue operations."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "Which method in the Map interface retrieves the value associated with a key without removing it?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The get() method retrieves the value associated with a specified key in a Map without removing it.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 19,
+          "data": "A. remove()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 19,
+          "data": "B. get()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 19,
+          "data": "C. put()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 19,
+          "data": "D. contains()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [74],
+        "answer": ["B. get()"],
+        "explanation": "The get() method retrieves the value associated with a specified key in a Map without removing it."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "Which interface is used to represent a sorted set of elements?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "SortedSet is an interface that extends Set and maintains elements in a sorted order, implemented by classes like TreeSet.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 20,
+          "data": "A. Set",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 20,
+          "data": "B. SortedSet",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 20,
+          "data": "C. List",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 20,
+          "data": "D. Queue",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [78],
+        "answer": ["B. SortedSet"],
+        "explanation": "SortedSet is an interface that extends Set and maintains elements in a sorted order, implemented by classes like TreeSet."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "Which collection class is a legacy class similar to HashMap?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Hashtable is a legacy class similar to HashMap but is synchronized and does not allow null keys or values.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 21,
+          "data": "A. Vector",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 21,
+          "data": "B. Hashtable",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 21,
+          "data": "C. ArrayList",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 21,
+          "data": "D. LinkedList",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [82],
+        "answer": ["B. Hashtable"],
+        "explanation": "Hashtable is a legacy class similar to HashMap but is synchronized and does not allow null keys or values."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "What is the default load factor of a HashMap?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The default load factor of a HashMap is 0.75, which means it resizes when it is 75% full to maintain performance.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 22,
+          "data": "A. 0.5",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 22,
+          "data": "B. 0.75",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 22,
+          "data": "C. 1.0",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 22,
+          "data": "D. 0.25",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [86],
+        "answer": ["B. 0.75"],
+        "explanation": "The default load factor of a HashMap is 0.75, which means it resizes when it is 75% full to maintain performance."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "Which collection class uses a Red-Black tree for its implementation?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "TreeMap uses a Red-Black tree to maintain key-value pairs in sorted order based on the keys.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 23,
+          "data": "A. HashMap",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 23,
+          "data": "B. TreeMap",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 91,
+          "questionId": 23,
+          "data": "C. LinkedHashMap",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 92,
+          "questionId": 23,
+          "data": "D. ConcurrentHashMap",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [90],
+        "answer": ["B. TreeMap"],
+        "explanation": "TreeMap uses a Red-Black tree to maintain key-value pairs in sorted order based on the keys."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "Which method in the List interface adds an element at a specific index?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The add(int index, E element) method in the List interface adds an element at the specified index, shifting subsequent elements.",
+      "answerCellList": [
+        {
+          "answerId": 93,
+          "questionId": 24,
+          "data": "A. add(E element)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 94,
+          "questionId": 24,
+          "data": "B. add(int index, E element)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 95,
+          "questionId": 24,
+          "data": "C. put(E element)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 96,
+          "questionId": 24,
+          "data": "D. insert(E element)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [94],
+        "answer": ["B. add(int index, E element)"],
+        "explanation": "The add(int index, E element) method in the List interface adds an element at the specified index, shifting subsequent elements."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "Which collection class is a direct implementation of the Queue interface?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "PriorityQueue is a direct implementation of the Queue interface, ordering elements based on their natural ordering or a comparator.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 25,
+          "data": "A. ArrayList",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 25,
+          "data": "B. PriorityQueue",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 25,
+          "data": "C. HashSet",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 25,
+          "data": "D. TreeMap",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [98],
+        "answer": ["B. PriorityQueue"],
+        "explanation": "PriorityQueue is a direct implementation of the Queue interface, ordering elements based on their natural ordering or a comparator."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "Which interface is used to iterate over a collection?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Iterator interface is used to iterate over elements in a collection, providing methods like hasNext() and next().",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 26,
+          "data": "A. Iterable",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 26,
+          "data": "B. Iterator",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 26,
+          "data": "C. Collection",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 26,
+          "data": "D. ListIterator",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [102],
+        "answer": ["B. Iterator"],
+        "explanation": "The Iterator interface is used to iterate over elements in a collection, providing methods like hasNext() and next()."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "Which collection class is best for key-value pairs sorted by keys?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "TreeMap maintains key-value pairs sorted by keys, using a Red-Black tree for logarithmic time complexity operations.",
+      "answerCellList": [
+        {
+          "answerId": 105,
+          "questionId": 27,
+          "data": "A. HashMap",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 106,
+          "questionId": 27,
+          "data": "B. TreeMap",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 107,
+          "questionId": 27,
+          "data": "C. LinkedHashMap",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 108,
+          "questionId": 27,
+          "data": "D. ConcurrentHashMap",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [106],
+        "answer": ["B. TreeMap"],
+        "explanation": "TreeMap maintains key-value pairs sorted by keys, using a Red-Black tree for logarithmic time complexity operations."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "Which method removes all elements from a collection?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The clear() method removes all elements from a collection, leaving it empty.",
+      "answerCellList": [
+        {
+          "answerId": 109,
+          "questionId": 28,
+          "data": "A. removeAll()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 110,
+          "questionId": 28,
+          "data": "B. clear()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 111,
+          "questionId": 28,
+          "data": "C. deleteAll()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 112,
+          "questionId": 28,
+          "data": "D. empty()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [110],
+        "answer": ["B. clear()"],
+        "explanation": "The clear() method removes all elements from a collection, leaving it empty."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "Which collection class maintains insertion order for a Set?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LinkedHashSet maintains the insertion order of elements in a Set, unlike HashSet which does not guarantee order.",
+      "answerCellList": [
+        {
+          "answerId": 113,
+          "questionId": 29,
+          "data": "A. HashSet",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 114,
+          "questionId": 29,
+          "data": "B. LinkedHashSet",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 115,
+          "questionId": 29,
+          "data": "C. TreeSet",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 116,
+          "questionId": 29,
+          "data": "D. ConcurrentSkipListSet",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [114],
+        "answer": ["B. LinkedHashSet"],
+        "explanation": "LinkedHashSet maintains the insertion order of elements in a Set, unlike HashSet which does not guarantee order."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "What is the time complexity of adding an element to a HashSet?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Adding an element to a HashSet has an average time complexity of O(1) due to its hash table implementation.",
+      "answerCellList": [
+        {
+          "answerId": 117,
+          "questionId": 30,
+          "data": "A. O(n)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 118,
+          "questionId": 30,
+          "data": "B. O(1)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 119,
+          "questionId": 30,
+          "data": "C. O(log n)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 120,
+          "questionId": 30,
+          "data": "D. O(n^2)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [118],
+        "answer": ["B. O(1)"],
+        "explanation": "Adding an element to a HashSet has an average time complexity of O(1) due to its hash table implementation."
+      }
+    },
+    {
+      "questionId": 31,
+      "question": "Which interface allows bidirectional iteration over a List?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ListIterator allows bidirectional iteration over a List, supporting both forward and backward traversal.",
+      "answerCellList": [
+        {
+          "answerId": 121,
+          "questionId": 31,
+          "data": "A. Iterator",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 122,
+          "questionId": 31,
+          "data": "B. ListIterator",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 123,
+          "questionId": 31,
+          "data": "C. Iterable",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 124,
+          "questionId": 31,
+          "data": "D. Collection",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 31,
+        "answerId": [122],
+        "answer": ["B. ListIterator"],
+        "explanation": "ListIterator allows bidirectional iteration over a List, supporting both forward and backward traversal."
+      }
+    },
+    {
+      "questionId": 32,
+      "question": "Which collection class is used for priority-based queue operations?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "PriorityQueue orders elements based on their natural ordering or a custom comparator, suitable for priority-based queue operations.",
+      "answerCellList": [
+        {
+          "answerId": 125,
+          "questionId": 32,
+          "data": "A. LinkedList",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 126,
+          "questionId": 32,
+          "data": "B. PriorityQueue",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 127,
+          "questionId": 32,
+          "data": "C. ArrayDeque",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 128,
+          "questionId": 32,
+          "data": "D. HashSet",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 32,
+        "answerId": [126],
+        "answer": ["B. PriorityQueue"],
+        "explanation": "PriorityQueue orders elements based on their natural ordering or a custom comparator, suitable for priority-based queue operations."
+      }
+    },
+    {
+      "questionId": 33,
+      "question": "Which method checks if a collection contains a specific element?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The contains() method checks if a collection contains a specified element, returning true if found.",
+      "answerCellList": [
+        {
+          "answerId": 129,
+          "questionId": 33,
+          "data": "A. has()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 130,
+          "questionId": 33,
+          "data": "B. contains()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 131,
+          "questionId": 33,
+          "data": "C. includes()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 132,
+          "questionId": 33,
+          "data": "D. find()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 33,
+        "answerId": [130],
+        "answer": ["B. contains()"],
+        "explanation": "The contains() method checks if a collection contains a specified element, returning true if found."
+      }
+    },
+    {
+      "questionId": 34,
+      "question": "Which collection class is synchronized and similar to ArrayList?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Vector is a synchronized legacy class similar to ArrayList, providing thread-safe operations.",
+      "answerCellList": [
+        {
+          "answerId": 133,
+          "questionId": 34,
+          "data": "A. LinkedList",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 134,
+          "questionId": 34,
+          "data": "B. Vector",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 135,
+          "questionId": 34,
+          "data": "C. HashSet",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 136,
+          "questionId": 34,
+          "data": "D. TreeSet",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 34,
+        "answerId": [134],
+        "answer": ["B. Vector"],
+        "explanation": "Vector is a synchronized legacy class similar to ArrayList, providing thread-safe operations."
+      }
+    },
+    {
+      "questionId": 35,
+      "question": "Which method in the Map interface adds or updates a key-value pair?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The put() method adds a new key-value pair or updates the value for an existing key in a Map.",
+      "answerCellList": [
+        {
+          "answerId": 137,
+          "questionId": 35,
+          "data": "A. add()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 138,
+          "questionId": 35,
+          "data": "B. put()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 139,
+          "questionId": 35,
+          "data": "C. set()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 140,
+          "questionId": 35,
+          "data": "D. insert()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 35,
+        "answerId": [138],
+        "answer": ["B. put()"],
+        "explanation": "The put() method adds a new key-value pair or updates the value for an existing key in a Map."
+      }
+    },
+    {
+      "questionId": 36,
+      "question": "Which collection class is used for a thread-safe Set?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ConcurrentSkipListSet is a thread-safe Set implementation that maintains sorted order, suitable for concurrent applications.",
+      "answerCellList": [
+        {
+          "answerId": 141,
+          "questionId": 36,
+          "data": "A. HashSet",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 142,
+          "questionId": 36,
+          "data": "B. ConcurrentSkipListSet",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 143,
+          "questionId": 36,
+          "data": "C. LinkedHashSet",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 144,
+          "questionId": 36,
+          "data": "D. TreeSet",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 36,
+        "answerId": [142],
+        "answer": ["B. ConcurrentSkipListSet"],
+        "explanation": "ConcurrentSkipListSet is a thread-safe Set implementation that maintains sorted order, suitable for concurrent applications."
+      }
+    },
+    {
+      "questionId": 37,
+      "question": "Which interface is extended by SortedMap?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "SortedMap extends the Map interface to maintain keys in sorted order, implemented by classes like TreeMap.",
+      "answerCellList": [
+        {
+          "answerId": 145,
+          "questionId": 37,
+          "data": "A. Collection",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 146,
+          "questionId": 37,
+          "data": "B. Map",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 147,
+          "questionId": 37,
+          "data": "C. Set",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 148,
+          "questionId": 37,
+          "data": "D. List",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 37,
+        "answerId": [146],
+        "answer": ["B. Map"],
+        "explanation": "SortedMap extends the Map interface to maintain keys in sorted order, implemented by classes like TreeMap."
+      }
+    },
+    {
+      "questionId": 38,
+      "question": "Which method in the Collection interface adds all elements from another collection?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The addAll() method adds all elements from a specified collection to the current collection.",
+      "answerCellList": [
+        {
+          "answerId": 149,
+          "questionId": 38,
+          "data": "A. add()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 150,
+          "questionId": 38,
+          "data": "B. addAll()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 151,
+          "questionId": 38,
+          "data": "C. putAll()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 152,
+          "questionId": 38,
+          "data": "D. insertAll()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 38,
+        "answerId": [150],
+        "answer": ["B. addAll()"],
+        "explanation": "The addAll() method adds all elements from a specified collection to the current collection."
+      }
+    },
+    {
+      "questionId": 39,
+      "question": "Which collection class is used for a thread-safe List?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "CopyOnWriteArrayList is a thread-safe List implementation that creates a new copy of the underlying array for each modification, suitable for concurrent access.",
+      "answerCellList": [
+        {
+          "answerId": 153,
+          "questionId": 39,
+          "data": "A. ArrayList",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 154,
+          "questionId": 39,
+          "data": "B. CopyOnWriteArrayList",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 155,
+          "questionId": 39,
+          "data": "C. LinkedList",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 156,
+          "questionId": 39,
+          "data": "D. Vector",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 39,
+        "answerId": [154],
+        "answer": ["B. CopyOnWriteArrayList"],
+        "explanation": "CopyOnWriteArrayList is a thread-safe List implementation that creates a new copy of the underlying array for each modification, suitable for concurrent access."
+      }
+    },
+    {
+      "questionId": 40,
+      "question": "What is the time complexity of retrieving an element from a HashMap by key?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Retrieving an element from a HashMap by key has an average time complexity of O(1) due to its hash table implementation.",
+      "answerCellList": [
+        {
+          "answerId": 157,
+          "questionId": 40,
+          "data": "A. O(n)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 158,
+          "questionId": 40,
+          "data": "B. O(1)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 159,
+          "questionId": 40,
+          "data": "C. O(log n)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 160,
+          "questionId": 40,
+          "data": "D. O(n^2)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 40,
+        "answerId": [158],
+        "answer": ["B. O(1)"],
+        "explanation": "Retrieving an element from a HashMap by key has an average time complexity of O(1) due to its hash table implementation."
+      }
+    }
+  ]
+}

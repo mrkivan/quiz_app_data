@@ -1,0 +1,1325 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is the primary purpose of the Room persistence library in Android?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Room provides an abstraction layer over SQLite, enabling type-safe database access with minimal boilerplate code.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. To manage network requests",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. To provide type-safe SQLite access",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. To handle UI updates",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. To manage coroutines",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. To provide type-safe SQLite access"],
+        "explanation": "Room provides an abstraction layer over SQLite, enabling type-safe database access with minimal boilerplate code."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which annotation is used to define an entity in Room?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The @Entity annotation is used to mark a Kotlin data class as a database table in Room.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. @Database",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. @Entity",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. @Dao",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. @Query",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. @Entity"],
+        "explanation": "The @Entity annotation is used to mark a Kotlin data class as a database table in Room."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "How do you mark a field as the primary key in a Room entity?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The @PrimaryKey annotation is used to designate a field as the primary key in a Room entity.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. @ColumnInfo",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. @PrimaryKey",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 11,
+          "questionId": 3,
+          "data": "C. @Index",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 12,
+          "questionId": 3,
+          "data": "D. @Unique",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [10],
+        "answer": ["B. @PrimaryKey"],
+        "explanation": "The @PrimaryKey annotation is used to designate a field as the primary key in a Room entity."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "Which annotation defines a Data Access Object (DAO) in Room?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The @Dao annotation marks an interface or abstract class as a DAO, defining methods for database operations.",
+      "answerCellList": [
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "A. @Entity",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "B. @Dao",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 15,
+          "questionId": 4,
+          "data": "C. @Database",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 16,
+          "questionId": 4,
+          "data": "D. @Query",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [14],
+        "answer": ["B. @Dao"],
+        "explanation": "The @Dao annotation marks an interface or abstract class as a DAO, defining methods for database operations."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "How do you define a Room database class in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A Room database is defined as an abstract class annotated with @Database, listing entities and a version number.",
+      "answerCellList": [
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "A. @Entity class",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "B. @Database abstract class",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 19,
+          "questionId": 5,
+          "data": "C. @Dao interface",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 20,
+          "questionId": 5,
+          "data": "D. @Query class",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [18],
+        "answer": ["B. @Database abstract class"],
+        "explanation": "A Room database is defined as an abstract class annotated with @Database, listing entities and a version number."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "What is the purpose of the @Query annotation in a Room DAO?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The @Query annotation is used to define SQL queries for retrieving or manipulating data in a Room DAO.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 6,
+          "data": "A. Defines a table",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 6,
+          "data": "B. Defines SQL queries",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 6,
+          "data": "C. Creates a database",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 6,
+          "data": "D. Manages transactions",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [22],
+        "answer": ["B. Defines SQL queries"],
+        "explanation": "The @Query annotation is used to define SQL queries for retrieving or manipulating data in a Room DAO."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "How do you insert data into a Room database using a DAO?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Data is inserted using a method annotated with @Insert in the DAO, e.g., @Insert fun insert(entity: Entity).",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 7,
+          "data": "A. @Query(\"INSERT INTO table\")",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 7,
+          "data": "B. @Insert fun insert(entity: Entity)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 7,
+          "data": "C. @Update fun insert(entity: Entity)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 7,
+          "data": "D. @Delete fun insert(entity: Entity)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [26],
+        "answer": ["B. @Insert fun insert(entity: Entity)"],
+        "explanation": "Data is inserted using a method annotated with @Insert in the DAO, e.g., @Insert fun insert(entity: Entity)."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "How do you update data in a Room database using a DAO?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Data is updated using a method annotated with @Update in the DAO, matching entities by their primary key.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 8,
+          "data": "A. @Query(\"UPDATE table\")",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 8,
+          "data": "B. @Update fun update(entity: Entity)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 8,
+          "data": "C. @Insert fun update(entity: Entity)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 8,
+          "data": "D. @Delete fun update(entity: Entity)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [30],
+        "answer": ["B. @Update fun update(entity: Entity)"],
+        "explanation": "Data is updated using a method annotated with @Update in the DAO, matching entities by their primary key."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "How do you delete data from a Room database using a DAO?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Data is deleted using a method annotated with @Delete in the DAO, matching entities by their primary key.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 9,
+          "data": "A. @Query(\"DELETE FROM table\")",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 9,
+          "data": "B. @Delete fun delete(entity: Entity)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 35,
+          "questionId": 9,
+          "data": "C. @Insert fun delete(entity: Entity)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 36,
+          "questionId": 9,
+          "data": "D. @Update fun delete(entity: Entity)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [34],
+        "answer": ["B. @Delete fun delete(entity: Entity)"],
+        "explanation": "Data is deleted using a method annotated with @Delete in the DAO, matching entities by their primary key."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "What is the purpose of the @Database annotation in Room?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The @Database annotation defines the database, listing entities and version, and provides access to DAOs.",
+      "answerCellList": [
+        {
+          "answerId": 37,
+          "questionId": 10,
+          "data": "A. Defines a table",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 38,
+          "questionId": 10,
+          "data": "B. Defines the database and entities",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 39,
+          "questionId": 10,
+          "data": "C. Defines queries",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 40,
+          "questionId": 10,
+          "data": "D. Manages migrations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [38],
+        "answer": ["B. Defines the database and entities"],
+        "explanation": "The @Database annotation defines the database, listing entities and version, and provides access to DAOs."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "How do you create a Room database instance in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A Room database instance is created using Room.databaseBuilder(context, Database::class.java, \"db_name\").build().",
+      "answerCellList": [
+        {
+          "answerId": 41,
+          "questionId": 11,
+          "data": "A. Room.createDatabase(context, \"db_name\")",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 42,
+          "questionId": 11,
+          "data": "B. Room.databaseBuilder(context, Database::class.java, \"db_name\").build()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 43,
+          "questionId": 11,
+          "data": "C. Database(context, \"db_name\")",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 44,
+          "questionId": 11,
+          "data": "D. Room.getInstance(context, \"db_name\")",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [42],
+        "answer": ["B. Room.databaseBuilder(context, Database::class.java, \"db_name\").build()"],
+        "explanation": "A Room database instance is created using Room.databaseBuilder(context, Database::class.java, \"db_name\").build()."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "What is the purpose of the @Transaction annotation in a Room DAO?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The @Transaction annotation ensures that a method's database operations are executed atomically, preventing partial updates.",
+      "answerCellList": [
+        {
+          "answerId": 45,
+          "questionId": 12,
+          "data": "A. Defines a query",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 46,
+          "questionId": 12,
+          "data": "B. Ensures atomic operations",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 47,
+          "questionId": 12,
+          "data": "C. Creates an entity",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 48,
+          "questionId": 12,
+          "data": "D. Manages migrations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [46],
+        "answer": ["B. Ensures atomic operations"],
+        "explanation": "The @Transaction annotation ensures that a method's database operations are executed atomically, preventing partial updates."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "How do you handle database migrations in Room?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Database migrations are handled by defining Migration objects and passing them to Room.databaseBuilder().addMigrations().",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 13,
+          "data": "A. Use @Migration annotation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 13,
+          "data": "B. Use Migration objects in addMigrations()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 13,
+          "data": "C. Update @Database version",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 13,
+          "data": "D. Use @Query for schema changes",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [50],
+        "answer": ["B. Use Migration objects in addMigrations()"],
+        "explanation": "Database migrations are handled by defining Migration objects and passing them to Room.databaseBuilder().addMigrations()."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "What happens if you increase the database version without a migration?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Increasing the database version without a migration causes a crash unless fallbackToDestructiveMigration() is used, which wipes the database.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 14,
+          "data": "A. No effect",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 14,
+          "data": "B. Crashes or wipes database",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 14,
+          "data": "C. Automatically migrates",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 14,
+          "data": "D. Compilation error",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [54],
+        "answer": ["B. Crashes or wipes database"],
+        "explanation": "Increasing the database version without a migration causes a crash unless fallbackToDestructiveMigration() is used, which wipes the database."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "How do you use LiveData with Room queries in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Room queries can return LiveData, e.g., @Query(\"SELECT * FROM table\") fun getAll(): LiveData<List<Entity>>, to observe data changes.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 15,
+          "data": "A. Use @LiveData annotation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 15,
+          "data": "B. Return LiveData from @Query",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 15,
+          "data": "C. Wrap in CoroutineScope",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 15,
+          "data": "D. Use Flow instead",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [58],
+        "answer": ["B. Return LiveData from @Query"],
+        "explanation": "Room queries can return LiveData, e.g., @Query(\"SELECT * FROM table\") fun getAll(): LiveData<List<Entity>>, to observe data changes."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "How do you use Kotlin Coroutines with Room?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Room supports Coroutines by marking DAO methods with suspend, e.g., @Insert suspend fun insert(entity: Entity).",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 16,
+          "data": "A. Use @Coroutine annotation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 16,
+          "data": "B. Mark DAO methods with suspend",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 63,
+          "questionId": 16,
+          "data": "C. Use LiveData instead",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 64,
+          "questionId": 16,
+          "data": "D. Wrap in CoroutineScope",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [62],
+        "answer": ["B. Mark DAO methods with suspend"],
+        "explanation": "Room supports Coroutines by marking DAO methods with suspend, e.g., @Insert suspend fun insert(entity: Entity)."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "What is the purpose of the @Relation annotation in Room?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The @Relation annotation is used in a POJO to define relationships between entities, such as one-to-many or many-to-many.",
+      "answerCellList": [
+        {
+          "answerId": 65,
+          "questionId": 17,
+          "data": "A. Defines a table",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 66,
+          "questionId": 17,
+          "data": "B. Defines entity relationships",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 67,
+          "questionId": 17,
+          "data": "C. Executes queries",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 68,
+          "questionId": 17,
+          "data": "D. Manages migrations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [66],
+        "answer": ["B. Defines entity relationships"],
+        "explanation": "The @Relation annotation is used in a POJO to define relationships between entities, such as one-to-many or many-to-many."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "How do you define a one-to-many relationship in Room?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A one-to-many relationship is defined using a data class with @Relation, linking a parent entity to a list of child entities via foreign keys.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 18,
+          "data": "A. Use @Query with JOIN",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 18,
+          "data": "B. Use @Relation in a data class",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 18,
+          "data": "C. Use @ForeignKey in DAO",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 18,
+          "data": "D. Use @Transaction in entity",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [70],
+        "answer": ["B. Use @Relation in a data class"],
+        "explanation": "A one-to-many relationship is defined using a data class with @Relation, linking a parent entity to a list of child entities via foreign keys."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "What is the purpose of the @ForeignKey annotation in Room?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The @ForeignKey annotation defines a relationship between two entities, enforcing referential integrity in the database.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 19,
+          "data": "A. Defines a query",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 19,
+          "data": "B. Enforces referential integrity",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 19,
+          "data": "C. Creates an index",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 19,
+          "data": "D. Manages transactions",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [74],
+        "answer": ["B. Enforces referential integrity"],
+        "explanation": "The @ForeignKey annotation defines a relationship between two entities, enforcing referential integrity in the database."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "How do you perform a query with a parameter in Room?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A query with a parameter uses :param in the SQL query, e.g., @Query(\"SELECT * FROM table WHERE id = :id\") fun getById(id: Int).",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 20,
+          "data": "A. Use @Param annotation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 20,
+          "data": "B. Use :param in SQL query",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 20,
+          "data": "C. Use @Query with Bundle",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 20,
+          "data": "D. Use @Insert with parameter",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [78],
+        "answer": ["B. Use :param in SQL query"],
+        "explanation": "A query with a parameter uses :param in the SQL query, e.g., @Query(\"SELECT * FROM table WHERE id = :id\") fun getById(id: Int)."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "What is the purpose of Room's Flow support in queries?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Room queries can return Flow, e.g., @Query(\"SELECT * FROM table\") fun getAll(): Flow<List<Entity>>, to observe data changes with Kotlin Coroutines.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 21,
+          "data": "A. Replaces LiveData",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 21,
+          "data": "B. Observes data changes with Coroutines",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 21,
+          "data": "C. Manages transactions",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 21,
+          "data": "D. Defines relationships",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [82],
+        "answer": ["B. Observes data changes with Coroutines"],
+        "explanation": "Room queries can return Flow, e.g., @Query(\"SELECT * FROM table\") fun getAll(): Flow<List<Entity>>, to observe data changes with Kotlin Coroutines."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "How do you define an index in a Room entity?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "An index is defined in an @Entity annotation using the indices parameter, e.g., @Entity(indices = [Index(value = [\"column\"])]).",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 22,
+          "data": "A. Use @Index annotation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 22,
+          "data": "B. Use indices in @Entity",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 22,
+          "data": "C. Use @Query with INDEX",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 22,
+          "data": "D. Use @ColumnInfo",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [86],
+        "answer": ["B. Use indices in @Entity"],
+        "explanation": "An index is defined in an @Entity annotation using the indices parameter, e.g., @Entity(indices = [Index(value = [\"column\"])])."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "What is the purpose of the @ColumnInfo annotation in Room?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The @ColumnInfo annotation specifies the column name or other properties for a field in an entity.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 23,
+          "data": "A. Defines a primary key",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 23,
+          "data": "B. Specifies column properties",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 91,
+          "questionId": 23,
+          "data": "C. Defines a query",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 92,
+          "questionId": 23,
+          "data": "D. Manages relationships",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [90],
+        "answer": ["B. Specifies column properties"],
+        "explanation": "The @ColumnInfo annotation specifies the column name or other properties for a field in an entity."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "How do you allow main thread queries in Room for testing purposes?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Main thread queries are allowed by calling allowMainThreadQueries() on the database builder, but this is only recommended for testing.",
+      "answerCellList": [
+        {
+          "answerId": 93,
+          "questionId": 24,
+          "data": "A. Use @MainThread annotation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 94,
+          "questionId": 24,
+          "data": "B. Use allowMainThreadQueries()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 95,
+          "questionId": 24,
+          "data": "C. Use @Query with main thread",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 96,
+          "questionId": 24,
+          "data": "D. Use CoroutineScope",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [94],
+        "answer": ["B. Use allowMainThreadQueries()"],
+        "explanation": "Main thread queries are allowed by calling allowMainThreadQueries() on the database builder, but this is only recommended for testing."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "What is the purpose of Room's TypeConverter?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "TypeConverters convert custom types to and from types that Room can persist, such as converting a Date to a Long.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 25,
+          "data": "A. Converts SQL queries",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 25,
+          "data": "B. Converts custom types for persistence",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 25,
+          "data": "C. Manages migrations",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 25,
+          "data": "D. Defines relationships",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [98],
+        "answer": ["B. Converts custom types for persistence"],
+        "explanation": "TypeConverters convert custom types to and from types that Room can persist, such as converting a Date to a Long."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "How do you define a TypeConverter in Room with Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "TypeConverters are defined with @TypeConverter functions in a class, registered in the @Database annotation with typeConverters.",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 26,
+          "data": "A. Use @Converter annotation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 26,
+          "data": "B. Use @TypeConverter functions",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 26,
+          "data": "C. Use @Query with conversion",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 26,
+          "data": "D. Use @Entity with converters",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [102],
+        "answer": ["B. Use @TypeConverter functions"],
+        "explanation": "TypeConverters are defined with @TypeConverter functions in a class, registered in the @Database annotation with typeConverters."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "What is the purpose of the @Ignore annotation in a Room entity?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The @Ignore annotation excludes a field or method from being persisted in the database table.",
+      "answerCellList": [
+        {
+          "answerId": 105,
+          "questionId": 27,
+          "data": "A. Defines a primary key",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 106,
+          "questionId": 27,
+          "data": "B. Excludes field from persistence",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 107,
+          "questionId": 27,
+          "data": "C. Creates an index",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 108,
+          "questionId": 27,
+          "data": "D. Manages transactions",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [106],
+        "answer": ["B. Excludes field from persistence"],
+        "explanation": "The @Ignore annotation excludes a field or method from being persisted in the database table."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "How do you handle a many-to-many relationship in Room?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A many-to-many relationship is handled using a junction table entity and a data class with @Relation to join the entities.",
+      "answerCellList": [
+        {
+          "answerId": 109,
+          "questionId": 28,
+          "data": "A. Use @Query with JOIN",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 110,
+          "questionId": 28,
+          "data": "B. Use junction table and @Relation",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 111,
+          "questionId": 28,
+          "data": "C. Use @ForeignKey in DAO",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 112,
+          "questionId": 28,
+          "data": "D. Use @Transaction in entity",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [110],
+        "answer": ["B. Use junction table and @Relation"],
+        "explanation": "A many-to-many relationship is handled using a junction table entity and a data class with @Relation to join the entities."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "What is the purpose of fallbackToDestructiveMigration() in Room?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The fallbackToDestructiveMigration() method drops and recreates the database if no migration is provided, used for development or testing.",
+      "answerCellList": [
+        {
+          "answerId": 113,
+          "questionId": 29,
+          "data": "A. Automatically migrates schema",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 114,
+          "questionId": 29,
+          "data": "B. Drops and recreates database",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 115,
+          "questionId": 29,
+          "data": "C. Creates an index",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 116,
+          "questionId": 29,
+          "data": "D. Manages transactions",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [114],
+        "answer": ["B. Drops and recreates database"],
+        "explanation": "The fallbackToDestructiveMigration() method drops and recreates the database if no migration is provided, used for development or testing."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "How do you observe database changes in a Room query using Kotlin Flow?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Database changes are observed by returning Flow from a @Query, e.g., @Query(\"SELECT * FROM table\") fun getAll(): Flow<List<Entity>>, collected in a coroutine.",
+      "answerCellList": [
+        {
+          "answerId": 117,
+          "questionId": 30,
+          "data": "A. Use @Observe annotation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 118,
+          "questionId": 30,
+          "data": "B. Return Flow from @Query",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 119,
+          "questionId": 30,
+          "data": "C. Use LiveData instead",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 120,
+          "questionId": 30,
+          "data": "D. Use @Transaction with Flow",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [118],
+        "answer": ["B. Return Flow from @Query"],
+        "explanation": "Database changes are observed by returning Flow from a @Query, e.g., @Query(\"SELECT * FROM table\") fun getAll(): Flow<List<Entity>>, collected in a coroutine."
+      }
+    }
+  ]
+}

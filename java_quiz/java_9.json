@@ -1,0 +1,1325 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is the primary purpose of annotations in Java?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Annotations in Java provide metadata about code, used by compilers, tools, or at runtime to process code or configure behavior.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. Execute code directly",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. Provide metadata about code",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. Define new data types",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. Handle exceptions",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. Provide metadata about code"],
+        "explanation": "Annotations in Java provide metadata about code, used by compilers, tools, or at runtime to process code or configure behavior."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which annotation is used to indicate that a method overrides a method in a superclass?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@Override' annotation indicates that a method overrides a method in a superclass or interface, helping catch errors at compile time.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. @Deprecated",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. @Override",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. @SuppressWarnings",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. @FunctionalInterface",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. @Override"],
+        "explanation": "The '@Override' annotation indicates that a method overrides a method in a superclass or interface, helping catch errors at compile time."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "Which annotation marks a class, method, or field as outdated and subject to removal in future versions?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@Deprecated' annotation indicates that a program element is outdated and may be removed in future versions.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. @Override",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. @Deprecated",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 11,
+          "questionId": 3,
+          "data": "C. @SuppressWarnings",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 12,
+          "questionId": 3,
+          "data": "D. @SafeVarargs",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [10],
+        "answer": ["B. @Deprecated"],
+        "explanation": "The '@Deprecated' annotation indicates that a program element is outdated and may be removed in future versions."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "Which annotation is used to suppress compiler warnings for specific code segments?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@SuppressWarnings' annotation suppresses specific compiler warnings, such as 'unchecked' or 'deprecation'.",
+      "answerCellList": [
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "A. @Override",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "B. @SuppressWarnings",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 15,
+          "questionId": 4,
+          "data": "C. @Retention",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 16,
+          "questionId": 4,
+          "data": "D. @Target",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [14],
+        "answer": ["B. @SuppressWarnings"],
+        "explanation": "The '@SuppressWarnings' annotation suppresses specific compiler warnings, such as 'unchecked' or 'deprecation'."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which annotation is used to indicate that an interface is intended to be a functional interface?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@FunctionalInterface' annotation marks an interface as a functional interface, ensuring it has exactly one abstract method.",
+      "answerCellList": [
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "A. @Override",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "B. @FunctionalInterface",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 19,
+          "questionId": 5,
+          "data": "C. @Deprecated",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 20,
+          "questionId": 5,
+          "data": "D. @SafeVarargs",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [18],
+        "answer": ["B. @FunctionalInterface"],
+        "explanation": "The '@FunctionalInterface' annotation marks an interface as a functional interface, ensuring it has exactly one abstract method."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "Which annotation specifies how long an annotation is retained?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@Retention' annotation specifies the retention policy of an annotation, such as SOURCE, CLASS, or RUNTIME.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 6,
+          "data": "A. @Target",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 6,
+          "data": "B. @Retention",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 6,
+          "data": "C. @Documented",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 6,
+          "data": "D. @Inherited",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [22],
+        "answer": ["B. @Retention"],
+        "explanation": "The '@Retention' annotation specifies the retention policy of an annotation, such as SOURCE, CLASS, or RUNTIME."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Which annotation specifies the types of Java program elements an annotation can be applied to?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@Target' annotation restricts the types of program elements (e.g., METHOD, FIELD, TYPE) an annotation can be applied to.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 7,
+          "data": "A. @Retention",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 7,
+          "data": "B. @Target",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 7,
+          "data": "C. @Documented",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 7,
+          "data": "D. @Inherited",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [26],
+        "answer": ["B. @Target"],
+        "explanation": "The '@Target' annotation restricts the types of program elements (e.g., METHOD, FIELD, TYPE) an annotation can be applied to."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "Which annotation ensures that an annotation is included in the Javadoc of the annotated element?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@Documented' annotation indicates that an annotation should be included in the Javadoc of the annotated element.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 8,
+          "data": "A. @Retention",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 8,
+          "data": "B. @Documented",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 8,
+          "data": "C. @Target",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 8,
+          "data": "D. @Inherited",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [30],
+        "answer": ["B. @Documented"],
+        "explanation": "The '@Documented' annotation indicates that an annotation should be included in the Javadoc of the annotated element."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "Which annotation allows an annotation to be inherited by subclasses?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@Inherited' annotation allows annotations on a superclass to be inherited by its subclasses.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 9,
+          "data": "A. @Retention",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 9,
+          "data": "B. @Inherited",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 35,
+          "questionId": 9,
+          "data": "C. @Documented",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 36,
+          "questionId": 9,
+          "data": "D. @Target",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [34],
+        "answer": ["B. @Inherited"],
+        "explanation": "The '@Inherited' annotation allows annotations on a superclass to be inherited by its subclasses."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "Which retention policy makes an annotation available only in the source code and not in compiled class files?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'SOURCE' retention policy means the annotation is retained only in the source code and discarded during compilation.",
+      "answerCellList": [
+        {
+          "answerId": 37,
+          "questionId": 10,
+          "data": "A. CLASS",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 38,
+          "questionId": 10,
+          "data": "B. SOURCE",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 39,
+          "questionId": 10,
+          "data": "C. RUNTIME",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 40,
+          "questionId": 10,
+          "data": "D. DEFAULT",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [38],
+        "answer": ["B. SOURCE"],
+        "explanation": "The 'SOURCE' retention policy means the annotation is retained only in the source code and discarded during compilation."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "Which retention policy makes an annotation available at runtime through reflection?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'RUNTIME' retention policy allows annotations to be available at runtime via reflection.",
+      "answerCellList": [
+        {
+          "answerId": 41,
+          "questionId": 11,
+          "data": "A. SOURCE",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 42,
+          "questionId": 11,
+          "data": "B. RUNTIME",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 43,
+          "questionId": 11,
+          "data": "C. CLASS",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 44,
+          "questionId": 11,
+          "data": "D. COMPILE",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [42],
+        "answer": ["B. RUNTIME"],
+        "explanation": "The 'RUNTIME' retention policy allows annotations to be available at runtime via reflection."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "Which retention policy is the default if '@Retention' is not specified?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'CLASS' retention policy is the default, meaning annotations are recorded in the class file but not necessarily available at runtime.",
+      "answerCellList": [
+        {
+          "answerId": 45,
+          "questionId": 12,
+          "data": "A. SOURCE",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 46,
+          "questionId": 12,
+          "data": "B. CLASS",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 47,
+          "questionId": 12,
+          "data": "C. RUNTIME",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 48,
+          "questionId": 12,
+          "data": "D. NONE",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [46],
+        "answer": ["B. CLASS"],
+        "explanation": "The 'CLASS' retention policy is the default, meaning annotations are recorded in the class file but not necessarily available at runtime."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "Which package contains the core annotation types like '@Retention' and '@Target'?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The 'java.lang.annotation' package contains core annotation types like '@Retention', '@Target', '@Documented', and '@Inherited'.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 13,
+          "data": "A. java.util",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 13,
+          "data": "B. java.lang.annotation",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 13,
+          "data": "C. java.lang.reflect",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 13,
+          "data": "D. java.annotation",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [50],
+        "answer": ["B. java.lang.annotation"],
+        "explanation": "The 'java.lang.annotation' package contains core annotation types like '@Retention', '@Target', '@Documented', and '@Inherited'."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "Which annotation is used to indicate that a varargs parameter is safe from heap pollution?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@SafeVarargs' annotation indicates that a method with a varargs parameter does not perform unsafe operations, preventing heap pollution warnings.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 14,
+          "data": "A. @SuppressWarnings",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 14,
+          "data": "B. @SafeVarargs",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 14,
+          "data": "C. @FunctionalInterface",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 14,
+          "data": "D. @Retention",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [54],
+        "answer": ["B. @SafeVarargs"],
+        "explanation": "The '@SafeVarargs' annotation indicates that a method with a varargs parameter does not perform unsafe operations, preventing heap pollution warnings."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "What is the default value of an annotation element if not specified?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Annotation elements must have a default value defined using the 'default' keyword, or they must be explicitly provided when the annotation is used.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 15,
+          "data": "A. null",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 15,
+          "data": "B. Must be defined or provided",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 15,
+          "data": "C. 0",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 15,
+          "data": "D. empty string",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [58],
+        "answer": ["B. Must be defined or provided"],
+        "explanation": "Annotation elements must have a default value defined using the 'default' keyword, or they must be explicitly provided when the annotation is used."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "Which interface must all custom annotations extend?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "All annotations implicitly extend the 'java.lang.annotation.Annotation' interface.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 16,
+          "data": "A. java.lang.Object",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 16,
+          "data": "B. java.lang.annotation.Annotation",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 63,
+          "questionId": 16,
+          "data": "C. java.lang.reflect.AnnotatedElement",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 64,
+          "questionId": 16,
+          "data": "D. java.util.Interface",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [62],
+        "answer": ["B. java.lang.annotation.Annotation"],
+        "explanation": "All annotations implicitly extend the 'java.lang.annotation.Annotation' interface."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "Which Java framework heavily uses annotations for dependency injection?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Spring uses annotations like '@Autowired', '@Component', and '@Service' for dependency injection and bean configuration.",
+      "answerCellList": [
+        {
+          "answerId": 65,
+          "questionId": 17,
+          "data": "A. Hibernate",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 66,
+          "questionId": 17,
+          "data": "B. Spring",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 67,
+          "questionId": 17,
+          "data": "C. Struts",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 68,
+          "questionId": 17,
+          "data": "D. JSF",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [66],
+        "answer": ["B. Spring"],
+        "explanation": "Spring uses annotations like '@Autowired', '@Component', and '@Service' for dependency injection and bean configuration."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "Which annotation is commonly used in Hibernate to mark a class as an entity?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@Entity' annotation in Hibernate marks a class as a persistent entity mapped to a database table.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 18,
+          "data": "A. @Table",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 18,
+          "data": "B. @Entity",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 18,
+          "data": "C. @Column",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 18,
+          "data": "D. @Id",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [70],
+        "answer": ["B. @Entity"],
+        "explanation": "The '@Entity' annotation in Hibernate marks a class as a persistent entity mapped to a database table."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "Which annotation in JUnit is used to mark a method as a test case?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@Test' annotation in JUnit marks a method as a test case to be executed by the test runner.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 19,
+          "data": "A. @RunWith",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 19,
+          "data": "B. @Test",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 19,
+          "data": "C. @Before",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 19,
+          "data": "D. @After",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [74],
+        "answer": ["B. @Test"],
+        "explanation": "The '@Test' annotation in JUnit marks a method as a test case to be executed by the test runner."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "Which annotation in Spring is used to mark a class as a controller?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@Controller' annotation in Spring marks a class as a web controller, handling HTTP requests.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 20,
+          "data": "A. @Service",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 20,
+          "data": "B. @Controller",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 20,
+          "data": "C. @Repository",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 20,
+          "data": "D. @Component",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [78],
+        "answer": ["B. @Controller"],
+        "explanation": "The '@Controller' annotation in Spring marks a class as a web controller, handling HTTP requests."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "Which annotation is used in Java to mark a method parameter as a request parameter in a web application?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@RequestParam' annotation in Spring binds a web request parameter to a method parameter.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 21,
+          "data": "A. @PathVariable",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 21,
+          "data": "B. @RequestParam",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 21,
+          "data": "C. @RequestBody",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 21,
+          "data": "D. @ModelAttribute",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [82],
+        "answer": ["B. @RequestParam"],
+        "explanation": "The '@RequestParam' annotation in Spring binds a web request parameter to a method parameter."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "Which annotation in Hibernate specifies the primary key of an entity?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@Id' annotation in Hibernate marks a field as the primary key of an entity.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 22,
+          "data": "A. @Column",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 22,
+          "data": "B. @Id",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 22,
+          "data": "C. @Entity",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 22,
+          "data": "D. @Table",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [86],
+        "answer": ["B. @Id"],
+        "explanation": "The '@Id' annotation in Hibernate marks a field as the primary key of an entity."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "Which annotation in JUnit is used to run code before each test method?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@BeforeEach' annotation in JUnit 5 (or '@Before' in JUnit 4) marks a method to run before each test method.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 23,
+          "data": "A. @AfterEach",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 23,
+          "data": "B. @BeforeEach",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 91,
+          "questionId": 23,
+          "data": "C. @Test",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 92,
+          "questionId": 23,
+          "data": "D. @BeforeClass",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [90],
+        "answer": ["B. @BeforeEach"],
+        "explanation": "The '@BeforeEach' annotation in JUnit 5 (or '@Before' in JUnit 4) marks a method to run before each test method."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "Which annotation in Spring marks a class as a service component?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@Service' annotation in Spring marks a class as a service component, typically holding business logic.",
+      "answerCellList": [
+        {
+          "answerId": 93,
+          "questionId": 24,
+          "data": "A. @Controller",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 94,
+          "questionId": 24,
+          "data": "B. @Service",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 95,
+          "questionId": 24,
+          "data": "C. @Repository",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 96,
+          "questionId": 24,
+          "data": "D. @Component",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [94],
+        "answer": ["B. @Service"],
+        "explanation": "The '@Service' annotation in Spring marks a class as a service component, typically holding business logic."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "Which annotation in Spring marks a class as a repository for database operations?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@Repository' annotation in Spring marks a class as a repository, typically for database access and operations.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 25,
+          "data": "A. @Controller",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 25,
+          "data": "B. @Repository",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 25,
+          "data": "C. @Service",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 25,
+          "data": "D. @Component",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [98],
+        "answer": ["B. @Repository"],
+        "explanation": "The '@Repository' annotation in Spring marks a class as a repository, typically for database access and operations."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "Which annotation in Java is used to map a class field to a database column in Hibernate?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@Column' annotation in Hibernate maps a class field to a specific column in a database table.",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 26,
+          "data": "A. @Id",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 26,
+          "data": "B. @Column",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 26,
+          "data": "C. @Table",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 26,
+          "data": "D. @Entity",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [102],
+        "answer": ["B. @Column"],
+        "explanation": "The '@Column' annotation in Hibernate maps a class field to a specific column in a database table."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "Which annotation in JUnit is used to run code after each test method?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@AfterEach' annotation in JUnit 5 (or '@After' in JUnit 4) marks a method to run after each test method.",
+      "answerCellList": [
+        {
+          "answerId": 105,
+          "questionId": 27,
+          "data": "A. @BeforeEach",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 106,
+          "questionId": 27,
+          "data": "B. @AfterEach",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 107,
+          "questionId": 27,
+          "data": "C. @Test",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 108,
+          "questionId": 27,
+          "data": "D. @AfterClass",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [106],
+        "answer": ["B. @AfterEach"],
+        "explanation": "The '@AfterEach' annotation in JUnit 5 (or '@After' in JUnit 4) marks a method to run after each test method."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "Which annotation in Spring is used to inject dependencies automatically?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@Autowired' annotation in Spring is used to automatically inject dependencies into fields, constructors, or methods.",
+      "answerCellList": [
+        {
+          "answerId": 109,
+          "questionId": 28,
+          "data": "A. @Inject",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 110,
+          "questionId": 28,
+          "data": "B. @Autowired",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 111,
+          "questionId": 28,
+          "data": "C. @Resource",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 112,
+          "questionId": 28,
+          "data": "D. @Component",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [110],
+        "answer": ["B. @Autowired"],
+        "explanation": "The '@Autowired' annotation in Spring is used to automatically inject dependencies into fields, constructors, or methods."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "Which annotation in Java is used to map a class to a specific database table in Hibernate?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@Table' annotation in Hibernate specifies the database table to which an entity class is mapped.",
+      "answerCellList": [
+        {
+          "answerId": 113,
+          "questionId": 29,
+          "data": "A. @Entity",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 114,
+          "questionId": 29,
+          "data": "B. @Table",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 115,
+          "questionId": 29,
+          "data": "C. @Column",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 116,
+          "questionId": 29,
+          "data": "D. @Id",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [114],
+        "answer": ["B. @Table"],
+        "explanation": "The '@Table' annotation in Hibernate specifies the database table to which an entity class is mapped."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "Which annotation in JUnit is used to run code once before all test methods in a class?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The '@BeforeAll' annotation in JUnit 5 (or '@BeforeClass' in JUnit 4) marks a method to run once before all test methods in a class.",
+      "answerCellList": [
+        {
+          "answerId": 117,
+          "questionId": 30,
+          "data": "A. @BeforeEach",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 118,
+          "questionId": 30,
+          "data": "B. @BeforeAll",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 119,
+          "questionId": 30,
+          "data": "C. @AfterAll",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 120,
+          "questionId": 30,
+          "data": "D. @Test",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [118],
+        "answer": ["B. @BeforeAll"],
+        "explanation": "The '@BeforeAll' annotation in JUnit 5 (or '@BeforeClass' in JUnit 4) marks a method to run once before all test methods in a class."
+      }
+    }
+  ]
+}

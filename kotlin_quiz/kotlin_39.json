@@ -1,0 +1,1325 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "How does Kotlin handle Java's checked exceptions?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Kotlin treats Java checked exceptions as unchecked, so try-catch is not mandatory.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. Requires explicit try-catch",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. Treats them as unchecked",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. Ignores them completely",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. Converts them to runtime exceptions",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. Treats them as unchecked"],
+        "explanation": "Kotlin treats Java checked exceptions as unchecked, so try-catch is not mandatory."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "What annotation is used to expose Kotlin properties as Java getters and setters?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@JvmField exposes a Kotlin property as a public Java field, bypassing getters/setters.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 2,
+          "data": "A. @Property",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 2,
+          "data": "B. @JvmField",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 2,
+          "data": "C. @Getter",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 2,
+          "data": "D. @JavaProp",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [2],
+        "answer": ["B. @JvmField"],
+        "explanation": "@JvmField exposes a Kotlin property as a public Java field, bypassing getters/setters."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "How can a Kotlin function be called from Java when it has default parameters?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Java requires all parameters to be passed explicitly, as it doesn't support default parameters.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 3,
+          "data": "A. Omit default parameters",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 3,
+          "data": "B. Pass all parameters explicitly",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 3,
+          "data": "C. Use @Default annotation",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 3,
+          "data": "D. Call a generated overload",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [2],
+        "answer": ["B. Pass all parameters explicitly"],
+        "explanation": "Java requires all parameters to be passed explicitly, as it doesn't support default parameters."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "What happens when a Kotlin nullable type is accessed from Java?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Kotlin nullable types are treated as regular Java types, requiring manual null checks.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 4,
+          "data": "A. Automatically throws an exception",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 4,
+          "data": "B. Requires manual null checks",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 4,
+          "data": "C. Converts to Optional",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 4,
+          "data": "D. Becomes non-nullable",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [2],
+        "answer": ["B. Requires manual null checks"],
+        "explanation": "Kotlin nullable types are treated as regular Java types, requiring manual null checks."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which annotation ensures a Kotlin function is accessible as a static method in Java?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@JvmStatic makes companion object or object functions accessible as static methods in Java.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 5,
+          "data": "A. @Static",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 5,
+          "data": "B. @JvmStatic",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 5,
+          "data": "C. @JavaStatic",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 5,
+          "data": "D. @Companion",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [2],
+        "answer": ["B. @JvmStatic"],
+        "explanation": "@JvmStatic makes companion object or object functions accessible as static methods in Java."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "How are Kotlin's data classes accessed from Java?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Data classes generate standard getters, setters, and methods like toString(), accessible in Java.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 6,
+          "data": "A. As abstract classes",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 6,
+          "data": "B. Using getters and setters",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 6,
+          "data": "C. As interfaces",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 6,
+          "data": "D. Only through reflection",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [2],
+        "answer": ["B. Using getters and setters"],
+        "explanation": "Data classes generate standard getters, setters, and methods like toString(), accessible in Java."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "What is the purpose of the @JvmName annotation in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@JvmName customizes the name of a Kotlin function or file in the generated Java bytecode.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 7,
+          "data": "A. Defines a package name",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 7,
+          "data": "B. Customizes function or file name",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 7,
+          "data": "C. Marks a class as abstract",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 7,
+          "data": "D. Enables null safety",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [2],
+        "answer": ["B. Customizes function or file name"],
+        "explanation": "@JvmName customizes the name of a Kotlin function or file in the generated Java bytecode."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "How does Kotlin's companion object appear in Java?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A companion object is accessible as a static nested class named 'Companion' in Java.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 8,
+          "data": "A. As an instance object",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 8,
+          "data": "B. As a static nested class",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 8,
+          "data": "C. As an interface",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 8,
+          "data": "D. As a private field",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [2],
+        "answer": ["B. As a static nested class"],
+        "explanation": "A companion object is accessible as a static nested class named 'Companion' in Java."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "What annotation is used to suppress Kotlin's nullability checks for Java interoperability?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@Suppress('UNCHECKED_CAST') or similar can suppress nullability warnings for Java code.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 9,
+          "data": "A. @Nullable",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 9,
+          "data": "B. @Suppress",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 9,
+          "data": "C. @IgnoreNull",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 9,
+          "data": "D. @NonNull",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [2],
+        "answer": ["B. @Suppress"],
+        "explanation": "@Suppress('UNCHECKED_CAST') or similar can suppress nullability warnings for Java code."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "How are Kotlin's extension functions accessed from Java?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Extension functions are compiled as static methods, called with the receiver as the first parameter.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 10,
+          "data": "A. As instance methods",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 10,
+          "data": "B. As static methods",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 10,
+          "data": "C. Through reflection only",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 10,
+          "data": "D. As interface methods",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [2],
+        "answer": ["B. As static methods"],
+        "explanation": "Extension functions are compiled as static methods, called with the receiver as the first parameter."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "What is the purpose of @JvmOverloads annotation in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@JvmOverloads generates overloaded methods for functions with default parameters for Java compatibility.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 11,
+          "data": "A. Enables multiple inheritance",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 11,
+          "data": "B. Generates overloaded methods",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 11,
+          "data": "C. Marks a function as abstract",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 11,
+          "data": "D. Suppresses null checks",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [2],
+        "answer": ["B. Generates overloaded methods"],
+        "explanation": "@JvmOverloads generates overloaded methods for functions with default parameters for Java compatibility."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "How does Kotlin's 'object' declaration appear in Java?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A Kotlin 'object' is compiled as a singleton class with a static INSTANCE field in Java.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 12,
+          "data": "A. As an abstract class",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 12,
+          "data": "B. As a singleton with INSTANCE",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 12,
+          "data": "C. As an interface",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 12,
+          "data": "D. As a private class",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [2],
+        "answer": ["B. As a singleton with INSTANCE"],
+        "explanation": "A Kotlin 'object' is compiled as a singleton class with a static INSTANCE field in Java."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "What annotation helps specify nullability for Java interoperability?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@Nullable and @NotNull from libraries like JetBrains annotations clarify nullability for Java.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 13,
+          "data": "A. @JvmNull",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 13,
+          "data": "B. @Nullable/@NotNull",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 13,
+          "data": "C. @NullSafe",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 13,
+          "data": "D. @NonNullable",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [2],
+        "answer": ["B. @Nullable/@NotNull"],
+        "explanation": "@Nullable and @NotNull from libraries like JetBrains annotations clarify nullability for Java."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "How are Kotlin's sealed classes accessed from Java?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Sealed classes are compiled as abstract classes with restricted subclasses in Java.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 14,
+          "data": "A. As interfaces",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 14,
+          "data": "B. As abstract classes",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 14,
+          "data": "C. As final classes",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 14,
+          "data": "D. As enums",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [2],
+        "answer": ["B. As abstract classes"],
+        "explanation": "Sealed classes are compiled as abstract classes with restricted subclasses in Java."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "What is the purpose of @JvmSynthetic annotation in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@JvmSynthetic hides a Kotlin declaration from Java reflection, keeping it internal.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 15,
+          "data": "A. Enables synthetic classes",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 15,
+          "data": "B. Hides from Java reflection",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 15,
+          "data": "C. Generates synthetic methods",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 15,
+          "data": "D. Marks as deprecated",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [2],
+        "answer": ["B. Hides from Java reflection"],
+        "explanation": "@JvmSynthetic hides a Kotlin declaration from Java reflection, keeping it internal."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "How does Java access Kotlin's inline functions?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Inline functions are inlined at compile-time and can be called normally from Java.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 16,
+          "data": "A. Through reflection only",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 16,
+          "data": "B. As regular function calls",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 16,
+          "data": "C. As static methods",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 16,
+          "data": "D. Cannot be accessed",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [2],
+        "answer": ["B. As regular function calls"],
+        "explanation": "Inline functions are inlined at compile-time and can be called normally from Java."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "What happens when Java calls a Kotlin function with a lambda parameter?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Java passes a lambda or anonymous class implementing the corresponding functional interface.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 17,
+          "data": "A. Throws a compilation error",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 17,
+          "data": "B. Uses a functional interface",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 17,
+          "data": "C. Converts to a string",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 17,
+          "data": "D. Requires an annotation",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [2],
+        "answer": ["B. Uses a functional interface"],
+        "explanation": "Java passes a lambda or anonymous class implementing the corresponding functional interface."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "How are Kotlin's top-level functions accessed from Java?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Top-level functions are compiled as static methods in a class named after the Kotlin file.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 18,
+          "data": "A. As instance methods",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 18,
+          "data": "B. As static methods",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 18,
+          "data": "C. Through an interface",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 18,
+          "data": "D. Only via reflection",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [2],
+        "answer": ["B. As static methods"],
+        "explanation": "Top-level functions are compiled as static methods in a class named after the Kotlin file."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "What is the purpose of @Throws annotation in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@Throws specifies exceptions for Java callers, as Kotlin doesn't use checked exceptions.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 19,
+          "data": "A. Marks a function as deprecated",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 19,
+          "data": "B. Specifies exceptions for Java",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 19,
+          "data": "C. Enables null safety",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 19,
+          "data": "D. Defines a static method",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [2],
+        "answer": ["B. Specifies exceptions for Java"],
+        "explanation": "@Throws specifies exceptions for Java callers, as Kotlin doesn't use checked exceptions."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "How does Java handle Kotlin's 'lateinit' properties?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Java accesses 'lateinit' properties via getters/setters, but uninitialized access throws an exception.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 20,
+          "data": "A. As nullable fields",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 20,
+          "data": "B. Via getters/setters",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 20,
+          "data": "C. As final fields",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 20,
+          "data": "D. Cannot be accessed",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [2],
+        "answer": ["B. Via getters/setters"],
+        "explanation": "Java accesses 'lateinit' properties via getters/setters, but uninitialized access throws an exception."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "What annotation customizes the JVM method signature in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@JvmSignature is not a standard annotation; signatures are typically managed by the compiler.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 21,
+          "data": "A. @JvmSignature",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 21,
+          "data": "B. None, handled by compiler",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 21,
+          "data": "C. @MethodSignature",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 21,
+          "data": "D. @Signature",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [2],
+        "answer": ["B. None, handled by compiler"],
+        "explanation": "@JvmSignature is not a standard annotation; signatures are typically managed by the compiler."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "How are Kotlin's delegated properties accessed from Java?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Delegated properties are accessed via generated getters and setters in Java.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 22,
+          "data": "A. As direct fields",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 22,
+          "data": "B. Via getters and setters",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 22,
+          "data": "C. Through reflection",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 22,
+          "data": "D. As static fields",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [2],
+        "answer": ["B. Via getters and setters"],
+        "explanation": "Delegated properties are accessed via generated getters and setters in Java."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "What is the purpose of @JvmDefault annotation in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@JvmDefault enables default method implementations in interfaces for Java compatibility.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 23,
+          "data": "A. Defines default parameters",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 23,
+          "data": "B. Enables default interface methods",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 23,
+          "data": "C. Marks a class as final",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 23,
+          "data": "D. Suppresses warnings",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [2],
+        "answer": ["B. Enables default interface methods"],
+        "explanation": "@JvmDefault enables default method implementations in interfaces for Java compatibility."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "How does Java access Kotlin's 'by lazy' properties?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Java accesses 'by lazy' properties through their getters, which handle lazy initialization.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 24,
+          "data": "A. As direct fields",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 24,
+          "data": "B. Through getters",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 24,
+          "data": "C. Via reflection",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 24,
+          "data": "D. As static methods",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [2],
+        "answer": ["B. Through getters"],
+        "explanation": "Java accesses 'by lazy' properties through their getters, which handle lazy initialization."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "What happens when a Java class extends a Kotlin open class?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Java can extend a Kotlin open class normally, as it compiles to a regular Java class.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 25,
+          "data": "A. Throws a compilation error",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 25,
+          "data": "B. Extends normally",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 25,
+          "data": "C. Requires an annotation",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 25,
+          "data": "D. Becomes sealed",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [2],
+        "answer": ["B. Extends normally"],
+        "explanation": "Java can extend a Kotlin open class normally, as it compiles to a regular Java class."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "How are Kotlin's 'const' properties accessed from Java?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "'const' properties are compiled as static final fields in Java, accessible directly.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 26,
+          "data": "A. Through getters",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 26,
+          "data": "B. As static final fields",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 26,
+          "data": "C. As instance fields",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 26,
+          "data": "D. Via reflection",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [2],
+        "answer": ["B. As static final fields"],
+        "explanation": "'const' properties are compiled as static final fields in Java, accessible directly."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "What is the purpose of @JvmMultifileClass annotation in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@JvmMultifileClass combines multiple Kotlin files into a single Java class for top-level declarations.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 27,
+          "data": "A. Enables multiple inheritance",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 27,
+          "data": "B. Combines multiple files into one class",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 27,
+          "data": "C. Marks a class as abstract",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 27,
+          "data": "D. Suppresses null checks",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [2],
+        "answer": ["B. Combines multiple files into one class"],
+        "explanation": "@JvmMultifileClass combines multiple Kotlin files into a single Java class for top-level declarations."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "How does Java handle Kotlin's 'when' expression?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Kotlin's 'when' expression is compiled to a switch or if-else statement in Java bytecode.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 28,
+          "data": "A. As a loop",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 28,
+          "data": "B. As switch or if-else",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 28,
+          "data": "C. As a lambda",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 28,
+          "data": "D. Cannot be accessed",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [2],
+        "answer": ["B. As switch or if-else"],
+        "explanation": "Kotlin's 'when' expression is compiled to a switch or if-else statement in Java bytecode."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "How are Kotlin's type aliases used in Java?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Type aliases are not visible in Java; the underlying type is used directly.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 29,
+          "data": "A. As new classes",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 29,
+          "data": "B. Underlying type is used",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 29,
+          "data": "C. As interfaces",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 29,
+          "data": "D. Require annotations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [2],
+        "answer": ["B. Underlying type is used"],
+        "explanation": "Type aliases are not visible in Java; the underlying type is used directly."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "What is the purpose of @JvmWildcard annotation in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "@JvmWildcard ensures proper wildcard types in Java for Kotlin's generic variance.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 30,
+          "data": "A. Marks a class as final",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 30,
+          "data": "B. Ensures wildcard types",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 30,
+          "data": "C. Defines default parameters",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 30,
+          "data": "D. Suppresses warnings",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [2],
+        "answer": ["B. Ensures wildcard types"],
+        "explanation": "@JvmWildcard ensures proper wildcard types in Java for Kotlin's generic variance."
+      }
+    }
+  ]
+}

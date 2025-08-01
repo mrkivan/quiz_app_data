@@ -1,0 +1,1213 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "Which component is used to embed a Compose UI in an Android View hierarchy?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ComposeView allows embedding Compose UI within a traditional Android View layout.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. AndroidView",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. ComposeView",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. ViewBinding",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. AndroidViewBinding",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. ComposeView"],
+        "explanation": "ComposeView allows embedding Compose UI within a traditional Android View layout."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which component is used to embed an Android View in a Compose UI?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "AndroidView enables embedding a traditional Android View within a Compose UI.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. ComposeView",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. AndroidView",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. ViewBinding",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. AndroidViewBinding",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. AndroidView"],
+        "explanation": "AndroidView enables embedding a traditional Android View within a Compose UI."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "True or False: ComposeView requires a ViewCompositionStrategy to manage its lifecycle.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ComposeView requires a ViewCompositionStrategy to handle lifecycle events and prevent memory leaks.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [9],
+        "answer": ["A. True"],
+        "explanation": "ComposeView requires a ViewCompositionStrategy to handle lifecycle events and prevent memory leaks."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "Which of the following are used for interoperability between Compose and Views? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ComposeView, AndroidView, and AndroidViewBinding enable interoperability, while ViewModel is for state management.",
+      "answerCellList": [
+        {
+          "answerId": 11,
+          "questionId": 4,
+          "data": "A. ComposeView",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 12,
+          "questionId": 4,
+          "data": "B. AndroidView",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "C. ViewModel",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "D. AndroidViewBinding",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [11, 12, 14],
+        "answer": ["A. ComposeView", "B. AndroidView", "D. AndroidViewBinding"],
+        "explanation": "ComposeView, AndroidView, and AndroidViewBinding enable interoperability, while ViewModel is for state management."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which component inflates an XML layout into a Compose UI?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "AndroidViewBinding inflates an XML layout and integrates it into a Compose UI.",
+      "answerCellList": [
+        {
+          "answerId": 15,
+          "questionId": 5,
+          "data": "A. ComposeView",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 16,
+          "questionId": 5,
+          "data": "B. AndroidViewBinding",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "C. AndroidView",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "D. ViewBinding",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [16],
+        "answer": ["B. AndroidViewBinding"],
+        "explanation": "AndroidViewBinding inflates an XML layout and integrates it into a Compose UI."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "True or False: AndroidView automatically handles View lifecycle events.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "AndroidView manages View lifecycle events within Compose, ensuring proper creation and disposal.",
+      "answerCellList": [
+        {
+          "answerId": 19,
+          "questionId": 6,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 20,
+          "questionId": 6,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [19],
+        "answer": ["A. True"],
+        "explanation": "AndroidView manages View lifecycle events within Compose, ensuring proper creation and disposal."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Which strategy ensures ComposeView disposes resources when the View is detached?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "DisposeOnViewTreeLifecycleDestroyed disposes Compose resources when the View's lifecycle is destroyed.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 7,
+          "data": "A. DisposeOnDetachedFromWindow",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 7,
+          "data": "B. DisposeOnViewTreeLifecycleDestroyed",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 7,
+          "data": "C. DisposeOnPause",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 7,
+          "data": "D. DisposeOnStop",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [22],
+        "answer": ["B. DisposeOnViewTreeLifecycleDestroyed"],
+        "explanation": "DisposeOnViewTreeLifecycleDestroyed disposes Compose resources when the View's lifecycle is destroyed."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "Which of the following are best practices for using ComposeView in a View-based app? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Setting a ViewCompositionStrategy, using ViewModel for state, and updating state via LiveData or StateFlow are best practices, but inflating XML in ComposeView is not.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 8,
+          "data": "A. Set a ViewCompositionStrategy",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 8,
+          "data": "B. Use ViewModel for state management",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 8,
+          "data": "C. Inflate XML layouts in ComposeView",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 8,
+          "data": "D. Update state using LiveData or StateFlow",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [25, 26, 28],
+        "answer": ["A. Set a ViewCompositionStrategy", "B. Use ViewModel for state management", "D. Update state using LiveData or StateFlow"],
+        "explanation": "Setting a ViewCompositionStrategy, using ViewModel for state, and updating state via LiveData or StateFlow are best practices, but inflating XML in ComposeView is not."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "Which component is used to observe LiveData in a ComposeView?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "observeAsState converts LiveData to a State object for use in ComposeView.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 9,
+          "data": "A. collectAsState",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 9,
+          "data": "B. observeAsState",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 9,
+          "data": "C. mutableStateOf",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 9,
+          "data": "D. remember",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [30],
+        "answer": ["B. observeAsState"],
+        "explanation": "observeAsState converts LiveData to a State object for use in ComposeView."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "True or False: AndroidViewBinding requires ViewBinding to be enabled in the project.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "AndroidViewBinding relies on ViewBinding to inflate and bind XML layouts in Compose.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 10,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 10,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [33],
+        "answer": ["A. True"],
+        "explanation": "AndroidViewBinding relies on ViewBinding to inflate and bind XML layouts in Compose."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "Which lifecycle event should ComposeView be set up in for a Fragment?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ComposeView should be set up in onCreateView to ensure proper initialization in a Fragment.",
+      "answerCellList": [
+        {
+          "answerId": 35,
+          "questionId": 11,
+          "data": "A. onStart",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 36,
+          "questionId": 11,
+          "data": "B. onCreateView",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 37,
+          "questionId": 11,
+          "data": "C. onResume",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 38,
+          "questionId": 11,
+          "data": "D. onViewCreated",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [36],
+        "answer": ["B. onCreateView"],
+        "explanation": "ComposeView should be set up in onCreateView to ensure proper initialization in a Fragment."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "Which of the following are required for AndroidView in Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "AndroidView requires a factory to create the View and an update block for state changes, but ViewModel and LiveData are optional.",
+      "answerCellList": [
+        {
+          "answerId": 39,
+          "questionId": 12,
+          "data": "A. A factory to create the View",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 40,
+          "questionId": 12,
+          "data": "B. An update block for state changes",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 41,
+          "questionId": 12,
+          "data": "C. A ViewModel",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 42,
+          "questionId": 12,
+          "data": "D. LiveData for state",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [39, 40],
+        "answer": ["A. A factory to create the View", "B. An update block for state changes"],
+        "explanation": "AndroidView requires a factory to create the View and an update block for state changes, but ViewModel and LiveData are optional."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "Which ViewCompositionStrategy disposes Compose resources when the View is paused?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "DisposeOnLifecycleDestroyed with ON_PAUSE disposes resources when the View's lifecycle reaches ON_PAUSE.",
+      "answerCellList": [
+        {
+          "answerId": 43,
+          "questionId": 13,
+          "data": "A. DisposeOnDetachedFromWindow",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 44,
+          "questionId": 13,
+          "data": "B. DisposeOnLifecycleDestroyed",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 45,
+          "questionId": 13,
+          "data": "C. DisposeOnStop",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 46,
+          "questionId": 13,
+          "data": "D. DisposeOnResume",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [44],
+        "answer": ["B. DisposeOnLifecycleDestroyed"],
+        "explanation": "DisposeOnLifecycleDestroyed with ON_PAUSE disposes resources when the View's lifecycle reaches ON_PAUSE."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "True or False: You can use ViewBinding with Compose without AndroidViewBinding.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "AndroidViewBinding is specifically designed to integrate ViewBinding with Compose; ViewBinding alone requires manual integration.",
+      "answerCellList": [
+        {
+          "answerId": 47,
+          "questionId": 14,
+          "data": "A. True",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 48,
+          "questionId": 14,
+          "data": "B. False",
+          "isItAnswer": true,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [48],
+        "answer": ["B. False"],
+        "explanation": "AndroidViewBinding is specifically designed to integrate ViewBinding with Compose; ViewBinding alone requires manual integration."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "Which component is used to observe StateFlow in a ComposeView?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "collectAsState converts StateFlow to a State object for use in ComposeView.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 15,
+          "data": "A. observeAsState",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 15,
+          "data": "B. collectAsState",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 15,
+          "data": "C. mutableStateOf",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 15,
+          "data": "D. remember",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [50],
+        "answer": ["B. collectAsState"],
+        "explanation": "collectAsState converts StateFlow to a State object for use in ComposeView."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "Which of the following are best practices for using AndroidView in Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Minimizing View usage, handling lifecycle events, and updating state in the update block are best practices, but using ComposeView is not relevant.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 16,
+          "data": "A. Minimize View usage",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 16,
+          "data": "B. Handle lifecycle events",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 16,
+          "data": "C. Use ComposeView instead",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 16,
+          "data": "D. Update state in the update block",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [53, 54, 56],
+        "answer": ["A. Minimize View usage", "B. Handle lifecycle events", "D. Update state in the update block"],
+        "explanation": "Minimizing View usage, handling lifecycle events, and updating state in the update block are best practices, but using ComposeView is not relevant."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "Which lifecycle event is used to clean up ComposeView resources in an Activity?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "onDestroy is used to clean up ComposeView resources in an Activity to prevent memory leaks.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 17,
+          "data": "A. onPause",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 17,
+          "data": "B. onDestroy",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 17,
+          "data": "C. onResume",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 17,
+          "data": "D. onStart",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [58],
+        "answer": ["B. onDestroy"],
+        "explanation": "onDestroy is used to clean up ComposeView resources in an Activity to prevent memory leaks."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "True or False: AndroidView can be used to integrate RecyclerView in Compose.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "AndroidView can integrate RecyclerView into Compose, though LazyColumn is preferred for performance.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 18,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 18,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [61],
+        "answer": ["A. True"],
+        "explanation": "AndroidView can integrate RecyclerView into Compose, though LazyColumn is preferred for performance."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "Which dependency is required for AndroidViewBinding in Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "androidx.compose.ui:ui-viewbinding is required for AndroidViewBinding to work in Compose.",
+      "answerCellList": [
+        {
+          "answerId": 63,
+          "questionId": 19,
+          "data": "A. androidx.compose.runtime",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 64,
+          "questionId": 19,
+          "data": "B. androidx.compose.ui:ui-viewbinding",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 65,
+          "questionId": 19,
+          "data": "C. androidx.lifecycle",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 66,
+          "questionId": 19,
+          "data": "D. kotlinx-coroutines-core",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [64],
+        "answer": ["B. androidx.compose.ui:ui-viewbinding"],
+        "explanation": "androidx.compose.ui:ui-viewbinding is required for AndroidViewBinding to work in Compose."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "Which of the following ensure proper lifecycle handling in ComposeView? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Setting ViewCompositionStrategy, using LifecycleOwner, and cleaning up in onDestroy ensure proper lifecycle handling, but ViewModel is for state.",
+      "answerCellList": [
+        {
+          "answerId": 67,
+          "questionId": 20,
+          "data": "A. Set ViewCompositionStrategy",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 68,
+          "questionId": 20,
+          "data": "B. Use LifecycleOwner",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 69,
+          "questionId": 20,
+          "data": "C. Use ViewModel",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 70,
+          "questionId": 20,
+          "data": "D. Clean up in onDestroy",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [67, 68, 70],
+        "answer": ["A. Set ViewCompositionStrategy", "B. Use LifecycleOwner", "D. Clean up in onDestroy"],
+        "explanation": "Setting ViewCompositionStrategy, using LifecycleOwner, and cleaning up in onDestroy ensure proper lifecycle handling, but ViewModel is for state."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "Which component integrates a View-based Fragment in a Compose UI?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "FragmentContainerView hosts a View-based Fragment within a Compose UI.",
+      "answerCellList": [
+        {
+          "answerId": 71,
+          "questionId": 21,
+          "data": "A. ComposeView",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 72,
+          "questionId": 21,
+          "data": "B. FragmentContainerView",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 73,
+          "questionId": 21,
+          "data": "C. AndroidView",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 74,
+          "questionId": 21,
+          "data": "D. AndroidViewBinding",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [72],
+        "answer": ["B. FragmentContainerView"],
+        "explanation": "FragmentContainerView hosts a View-based Fragment within a Compose UI."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "True or False: ComposeView can be used in a View-based RecyclerView.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ComposeView can be used in a RecyclerView's ViewHolder to display Compose UI in a View-based list.",
+      "answerCellList": [
+        {
+          "answerId": 75,
+          "questionId": 22,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 76,
+          "questionId": 22,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [75],
+        "answer": ["A. True"],
+        "explanation": "ComposeView can be used in a RecyclerView's ViewHolder to display Compose UI in a View-based list."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "Which component is used to update View properties in AndroidView?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The update block in AndroidView is used to update View properties when state changes.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 23,
+          "data": "A. Factory block",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 23,
+          "data": "B. Update block",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 23,
+          "data": "C. Modifier block",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 23,
+          "data": "D. Lifecycle block",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [78],
+        "answer": ["B. Update block"],
+        "explanation": "The update block in AndroidView is used to update View properties when state changes."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "Which of the following are challenges when using AndroidView in Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Performance overhead, lifecycle management, and state synchronization are challenges, but ViewBinding is not required.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 24,
+          "data": "A. Performance overhead",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 24,
+          "data": "B. Lifecycle management",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 24,
+          "data": "C. Mandatory ViewBinding",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 24,
+          "data": "D. State synchronization",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [81, 82, 84],
+        "answer": ["A. Performance overhead", "B. Lifecycle management", "D. State synchronization"],
+        "explanation": "Performance overhead, lifecycle management, and state synchronization are challenges, but ViewBinding is not required."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "Which lifecycle event should AndroidView be initialized in for proper integration?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "AndroidView is initialized during composition, managed automatically by Compose.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 25,
+          "data": "A. onCreate",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 25,
+          "data": "B. Composition",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 25,
+          "data": "C. onResume",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 25,
+          "data": "D. onStart",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [86],
+        "answer": ["B. Composition"],
+        "explanation": "AndroidView is initialized during composition, managed automatically by Compose."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "True or False: ComposeView supports View-based animations.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ComposeView supports View-based animations when integrated into a View hierarchy.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 26,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 26,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [89],
+        "answer": ["A. True"],
+        "explanation": "ComposeView supports View-based animations when integrated into a View hierarchy."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "Which component is used to integrate a View-based WebView in Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "AndroidView integrates a WebView into a Compose UI using a factory and update block.",
+      "answerCellList": [
+        {
+          "answerId": 91,
+          "questionId": 27,
+          "data": "A. ComposeView",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 92,
+          "questionId": 27,
+          "data": "B. AndroidView",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 93,
+          "questionId": 27,
+          "data": "C. WebViewBinding",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 94,
+          "questionId": 27,
+          "data": "D. FragmentContainerView",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [92],
+        "answer": ["B. AndroidView"],
+        "explanation": "AndroidView integrates a WebView into a Compose UI using a factory and update block."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "Which of the following are benefits of using AndroidViewBinding? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "AndroidViewBinding simplifies XML integration, supports ViewBinding, and allows View updates, but does not manage Compose lifecycle.",
+      "answerCellList": [
+        {
+          "answerId": 95,
+          "questionId": 28,
+          "data": "A. Simplifies XML layout integration",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 96,
+          "questionId": 28,
+          "data": "B. Supports ViewBinding",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 97,
+          "questionId": 28,
+          "data": "C. Manages Compose lifecycle",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 98,
+          "questionId": 28,
+          "data": "D. Allows View property updates",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [95, 96, 98],
+        "answer": ["A. Simplifies XML layout integration", "B. Supports ViewBinding", "D. Allows View property updates"],
+        "explanation": "AndroidViewBinding simplifies XML integration, supports ViewBinding, and allows View updates, but does not manage Compose lifecycle."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "Which lifecycle event is used to set up ComposeView in an Activity?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "onCreate is used to set up ComposeView in an Activity to ensure proper initialization.",
+      "answerCellList": [
+        {
+          "answerId": 99,
+          "questionId": 29,
+          "data": "A. onResume",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 100,
+          "questionId": 29,
+          "data": "B. onCreate",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 101,
+          "questionId": 29,
+          "data": "C. onStart",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 102,
+          "questionId": 29,
+          "data": "D. onPause",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [100],
+        "answer": ["B. onCreate"],
+        "explanation": "onCreate is used to set up ComposeView in an Activity to ensure proper initialization."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "True or False: AndroidView supports View-based input events in Compose.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "AndroidView supports View-based input events, such as clicks, within a Compose UI.",
+      "answerCellList": [
+        {
+          "answerId": 103,
+          "questionId": 30,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 104,
+          "questionId": 30,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [103],
+        "answer": ["A. True"],
+        "explanation": "AndroidView supports View-based input events, such as clicks, within a Compose UI."
+      }
+    }
+  ]
+}

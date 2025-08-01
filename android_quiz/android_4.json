@@ -1,0 +1,1213 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is the primary composable for applying Material Design 3 theming in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "MaterialTheme is the main composable that provides access to MD3 colors, typography, and shapes.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. Surface",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. MaterialTheme",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. Theme",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. Column",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. MaterialTheme"],
+        "explanation": "MaterialTheme is the main composable that provides access to MD3 colors, typography, and shapes."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which MaterialTheme property provides access to MD3 color schemes?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "MaterialTheme.colorScheme provides access to MD3 colors like primary, secondary, and background.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. MaterialTheme.typography",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. MaterialTheme.colorScheme",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. MaterialTheme.shapes",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. MaterialTheme.elevation",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. MaterialTheme.colorScheme"],
+        "explanation": "MaterialTheme.colorScheme provides access to MD3 colors like primary, secondary, and background."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "True or False: Material Design 3 supports dynamic color schemes based on the user’s wallpaper.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "MD3 supports dynamic color schemes on Android 12+ devices, extracting colors from the user’s wallpaper.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [9],
+        "answer": ["A. True"],
+        "explanation": "MD3 supports dynamic color schemes on Android 12+ devices, extracting colors from the user’s wallpaper."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "Which of the following are part of MaterialTheme in Jetpack Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "MaterialTheme includes colorScheme, typography, and shapes, but not Modifier, which is for UI customization.",
+      "answerCellList": [
+        {
+          "answerId": 11,
+          "questionId": 4,
+          "data": "A. colorScheme",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 12,
+          "questionId": 4,
+          "data": "B. typography",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "C. Modifier",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "D. shapes",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [11, 12, 14],
+        "answer": ["A. colorScheme", "B. typography", "D. shapes"],
+        "explanation": "MaterialTheme includes colorScheme, typography, and shapes, but not Modifier, which is for UI customization."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which color role is used for the main branding color in MD3?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The primary color role defines the main branding color in MD3’s color scheme.",
+      "answerCellList": [
+        {
+          "answerId": 15,
+          "questionId": 5,
+          "data": "A. Secondary",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 16,
+          "questionId": 5,
+          "data": "B. Primary",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "C. Tertiary",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "D. Background",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [16],
+        "answer": ["B. Primary"],
+        "explanation": "The primary color role defines the main branding color in MD3’s color scheme."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "True or False: MaterialTheme automatically applies dark theme based on system settings.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "MaterialTheme supports dynamic dark/light themes based on system settings when using dynamic color schemes.",
+      "answerCellList": [
+        {
+          "answerId": 19,
+          "questionId": 6,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 20,
+          "questionId": 6,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [19],
+        "answer": ["A. True"],
+        "explanation": "MaterialTheme supports dynamic dark/light themes based on system settings when using dynamic color schemes."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Which MaterialTheme property defines text styles in MD3?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "MaterialTheme.typography provides text styles like headline, body, and label for consistent typography.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 7,
+          "data": "A. MaterialTheme.colorScheme",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 7,
+          "data": "B. MaterialTheme.typography",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 7,
+          "data": "C. MaterialTheme.shapes",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 7,
+          "data": "D. MaterialTheme.elevation",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [22],
+        "answer": ["B. MaterialTheme.typography"],
+        "explanation": "MaterialTheme.typography provides text styles like headline, body, and label for consistent typography."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "Which MD3 components use MaterialTheme.shapes? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Components like Card, Button, and FloatingActionButton use MaterialTheme.shapes for consistent corner styles.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 8,
+          "data": "A. Card",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 8,
+          "data": "B. Text",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 8,
+          "data": "C. Button",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 8,
+          "data": "D. FloatingActionButton",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [25, 27, 28],
+        "answer": ["A. Card", "C. Button", "D. FloatingActionButton"],
+        "explanation": "Components like Card, Button, and FloatingActionButton use MaterialTheme.shapes for consistent corner styles."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "Which color role is used for less prominent UI elements in MD3?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The tertiary color role is used for less prominent, complementary UI elements in MD3.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 9,
+          "data": "A. Primary",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 9,
+          "data": "B. Secondary",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 9,
+          "data": "C. Tertiary",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 9,
+          "data": "D. Background",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [31],
+        "answer": ["C. Tertiary"],
+        "explanation": "The tertiary color role is used for less prominent, complementary UI elements in MD3."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "True or False: MD3 typography styles include headline, body, and label categories.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "MD3 typography defines styles like headline, body, and label for consistent text appearance.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 10,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 10,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [33],
+        "answer": ["A. True"],
+        "explanation": "MD3 typography defines styles like headline, body, and label for consistent text appearance."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "Which component is typically used as a container with MD3 styling?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Surface applies MD3 styling like background color, elevation, and shape to its content.",
+      "answerCellList": [
+        {
+          "answerId": 35,
+          "questionId": 11,
+          "data": "A. Column",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 36,
+          "questionId": 11,
+          "data": "B. Surface",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 37,
+          "questionId": 11,
+          "data": "C. Row",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 38,
+          "questionId": 11,
+          "data": "D. Box",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [36],
+        "answer": ["B. Surface"],
+        "explanation": "Surface applies MD3 styling like background color, elevation, and shape to its content."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "Which color roles are defined in MD3’s colorScheme? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "MD3 colorScheme includes primary, secondary, tertiary, and background colors, among others.",
+      "answerCellList": [
+        {
+          "answerId": 39,
+          "questionId": 12,
+          "data": "A. Primary",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 40,
+          "questionId": 12,
+          "data": "B. Secondary",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 41,
+          "questionId": 12,
+          "data": "C. Typography",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 42,
+          "questionId": 12,
+          "data": "D. Tertiary",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [39, 40, 42],
+        "answer": ["A. Primary", "B. Secondary", "D. Tertiary"],
+        "explanation": "MD3 colorScheme includes primary, secondary, tertiary, and background colors, among others."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "What does MaterialTheme.shapes provide in MD3?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "MaterialTheme.shapes defines corner styles (small, medium, large) for components like buttons and cards.",
+      "answerCellList": [
+        {
+          "answerId": 43,
+          "questionId": 13,
+          "data": "A. Text styles",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 44,
+          "questionId": 13,
+          "data": "B. Corner styles for components",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 45,
+          "questionId": 13,
+          "data": "C. Elevation settings",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 46,
+          "questionId": 13,
+          "data": "D. Color roles",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [44],
+        "answer": ["B. Corner styles for components"],
+        "explanation": "MaterialTheme.shapes defines corner styles (small, medium, large) for components like buttons and cards."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "True or False: MD3’s dynamic color is only available on Android 12 and above.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Dynamic color, which adapts to the user’s wallpaper, is supported on Android 12 and higher.",
+      "answerCellList": [
+        {
+          "answerId": 47,
+          "questionId": 14,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 48,
+          "questionId": 14,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [47],
+        "answer": ["A. True"],
+        "explanation": "Dynamic color, which adapts to the user’s wallpaper, is supported on Android 12 and higher."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "Which MD3 component uses the primaryContainer color by default?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Card uses primaryContainer as its default background color in MD3 for a cohesive look.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 15,
+          "data": "A. Button",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 15,
+          "data": "B. Card",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 15,
+          "data": "C. TextField",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 15,
+          "data": "D. TopAppBar",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [50],
+        "answer": ["B. Card"],
+        "explanation": "Card uses primaryContainer as its default background color in MD3 for a cohesive look."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "Which typography styles are included in MD3? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "MD3 typography includes headline, body, and label styles, but not Modifier, which is for UI customization.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 16,
+          "data": "A. Headline",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 16,
+          "data": "B. Body",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 16,
+          "data": "C. Modifier",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 16,
+          "data": "D. Label",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [53, 54, 56],
+        "answer": ["A. Headline", "B. Body", "D. Label"],
+        "explanation": "MD3 typography includes headline, body, and label styles, but not Modifier, which is for UI customization."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "Which MD3 component is used for primary actions in a floating button?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "FloatingActionButton is designed for primary actions in MD3, often styled with the primary color.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 17,
+          "data": "A. Button",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 17,
+          "data": "B. FloatingActionButton",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 17,
+          "data": "C. Card",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 17,
+          "data": "D. Surface",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [58],
+        "answer": ["B. FloatingActionButton"],
+        "explanation": "FloatingActionButton is designed for primary actions in MD3, often styled with the primary color."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "True or False: MaterialTheme.shapes can be customized for different component sizes.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "MaterialTheme.shapes provides small, medium, and large shapes for components, which can be customized.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 18,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 18,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [61],
+        "answer": ["A. True"],
+        "explanation": "MaterialTheme.shapes provides small, medium, and large shapes for components, which can be customized."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "Which color role is used for text on primary-colored backgrounds in MD3?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "onPrimary is used for text and icons on primary-colored backgrounds to ensure contrast.",
+      "answerCellList": [
+        {
+          "answerId": 63,
+          "questionId": 19,
+          "data": "A. Primary",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 64,
+          "questionId": 19,
+          "data": "B. onPrimary",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 65,
+          "questionId": 19,
+          "data": "C. Secondary",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 66,
+          "questionId": 19,
+          "data": "D. onSecondary",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [64],
+        "answer": ["B. onPrimary"],
+        "explanation": "onPrimary is used for text and icons on primary-colored backgrounds to ensure contrast."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "Which MD3 components are styled with MaterialTheme.typography? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Text, Button, and TextField use MaterialTheme.typography for consistent text styling, while Surface does not.",
+      "answerCellList": [
+        {
+          "answerId": 67,
+          "questionId": 20,
+          "data": "A. Text",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 68,
+          "questionId": 20,
+          "data": "B. Surface",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 69,
+          "questionId": 20,
+          "data": "C. Button",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 70,
+          "questionId": 20,
+          "data": "D. TextField",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [67, 69, 70],
+        "answer": ["A. Text", "C. Button", "D. TextField"],
+        "explanation": "Text, Button, and TextField use MaterialTheme.typography for consistent text styling, while Surface does not."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "Which MD3 component is used for navigation bars at the top of the screen?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "TopAppBar is designed for top navigation bars in MD3, styled with MaterialTheme properties.",
+      "answerCellList": [
+        {
+          "answerId": 71,
+          "questionId": 21,
+          "data": "A. BottomNavigation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 72,
+          "questionId": 21,
+          "data": "B. TopAppBar",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 73,
+          "questionId": 21,
+          "data": "C. Card",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 74,
+          "questionId": 21,
+          "data": "D. Surface",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [72],
+        "answer": ["B. TopAppBar"],
+        "explanation": "TopAppBar is designed for top navigation bars in MD3, styled with MaterialTheme properties."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "True or False: MD3’s colorScheme includes onSurface for text on surface backgrounds.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "onSurface is part of MD3’s colorScheme, used for text and icons on surface backgrounds.",
+      "answerCellList": [
+        {
+          "answerId": 75,
+          "questionId": 22,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 76,
+          "questionId": 22,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [75],
+        "answer": ["A. True"],
+        "explanation": "onSurface is part of MD3’s colorScheme, used for text and icons on surface backgrounds."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "Which MD3 typography style is used for large titles?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "HeadlineLarge is used for large titles in MD3’s typography system.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 23,
+          "data": "A. BodyMedium",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 23,
+          "data": "B. HeadlineLarge",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 23,
+          "data": "C. LabelSmall",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 23,
+          "data": "D. TitleMedium",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [78],
+        "answer": ["B. HeadlineLarge"],
+        "explanation": "HeadlineLarge is used for large titles in MD3’s typography system."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "Which MD3 components use elevation by default? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Card, TopAppBar, and FloatingActionButton use elevation for depth, while Text does not.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 24,
+          "data": "A. Card",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 24,
+          "data": "B. Text",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 24,
+          "data": "C. TopAppBar",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 24,
+          "data": "D. FloatingActionButton",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [81, 83, 84],
+        "answer": ["A. Card", "C. TopAppBar", "D. FloatingActionButton"],
+        "explanation": "Card, TopAppBar, and FloatingActionButton use elevation for depth, while Text does not."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "Which color role is used for the background of most MD3 components?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The background color role defines the default background for most MD3 components like Surface.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 25,
+          "data": "A. Primary",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 25,
+          "data": "B. Background",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 25,
+          "data": "C. Secondary",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 25,
+          "data": "D. Tertiary",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [86],
+        "answer": ["B. Background"],
+        "explanation": "The background color role defines the default background for most MD3 components like Surface."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "True or False: MD3 buttons use MaterialTheme.colorScheme.primary by default.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "MD3 buttons like ElevatedButton use primary or primaryContainer colors by default for their background.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 26,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 26,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [89],
+        "answer": ["A. True"],
+        "explanation": "MD3 buttons like ElevatedButton use primary or primaryContainer colors by default for their background."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "Which MD3 typography style is used for button text?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LabelLarge is typically used for button text in MD3 for consistency and readability.",
+      "answerCellList": [
+        {
+          "answerId": 91,
+          "questionId": 27,
+          "data": "A. HeadlineMedium",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 92,
+          "questionId": 27,
+          "data": "B. LabelLarge",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 93,
+          "questionId": 27,
+          "data": "C. BodySmall",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 94,
+          "questionId": 27,
+          "data": "D. TitleLarge",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [92],
+        "answer": ["B. LabelLarge"],
+        "explanation": "LabelLarge is typically used for button text in MD3 for consistency and readability."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "Which MD3 components use MaterialTheme.colorScheme.onSurface by default? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Text and Icon use onSurface for content on surface backgrounds, while Card and Button use other color roles.",
+      "answerCellList": [
+        {
+          "answerId": 95,
+          "questionId": 28,
+          "data": "A. Text",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 96,
+          "questionId": 28,
+          "data": "B. Card",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 97,
+          "questionId": 28,
+          "data": "C. Icon",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 98,
+          "questionId": 28,
+          "data": "D. Button",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [95, 97],
+        "answer": ["A. Text", "C. Icon"],
+        "explanation": "Text and Icon use onSurface for content on surface backgrounds, while Card and Button use other color roles."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "Which MD3 shape is used for small components like buttons?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Shape.Small is used for small components like buttons in MD3 for consistent corner radii.",
+      "answerCellList": [
+        {
+          "answerId": 99,
+          "questionId": 29,
+          "data": "A. Shape.Large",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 100,
+          "questionId": 29,
+          "data": "B. Shape.Small",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 101,
+          "questionId": 29,
+          "data": "C. Shape.Medium",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 102,
+          "questionId": 29,
+          "data": "D. Shape.ExtraLarge",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [100],
+        "answer": ["B. Shape.Small"],
+        "explanation": "Shape.Small is used for small components like buttons in MD3 for consistent corner radii."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "True or False: MD3’s MaterialTheme supports custom color schemes.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "MaterialTheme allows custom color schemes to override default MD3 colors for branding purposes.",
+      "answerCellList": [
+        {
+          "answerId": 103,
+          "questionId": 30,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 104,
+          "questionId": 30,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [103],
+        "answer": ["A. True"],
+        "explanation": "MaterialTheme allows custom color schemes to override default MD3 colors for branding purposes."
+      }
+    }
+  ]
+}

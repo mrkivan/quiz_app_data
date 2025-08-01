@@ -1,0 +1,1325 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is the primary purpose of ViewModel in Android?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ViewModel stores and manages UI-related data in a lifecycle-aware manner, surviving configuration changes like screen rotations.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. Handle network requests",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. Manage UI-related data",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. Create UI layouts",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. Manage database operations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. Manage UI-related data"],
+        "explanation": "ViewModel stores and manages UI-related data in a lifecycle-aware manner, surviving configuration changes like screen rotations."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "How do you create a ViewModel in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A ViewModel is created by extending the ViewModel class, e.g., class MyViewModel : ViewModel().",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. Implement ViewModel interface",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. Extend ViewModel class",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. Use @ViewModel annotation",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. Extend LiveData",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. Extend ViewModel class"],
+        "explanation": "A ViewModel is created by extending the ViewModel class, e.g., class MyViewModel : ViewModel()."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "What is the purpose of LiveData in Android?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LiveData is an observable data holder that is lifecycle-aware, notifying observers only when the lifecycle is active.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. Manage background tasks",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. Observable lifecycle-aware data",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 11,
+          "questionId": 3,
+          "data": "C. Handle UI layouts",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 12,
+          "questionId": 3,
+          "data": "D. Perform database queries",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [10],
+        "answer": ["B. Observable lifecycle-aware data"],
+        "explanation": "LiveData is an observable data holder that is lifecycle-aware, notifying observers only when the lifecycle is active."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "How do you obtain a ViewModel instance in a Fragment using Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A ViewModel is obtained using ViewModelProvider(this).get(MyViewModel::class.java) in a Fragment.",
+      "answerCellList": [
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "A. ViewModel.getInstance()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "B. ViewModelProvider(this).get(MyViewModel::class.java)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 15,
+          "questionId": 4,
+          "data": "C. MyViewModel(this)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 16,
+          "questionId": 4,
+          "data": "D. LiveData.getViewModel()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [14],
+        "answer": ["B. ViewModelProvider(this).get(MyViewModel::class.java)"],
+        "explanation": "A ViewModel is obtained using ViewModelProvider(this).get(MyViewModel::class.java) in a Fragment."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "How do you observe LiveData in a Fragment?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LiveData is observed using liveData.observe(viewLifecycleOwner, Observer { value -> }) to ensure lifecycle awareness.",
+      "answerCellList": [
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "A. liveData.observe(this, Observer)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "B. liveData.observe(viewLifecycleOwner, Observer)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 19,
+          "questionId": 5,
+          "data": "C. liveData.subscribe(this)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 20,
+          "questionId": 5,
+          "data": "D. liveData.watch(this)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [18],
+        "answer": ["B. liveData.observe(viewLifecycleOwner, Observer)"],
+        "explanation": "LiveData is observed using liveData.observe(viewLifecycleOwner, Observer { value -> }) to ensure lifecycle awareness."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "What is the benefit of using viewLifecycleOwner with LiveData in a Fragment?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Using viewLifecycleOwner ensures LiveData observers are tied to the Fragment's view lifecycle, preventing updates when the view is destroyed.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 6,
+          "data": "A. Manages ViewModel scope",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 6,
+          "data": "B. Ties observers to view lifecycle",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 6,
+          "data": "C. Handles coroutines",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 6,
+          "data": "D. Persists data",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [22],
+        "answer": ["B. Ties observers to view lifecycle"],
+        "explanation": "Using viewLifecycleOwner ensures LiveData observers are tied to the Fragment's view lifecycle, preventing updates when the view is destroyed."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "How do you create a MutableLiveData in a ViewModel?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "MutableLiveData is created using val liveData = MutableLiveData<Type>() in a ViewModel to allow value updates.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 7,
+          "data": "A. val liveData = LiveData<Type>()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 7,
+          "data": "B. val liveData = MutableLiveData<Type>()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 7,
+          "data": "C. val liveData = Observable<Type>()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 7,
+          "data": "D. val liveData = Flow<Type>()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [26],
+        "answer": ["B. val liveData = MutableLiveData<Type>()"],
+        "explanation": "MutableLiveData is created using val liveData = MutableLiveData<Type>() in a ViewModel to allow value updates."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "How do you update a MutableLiveData value in a ViewModel?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A MutableLiveData value is updated using liveData.value = newValue in a ViewModel to trigger observer notifications.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 8,
+          "data": "A. liveData.setValue(newValue)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 8,
+          "data": "B. liveData.value = newValue",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 8,
+          "data": "C. liveData.update(newValue)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 8,
+          "data": "D. liveData.postValue(newValue)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [30],
+        "answer": ["B. liveData.value = newValue"],
+        "explanation": "A MutableLiveData value is updated using liveData.value = newValue in a ViewModel to trigger observer notifications."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "What is the purpose of postValue() in MutableLiveData?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "postValue() updates MutableLiveData from a background thread, queuing the update to the main thread.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 9,
+          "data": "A. Updates value on main thread",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 9,
+          "data": "B. Updates value from background thread",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 35,
+          "questionId": 9,
+          "data": "C. Observes value changes",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 36,
+          "questionId": 9,
+          "data": "D. Clears the LiveData",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [34],
+        "answer": ["B. Updates value from background thread"],
+        "explanation": "postValue() updates MutableLiveData from a background thread, queuing the update to the main thread."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "How does ViewModel handle configuration changes?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ViewModel survives configuration changes by being scoped to the activity or fragment, retaining data until the lifecycle ends.",
+      "answerCellList": [
+        {
+          "answerId": 37,
+          "questionId": 10,
+          "data": "A. Saves state in Bundle",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 38,
+          "questionId": 10,
+          "data": "B. Survives by lifecycle scoping",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 39,
+          "questionId": 10,
+          "data": "C. Uses LiveData to persist",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 40,
+          "questionId": 10,
+          "data": "D. Reloads data automatically",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [38],
+        "answer": ["B. Survives by lifecycle scoping"],
+        "explanation": "ViewModel survives configuration changes by being scoped to the activity or fragment, retaining data until the lifecycle ends."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "What is the purpose of Transformations.map in LiveData?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Transformations.map applies a function to LiveData values, creating a new LiveData with transformed values.",
+      "answerCellList": [
+        {
+          "answerId": 41,
+          "questionId": 11,
+          "data": "A. Filters LiveData values",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 42,
+          "questionId": 11,
+          "data": "B. Transforms LiveData values",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 43,
+          "questionId": 11,
+          "data": "C. Combines multiple LiveData",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 44,
+          "questionId": 11,
+          "data": "D. Updates LiveData values",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [42],
+        "answer": ["B. Transforms LiveData values"],
+        "explanation": "Transformations.map applies a function to LiveData values, creating a new LiveData with transformed values."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "What is the purpose of Transformations.switchMap in LiveData?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Transformations.switchMap maps a LiveData to another LiveData, switching to the new LiveData when the source value changes.",
+      "answerCellList": [
+        {
+          "answerId": 45,
+          "questionId": 12,
+          "data": "A. Filters LiveData values",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 46,
+          "questionId": 12,
+          "data": "B. Switches to new LiveData",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 47,
+          "questionId": 12,
+          "data": "C. Combines multiple LiveData",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 48,
+          "questionId": 12,
+          "data": "D. Updates LiveData values",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [46],
+        "answer": ["B. Switches to new LiveData"],
+        "explanation": "Transformations.switchMap maps a LiveData to another LiveData, switching to the new LiveData when the source value changes."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "How do you combine multiple LiveData sources?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Multiple LiveData sources are combined using MediatorLiveData, adding sources with addSource() to combine their values.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 13,
+          "data": "A. Use Transformations.combine()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 13,
+          "data": "B. Use MediatorLiveData",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 13,
+          "data": "C. Use LiveData.merge()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 13,
+          "data": "D. Use Flow.combine()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [50],
+        "answer": ["B. Use MediatorLiveData"],
+        "explanation": "Multiple LiveData sources are combined using MediatorLiveData, adding sources with addSource() to combine their values."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "What happens to LiveData observers when a Fragment is destroyed?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "When a Fragment is destroyed, LiveData observers tied to viewLifecycleOwner are automatically removed, preventing memory leaks.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 14,
+          "data": "A. Observers remain active",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 14,
+          "data": "B. Observers are removed",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 14,
+          "data": "C. Observers throw an exception",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 14,
+          "data": "D. Observers are paused",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [54],
+        "answer": ["B. Observers are removed"],
+        "explanation": "When a Fragment is destroyed, LiveData observers tied to viewLifecycleOwner are automatically removed, preventing memory leaks."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "How do you initialize a ViewModel with a ViewModelFactory?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A ViewModelFactory is used with ViewModelProvider(ViewModelStoreOwner, factory).get(MyViewModel::class.java) to pass dependencies.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 15,
+          "data": "A. ViewModelProvider(this).get(factory)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 15,
+          "data": "B. ViewModelProvider(this, factory).get(MyViewModel::class.java)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 15,
+          "data": "C. MyViewModel(factory)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 15,
+          "data": "D. ViewModel.create(factory)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [58],
+        "answer": ["B. ViewModelProvider(this, factory).get(MyViewModel::class.java)"],
+        "explanation": "A ViewModelFactory is used with ViewModelProvider(ViewModelStoreOwner, factory).get(MyViewModel::class.java) to pass dependencies."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "What is the purpose of onCleared() in ViewModel?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "onCleared() is called when the ViewModel is no longer used and is destroyed, allowing cleanup of resources.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 16,
+          "data": "A. Initializes ViewModel",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 16,
+          "data": "B. Cleans up resources",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 63,
+          "questionId": 16,
+          "data": "C. Updates LiveData",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 64,
+          "questionId": 16,
+          "data": "D. Observes lifecycle",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [62],
+        "answer": ["B. Cleans up resources"],
+        "explanation": "onCleared() is called when the ViewModel is no longer used and is destroyed, allowing cleanup of resources."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "How do you use LiveData with Kotlin Coroutines in a ViewModel?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LiveData can be used with Coroutines by launching a coroutine in viewModelScope to update MutableLiveData values.",
+      "answerCellList": [
+        {
+          "answerId": 65,
+          "questionId": 17,
+          "data": "A. Use CoroutineLiveData",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 66,
+          "questionId": 17,
+          "data": "B. Use viewModelScope to update LiveData",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 67,
+          "questionId": 17,
+          "data": "C. Use Flow instead",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 68,
+          "questionId": 17,
+          "data": "D. Use @Coroutine annotation",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [66],
+        "answer": ["B. Use viewModelScope to update LiveData"],
+        "explanation": "LiveData can be used with Coroutines by launching a coroutine in viewModelScope to update MutableLiveData values."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "What is viewModelScope in a ViewModel?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "viewModelScope is a CoroutineScope tied to the ViewModel's lifecycle, automatically canceled when the ViewModel is cleared.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 18,
+          "data": "A. A scope for UI updates",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 18,
+          "data": "B. A CoroutineScope for ViewModel",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 18,
+          "data": "C. A LiveData observer",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 18,
+          "data": "D. A database scope",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [70],
+        "answer": ["B. A CoroutineScope for ViewModel"],
+        "explanation": "viewModelScope is a CoroutineScope tied to the ViewModel's lifecycle, automatically canceled when the ViewModel is cleared."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "How do you share a ViewModel between Fragments in an Activity?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A ViewModel is shared by using ViewModelProvider(requireActivity()).get(MyViewModel::class.java) to scope it to the Activity.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 19,
+          "data": "A. Use ViewModelProvider(this)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 19,
+          "data": "B. Use ViewModelProvider(requireActivity())",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 19,
+          "data": "C. Use LiveData.share()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 19,
+          "data": "D. Use ViewModel.share()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [74],
+        "answer": ["B. Use ViewModelProvider(requireActivity())"],
+        "explanation": "A ViewModel is shared by using ViewModelProvider(requireActivity()).get(MyViewModel::class.java) to scope it to the Activity."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "What is the purpose of SavedStateHandle in ViewModel?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "SavedStateHandle allows ViewModel to save and restore state across process death, using key-value pairs.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 20,
+          "data": "A. Manages LiveData",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 20,
+          "data": "B. Saves and restores state",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 20,
+          "data": "C. Observes lifecycle",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 20,
+          "data": "D. Handles coroutines",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [78],
+        "answer": ["B. Saves and restores state"],
+        "explanation": "SavedStateHandle allows ViewModel to save and restore state across process death, using key-value pairs."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "How do you use SavedStateHandle in a ViewModel?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "SavedStateHandle is injected into the ViewModel constructor and used with get() and set() to manage state.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 21,
+          "data": "A. Use SavedStateHandle.observe()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 21,
+          "data": "B. Inject in constructor, use get()/set()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 21,
+          "data": "C. Use SavedStateHandle.liveData()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 21,
+          "data": "D. Use ViewModel.saveState()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [82],
+        "answer": ["B. Inject in constructor, use get()/set()"],
+        "explanation": "SavedStateHandle is injected into the ViewModel constructor and used with get() and set() to manage state."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "What happens to a ViewModel when the Activity is destroyed due to process death?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "On process death, the ViewModel is recreated, but SavedStateHandle can restore its state if configured.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 22,
+          "data": "A. Survives without state",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 22,
+          "data": "B. Recreated with SavedStateHandle",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 22,
+          "data": "C. Permanently destroyed",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 22,
+          "data": "D. Automatically persists",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [86],
+        "answer": ["B. Recreated with SavedStateHandle"],
+        "explanation": "On process death, the ViewModel is recreated, but SavedStateHandle can restore its state if configured."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "How do you remove a LiveData observer manually?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A LiveData observer is removed using liveData.removeObserver(observer) when no longer needed.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 23,
+          "data": "A. liveData.clearObserver()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 23,
+          "data": "B. liveData.removeObserver(observer)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 91,
+          "questionId": 23,
+          "data": "C. liveData.stopObserving()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 92,
+          "questionId": 23,
+          "data": "D. liveData.cancel()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [90],
+        "answer": ["B. liveData.removeObserver(observer)"],
+        "explanation": "A LiveData observer is removed using liveData.removeObserver(observer) when no longer needed."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "What is the benefit of using LiveData over traditional callbacks?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LiveData is lifecycle-aware, automatically managing observer subscriptions to prevent memory leaks and crashes.",
+      "answerCellList": [
+        {
+          "answerId": 93,
+          "questionId": 24,
+          "data": "A. Faster execution",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 94,
+          "questionId": 24,
+          "data": "B. Lifecycle-aware observer management",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 95,
+          "questionId": 24,
+          "data": "C. Supports coroutines",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 96,
+          "questionId": 24,
+          "data": "D. Persists data",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [94],
+        "answer": ["B. Lifecycle-aware observer management"],
+        "explanation": "LiveData is lifecycle-aware, automatically managing observer subscriptions to prevent memory leaks and crashes."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "How do you use LiveData with Room in a ViewModel?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Room queries can return LiveData, which is exposed in the ViewModel and observed in the UI for automatic updates.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 25,
+          "data": "A. Use RoomLiveData",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 25,
+          "data": "B. Return LiveData from Room queries",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 25,
+          "data": "C. Use Flow instead",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 25,
+          "data": "D. Use CoroutineScope",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [98],
+        "answer": ["B. Return LiveData from Room queries"],
+        "explanation": "Room queries can return LiveData, which is exposed in the ViewModel and observed in the UI for automatic updates."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "What is the purpose of observeForever() in LiveData?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "observeForever() observes LiveData without a LifecycleOwner, requiring manual removal to avoid memory leaks.",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 26,
+          "data": "A. Observes with LifecycleOwner",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 26,
+          "data": "B. Observes without LifecycleOwner",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 26,
+          "data": "C. Updates LiveData",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 26,
+          "data": "D. Combines LiveData",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [102],
+        "answer": ["B. Observes without LifecycleOwner"],
+        "explanation": "observeForever() observes LiveData without a LifecycleOwner, requiring manual removal to avoid memory leaks."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "How do you handle null values in LiveData?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Null values in LiveData are handled by making the LiveData type nullable, e.g., MutableLiveData<Type?>() or using safe calls in observers.",
+      "answerCellList": [
+        {
+          "answerId": 105,
+          "questionId": 27,
+          "data": "A. Use NonNullLiveData",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 106,
+          "questionId": 27,
+          "data": "B. Use nullable type or safe calls",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 107,
+          "questionId": 27,
+          "data": "C. Use LiveData.filterNull()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 108,
+          "questionId": 27,
+          "data": "D. Use Transformations.nonNull()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [106],
+        "answer": ["B. Use nullable type or safe calls"],
+        "explanation": "Null values in LiveData are handled by making the LiveData type nullable, e.g., MutableLiveData<Type?>() or using safe calls in observers."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "How do you use LiveData to trigger one-time events?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "One-time events are handled using a wrapper like SingleLiveEvent or by resetting the LiveData value after consumption.",
+      "answerCellList": [
+        {
+          "answerId": 109,
+          "questionId": 28,
+          "data": "A. Use EventLiveData",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 110,
+          "questionId": 28,
+          "data": "B. Use SingleLiveEvent or reset value",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 111,
+          "questionId": 28,
+          "data": "C. Use LiveData.once()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 112,
+          "questionId": 28,
+          "data": "D. Use Transformations.event()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [110],
+        "answer": ["B. Use SingleLiveEvent or reset value"],
+        "explanation": "One-time events are handled using a wrapper like SingleLiveEvent or by resetting the LiveData value after consumption."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "What is the scope of a ViewModel created with ViewModelProvider(this) in a Fragment?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Using ViewModelProvider(this) in a Fragment scopes the ViewModel to the Fragment's lifecycle, destroyed when the Fragment is.",
+      "answerCellList": [
+        {
+          "answerId": 113,
+          "questionId": 29,
+          "data": "A. Activity lifecycle",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 114,
+          "questionId": 29,
+          "data": "B. Fragment lifecycle",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 115,
+          "questionId": 29,
+          "data": "C. Application lifecycle",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 116,
+          "questionId": 29,
+          "data": "D. View lifecycle",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [114],
+        "answer": ["B. Fragment lifecycle"],
+        "explanation": "Using ViewModelProvider(this) in a Fragment scopes the ViewModel to the Fragment's lifecycle, destroyed when the Fragment is."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "How do you test a ViewModel with LiveData in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Testing involves using a test rule like InstantTaskExecutorRule and observing LiveData with a test observer to verify updates.",
+      "answerCellList": [
+        {
+          "answerId": 117,
+          "questionId": 30,
+          "data": "A. Use CoroutineTestRule",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 118,
+          "questionId": 30,
+          "data": "B. Use InstantTaskExecutorRule",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 119,
+          "questionId": 30,
+          "data": "C. Use MockLiveData",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 120,
+          "questionId": 30,
+          "data": "D. Use ViewModelTest",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [118],
+        "answer": ["B. Use InstantTaskExecutorRule"],
+        "explanation": "Testing involves using a test rule like InstantTaskExecutorRule and observing LiveData with a test observer to verify updates."
+      }
+    }
+  ]
+}

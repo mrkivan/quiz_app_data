@@ -1,0 +1,1325 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "Which lifecycle method is called when an Android Activity is first created?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The onCreate() method is called when an Activity is first created, used to initialize the UI and other components.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. onStart()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. onCreate()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. onResume()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. onPause()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. onCreate()"],
+        "explanation": "The onCreate() method is called when an Activity is first created, used to initialize the UI and other components."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "How do you set the content view in a Kotlin Activity?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "In a Kotlin Activity, setContentView(R.layout.activity_main) is used to set the layout resource for the Activity's UI.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. setContentView(R.layout.activity_main)",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. setLayout(R.layout.activity_main)",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. bindView(R.layout.activity_main)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. inflate(R.layout.activity_main)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [5],
+        "answer": ["A. setContentView(R.layout.activity_main)"],
+        "explanation": "In a Kotlin Activity, setContentView(R.layout.activity_main) is used to set the layout resource for the Activity's UI."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "Which lifecycle method is called when a Fragment's view is created?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The onCreateView() method is called when a Fragment's view is created, typically used to inflate the Fragment's layout.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. onCreate()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. onCreateView()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 11,
+          "questionId": 3,
+          "data": "C. onViewCreated()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 12,
+          "questionId": 3,
+          "data": "D. onStart()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [10],
+        "answer": ["B. onCreateView()"],
+        "explanation": "The onCreateView() method is called when a Fragment's view is created, typically used to inflate the Fragment's layout."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "How do you inflate a layout in a Fragment using Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "In a Fragment, the layout is inflated using inflater.inflate(R.layout.fragment_layout, container, false) in onCreateView().",
+      "answerCellList": [
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "A. setContentView(R.layout.fragment_layout)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "B. inflater.inflate(R.layout.fragment_layout, container, false)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 15,
+          "questionId": 4,
+          "data": "C. layoutInflater(R.layout.fragment_layout)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 16,
+          "questionId": 4,
+          "data": "D. bindView(R.layout.fragment_layout)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [14],
+        "answer": ["B. inflater.inflate(R.layout.fragment_layout, container, false)"],
+        "explanation": "In a Fragment, the layout is inflated using inflater.inflate(R.layout.fragment_layout, container, false) in onCreateView()."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "What is the purpose of View Binding in a Kotlin Activity?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "View Binding generates a binding class for safe, type-safe access to views, eliminating the need for findViewById().",
+      "answerCellList": [
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "A. To handle lifecycle events",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "B. To provide type-safe view access",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 19,
+          "questionId": 5,
+          "data": "C. To manage coroutines",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 20,
+          "questionId": 5,
+          "data": "D. To handle Fragment transactions",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [18],
+        "answer": ["B. To provide type-safe view access"],
+        "explanation": "View Binding generates a binding class for safe, type-safe access to views, eliminating the need for findViewById()."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "How do you enable View Binding in a Kotlin Activity?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "View Binding is enabled by adding 'viewBinding true' in the build.gradle file and using the generated binding class, e.g., ActivityMainBinding.inflate(layoutInflater).",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 6,
+          "data": "A. Add viewBinding true in build.gradle",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 6,
+          "data": "B. Use findViewById()",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 6,
+          "data": "C. Add annotation to Activity",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 6,
+          "data": "D. Use synthetic properties",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [21],
+        "answer": ["A. Add viewBinding true in build.gradle"],
+        "explanation": "View Binding is enabled by adding 'viewBinding true' in the build.gradle file and using the generated binding class, e.g., ActivityMainBinding.inflate(layoutInflater)."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Which method is used to start a Fragment transaction in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The supportFragmentManager.beginTransaction() method is used to start a Fragment transaction in an Activity, e.g., supportFragmentManager.beginTransaction().add().",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 7,
+          "data": "A. fragmentManager.startTransaction()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 7,
+          "data": "B. supportFragmentManager.beginTransaction()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 7,
+          "data": "C. fragmentTransaction()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 7,
+          "data": "D. beginFragment()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [26],
+        "answer": ["B. supportFragmentManager.beginTransaction()"],
+        "explanation": "The supportFragmentManager.beginTransaction() method is used to start a Fragment transaction in an Activity, e.g., supportFragmentManager.beginTransaction().add()."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "How do you add a Fragment to an Activity in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "To add a Fragment, use supportFragmentManager.beginTransaction().add(R.id.container, MyFragment()).commit().",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 8,
+          "data": "A. supportFragmentManager.addFragment()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 8,
+          "data": "B. supportFragmentManager.beginTransaction().add()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 8,
+          "data": "C. fragmentManager.replaceFragment()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 8,
+          "data": "D. addFragment(R.id.container)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [30],
+        "answer": ["B. supportFragmentManager.beginTransaction().add()"],
+        "explanation": "To add a Fragment, use supportFragmentManager.beginTransaction().add(R.id.container, MyFragment()).commit()."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "Which lifecycle scope is commonly used for coroutines in an Activity?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The lifecycleScope is used for coroutines in an Activity, ensuring coroutines are cancelled when the Activity is destroyed.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 9,
+          "data": "A. viewModelScope",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 9,
+          "data": "B. lifecycleScope",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 35,
+          "questionId": 9,
+          "data": "C. globalScope",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 36,
+          "questionId": 9,
+          "data": "D. coroutineScope",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [34],
+        "answer": ["B. lifecycleScope"],
+        "explanation": "The lifecycleScope is used for coroutines in an Activity, ensuring coroutines are cancelled when the Activity is destroyed."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "Which lifecycle scope is commonly used for coroutines in a Fragment?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The lifecycleScope is used for coroutines in a Fragment, ensuring coroutines are tied to the Fragment's lifecycle.",
+      "answerCellList": [
+        {
+          "answerId": 37,
+          "questionId": 10,
+          "data": "A. viewModelScope",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 38,
+          "questionId": 10,
+          "data": "B. lifecycleScope",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 39,
+          "questionId": 10,
+          "data": "C. globalScope",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 40,
+          "questionId": 10,
+          "data": "D. coroutineScope",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [38],
+        "answer": ["B. lifecycleScope"],
+        "explanation": "The lifecycleScope is used for coroutines in a Fragment, ensuring coroutines are tied to the Fragment's lifecycle."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "How do you access a view with View Binding in a Kotlin Activity?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "With View Binding, views are accessed via the binding object, e.g., binding.textView.text = \"Hello\".",
+      "answerCellList": [
+        {
+          "answerId": 41,
+          "questionId": 11,
+          "data": "A. findViewById(R.id.textView)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 42,
+          "questionId": 11,
+          "data": "B. binding.textView",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 43,
+          "questionId": 11,
+          "data": "C. textView",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 44,
+          "questionId": 11,
+          "data": "D. getView(R.id.textView)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [42],
+        "answer": ["B. binding.textView"],
+        "explanation": "With View Binding, views are accessed via the binding object, e.g., binding.textView.text = \"Hello\"."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "Which method is used to replace a Fragment in a container?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The replace() method in a Fragment transaction replaces the current Fragment in a container, e.g., supportFragmentManager.beginTransaction().replace(R.id.container, MyFragment()).commit().",
+      "answerCellList": [
+        {
+          "answerId": 45,
+          "questionId": 12,
+          "data": "A. add()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 46,
+          "questionId": 12,
+          "data": "B. replace()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 47,
+          "questionId": 12,
+          "data": "C. attach()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 48,
+          "questionId": 12,
+          "data": "D. detach()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [46],
+        "answer": ["B. replace()"],
+        "explanation": "The replace() method in a Fragment transaction replaces the current Fragment in a container, e.g., supportFragmentManager.beginTransaction().replace(R.id.container, MyFragment()).commit()."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "How do you add a Fragment to the back stack in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The addToBackStack() method adds a Fragment transaction to the back stack, e.g., supportFragmentManager.beginTransaction().replace(R.id.container, MyFragment()).addToBackStack(null).commit().",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 13,
+          "data": "A. addToBackStack()",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 13,
+          "data": "B. pushToBackStack()",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 13,
+          "data": "C. saveToBackStack()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 13,
+          "data": "D. stackFragment()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [49],
+        "answer": ["A. addToBackStack()"],
+        "explanation": "The addToBackStack() method adds a Fragment transaction to the back stack, e.g., supportFragmentManager.beginTransaction().replace(R.id.container, MyFragment()).addToBackStack(null).commit()."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "Which lifecycle method is called after a Fragment's view is created?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The onViewCreated() method is called after onCreateView(), allowing setup of view-related logic, such as binding click listeners.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 14,
+          "data": "A. onCreate()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 14,
+          "data": "B. onViewCreated()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 14,
+          "data": "C. onStart()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 14,
+          "data": "D. onResume()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [54],
+        "answer": ["B. onViewCreated()"],
+        "explanation": "The onViewCreated() method is called after onCreateView(), allowing setup of view-related logic, such as binding click listeners."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "How do you safely access the Activity from a Fragment in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The requireActivity() method safely retrieves the hosting Activity, throwing an exception if the Fragment is not attached.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 15,
+          "data": "A. getActivity()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 15,
+          "data": "B. requireActivity()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 15,
+          "data": "C. activity()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 15,
+          "data": "D. context()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [58],
+        "answer": ["B. requireActivity()"],
+        "explanation": "The requireActivity() method safely retrieves the hosting Activity, throwing an exception if the Fragment is not attached."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "What is the purpose of onSaveInstanceState() in an Activity?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The onSaveInstanceState() method saves UI state before configuration changes or process death, allowing state restoration in onCreate().",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 16,
+          "data": "A. Initializes the UI",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 16,
+          "data": "B. Saves UI state",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 63,
+          "questionId": 16,
+          "data": "C. Starts a Fragment",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 64,
+          "questionId": 16,
+          "data": "D. Binds views",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [62],
+        "answer": ["B. Saves UI state"],
+        "explanation": "The onSaveInstanceState() method saves UI state before configuration changes or process death, allowing state restoration in onCreate()."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "How do you pass data to a Fragment in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Data is passed to a Fragment using a Bundle with setArguments(), e.g., fragment.arguments = Bundle().apply { putString(\"key\", \"value\") }.",
+      "answerCellList": [
+        {
+          "answerId": 65,
+          "questionId": 17,
+          "data": "A. Use setArguments() with a Bundle",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 66,
+          "questionId": 17,
+          "data": "B. Use intent.putExtra()",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 67,
+          "questionId": 17,
+          "data": "C. Use ViewModel directly",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 68,
+          "questionId": 17,
+          "data": "D. Use setData()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [65],
+        "answer": ["A. Use setArguments() with a Bundle"],
+        "explanation": "Data is passed to a Fragment using a Bundle with setArguments(), e.g., fragment.arguments = Bundle().apply { putString(\"key\", \"value\") }."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "Which method is used to commit a Fragment transaction in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The commit() method finalizes a Fragment transaction, e.g., supportFragmentManager.beginTransaction().replace(R.id.container, MyFragment()).commit().",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 18,
+          "data": "A. execute()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 18,
+          "data": "B. commit()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 18,
+          "data": "C. apply()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 18,
+          "data": "D. finish()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [70],
+        "answer": ["B. commit()"],
+        "explanation": "The commit() method finalizes a Fragment transaction, e.g., supportFragmentManager.beginTransaction().replace(R.id.container, MyFragment()).commit()."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "How do you safely access the Context in a Fragment?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The requireContext() method safely retrieves the Context in a Fragment, throwing an exception if the Fragment is not attached.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 19,
+          "data": "A. getContext()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 19,
+          "data": "B. requireContext()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 19,
+          "data": "C. context",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 19,
+          "data": "D. activity.context",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [74],
+        "answer": ["B. requireContext()"],
+        "explanation": "The requireContext() method safely retrieves the Context in a Fragment, throwing an exception if the Fragment is not attached."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "What is the purpose of onActivityCreated() in a Fragment?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The onActivityCreated() method is called after the Activity's onCreate() is complete, allowing Fragment setup that depends on the Activity.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 20,
+          "data": "A. Inflates the Fragment's layout",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 20,
+          "data": "B. Sets up Fragment after Activity creation",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 20,
+          "data": "C. Saves Fragment state",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 20,
+          "data": "D. Binds views",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [78],
+        "answer": ["B. Sets up Fragment after Activity creation"],
+        "explanation": "The onActivityCreated() method is called after the Activity's onCreate() is complete, allowing Fragment setup that depends on the Activity."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "How do you launch a coroutine in an Activity using lifecycleScope?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use lifecycleScope.launch { } to launch a coroutine in an Activity, ensuring it is lifecycle-aware, e.g., lifecycleScope.launch { delay(1000) }.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 21,
+          "data": "A. GlobalScope.launch { }",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 21,
+          "data": "B. lifecycleScope.launch { }",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 21,
+          "data": "C. viewModelScope.launch { }",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 21,
+          "data": "D. coroutineScope.launch { }",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [82],
+        "answer": ["B. lifecycleScope.launch { }"],
+        "explanation": "Use lifecycleScope.launch { } to launch a coroutine in an Activity, ensuring it is lifecycle-aware, e.g., lifecycleScope.launch { delay(1000) }."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "Which method is used to remove a Fragment in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The remove() method in a Fragment transaction removes a Fragment, e.g., supportFragmentManager.beginTransaction().remove(fragment).commit().",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 22,
+          "data": "A. detach()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 22,
+          "data": "B. remove()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 22,
+          "data": "C. replace()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 22,
+          "data": "D. hide()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [86],
+        "answer": ["B. remove()"],
+        "explanation": "The remove() method in a Fragment transaction removes a Fragment, e.g., supportFragmentManager.beginTransaction().remove(fragment).commit()."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "How do you access a Fragment's arguments in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A Fragment's arguments are accessed using requireArguments(), e.g., val value = requireArguments().getString(\"key\").",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 23,
+          "data": "A. getArguments()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 23,
+          "data": "B. requireArguments()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 91,
+          "questionId": 23,
+          "data": "C. arguments.get()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 92,
+          "questionId": 23,
+          "data": "D. bundle.getString()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [90],
+        "answer": ["B. requireArguments()"],
+        "explanation": "A Fragment's arguments are accessed using requireArguments(), e.g., val value = requireArguments().getString(\"key\")."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "Which lifecycle method is called when an Activity is destroyed?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The onDestroy() method is called when an Activity is destroyed, used for cleanup tasks like releasing resources.",
+      "answerCellList": [
+        {
+          "answerId": 93,
+          "questionId": 24,
+          "data": "A. onStop()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 94,
+          "questionId": 24,
+          "data": "B. onDestroy()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 95,
+          "questionId": 24,
+          "data": "C. onPause()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 96,
+          "questionId": 24,
+          "data": "D. onFinish()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [94],
+        "answer": ["B. onDestroy()"],
+        "explanation": "The onDestroy() method is called when an Activity is destroyed, used for cleanup tasks like releasing resources."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "How do you start a new Activity in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "To start a new Activity, use startActivity(Intent(this, NewActivity::class.java)), leveraging Kotlin's class reference syntax.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 25,
+          "data": "A. startActivity(Intent(this, NewActivity::class.java))",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 25,
+          "data": "B. startActivity(NewActivity())",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 25,
+          "data": "C. openActivity(NewActivity::class)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 25,
+          "data": "D. launchActivity(NewActivity())",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [97],
+        "answer": ["A. startActivity(Intent(this, NewActivity::class.java))"],
+        "explanation": "To start a new Activity, use startActivity(Intent(this, NewActivity::class.java)), leveraging Kotlin's class reference syntax."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "What is the purpose of onPause() in an Activity?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The onPause() method is called when an Activity is partially obscured, used to pause operations like animations or save transient state.",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 26,
+          "data": "A. Initializes the UI",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 26,
+          "data": "B. Pauses operations",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 26,
+          "data": "C. Starts a Fragment",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 26,
+          "data": "D. Destroys the Activity",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [102],
+        "answer": ["B. Pauses operations"],
+        "explanation": "The onPause() method is called when an Activity is partially obscured, used to pause operations like animations or save transient state."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "How do you use View Binding in a Fragment?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "In a Fragment, View Binding is used by inflating the binding in onCreateView(), e.g., val binding = FragmentBinding.inflate(inflater, container, false), and returning binding.root.",
+      "answerCellList": [
+        {
+          "answerId": 105,
+          "questionId": 27,
+          "data": "A. setContentView(FragmentBinding)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 106,
+          "questionId": 27,
+          "data": "B. FragmentBinding.inflate(inflater, container, false)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 107,
+          "questionId": 27,
+          "data": "C. bindView(R.layout.fragment_layout)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 108,
+          "questionId": 27,
+          "data": "D. FragmentBinding.bind(view)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [106],
+        "answer": ["B. FragmentBinding.inflate(inflater, container, false)"],
+        "explanation": "In a Fragment, View Binding is used by inflating the binding in onCreateView(), e.g., val binding = FragmentBinding.inflate(inflater, container, false), and returning binding.root."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "Which dispatcher should be used for UI updates in a coroutine?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Dispatchers.Main dispatcher is used for UI updates in a coroutine, ensuring operations run on the main thread, e.g., withContext(Dispatchers.Main) { binding.textView.text = \"Updated\" }.",
+      "answerCellList": [
+        {
+          "answerId": 109,
+          "questionId": 28,
+          "data": "A. Dispatchers.IO",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 110,
+          "questionId": 28,
+          "data": "B. Dispatchers.Main",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 111,
+          "questionId": 28,
+          "data": "C. Dispatchers.Default",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 112,
+          "questionId": 28,
+          "data": "D. Dispatchers.Unconfined",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [110],
+        "answer": ["B. Dispatchers.Main"],
+        "explanation": "The Dispatchers.Main dispatcher is used for UI updates in a coroutine, ensuring operations run on the main thread, e.g., withContext(Dispatchers.Main) { binding.textView.text = \"Updated\" }."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "How do you navigate back in a Fragment back stack?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The popBackStack() method navigates back in the Fragment back stack, e.g., supportFragmentManager.popBackStack().",
+      "answerCellList": [
+        {
+          "answerId": 113,
+          "questionId": 29,
+          "data": "A. goBack()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 114,
+          "questionId": 29,
+          "data": "B. popBackStack()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 115,
+          "questionId": 29,
+          "data": "C. navigateBack()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 116,
+          "questionId": 29,
+          "data": "D. backStack()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [114],
+        "answer": ["B. popBackStack()"],
+        "explanation": "The popBackStack() method navigates back in the Fragment back stack, e.g., supportFragmentManager.popBackStack()."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "What is the purpose of onDestroyView() in a Fragment?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The onDestroyView() method is called when a Fragment's view is destroyed, used to clean up view-related resources, such as View Binding references.",
+      "answerCellList": [
+        {
+          "answerId": 117,
+          "questionId": 30,
+          "data": "A. Initializes the view",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 118,
+          "questionId": 30,
+          "data": "B. Cleans up view resources",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 119,
+          "questionId": 30,
+          "data": "C. Saves Fragment state",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 120,
+          "questionId": 30,
+          "data": "D. Starts a coroutine",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [118],
+        "answer": ["B. Cleans up view resources"],
+        "explanation": "The onDestroyView() method is called when a Fragment's view is destroyed, used to clean up view-related resources, such as View Binding references."
+      }
+    }
+  ]
+}

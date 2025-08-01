@@ -1,0 +1,1213 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "Which Android version introduced specific features for large screens, such as taskbar and multi-window improvements?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Android 12L introduced features like the taskbar and improved multi-window support, optimized for large screens like tablets and foldables.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. Android 10",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. Android 11",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. Android 12L",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. Android 13",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [3],
+        "answer": ["C. Android 12L"],
+        "explanation": "Android 12L introduced features like the taskbar and improved multi-window support, optimized for large screens like tablets and foldables."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which window size classes are defined in Jetpack Compose for large screen layouts? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Jetpack Compose defines three window size classes: Compact, Medium, and Expanded, for responsive layout design.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. Compact",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. Medium",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. Large",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. Expanded",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [5, 6, 8],
+        "answer": ["A. Compact", "B. Medium", "D. Expanded"],
+        "explanation": "Jetpack Compose defines three window size classes: Compact, Medium, and Expanded, for responsive layout design."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "True or False: Android 12L introduced a taskbar for foldables and tablets.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Android 12L introduced a taskbar to improve multitasking on foldables and tablets, enhancing large screen usability.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [9],
+        "answer": ["A. True"],
+        "explanation": "Android 12L introduced a taskbar to improve multitasking on foldables and tablets, enhancing large screen usability."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "Which library is used to handle foldable device features like hinge detection?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Jetpack WindowManager provides APIs for handling foldable device features, such as hinge detection and display folding states.",
+      "answerCellList": [
+        {
+          "answerId": 11,
+          "questionId": 4,
+          "data": "A. AppCompat",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 12,
+          "questionId": 4,
+          "data": "B. Jetpack WindowManager",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "C. ConstraintLayout",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "D. Material 3",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [12],
+        "answer": ["B. Jetpack WindowManager"],
+        "explanation": "Jetpack WindowManager provides APIs for handling foldable device features, such as hinge detection and display folding states."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which layout strategies are recommended for large screens? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Recommended strategies for large screens include multi-pane layouts, responsive layouts, and sliding panes for dynamic UI adjustments.",
+      "answerCellList": [
+        {
+          "answerId": 15,
+          "questionId": 5,
+          "data": "A. Multi-pane layouts",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 16,
+          "questionId": 5,
+          "data": "B. Responsive layouts",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "C. Fixed layouts",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "D. Sliding panes",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [15, 16, 18],
+        "answer": ["A. Multi-pane layouts", "B. Responsive layouts", "D. Sliding panes"],
+        "explanation": "Recommended strategies for large screens include multi-pane layouts, responsive layouts, and sliding panes for dynamic UI adjustments."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "True or False: Window size classes in Jetpack Compose are based on screen width and height in dp.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Window size classes in Jetpack Compose are based on screen width and height in dp, categorized as Compact, Medium, or Expanded.",
+      "answerCellList": [
+        {
+          "answerId": 19,
+          "questionId": 6,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 20,
+          "questionId": 6,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [19],
+        "answer": ["A. True"],
+        "explanation": "Window size classes in Jetpack Compose are based on screen width and height in dp, categorized as Compact, Medium, or Expanded."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Which API is used to detect foldable device posture in Jetpack WindowManager?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The FoldingFeature API in Jetpack WindowManager is used to detect foldable device posture, such as flat, half-opened, or folded.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 7,
+          "data": "A. WindowLayoutInfo",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 7,
+          "data": "B. FoldingFeature",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 7,
+          "data": "C. DisplayFeature",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 7,
+          "data": "D. WindowMetrics",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [22],
+        "answer": ["B. FoldingFeature"],
+        "explanation": "The FoldingFeature API in Jetpack WindowManager is used to detect foldable device posture, such as flat, half-opened, or folded."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "Which components benefit from large screen optimizations? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Components like List-Detail layouts, Navigation Rail, and Taskbar benefit from large screen optimizations for better usability.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 8,
+          "data": "A. List-Detail layouts",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 8,
+          "data": "B. Navigation Rail",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 8,
+          "data": "C. Floating Action Button",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 8,
+          "data": "D. Taskbar",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [25, 26, 28],
+        "answer": ["A. List-Detail layouts", "B. Navigation Rail", "D. Taskbar"],
+        "explanation": "Components like List-Detail layouts, Navigation Rail, and Taskbar benefit from large screen optimizations for better usability."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "What is the minimum API level for Jetpack WindowManager to support foldables?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Jetpack WindowManager requires API level 29 (Android 10) or higher to support foldable device features like hinge detection.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 9,
+          "data": "A. API 27",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 9,
+          "data": "B. API 28",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 9,
+          "data": "C. API 29",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 9,
+          "data": "D. API 30",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [31],
+        "answer": ["C. API 29"],
+        "explanation": "Jetpack WindowManager requires API level 29 (Android 10) or higher to support foldable device features like hinge detection."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "True or False: The Navigation Rail is recommended for large screen navigation.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Navigation Rail is recommended for large screen navigation, providing a vertical navigation component for tablets and foldables.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 10,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 10,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [33],
+        "answer": ["A. True"],
+        "explanation": "The Navigation Rail is recommended for large screen navigation, providing a vertical navigation component for tablets and foldables."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "Which layout is commonly used for large screen list-detail interfaces?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The List-Detail layout is commonly used for large screen interfaces, showing a list and its details side by side.",
+      "answerCellList": [
+        {
+          "answerId": 35,
+          "questionId": 11,
+          "data": "A. Single-pane layout",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 36,
+          "questionId": 11,
+          "data": "B. List-Detail layout",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 37,
+          "questionId": 11,
+          "data": "C. Stacked layout",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 38,
+          "questionId": 11,
+          "data": "D. Grid layout",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [36],
+        "answer": ["B. List-Detail layout"],
+        "explanation": "The List-Detail layout is commonly used for large screen interfaces, showing a list and its details side by side."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "Which Jetpack Compose components are useful for large screen layouts? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Box, Row, and Column are flexible Jetpack Compose components used to create responsive layouts for large screens.",
+      "answerCellList": [
+        {
+          "answerId": 39,
+          "questionId": 12,
+          "data": "A. Box",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 40,
+          "questionId": 12,
+          "data": "B. Row",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 41,
+          "questionId": 12,
+          "data": "C. TextField",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 42,
+          "questionId": 12,
+          "data": "D. Column",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [39, 40, 42],
+        "answer": ["A. Box", "B. Row", "D. Column"],
+        "explanation": "Box, Row, and Column are flexible Jetpack Compose components used to create responsive layouts for large screens."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "What is the purpose of the WindowMetricsCalculator in Jetpack WindowManager?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "WindowMetricsCalculator provides window size and bounds information, useful for responsive layouts on large screens.",
+      "answerCellList": [
+        {
+          "answerId": 43,
+          "questionId": 13,
+          "data": "A. To manage animations",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 44,
+          "questionId": 13,
+          "data": "B. To provide window size information",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 45,
+          "questionId": 13,
+          "data": "C. To handle navigation",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 46,
+          "questionId": 13,
+          "data": "D. To optimize performance",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [44],
+        "answer": ["B. To provide window size information"],
+        "explanation": "WindowMetricsCalculator provides window size and bounds information, useful for responsive layouts on large screens."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "True or False: Large screen apps should avoid using fixed layouts.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Large screen apps should avoid fixed layouts to ensure responsiveness across different screen sizes and orientations.",
+      "answerCellList": [
+        {
+          "answerId": 47,
+          "questionId": 14,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 48,
+          "questionId": 14,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [47],
+        "answer": ["A. True"],
+        "explanation": "Large screen apps should avoid fixed layouts to ensure responsiveness across different screen sizes and orientations."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "Which Material Design component is recommended for navigation on large screens?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Navigation Rail is recommended for navigation on large screens, providing a vertical navigation bar for tablets and foldables.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 15,
+          "data": "A. Bottom Navigation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 15,
+          "data": "B. Navigation Rail",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 15,
+          "data": "C. Navigation Drawer",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 15,
+          "data": "D. Top App Bar",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [50],
+        "answer": ["B. Navigation Rail"],
+        "explanation": "The Navigation Rail is recommended for navigation on large screens, providing a vertical navigation bar for tablets and foldables."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "Which features are supported by Jetpack WindowManager for foldables? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Jetpack WindowManager supports hinge detection, posture detection, and multi-window layouts for foldable devices.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 16,
+          "data": "A. Hinge detection",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 16,
+          "data": "B. Posture detection",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 16,
+          "data": "C. Dynamic Colors",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 16,
+          "data": "D. Multi-window layouts",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [53, 54, 56],
+        "answer": ["A. Hinge detection", "B. Posture detection", "D. Multi-window layouts"],
+        "explanation": "Jetpack WindowManager supports hinge detection, posture detection, and multi-window layouts for foldable devices."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "True or False: Android 13 improved drag-and-drop support for large screens.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Android 13 introduced improved drag-and-drop support for large screens, enhancing multitasking and app interactions.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 17,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 17,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [57],
+        "answer": ["A. True"],
+        "explanation": "Android 13 introduced improved drag-and-drop support for large screens, enhancing multitasking and app interactions."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "What is the purpose of the SlidingPaneLayout in large screen apps?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "SlidingPaneLayout allows two panes to slide relative to each other, ideal for list-detail layouts on large screens.",
+      "answerCellList": [
+        {
+          "answerId": 59,
+          "questionId": 18,
+          "data": "A. To manage animations",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 60,
+          "questionId": 18,
+          "data": "B. To create sliding panes",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 61,
+          "questionId": 18,
+          "data": "C. To handle navigation",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 62,
+          "questionId": 18,
+          "data": "D. To optimize performance",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [60],
+        "answer": ["B. To create sliding panes"],
+        "explanation": "SlidingPaneLayout allows two panes to slide relative to each other, ideal for list-detail layouts on large screens."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "Which considerations are important for large screen accessibility? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Large screen accessibility requires touch target sizing, keyboard navigation support, and screen reader compatibility.",
+      "answerCellList": [
+        {
+          "answerId": 63,
+          "questionId": 19,
+          "data": "A. Touch target sizing",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 64,
+          "questionId": 19,
+          "data": "B. Keyboard navigation support",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 65,
+          "questionId": 19,
+          "data": "C. Dynamic Colors",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 66,
+          "questionId": 19,
+          "data": "D. Screen reader compatibility",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [63, 64, 66],
+        "answer": ["A. Touch target sizing", "B. Keyboard navigation support", "D. Screen reader compatibility"],
+        "explanation": "Large screen accessibility requires touch target sizing, keyboard navigation support, and screen reader compatibility."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "True or False: Window size classes are only used in Jetpack Compose.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Window size classes, while popularized in Jetpack Compose, can also be used in View-based systems with Jetpack WindowManager.",
+      "answerCellList": [
+        {
+          "answerId": 67,
+          "questionId": 20,
+          "data": "A. True",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 68,
+          "questionId": 20,
+          "data": "B. False",
+          "isItAnswer": true,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [68],
+        "answer": ["B. False"],
+        "explanation": "Window size classes, while popularized in Jetpack Compose, can also be used in View-based systems with Jetpack WindowManager."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "Which Android version improved multi-window support for large screens?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Android 12L improved multi-window support for large screens, enabling better split-screen and multitasking features.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 21,
+          "data": "A. Android 10",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 21,
+          "data": "B. Android 11",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 21,
+          "data": "C. Android 12L",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 21,
+          "data": "D. Android 13",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [71],
+        "answer": ["C. Android 12L"],
+        "explanation": "Android 12L improved multi-window support for large screens, enabling better split-screen and multitasking features."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "Which tools help developers test large screen layouts? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Android Studio’s Device Manager, Layout Validation tool, and Foldable Emulator help test large screen layouts.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 22,
+          "data": "A. Device Manager",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 22,
+          "data": "B. Layout Validation tool",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 22,
+          "data": "C. Material Theme Builder",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 22,
+          "data": "D. Foldable Emulator",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [73, 74, 76],
+        "answer": ["A. Device Manager", "B. Layout Validation tool", "D. Foldable Emulator"],
+        "explanation": "Android Studio’s Device Manager, Layout Validation tool, and Foldable Emulator help test large screen layouts."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "What is the purpose of the WindowLayoutInfo class in Jetpack WindowManager?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "WindowLayoutInfo provides information about display features like hinges and folds for foldable devices.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 23,
+          "data": "A. To manage animations",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 23,
+          "data": "B. To provide display feature information",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 23,
+          "data": "C. To handle navigation",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 23,
+          "data": "D. To optimize performance",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [78],
+        "answer": ["B. To provide display feature information"],
+        "explanation": "WindowLayoutInfo provides information about display features like hinges and folds for foldable devices."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "True or False: Large screen apps should use larger touch targets than phone apps.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Large screen apps should use larger touch targets to improve accessibility and usability on tablets and foldables.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 24,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 24,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [81],
+        "answer": ["A. True"],
+        "explanation": "Large screen apps should use larger touch targets to improve accessibility and usability on tablets and foldables."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "Which component is used for responsive layouts in View-based systems?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ConstraintLayout is commonly used for responsive layouts in View-based systems, allowing flexible UI arrangements.",
+      "answerCellList": [
+        {
+          "answerId": 83,
+          "questionId": 25,
+          "data": "A. LinearLayout",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 84,
+          "questionId": 25,
+          "data": "B. ConstraintLayout",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 85,
+          "questionId": 25,
+          "data": "C. FrameLayout",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 86,
+          "questionId": 25,
+          "data": "D. RelativeLayout",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [84],
+        "answer": ["B. ConstraintLayout"],
+        "explanation": "ConstraintLayout is commonly used for responsive layouts in View-based systems, allowing flexible UI arrangements."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "Which devices are considered large screens in Android? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Large screens in Android include tablets, foldables, and desktops, requiring specific UI optimizations.",
+      "answerCellList": [
+        {
+          "answerId": 87,
+          "questionId": 26,
+          "data": "A. Tablets",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 88,
+          "questionId": 26,
+          "data": "B. Foldables",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 89,
+          "questionId": 26,
+          "data": "C. Wearables",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 90,
+          "questionId": 26,
+          "data": "D. Desktops",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [87, 88, 90],
+        "answer": ["A. Tablets", "B. Foldables", "D. Desktops"],
+        "explanation": "Large screens in Android include tablets, foldables, and desktops, requiring specific UI optimizations."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "What is the purpose of the Material Design Canonical Layouts for large screens?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Material Design Canonical Layouts provide standardized patterns like List-Detail for consistent large screen UIs.",
+      "answerCellList": [
+        {
+          "answerId": 91,
+          "questionId": 27,
+          "data": "A. To manage animations",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 92,
+          "questionId": 27,
+          "data": "B. To provide standardized UI patterns",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 93,
+          "questionId": 27,
+          "data": "C. To handle navigation",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 94,
+          "questionId": 27,
+          "data": "D. To optimize performance",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [92],
+        "answer": ["B. To provide standardized UI patterns"],
+        "explanation": "Material Design Canonical Layouts provide standardized patterns like List-Detail for consistent large screen UIs."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "True or False: Jetpack Compose automatically handles foldable device layouts.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Jetpack Compose does not automatically handle foldable layouts; developers must use Jetpack WindowManager for foldable support.",
+      "answerCellList": [
+        {
+          "answerId": 95,
+          "questionId": 28,
+          "data": "A. True",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 96,
+          "questionId": 28,
+          "data": "B. False",
+          "isItAnswer": true,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [96],
+        "answer": ["B. False"],
+        "explanation": "Jetpack Compose does not automatically handle foldable layouts; developers must use Jetpack WindowManager for foldable support."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "Which API provides real-time updates about foldable device state changes?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "WindowLayoutInfo in Jetpack WindowManager provides real-time updates about foldable device state changes, such as posture.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 29,
+          "data": "A. WindowMetricsCalculator",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 29,
+          "data": "B. WindowLayoutInfo",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 29,
+          "data": "C. FoldingFeature",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 29,
+          "data": "D. DisplayMetrics",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [98],
+        "answer": ["B. WindowLayoutInfo"],
+        "explanation": "WindowLayoutInfo in Jetpack WindowManager provides real-time updates about foldable device state changes, such as posture."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "Which layouts are supported by SlidingPaneLayout? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "SlidingPaneLayout supports List-Detail and Master-Detail layouts, enabling dynamic pane adjustments on large screens.",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 30,
+          "data": "A. List-Detail",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 30,
+          "data": "B. Master-Detail",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 30,
+          "data": "C. Grid layout",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 30,
+          "data": "D. Single-pane",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [101, 102],
+        "answer": ["A. List-Detail", "B. Master-Detail"],
+        "explanation": "SlidingPaneLayout supports List-Detail and Master-Detail layouts, enabling dynamic pane adjustments on large screens."
+      }
+    }
+  ]
+}

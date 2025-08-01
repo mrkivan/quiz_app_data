@@ -1,0 +1,1213 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is the primary purpose of Jetpack Compose in Android development?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Jetpack Compose is Android’s modern toolkit for building native UI using a declarative approach, allowing developers to describe UI states in code.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. To manage app navigation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. To create declarative UI",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. To handle database operations",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. To optimize app performance",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. To create declarative UI"],
+        "explanation": "Jetpack Compose is Android’s modern toolkit for building native UI using a declarative approach, allowing developers to describe UI states in code."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which Jetpack Compose component is used to define a reusable UI element?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A Composable function is the core building block in Jetpack Compose, used to define reusable UI elements.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. Modifier",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. Composable",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. ViewModel",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. LiveData",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. Composable"],
+        "explanation": "A Composable function is the core building block in Jetpack Compose, used to define reusable UI elements."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "True or False: Jetpack Compose requires XML layouts to define UI.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Jetpack Compose uses a declarative approach with Kotlin code to define UI, eliminating the need for XML layouts.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. True",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. False",
+          "isItAnswer": true,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [10],
+        "answer": ["B. False"],
+        "explanation": "Jetpack Compose uses a declarative approach with Kotlin code to define UI, eliminating the need for XML layouts."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "Which of the following are benefits of Jetpack Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Jetpack Compose reduces boilerplate code, supports declarative UI, and integrates with Jetpack libraries, but it does not directly manage background tasks.",
+      "answerCellList": [
+        {
+          "answerId": 11,
+          "questionId": 4,
+          "data": "A. Reduced boilerplate code",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 12,
+          "questionId": 4,
+          "data": "B. Declarative UI",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "C. Background task management",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "D. Integration with Jetpack libraries",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [11, 12, 14],
+        "answer": ["A. Reduced boilerplate code", "B. Declarative UI", "D. Integration with Jetpack libraries"],
+        "explanation": "Jetpack Compose reduces boilerplate code, supports declarative UI, and integrates with Jetpack libraries, but it does not directly manage background tasks."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "What is the role of a Modifier in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Modifiers in Jetpack Compose are used to customize the appearance and behavior of composables, such as setting size, padding, or click events.",
+      "answerCellList": [
+        {
+          "answerId": 15,
+          "questionId": 5,
+          "data": "A. To manage state",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 16,
+          "questionId": 5,
+          "data": "B. To customize composable appearance and behavior",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "C. To handle navigation",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "D. To define animations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [16],
+        "answer": ["B. To customize composable appearance and behavior"],
+        "explanation": "Modifiers in Jetpack Compose are used to customize the appearance and behavior of composables, such as setting size, padding, or click events."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "True or False: Jetpack Compose is backward compatible with Android API level 21.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Jetpack Compose is supported on Android API level 21 (Lollipop) and above, ensuring wide device compatibility.",
+      "answerCellList": [
+        {
+          "answerId": 19,
+          "questionId": 6,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 20,
+          "questionId": 6,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [19],
+        "answer": ["A. True"],
+        "explanation": "Jetpack Compose is supported on Android API level 21 (Lollipop) and above, ensuring wide device compatibility."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Which Jetpack Compose feature allows UI to update automatically when data changes?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Recomposition is the process in Jetpack Compose where the UI is redrawn when the underlying state changes.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 7,
+          "data": "A. Navigation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 7,
+          "data": "B. Recomposition",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 7,
+          "data": "C. Modifier",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 7,
+          "data": "D. Theming",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [22],
+        "answer": ["B. Recomposition"],
+        "explanation": "Recomposition is the process in Jetpack Compose where the UI is redrawn when the underlying state changes."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "Which of the following are valid ways to apply padding in Jetpack Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "In Jetpack Compose, padding can be applied using Modifier.padding() with uniform values, specific sides, or start/end for RTL support.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 8,
+          "data": "A. Modifier.padding(16.dp)",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 8,
+          "data": "B. Modifier.padding(horizontal = 8.dp)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 8,
+          "data": "C. Modifier.padding(start = 4.dp)",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 8,
+          "data": "D. Modifier.margin(16.dp)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [25, 26, 27],
+        "answer": ["A. Modifier.padding(16.dp)", "B. Modifier.padding(horizontal = 8.dp)", "C. Modifier.padding(start = 4.dp)"],
+        "explanation": "In Jetpack Compose, padding can be applied using Modifier.padding() with uniform values, specific sides, or start/end for RTL support."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "What is the default layout arrangement in a Column composable?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A Column composable arranges its children vertically by default, stacking them from top to bottom.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 9,
+          "data": "A. Horizontal",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 9,
+          "data": "B. Vertical",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 9,
+          "data": "C. Grid",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 9,
+          "data": "D. Circular",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [30],
+        "answer": ["B. Vertical"],
+        "explanation": "A Column composable arranges its children vertically by default, stacking them from top to bottom."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "True or False: Jetpack Compose supports interoperability with traditional Android Views.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Jetpack Compose provides components like AndroidView and ComposeView to integrate with traditional Android Views, enabling gradual migration.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 10,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 10,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [33],
+        "answer": ["A. True"],
+        "explanation": "Jetpack Compose provides components like AndroidView and ComposeView to integrate with traditional Android Views, enabling gradual migration."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "Which composable is used to create a scrollable list in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LazyColumn is used in Jetpack Compose to create efficient, scrollable lists that only compose visible items.",
+      "answerCellList": [
+        {
+          "answerId": 35,
+          "questionId": 11,
+          "data": "A. Column",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 36,
+          "questionId": 11,
+          "data": "B. LazyColumn",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 37,
+          "questionId": 11,
+          "data": "C. Row",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 38,
+          "questionId": 11,
+          "data": "D. Box",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [36],
+        "answer": ["B. LazyColumn"],
+        "explanation": "LazyColumn is used in Jetpack Compose to create efficient, scrollable lists that only compose visible items."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "Which of the following composables are layout composables in Jetpack Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Column, Row, and Box are layout composables used to arrange children in specific patterns, while Text is a content composable.",
+      "answerCellList": [
+        {
+          "answerId": 39,
+          "questionId": 12,
+          "data": "A. Column",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 40,
+          "questionId": 12,
+          "data": "B. Row",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 41,
+          "questionId": 12,
+          "data": "C. Text",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 42,
+          "questionId": 12,
+          "data": "D. Box",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [39, 40, 42],
+        "answer": ["A. Column", "B. Row", "D. Box"],
+        "explanation": "Column, Row, and Box are layout composables used to arrange children in specific patterns, while Text is a content composable."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "What is the purpose of the Surface composable in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Surface provides a container with Material Design styling, such as background color, elevation, and shape, to enhance UI consistency.",
+      "answerCellList": [
+        {
+          "answerId": 43,
+          "questionId": 13,
+          "data": "A. To create scrollable content",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 44,
+          "questionId": 13,
+          "data": "B. To apply Material Design styling",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 45,
+          "questionId": 13,
+          "data": "C. To manage state",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 46,
+          "questionId": 13,
+          "data": "D. To handle navigation",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [44],
+        "answer": ["B. To apply Material Design styling"],
+        "explanation": "Surface provides a container with Material Design styling, such as background color, elevation, and shape, to enhance UI consistency."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "True or False: Jetpack Compose requires a separate library for Material Design components.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Jetpack Compose includes Material Design components in the material3 library, such as buttons and cards, without requiring a separate library.",
+      "answerCellList": [
+        {
+          "answerId": 47,
+          "questionId": 14,
+          "data": "A. True",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 48,
+          "questionId": 14,
+          "data": "B. False",
+          "isItAnswer": true,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [48],
+        "answer": ["B. False"],
+        "explanation": "Jetpack Compose includes Material Design components in the material3 library, such as buttons and cards, without requiring a separate library."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "Which composable is used to display text in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Text composable is used to display text in Jetpack Compose, with customizable styles and properties.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 15,
+          "data": "A. Button",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 15,
+          "data": "B. Text",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 15,
+          "data": "C. Image",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 15,
+          "data": "D. Card",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [50],
+        "answer": ["B. Text"],
+        "explanation": "The Text composable is used to display text in Jetpack Compose, with customizable styles and properties."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "Which of the following are Material Design 3 components in Jetpack Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Material Design 3 includes components like ElevatedButton, Card, and TopAppBar, but Row is a layout composable, not a Material component.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 16,
+          "data": "A. ElevatedButton",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 16,
+          "data": "B. Card",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 16,
+          "data": "C. Row",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 16,
+          "data": "D. TopAppBar",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [53, 54, 56],
+        "answer": ["A. ElevatedButton", "B. Card", "D. TopAppBar"],
+        "explanation": "Material Design 3 includes components like ElevatedButton, Card, and TopAppBar, but Row is a layout composable, not a Material component."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "What is the default alignment for children in a Row composable?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A Row composable aligns its children horizontally by default, placing them side by side from start to end.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 17,
+          "data": "A. Vertical",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 17,
+          "data": "B. Horizontal",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 17,
+          "data": "C. Centered",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 17,
+          "data": "D. Stacked",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [58],
+        "answer": ["B. Horizontal"],
+        "explanation": "A Row composable aligns its children horizontally by default, placing them side by side from start to end."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "True or False: Jetpack Compose supports dynamic theming with Material You.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Jetpack Compose supports Material You’s dynamic theming, allowing apps to adapt colors based on the user’s wallpaper.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 18,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 18,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [61],
+        "answer": ["A. True"],
+        "explanation": "Jetpack Compose supports Material You’s dynamic theming, allowing apps to adapt colors based on the user’s wallpaper."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "Which composable is used to stack children on top of each other in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Box composable stacks its children on top of each other, with the last child appearing on top.",
+      "answerCellList": [
+        {
+          "answerId": 63,
+          "questionId": 19,
+          "data": "A. Row",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 64,
+          "questionId": 19,
+          "data": "B. Column",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 65,
+          "questionId": 19,
+          "data": "C. Box",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 66,
+          "questionId": 19,
+          "data": "D. LazyRow",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [65],
+        "answer": ["C. Box"],
+        "explanation": "The Box composable stacks its children on top of each other, with the last child appearing on top."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "Which of the following are ways to optimize Jetpack Compose performance? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Using Lazy layouts, avoiding frequent recompositions, and leveraging stable parameters improve Compose performance, but XML layouts are not used in Compose.",
+      "answerCellList": [
+        {
+          "answerId": 67,
+          "questionId": 20,
+          "data": "A. Using LazyColumn or LazyRow",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 68,
+          "questionId": 20,
+          "data": "B. Avoiding frequent recompositions",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 69,
+          "questionId": 20,
+          "data": "C. Using XML layouts",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 70,
+          "questionId": 20,
+          "data": "D. Using stable parameters",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [67, 68, 70],
+        "answer": ["A. Using LazyColumn or LazyRow", "B. Avoiding frequent recompositions", "D. Using stable parameters"],
+        "explanation": "Using Lazy layouts, avoiding frequent recompositions, and leveraging stable parameters improve Compose performance, but XML layouts are not used in Compose."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "What is the purpose of the Scaffold composable in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Scaffold provides a Material Design structure with slots for components like TopAppBar, BottomBar, and FAB.",
+      "answerCellList": [
+        {
+          "answerId": 71,
+          "questionId": 21,
+          "data": "A. To create scrollable lists",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 72,
+          "questionId": 21,
+          "data": "B. To provide Material Design structure",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 73,
+          "questionId": 21,
+          "data": "C. To manage state",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 74,
+          "questionId": 21,
+          "data": "D. To handle animations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [72],
+        "answer": ["B. To provide Material Design structure"],
+        "explanation": "Scaffold provides a Material Design structure with slots for components like TopAppBar, BottomBar, and FAB."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "True or False: Jetpack Compose supports predictive back gestures.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "As of Compose 1.8, predictive back gestures are supported for adaptive layouts, enhancing navigation on Android devices.",
+      "answerCellList": [
+        {
+          "answerId": 75,
+          "questionId": 22,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 76,
+          "questionId": 22,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [75],
+        "answer": ["A. True"],
+        "explanation": "As of Compose 1.8, predictive back gestures are supported for adaptive layouts, enhancing navigation on Android devices."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "Which composable is used to create a horizontally scrollable list in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LazyRow is used to create efficient, horizontally scrollable lists in Jetpack Compose.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 23,
+          "data": "A. Row",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 23,
+          "data": "B. LazyRow",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 23,
+          "data": "C. Column",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 23,
+          "data": "D. Box",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [78],
+        "answer": ["B. LazyRow"],
+        "explanation": "LazyRow is used to create efficient, horizontally scrollable lists in Jetpack Compose."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "Which of the following are supported in Jetpack Compose 1.8? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Compose 1.8 introduced autofill support, visibility tracking, and text auto-sizing, but XML layout support is not part of Compose.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 24,
+          "data": "A. Autofill support",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 24,
+          "data": "B. Visibility tracking",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 24,
+          "data": "C. XML layout support",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 24,
+          "data": "D. Text auto-sizing",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [81, 82, 84],
+        "answer": ["A. Autofill support", "B. Visibility tracking", "D. Text auto-sizing"],
+        "explanation": "Compose 1.8 introduced autofill support, visibility tracking, and text auto-sizing, but XML layout support is not part of Compose."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "What is the purpose of the MaterialTheme composable in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "MaterialTheme provides access to Material Design colors, typography, and shapes for consistent theming across the app.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 25,
+          "data": "A. To manage navigation",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 25,
+          "data": "B. To provide Material Design theming",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 25,
+          "data": "C. To create animations",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 25,
+          "data": "D. To handle state",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [86],
+        "answer": ["B. To provide Material Design theming"],
+        "explanation": "MaterialTheme provides access to Material Design colors, typography, and shapes for consistent theming across the app."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "True or False: Jetpack Compose supports Wear OS development.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Jetpack Compose supports Wear OS, with specific components and theming for wearable devices.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 26,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 26,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [89],
+        "answer": ["A. True"],
+        "explanation": "Jetpack Compose supports Wear OS, with specific components and theming for wearable devices."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "Which composable is used to create a clickable button in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ElevatedButton is a Material Design 3 component used to create clickable buttons in Jetpack Compose.",
+      "answerCellList": [
+        {
+          "answerId": 91,
+          "questionId": 27,
+          "data": "A. Text",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 92,
+          "questionId": 27,
+          "data": "B. ElevatedButton",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 93,
+          "questionId": 27,
+          "data": "C. Box",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 94,
+          "questionId": 27,
+          "data": "D. Row",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [92],
+        "answer": ["B. ElevatedButton"],
+        "explanation": "ElevatedButton is a Material Design 3 component used to create clickable buttons in Jetpack Compose."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "Which of the following are features of Jetpack Compose for large screens? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Jetpack Compose supports adaptive layouts, predictive back gestures, and two-pane layouts for large screens, but not XML-based layouts.",
+      "answerCellList": [
+        {
+          "answerId": 95,
+          "questionId": 28,
+          "data": "A. Adaptive layouts",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 96,
+          "questionId": 28,
+          "data": "B. Predictive back gestures",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 97,
+          "questionId": 28,
+          "data": "C. XML-based layouts",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 98,
+          "questionId": 28,
+          "data": "D. Two-pane layouts",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [95, 96, 98],
+        "answer": ["A. Adaptive layouts", "B. Predictive back gestures", "D. Two-pane layouts"],
+        "explanation": "Jetpack Compose supports adaptive layouts, predictive back gestures, and two-pane layouts for large screens, but not XML-based layouts."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "What is the purpose of the ConstraintLayout composable in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ConstraintLayout in Jetpack Compose allows positioning and sizing of composables relative to each other or their parent.",
+      "answerCellList": [
+        {
+          "answerId": 99,
+          "questionId": 29,
+          "data": "A. To create scrollable lists",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 100,
+          "questionId": 29,
+          "data": "B. To position composables relative to each other",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 101,
+          "questionId": 29,
+          "data": "C. To manage state",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 102,
+          "questionId": 29,
+          "data": "D. To apply animations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [100],
+        "answer": ["B. To position composables relative to each other"],
+        "explanation": "ConstraintLayout in Jetpack Compose allows positioning and sizing of composables relative to each other or their parent."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "True or False: Jetpack Compose supports autofill for text fields as of version 1.8.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Jetpack Compose 1.8 introduced autofill support, allowing users to insert previously entered data into text fields.",
+      "answerCellList": [
+        {
+          "answerId": 103,
+          "questionId": 30,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 104,
+          "questionId": 30,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [103],
+        "answer": ["A. True"],
+        "explanation": "Jetpack Compose 1.8 introduced autofill support, allowing users to insert previously entered data into text fields."
+      }
+    }
+  ]
+}

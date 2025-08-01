@@ -1,0 +1,1213 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "Which Android version introduced Dynamic Color theming with Material You?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Dynamic Color theming, part of Material You, was introduced in Android 12, allowing apps to adapt colors based on the user’s wallpaper.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. Android 10",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. Android 11",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. Android 12",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. Android 13",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [3],
+        "answer": ["C. Android 12"],
+        "explanation": "Dynamic Color theming, part of Material You, was introduced in Android 12, allowing apps to adapt colors based on the user’s wallpaper."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which key colors are extracted from a user’s wallpaper for Dynamic Color theming? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Dynamic Color extracts five key colors from the wallpaper: Primary, Secondary, Tertiary, Neutral, and Neutral Variant.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. Primary",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. Secondary",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. Accent",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. Tertiary",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [5, 6, 8],
+        "answer": ["A. Primary", "B. Secondary", "D. Tertiary"],
+        "explanation": "Dynamic Color extracts five key colors from the wallpaper: Primary, Secondary, Tertiary, Neutral, and Neutral Variant."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "True or False: Dynamic Color theming is only available for apps targeting API 31 or higher.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Dynamic Color theming requires API 31 (Android 12) or higher for full support, but apps can provide fallback colors for older APIs.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [9],
+        "answer": ["A. True"],
+        "explanation": "Dynamic Color theming requires API 31 (Android 12) or higher for full support, but apps can provide fallback colors for older APIs."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "Which library is required to implement Dynamic Colors in an Android app?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Material 3 library (com.google.android.material:material) is required to implement Dynamic Colors in an Android app.",
+      "answerCellList": [
+        {
+          "answerId": 11,
+          "questionId": 4,
+          "data": "A. AppCompat",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 12,
+          "questionId": 4,
+          "data": "B. Material 3",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "C. ConstraintLayout",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "D. Jetpack Compose",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [12],
+        "answer": ["B. Material 3"],
+        "explanation": "The Material 3 library (com.google.android.material:material) is required to implement Dynamic Colors in an Android app."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which color variants were added to Dynamic Color theming in Android 13? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Android 13 added Neutral, Vibrant Tonal, and Expressive variants to Dynamic Color theming, alongside the Tonal Spot variant from Android 12.",
+      "answerCellList": [
+        {
+          "answerId": 15,
+          "questionId": 5,
+          "data": "A. Tonal Spot",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 16,
+          "questionId": 5,
+          "data": "B. Neutral",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "C. Vibrant Tonal",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "D. Expressive",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [16, 17, 18],
+        "answer": ["B. Neutral", "C. Vibrant Tonal", "D. Expressive"],
+        "explanation": "Android 13 added Neutral, Vibrant Tonal, and Expressive variants to Dynamic Color theming, alongside the Tonal Spot variant from Android 12."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "True or False: Dynamic Colors can be applied to widgets starting in Android 12.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Dynamic Colors can be applied to widgets starting in Android 12, allowing widgets to match the system’s wallpaper-based theme.",
+      "answerCellList": [
+        {
+          "answerId": 19,
+          "questionId": 6,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 20,
+          "questionId": 6,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [19],
+        "answer": ["A. True"],
+        "explanation": "Dynamic Colors can be applied to widgets starting in Android 12, allowing widgets to match the system’s wallpaper-based theme."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "What is the purpose of the Monet engine in Dynamic Color theming?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Monet is the Android framework component that extracts colors from a user’s wallpaper to generate a dynamic color palette.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 7,
+          "data": "A. To manage app layouts",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 7,
+          "data": "B. To extract colors from wallpaper",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 7,
+          "data": "C. To optimize app performance",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 7,
+          "data": "D. To handle animations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [22],
+        "answer": ["B. To extract colors from wallpaper"],
+        "explanation": "Monet is the Android framework component that extracts colors from a user’s wallpaper to generate a dynamic color palette."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "Which theme attributes are commonly overridden in Material 3 theming? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Commonly overridden Material 3 theme attributes include colorPrimary, colorSecondary, and colorTertiary for customizing UI elements.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 8,
+          "data": "A. colorPrimary",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 8,
+          "data": "B. colorSecondary",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 8,
+          "data": "C. colorAccent",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 8,
+          "data": "D. colorTertiary",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [25, 26, 28],
+        "answer": ["A. colorPrimary", "B. colorSecondary", "D. colorTertiary"],
+        "explanation": "Commonly overridden Material 3 theme attributes include colorPrimary, colorSecondary, and colorTertiary for customizing UI elements."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "What is the minimum Material library version required for Dynamic Colors?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Material library version 1.5.0-alpha04 or later is required to support Dynamic Colors in Android apps.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 9,
+          "data": "A. 1.3.0",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 9,
+          "data": "B. 1.4.0",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 9,
+          "data": "C. 1.5.0-alpha04",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 9,
+          "data": "D. 1.6.0",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [31],
+        "answer": ["C. 1.5.0-alpha04"],
+        "explanation": "The Material library version 1.5.0-alpha04 or later is required to support Dynamic Colors in Android apps."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "True or False: Dynamic Colors use the HCT (Hue, Chroma, Tone) color system.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Dynamic Colors use the HCT (Hue, Chroma, Tone) color system to ensure accessible and consistent color palettes.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 10,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 10,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [33],
+        "answer": ["A. True"],
+        "explanation": "Dynamic Colors use the HCT (Hue, Chroma, Tone) color system to ensure accessible and consistent color palettes."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "Which method is used to apply Dynamic Colors to all activities in an app?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The `DynamicColors.applyToActivitiesIfAvailable()` method is used to apply Dynamic Colors to all activities in an app.",
+      "answerCellList": [
+        {
+          "answerId": 35,
+          "questionId": 11,
+          "data": "A. applyToActivityIfAvailable()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 36,
+          "questionId": 11,
+          "data": "B. applyToActivitiesIfAvailable()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 37,
+          "questionId": 11,
+          "data": "C. setTheme()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 38,
+          "questionId": 11,
+          "data": "D. applyThemeOverlay()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [36],
+        "answer": ["B. applyToActivitiesIfAvailable()"],
+        "explanation": "The `DynamicColors.applyToActivitiesIfAvailable()` method is used to apply Dynamic Colors to all activities in an app."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "Which components can use Dynamic Colors in Android? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Dynamic Colors can be applied to apps, widgets (since Android 12), and adaptive icons (since Android 13).",
+      "answerCellList": [
+        {
+          "answerId": 39,
+          "questionId": 12,
+          "data": "A. Apps",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 40,
+          "questionId": 12,
+          "data": "B. Widgets",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 41,
+          "questionId": 12,
+          "data": "C. Notifications",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 42,
+          "questionId": 12,
+          "data": "D. Adaptive Icons",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [39, 40, 42],
+        "answer": ["A. Apps", "B. Widgets", "D. Adaptive Icons"],
+        "explanation": "Dynamic Colors can be applied to apps, widgets (since Android 12), and adaptive icons (since Android 13)."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "What is the parent theme for enabling Dynamic Colors in an app?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The parent theme `ThemeOverlay.Material3.DynamicColors.DayNight` is used to enable Dynamic Colors for both light and dark themes.",
+      "answerCellList": [
+        {
+          "answerId": 43,
+          "questionId": 13,
+          "data": "A. Theme.AppCompat",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 44,
+          "questionId": 13,
+          "data": "B. ThemeOverlay.Material3.DynamicColors.DayNight",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 45,
+          "questionId": 13,
+          "data": "C. Theme.Material3.Light",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 46,
+          "questionId": 13,
+          "data": "D. Theme.MaterialComponents",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [44],
+        "answer": ["B. ThemeOverlay.Material3.DynamicColors.DayNight"],
+        "explanation": "The parent theme `ThemeOverlay.Material3.DynamicColors.DayNight` is used to enable Dynamic Colors for both light and dark themes."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "True or False: Dynamic Colors are automatically applied to all UI elements without developer intervention.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Developers must explicitly enable Dynamic Colors using the Material 3 library and appropriate theme settings.",
+      "answerCellList": [
+        {
+          "answerId": 47,
+          "questionId": 14,
+          "data": "A. True",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 48,
+          "questionId": 14,
+          "data": "B. False",
+          "isItAnswer": true,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [48],
+        "answer": ["B. False"],
+        "explanation": "Developers must explicitly enable Dynamic Colors using the Material 3 library and appropriate theme settings."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "Which color roles are used for a Floating Action Button in Material 3? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "A Floating Action Button in Material 3 uses `primaryContainer` for the background and `onPrimaryContainer` for its contents.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 15,
+          "data": "A. primaryContainer",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 15,
+          "data": "B. onPrimaryContainer",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 15,
+          "data": "C. secondaryContainer",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 15,
+          "data": "D. onSecondaryContainer",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [49, 50],
+        "answer": ["A. primaryContainer", "B. onPrimaryContainer"],
+        "explanation": "A Floating Action Button in Material 3 uses `primaryContainer` for the background and `onPrimaryContainer` for its contents."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "What tool helps designers create custom Material 3 themes?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Material Theme Builder is a tool that helps designers create and export custom Material 3 themes, including Dynamic Color support.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 16,
+          "data": "A. Figma",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 16,
+          "data": "B. Material Theme Builder",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 16,
+          "data": "C. Android Studio",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 16,
+          "data": "D. Sketch",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [54],
+        "answer": ["B. Material Theme Builder"],
+        "explanation": "Material Theme Builder is a tool that helps designers create and export custom Material 3 themes, including Dynamic Color support."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "True or False: Adaptive icons support Dynamic Colors starting in Android 13.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Adaptive icons support Dynamic Colors starting in Android 13, allowing icons to match the system’s wallpaper-based theme.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 17,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 17,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [57],
+        "answer": ["A. True"],
+        "explanation": "Adaptive icons support Dynamic Colors starting in Android 13, allowing icons to match the system’s wallpaper-based theme."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "What is the purpose of design tokens in Material 3 theming?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Design tokens semantically assign color roles to UI elements, ensuring consistency and flexibility across themes.",
+      "answerCellList": [
+        {
+          "answerId": 59,
+          "questionId": 18,
+          "data": "A. To manage app layouts",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 60,
+          "questionId": 18,
+          "data": "B. To assign color roles semantically",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 61,
+          "questionId": 18,
+          "data": "C. To optimize app performance",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 62,
+          "questionId": 18,
+          "data": "D. To handle animations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [60],
+        "answer": ["B. To assign color roles semantically"],
+        "explanation": "Design tokens semantically assign color roles to UI elements, ensuring consistency and flexibility across themes."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "Which color roles are used for text or icons on surfaces? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The `onPrimary`, `onSecondary`, and `onSurface` roles are used for text or icons on their respective backgrounds.",
+      "answerCellList": [
+        {
+          "answerId": 63,
+          "questionId": 19,
+          "data": "A. onPrimary",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 64,
+          "questionId": 19,
+          "data": "B. onSecondary",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 65,
+          "questionId": 19,
+          "data": "C. primaryContainer",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 66,
+          "questionId": 19,
+          "data": "D. onSurface",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [63, 64, 66],
+        "answer": ["A. onPrimary", "B. onSecondary", "D. onSurface"],
+        "explanation": "The `onPrimary`, `onSecondary`, and `onSurface` roles are used for text or icons on their respective backgrounds."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "True or False: Surface colors in Material 3 are calculated at runtime.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Surface colors in Material 3 are calculated at runtime based on elevation, ensuring dynamic adaptability.",
+      "answerCellList": [
+        {
+          "answerId": 67,
+          "questionId": 20,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 68,
+          "questionId": 20,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [67],
+        "answer": ["A. True"],
+        "explanation": "Surface colors in Material 3 are calculated at runtime based on elevation, ensuring dynamic adaptability."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "Which Android version introduced the HCT color system for Dynamic Colors?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The HCT (Hue, Chroma, Tone) color system was introduced in Android 12 to support Dynamic Colors.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 21,
+          "data": "A. Android 10",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 21,
+          "data": "B. Android 11",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 21,
+          "data": "C. Android 12",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 21,
+          "data": "D. Android 13",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [71],
+        "answer": ["C. Android 12"],
+        "explanation": "The HCT (Hue, Chroma, Tone) color system was introduced in Android 12 to support Dynamic Colors."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "Which tools or libraries help implement Dynamic Colors? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Material 3 library, Material Theme Builder, and Material Color Utilities help implement Dynamic Colors.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 22,
+          "data": "A. Material 3 library",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 22,
+          "data": "B. Material Theme Builder",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 22,
+          "data": "C. AppCompat",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 22,
+          "data": "D. Material Color Utilities",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [73, 74, 76],
+        "answer": ["A. Material 3 library", "B. Material Theme Builder", "D. Material Color Utilities"],
+        "explanation": "The Material 3 library, Material Theme Builder, and Material Color Utilities help implement Dynamic Colors."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "What is the purpose of the HarmonizedColors class in Dynamic Colors?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "HarmonizedColors shifts the tone of custom colors to ensure visual balance and accessible contrast with user-generated colors.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 23,
+          "data": "A. To manage layouts",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 23,
+          "data": "B. To shift custom color tones",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 23,
+          "data": "C. To optimize performance",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 23,
+          "data": "D. To handle animations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [78],
+        "answer": ["B. To shift custom color tones"],
+        "explanation": "HarmonizedColors shifts the tone of custom colors to ensure visual balance and accessible contrast with user-generated colors."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "True or False: Dynamic Colors cannot be applied to apps running on Android 11 or lower.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Dynamic Colors require Android 12 (API 31) or higher, but apps can use static fallback colors for Android 11 or lower.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 24,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 24,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [81],
+        "answer": ["A. True"],
+        "explanation": "Dynamic Colors require Android 12 (API 31) or higher, but apps can use static fallback colors for Android 11 or lower."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "Which color role is used for accents in Material 3 theming?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Tertiary color role is used for accents in Material 3 theming, providing a distinct highlight.",
+      "answerCellList": [
+        {
+          "answerId": 83,
+          "questionId": 25,
+          "data": "A. Primary",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 84,
+          "questionId": 25,
+          "data": "B. Secondary",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 85,
+          "questionId": 25,
+          "data": "C. Tertiary",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 86,
+          "questionId": 25,
+          "data": "D. Neutral",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [85],
+        "answer": ["C. Tertiary"],
+        "explanation": "The Tertiary color role is used for accents in Material 3 theming, providing a distinct highlight."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "Which platforms support the Material Color Utilities library? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Material Color Utilities library is available in Dart, Java, and Typescript, with plans for iOS, CSS via SASS, and GLSL shaders.",
+      "answerCellList": [
+        {
+          "answerId": 87,
+          "questionId": 26,
+          "data": "A. Dart",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 88,
+          "questionId": 26,
+          "data": "B. Java",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 89,
+          "questionId": 26,
+          "data": "C. Kotlin",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 90,
+          "questionId": 26,
+          "data": "D. Typescript",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [87, 88, 90],
+        "answer": ["A. Dart", "B. Java", "D. Typescript"],
+        "explanation": "The Material Color Utilities library is available in Dart, Java, and Typescript, with plans for iOS, CSS via SASS, and GLSL shaders."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "What is the purpose of the ElevationOverlayProvider in Material 3?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ElevationOverlayProvider calculates surface colors based on elevation for dynamic theming in Material 3.",
+      "answerCellList": [
+        {
+          "answerId": 91,
+          "questionId": 27,
+          "data": "A. To manage layouts",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 92,
+          "questionId": 27,
+          "data": "B. To calculate surface colors",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 93,
+          "questionId": 27,
+          "data": "C. To optimize performance",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 94,
+          "questionId": 27,
+          "data": "D. To handle animations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [92],
+        "answer": ["B. To calculate surface colors"],
+        "explanation": "ElevationOverlayProvider calculates surface colors based on elevation for dynamic theming in Material 3."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "True or False: Dynamic Colors support both light and dark themes.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Dynamic Colors support both light and dark themes, generating tonal palettes for each based on the wallpaper.",
+      "answerCellList": [
+        {
+          "answerId": 95,
+          "questionId": 28,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 96,
+          "questionId": 28,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [95],
+        "answer": ["A. True"],
+        "explanation": "Dynamic Colors support both light and dark themes, generating tonal palettes for each based on the wallpaper."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "Which Figma plugin helps simulate Dynamic Color changes?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Material Theme Builder plugin for Figma helps designers simulate and test Dynamic Color changes in their designs.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 29,
+          "data": "A. Material Theme Builder",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 29,
+          "data": "B. Color Picker",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 29,
+          "data": "C. UI Automator",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 29,
+          "data": "D. Layout Grid",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [97],
+        "answer": ["A. Material Theme Builder"],
+        "explanation": "The Material Theme Builder plugin for Figma helps designers simulate and test Dynamic Color changes in their designs."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "Which color roles are generated for Wear OS theming? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Wear OS theming generates Primary, Secondary, Tertiary, and Surface palettes from two seed colors.",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 30,
+          "data": "A. Primary",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 30,
+          "data": "B. Secondary",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 30,
+          "data": "C. Neutral",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 30,
+          "data": "D. Surface",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [101, 102, 104],
+        "answer": ["A. Primary", "B. Secondary", "D. Surface"],
+        "explanation": "Wear OS theming generates Primary, Secondary, Tertiary, and Surface palettes from two seed colors."
+      }
+    }
+  ]
+}

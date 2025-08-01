@@ -1,0 +1,1325 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "What is the primary purpose of Glide and Picasso in Android?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Glide and Picasso are libraries used to load and display images efficiently in Android applications.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. Manage UI layouts",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. Load and display images",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. Handle network requests",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. Store data locally",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. Load and display images"],
+        "explanation": "Glide and Picasso are libraries used to load and display images efficiently in Android applications."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "How do you load an image with Glide in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Glide uses Glide.with(context).load(url).into(imageView) to load an image into an ImageView.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. Glide.load(context, url, imageView)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. Glide.with(context).load(url).into(imageView)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. Glide.setImage(context, url, imageView)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. Glide.into(context, url, imageView)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [6],
+        "answer": ["B. Glide.with(context).load(url).into(imageView)"],
+        "explanation": "Glide uses Glide.with(context).load(url).into(imageView) to load an image into an ImageView."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "How do you load an image with Picasso in Kotlin?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Picasso uses Picasso.get().load(url).into(imageView) to load an image into an ImageView.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. Picasso.load(context, url, imageView)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. Picasso.get().load(url).into(imageView)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 11,
+          "questionId": 3,
+          "data": "C. Picasso.setImage(url, imageView)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 12,
+          "questionId": 3,
+          "data": "D. Picasso.with(context).load(url)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [10],
+        "answer": ["B. Picasso.get().load(url).into(imageView)"],
+        "explanation": "Picasso uses Picasso.get().load(url).into(imageView) to load an image into an ImageView."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "What is the default caching strategy used by Glide?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Glide uses automatic caching, combining memory and disk caching to optimize performance.",
+      "answerCellList": [
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "A. No caching",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "B. Memory and disk caching",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 15,
+          "questionId": 4,
+          "data": "C. Memory-only caching",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 16,
+          "questionId": 4,
+          "data": "D. Disk-only caching",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [14],
+        "answer": ["B. Memory and disk caching"],
+        "explanation": "Glide uses automatic caching, combining memory and disk caching to optimize performance."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "What is the default caching strategy used by Picasso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Picasso uses memory and disk caching by default to optimize image loading performance.",
+      "answerCellList": [
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "A. No caching",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "B. Memory and disk caching",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 19,
+          "questionId": 5,
+          "data": "C. Memory-only caching",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 20,
+          "questionId": 5,
+          "data": "D. Disk-only caching",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [18],
+        "answer": ["B. Memory and disk caching"],
+        "explanation": "Picasso uses memory and disk caching by default to optimize image loading performance."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "How do you set a placeholder image in Glide?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use .placeholder(R.drawable.placeholder) in the Glide request to set a placeholder image.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 6,
+          "data": "A. Use .setPlaceholder(R.drawable.placeholder)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 6,
+          "data": "B. Use .placeholder(R.drawable.placeholder)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 6,
+          "data": "C. Use .defaultImage(R.drawable.placeholder)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 6,
+          "data": "D. Use .loadPlaceholder(R.drawable.placeholder)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [22],
+        "answer": ["B. Use .placeholder(R.drawable.placeholder)"],
+        "explanation": "Use .placeholder(R.drawable.placeholder) in the Glide request to set a placeholder image."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "How do you set a placeholder image in Picasso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use .placeholder(R.drawable.placeholder) in the Picasso request to set a placeholder image.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 7,
+          "data": "A. Use .setPlaceholder(R.drawable.placeholder)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 7,
+          "data": "B. Use .placeholder(R.drawable.placeholder)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 7,
+          "data": "C. Use .defaultImage(R.drawable.placeholder)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 7,
+          "data": "D. Use .loadPlaceholder(R.drawable.placeholder)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [26],
+        "answer": ["B. Use .placeholder(R.drawable.placeholder)"],
+        "explanation": "Use .placeholder(R.drawable.placeholder) in the Picasso request to set a placeholder image."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "How do you handle errors in Glide image loading?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use .error(R.drawable.error) to set an error image or .listener() to handle errors in Glide.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 8,
+          "data": "A. Use .onError(R.drawable.error)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 8,
+          "data": "B. Use .error(R.drawable.error) or .listener()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 8,
+          "data": "C. Use .catchError(R.drawable.error)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 8,
+          "data": "D. Use .handleError(R.drawable.error)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [30],
+        "answer": ["B. Use .error(R.drawable.error) or .listener()"],
+        "explanation": "Use .error(R.drawable.error) to set an error image or .listener() to handle errors in Glide."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "How do you handle errors in Picasso image loading?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use .error(R.drawable.error) to set an error image or a Callback to handle errors in Picasso.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 9,
+          "data": "A. Use .onError(R.drawable.error)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 9,
+          "data": "B. Use .error(R.drawable.error) or Callback",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 35,
+          "questionId": 9,
+          "data": "C. Use .catchError(R.drawable.error)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 36,
+          "questionId": 9,
+          "data": "D. Use .handleError(R.drawable.error)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [34],
+        "answer": ["B. Use .error(R.drawable.error) or Callback"],
+        "explanation": "Use .error(R.drawable.error) to set an error image or a Callback to handle errors in Picasso."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "How do you resize an image in Glide?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use .override(width, height) to resize an image in Glide before loading it into an ImageView.",
+      "answerCellList": [
+        {
+          "answerId": 37,
+          "questionId": 10,
+          "data": "A. Use .resize(width, height)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 38,
+          "questionId": 10,
+          "data": "B. Use .override(width, height)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 39,
+          "questionId": 10,
+          "data": "C. Use .scale(width, height)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 40,
+          "questionId": 10,
+          "data": "D. Use .setSize(width, height)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [38],
+        "answer": ["B. Use .override(width, height)"],
+        "explanation": "Use .override(width, height) to resize an image in Glide before loading it into an ImageView."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "How do you resize an image in Picasso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use .resize(width, height) to resize an image in Picasso before loading it into an ImageView.",
+      "answerCellList": [
+        {
+          "answerId": 41,
+          "questionId": 11,
+          "data": "A. Use .override(width, height)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 42,
+          "questionId": 11,
+          "data": "B. Use .resize(width, height)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 43,
+          "questionId": 11,
+          "data": "C. Use .scale(width, height)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 44,
+          "questionId": 11,
+          "data": "D. Use .setSize(width, height)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [42],
+        "answer": ["B. Use .resize(width, height)"],
+        "explanation": "Use .resize(width, height) to resize an image in Picasso before loading it into an ImageView."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "How do you apply a circular transformation in Glide?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use .circleCrop() to apply a circular transformation to an image in Glide.",
+      "answerCellList": [
+        {
+          "answerId": 45,
+          "questionId": 12,
+          "data": "A. Use .transform(CircleTransform())",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 46,
+          "questionId": 12,
+          "data": "B. Use .circleCrop()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 47,
+          "questionId": 12,
+          "data": "C. Use .roundCrop()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 48,
+          "questionId": 12,
+          "data": "D. Use .circleTransform()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [46],
+        "answer": ["B. Use .circleCrop()"],
+        "explanation": "Use .circleCrop() to apply a circular transformation to an image in Glide."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "How do you apply a circular transformation in Picasso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use .transform(CircleTransformation()) to apply a circular transformation to an image in Picasso.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 13,
+          "data": "A. Use .circleCrop()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 13,
+          "data": "B. Use .transform(CircleTransformation())",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 13,
+          "data": "C. Use .roundCrop()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 13,
+          "data": "D. Use .circleTransform()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [50],
+        "answer": ["B. Use .transform(CircleTransformation())"],
+        "explanation": "Use .transform(CircleTransformation()) to apply a circular transformation to an image in Picasso."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "How do you clear Glide's memory cache?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use Glide.get(context).clearMemory() to clear Glide's memory cache.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 14,
+          "data": "A. Use Glide.clearCache(context)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 14,
+          "data": "B. Use Glide.get(context).clearMemory()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 14,
+          "data": "C. Use Glide.removeMemory(context)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 14,
+          "data": "D. Use Glide.flushCache(context)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [54],
+        "answer": ["B. Use Glide.get(context).clearMemory()"],
+        "explanation": "Use Glide.get(context).clearMemory() to clear Glide's memory cache."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "How do you clear Picasso's memory cache?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use Picasso.get().invalidate(url) to clear the cache for a specific URL or clear the entire cache manually.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 15,
+          "data": "A. Use Picasso.clearCache()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 15,
+          "data": "B. Use Picasso.get().invalidate(url)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 59,
+          "questionId": 15,
+          "data": "C. Use Picasso.removeMemory(url)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 60,
+          "questionId": 15,
+          "data": "D. Use Picasso.flushCache()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [58],
+        "answer": ["B. Use Picasso.get().invalidate(url)"],
+        "explanation": "Use Picasso.get().invalidate(url) to clear the cache for a specific URL or clear the entire cache manually."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "How do you load a local resource image with Glide?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use .load(R.drawable.image) to load a local resource image with Glide.",
+      "answerCellList": [
+        {
+          "answerId": 61,
+          "questionId": 16,
+          "data": "A. Use .loadLocal(R.drawable.image)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 62,
+          "questionId": 16,
+          "data": "B. Use .load(R.drawable.image)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 63,
+          "questionId": 16,
+          "data": "C. Use .setResource(R.drawable.image)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 64,
+          "questionId": 16,
+          "data": "D. Use .resource(R.drawable.image)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [62],
+        "answer": ["B. Use .load(R.drawable.image)"],
+        "explanation": "Use .load(R.drawable.image) to load a local resource image with Glide."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "How do you load a local resource image with Picasso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use .load(R.drawable.image) to load a local resource image with Picasso.",
+      "answerCellList": [
+        {
+          "answerId": 65,
+          "questionId": 17,
+          "data": "A. Use .loadLocal(R.drawable.image)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 66,
+          "questionId": 17,
+          "data": "B. Use .load(R.drawable.image)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 67,
+          "questionId": 17,
+          "data": "C. Use .setResource(R.drawable.image)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 68,
+          "questionId": 17,
+          "data": "D. Use .resource(R.drawable.image)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [66],
+        "answer": ["B. Use .load(R.drawable.image)"],
+        "explanation": "Use .load(R.drawable.image) to load a local resource image with Picasso."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "How do you disable caching in Glide for a specific request?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use .diskCacheStrategy(DiskCacheStrategy.NONE) to disable caching for a specific Glide request.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 18,
+          "data": "A. Use .noCache()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 18,
+          "data": "B. Use .diskCacheStrategy(DiskCacheStrategy.NONE)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 18,
+          "data": "C. Use .disableCache()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 18,
+          "data": "D. Use .cache(false)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [70],
+        "answer": ["B. Use .diskCacheStrategy(DiskCacheStrategy.NONE)"],
+        "explanation": "Use .diskCacheStrategy(DiskCacheStrategy.NONE) to disable caching for a specific Glide request."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "How do you disable caching in Picasso for a specific request?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use .memoryPolicy(MemoryPolicy.NO_CACHE) to disable memory caching for a specific Picasso request.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 19,
+          "data": "A. Use .noCache()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 19,
+          "data": "B. Use .memoryPolicy(MemoryPolicy.NO_CACHE)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 19,
+          "data": "C. Use .disableCache()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 19,
+          "data": "D. Use .cache(false)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [74],
+        "answer": ["B. Use .memoryPolicy(MemoryPolicy.NO_CACHE)"],
+        "explanation": "Use .memoryPolicy(MemoryPolicy.NO_CACHE) to disable memory caching for a specific Picasso request."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "How do you apply a fade animation in Glide?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use .transition(DrawableTransitionOptions.withCrossFade()) to apply a fade animation in Glide.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 20,
+          "data": "A. Use .fade()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 20,
+          "data": "B. Use .transition(DrawableTransitionOptions.withCrossFade())",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 20,
+          "data": "C. Use .animateFade()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 20,
+          "data": "D. Use .crossFade()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [78],
+        "answer": ["B. Use .transition(DrawableTransitionOptions.withCrossFade())"],
+        "explanation": "Use .transition(DrawableTransitionOptions.withCrossFade()) to apply a fade animation in Glide."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "How do you apply a rotation transformation in Picasso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use .rotate(degrees) to apply a rotation transformation to an image in Picasso.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 21,
+          "data": "A. Use .transform(RotateTransformation())",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 21,
+          "data": "B. Use .rotate(degrees)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 83,
+          "questionId": 21,
+          "data": "C. Use .rotation(degrees)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 84,
+          "questionId": 21,
+          "data": "D. Use .applyRotation(degrees)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [82],
+        "answer": ["B. Use .rotate(degrees)"],
+        "explanation": "Use .rotate(degrees) to apply a rotation transformation to an image in Picasso."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "How do you load an image from a File in Glide?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use .load(file) to load an image from a File object in Glide.",
+      "answerCellList": [
+        {
+          "answerId": 85,
+          "questionId": 22,
+          "data": "A. Use .loadFile(file)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 86,
+          "questionId": 22,
+          "data": "B. Use .load(file)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 87,
+          "questionId": 22,
+          "data": "C. Use .setFile(file)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 88,
+          "questionId": 22,
+          "data": "D. Use .file(file)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [86],
+        "answer": ["B. Use .load(file)"],
+        "explanation": "Use .load(file) to load an image from a File object in Glide."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "How do you load an image from a File in Picasso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use .load(file) to load an image from a File object in Picasso.",
+      "answerCellList": [
+        {
+          "answerId": 89,
+          "questionId": 23,
+          "data": "A. Use .loadFile(file)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 90,
+          "questionId": 23,
+          "data": "B. Use .load(file)",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 91,
+          "questionId": 23,
+          "data": "C. Use .setFile(file)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 92,
+          "questionId": 23,
+          "data": "D. Use .file(file)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [90],
+        "answer": ["B. Use .load(file)"],
+        "explanation": "Use .load(file) to load an image from a File object in Picasso."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "How do you center crop an image in Glide?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use .centerCrop() to center crop an image in Glide, filling the ImageView while cropping excess.",
+      "answerCellList": [
+        {
+          "answerId": 93,
+          "questionId": 24,
+          "data": "A. Use .cropCenter()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 94,
+          "questionId": 24,
+          "data": "B. Use .centerCrop()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 95,
+          "questionId": 24,
+          "data": "C. Use .scaleCenter()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 96,
+          "questionId": 24,
+          "data": "D. Use .centerScale()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [94],
+        "answer": ["B. Use .centerCrop()"],
+        "explanation": "Use .centerCrop() to center crop an image in Glide, filling the ImageView while cropping excess."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "How do you center crop an image in Picasso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use .centerCrop() to center crop an image in Picasso, filling the ImageView while cropping excess.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 25,
+          "data": "A. Use .cropCenter()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 25,
+          "data": "B. Use .centerCrop()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 25,
+          "data": "C. Use .scaleCenter()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 25,
+          "data": "D. Use .centerScale()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [98],
+        "answer": ["B. Use .centerCrop()"],
+        "explanation": "Use .centerCrop() to center crop an image in Picasso, filling the ImageView while cropping excess."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "How do you load an image asynchronously in Glide?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Glide loads images asynchronously by default using .load().into().",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 26,
+          "data": "A. Use .loadAsync()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 26,
+          "data": "B. Use .load().into()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 26,
+          "data": "C. Use .asyncLoad()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 26,
+          "data": "D. Use .loadSync()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [102],
+        "answer": ["B. Use .load().into()"],
+        "explanation": "Glide loads images asynchronously by default using .load().into()."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "How do you load an image asynchronously in Picasso?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Picasso loads images asynchronously by default using .load().into().",
+      "answerCellList": [
+        {
+          "answerId": 105,
+          "questionId": 27,
+          "data": "A. Use .loadAsync()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 106,
+          "questionId": 27,
+          "data": "B. Use .load().into()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 107,
+          "questionId": 27,
+          "data": "C. Use .asyncLoad()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 108,
+          "questionId": 27,
+          "data": "D. Use .loadSync()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [106],
+        "answer": ["B. Use .load().into()"],
+        "explanation": "Picasso loads images asynchronously by default using .load().into()."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "How do you use Glide with a custom RequestOptions?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use .apply(RequestOptions().centerCrop()) to apply custom RequestOptions in Glide.",
+      "answerCellList": [
+        {
+          "answerId": 109,
+          "questionId": 28,
+          "data": "A. Use .options(RequestOptions())",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 110,
+          "questionId": 28,
+          "data": "B. Use .apply(RequestOptions().centerCrop())",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 111,
+          "questionId": 28,
+          "data": "C. Use .setOptions(RequestOptions())",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 112,
+          "questionId": 28,
+          "data": "D. Use .customOptions(RequestOptions())",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [110],
+        "answer": ["B. Use .apply(RequestOptions().centerCrop())"],
+        "explanation": "Use .apply(RequestOptions().centerCrop()) to apply custom RequestOptions in Glide."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "How do you configure Picasso with a custom OkHttpClient?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use Picasso.Builder(context).downloader(OkHttp3Downloader(client)) to configure Picasso with a custom OkHttpClient.",
+      "answerCellList": [
+        {
+          "answerId": 113,
+          "questionId": 29,
+          "data": "A. Use Picasso.setClient(client)",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 114,
+          "questionId": 29,
+          "data": "B. Use Picasso.Builder(context).downloader(OkHttp3Downloader(client))",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 115,
+          "questionId": 29,
+          "data": "C. Use Picasso.withClient(client)",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 116,
+          "questionId": 29,
+          "data": "D. Use Picasso.customClient(client)",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [114],
+        "answer": ["B. Use Picasso.Builder(context).downloader(OkHttp3Downloader(client))"],
+        "explanation": "Use Picasso.Builder(context).downloader(OkHttp3Downloader(client)) to configure Picasso with a custom OkHttpClient."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "How do you load a GIF with Glide?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Use .asGif() to load a GIF with Glide, ensuring it is displayed as an animated image.",
+      "answerCellList": [
+        {
+          "answerId": 117,
+          "questionId": 30,
+          "data": "A. Use .loadGif()",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 118,
+          "questionId": 30,
+          "data": "B. Use .asGif()",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 119,
+          "questionId": 30,
+          "data": "C. Use .gif()",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 120,
+          "questionId": 30,
+          "data": "D. Use .setGif()",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [118],
+        "answer": ["B. Use .asGif()"],
+        "explanation": "Use .asGif() to load a GIF with Glide, ensuring it is displayed as an animated image."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1213 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "Which Jetpack Compose library is used for Wear OS development?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The androidx.wear.compose library provides composables and utilities specifically designed for Wear OS development.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. androidx.compose",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. androidx.wear.compose",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. androidx.appcompat",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. androidx.constraintlayout",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. androidx.wear.compose"],
+        "explanation": "The androidx.wear.compose library provides composables and utilities specifically designed for Wear OS development."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which Wear OS composables are used for UI layouts? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Wear OS composables like Scaffold, Chip, and CurvedText are used for creating layouts optimized for wearable devices.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. Scaffold",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. Chip",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. TextField",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. CurvedText",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [5, 6, 8],
+        "answer": ["A. Scaffold", "B. Chip", "D. CurvedText"],
+        "explanation": "Wear OS composables like Scaffold, Chip, and CurvedText are used for creating layouts optimized for wearable devices."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "True or False: Wear OS apps built with Jetpack Compose must support both round and square screens.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Wear OS apps must support both round and square screens to ensure compatibility across different wearable devices.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [9],
+        "answer": ["A. True"],
+        "explanation": "Wear OS apps must support both round and square screens to ensure compatibility across different wearable devices."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "Which composable provides a layout structure for Wear OS apps?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Scaffold composable in Wear OS provides a layout structure, including time, status indicators, and content areas.",
+      "answerCellList": [
+        {
+          "answerId": 11,
+          "questionId": 4,
+          "data": "A. Box",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 12,
+          "questionId": 4,
+          "data": "B. Scaffold",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "C. Column",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "D. Row",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [12],
+        "answer": ["B. Scaffold"],
+        "explanation": "The Scaffold composable in Wear OS provides a layout structure, including time, status indicators, and content areas."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which input methods are supported in Wear OS Compose apps? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Wear OS Compose apps support touch input, rotary input, and voice input for user interactions.",
+      "answerCellList": [
+        {
+          "answerId": 15,
+          "questionId": 5,
+          "data": "A. Touch input",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 16,
+          "questionId": 5,
+          "data": "B. Rotary input",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "C. Keyboard input",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "D. Voice input",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [15, 16, 18],
+        "answer": ["A. Touch input", "B. Rotary input", "D. Voice input"],
+        "explanation": "Wear OS Compose apps support touch input, rotary input, and voice input for user interactions."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "True or False: The CurvedText composable is used to display text along a circular path.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The CurvedText composable in Wear OS is designed to display text along a circular path, ideal for round watch faces.",
+      "answerCellList": [
+        {
+          "answerId": 19,
+          "questionId": 6,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 20,
+          "questionId": 6,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [19],
+        "answer": ["A. True"],
+        "explanation": "The CurvedText composable in Wear OS is designed to display text along a circular path, ideal for round watch faces."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Which Wear OS component provides quick access to app information on the watch face?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Complications provide quick access to app information, such as notifications or data, on the Wear OS watch face.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 7,
+          "data": "A. Tiles",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 7,
+          "data": "B. Complications",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 7,
+          "data": "C. Scaffold",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 7,
+          "data": "D. Chip",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [22],
+        "answer": ["B. Complications"],
+        "explanation": "Complications provide quick access to app information, such as notifications or data, on the Wear OS watch face."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "Which Wear OS composables are optimized for small screens? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Chip, CompactChip, and TitleCard are optimized for small screens in Wear OS, providing compact and touch-friendly UI elements.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 8,
+          "data": "A. Chip",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 8,
+          "data": "B. CompactChip",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 8,
+          "data": "C. TextField",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 8,
+          "data": "D. TitleCard",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [25, 26, 28],
+        "answer": ["A. Chip", "B. CompactChip", "D. TitleCard"],
+        "explanation": "Chip, CompactChip, and TitleCard are optimized for small screens in Wear OS, providing compact and touch-friendly UI elements."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "What is the minimum API level for Jetpack Compose on Wear OS?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Jetpack Compose for Wear OS requires a minimum API level of 30 (Android 11) for full compatibility.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 9,
+          "data": "A. API 28",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 9,
+          "data": "B. API 29",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 9,
+          "data": "C. API 30",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 9,
+          "data": "D. API 31",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [31],
+        "answer": ["C. API 30"],
+        "explanation": "Jetpack Compose for Wear OS requires a minimum API level of 30 (Android 11) for full compatibility."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "True or False: Wear OS Tiles are standalone surfaces accessible from the app launcher.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Tiles are standalone surfaces in Wear OS, accessible by swiping left or right from the watch face, not from the app launcher.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 10,
+          "data": "A. True",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 10,
+          "data": "B. False",
+          "isItAnswer": true,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [34],
+        "answer": ["B. False"],
+        "explanation": "Tiles are standalone surfaces in Wear OS, accessible by swiping left or right from the watch face, not from the app launcher."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "Which composable is used for scrollable lists in Wear OS?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "ScalingLazyColumn is used for scrollable lists in Wear OS, optimized for small screens and rotary input.",
+      "answerCellList": [
+        {
+          "answerId": 35,
+          "questionId": 11,
+          "data": "A. LazyColumn",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 36,
+          "questionId": 11,
+          "data": "B. ScalingLazyColumn",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 37,
+          "questionId": 11,
+          "data": "C. Column",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 38,
+          "questionId": 11,
+          "data": "D. Row",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [36],
+        "answer": ["B. ScalingLazyColumn"],
+        "explanation": "ScalingLazyColumn is used for scrollable lists in Wear OS, optimized for small screens and rotary input."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "Which Wear OS features require Jetpack Compose integration? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Tiles, complications, and watch faces require Jetpack Compose integration for modern Wear OS apps.",
+      "answerCellList": [
+        {
+          "answerId": 39,
+          "questionId": 12,
+          "data": "A. Tiles",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 40,
+          "questionId": 12,
+          "data": "B. Complications",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 41,
+          "questionId": 12,
+          "data": "C. Notifications",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 42,
+          "questionId": 12,
+          "data": "D. Watch faces",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [39, 40, 42],
+        "answer": ["A. Tiles", "B. Complications", "D. Watch faces"],
+        "explanation": "Tiles, complications, and watch faces require Jetpack Compose integration for modern Wear OS apps."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "What is the purpose of the WearableNavigationDrawer in Wear OS?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "WearableNavigationDrawer is not a Jetpack Compose component; navigation in Wear OS Compose is typically handled with composables like ScalingLazyColumn or navigation APIs.",
+      "answerCellList": [
+        {
+          "answerId": 43,
+          "questionId": 13,
+          "data": "A. To display curved text",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 44,
+          "questionId": 13,
+          "data": "B. To provide navigation",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 45,
+          "questionId": 13,
+          "data": "C. To manage complications",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 46,
+          "questionId": 13,
+          "data": "D. Not used in Compose",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [46],
+        "answer": ["D. Not used in Compose"],
+        "explanation": "WearableNavigationDrawer is not a Jetpack Compose component; navigation in Wear OS Compose is typically handled with composables like ScalingLazyColumn or navigation APIs."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "True or False: Wear OS apps should use smaller touch targets than phone apps.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Wear OS apps should use larger touch targets (at least 48dp) to ensure usability on small wearable screens.",
+      "answerCellList": [
+        {
+          "answerId": 47,
+          "questionId": 14,
+          "data": "A. True",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 48,
+          "questionId": 14,
+          "data": "B. False",
+          "isItAnswer": true,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [48],
+        "answer": ["B. False"],
+        "explanation": "Wear OS apps should use larger touch targets (at least 48dp) to ensure usability on small wearable screens."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "Which composable is used for compact buttons in Wear OS?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "CompactChip is used for compact, touch-friendly buttons in Wear OS, optimized for small screens.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 15,
+          "data": "A. Chip",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 15,
+          "data": "B. CompactChip",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 15,
+          "data": "C. Button",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 15,
+          "data": "D. TitleCard",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [50],
+        "answer": ["B. CompactChip"],
+        "explanation": "CompactChip is used for compact, touch-friendly buttons in Wear OS, optimized for small screens."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "Which accessibility features are important for Wear OS apps? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Wear OS apps require large touch targets, screen reader support, and high-contrast UI for accessibility.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 16,
+          "data": "A. Large touch targets",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 16,
+          "data": "B. Screen reader support",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 16,
+          "data": "C. Dynamic Colors",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 16,
+          "data": "D. High-contrast UI",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [53, 54, 56],
+        "answer": ["A. Large touch targets", "B. Screen reader support", "D. High-contrast UI"],
+        "explanation": "Wear OS apps require large touch targets, screen reader support, and high-contrast UI for accessibility."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "True or False: Wear OS Tiles can be built using Jetpack Compose.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Wear OS Tiles can be built using Jetpack Compose with the androidx.wear.tiles library, enabling modern UI design.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 17,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 17,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [57],
+        "answer": ["A. True"],
+        "explanation": "Wear OS Tiles can be built using Jetpack Compose with the androidx.wear.tiles library, enabling modern UI design."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "What is the purpose of the TimeText composable in Wear OS?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "TimeText displays the current time in a Wear OS app, typically used within a Scaffold composable.",
+      "answerCellList": [
+        {
+          "answerId": 59,
+          "questionId": 18,
+          "data": "A. To display curved text",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 60,
+          "questionId": 18,
+          "data": "B. To show the current time",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 61,
+          "questionId": 18,
+          "data": "C. To handle navigation",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 62,
+          "questionId": 18,
+          "data": "D. To manage complications",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [60],
+        "answer": ["B. To show the current time"],
+        "explanation": "TimeText displays the current time in a Wear OS app, typically used within a Scaffold composable."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "Which Wear OS components support user interactions? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Chip, CompactChip, and ToggleChip support user interactions in Wear OS, providing clickable and toggleable UI elements.",
+      "answerCellList": [
+        {
+          "answerId": 63,
+          "questionId": 19,
+          "data": "A. Chip",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 64,
+          "questionId": 19,
+          "data": "B. CompactChip",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 65,
+          "questionId": 19,
+          "data": "C. CurvedText",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 66,
+          "questionId": 19,
+          "data": "D. ToggleChip",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [63, 64, 66],
+        "answer": ["A. Chip", "B. CompactChip", "D. ToggleChip"],
+        "explanation": "Chip, CompactChip, and ToggleChip support user interactions in Wear OS, providing clickable and toggleable UI elements."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "True or False: Wear OS apps should avoid complex layouts due to limited screen space.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Wear OS apps should use simple, glanceable layouts to optimize for limited screen space and user attention.",
+      "answerCellList": [
+        {
+          "answerId": 67,
+          "questionId": 20,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 68,
+          "questionId": 20,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [67],
+        "answer": ["A. True"],
+        "explanation": "Wear OS apps should use simple, glanceable layouts to optimize for limited screen space and user attention."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "Which Android version introduced Jetpack Compose for Wear OS?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Jetpack Compose for Wear OS was introduced with Wear OS 3, based on Android 11 (API 30).",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 21,
+          "data": "A. Android 9",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 21,
+          "data": "B. Android 10",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 21,
+          "data": "C. Android 11",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 21,
+          "data": "D. Android 12",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [71],
+        "answer": ["C. Android 11"],
+        "explanation": "Jetpack Compose for Wear OS was introduced with Wear OS 3, based on Android 11 (API 30)."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "Which tools help test Wear OS Compose apps? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "The Wear OS Emulator, Layout Validation tool, and Compose Preview help test and validate Wear OS Compose apps.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 22,
+          "data": "A. Wear OS Emulator",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 22,
+          "data": "B. Layout Validation tool",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 22,
+          "data": "C. Profiler",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 22,
+          "data": "D. Compose Preview",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [73, 74, 76],
+        "answer": ["A. Wear OS Emulator", "B. Layout Validation tool", "D. Compose Preview"],
+        "explanation": "The Wear OS Emulator, Layout Validation tool, and Compose Preview help test and validate Wear OS Compose apps."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "What is the purpose of the WearTileService in Wear OS?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "WearTileService is used to define and manage Tiles, providing quick-access surfaces in Wear OS.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 23,
+          "data": "A. To manage complications",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 23,
+          "data": "B. To define Tiles",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 23,
+          "data": "C. To handle navigation",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 23,
+          "data": "D. To display watch faces",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [78],
+        "answer": ["B. To define Tiles"],
+        "explanation": "WearTileService is used to define and manage Tiles, providing quick-access surfaces in Wear OS."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "True or False: Wear OS apps should prioritize glanceable UI designs.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Wear OS apps should prioritize glanceable UI designs to provide quick, easy-to-read information on small screens.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 24,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 24,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [81],
+        "answer": ["A. True"],
+        "explanation": "Wear OS apps should prioritize glanceable UI designs to provide quick, easy-to-read information on small screens."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "Which composable is used for toggle controls in Wear OS?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explaination": "ToggleChip provides toggle controls, such as switches or checkboxes, for Wear OS apps.",
+      "answerCellList": [
+        {
+          "answerId": 83,
+          "questionId": 25,
+          "data": "A. Chip",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 84,
+          "questionId": 25,
+          "data": "B. ToggleChip",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 85,
+          "questionId": 25,
+          "data": "C. CompactChip",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 86,
+          "questionId": 25,
+          "data": "D. TitleCard",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [84],
+        "answer": ["B. ToggleChip"],
+        "explanation": "ToggleChip provides toggle controls, such as switches or checkboxes, for Wear OS apps."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "Which Wear OS features benefit from Jetpack Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Jetpack Compose enhances app UI, Tiles, and complications in Wear OS with modern, declarative UI design.",
+      "answerCellList": [
+        {
+          "answerId": 87,
+          "questionId": 26,
+          "data": "A. App UI",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 88,
+          "questionId": 26,
+          "data": "B. Tiles",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 89,
+          "questionId": 26,
+          "data": "C. Notifications",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 90,
+          "questionId": 26,
+          "data": "D. Complications",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [87, 88, 90],
+        "answer": ["A. App UI", "B. Tiles", "D. Complications"],
+        "explanation": "Jetpack Compose enhances app UI, Tiles, and complications in Wear OS with modern, declarative UI design."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "What is the purpose of the WearableRecyclerView in Wear OS?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "WearableRecyclerView is not used in Jetpack Compose; ScalingLazyColumn is the preferred composable for scrollable lists in Wear OS Compose.",
+      "answerCellList": [
+        {
+          "answerId": 91,
+          "questionId": 27,
+          "data": "A. To display curved text",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 92,
+          "questionId": 27,
+          "data": "B. To handle scrollable lists",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 93,
+          "questionId": 27,
+          "data": "C. To manage complications",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 94,
+          "questionId": 27,
+          "data": "D. Not used in Compose",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [94],
+        "answer": ["D. Not used in Compose"],
+        "explanation": "WearableRecyclerView is not used in Jetpack Compose; ScalingLazyColumn is the preferred composable for scrollable lists in Wear OS Compose."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "True or False: Wear OS Compose apps should avoid animations to save battery.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Wear OS Compose apps should use minimal and purposeful animations to conserve battery life on wearable devices.",
+      "answerCellList": [
+        {
+          "answerId": 95,
+          "questionId": 28,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 96,
+          "questionId": 28,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [95],
+        "answer": ["A. True"],
+        "explanation": "Wear OS Compose apps should use minimal and purposeful animations to conserve battery life on wearable devices."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "Which composable displays a title and content in a card-like UI for Wear OS?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "TitleCard displays a title and content in a card-like UI, optimized for Wear OS’s small screens.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 29,
+          "data": "A. Chip",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 29,
+          "data": "B. TitleCard",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 29,
+          "data": "C. CompactChip",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 29,
+          "data": "D. CurvedText",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [98],
+        "answer": ["B. TitleCard"],
+        "explanation": "TitleCard displays a title and content in a card-like UI, optimized for Wear OS’s small screens."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "Which layout considerations are important for Wear OS Compose apps? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Wear OS Compose apps require round screen support, square screen support, and minimal layouts for optimal usability.",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 30,
+          "data": "A. Round screen support",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 30,
+          "data": "B. Square screen support",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 30,
+          "data": "C. Complex animations",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 30,
+          "data": "D. Minimal layouts",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [101, 102, 104],
+        "answer": ["A. Round screen support", "B. Square screen support", "D. Minimal layouts"],
+        "explanation": "Wear OS Compose apps require round screen support, square screen support, and minimal layouts for optimal usability."
+      }
+    }
+  ]
+}

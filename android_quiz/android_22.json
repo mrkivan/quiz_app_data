@@ -1,0 +1,1213 @@
+{
+  "total": 30,
+  "items": [
+    {
+      "questionId": 1,
+      "question": "Which Jetpack Compose API is used to run a coroutine when a composable enters the composition?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LaunchedEffect is used to run a coroutine when a composable enters the composition, scoped to the composable’s lifecycle.",
+      "answerCellList": [
+        {
+          "answerId": 1,
+          "questionId": 1,
+          "data": "A. SideEffect",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 2,
+          "questionId": 1,
+          "data": "B. LaunchedEffect",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 3,
+          "questionId": 1,
+          "data": "C. DisposableEffect",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 4,
+          "questionId": 1,
+          "data": "D. rememberCoroutineScope",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 1,
+        "answerId": [2],
+        "answer": ["B. LaunchedEffect"],
+        "explanation": "LaunchedEffect is used to run a coroutine when a composable enters the composition, scoped to the composable’s lifecycle."
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which side effect APIs require a key to control re-execution? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LaunchedEffect and DisposableEffect use keys to determine when their blocks should re-execute or clean up.",
+      "answerCellList": [
+        {
+          "answerId": 5,
+          "questionId": 2,
+          "data": "A. LaunchedEffect",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 6,
+          "questionId": 2,
+          "data": "B. SideEffect",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 7,
+          "questionId": 2,
+          "data": "C. DisposableEffect",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 8,
+          "questionId": 2,
+          "data": "D. rememberCoroutineScope",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 2,
+        "answerId": [5, 7],
+        "answer": ["A. LaunchedEffect", "C. DisposableEffect"],
+        "explanation": "LaunchedEffect and DisposableEffect use keys to determine when their blocks should re-execute or clean up."
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "True or False: SideEffect runs on every recomposition of a composable.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "SideEffect runs on every successful recomposition of a composable, making it suitable for non-idempotent operations.",
+      "answerCellList": [
+        {
+          "answerId": 9,
+          "questionId": 3,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 10,
+          "questionId": 3,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 3,
+        "answerId": [9],
+        "answer": ["A. True"],
+        "explanation": "SideEffect runs on every successful recomposition of a composable, making it suitable for non-idempotent operations."
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "What is the purpose of rememberCoroutineScope in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "rememberCoroutineScope provides a CoroutineScope tied to the composable’s lifecycle for launching coroutines outside of composition.",
+      "answerCellList": [
+        {
+          "answerId": 11,
+          "questionId": 4,
+          "data": "A. To manage UI layouts",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 12,
+          "questionId": 4,
+          "data": "B. To launch coroutines in a composable",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 13,
+          "questionId": 4,
+          "data": "C. To handle animations",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 14,
+          "questionId": 4,
+          "data": "D. To clean up resources",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 4,
+        "answerId": [12],
+        "answer": ["B. To launch coroutines in a composable"],
+        "explanation": "rememberCoroutineScope provides a CoroutineScope tied to the composable’s lifecycle for launching coroutines outside of composition."
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "Which side effect APIs are suitable for handling lifecycle-aware operations? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LaunchedEffect, DisposableEffect, and rememberCoroutineScope are lifecycle-aware, tying their operations to the composable’s lifecycle.",
+      "answerCellList": [
+        {
+          "answerId": 15,
+          "questionId": 5,
+          "data": "A. LaunchedEffect",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 16,
+          "questionId": 5,
+          "data": "B. SideEffect",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 17,
+          "questionId": 5,
+          "data": "C. DisposableEffect",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 18,
+          "questionId": 5,
+          "data": "D. rememberCoroutineScope",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 5,
+        "answerId": [15, 17, 18],
+        "answer": ["A. LaunchedEffect", "C. DisposableEffect", "D. rememberCoroutineScope"],
+        "explanation": "LaunchedEffect, DisposableEffect, and rememberCoroutineScope are lifecycle-aware, tying their operations to the composable’s lifecycle."
+      }
+    },
+    {
+      "questionId": 6,
+      "question": "True or False: DisposableEffect is used to clean up resources when a composable leaves the composition.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "DisposableEffect is used to set up resources when a composable enters the composition and clean them up when it leaves.",
+      "answerCellList": [
+        {
+          "answerId": 19,
+          "questionId": 6,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 20,
+          "questionId": 6,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 6,
+        "answerId": [19],
+        "answer": ["A. True"],
+        "explanation": "DisposableEffect is used to set up resources when a composable enters the composition and clean them up when it leaves."
+      }
+    },
+    {
+      "questionId": 7,
+      "question": "Which API is used to convert a Flow into a State object in Jetpack Compose?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "produceState converts a Flow or other asynchronous data source into a State object that Compose can observe.",
+      "answerCellList": [
+        {
+          "answerId": 21,
+          "questionId": 7,
+          "data": "A. snapshotFlow",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 22,
+          "questionId": 7,
+          "data": "B. produceState",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 23,
+          "questionId": 7,
+          "data": "C. derivedStateOf",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 24,
+          "questionId": 7,
+          "data": "D. remember",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 7,
+        "answerId": [22],
+        "answer": ["B. produceState"],
+        "explanation": "produceState converts a Flow or other asynchronous data source into a State object that Compose can observe."
+      }
+    },
+    {
+      "questionId": 8,
+      "question": "Which side effects are safe to use for non-UI operations? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "SideEffect and rememberCoroutineScope are suitable for non-UI operations like analytics or logging, as they don’t directly affect UI rendering.",
+      "answerCellList": [
+        {
+          "answerId": 25,
+          "questionId": 8,
+          "data": "A. LaunchedEffect",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 26,
+          "questionId": 8,
+          "data": "B. SideEffect",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 27,
+          "questionId": 8,
+          "data": "C. DisposableEffect",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 28,
+          "questionId": 8,
+          "data": "D. rememberCoroutineScope",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 8,
+        "answerId": [26, 28],
+        "answer": ["B. SideEffect", "D. rememberCoroutineScope"],
+        "explanation": "SideEffect and rememberCoroutineScope are suitable for non-UI operations like analytics or logging, as they don’t directly affect UI rendering."
+      }
+    },
+    {
+      "questionId": 9,
+      "question": "What happens if no key is provided to LaunchedEffect?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "If no key is provided to LaunchedEffect, the coroutine runs on every recomposition, which may lead to unintended behavior.",
+      "answerCellList": [
+        {
+          "answerId": 29,
+          "questionId": 9,
+          "data": "A. It runs only once",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 30,
+          "questionId": 9,
+          "data": "B. It runs on every recomposition",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 31,
+          "questionId": 9,
+          "data": "C. It never runs",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 32,
+          "questionId": 9,
+          "data": "D. It crashes the app",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 9,
+        "answerId": [30],
+        "answer": ["B. It runs on every recomposition"],
+        "explanation": "If no key is provided to LaunchedEffect, the coroutine runs on every recomposition, which may lead to unintended behavior."
+      }
+    },
+    {
+      "questionId": 10,
+      "question": "True or False: snapshotFlow converts a State object into a Flow.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "snapshotFlow converts a Compose State or MutableState object into a Flow, emitting updates when the state changes.",
+      "answerCellList": [
+        {
+          "answerId": 33,
+          "questionId": 10,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 34,
+          "questionId": 10,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 10,
+        "answerId": [33],
+        "answer": ["A. True"],
+        "explanation": "snapshotFlow converts a Compose State or MutableState object into a Flow, emitting updates when the state changes."
+      }
+    },
+    {
+      "questionId": 11,
+      "question": "Which API is used to compute a value based on other State objects?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "derivedStateOf computes a value based on other State objects, updating only when dependencies change.",
+      "answerCellList": [
+        {
+          "answerId": 35,
+          "questionId": 11,
+          "data": "A. produceState",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 36,
+          "questionId": 11,
+          "data": "B. derivedStateOf",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 37,
+          "questionId": 11,
+          "data": "C. snapshotFlow",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 38,
+          "questionId": 11,
+          "data": "D. remember",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 11,
+        "answerId": [36],
+        "answer": ["B. derivedStateOf"],
+        "explanation": "derivedStateOf computes a value based on other State objects, updating only when dependencies change."
+      }
+    },
+    {
+      "questionId": 12,
+      "question": "Which side effects are used for handling asynchronous data fetching? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LaunchedEffect and produceState are commonly used for asynchronous data fetching in Jetpack Compose.",
+      "answerCellList": [
+        {
+          "answerId": 39,
+          "questionId": 12,
+          "data": "A. LaunchedEffect",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 40,
+          "questionId": 12,
+          "data": "B. SideEffect",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 41,
+          "questionId": 12,
+          "data": "C. produceState",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 42,
+          "questionId": 12,
+          "data": "D. DisposableEffect",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 12,
+        "answerId": [39, 41],
+        "answer": ["A. LaunchedEffect", "C. produceState"],
+        "explanation": "LaunchedEffect and produceState are commonly used for asynchronous data fetching in Jetpack Compose."
+      }
+    },
+    {
+      "questionId": 13,
+      "question": "What is the primary use case for SideEffect?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "SideEffect is used for non-idempotent operations like logging or updating external state on every recomposition.",
+      "answerCellList": [
+        {
+          "answerId": 43,
+          "questionId": 13,
+          "data": "A. Asynchronous data fetching",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 44,
+          "questionId": 13,
+          "data": "B. Non-idempotent operations",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 45,
+          "questionId": 13,
+          "data": "C. Resource cleanup",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 46,
+          "questionId": 13,
+          "data": "D. State computation",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 13,
+        "answerId": [44],
+        "answer": ["B. Non-idempotent operations"],
+        "explanation": "SideEffect is used for non-idempotent operations like logging or updating external state on every recomposition."
+      }
+    },
+    {
+      "questionId": 14,
+      "question": "True or False: LaunchedEffect cancels its coroutine when the composable leaves the composition.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LaunchedEffect automatically cancels its coroutine when the composable leaves the composition, ensuring lifecycle safety.",
+      "answerCellList": [
+        {
+          "answerId": 47,
+          "questionId": 14,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 48,
+          "questionId": 14,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 14,
+        "answerId": [47],
+        "answer": ["A. True"],
+        "explanation": "LaunchedEffect automatically cancels its coroutine when the composable leaves the composition, ensuring lifecycle safety."
+      }
+    },
+    {
+      "questionId": 15,
+      "question": "Which APIs are used to observe state changes in Jetpack Compose? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "snapshotFlow and derivedStateOf are used to observe and react to state changes in Jetpack Compose.",
+      "answerCellList": [
+        {
+          "answerId": 49,
+          "questionId": 15,
+          "data": "A. snapshotFlow",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 50,
+          "questionId": 15,
+          "data": "B. produceState",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 51,
+          "questionId": 15,
+          "data": "C. derivedStateOf",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 52,
+          "questionId": 15,
+          "data": "D. SideEffect",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 15,
+        "answerId": [49, 51],
+        "answer": ["A. snapshotFlow", "C. derivedStateOf"],
+        "explanation": "snapshotFlow and derivedStateOf are used to observe and react to state changes in Jetpack Compose."
+      }
+    },
+    {
+      "questionId": 16,
+      "question": "What is the purpose of DisposableEffect?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "DisposableEffect sets up resources when a composable enters and cleans them up when it leaves the composition.",
+      "answerCellList": [
+        {
+          "answerId": 53,
+          "questionId": 16,
+          "data": "A. To launch coroutines",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 54,
+          "questionId": 16,
+          "data": "B. To manage resource lifecycle",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 55,
+          "questionId": 16,
+          "data": "C. To compute state",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 56,
+          "questionId": 16,
+          "data": "D. To handle animations",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 16,
+        "answerId": [54],
+        "answer": ["B. To manage resource lifecycle"],
+        "explanation": "DisposableEffect sets up resources when a composable enters and cleans them up when it leaves the composition."
+      }
+    },
+    {
+      "questionId": 17,
+      "question": "True or False: produceState is lifecycle-aware.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "produceState is lifecycle-aware, automatically stopping its coroutine when the composable leaves the composition.",
+      "answerCellList": [
+        {
+          "answerId": 57,
+          "questionId": 17,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 58,
+          "questionId": 17,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 17,
+        "answerId": [57],
+        "answer": ["A. True"],
+        "explanation": "produceState is lifecycle-aware, automatically stopping its coroutine when the composable leaves the composition."
+      }
+    },
+    {
+      "questionId": 18,
+      "question": "Which API is used to launch a coroutine outside of composition?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "rememberCoroutineScope provides a CoroutineScope for launching coroutines outside of composition, such as in response to user events.",
+      "answerCellList": [
+        {
+          "answerId": 59,
+          "questionId": 18,
+          "data": "A. LaunchedEffect",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 60,
+          "questionId": 18,
+          "data": "B. rememberCoroutineScope",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 61,
+          "questionId": 18,
+          "data": "C. DisposableEffect",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 62,
+          "questionId": 18,
+          "data": "D. SideEffect",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 18,
+        "answerId": [60],
+        "answer": ["B. rememberCoroutineScope"],
+        "explanation": "rememberCoroutineScope provides a CoroutineScope for launching coroutines outside of composition, such as in response to user events."
+      }
+    },
+    {
+      "questionId": 19,
+      "question": "Which side effects are tied to the composable’s lifecycle? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LaunchedEffect, DisposableEffect, produceState, and rememberCoroutineScope are tied to the composable’s lifecycle.",
+      "answerCellList": [
+        {
+          "answerId": 63,
+          "questionId": 19,
+          "data": "A. LaunchedEffect",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 64,
+          "questionId": 19,
+          "data": "B. SideEffect",
+          "isItAnswer": false,
+          "position": 2
+        },
+        {
+          "answerId": 65,
+          "questionId": 19,
+          "data": "C. produceState",
+          "isItAnswer": true,
+          "position": 3
+        },
+        {
+          "answerId": 66,
+          "questionId": 19,
+          "data": "D. rememberCoroutineScope",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 19,
+        "answerId": [63, 65, 66],
+        "answer": ["A. LaunchedEffect", "C. produceState", "D. rememberCoroutineScope"],
+        "explanation": "LaunchedEffect, DisposableEffect, produceState, and rememberCoroutineScope are tied to the composable’s lifecycle."
+      }
+    },
+    {
+      "questionId": 20,
+      "question": "True or False: derivedStateOf recomputes only when its dependencies change.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "derivedStateOf recomputes its value only when its dependent State objects change, optimizing performance.",
+      "answerCellList": [
+        {
+          "answerId": 67,
+          "questionId": 20,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 68,
+          "questionId": 20,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 20,
+        "answerId": [67],
+        "answer": ["A. True"],
+        "explanation": "derivedStateOf recomputes its value only when its dependent State objects change, optimizing performance."
+      }
+    },
+    {
+      "questionId": 21,
+      "question": "Which API is used to perform a one-time side effect when specific keys change?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LaunchedEffect runs a one-time side effect when its keys change, scoped to the composable’s lifecycle.",
+      "answerCellList": [
+        {
+          "answerId": 69,
+          "questionId": 21,
+          "data": "A. SideEffect",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 70,
+          "questionId": 21,
+          "data": "B. LaunchedEffect",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 71,
+          "questionId": 21,
+          "data": "C. rememberCoroutineScope",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 72,
+          "questionId": 21,
+          "data": "D. produceState",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 21,
+        "answerId": [70],
+        "answer": ["B. LaunchedEffect"],
+        "explanation": "LaunchedEffect runs a one-time side effect when its keys change, scoped to the composable’s lifecycle."
+      }
+    },
+    {
+      "questionId": 22,
+      "question": "Which side effects are used for managing resources like listeners? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "DisposableEffect and LaunchedEffect are used for managing resources like listeners, with DisposableEffect handling cleanup.",
+      "answerCellList": [
+        {
+          "answerId": 73,
+          "questionId": 22,
+          "data": "A. DisposableEffect",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 74,
+          "questionId": 22,
+          "data": "B. LaunchedEffect",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 75,
+          "questionId": 22,
+          "data": "C. SideEffect",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 76,
+          "questionId": 22,
+          "data": "D. produceState",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 22,
+        "answerId": [73, 74],
+        "answer": ["A. DisposableEffect", "B. LaunchedEffect"],
+        "explanation": "DisposableEffect and LaunchedEffect are used for managing resources like listeners, with DisposableEffect handling cleanup."
+      }
+    },
+    {
+      "questionId": 23,
+      "question": "What happens to a coroutine launched with rememberCoroutineScope when the composable leaves the composition?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "Coroutines launched with rememberCoroutineScope are cancelled when the composable leaves the composition.",
+      "answerCellList": [
+        {
+          "answerId": 77,
+          "questionId": 23,
+          "data": "A. It continues running",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 78,
+          "questionId": 23,
+          "data": "B. It is cancelled",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 79,
+          "questionId": 23,
+          "data": "C. It pauses",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 80,
+          "questionId": 23,
+          "data": "D. It crashes the app",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 23,
+        "answerId": [78],
+        "answer": ["B. It is cancelled"],
+        "explanation": "Coroutines launched with rememberCoroutineScope are cancelled when the composable leaves the composition."
+      }
+    },
+    {
+      "questionId": 24,
+      "question": "True or False: SideEffect is suitable for launching coroutines.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "SideEffect is not suitable for launching coroutines, as it is meant for non-idempotent operations and runs synchronously on recomposition.",
+      "answerCellList": [
+        {
+          "answerId": 81,
+          "questionId": 24,
+          "data": "A. True",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 82,
+          "questionId": 24,
+          "data": "B. False",
+          "isItAnswer": true,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 24,
+        "answerId": [82],
+        "answer": ["B. False"],
+        "explanation": "SideEffect is not suitable for launching coroutines, as it is meant for non-idempotent operations and runs synchronously on recomposition."
+      }
+    },
+    {
+      "questionId": 25,
+      "question": "Which API is used to observe a Flow and trigger recomposition?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "produceState observes a Flow and converts it into a State object, triggering recomposition when the Flow emits new values.",
+      "answerCellList": [
+        {
+          "answerId": 83,
+          "questionId": 25,
+          "data": "A. snapshotFlow",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 84,
+          "questionId": 25,
+          "data": "B. produceState",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 85,
+          "questionId": 25,
+          "data": "C. derivedStateOf",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 86,
+          "questionId": 25,
+          "data": "D. LaunchedEffect",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 25,
+        "answerId": [84],
+        "answer": ["B. produceState"],
+        "explanation": "produceState observes a Flow and converts it into a State object, triggering recomposition when the Flow emits new values."
+      }
+    },
+    {
+      "questionId": 26,
+      "question": "Which side effects are used for handling UI-related operations? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "LaunchedEffect, produceState, and derivedStateOf are used for UI-related operations like data fetching and state computation.",
+      "answerCellList": [
+        {
+          "answerId": 87,
+          "questionId": 26,
+          "data": "A. LaunchedEffect",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 88,
+          "questionId": 26,
+          "data": "B. produceState",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 89,
+          "questionId": 26,
+          "data": "C. SideEffect",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 90,
+          "questionId": 26,
+          "data": "D. derivedStateOf",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 26,
+        "answerId": [87, 88, 90],
+        "answer": ["A. LaunchedEffect", "B. produceState", "D. derivedStateOf"],
+        "explanation": "LaunchedEffect, produceState, and derivedStateOf are used for UI-related operations like data fetching and state computation."
+      }
+    },
+    {
+      "questionId": 27,
+      "question": "What is the purpose of snapshotFlow?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "snapshotFlow converts a Compose State or MutableState object into a Flow, emitting updates when the state changes.",
+      "answerCellList": [
+        {
+          "answerId": 91,
+          "questionId": 27,
+          "data": "A. To compute derived state",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 92,
+          "questionId": 27,
+          "data": "B. To convert State to Flow",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 93,
+          "questionId": 27,
+          "data": "C. To launch coroutines",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 94,
+          "questionId": 27,
+          "data": "D. To clean up resources",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 27,
+        "answerId": [92],
+        "answer": ["B. To convert State to Flow"],
+        "explanation": "snapshotFlow converts a Compose State or MutableState object into a Flow, emitting updates when the state changes."
+      }
+    },
+    {
+      "questionId": 28,
+      "question": "True or False: DisposableEffect requires an onDispose block.",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "DisposableEffect requires an onDispose block to define cleanup logic when the composable leaves the composition.",
+      "answerCellList": [
+        {
+          "answerId": 95,
+          "questionId": 28,
+          "data": "A. True",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 96,
+          "questionId": 28,
+          "data": "B. False",
+          "isItAnswer": false,
+          "position": 2
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 28,
+        "answerId": [95],
+        "answer": ["A. True"],
+        "explanation": "DisposableEffect requires an onDispose block to define cleanup logic when the composable leaves the composition."
+      }
+    },
+    {
+      "questionId": 29,
+      "question": "Which API is best for handling button click events with coroutines?",
+      "answerCellType": 0,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "rememberCoroutineScope is best for handling button click events with coroutines, as it allows launching coroutines outside composition.",
+      "answerCellList": [
+        {
+          "answerId": 97,
+          "questionId": 29,
+          "data": "A. LaunchedEffect",
+          "isItAnswer": false,
+          "position": 1
+        },
+        {
+          "answerId": 98,
+          "questionId": 29,
+          "data": "B. rememberCoroutineScope",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 99,
+          "questionId": 29,
+          "data": "C. SideEffect",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 100,
+          "questionId": 29,
+          "data": "D. produceState",
+          "isItAnswer": false,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 29,
+        "answerId": [98],
+        "answer": ["B. rememberCoroutineScope"],
+        "explanation": "rememberCoroutineScope is best for handling button click events with coroutines, as it allows launching coroutines outside composition."
+      }
+    },
+    {
+      "questionId": 30,
+      "question": "Which APIs are used for reactive state management? (Select all that apply)",
+      "answerCellType": 1,
+      "selectedOptions": null,
+      "answerSectionTitle": null,
+      "explanation": "produceState, snapshotFlow, and derivedStateOf are used for reactive state management in Jetpack Compose.",
+      "answerCellList": [
+        {
+          "answerId": 101,
+          "questionId": 30,
+          "data": "A. produceState",
+          "isItAnswer": true,
+          "position": 1
+        },
+        {
+          "answerId": 102,
+          "questionId": 30,
+          "data": "B. snapshotFlow",
+          "isItAnswer": true,
+          "position": 2
+        },
+        {
+          "answerId": 103,
+          "questionId": 30,
+          "data": "C. SideEffect",
+          "isItAnswer": false,
+          "position": 3
+        },
+        {
+          "answerId": 104,
+          "questionId": 30,
+          "data": "D. derivedStateOf",
+          "isItAnswer": true,
+          "position": 4
+        }
+      ],
+      "correctAnswer": {
+        "questionId": 30,
+        "answerId": [101, 102, 104],
+        "answer": ["A. produceState", "B. snapshotFlow", "D. derivedStateOf"],
+        "explanation": "produceState, snapshotFlow, and derivedStateOf are used for reactive state management in Jetpack Compose."
+      }
+    }
+  ]
+}
