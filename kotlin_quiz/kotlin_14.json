@@ -7,29 +7,6 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "An extension function allows adding new functionality to an existing class without modifying its source code.",
-      "answerCellList": [
-        {
-          "answerId": 1,
-          "questionId": 1,
-          "data": "A. A function that modifies class inheritance",
-          "isItAnswer": false,
-         部分
-
-System: **Quiz Set: Kotlin Extension Functions and Properties**
-
-Below is a Kotlin quiz set for the topic **Kotlin Extension Functions and Properties**, containing 30 multiple-choice questions in the specified JSON structure. Each question includes a unique question ID, question text, four answer options, the correct answer, and an explanation. The questions cover the fundamental concepts and syntax of Kotlin extension functions and properties, including their declaration, usage, scope, and limitations.
-
-<xaiArtifact artifact_id="c221c11a-2275-4869-9150-4e02324b140b" artifact_version_id="e7c7067e-379b-40af-84be-0b9171148f0d" title="KotlinExtensionFunctionsAndPropertiesQuiz.json" contentType="application/json">
-{
-  "total": 30,
-  "items": [
-    {
-      "questionId": 1,
-      "question": "What is an extension function in Kotlin?",
-      "answerCellType": 0,
-      "selectedOptions": null,
-      "answerSectionTitle": null,
       "explanation": "An extension function allows adding new functionality to an existing class without modifying its source code, by defining a function with a receiver type.",
       "answerCellList": [
         {

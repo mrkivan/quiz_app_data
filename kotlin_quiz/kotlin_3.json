@@ -614,12 +614,6 @@
         "questionId": 14,
         "answerId": [54],
         "answer": ["B. Returns Unit"],
-        "ex
-
-System: {
-        "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Returns Unit"],
         "explanation": "If no return type is specified, the function implicitly returns 'Unit'."
       }
     },
@@ -694,9 +688,10 @@ System: {
           "questionId": 16,
           "data": "C. Declares a function with no return",
           "isItAnswer": false,
-          "positionեղ
-
-System: {
+          "position": 3
+        }
+      ],
+      "correctAnswer": {
         "questionId": 16,
         "answerId": [62],
         "answer": ["B. Optimizes recursive functions"],

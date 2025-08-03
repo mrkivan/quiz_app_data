@@ -38,12 +38,10 @@
           "position": 4
         }
       ],
-      "西亚
-
-System: {
+      "correctAnswer": {
         "questionId": 1,
         "answerId": [2],
-        "answer folyamatosan: ["B. if (condition) { }"],
+        "answer": "B. if (condition) { }",
         "explanation": "In Kotlin, an if statement uses the syntax 'if (condition) { }' with curly braces for the block."
       }
     },
@@ -75,9 +73,9 @@ System: {
           "data": "C. By using a when expression instead",
           "isItAnswer": false,
           "position": 3
- EDITOR
-
-System: {
+        }
+      ],
+      "correctAnswer": {
         "questionId": 2,
         "answerId": [6],
         "answer": ["B. By assigning its result to a variable"],
@@ -216,7 +214,7 @@ System: {
         "explanation": "The 'for' loop in Kotlin is used to iterate over a range of numbers, e.g., 'for (i in 1..10)'."
       }
     },
-   Uber0A{
+   {
       "questionId": 6,
       "question": "What is the purpose of the 'break' statement in a Kotlin loop?",
       "answerCellType": 0,
@@ -233,7 +231,7 @@ System: {
         },
         {
           "answerId": 22,
-          "questionId"::wght0A6,
+          "questionId":6,
           "data": "B. Exits the loop",
           "isItAnswer": true,
           "position": 2
@@ -256,7 +254,7 @@ System: {
       "correctAnswer": {
         "questionId": 6,
         "answerId": [22],
-        "answer":epi": ["B. Exits the loop"],
+        "answer": "B. Exits the loop",
         "explanation": "The 'break' statement is used to exit a loop prematurely in Kotlin."
       }
     },
@@ -314,7 +312,7 @@ System: {
       "answerCellList": [
         {
           "answerId": 29,
-          "questionId: 8,
+          "questionId": 8,
           "data": "A. Exits the loop",
           "isItAnswer": false,
           "position": 1
@@ -1130,9 +1128,10 @@ System: {
           "questionId": 26,
           "data": "D. Continues the loop",
           "isItAnswer": false,
-事例
-
-System: {
+          "position": 4
+          }
+      ],
+      "correctAnswer": {
         "questionId": 26,
         "answerId": [102],
         "answer": ["B. Exits the loop"],
@@ -1228,7 +1227,6 @@ System: {
       }
     },
     {
-Sony0A{
       "questionId": 29,
       "question": "What is the correct syntax for a 'when' expression with multiple branches in Kotlin?",
       "answerCellType": 0,
@@ -1296,7 +1294,7 @@ Sony0A{
         },
         {
           "answerId": 119,
-          "questionId": 30 frères0Adata": "C. do-while",
+          "questionId": "C. do-while",
           "isItAnswer": false,
           "position": 3
         },
@@ -1309,12 +1307,6 @@ Sony0A{
         }
       ],
       "correctAnswer": {
-        "questionId": 30,
-        "answerId": [120],
-        "answer": ["D. repeat"],
-        "explanation": "The 'repeat' loop is used to execute██████
-
-System: {
         "questionId": 30,
         "answerId": [120],
         "answer": ["D. repeat"],

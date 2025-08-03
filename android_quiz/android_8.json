@@ -95,7 +95,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "Jetpack Glance uses the Jetpack Compose runtime to translate composables into RemoteViews for widgets.",[](https://developer.android.com/develop/ui/compose/glance)
+      "explanation": "Jetpack Glance uses the Jetpack Compose runtime to translate composables into RemoteViews for widgets.",
       "answerCellList": [
         {
           "answerId": 9,
@@ -116,7 +116,7 @@
         "questionId": 3,
         "answerId": [9],
         "answer": ["A. True"],
-        "explanation": "Jetpack Glance uses the Jetpack Compose runtime to translate composables into RemoteViews for widgets."[](https://developer.android.com/develop/ui/compose/glance)
+        "explanation": "Jetpack Glance uses the Jetpack Compose runtime to translate composables into RemoteViews for widgets."
       }
     },
     {
@@ -125,7 +125,7 @@
       "answerCellType": 1,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "Column, Row, and Text are Glance composables, while MaterialTheme is a Jetpack Compose theming component, not used in Glance.",[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+      "explanation": "Column, Row, and Text are Glance composables, while MaterialTheme is a Jetpack Compose theming component, not used in Glance.",
       "answerCellList": [
         {
           "answerId": 11,
@@ -160,7 +160,7 @@
         "questionId": 4,
         "answerId": [11, 12, 14],
         "answer": ["A. Column", "B. Row", "D. Text"],
-        "explanation": "Column, Row, and Text are Glance composables, while MaterialTheme is a Jetpack Compose theming component, not used in Glance."[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+        "explanation": "Column, Row, and Text are Glance composables, while MaterialTheme is a Jetpack Compose theming component, not used in Glance."
       }
     },
     {
@@ -169,7 +169,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "The provideGlance method is overridden to define the composable UI for a Glance widget.",[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+      "explanation": "The provideGlance method is overridden to define the composable UI for a Glance widget.",
       "answerCellList": [
         {
           "answerId": 15,
@@ -204,7 +204,7 @@
         "questionId": 5,
         "answerId": [16],
         "answer": ["B. provideGlance"],
-        "explanation": "The provideGlance method is overridden to define the composable UI for a Glance widget."[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+        "explanation": "The provideGlance method is overridden to define the composable UI for a Glance widget."
       }
     },
     {
@@ -213,7 +213,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "Glance composables are not directly interoperable with Jetpack Compose UI elements due to their translation into RemoteViews.",[](https://developer.android.com/develop/ui/compose/glance)
+      "explanation": "Glance composables are not directly interoperable with Jetpack Compose UI elements due to their translation into RemoteViews.",
       "answerCellList": [
         {
           "answerId": 19,
@@ -234,7 +234,7 @@
         "questionId": 6,
         "answerId": [20],
         "answer": ["B. False"],
-        "explanation": "Glance composables are not directly interoperable with Jetpack Compose UI elements due to their translation into RemoteViews."[](https://developer.android.com/develop/ui/compose/glance)
+        "explanation": "Glance composables are not directly interoperable with Jetpack Compose UI elements due to their translation into RemoteViews."
       }
     },
     {
@@ -243,7 +243,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "SizeMode.Responsive allows a widget to support a predefined set of sizes for responsive layouts.",[](https://www.droidcon.com/2022/02/01/app-widgets-in-android-with-glance/)
+      "explanation": "SizeMode.Responsive allows a widget to support a predefined set of sizes for responsive layouts.",
       "answerCellList": [
         {
           "answerId": 21,
@@ -278,7 +278,7 @@
         "questionId": 7,
         "answerId": [23],
         "answer": ["C. SizeMode.Responsive"],
-        "explanation": "SizeMode.Responsive allows a widget to support a predefined set of sizes for responsive layouts."[](https://www.droidcon.com/2022/02/01/app-widgets-in-android-with-glance/)
+        "explanation": "SizeMode.Responsive allows a widget to support a predefined set of sizes for responsive layouts."
       }
     },
     {
@@ -287,7 +287,7 @@
       "answerCellType": 1,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "actionRunCallback, actionStartActivity, and actionSendBroadcast are predefined actions in Glance, while actionUpdateWidget is not.",[](https://medium.com/better-programming/android-app-widgets-with-glance-9e881f40c636)
+      "explanation": "actionRunCallback, actionStartActivity, and actionSendBroadcast are predefined actions in Glance, while actionUpdateWidget is not.",
       "answerCellList": [
         {
           "answerId": 25,
@@ -322,7 +322,7 @@
         "questionId": 8,
         "answerId": [25, 26, 28],
         "answer": ["A. actionRunCallback", "B. actionStartActivity", "D. actionSendBroadcast"],
-        "explanation": "actionRunCallback, actionStartActivity, and actionSendBroadcast are predefined actions in Glance, while actionUpdateWidget is not."[](https://medium.com/better-programming/android-app-widgets-with-glance-9e881f40c636)
+        "explanation": "actionRunCallback, actionStartActivity, and actionSendBroadcast are predefined actions in Glance, while actionUpdateWidget is not."
       }
     },
     {
@@ -331,7 +331,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "The appwidget-provider XML file defines metadata like minWidth, minHeight, and initialLayout for a Glance widget.",[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+      "explanation": "The appwidget-provider XML file defines metadata like minWidth, minHeight, and initialLayout for a Glance widget.",
       "answerCellList": [
         {
           "answerId": 29,
@@ -366,7 +366,7 @@
         "questionId": 9,
         "answerId": [30],
         "answer": ["B. appwidget-provider"],
-        "explanation": "The appwidget-provider XML file defines metadata like minWidth, minHeight, and initialLayout for a Glance widget."[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+        "explanation": "The appwidget-provider XML file defines metadata like minWidth, minHeight, and initialLayout for a Glance widget."
       }
     },
     {
@@ -375,7 +375,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "Glance depends on the Jetpack Compose runtime, so Compose must be enabled in the project.",[](https://developer.android.com/develop/ui/compose/glance)
+      "explanation": "Glance depends on the Jetpack Compose runtime, so Compose must be enabled in the project.",
       "answerCellList": [
         {
           "answerId": 33,
@@ -396,7 +396,7 @@
         "questionId": 10,
         "answerId": [33],
         "answer": ["A. True"],
-        "explanation": "Glance depends on the Jetpack Compose runtime, so Compose must be enabled in the project."[](https://developer.android.com/develop/ui/compose/glance)
+        "explanation": "Glance depends on the Jetpack Compose runtime, so Compose must be enabled in the project."
       }
     },
     {
@@ -405,7 +405,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "SizeMode.Exact refreshes the widget UI every time the user resizes it.",[](https://www.droidcon.com/2022/02/01/app-widgets-in-android-with-glance/)
+      "explanation": "SizeMode.Exact refreshes the widget UI every time the user resizes it.",
       "answerCellList": [
         {
           "answerId": 35,
@@ -440,7 +440,7 @@
         "questionId": 11,
         "answerId": [36],
         "answer": ["B. SizeMode.Exact"],
-        "explanation": "SizeMode.Exact refreshes the widget UI every time the user resizes it."[](https://www.droidcon.com/2022/02/01/app-widgets-in-android-with-glance/)
+        "explanation": "SizeMode.Exact refreshes the widget UI every time the user resizes it."
       }
     },
     {
@@ -449,7 +449,7 @@
       "answerCellType": 1,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "A receiver and appwidget-provider metadata are required in the AndroidManifest.xml, while layout and activity are not specific to Glance widget setup.",[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+      "explanation": "A receiver and appwidget-provider metadata are required in the AndroidManifest.xml, while layout and activity are not specific to Glance widget setup.",
       "answerCellList": [
         {
           "answerId": 39,
@@ -484,7 +484,7 @@
         "questionId": 12,
         "answerId": [39, 41],
         "answer": ["A. receiver", "C. appwidget-provider metadata"],
-        "explanation": "A receiver and appwidget-provider metadata are required in the AndroidManifest.xml, while layout and activity are not specific to Glance widget setup."[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+        "explanation": "A receiver and appwidget-provider metadata are required in the AndroidManifest.xml, while layout and activity are not specific to Glance widget setup."
       }
     },
     {
@@ -493,7 +493,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "Column arranges elements vertically in a Glance widget, similar to Jetpack Compose.",[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+      "explanation": "Column arranges elements vertically in a Glance widget, similar to Jetpack Compose.",
       "answerCellList": [
         {
           "answerId": 43,
@@ -528,7 +528,7 @@
         "questionId": 13,
         "answerId": [44],
         "answer": ["B. Column"],
-        "explanation": "Column arranges elements vertically in a Glance widget, similar to Jetpack Compose."[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+        "explanation": "Column arranges elements vertically in a Glance widget, similar to Jetpack Compose."
       }
     },
     {
@@ -537,7 +537,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "WorkManager can be used to schedule periodic updates for Glance widgets, such as every 15 minutes.",[](https://developer.android.com/develop/ui/compose/glance/glance-app-widget)
+      "explanation": "WorkManager can be used to schedule periodic updates for Glance widgets, such as every 15 minutes.",
       "answerCellList": [
         {
           "answerId": 47,
@@ -558,7 +558,7 @@
         "questionId": 14,
         "answerId": [47],
         "answer": ["A. True"],
-        "explanation": "WorkManager can be used to schedule periodic updates for Glance widgets, such as every 15 minutes."[](https://developer.android.com/develop/ui/compose/glance/glance-app-widget)
+        "explanation": "WorkManager can be used to schedule periodic updates for Glance widgets, such as every 15 minutes."
       }
     },
     {
@@ -567,7 +567,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "GlanceModifier.fillMaxSize makes a composable fill the available space in a Glance widget.",[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+      "explanation": "GlanceModifier.fillMaxSize makes a composable fill the available space in a Glance widget.",
       "answerCellList": [
         {
           "answerId": 49,
@@ -602,7 +602,7 @@
         "questionId": 15,
         "answerId": [50],
         "answer": ["B. GlanceModifier.fillMaxSize"],
-        "explanation": "GlanceModifier.fillMaxSize makes a composable fill the available space in a Glance widget."[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+        "explanation": "GlanceModifier.fillMaxSize makes a composable fill the available space in a Glance widget."
       }
     },
     {
@@ -611,7 +611,7 @@
       "answerCellType": 1,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "Enabling Compose, adding Glance dependencies, and defining an appwidget-provider XML are required, while Room is optional.",[](https://www.droidcon.com/2023/09/05/building-a-widget-using-jetpack-glance/)
+      "explanation": "Enabling Compose, adding Glance dependencies, and defining an appwidget-provider XML are required, while Room is optional.",
       "answerCellList": [
         {
           "answerId": 53,
@@ -646,7 +646,7 @@
         "questionId": 16,
         "answerId": [53, 54, 56],
         "answer": ["A. Enable Jetpack Compose", "B. Add Glance dependencies", "D. Define appwidget-provider XML"],
-        "explanation": "Enabling Compose, adding Glance dependencies, and defining an appwidget-provider XML are required, while Room is optional."[](https://www.droidcon.com/2023/09/05/building-a-widget-using-jetpack-glance/)
+        "explanation": "Enabling Compose, adding Glance dependencies, and defining an appwidget-provider XML are required, while Room is optional."
       }
     },
     {
@@ -655,7 +655,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "Row arranges elements horizontally in a Glance widget, similar to Jetpack Compose.",[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+      "explanation": "Row arranges elements horizontally in a Glance widget, similar to Jetpack Compose.",
       "answerCellList": [
         {
           "answerId": 57,
@@ -690,7 +690,7 @@
         "questionId": 17,
         "answerId": [58],
         "answer": ["B. Row"],
-        "explanation": "Row arranges elements horizontally in a Glance widget, similar to Jetpack Compose."[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+        "explanation": "Row arranges elements horizontally in a Glance widget, similar to Jetpack Compose."
       }
     },
     {
@@ -699,7 +699,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "Glance supports interoperability with RemoteViews using AndroidRemoteViews for existing widget layouts.",[](https://www.droidcon.com/2022/02/01/app-widgets-in-android-with-glance/)
+      "explanation": "Glance supports interoperability with RemoteViews using AndroidRemoteViews for existing widget layouts.",
       "answerCellList": [
         {
           "answerId": 61,
@@ -720,7 +720,7 @@
         "questionId": 18,
         "answerId": [61],
         "answer": ["A. True"],
-        "explanation": "Glance supports interoperability with RemoteViews using AndroidRemoteViews for existing widget layouts."[](https://www.droidcon.com/2022/02/01/app-widgets-in-android-with-glance/)
+        "explanation": "Glance supports interoperability with RemoteViews using AndroidRemoteViews for existing widget layouts."
       }
     },
     {
@@ -729,7 +729,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "The updateAll method updates all instances of a Glance widget.",[](https://developer.android.com/develop/ui/compose/glance/glance-app-widget)
+      "explanation": "The updateAll method updates all instances of a Glance widget.",
       "answerCellList": [
         {
           "answerId": 63,
@@ -764,7 +764,7 @@
         "questionId": 19,
         "answerId": [64],
         "answer": ["B. updateAll"],
-        "explanation": "The updateAll method updates all instances of a Glance widget."[](https://developer.android.com/develop/ui/compose/glance/glance-app-widget)
+        "explanation": "The updateAll method updates all instances of a Glance widget."
       }
     },
     {
@@ -773,7 +773,7 @@
       "answerCellType": 1,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "PreferencesGlanceStateDefinition and DataStore are used for state management, while NavController and ViewModel are not.",[](https://medium.com/%40andidu/how-to-glance-android-widgets-with-compose-4be0fcd8f6b8)
+      "explanation": "PreferencesGlanceStateDefinition and DataStore are used for state management, while NavController and ViewModel are not.",
       "answerCellList": [
         {
           "answerId": 67,
@@ -808,7 +808,7 @@
         "questionId": 20,
         "answerId": [67, 69],
         "answer": ["A. PreferencesGlanceStateDefinition", "C. DataStore"],
-        "explanation": "PreferencesGlanceStateDefinition and DataStore are used for state management, while NavController and ViewModel are not."[](https://medium.com/%40andidu/how-to-glance-android-widgets-with-compose-4be0fcd8f6b8)
+        "explanation": "PreferencesGlanceStateDefinition and DataStore are used for state management, while NavController and ViewModel are not."
       }
     },
     {
@@ -817,7 +817,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "Text is the composable used to display text in a Glance widget.",[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+      "explanation": "Text is the composable used to display text in a Glance widget.",
       "answerCellList": [
         {
           "answerId": 71,
@@ -852,7 +852,7 @@
         "questionId": 21,
         "answerId": [72],
         "answer": ["B. Text"],
-        "explanation": "Text is the composable used to display text in a Glance widget."[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+        "explanation": "Text is the composable used to display text in a Glance widget."
       }
     },
     {
@@ -861,7 +861,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "Glance provides a default loading layout (glance_default_loading_layout) for use in the appwidget-provider XML.",[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+      "explanation": "Glance provides a default loading layout (glance_default_loading_layout) for use in the appwidget-provider XML.",
       "answerCellList": [
         {
           "answerId": 75,
@@ -882,7 +882,7 @@
         "questionId": 22,
         "answerId": [75],
         "answer": ["A. True"],
-        "explanation": "Glance provides a default loading layout (glance_default_loading_layout) for use in the appwidget-provider XML."[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+        "explanation": "Glance provides a default loading layout (glance_default_loading_layout) for use in the appwidget-provider XML."
       }
     },
     {
@@ -891,7 +891,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "SizeMode.Single uses the minimum supported size and does not refresh the UI when the widget is resized.",[](https://www.droidcon.com/2022/02/01/app-widgets-in-android-with-glance/)
+      "explanation": "SizeMode.Single uses the minimum supported size and does not refresh the UI when the widget is resized.",
       "answerCellList": [
         {
           "answerId": 77,
@@ -926,7 +926,7 @@
         "questionId": 23,
         "answerId": [78],
         "answer": ["B. SizeMode.Single"],
-        "explanation": "SizeMode.Single uses the minimum supported size and does not refresh the UI when the widget is resized."[](https://www.droidcon.com/2022/02/01/app-widgets-in-android-with-glance/)
+        "explanation": "SizeMode.Single uses the minimum supported size and does not refresh the UI when the widget is resized."
       }
     },
     {
@@ -935,7 +935,7 @@
       "answerCellType": 1,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "fillMaxSize, padding, and clickable are Glance modifiers, while weight is a Jetpack Compose modifier not used in Glance.",[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+      "explanation": "fillMaxSize, padding, and clickable are Glance modifiers, while weight is a Jetpack Compose modifier not used in Glance.",
       "answerCellList": [
         {
           "answerId": 81,
@@ -970,7 +970,7 @@
         "questionId": 24,
         "answerId": [81, 82, 84],
         "answer": ["A. fillMaxSize", "B. padding", "D. clickable"],
-        "explanation": "fillMaxSize, padding, and clickable are Glance modifiers, while weight is a Jetpack Compose modifier not used in Glance."[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+        "explanation": "fillMaxSize, padding, and clickable are Glance modifiers, while weight is a Jetpack Compose modifier not used in Glance."
       }
     },
     {
@@ -979,7 +979,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "Button is used for clickable actions in a Glance widget, often with actions like actionStartActivity.",[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+      "explanation": "Button is used for clickable actions in a Glance widget, often with actions like actionStartActivity.",
       "answerCellList": [
         {
           "answerId": 85,
@@ -1014,7 +1014,7 @@
         "questionId": 25,
         "answerId": [86],
         "answer": ["B. Button"],
-        "explanation": "Button is used for clickable actions in a Glance widget, often with actions like actionStartActivity."[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+        "explanation": "Button is used for clickable actions in a Glance widget, often with actions like actionStartActivity."
       }
     },
     {
@@ -1023,7 +1023,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "WorkManager can be used to fetch images from the internet for Glance widgets, avoiding NetworkOnMainThreadException.",[](https://stackoverflow.com/questions/74361073/how-to-load-images-from-the-internet-into-a-widget-with-jetpack-glance)
+      "explanation": "WorkManager can be used to fetch images from the internet for Glance widgets, avoiding NetworkOnMainThreadException.",
       "answerCellList": [
         {
           "answerId": 89,
@@ -1044,7 +1044,7 @@
         "questionId": 26,
         "answerId": [89],
         "answer": ["A. True"],
-        "explanation": "WorkManager can be used to fetch images from the internet for Glance widgets, avoiding NetworkOnMainThreadException."[](https://stackoverflow.com/questions/74361073/how-to-load-images-from-the-internet-into-a-widget-with-jetpack-glance)
+        "explanation": "WorkManager can be used to fetch images from the internet for Glance widgets, avoiding NetworkOnMainThreadException."
       }
     },
     {
@@ -1053,7 +1053,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "PreferencesGlanceStateDefinition defines how widget state is stored and serialized.",[](https://medium.com/%40andidu/how-to-glance-android-widgets-with-compose-4be0fcd8f6b8)
+      "explanation": "PreferencesGlanceStateDefinition defines how widget state is stored and serialized.",
       "answerCellList": [
         {
           "answerId": 91,
@@ -1088,7 +1088,7 @@
         "questionId": 27,
         "answerId": [92],
         "answer": ["B. PreferencesGlanceStateDefinition"],
-        "explanation": "PreferencesGlanceStateDefinition defines how widget state is stored and serialized."[](https://medium.com/%40andidu/how-to-glance-android-widgets-with-compose-4be0fcd8f6b8)
+        "explanation": "PreferencesGlanceStateDefinition defines how widget state is stored and serialized."
       }
     },
     {
@@ -1097,7 +1097,7 @@
       "answerCellType": 1,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "GlanceTheme, glance-material, and glance-material3 support theming, while MaterialTheme is not used in Glance.",[](https://developer.android.com/jetpack/androidx/releases/glance)
+      "explanation": "GlanceTheme, glance-material, and glance-material3 support theming, while MaterialTheme is not used in Glance.",
       "answerCellList": [
         {
           "answerId": 95,
@@ -1132,7 +1132,7 @@
         "questionId": 28,
         "answerId": [95, 96, 98],
         "answer": ["A. GlanceTheme", "B. glance-material", "D. glance-material3"],
-        "explanation": "GlanceTheme, glance-material, and glance-material3 support theming, while MaterialTheme is not used in Glance."[](https://developer.android.com/jetpack/androidx/releases/glance)
+        "explanation": "GlanceTheme, glance-material, and glance-material3 support theming, while MaterialTheme is not used in Glance."
       }
     },
     {
@@ -1141,7 +1141,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "Box is used to stack elements in a Glance widget, allowing overlapping layouts.",[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+      "explanation": "Box is used to stack elements in a Glance widget, allowing overlapping layouts.",
       "answerCellList": [
         {
           "answerId": 99,
@@ -1176,7 +1176,7 @@
         "questionId": 29,
         "answerId": [100],
         "answer": ["B. Box"],
-        "explanation": "Box is used to stack elements in a Glance widget, allowing overlapping layouts."[](https://developer.android.com/develop/ui/compose/glance/create-app-widget)
+        "explanation": "Box is used to stack elements in a Glance widget, allowing overlapping layouts."
       }
     },
     {
@@ -1185,7 +1185,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "Dynamic resizing with SizeMode.Responsive is inconsistent on older API levels (below 33), making it unreliable across all APIs.",[](https://stackoverflow.com/questions/79136460/how-to-dynamically-adjust-jetpack-glance-app-widget-layout-on-resize)
+      "explanation": "Dynamic resizing with SizeMode.Responsive is inconsistent on older API levels (below 33), making it unreliable across all APIs.",
       "answerCellList": [
         {
           "answerId": 103,
@@ -1206,7 +1206,7 @@
         "questionId": 30,
         "answerId": [104],
         "answer": ["B. False"],
-        "explanation": "Dynamic resizing with SizeMode.Responsive is inconsistent on older API levels (below 33), making it unreliable across all APIs."[](https://stackoverflow.com/questions/79136460/how-to-dynamically-adjust-jetpack-glance-app-widget-layout-on-resize)
+        "explanation": "Dynamic resizing with SizeMode.Responsive is inconsistent on older API levels (below 33), making it unreliable across all APIs."
       }
     }
   ]

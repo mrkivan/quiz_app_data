@@ -95,7 +95,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "The Layout Inspector in Android Studio can display a view hierarchy in a 3D perspective, helping developers visualize UI structure.",[](https://developer.android.com/courses/quizzes/android-week7-developer-tools/android-11-week-7)
+      "explanation": "The Layout Inspector in Android Studio can display a view hierarchy in a 3D perspective, helping developers visualize UI structure.",
       "answerCellList": [
         {
           "answerId": 9,
@@ -116,7 +116,7 @@
         "questionId": 3,
         "answerId": [9],
         "answer": ["A. True"],
-        "explanation": "The Layout Inspector in Android Studio can display a view hierarchy in a 3D perspective, helping developers visualize UI structure."[](https://developer.android.com/courses/quizzes/android-week7-developer-tools/android-11-week-7)
+        "explanation": "The Layout Inspector in Android Studio can display a view hierarchy in a 3D perspective, helping developers visualize UI structure."
       }
     },
     {
@@ -449,7 +449,7 @@
       "answerCellType": 1,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "Android Studio supports JUnit, Espresso, and Robolectric for unit and UI testing of Android apps.",[](https://developer.android.com/studio/test)
+      "explanation": "Android Studio supports JUnit, Espresso, and Robolectric for unit and UI testing of Android apps.",
       "answerCellList": [
         {
           "answerId": 39,
@@ -484,7 +484,7 @@
         "questionId": 12,
         "answerId": [39, 40, 42],
         "answer": ["A. JUnit", "B. Espresso", "D. Robolectric"],
-        "explanation": "Android Studio supports JUnit, Espresso, and Robolectric for unit and UI testing of Android apps."[](https://developer.android.com/studio/test)
+        "explanation": "Android Studio supports JUnit, Espresso, and Robolectric for unit and UI testing of Android apps."
       }
     },
     {
@@ -493,7 +493,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "The SDK Manager manages Android SDK versions, platform tools, and system images for emulators.",[](https://docs.flutter.dev/platform-integration/android/setup)
+      "explanation": "The SDK Manager manages Android SDK versions, platform tools, and system images for emulators.",
       "answerCellList": [
         {
           "answerId": 43,
@@ -528,7 +528,7 @@
         "questionId": 13,
         "answerId": [44],
         "answer": ["B. SDK versions and tools"],
-        "explanation": "The SDK Manager manages Android SDK versions, platform tools, and system images for emulators."[](https://docs.flutter.dev/platform-integration/android/setup)
+        "explanation": "The SDK Manager manages Android SDK versions, platform tools, and system images for emulators."
       }
     },
     {
@@ -567,7 +567,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "The Test Matrix tool window in Android Studio visualizes test results across multiple device configurations.",[](https://developer.android.com/studio/test)
+      "explanation": "The Test Matrix tool window in Android Studio visualizes test results across multiple device configurations.",
       "answerCellList": [
         {
           "answerId": 49,
@@ -602,7 +602,7 @@
         "questionId": 15,
         "answerId": [49],
         "answer": ["A. Test Matrix"],
-        "explanation": "The Test Matrix tool window in Android Studio visualizes test results across multiple device configurations."[](https://developer.android.com/studio/test)
+        "explanation": "The Test Matrix tool window in Android Studio visualizes test results across multiple device configurations."
       }
     },
     {
@@ -611,7 +611,7 @@
       "answerCellType": 1,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "The Device Manager manages virtual devices and physical devices for testing and debugging apps.",[](https://docs.flutter.dev/platform-integration/android/setup)
+      "explanation": "The Device Manager manages virtual devices and physical devices for testing and debugging apps.",
       "answerCellList": [
         {
           "answerId": 53,
@@ -646,7 +646,7 @@
         "questionId": 16,
         "answerId": [53, 54],
         "answer": ["A. Virtual devices", "B. Physical devices"],
-        "explanation": "The Device Manager manages virtual devices and physical devices for testing and debugging apps."[](https://docs.flutter.dev/platform-integration/android/setup)
+        "explanation": "The Device Manager manages virtual devices and physical devices for testing and debugging apps."
       }
     },
     {
@@ -655,7 +655,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "The Android Studio Debugger supports Kotlin Multiplatform projects, with enhanced features in the KMP plugin.",[](https://blog.jetbrains.com/kotlin/2025/05/kotlin-multiplatform-tooling-now-in-intellij-idea-and-android-studio/)
+      "explanation": "The Android Studio Debugger supports Kotlin Multiplatform projects, with enhanced features in the KMP plugin.",
       "answerCellList": [
         {
           "answerId": 57,
@@ -676,7 +676,7 @@
         "questionId": 17,
         "answerId": [57],
         "answer": ["A. True"],
-        "explanation": "The Android Studio Debugger supports Kotlin Multiplatform projects, with enhanced features in the KMP plugin."[](https://blog.jetbrains.com/kotlin/2025/05/kotlin-multiplatform-tooling-now-in-intellij-idea-and-android-studio/)
+        "explanation": "The Android Studio Debugger supports Kotlin Multiplatform projects, with enhanced features in the KMP plugin."
       }
     },
     {
@@ -729,7 +729,7 @@
       "answerCellType": 1,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "The KMP plugin, Compose Preview, and Debugger support Kotlin Multiplatform development in Android Studio.",[](https://blog.jetbrains.com/kotlin/2025/05/kotlin-multiplatform-tooling-now-in-intellij-idea-and-android-studio/)
+      "explanation": "The KMP plugin, Compose Preview, and Debugger support Kotlin Multiplatform development in Android Studio.",
       "answerCellList": [
         {
           "answerId": 63,
@@ -764,7 +764,7 @@
         "questionId": 19,
         "answerId": [63, 64, 66],
         "answer": ["A. KMP plugin", "B. Compose Preview", "D. Debugger"],
-        "explanation": "The KMP plugin, Compose Preview, and Debugger support Kotlin Multiplatform development in Android Studio."[](https://blog.jetbrains.com/kotlin/2025/05/kotlin-multiplatform-tooling-now-in-intellij-idea-and-android-studio/)
+        "explanation": "The KMP plugin, Compose Preview, and Debugger support Kotlin Multiplatform development in Android Studio."
       }
     },
     {
@@ -935,7 +935,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "Android Studio supports running tests via the command line using Gradle or ADB for fine-grained control.",[](https://developer.android.com/studio/test)
+      "explanation": "Android Studio supports running tests via the command line using Gradle or ADB for fine-grained control.",
       "answerCellList": [
         {
           "answerId": 81,
@@ -956,7 +956,7 @@
         "questionId": 24,
         "answerId": [81],
         "answer": ["A. True"],
-        "explanation": "Android Studio supports running tests via the command line using Gradle or ADB for fine-grained control."[](https://developer.android.com/studio/test)
+        "explanation": "Android Studio supports running tests via the command line using Gradle or ADB for fine-grained control."
       }
     },
     {
@@ -965,7 +965,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "The SDK Manager checks for SDK and environment issues, recommending fixes for missing or outdated components.",[](https://blog.jetbrains.com/kotlin/2025/05/kotlin-multiplatform-tooling-now-in-intellij-idea-and-android-studio/)
+      "explanation": "The SDK Manager checks for SDK and environment issues, recommending fixes for missing or outdated components.",
       "answerCellList": [
         {
           "answerId": 83,
@@ -1000,7 +1000,7 @@
         "questionId": 25,
         "answerId": [84],
         "answer": ["B. SDK Manager"],
-        "explanation": "The SDK Manager checks for SDK and environment issues, recommending fixes for missing or outdated components."[](https://blog.jetbrains.com/kotlin/2025/05/kotlin-multiplatform-tooling-now-in-intellij-idea-and-android-studio/)
+        "explanation": "The SDK Manager checks for SDK and environment issues, recommending fixes for missing or outdated components."
       }
     },
     {
@@ -1053,7 +1053,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "ADB enables communication between Android Studio and devices for debugging, testing, and installing apps.",[](https://developer.android.com/studio/test)
+      "explanation": "ADB enables communication between Android Studio and devices for debugging, testing, and installing apps.",
       "answerCellList": [
         {
           "answerId": 91,
@@ -1088,7 +1088,7 @@
         "questionId": 27,
         "answerId": [92],
         "answer": ["B. To communicate with devices"],
-        "explanation": "ADB enables communication between Android Studio and devices for debugging, testing, and installing apps."[](https://developer.android.com/studio/test)
+        "explanation": "ADB enables communication between Android Studio and devices for debugging, testing, and installing apps."
       }
     },
     {
@@ -1097,7 +1097,7 @@
       "answerCellType": 0,
       "selectedOptions": null,
       "answerSectionTitle": null,
-      "explanation": "The Android Studio Emulator supports both ARM and x86 system images for different device architectures.",[](https://docs.flutter.dev/platform-integration/android/setup)
+      "explanation": "The Android Studio Emulator supports both ARM and x86 system images for different device architectures.",
       "answerCellList": [
         {
           "answerId": 95,
@@ -1118,7 +1118,7 @@
         "questionId": 28,
         "answerId": [95],
         "answer": ["A. True"],
-        "explanation": "The Android Studio Emulator supports both ARM and x86 system images for different device architectures."[](https://docs.flutter.dev/platform-integration/android/setup)
+        "explanation": "The Android Studio Emulator supports both ARM and x86 system images for different device architectures."
       }
     },
     {
