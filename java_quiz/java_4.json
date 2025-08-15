@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. To provide type safety"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. To provide type safety"
+        ],
         "explanation": "Generics in Java provide type safety by allowing types to be parameterized, preventing runtime type errors."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. <>"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. <>"
+        ],
         "explanation": "The angle brackets <> are used to denote generic type parameters in Java, such as <T>."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. Removing generic type information at runtime"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. Removing generic type information at runtime"
+        ],
         "explanation": "Type erasure removes generic type information at runtime, replacing type parameters with their bounds or Object."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. class MyClass<T>"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. class MyClass<T>"
+        ],
         "explanation": "A valid generic class declaration uses angle brackets with a type parameter, like class MyClass<T>."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. An unknown type"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. An unknown type"
+        ],
         "explanation": "The wildcard <?> represents an unknown type in Java generics, used when the specific type is not important."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. To restrict to a class or interface and its subtypes"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. To restrict to a class or interface and its subtypes"
+        ],
         "explanation": "The 'extends' keyword in generics restricts the type parameter to a specific class or interface or their subtypes."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. Any subtype of Number"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. Any subtype of Number"
+        ],
         "explanation": "The wildcard <? extends Number> allows any type that is a subtype of Number, such as Integer or Double."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. Integer or any of its supertypes"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Integer or any of its supertypes"
+        ],
         "explanation": "The wildcard <? super Integer> allows Integer or any of its supertypes, such as Number or Object."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Java 5"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Java 5"
+        ],
         "explanation": "Generics were introduced in Java 5 to provide type safety and eliminate the need for casting."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. No"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. No"
+        ],
         "explanation": "Primitive types cannot be used as type parameters in Java generics; only reference types are allowed."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. A generic type without a type parameter"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. A generic type without a type parameter"
+        ],
         "explanation": "A raw type is a generic class or interface used without specifying a type parameter, like List instead of List<String>."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. They bypass type safety"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. They bypass type safety"
+        ],
         "explanation": "Raw types bypass type safety, leading to potential runtime errors like ClassCastException."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. List"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. List"
+        ],
         "explanation": "The List interface in Java uses generics, such as List<String>, to ensure type safety."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. A type parameter with restrictions"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. A type parameter with restrictions"
+        ],
         "explanation": "A bounded type parameter restricts the types that can be used as type arguments, using extends or super."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. <T extends SuperClass>"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. <T extends SuperClass>"
+        ],
         "explanation": "The syntax <T extends SuperClass> restricts T to be SuperClass or its subtypes."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Yes"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "Yes, a generic class can have multiple type parameters, such as <T, U>."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. A type inference operator"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. A type inference operator"
+        ],
         "explanation": "The diamond operator <> allows type inference in generic instance creation, introduced in Java 7."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. List<String> list = new ArrayList<>()"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. List<String> list = new ArrayList<>()"
+        ],
         "explanation": "List<String> list = new ArrayList<>() uses the diamond operator to infer the type String."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. To guide wildcard usage"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. To guide wildcard usage"
+        ],
         "explanation": "PECS (Producer Extends, Consumer Super) guides the use of wildcards to ensure type safety in generic collections."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. When reading from a collection"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. When reading from a collection"
+        ],
         "explanation": "<? extends T> is used for a producer, where you only read from a generic collection."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. When writing to a collection"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. When writing to a collection"
+        ],
         "explanation": "<? super T> is used for a consumer, where you only write to a generic collection."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Yes"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "Yes, a generic method can be declared in a non-generic class using type parameters in the method signature."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. <T> T methodName()"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. <T> T methodName()"
+        ],
         "explanation": "A generic method is declared with type parameters before the return type, like <T> T methodName()."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. It causes a compile-time error"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. It causes a compile-time error"
+        ],
         "explanation": "You cannot add elements to a List<? extends Number> because it is read-only due to the upper-bound wildcard."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Yes"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "Yes, you can add an Integer to a List<? super Number> because Integer is a subtype of Number."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. An interface with type parameters"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. An interface with type parameters"
+        ],
         "explanation": "A generic interface is an interface that uses type parameters, like Comparable<T>."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Comparable<T>"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Comparable<T>"
+        ],
         "explanation": "The Comparable<T> interface uses generics to define a natural ordering for objects."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Determining type arguments by context"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Determining type arguments by context"
+        ],
         "explanation": "Type inference allows the compiler to determine the type arguments for generics based on context, reducing explicit type declarations."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. No"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. No"
+        ],
         "explanation": "No, generic type parameters are instance-based and cannot be used in static contexts like static methods or fields."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Compile-time type checking and no casting"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Compile-time type checking and no casting"
+        ],
         "explanation": "Generics in collections provide compile-time type checking and eliminate the need for casting when retrieving elements."
       }
     }

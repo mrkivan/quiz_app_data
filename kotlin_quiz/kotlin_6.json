@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. open"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. open"
+        ],
         "explanation": "The 'open' keyword is used to allow a Kotlin class to be inherited, as classes are final by default."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. class Child : Parent()"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. class Child : Parent()"
+        ],
         "explanation": "Inheritance is achieved using a colon (:), e.g., 'class Child : Parent()'."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. Final, cannot be inherited"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. Final, cannot be inherited"
+        ],
         "explanation": "Kotlin classes are final by default, meaning they cannot be inherited unless marked 'open'."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. Overrides a superclass method"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. Overrides a superclass method"
+        ],
         "explanation": "The 'override' keyword is used to override a method or property from a superclass or interface."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. open fun method()"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. open fun method()"
+        ],
         "explanation": "A method must be marked with the 'open' keyword to allow overriding in a subclass."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. interface"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. interface"
+        ],
         "explanation": "The 'interface' keyword is used to define an interface in Kotlin."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. class MyClass : MyInterface"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. class MyClass : MyInterface"
+        ],
         "explanation": "A class implements an interface using a colon (:), e.g., 'class MyClass : MyInterface'."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. Yes, with implementations"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Yes, with implementations"
+        ],
         "explanation": "Kotlin interfaces can contain method implementations, unlike Java interfaces before Java 8."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Prevents instantiation"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Prevents instantiation"
+        ],
         "explanation": "The 'abstract' keyword defines a class that cannot be instantiated and may contain abstract members."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. fun method()"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. fun method()"
+        ],
         "explanation": "Abstract methods in an interface are defined without a body, e.g., 'fun method()'."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. A class with restricted inheritance"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. A class with restricted inheritance"
+        ],
         "explanation": "A sealed class restricts inheritance to a defined set of subclasses within the same file."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. sealed class Expr"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. sealed class Expr"
+        ],
         "explanation": "A sealed class is defined using the 'sealed' keyword, e.g., 'sealed class Expr'."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. No"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. No"
+        ],
         "explanation": "Kotlin does not support multiple class inheritance; a class can only inherit from one superclass."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Yes"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "A Kotlin class can implement multiple interfaces, separated by commas, e.g., 'class MyClass : Interface1, Interface2'."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. override val property: Type"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. override val property: Type"
+        ],
         "explanation": "A property is overridden using the 'override' keyword, e.g., 'override val property: Type'."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Compilation error"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Compilation error"
+        ],
         "explanation": "Trying to inherit a final class results in a compilation error."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. : Parent()"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. : Parent()"
+        ],
         "explanation": "A superclass constructor is called using a colon and parentheses, e.g., ': Parent()'."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. super.method()"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. super.method()"
+        ],
         "explanation": "A superclass method is called using the 'super' keyword, e.g., 'super.method()'."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Yes"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "A Kotlin interface can inherit from another interface using a colon, e.g., 'interface Child : Parent'."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Compilation error"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Compilation error"
+        ],
         "explanation": "If a class does not implement all abstract methods of an interface, it must be declared abstract or a compilation error occurs."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. val property: Type"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. val property: Type"
+        ],
         "explanation": "A property in an interface is defined using 'val' or 'var', e.g., 'val property: Type'."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Accesses superclass members"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Accesses superclass members"
+        ],
         "explanation": "The 'super' keyword is used to access superclass members or interface default implementations."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. super<Interface>.method()"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. super<Interface>.method()"
+        ],
         "explanation": "Method conflicts are resolved using 'super<Interface>.method()' to specify which interface's implementation to use."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Prevents inheritance"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Prevents inheritance"
+        ],
         "explanation": "The 'final' keyword prevents a class or member from being inherited or overridden."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. No"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. No"
+        ],
         "explanation": "A sealed class's subclasses must be defined in the same file."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Ensures exhaustive handling"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Ensures exhaustive handling"
+        ],
         "explanation": "The 'when' expression with sealed classes ensures all subclasses are handled exhaustively without an 'else' branch."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. fun method() { ... }"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. fun method() { ... }"
+        ],
         "explanation": "A default method in an interface is implemented by providing a body, e.g., 'fun method() { ... }'."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Compilation error"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Compilation error"
+        ],
         "explanation": "Trying to override a final method results in a compilation error."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Yes"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "Kotlin interfaces can contain properties, either abstract or with getters/setters."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. super<Interface>.method()"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. super<Interface>.method()"
+        ],
         "explanation": "An interface's default method is accessed using 'super<Interface>.method()'."
       }
     }

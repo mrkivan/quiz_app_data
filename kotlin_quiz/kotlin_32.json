@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. Write automated UI tests"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Write automated UI tests"
+        ],
         "explanation": "Espresso is a testing framework for writing automated UI tests for Android applications."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. @Test"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. @Test"
+        ],
         "explanation": "@Test from JUnit is used to mark a method as a test case in Espresso."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. onView(withId(R.id.view_id))"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. onView(withId(R.id.view_id))"
+        ],
         "explanation": "onView(withId(R.id.view_id)) is used to find a view by its resource ID in Espresso."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. perform(click())"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. perform(click())"
+        ],
         "explanation": "Use perform(click()) to simulate a click action on a view in Espresso."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. withText(\"text\")"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. withText(\"text\")"
+        ],
         "explanation": "withText(\"text\") is used to match a view with specific text in Espresso."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. check(matches(isDisplayed()))"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. check(matches(isDisplayed()))"
+        ],
         "explanation": "Use check(matches(isDisplayed())) to verify that a view is visible on the screen."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. perform(typeText(\"text\"))"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. perform(typeText(\"text\"))"
+        ],
         "explanation": "Use perform(typeText(\"text\")) to type text into an EditText in Espresso."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. perform(clearText())"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. perform(clearText())"
+        ],
         "explanation": "Use perform(clearText()) to clear the text in an EditText in Espresso."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. isEnabled()"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. isEnabled()"
+        ],
         "explanation": "isEnabled() is used to check if a view is enabled in Espresso."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. onView(withId(R.id.recycler_view)).perform(actionOnItemAtPosition(position, action))"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. onView(withId(R.id.recycler_view)).perform(actionOnItemAtPosition(position, action))"
+        ],
         "explanation": "Use onView(withId(R.id.recycler_view)).perform(actionOnItemAtPosition(position, action)) to test a RecyclerView item."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. perform(scrollToPosition(position))"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. perform(scrollToPosition(position))"
+        ],
         "explanation": "Use perform(scrollToPosition(position)) to scroll to a specific item in a RecyclerView."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. check(matches(withText(\"text\")))"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. check(matches(withText(\"text\")))"
+        ],
         "explanation": "Use check(matches(withText(\"text\"))) to verify the text of a view in Espresso."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. pressBack()"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. pressBack()"
+        ],
         "explanation": "Use pressBack() to simulate pressing the back button in Espresso."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. @Rule with ActivityScenarioRule"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. @Rule with ActivityScenarioRule"
+        ],
         "explanation": "@Rule with ActivityScenarioRule is used to launch an activity for Espresso tests."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. allOf(matcher1, matcher2)"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. allOf(matcher1, matcher2)"
+        ],
         "explanation": "Use allOf(matcher1, matcher2) to combine multiple matchers in Espresso."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. check(matches(not(isDisplayed())))"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. check(matches(not(isDisplayed())))"
+        ],
         "explanation": "Use check(matches(not(isDisplayed()))) to verify that a view is not displayed."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. perform(longClick())"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. perform(longClick())"
+        ],
         "explanation": "Use perform(longClick()) to simulate a long press on a view in Espresso."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. withHint(\"hint\")"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. withHint(\"hint\")"
+        ],
         "explanation": "withHint(\"hint\") is used to match a view with a specific hint in Espresso."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Use IdlingRegistry with IdlingResource"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Use IdlingRegistry with IdlingResource"
+        ],
         "explanation": "Use IdlingRegistry to register an IdlingResource to handle asynchronous operations in Espresso."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. perform(click()) and onData()"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. perform(click()) and onData()"
+        ],
         "explanation": "Use perform(click()) followed by onData() to select an item in a Spinner."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. onView(withText(\"dialog text\"))"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. onView(withText(\"dialog text\"))"
+        ],
         "explanation": "Use onView(withText(\"dialog text\")) to interact with elements in a dialog."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. perform(swipeLeft())"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. perform(swipeLeft())"
+        ],
         "explanation": "Use perform(swipeLeft()) or swipeRight() to simulate a swipe action in Espresso."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. isChecked()"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. isChecked()"
+        ],
         "explanation": "isChecked() is used to check if a view like a CheckBox is checked in Espresso."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. perform(swipeLeft())"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. perform(swipeLeft())"
+        ],
         "explanation": "Use perform(swipeLeft()) or swipeRight() to navigate pages in a ViewPager."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. onView(withId(R.id.custom_view)) with custom matcher"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. onView(withId(R.id.custom_view)) with custom matcher"
+        ],
         "explanation": "Use onView(withId(R.id.custom_view)) with a custom matcher to test a custom view."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. grantPermissionRule with @Rule"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. grantPermissionRule with @Rule"
+        ],
         "explanation": "Use grantPermissionRule with @Rule to handle permission dialogs in Espresso."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. check(matches(hasFocus()))"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. check(matches(hasFocus()))"
+        ],
         "explanation": "Use check(matches(hasFocus())) to verify that a view has focus in Espresso."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. openActionBarOverflowOrOptionsMenu() and onView(withText(\"menu_item\")).perform(click())"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. openActionBarOverflowOrOptionsMenu() and onView(withText(\"menu_item\")).perform(click())"
+        ],
         "explanation": "Use openActionBarOverflowOrOptionsMenu() and onView(withText(\"menu_item\")).perform(click()) to test a menu item click."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. onView(withText(\"toast_message\")).inRoot(isToast()).check(matches(isDisplayed()))"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. onView(withText(\"toast_message\")).inRoot(isToast()).check(matches(isDisplayed()))"
+        ],
         "explanation": "Use onView(withText(\"toast_message\")).inRoot(isToast()).check(matches(isDisplayed())) to test a Toast message."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. FragmentScenario.launchInContainer"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. FragmentScenario.launchInContainer"
+        ],
         "explanation": "Use FragmentScenario.launchInContainer to launch a Fragment and onView to interact with its views."
       }
     }

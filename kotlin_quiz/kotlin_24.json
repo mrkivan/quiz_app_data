@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. To provide type-safe SQLite access"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. To provide type-safe SQLite access"
+        ],
         "explanation": "Room provides an abstraction layer over SQLite, enabling type-safe database access with minimal boilerplate code."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. @Entity"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. @Entity"
+        ],
         "explanation": "The @Entity annotation is used to mark a Kotlin data class as a database table in Room."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. @PrimaryKey"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. @PrimaryKey"
+        ],
         "explanation": "The @PrimaryKey annotation is used to designate a field as the primary key in a Room entity."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. @Dao"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. @Dao"
+        ],
         "explanation": "The @Dao annotation marks an interface or abstract class as a DAO, defining methods for database operations."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. @Database abstract class"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. @Database abstract class"
+        ],
         "explanation": "A Room database is defined as an abstract class annotated with @Database, listing entities and a version number."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. Defines SQL queries"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. Defines SQL queries"
+        ],
         "explanation": "The @Query annotation is used to define SQL queries for retrieving or manipulating data in a Room DAO."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. @Insert fun insert(entity: Entity)"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. @Insert fun insert(entity: Entity)"
+        ],
         "explanation": "Data is inserted using a method annotated with @Insert in the DAO, e.g., @Insert fun insert(entity: Entity)."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. @Update fun update(entity: Entity)"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. @Update fun update(entity: Entity)"
+        ],
         "explanation": "Data is updated using a method annotated with @Update in the DAO, matching entities by their primary key."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. @Delete fun delete(entity: Entity)"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. @Delete fun delete(entity: Entity)"
+        ],
         "explanation": "Data is deleted using a method annotated with @Delete in the DAO, matching entities by their primary key."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. Defines the database and entities"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. Defines the database and entities"
+        ],
         "explanation": "The @Database annotation defines the database, listing entities and version, and provides access to DAOs."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. Room.databaseBuilder(context, Database::class.java, \"db_name\").build()"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. Room.databaseBuilder(context, Database::class.java, \"db_name\").build()"
+        ],
         "explanation": "A Room database instance is created using Room.databaseBuilder(context, Database::class.java, \"db_name\").build()."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. Ensures atomic operations"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. Ensures atomic operations"
+        ],
         "explanation": "The @Transaction annotation ensures that a method's database operations are executed atomically, preventing partial updates."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. Use Migration objects in addMigrations()"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Use Migration objects in addMigrations()"
+        ],
         "explanation": "Database migrations are handled by defining Migration objects and passing them to Room.databaseBuilder().addMigrations()."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Crashes or wipes database"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. Crashes or wipes database"
+        ],
         "explanation": "Increasing the database version without a migration causes a crash unless fallbackToDestructiveMigration() is used, which wipes the database."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. Return LiveData from @Query"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Return LiveData from @Query"
+        ],
         "explanation": "Room queries can return LiveData, e.g., @Query(\"SELECT * FROM table\") fun getAll(): LiveData<List<Entity>>, to observe data changes."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Mark DAO methods with suspend"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Mark DAO methods with suspend"
+        ],
         "explanation": "Room supports Coroutines by marking DAO methods with suspend, e.g., @Insert suspend fun insert(entity: Entity)."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. Defines entity relationships"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. Defines entity relationships"
+        ],
         "explanation": "The @Relation annotation is used in a POJO to define relationships between entities, such as one-to-many or many-to-many."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. Use @Relation in a data class"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. Use @Relation in a data class"
+        ],
         "explanation": "A one-to-many relationship is defined using a data class with @Relation, linking a parent entity to a list of child entities via foreign keys."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Enforces referential integrity"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Enforces referential integrity"
+        ],
         "explanation": "The @ForeignKey annotation defines a relationship between two entities, enforcing referential integrity in the database."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Use :param in SQL query"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Use :param in SQL query"
+        ],
         "explanation": "A query with a parameter uses :param in the SQL query, e.g., @Query(\"SELECT * FROM table WHERE id = :id\") fun getById(id: Int)."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Observes data changes with Coroutines"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Observes data changes with Coroutines"
+        ],
         "explanation": "Room queries can return Flow, e.g., @Query(\"SELECT * FROM table\") fun getAll(): Flow<List<Entity>>, to observe data changes with Kotlin Coroutines."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Use indices in @Entity"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Use indices in @Entity"
+        ],
         "explanation": "An index is defined in an @Entity annotation using the indices parameter, e.g., @Entity(indices = [Index(value = [\"column\"])])."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. Specifies column properties"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. Specifies column properties"
+        ],
         "explanation": "The @ColumnInfo annotation specifies the column name or other properties for a field in an entity."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Use allowMainThreadQueries()"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Use allowMainThreadQueries()"
+        ],
         "explanation": "Main thread queries are allowed by calling allowMainThreadQueries() on the database builder, but this is only recommended for testing."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Converts custom types for persistence"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Converts custom types for persistence"
+        ],
         "explanation": "TypeConverters convert custom types to and from types that Room can persist, such as converting a Date to a Long."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Use @TypeConverter functions"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Use @TypeConverter functions"
+        ],
         "explanation": "TypeConverters are defined with @TypeConverter functions in a class, registered in the @Database annotation with typeConverters."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Excludes field from persistence"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Excludes field from persistence"
+        ],
         "explanation": "The @Ignore annotation excludes a field or method from being persisted in the database table."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Use junction table and @Relation"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Use junction table and @Relation"
+        ],
         "explanation": "A many-to-many relationship is handled using a junction table entity and a data class with @Relation to join the entities."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Drops and recreates database"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Drops and recreates database"
+        ],
         "explanation": "The fallbackToDestructiveMigration() method drops and recreates the database if no migration is provided, used for development or testing."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Return Flow from @Query"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Return Flow from @Query"
+        ],
         "explanation": "Database changes are observed by returning Flow from a @Query, e.g., @Query(\"SELECT * FROM table\") fun getAll(): Flow<List<Entity>>, collected in a coroutine."
       }
     }

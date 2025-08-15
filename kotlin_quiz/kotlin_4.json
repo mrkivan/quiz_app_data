@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. var name: String?"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. var name: String?"
+        ],
         "explanation": "In Kotlin, a nullable variable is declared by adding a '?' after the type, e.g., 'var name: String?'."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. Returns null if the object is null"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. Returns null if the object is null"
+        ],
         "explanation": "The safe call operator (?.) accesses properties or methods of a nullable object, returning null if the object is null."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. Provides a default value for null"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. Provides a default value for null"
+        ],
         "explanation": "The Elvis operator (?:) provides a default value if an expression evaluates to null."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. Throws a NullPointerException if null"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. Throws a NullPointerException if null"
+        ],
         "explanation": "The not-null assertion operator (!!) converts a nullable type to a non-null type, throwing a NullPointerException if the value is null."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. person?.name"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. person?.name"
+        ],
         "explanation": "The safe call operator (?.) is used to safely access a nullable property, e.g., 'person?.name'."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. Returns the non-null value"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. Returns the non-null value"
+        ],
         "explanation": "If the value is non-null, the Elvis operator (?:) returns the value itself, ignoring the default."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. Throws a NullPointerException"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. Throws a NullPointerException"
+        ],
         "explanation": "Using the not-null assertion operator (!!) on a null value throws a NullPointerException."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [29],
-        "answer": ["A. variable == null"],
+        "answerId": [
+          29
+        ],
+        "answer": [
+          "A. variable == null"
+        ],
         "explanation": "You can check if a variable is null using '== null', e.g., 'if (variable == null)'."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Executes a block if not null"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Executes a block if not null"
+        ],
         "explanation": "The 'let' function executes a block of code only if the nullable object is not null, providing a non-null reference within the block."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. ?."],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. ?."
+        ],
         "explanation": "The safe call operator (?.) can be chained to access nested properties safely, e.g., 'person?.address?.city'."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. Returns 0"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. Returns 0"
+        ],
         "explanation": "If 'str' is null, 'str?.length' returns null, and the Elvis operator (?:) provides the default value 0."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. variable?.let { it -> ... }"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. variable?.let { it -> ... }"
+        ],
         "explanation": "The 'let' function is used as 'variable?.let { it -> ... }', where 'it' is the non-null value."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. Executes a block if not null"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Executes a block if not null"
+        ],
         "explanation": "The 'run' function with a safe call (?.run) executes a block if the nullable object is not null, similar to 'let'."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Throws a NullPointerException"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. Throws a NullPointerException"
+        ],
         "explanation": "Using '!!' on a null 'str' causes a NullPointerException when accessing 'length'."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. let"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. let"
+        ],
         "explanation": "The 'let' function allows executing a block with a nullable object and can return a value from the block."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Returns null"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Returns null"
+        ],
         "explanation": "If 'str' is null, the safe call operator (?.) returns null instead of calling 'uppercase()'."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. var name: String"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. var name: String"
+        ],
         "explanation": "A non-nullable variable is declared without a '?', e.g., 'var name: String'."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. Performs operations and returns the object"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. Performs operations and returns the object"
+        ],
         "explanation": "The 'also' function with a safe call (?.also) performs additional operations on a non-null object and returns the object itself."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Throws an IllegalArgumentException if null"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Throws an IllegalArgumentException if null"
+        ],
         "explanation": "'requireNotNull' throws an IllegalArgumentException if the value is null."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. \"default\""],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. \"default\""
+        ],
         "explanation": "The Elvis operator (?:) returns the default value 'default' if the expression is null."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. apply"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. apply"
+        ],
         "explanation": "The 'apply' function with a safe call (?.apply) configures a non-null object and returns it."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Throws an IllegalStateException if null"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Throws an IllegalStateException if null"
+        ],
         "explanation": "'checkNotNull' throws an IllegalStateException if the value is null."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. Executes a block with a receiver"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. Executes a block with a receiver"
+        ],
         "explanation": "The 'with' function with a safe call (?.with) executes a block with a non-null receiver, returning a result."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Compilation error"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Compilation error"
+        ],
         "explanation": "Assigning null to a non-nullable variable causes a compilation error in Kotlin."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Returns null"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Returns null"
+        ],
         "explanation": "If 'str' is null, the 'let' block is not executed, and null is returned."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. ?:"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. ?:"
+        ],
         "explanation": "The Elvis operator (?:) provides a default value for a nullable expression."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Delays initialization of a non-null var"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Delays initialization of a non-null var"
+        ],
         "explanation": "'lateinit' delays initialization of a non-nullable 'var' property, used when the value is set later."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Throws an UninitializedPropertyAccessException"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Throws an UninitializedPropertyAccessException"
+        ],
         "explanation": "Accessing a 'lateinit' variable before initialization throws an UninitializedPropertyAccessException."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. also"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. also"
+        ],
         "explanation": "The 'also' function with a safe call (?.also) allows chaining operations on a non-null object, returning the object itself."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Checks if initialized"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Checks if initialized"
+        ],
         "explanation": "'isInitialized' checks if a 'lateinit' variable has been initialized."
       }
     }

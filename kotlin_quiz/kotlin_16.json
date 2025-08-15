@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. Metadata for code elements"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Metadata for code elements"
+        ],
         "explanation": "An annotation in Kotlin is metadata attached to code elements, used to provide additional information or instructions to compilers or tools."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. annotation class MyAnnotation"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. annotation class MyAnnotation"
+        ],
         "explanation": "An annotation is declared using the 'annotation' keyword followed by 'class', e.g., annotation class MyAnnotation."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. @MyAnnotation"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. @MyAnnotation"
+        ],
         "explanation": "An annotation is applied using the '@' symbol followed by the annotation name, e.g., @MyAnnotation."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. An annotation on another annotation"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. An annotation on another annotation"
+        ],
         "explanation": "A meta-annotation is an annotation applied to another annotation to control its behavior, such as @Target or @Retention."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. @Target"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. @Target"
+        ],
         "explanation": "The @Target meta-annotation specifies the valid targets for an annotation, such as CLASS, FUNCTION, or PROPERTY."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. @Retention"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. @Retention"
+        ],
         "explanation": "The @Retention meta-annotation controls how long an annotation is retained, with options like SOURCE, BINARY, or RUNTIME."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. Discarded during compilation"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. Discarded during compilation"
+        ],
         "explanation": "The SOURCE retention policy means the annotation is only available in the source code and is discarded during compilation."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. Available at runtime"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Available at runtime"
+        ],
         "explanation": "The RUNTIME retention policy means the annotation is available at runtime via reflection."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Allows multiple applications"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Allows multiple applications"
+        ],
         "explanation": "The @Repeatable meta-annotation allows an annotation to be applied multiple times to the same code element."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. Includes in documentation"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. Includes in documentation"
+        ],
         "explanation": "The @MustBeDocumented meta-annotation ensures that the annotation is included in the generated documentation, like JavaDoc."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. CLASS"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. CLASS"
+        ],
         "explanation": "The CLASS target, used in @Target(AnnotationTarget.CLASS), allows an annotation to be applied to a class."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. Yes, with constructor"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. Yes, with constructor"
+        ],
         "explanation": "Annotations in Kotlin can have parameters, defined in the annotation class constructor, e.g., annotation class MyAnnotation(val value: String)."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. Primitives, strings, enums, annotations"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Primitives, strings, enums, annotations"
+        ],
         "explanation": "Annotation parameters can have primitive types, strings, enums, other annotations, or arrays of these types."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. @Annotation1 @Annotation2"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. @Annotation1 @Annotation2"
+        ],
         "explanation": "Multiple annotations are applied by listing them with the '@' symbol, e.g., @Annotation1 @Annotation2 class MyClass."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. RUNTIME"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. RUNTIME"
+        ],
         "explanation": "The default retention policy for an annotation in Kotlin is RUNTIME, meaning it is available via reflection at runtime."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. FUNCTION"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. FUNCTION"
+        ],
         "explanation": "The FUNCTION target, used in @Target(AnnotationTarget.FUNCTION), allows an annotation to be applied to a function."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. Yes, with LOCAL_VARIABLE target"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. Yes, with LOCAL_VARIABLE target"
+        ],
         "explanation": "Annotations can be applied to local variables if the @Target includes LOCAL_VARIABLE, e.g., @Target(AnnotationTarget.LOCAL_VARIABLE)."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. Marks code as deprecated"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. Marks code as deprecated"
+        ],
         "explanation": "The @Deprecated annotation marks a code element as deprecated, warning developers and suggesting alternatives."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Using replaceWith parameter"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Using replaceWith parameter"
+        ],
         "explanation": "The @Deprecated annotation can include a 'replaceWith' parameter, e.g., @Deprecated(\"Use newFunction\", ReplaceWith(\"newFunction()\")) to suggest a replacement."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Yes, with TYPE_PARAMETER target"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Yes, with TYPE_PARAMETER target"
+        ],
         "explanation": "Annotations can be applied to type parameters if the @Target includes TYPE_PARAMETER, e.g., @Target(AnnotationTarget.TYPE_PARAMETER)."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Suppresses compiler warnings"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Suppresses compiler warnings"
+        ],
         "explanation": "The @Suppress annotation suppresses specific compiler warnings, e.g., @Suppress(\"UNUSED_VARIABLE\") to ignore unused variable warnings."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Yes, with EXPRESSION target"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Yes, with EXPRESSION target"
+        ],
         "explanation": "Annotations can be applied to expressions if the @Target includes EXPRESSION, e.g., @Target(AnnotationTarget.EXPRESSION)."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. Stored in bytecode, not runtime"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. Stored in bytecode, not runtime"
+        ],
         "explanation": "The BINARY retention policy means the annotation is stored in the compiled bytecode but is not available at runtime."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Yes, with FILE target"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Yes, with FILE target"
+        ],
         "explanation": "Annotations can be applied to a file using the @file:Annotation syntax, if the @Target includes FILE, e.g., @Target(AnnotationTarget.FILE)."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Specifies JVM bytecode name"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Specifies JVM bytecode name"
+        ],
         "explanation": "The @JvmName annotation specifies a custom name for a function or file in the generated JVM bytecode to avoid naming conflicts."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Specifies thrown exceptions"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Specifies thrown exceptions"
+        ],
         "explanation": "The @Throws annotation specifies exceptions a function may throw, for compatibility with Java code, e.g., @Throws(IOException::class)."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Yes, with EXPRESSION target"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Yes, with EXPRESSION target"
+        ],
         "explanation": "Annotations can be applied to lambda expressions if the @Target includes EXPRESSION, as lambdas are considered expressions."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Makes companion object static"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Makes companion object static"
+        ],
         "explanation": "The @JvmStatic annotation makes a companion object function or property accessible as a static member in Java code."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. With @Inherited meta-annotation"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. With @Inherited meta-annotation"
+        ],
         "explanation": "Annotations are not inherited by default in Kotlin, but can be with the @Inherited meta-annotation, which is a Java annotation for compatibility."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Ensures strict floating-point calculations"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Ensures strict floating-point calculations"
+        ],
         "explanation": "The @Strictfp annotation ensures strict floating-point calculations for JVM compatibility, maintaining consistent precision across platforms."
       }
     }

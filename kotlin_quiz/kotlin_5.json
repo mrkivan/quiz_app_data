@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. class"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. class"
+        ],
         "explanation": "In Kotlin, the 'class' keyword is used to define a class."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. class Person(val name: String)"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. class Person(val name: String)"
+        ],
         "explanation": "A primary constructor is declared directly in the class header, e.g., 'class Person(val name: String)'."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. Executes initialization code"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. Executes initialization code"
+        ],
         "explanation": "The 'init' block contains initialization code that is executed when an instance of the class is created."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. val person = Person(\"Alice\")"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. val person = Person(\"Alice\")"
+        ],
         "explanation": "An instance is created using the class name and constructor arguments, e.g., 'val person = Person(\"Alice\")'."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. A singleton object in a class"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. A singleton object in a class"
+        ],
         "explanation": "A companion object is a singleton object associated with a class, used for static-like functionality."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. companion object {}"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. companion object {}"
+        ],
         "explanation": "A companion object is declared using the 'companion object' keyword inside a class."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. Generates utility methods"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. Generates utility methods"
+        ],
         "explanation": "The 'data' keyword generates 'toString', 'equals', 'hashCode', and 'copy' methods for a class."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. constructor(name: String)"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. constructor(name: String)"
+        ],
         "explanation": "A secondary constructor is defined using the 'constructor' keyword, e.g., 'constructor(name: String)'."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. A singleton object"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. A singleton object"
+        ],
         "explanation": "An object declaration creates a singleton using the 'object' keyword."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. object Singleton"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. object Singleton"
+        ],
         "explanation": "An object is declared using the 'object' keyword, e.g., 'object Singleton'."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. Declares a read-only property"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. Declares a read-only property"
+        ],
         "explanation": "'val' declares a read-only (immutable) property in a class."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. Declares a mutable property"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. Declares a mutable property"
+        ],
         "explanation": "'var' declares a mutable property in a class."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. ClassName.member"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. ClassName.member"
+        ],
         "explanation": "Companion object members are accessed using the class name, e.g., 'ClassName.member'."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. A class with generated utility methods"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. A class with generated utility methods"
+        ],
         "explanation": "A data class is a class with the 'data' keyword, automatically providing 'toString', 'equals', 'hashCode', and 'copy' methods."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. val name: String"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. val name: String"
+        ],
         "explanation": "A property is defined using 'val' or 'var', e.g., 'val name: String'."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Allows inheritance"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Allows inheritance"
+        ],
         "explanation": "The 'open' keyword allows a class to be inherited, as Kotlin classes are final by default."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. class Child : Parent()"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. class Child : Parent()"
+        ],
         "explanation": "Inheritance is done using a colon (:), e.g., 'class Child : Parent()'."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. public"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. public"
+        ],
         "explanation": "The default visibility of a Kotlin class is 'public'."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. A class with restricted inheritance"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. A class with restricted inheritance"
+        ],
         "explanation": "A sealed class restricts inheritance to a defined set of subclasses within the same file."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. sealed class Expr"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. sealed class Expr"
+        ],
         "explanation": "A sealed class is defined using the 'sealed' keyword, e.g., 'sealed class Expr'."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Prevents instantiation"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Prevents instantiation"
+        ],
         "explanation": "The 'abstract' keyword defines a class that cannot be instantiated and may contain abstract members."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. abstract class Shape"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. abstract class Shape"
+        ],
         "explanation": "An abstract class is defined using the 'abstract' keyword, e.g., 'abstract class Shape'."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. Overrides a superclass method"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. Overrides a superclass method"
+        ],
         "explanation": "The 'override' keyword is used to override a method or property from a superclass."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. class Outer { class Nested }"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. class Outer { class Nested }"
+        ],
         "explanation": "A nested class is defined inside another class using the 'class' keyword, e.g., 'class Outer { class Nested }'."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Inner class holds outer class reference"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Inner class holds outer class reference"
+        ],
         "explanation": "An inner class (marked with 'inner') holds a reference to the outer class, while a nested class does not."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. class Outer { inner class Inner }"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. class Outer { inner class Inner }"
+        ],
         "explanation": "An inner class is defined using the 'inner' keyword, e.g., 'class Outer { inner class Inner }'."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Creates a new instance with modified properties"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Creates a new instance with modified properties"
+        ],
         "explanation": "The 'copy' method creates a new instance of a data class with some or all properties modified."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Outer().Inner()"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Outer().Inner()"
+        ],
         "explanation": "An inner class instance is created using an instance of the outer class, e.g., 'Outer().Inner()'."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Final, cannot be inherited"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Final, cannot be inherited"
+        ],
         "explanation": "Kotlin classes are final by default, meaning they cannot be inherited unless marked 'open'."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Returns a string representation"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Returns a string representation"
+        ],
         "explanation": "The 'toString' method in a data class returns a string representation of the object, including its properties."
       }
     }

@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. To allow user control at runtime"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. To allow user control at runtime"
+        ],
         "explanation": "Runtime permissions allow users to grant or deny permissions at runtime, introduced in Android 6.0 (API 23)."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. checkSelfPermission()"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. checkSelfPermission()"
+        ],
         "explanation": "ContextCompat.checkSelfPermission() checks if a permission is granted for the app."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. requestPermissions()"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. requestPermissions()"
+        ],
         "explanation": "ActivityCompat.requestPermissions() is used to request permissions in an Activity."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. onRequestPermissionsResult()"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. onRequestPermissionsResult()"
+        ],
         "explanation": "onRequestPermissionsResult() is overridden to handle permission request results."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. Dangerous"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. Dangerous"
+        ],
         "explanation": "Dangerous permissions require runtime permission requests due to their sensitive nature."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. AndroidManifest.xml"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. AndroidManifest.xml"
+        ],
         "explanation": "Permissions are declared in the AndroidManifest.xml file using the <uses-permission> tag."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. ACCESS_FINE_LOCATION"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. ACCESS_FINE_LOCATION"
+        ],
         "explanation": "ACCESS_FINE_LOCATION is required to access precise location data."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. Checks if rationale should be shown"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Checks if rationale should be shown"
+        ],
         "explanation": "shouldShowRequestPermissionRationale() checks if a rationale should be shown before requesting a permission."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Android 6.0 (Marshmallow)"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Android 6.0 (Marshmallow)"
+        ],
         "explanation": "Runtime permissions were introduced in Android 6.0 (Marshmallow, API 23)."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. Use requestPermissions()"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. Use requestPermissions()"
+        ],
         "explanation": "Use requestPermissions() in a Fragment to request permissions, similar to an Activity."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. PERMISSION_GRANTED"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. PERMISSION_GRANTED"
+        ],
         "explanation": "PackageManager.PERMISSION_GRANTED indicates a permission is granted."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. PERMISSION_DENIED is returned"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. PERMISSION_DENIED is returned"
+        ],
         "explanation": "The app receives PERMISSION_DENIED in onRequestPermissionsResult()."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. ACTION_APPLICATION_DETAILS_SETTINGS"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. ACTION_APPLICATION_DETAILS_SETTINGS"
+        ],
         "explanation": "Start an Intent with ACTION_APPLICATION_DETAILS_SETTINGS to open app settings."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. READ_CONTACTS"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. READ_CONTACTS"
+        ],
         "explanation": "READ_CONTACTS is required to access the device's contacts."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. Declares required permissions"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Declares required permissions"
+        ],
         "explanation": "The <uses-permission> tag declares permissions the app requires."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. CAMERA"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. CAMERA"
+        ],
         "explanation": "CAMERA permission is required to access the device's camera."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. Loop through checkSelfPermission()"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. Loop through checkSelfPermission()"
+        ],
         "explanation": "Loop through permissions with ContextCompat.checkSelfPermission() for each."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. Show notifications in Android 13+"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. Show notifications in Android 13+"
+        ],
         "explanation": "POST_NOTIFICATIONS is required to show notifications in Android 13+."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. ActivityCompat"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. ActivityCompat"
+        ],
         "explanation": "ActivityCompat from androidx.core simplifies permission handling."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Request POST_NOTIFICATIONS"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Request POST_NOTIFICATIONS"
+        ],
         "explanation": "Request POST_NOTIFICATIONS permission for Android 13+ using requestPermissions()."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Permission is not granted"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Permission is not granted"
+        ],
         "explanation": "PERMISSION_DENIED indicates the permission was not granted."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Show a dialog before requesting"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Show a dialog before requesting"
+        ],
         "explanation": "Show a dialog or UI explaining why the permission is needed before requesting."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. WRITE_EXTERNAL_STORAGE"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. WRITE_EXTERNAL_STORAGE"
+        ],
         "explanation": "WRITE_EXTERNAL_STORAGE is required to write to external storage."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Approximate location data"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Approximate location data"
+        ],
         "explanation": "ACCESS_COARSE_LOCATION provides approximate location data using network sources."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Use Accompanist Permissions"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Use Accompanist Permissions"
+        ],
         "explanation": "Use Accompanist Permissions or ActivityResultContracts to handle permissions in Compose."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Simplifies permission requests"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Simplifies permission requests"
+        ],
         "explanation": "ActivityResultContracts.RequestPermission simplifies permission requests with a callback-based API."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. CALL_PHONE"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. CALL_PHONE"
+        ],
         "explanation": "CALL_PHONE is required to initiate phone calls."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. App may crash or fail"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. App may crash or fail"
+        ],
         "explanation": "For dangerous permissions, the app will crash or fail if not requested at runtime."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Check in Service, request in Activity"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Check in Service, request in Activity"
+        ],
         "explanation": "Check permissions with ContextCompat.checkSelfPermission() in a Service, but request from an Activity."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Access location in background"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Access location in background"
+        ],
         "explanation": "ACCESS_BACKGROUND_LOCATION allows location access when the app is in the background."
       }
     }

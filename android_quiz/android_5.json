@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. NavHost"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. NavHost"
+        ],
         "explanation": "NavHost is the core composable that hosts the navigation graph and manages navigation in Jetpack Compose."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. NavController"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. NavController"
+        ],
         "explanation": "NavController is used to trigger navigation actions, such as navigating to a destination or popping the back stack."
       }
     },
@@ -114,8 +122,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [9],
-        "answer": ["A. True"],
+        "answerId": [
+          9
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "NavHost requires a NavController to manage navigation state and perform navigation actions."
       }
     },
@@ -158,8 +170,16 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [11, 12, 14],
-        "answer": ["A. Navigate by route", "B. Pop the back stack", "D. Deep links"],
+        "answerId": [
+          11,
+          12,
+          14
+        ],
+        "answer": [
+          "A. Navigate by route",
+          "B. Pop the back stack",
+          "D. Deep links"
+        ],
         "explanation": "NavController supports navigating by route, popping the back stack, and deep links, but not Modifier.clickable directly."
       }
     },
@@ -202,8 +222,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [16],
-        "answer": ["B. Navigation graph"],
+        "answerId": [
+          16
+        ],
+        "answer": [
+          "B. Navigation graph"
+        ],
         "explanation": "The navigation graph defines the structure of navigation, including destinations and their routes."
       }
     },
@@ -232,8 +256,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [19],
-        "answer": ["A. True"],
+        "answerId": [
+          19
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Jetpack Compose’s Navigation component allows passing arguments, such as strings or integers, between destinations."
       }
     },
@@ -276,8 +304,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [22],
-        "answer": ["B. navigate()"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. navigate()"
+        ],
         "explanation": "navigate() is used to move to a specific route or destination in the navigation graph."
       }
     },
@@ -320,8 +352,16 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [25, 26, 28],
-        "answer": ["A. NavHost", "B. NavController", "D. Navigation graph"],
+        "answerId": [
+          25,
+          26,
+          28
+        ],
+        "answer": [
+          "A. NavHost",
+          "B. NavController",
+          "D. Navigation graph"
+        ],
         "explanation": "NavHost, NavController, and navigation graph are essential for navigation, while MaterialTheme is for theming."
       }
     },
@@ -364,8 +404,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [30],
-        "answer": ["B. A screen or composable"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. A screen or composable"
+        ],
         "explanation": "A destination is a specific screen or composable in the navigation graph, identified by a route."
       }
     },
@@ -394,8 +438,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [33],
-        "answer": ["A. True"],
+        "answerId": [
+          33
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Deep links enable navigation to specific destinations from external sources, like URLs or notifications."
       }
     },
@@ -438,8 +486,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [36],
-        "answer": ["B. popBackStack()"],
+        "answerId": [
+          36
+        ],
+        "answer": [
+          "B. popBackStack()"
+        ],
         "explanation": "popBackStack() removes the current destination from the back stack, navigating to the previous screen."
       }
     },
@@ -482,8 +534,16 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [39, 40, 42],
-        "answer": ["A. Deep links", "B. Argument passing", "D. Nested navigation graphs"],
+        "answerId": [
+          39,
+          40,
+          42
+        ],
+        "answer": [
+          "A. Deep links",
+          "B. Argument passing",
+          "D. Nested navigation graphs"
+        ],
         "explanation": "The Navigation component supports deep links, argument passing, and nested graphs, but not typography styling."
       }
     },
@@ -526,8 +586,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [44],
-        "answer": ["B. A unique identifier for a destination"],
+        "answerId": [
+          44
+        ],
+        "answer": [
+          "B. A unique identifier for a destination"
+        ],
         "explanation": "A route is a unique string identifier for a destination in the navigation graph."
       }
     },
@@ -556,8 +620,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [47],
-        "answer": ["A. True"],
+        "answerId": [
+          47
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Nested navigation graphs enable modular and reusable navigation structures within a larger graph."
       }
     },
@@ -600,8 +668,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [50],
-        "answer": ["B. navigateUp()"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. navigateUp()"
+        ],
         "explanation": "navigateUp() navigates to the previous destination or parent in a nested graph, respecting the hierarchy."
       }
     },
@@ -644,8 +716,16 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [53, 54, 56],
-        "answer": ["A. Strings", "B. Integers", "D. Booleans"],
+        "answerId": [
+          53,
+          54,
+          56
+        ],
+        "answer": [
+          "A. Strings",
+          "B. Integers",
+          "D. Booleans"
+        ],
         "explanation": "Navigation arguments can include strings, integers, and booleans, but not Modifiers, which are for UI customization."
       }
     },
@@ -688,8 +768,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [58],
-        "answer": ["B. Defines the first screen"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Defines the first screen"
+        ],
         "explanation": "The startDestination defines the first screen displayed when the NavHost is initialized."
       }
     },
@@ -718,8 +802,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [61],
-        "answer": ["A. True"],
+        "answerId": [
+          61
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "NavController’s navigate() method can use options to replace the current destination without adding to the back stack."
       }
     },
@@ -762,8 +850,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [64],
-        "answer": ["B. NavHost"],
+        "answerId": [
+          64
+        ],
+        "answer": [
+          "B. NavHost"
+        ],
         "explanation": "NavHost holds the navigation graph and displays the current destination’s composable."
       }
     },
@@ -806,8 +898,16 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [67, 68, 70],
-        "answer": ["A. NavHost", "B. NavController", "D. Deep links"],
+        "answerId": [
+          67,
+          68,
+          70
+        ],
+        "answer": [
+          "A. NavHost",
+          "B. NavController",
+          "D. Deep links"
+        ],
         "explanation": "NavHost, NavController, and deep links are part of the Navigation component, while Modifier is for UI customization."
       }
     },
@@ -850,8 +950,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [72],
-        "answer": ["B. Goes to the previous destination"],
+        "answerId": [
+          72
+        ],
+        "answer": [
+          "B. Goes to the previous destination"
+        ],
         "explanation": "popBackStack() navigates to the previous destination by removing the current one from the back stack."
       }
     },
@@ -880,8 +984,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [75],
-        "answer": ["A. True"],
+        "answerId": [
+          75
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Arguments must be defined in the navigation graph to be passed and accessed between destinations."
       }
     },
@@ -924,8 +1032,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [78],
-        "answer": ["B. NavHost"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. NavHost"
+        ],
         "explanation": "NavHost displays the composable associated with the current destination in the navigation graph."
       }
     },
@@ -968,8 +1080,16 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [81, 82, 84],
-        "answer": ["A. URLs", "B. Intent filters", "D. Navigation to specific destinations"],
+        "answerId": [
+          81,
+          82,
+          84
+        ],
+        "answer": [
+          "A. URLs",
+          "B. Intent filters",
+          "D. Navigation to specific destinations"
+        ],
         "explanation": "Deep links support URLs, intent filters, and navigation to specific destinations, but not typography styling."
       }
     },
@@ -1012,8 +1132,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [86],
-        "answer": ["B. Does nothing"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Does nothing"
+        ],
         "explanation": "If the back stack is empty, popBackStack() does nothing and the app remains on the current screen."
       }
     },
@@ -1042,8 +1166,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [89],
-        "answer": ["A. True"],
+        "answerId": [
+          89
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Navigation graphs support nested graphs, allowing modular and reusable navigation structures."
       }
     },
@@ -1086,8 +1214,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [92],
-        "answer": ["B. popBackStack()"],
+        "answerId": [
+          92
+        ],
+        "answer": [
+          "B. popBackStack()"
+        ],
         "explanation": "popBackStack() with a destination ID clears the back stack up to that destination, inclusive or exclusive based on options."
       }
     },
@@ -1130,8 +1262,16 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [95, 96, 98],
-        "answer": ["A. Type-safe navigation", "B. Deep link support", "D. Back stack management"],
+        "answerId": [
+          95,
+          96,
+          98
+        ],
+        "answer": [
+          "A. Type-safe navigation",
+          "B. Deep link support",
+          "D. Back stack management"
+        ],
         "explanation": "The Navigation component provides type-safe navigation, deep link support, and back stack management, but not theming."
       }
     },
@@ -1174,8 +1314,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [100],
-        "answer": ["B. Accesses arguments and state for a destination"],
+        "answerId": [
+          100
+        ],
+        "answer": [
+          "B. Accesses arguments and state for a destination"
+        ],
         "explanation": "NavBackStackEntry provides access to arguments and state for a specific destination in the back stack."
       }
     },
@@ -1204,8 +1348,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [103],
-        "answer": ["A. True"],
+        "answerId": [
+          103
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "The Navigation component supports animations during transitions between destinations, customizable via options."
       }
     }

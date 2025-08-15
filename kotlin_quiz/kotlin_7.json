@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. data"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. data"
+        ],
         "explanation": "The 'data' keyword is used to define a data class in Kotlin, which automatically generates utility methods."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [5],
-        "answer": ["A. toString"],
+        "answerId": [
+          5
+        ],
+        "answer": [
+          "A. toString"
+        ],
         "explanation": "A data class automatically generates 'toString', 'equals', 'hashCode', and 'copy' methods."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. Creates a new instance with modified properties"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. Creates a new instance with modified properties"
+        ],
         "explanation": "The 'copy' method creates a new instance of a data class with some or all properties modified."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. data class Person(val name: String)"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. data class Person(val name: String)"
+        ],
         "explanation": "A data class is defined using the 'data' keyword followed by 'class', e.g., 'data class Person(val name: String)'."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. Primary constructor properties"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. Primary constructor properties"
+        ],
         "explanation": "The 'equals' method is generated based on the properties declared in the primary constructor."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. Returns a string representation"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. Returns a string representation"
+        ],
         "explanation": "The 'toString' method returns a string representation of the data class, including its properties."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. Primary constructor properties"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. Primary constructor properties"
+        ],
         "explanation": "The 'hashCode' method is generated based on the properties in the primary constructor."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. Yes"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "A data class can have secondary constructors, but they must delegate to the primary constructor."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. At least one primary constructor parameter"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. At least one primary constructor parameter"
+        ],
         "explanation": "A data class must have at least one parameter in its primary constructor."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. person.copy(name = \"NewName\")"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. person.copy(name = \"NewName\")"
+        ],
         "explanation": "The 'copy' method is used by calling it on an instance, e.g., 'person.copy(name = \"NewName\")'."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. Yes, if the superclass is open"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. Yes, if the superclass is open"
+        ],
         "explanation": "A data class can inherit from another class if the superclass is marked 'open'."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. Yes"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "A data class can implement interfaces, similar to regular classes."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. Primary constructor properties"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Primary constructor properties"
+        ],
         "explanation": "The 'toString' method includes only the properties defined in the primary constructor."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Yes"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "You can override the 'equals' method in a data class to provide custom equality logic."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. Compilation error"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Compilation error"
+        ],
         "explanation": "A data class must have at least one property in its primary constructor, or it will result in a compilation error."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. No"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. No"
+        ],
         "explanation": "A data class cannot be abstract, as it is meant to hold data and provide concrete implementations."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. Yes"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "A data class can be sealed, allowing restricted inheritance within the same file."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. Yes"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "A data class can have a companion object to define static-like members."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Allow destructuring declarations"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Allow destructuring declarations"
+        ],
         "explanation": "'componentN' functions allow destructuring declarations for data class properties."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. val (name, age) = person"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. val (name, age) = person"
+        ],
         "explanation": "Destructuring is done using parentheses, e.g., 'val (name, age) = person'."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. 255"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. 255"
+        ],
         "explanation": "Kotlin supports up to 255 component functions for destructuring, corresponding to the number of properties."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Yes"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "You can override the 'hashCode' method in a data class to provide custom hash code logic."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. Yes"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "A data class can have properties in the class body, but they are not included in generated methods like 'toString'."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Compares properties for equality"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Compares properties for equality"
+        ],
         "explanation": "The 'equals' method compares the primary constructor properties of two data class instances for equality."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Yes"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "A data class can be open for inheritance if marked with the 'open' keyword."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Compilation error"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Compilation error"
+        ],
         "explanation": "A data class requires a primary constructor with at least one parameter, or it results in a compilation error."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Yes"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "You can override the 'toString' method in a data class to provide a custom string representation."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Primary constructor properties"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Primary constructor properties"
+        ],
         "explanation": "The 'copy' method includes only the properties defined in the primary constructor."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Yes"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "A data class can have additional methods defined in the class body."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Reduces boilerplate code"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Reduces boilerplate code"
+        ],
         "explanation": "Data classes reduce boilerplate code by automatically generating utility methods like 'toString', 'equals', 'hashCode', and 'copy'."
       }
     }

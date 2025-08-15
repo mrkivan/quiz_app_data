@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. A user-defined UI component"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. A user-defined UI component"
+        ],
         "explanation": "A custom view is a user-defined UI component created by extending View or its subclasses to provide custom behavior or appearance."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. View"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. View"
+        ],
         "explanation": "The `View` class is commonly extended to create a basic custom view in Android."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. onDraw"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. onDraw"
+        ],
         "explanation": "`onDraw` is overridden to define the custom drawing logic for a view using a Canvas object."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. Calculates view dimensions"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. Calculates view dimensions"
+        ],
         "explanation": "`onMeasure` calculates the view's dimensions based on the layout constraints provided by the parent."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. onTouchEvent"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. onTouchEvent"
+        ],
         "explanation": "`onTouchEvent` is overridden to handle touch interactions in a custom view."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. In attrs.xml"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. In attrs.xml"
+        ],
         "explanation": "Custom attributes are defined in a `attrs.xml` file using the `<declare-styleable>` tag."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. obtainStyledAttributes()"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. obtainStyledAttributes()"
+        ],
         "explanation": "Use `obtainStyledAttributes` in the view's constructor to retrieve custom attributes."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. Positions child views"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Positions child views"
+        ],
         "explanation": "`onLayout` positions child views within a custom ViewGroup."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. ViewGroup"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. ViewGroup"
+        ],
         "explanation": "`ViewGroup` is extended to create a custom layout that can contain and position child views."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. invalidate()"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. invalidate()"
+        ],
         "explanation": "Call `invalidate()` to trigger a redraw of the entire custom view."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. Draws shapes, text, and images"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. Draws shapes, text, and images"
+        ],
         "explanation": "The `Canvas` object provides methods to draw shapes, text, and images on the view."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. Use invalidate(rect) for partial redraws"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. Use invalidate(rect) for partial redraws"
+        ],
         "explanation": "Use `invalidate(rect)` to redraw only a specific region, reducing unnecessary drawing."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. onKeyDown"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. onKeyDown"
+        ],
         "explanation": "`onKeyDown` is overridden to handle key press events in a custom view."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Set isFocusable to true"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. Set isFocusable to true"
+        ],
         "explanation": "Set `isFocusable` to true in the view's constructor or XML attributes."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. Defines styling for drawing"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Defines styling for drawing"
+        ],
         "explanation": "The `Paint` object defines styling attributes like color, stroke width, and text size for drawing on a Canvas."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Override onSaveInstanceState and onRestoreInstanceState"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Override onSaveInstanceState and onRestoreInstanceState"
+        ],
         "explanation": "Override `onSaveInstanceState` and `onRestoreInstanceState` to save and restore the view's state."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. onSizeChanged"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. onSizeChanged"
+        ],
         "explanation": "`onSizeChanged` is called when the view's size changes, providing the new dimensions."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. Override accessibility methods"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. Override accessibility methods"
+        ],
         "explanation": "Override accessibility methods like `onInitializeAccessibilityNodeInfo` to provide accessibility support."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. measureChild"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. measureChild"
+        ],
         "explanation": "`measureChild` is used to measure the dimensions of child views in a custom ViewGroup."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Use fully qualified class name"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Use fully qualified class name"
+        ],
         "explanation": "Use the fully qualified class name of the custom view in the XML layout file."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Disables drawing for performance"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Disables drawing for performance"
+        ],
         "explanation": "`setWillNotDraw` disables drawing if the view doesn't need to draw content, improving performance."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Use ValueAnimator or ObjectAnimator"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Use ValueAnimator or ObjectAnimator"
+        ],
         "explanation": "Use `ValueAnimator` or `ObjectAnimator` to animate properties and call `invalidate()` to redraw."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. Constructor"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. Constructor"
+        ],
         "explanation": "The constructor is used to initialize a custom view's properties, often with `obtainStyledAttributes`."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Use resources.displayMetrics.density"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Use resources.displayMetrics.density"
+        ],
         "explanation": "Use `resources.displayMetrics.density` to scale dimensions for different screen densities."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Draws child views"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Draws child views"
+        ],
         "explanation": "`dispatchDraw` is used to draw the child views of a custom ViewGroup."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Use GestureDetector"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Use GestureDetector"
+        ],
         "explanation": "Use `GestureDetector` to detect and handle gestures like swipes or taps in a custom view."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. setMeasuredDimension"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. setMeasuredDimension"
+        ],
         "explanation": "`setMeasuredDimension` is called in `onMeasure` to set the view's measured width and height."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Instantiate and use addView"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Instantiate and use addView"
+        ],
         "explanation": "Instantiate the custom view class and add it to a ViewGroup using `addView`."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Triggers re-measure and re-layout"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Triggers re-measure and re-layout"
+        ],
         "explanation": "`requestLayout` triggers a re-measure and re-layout of the view and its parent hierarchy."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Use setLayerType for compatibility"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Use setLayerType for compatibility"
+        ],
         "explanation": "Ensure drawing operations are compatible or disable hardware acceleration with `setLayerType`."
       }
     }

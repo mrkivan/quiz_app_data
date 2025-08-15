@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. val property: Type"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. val property: Type"
+        ],
         "explanation": "In Kotlin, 'val' is used for read-only properties, as they cannot be reassigned after initialization."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [2],
-        "answer": ["B. fun"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. fun"
+        ],
         "explanation": "The 'fun' keyword is used to declare functions in Kotlin."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [2],
-        "answer": ["B. To execute a block on non-null objects"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. To execute a block on non-null objects"
+        ],
         "explanation": "'let' is used for scoping and null checks, executing a block of code only if the object is non-null."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [2],
-        "answer": ["B. Use nullable types with ?"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Use nullable types with ?"
+        ],
         "explanation": "Kotlin's type system distinguishes nullable and non-nullable types, using '?' for nullable types."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [2],
-        "answer": ["B. Using forEach or for loop"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Using forEach or for loop"
+        ],
         "explanation": "Kotlin prefers using 'forEach' or 'for' loops for concise and readable iteration."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [2],
-        "answer": ["B. Configures an object and returns it"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Configures an object and returns it"
+        ],
         "explanation": "'apply' configures an object and returns it, often used for initialization."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [2],
-        "answer": ["B. open"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. open"
+        ],
         "explanation": "In Kotlin, classes are final by default; the 'open' modifier allows inheritance."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [2],
-        "answer": ["B. To auto-generate utility methods"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. To auto-generate utility methods"
+        ],
         "explanation": "Data classes automatically generate methods like toString(), equals(), and hashCode()."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [2],
-        "answer": ["B. Using object keyword"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Using object keyword"
+        ],
         "explanation": "In Kotlin, the 'object' keyword is used to create a singleton."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [2],
-        "answer": ["B. collection.isEmpty()"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. collection.isEmpty()"
+        ],
         "explanation": "The 'isEmpty()' function is the idiomatic way to check if a collection is empty."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [2],
-        "answer": ["B. To execute a block and return its result"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. To execute a block and return its result"
+        ],
         "explanation": "'run' executes a block and returns its result, with the object accessible as 'this'."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [2],
-        "answer": ["B. Restricts class hierarchies"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Restricts class hierarchies"
+        ],
         "explanation": "'sealed' restricts class hierarchies, allowing only defined subclasses within the same file."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [2],
-        "answer": ["B. Using = in the parameter"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Using = in the parameter"
+        ],
         "explanation": "Default parameters are defined using the '=' operator in the function signature."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [2],
-        "answer": ["B. Using filter function"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Using filter function"
+        ],
         "explanation": "The 'filter' function is used to create a new list based on a predicate."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [2],
-        "answer": ["B. Defines a compile-time constant"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Defines a compile-time constant"
+        ],
         "explanation": "'const' is used for compile-time constants in top-level or object declarations."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [2],
-        "answer": ["B. Performs actions and returns the object"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Performs actions and returns the object"
+        ],
         "explanation": "'also' performs additional actions on an object and returns it, using 'it' for reference."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [2],
-        "answer": ["B. var name: String?"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. var name: String?"
+        ],
         "explanation": "A nullable variable is declared by adding '?' to the type, e.g., 'String?'."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [2],
-        "answer": ["B. Using try-catch blocks"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Using try-catch blocks"
+        ],
         "explanation": "Kotlin uses 'try-catch' blocks for exception handling, similar to Java but more concise."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [2],
-        "answer": ["B. Executes a block and returns its result"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Executes a block and returns its result"
+        ],
         "explanation": "'with' executes a block on an object, referencing its properties directly, and returns the block's result."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [2],
-        "answer": ["B. To define static-like members"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. To define static-like members"
+        ],
         "explanation": "'companion object' defines static-like members within a class."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [2],
-        "answer": ["B. Using ?. operator"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Using ?. operator"
+        ],
         "explanation": "The safe call operator '?.' accesses a property only if the object is non-null."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [2],
-        "answer": ["B. Using map function"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Using map function"
+        ],
         "explanation": "The 'map' function transforms each element of a list and returns a new list."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [2],
-        "answer": ["B. Delays property initialization"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Delays property initialization"
+        ],
         "explanation": "'lateinit' delays initialization of non-nullable 'var' properties until later."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [2],
-        "answer": ["B. Initializes property on first access"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Initializes property on first access"
+        ],
         "explanation": "'by lazy' initializes a property only when first accessed, caching the result."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [2],
-        "answer": ["B. Prefixing with receiver type"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Prefixing with receiver type"
+        ],
         "explanation": "Extension functions are defined by prefixing the function name with the receiver type."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [2],
-        "answer": ["B. Using + or plus function"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Using + or plus function"
+        ],
         "explanation": "The '+' operator or 'plus' function combines two lists in Kotlin."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [2],
-        "answer": ["B. Copies function code to call site"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Copies function code to call site"
+        ],
         "explanation": "'inline' copies the function's code to the call site, reducing overhead for lambdas."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [2],
-        "answer": ["B. To replace switch statements"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. To replace switch statements"
+        ],
         "explanation": "'when' is a concise replacement for switch statements, supporting multiple conditions."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [2],
-        "answer": ["B. Using curly braces and arrow"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Using curly braces and arrow"
+        ],
         "explanation": "Lambda expressions are defined using curly braces with parameters and an arrow, e.g., { x -> x * 2 }."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [2],
-        "answer": ["B. Using ?: operator"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Using ?: operator"
+        ],
         "explanation": "The Elvis operator '?:' provides a default value if the expression is null."
       }
     }

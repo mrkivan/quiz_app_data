@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. Android 13"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Android 13"
+        ],
         "explanation": "The Predictive Back Gesture was introduced in Android 13, initially available as a developer option for testing."
       }
     },
@@ -84,8 +88,14 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [5, 6],
-        "answer": ["A. OnBackPressedCallback", "B. OnBackInvokedCallback"],
+        "answerId": [
+          5,
+          6
+        ],
+        "answer": [
+          "A. OnBackPressedCallback",
+          "B. OnBackInvokedCallback"
+        ],
         "explanation": "The recommended APIs for Predictive Back Gestures are OnBackPressedCallback (AndroidX) and OnBackInvokedCallback (platform API), replacing deprecated APIs like onBackPressed."
       }
     },
@@ -114,8 +124,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [9],
-        "answer": ["A. True"],
+        "answerId": [
+          9
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Starting with Android 15, Predictive Back Gestures are enabled by default, removing the need for the developer option toggle."
       }
     },
@@ -158,8 +172,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [12],
-        "answer": ["B. To enable Predictive Back Gestures"],
+        "answerId": [
+          12
+        ],
+        "answer": [
+          "B. To enable Predictive Back Gestures"
+        ],
         "explanation": "Setting android:enableOnBackInvokedCallback to true in the AndroidManifest.xml opts an app into Predictive Back Gestures, enabling system animations."
       }
     },
@@ -202,8 +220,14 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [15, 16],
-        "answer": ["A. Activity 1.6.0-alpha05", "B. Activity 1.8.0"],
+        "answerId": [
+          15,
+          16
+        ],
+        "answer": [
+          "A. Activity 1.6.0-alpha05",
+          "B. Activity 1.8.0"
+        ],
         "explanation": "AndroidX Activity 1.6.0-alpha05 or higher is required for Fragments and Navigation Component to work seamlessly with Predictive Back Gestures."
       }
     },
@@ -232,8 +256,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [20],
-        "answer": ["B. False"],
+        "answerId": [
+          20
+        ],
+        "answer": [
+          "B. False"
+        ],
         "explanation": "Prior to Android 16, Predictive Back Gestures required gesture navigation. Android 16 Beta 1 introduced support for three-button navigation."
       }
     },
@@ -276,8 +304,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [22],
-        "answer": ["B. BackHandler"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. BackHandler"
+        ],
         "explanation": "BackHandler in Jetpack Compose is used to handle Predictive Back Gestures, providing a composable way to intercept back navigation."
       }
     },
@@ -320,8 +352,16 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [25, 26, 28],
-        "answer": ["A. Back-to-home", "B. Cross-task", "D. Cross-activity"],
+        "answerId": [
+          25,
+          26,
+          28
+        ],
+        "answer": [
+          "A. Back-to-home",
+          "B. Cross-task",
+          "D. Cross-activity"
+        ],
         "explanation": "Android 15 supports back-to-home, cross-task, and cross-activity animations for apps opted into Predictive Back Gestures."
       }
     },
@@ -364,8 +404,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [30],
-        "answer": ["B. Disables Predictive Back animations"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Disables Predictive Back animations"
+        ],
         "explanation": "Setting android:enableOnBackInvokedCallback to false disables Predictive Back animations, but OnBackPressedCallback still functions for backward compatibility."
       }
     },
@@ -394,8 +438,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [33],
-        "answer": ["A. True"],
+        "answerId": [
+          33
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Predictive Back Gestures display a preview of the destination (e.g., home screen or previous screen) before the gesture is completed, enhancing user experience."
       }
     },
@@ -438,8 +486,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [38],
-        "answer": ["D. Android 16"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "D. Android 16"
+        ],
         "explanation": "Android 16 Beta 1 introduced Predictive Back Gesture support for three-button navigation, expanding beyond gesture navigation."
       }
     },
@@ -482,8 +534,14 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [39, 40],
-        "answer": ["A. Fragments", "B. Navigation Component"],
+        "answerId": [
+          39,
+          40
+        ],
+        "answer": [
+          "A. Fragments",
+          "B. Navigation Component"
+        ],
         "explanation": "Fragments and Navigation Component automatically support Predictive Back Gestures with AndroidX Activity 1.6.0-alpha05 or higher."
       }
     },
@@ -526,8 +584,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [44],
-        "answer": ["B. onBackPressed"],
+        "answerId": [
+          44
+        ],
+        "answer": [
+          "B. onBackPressed"
+        ],
         "explanation": "The onBackPressed method in Activity and Dialog is deprecated and replaced by OnBackPressedCallback for Predictive Back Gesture support."
       }
     },
@@ -556,8 +618,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [47],
-        "answer": ["A. True"],
+        "answerId": [
+          47
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "On Android 13, Predictive Back Gestures can be tested by enabling the 'Predictive back animations' option in Developer settings."
       }
     },
@@ -600,8 +666,16 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [49, 50, 52],
-        "answer": ["A. Gmail", "B. Google Calendar", "D. Chrome"],
+        "answerId": [
+          49,
+          50,
+          52
+        ],
+        "answer": [
+          "A. Gmail",
+          "B. Google Calendar",
+          "D. Chrome"
+        ],
         "explanation": "Google apps like Gmail, Google Calendar, and Chrome (Canary) support Predictive Back Gestures in Android 15, with custom in-app transitions.,"
       }
     },
@@ -644,8 +718,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [54],
-        "answer": ["B. To handle back navigation events"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. To handle back navigation events"
+        ],
         "explanation": "OnBackInvokedDispatcher allows registering callbacks to handle back navigation events for Predictive Back Gestures, introduced in Android 13."
       }
     },
@@ -674,8 +752,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [58],
-        "answer": ["B. False"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. False"
+        ],
         "explanation": "WebView implementations require specific handling with OnBackPressedCallback or OnBackInvokedCallback to support Predictive Back Gestures properly."
       }
     },
@@ -718,8 +800,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [60],
-        "answer": ["B. onBackPressedDispatcher.onBackPressed()"],
+        "answerId": [
+          60
+        ],
+        "answer": [
+          "B. onBackPressedDispatcher.onBackPressed()"
+        ],
         "explanation": "Calling onBackPressedDispatcher.onBackPressed() programmatically triggers back navigation but does not show Predictive Back animations."
       }
     },
@@ -762,8 +848,16 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [63, 64, 66],
-        "answer": ["A. Reduced accidental app exits", "B. Improved navigation clarity", "D. Enhanced user experience"],
+        "answerId": [
+          63,
+          64,
+          66
+        ],
+        "answer": [
+          "A. Reduced accidental app exits",
+          "B. Improved navigation clarity",
+          "D. Enhanced user experience"
+        ],
         "explanation": "Predictive Back Gestures reduce accidental app exits, improve navigation clarity, and enhance user experience by showing destination previews."
       }
     },
@@ -792,8 +886,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [68],
-        "answer": ["B. False"],
+        "answerId": [
+          68
+        ],
+        "answer": [
+          "B. False"
+        ],
         "explanation": "Predictive Back Gestures are enabled by default for apps targeting API level 34, but developers can opt out using android:enableOnBackInvokedCallback."
       }
     },
@@ -836,8 +934,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [70],
-        "answer": ["B. Android 13"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. Android 13"
+        ],
         "explanation": "OnBackInvokedCallback, a platform API for Predictive Back Gestures, is available starting from Android 13 (API level 33)."
       }
     },
@@ -880,8 +982,16 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [73, 74, 76],
-        "answer": ["A. Set android:enableOnBackInvokedCallback to true", "B. Use OnBackPressedCallback", "D. Use OnBackInvokedCallback"],
+        "answerId": [
+          73,
+          74,
+          76
+        ],
+        "answer": [
+          "A. Set android:enableOnBackInvokedCallback to true",
+          "B. Use OnBackPressedCallback",
+          "D. Use OnBackInvokedCallback"
+        ],
         "explanation": "Enabling Predictive Back Gestures requires setting android:enableOnBackInvokedCallback to true and using OnBackPressedCallback or OnBackInvokedCallback."
       }
     },
@@ -924,8 +1034,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [78],
-        "answer": ["B. To allow system back navigation"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. To allow system back navigation"
+        ],
         "explanation": "Disabling OnBackPressedCallback before calling onBackPressed() allows the system to handle back navigation and show Predictive Back animations."
       }
     },
@@ -954,8 +1068,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [81],
-        "answer": ["A. True"],
+        "answerId": [
+          81
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Android 14 supports custom in-app transitions for Predictive Back Gestures, such as shrinking views within the app."
       }
     },
@@ -998,8 +1116,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [84],
-        "answer": ["B. Predictive back animations"],
+        "answerId": [
+          84
+        ],
+        "answer": [
+          "B. Predictive back animations"
+        ],
         "explanation": "On Android 14, the 'Predictive back animations' option in Developer settings must be enabled to test Predictive Back Gestures."
       }
     },
@@ -1042,8 +1164,14 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [87, 88],
-        "answer": ["A. Apps with custom back behavior", "B. Apps using WebView"],
+        "answerId": [
+          87,
+          88
+        ],
+        "answer": [
+          "A. Apps with custom back behavior",
+          "B. Apps using WebView"
+        ],
         "explanation": "Apps with custom back behavior or WebView implementations require manual Predictive Back Gesture implementation using appropriate APIs."
       }
     },
@@ -1086,8 +1214,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [92],
-        "answer": ["B. To track navigation history"],
+        "answerId": [
+          92
+        ],
+        "answer": [
+          "B. To track navigation history"
+        ],
         "explanation": "The back stack tracks navigation history, allowing Predictive Back Gestures to preview the next destination in the stack."
       }
     },
@@ -1116,8 +1248,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [95],
-        "answer": ["A. True"],
+        "answerId": [
+          95
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Predictive Back Gestures reduce accidental app exits by showing previews, improving user retention and experience."
       }
     },
@@ -1160,8 +1296,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [98],
-        "answer": ["B. Add predictive back animations"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Add predictive back animations"
+        ],
         "explanation": "Google’s 'Add predictive back animations' codelab provides practical guidance for implementing Predictive Back Gestures, including WebView handling."
       }
     },
@@ -1204,8 +1344,16 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [101, 102, 104],
-        "answer": ["A. Phones", "B. Tablets", "D. Foldables"],
+        "answerId": [
+          101,
+          102,
+          104
+        ],
+        "answer": [
+          "A. Phones",
+          "B. Tablets",
+          "D. Foldables"
+        ],
         "explanation": "Predictive Back Gestures are supported on phones, tablets, and foldables running Android 13 or higher."
       }
     }

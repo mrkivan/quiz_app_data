@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. To simplify asynchronous programming"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. To simplify asynchronous programming"
+        ],
         "explanation": "Kotlin Coroutines simplify asynchronous programming by providing a way to write non-blocking code in a sequential manner."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. kotlinx.coroutines"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. kotlinx.coroutines"
+        ],
         "explanation": "The kotlinx.coroutines library provides the necessary APIs for working with coroutines in Kotlin."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. A suspendable computation"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. A suspendable computation"
+        ],
         "explanation": "A coroutine is a lightweight thread that can be suspended and resumed, enabling non-blocking asynchronous code."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. suspend"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. suspend"
+        ],
         "explanation": "The suspend keyword marks a function that can be paused and resumed, used within coroutines."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. launch"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. launch"
+        ],
         "explanation": "The launch builder starts a coroutine that does not return a result, returning a Job object to manage it."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. async"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. async"
+        ],
         "explanation": "The async builder starts a coroutine that returns a Deferred object, which can be used to retrieve a result."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. Blocks the thread until completion"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. Blocks the thread until completion"
+        ],
         "explanation": "The runBlocking builder runs a coroutine and blocks the current thread until completion, often used for testing or main functions."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. A lifecycle manager for coroutines"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. A lifecycle manager for coroutines"
+        ],
         "explanation": "A CoroutineScope defines the lifecycle of coroutines, ensuring they are cancelled when the scope is no longer needed."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. withContext"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. withContext"
+        ],
         "explanation": "The withContext function changes the coroutine context, such as the dispatcher, for a block of code."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. Runs coroutines on the main thread"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. Runs coroutines on the main thread"
+        ],
         "explanation": "Dispatchers.Main runs coroutines on the main thread, typically used for UI updates in Android applications."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. Optimized for I/O operations"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. Optimized for I/O operations"
+        ],
         "explanation": "Dispatchers.IO is optimized for I/O operations like network calls or file access, running coroutines on a thread pool."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. Optimized for CPU-intensive tasks"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. Optimized for CPU-intensive tasks"
+        ],
         "explanation": "Dispatchers.Default is used for CPU-intensive tasks, running coroutines on a shared thread pool."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. Suspends the coroutine for a time"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Suspends the coroutine for a time"
+        ],
         "explanation": "The delay function suspends a coroutine for a specified time without blocking the thread, allowing other coroutines to run."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. await"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. await"
+        ],
         "explanation": "The await function retrieves the result of a Deferred object returned by an async coroutine."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. Waits for job completion"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Waits for job completion"
+        ],
         "explanation": "The join function suspends the coroutine until the associated Job completes, used with launch coroutines."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Dispatchers.Default"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Dispatchers.Default"
+        ],
         "explanation": "GlobalScope uses Dispatchers.Default as its default dispatcher for CPU-intensive tasks."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. Launches application-wide coroutines"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. Launches application-wide coroutines"
+        ],
         "explanation": "GlobalScope launches coroutines that live for the entire application lifecycle, but its use is generally discouraged due to lack of structured concurrency."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. It lacks structured concurrency"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. It lacks structured concurrency"
+        ],
         "explanation": "GlobalScope lacks structured concurrency, making it harder to manage coroutine lifecycles and cancellations."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Binding coroutines to a scope"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Binding coroutines to a scope"
+        ],
         "explanation": "Structured concurrency ensures coroutines are bound to a scope, automatically cancelling child coroutines when the scope ends."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. viewModelScope"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. viewModelScope"
+        ],
         "explanation": "The viewModelScope is recommended for Android ViewModels, as it automatically cancels coroutines when the ViewModel is cleared."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. All child coroutines are cancelled"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. All child coroutines are cancelled"
+        ],
         "explanation": "When a scope is cancelled, all its child coroutines are cancelled, ensuring proper cleanup."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. cancel"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. cancel"
+        ],
         "explanation": "The cancel function on a Job object is used to cancel a coroutine launched with launch."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. Defines coroutine environment"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. Defines coroutine environment"
+        ],
         "explanation": "CoroutineContext defines the environment for a coroutine, including its dispatcher and job."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Runs on the current thread"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Runs on the current thread"
+        ],
         "explanation": "Dispatchers.Unconfined runs a coroutine on the current thread until the first suspension, then resumes on the thread that resumed it."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. CoroutineScope"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. CoroutineScope"
+        ],
         "explanation": "The CoroutineScope function creates a custom scope with a specified context, e.g., CoroutineScope(Dispatchers.Default)."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Compilation error"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Compilation error"
+        ],
         "explanation": "Calling a suspend function outside a coroutine or another suspend function results in a compilation error."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Job"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Job"
+        ],
         "explanation": "The launch builder returns a Job object, which can be used to manage the coroutine's lifecycle."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Deferred"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Deferred"
+        ],
         "explanation": "The async builder returns a Deferred object, which can be used to retrieve a result via await."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. awaitAll"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. awaitAll"
+        ],
         "explanation": "The awaitAll function waits for multiple Deferred objects to complete and returns their results as a list."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Creates a new scope for structured concurrency"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Creates a new scope for structured concurrency"
+        ],
         "explanation": "The coroutineScope builder creates a new scope that waits for all child coroutines to complete before returning, supporting structured concurrency."
       }
     }

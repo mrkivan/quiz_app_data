@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. Write and run unit tests"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Write and run unit tests"
+        ],
         "explanation": "JUnit is a testing framework used to write and run unit tests for Java and Kotlin code in Android."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. @Test"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. @Test"
+        ],
         "explanation": "@Test is used to mark a method as a test case in JUnit."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. Create mock objects"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. Create mock objects"
+        ],
         "explanation": "Mockito is used to create mock objects to simulate dependencies in unit tests."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. mock<MyClass>()"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. mock<MyClass>()"
+        ],
         "explanation": "Use mock<MyClass>() to create a mock object in Kotlin with Mockito-Kotlin."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. @BeforeEach"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. @BeforeEach"
+        ],
         "explanation": "@BeforeEach is used to run setup code before each test method in JUnit 5."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. @AfterEach"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. @AfterEach"
+        ],
         "explanation": "@AfterEach is used to run cleanup code after each test method in JUnit 5."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. whenever(mock.method()).thenReturn(value)"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. whenever(mock.method()).thenReturn(value)"
+        ],
         "explanation": "Use `whenever(mock.method()).thenReturn(value)` to stub a method with Mockito-Kotlin."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. assertEquals(expected, actual)"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. assertEquals(expected, actual)"
+        ],
         "explanation": "assertEquals(expected, actual) is used to check if two values are equal in JUnit."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. verify(mock).method()"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. verify(mock).method()"
+        ],
         "explanation": "Use verify(mock).method() to check if a method was called in Mockito."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. @Mock with openMocks(this)"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. @Mock with openMocks(this)"
+        ],
         "explanation": "@Mock with MockitoAnnotations.openMocks(this) initializes mocks in a test class."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. whenever(mock.suspendFunction()).thenReturn(value)"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. whenever(mock.suspendFunction()).thenReturn(value)"
+        ],
         "explanation": "Use `whenever(mock.suspendFunction()).thenReturn(value)` to mock a suspend function in Mockito-Kotlin."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. assertTrue(condition)"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. assertTrue(condition)"
+        ],
         "explanation": "assertTrue(condition) is used to check if a condition evaluates to true in JUnit."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. doNothing().whenever(mock).method()"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. doNothing().whenever(mock).method()"
+        ],
         "explanation": "Use `doNothing().whenever(mock).method()` to mock a void method in Mockito-Kotlin."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. @BeforeAll"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. @BeforeAll"
+        ],
         "explanation": "@BeforeAll is used to run setup code once before all tests in a JUnit 5 test class."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. @AfterAll"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. @AfterAll"
+        ],
         "explanation": "@AfterAll is used to run cleanup code once after all tests in a JUnit 5 test class."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. verify(mock, times(n)).method()"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. verify(mock, times(n)).method()"
+        ],
         "explanation": "Use verify(mock, times(n)).method() to verify a method was called a specific number of times."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. assertNull(object)"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. assertNull(object)"
+        ],
         "explanation": "assertNull(object) is used to check if an object is null in JUnit."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. mockStatic(MyClass::class.java)"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. mockStatic(MyClass::class.java)"
+        ],
         "explanation": "Use mockStatic(MyClass::class.java) to mock static methods with Mockito."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. assertThrows(Exception::class.java) { code }"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. assertThrows(Exception::class.java) { code }"
+        ],
         "explanation": "Use assertThrows(Exception::class.java) { code } to test for an expected exception in JUnit 5."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. @InjectMocks"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. @InjectMocks"
+        ],
         "explanation": "Use @InjectMocks to inject mocks into the class under test in Mockito."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. ArgumentCaptor.forClass(Type::class.java)"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. ArgumentCaptor.forClass(Type::class.java)"
+        ],
         "explanation": "Use ArgumentCaptor.forClass(Type::class.java) to capture arguments passed to a mocked method."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. @Timeout(value = time, unit = TimeUnit.SECONDS)"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. @Timeout(value = time, unit = TimeUnit.SECONDS)"
+        ],
         "explanation": "Use @Timeout(value = time, unit = TimeUnit.SECONDS) to set a timeout for a test in JUnit 5."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. Use @Mock with inline mocking"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. Use @Mock with inline mocking"
+        ],
         "explanation": "Use @Mock with opt-in for inline mocking to mock a final class in Mockito."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. assertSame(expected, actual)"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. assertSame(expected, actual)"
+        ],
         "explanation": "assertSame(expected, actual) checks if two objects are the same instance in JUnit."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. whenever(mock.method()).thenThrow(Exception::class.java)"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. whenever(mock.method()).thenThrow(Exception::class.java)"
+        ],
         "explanation": "Use `whenever(mock.method()).thenThrow(Exception::class.java)` to stub a method to throw an exception."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. @Disabled"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. @Disabled"
+        ],
         "explanation": "@Disabled is used to skip a test or test class in JUnit 5."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. verifyNoInteractions(mock)"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. verifyNoInteractions(mock)"
+        ],
         "explanation": "Use verifyNoInteractions(mock) to check that no methods were called on a mock."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. @ParameterizedTest with @ValueSource"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. @ParameterizedTest with @ValueSource"
+        ],
         "explanation": "Use @ParameterizedTest with a source like @ValueSource to run parameterized tests in JUnit 5."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. mockStatic(MyObject::class.java)"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. mockStatic(MyObject::class.java)"
+        ],
         "explanation": "Use mockStatic(MyObject::class.java) to mock a Kotlin object (singleton) with Mockito."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. assertTrue(collection.isEmpty())"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. assertTrue(collection.isEmpty())"
+        ],
         "explanation": "assertTrue(collection.isEmpty()) is commonly used to check if a collection is empty in JUnit."
       }
     }

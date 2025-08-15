@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. A reference type with method signatures"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. A reference type with method signatures"
+        ],
         "explanation": "An interface in Java is a reference type, similar to a class, that can contain only constants, method signatures, default methods, static methods, and nested types."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. interface"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. interface"
+        ],
         "explanation": "The 'interface' keyword is used to define an interface in Java."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. Yes, with default and static methods"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. Yes, with default and static methods"
+        ],
         "explanation": "Since Java 8, interfaces can contain default and static methods with implementations, but abstract methods remain without implementation."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. public"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. public"
+        ],
         "explanation": "Methods in a Java interface are implicitly public and abstract unless specified as default or static."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [17],
-        "answer": ["A. Yes"],
+        "answerId": [
+          17
+        ],
+        "answer": [
+          "A. Yes"
+        ],
         "explanation": "Yes, a Java interface can extend one or more interfaces using the 'extends' keyword."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. implements"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. implements"
+        ],
         "explanation": "The 'implements' keyword is used by a class to implement an interface in Java."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. Yes, but only constants"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. Yes, but only constants"
+        ],
         "explanation": "Fields in a Java interface are implicitly public, static, and final, meaning they are constants."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. The class must be declared abstract"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. The class must be declared abstract"
+        ],
         "explanation": "If a class does not implement all abstract methods of an interface, it must be declared abstract, or the code will not compile."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [35],
-        "answer": ["C. Java 8"],
+        "answerId": [
+          35
+        ],
+        "answer": [
+          "C. Java 8"
+        ],
         "explanation": "Default methods in interfaces were introduced in Java 8 to allow interfaces to have method implementations without breaking existing implementations."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. No"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. No"
+        ],
         "explanation": "Interfaces in Java cannot have constructors because they are not instantiated directly."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. To provide a default implementation"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. To provide a default implementation"
+        ],
         "explanation": "Default methods provide a default implementation for methods in an interface, allowing classes to inherit the implementation if they do not override it."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. Yes"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "Since Java 8, interfaces can have static methods with implementations, which can be called without an instance of the interface."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. public"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. public"
+        ],
         "explanation": "Fields in a Java interface are implicitly public, static, and final."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Yes"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "Yes, a Java interface can extend multiple interfaces using the 'extends' keyword, allowing multiple inheritance of type."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. The class must override the method"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. The class must override the method"
+        ],
         "explanation": "If a class implements two interfaces with default methods of the same signature, the class must override the method to resolve the conflict, or a compilation error occurs."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Yes, since Java 9"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Yes, since Java 9"
+        ],
         "explanation": "Since Java 9, interfaces can have private methods to share code between default or static methods within the same interface."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. To implement an interface"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. To implement an interface"
+        ],
         "explanation": "The 'implements' keyword is used to indicate that a class provides implementations for the methods defined in an interface."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. No"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. No"
+        ],
         "explanation": "Interfaces cannot be instantiated directly, but they can be implemented by classes or used with anonymous classes."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. An interface with no methods or fields"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. An interface with no methods or fields"
+        ],
         "explanation": "A marker interface is an interface with no methods or fields, used to provide metadata to the JVM or frameworks, like Serializable."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Serializable"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Serializable"
+        ],
         "explanation": "Serializable is a marker interface in Java, used to indicate that a class can be serialized."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Yes"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "Yes, a class can implement multiple interfaces in Java using the 'implements' keyword, separated by commas."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. To call an interface's default method"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. To call an interface's default method"
+        ],
         "explanation": "The 'super' keyword is used in a class to call a default method from a specific interface when resolving method conflicts."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. No"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. No"
+        ],
         "explanation": "No, an interface cannot extend a class in Java; it can only extend other interfaces."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Abstract classes can have instance methods and fields"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Abstract classes can have instance methods and fields"
+        ],
         "explanation": "An abstract class can have instance methods with implementations and fields, while an interface primarily defines method signatures and constants, with default and static methods allowed since Java 8."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Yes"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "Yes, a Java interface can contain nested interfaces, which are implicitly static and public."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. List"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. List"
+        ],
         "explanation": "The List interface is part of the Java Collections Framework, defining an ordered collection."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. No"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. No"
+        ],
         "explanation": "No, an interface cannot be declared as final because interfaces are meant to be extended or implemented."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. To define a natural ordering"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. To define a natural ordering"
+        ],
         "explanation": "The Comparable interface is used to define a natural ordering for objects of a class by implementing the compareTo method."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Yes"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "Yes, interfaces in Java can have abstract methods, which are implicitly abstract and public, requiring implementation by classes."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Cloneable"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Cloneable"
+        ],
         "explanation": "The Cloneable interface is a marker interface in Java that indicates a class can be cloned using the clone() method."
       }
     }

@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. An anonymous function"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. An anonymous function"
+        ],
         "explanation": "A lambda expression is an anonymous function defined using curly braces, e.g., { x, y -> x + y }, used for concise function literals."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. { x, y -> x + y }"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. { x, y -> x + y }"
+        ],
         "explanation": "A lambda is defined using curly braces with parameters, an arrow, and body, e.g., { x, y -> x + y }."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. A function that takes or returns a function"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. A function that takes or returns a function"
+        ],
         "explanation": "A higher-order function either takes a function as a parameter or returns a function, enabling functional programming patterns."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. None, it's a syntax feature"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. None, it's a syntax feature"
+        ],
         "explanation": "When a lambda is the last parameter, it can be passed outside parentheses, e.g., list.forEach { println(it) }."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. The single parameter"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. The single parameter"
+        ],
         "explanation": "The 'it' keyword is an implicit name for a single parameter in a lambda, e.g., { it * 2 } for a single input."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. fun operate(x: Int, op: (Int) -> Int): Int"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. fun operate(x: Int, op: (Int) -> Int): Int"
+        ],
         "explanation": "A higher-order function is defined with a function type parameter, e.g., fun operate(x: Int, op: (Int) -> Int): Int."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. The last expression's value"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. The last expression's value"
+        ],
         "explanation": "The return value of a lambda is the value of its last expression, implicitly returned."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. forEach()"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. forEach()"
+        ],
         "explanation": "The forEach() function applies a lambda to each element of a collection, e.g., list.forEach { println(it) }."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Transforms elements"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Transforms elements"
+        ],
         "explanation": "The map() function transforms each element of a collection using a lambda and returns a new collection."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. Selects elements matching a predicate"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. Selects elements matching a predicate"
+        ],
         "explanation": "The filter() function returns a new collection containing only elements that satisfy a lambda predicate."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. list.map(::double)"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. list.map(::double)"
+        ],
         "explanation": "A named function is passed using the :: operator, e.g., list.map(::double)."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. Executes a lambda on a non-null object"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. Executes a lambda on a non-null object"
+        ],
         "explanation": "The let function executes a lambda on a non-null object and returns the lambda's result, useful for scoping and null safety."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. Executes a lambda with receiver"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Executes a lambda with receiver"
+        ],
         "explanation": "The run function executes a lambda on an object with 'this' as the receiver and returns the lambda's result."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. let uses 'it', run uses 'this'"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. let uses 'it', run uses 'this'"
+        ],
         "explanation": "let uses 'it' to refer to the object, while run uses 'this' as the receiver, affecting how the object is accessed in the lambda."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. Returns the object itself"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Returns the object itself"
+        ],
         "explanation": "The apply function executes a lambda with the object as the receiver and returns the object itself, useful for configuration."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Returns the object itself"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Returns the object itself"
+        ],
         "explanation": "The also function executes a lambda with the object as 'it' and returns the object itself, useful for side effects."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. Returns the lambda's result"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. Returns the lambda's result"
+        ],
         "explanation": "The with function executes a lambda with an object as the receiver and returns the lambda's result, useful for scoping."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. Combines elements into a single value"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. Combines elements into a single value"
+        ],
         "explanation": "The reduce function applies a lambda to combine collection elements into a single value, e.g., list.reduce { acc, x -> acc + x }."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. fold takes an initial value"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. fold takes an initial value"
+        ],
         "explanation": "The fold function takes an initial value, while reduce uses the first element as the initial accumulator."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Reduces runtime overhead"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Reduces runtime overhead"
+        ],
         "explanation": "The inline modifier reduces runtime overhead by inlining the lambda's code at the call site, improving performance."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Prevents lambda inlining"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Prevents lambda inlining"
+        ],
         "explanation": "The noinline modifier prevents a lambda parameter from being inlined, useful for preserving function objects."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Prevents non-local returns"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Prevents non-local returns"
+        ],
         "explanation": "The crossinline modifier prevents non-local returns in an inlined lambda, ensuring control flow stays within the lambda."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. Returns the object or null"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. Returns the object or null"
+        ],
         "explanation": "The takeIf function returns the object if it satisfies a lambda predicate, otherwise returns null."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Returns the object or null"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Returns the object or null"
+        ],
         "explanation": "The takeUnless function returns the object if it does not satisfy a lambda predicate, otherwise returns null."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. By reference"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. By reference"
+        ],
         "explanation": "Lambdas capture outer variables by reference, allowing access to variables from the surrounding scope."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Sorts based on a key"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Sorts based on a key"
+        ],
         "explanation": "The sortedBy function sorts a collection based on a key provided by a lambda, e.g., list.sortedBy { it.length }."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Groups elements by a key"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Groups elements by a key"
+        ],
         "explanation": "The groupBy function groups collection elements by a key provided by a lambda, returning a Map."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Creates a Map with keys from a lambda"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Creates a Map with keys from a lambda"
+        ],
         "explanation": "The associateBy function creates a Map using a lambda to determine the key for each element."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Compilation error"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Compilation error"
+        ],
         "explanation": "A non-local return in a non-inline function causes a compilation error, as non-local returns are only allowed in inline functions."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Checks if at least one element matches"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Checks if at least one element matches"
+        ],
         "explanation": "The any function checks if at least one element in a collection satisfies a lambda predicate, returning a Boolean."
       }
     }

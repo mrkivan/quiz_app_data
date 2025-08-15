@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. GlanceAppWidget"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. GlanceAppWidget"
+        ],
         "explanation": "GlanceAppWidget is extended to define the UI and behavior of a Jetpack Glance widget."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. GlanceAppWidgetReceiver"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. GlanceAppWidgetReceiver"
+        ],
         "explanation": "GlanceAppWidgetReceiver is used to handle widget updates and lifecycle events."
       }
     },
@@ -114,8 +122,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [9],
-        "answer": ["A. True"],
+        "answerId": [
+          9
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Jetpack Glance uses the Jetpack Compose runtime to translate composables into RemoteViews for widgets."
       }
     },
@@ -158,8 +170,16 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [11, 12, 14],
-        "answer": ["A. Column", "B. Row", "D. Text"],
+        "answerId": [
+          11,
+          12,
+          14
+        ],
+        "answer": [
+          "A. Column",
+          "B. Row",
+          "D. Text"
+        ],
         "explanation": "Column, Row, and Text are Glance composables, while MaterialTheme is a Jetpack Compose theming component, not used in Glance."
       }
     },
@@ -202,8 +222,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [16],
-        "answer": ["B. provideGlance"],
+        "answerId": [
+          16
+        ],
+        "answer": [
+          "B. provideGlance"
+        ],
         "explanation": "The provideGlance method is overridden to define the composable UI for a Glance widget."
       }
     },
@@ -232,8 +256,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [20],
-        "answer": ["B. False"],
+        "answerId": [
+          20
+        ],
+        "answer": [
+          "B. False"
+        ],
         "explanation": "Glance composables are not directly interoperable with Jetpack Compose UI elements due to their translation into RemoteViews."
       }
     },
@@ -276,8 +304,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [23],
-        "answer": ["C. SizeMode.Responsive"],
+        "answerId": [
+          23
+        ],
+        "answer": [
+          "C. SizeMode.Responsive"
+        ],
         "explanation": "SizeMode.Responsive allows a widget to support a predefined set of sizes for responsive layouts."
       }
     },
@@ -320,8 +352,16 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [25, 26, 28],
-        "answer": ["A. actionRunCallback", "B. actionStartActivity", "D. actionSendBroadcast"],
+        "answerId": [
+          25,
+          26,
+          28
+        ],
+        "answer": [
+          "A. actionRunCallback",
+          "B. actionStartActivity",
+          "D. actionSendBroadcast"
+        ],
         "explanation": "actionRunCallback, actionStartActivity, and actionSendBroadcast are predefined actions in Glance, while actionUpdateWidget is not."
       }
     },
@@ -364,8 +404,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [30],
-        "answer": ["B. appwidget-provider"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. appwidget-provider"
+        ],
         "explanation": "The appwidget-provider XML file defines metadata like minWidth, minHeight, and initialLayout for a Glance widget."
       }
     },
@@ -394,8 +438,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [33],
-        "answer": ["A. True"],
+        "answerId": [
+          33
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Glance depends on the Jetpack Compose runtime, so Compose must be enabled in the project."
       }
     },
@@ -438,8 +486,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [36],
-        "answer": ["B. SizeMode.Exact"],
+        "answerId": [
+          36
+        ],
+        "answer": [
+          "B. SizeMode.Exact"
+        ],
         "explanation": "SizeMode.Exact refreshes the widget UI every time the user resizes it."
       }
     },
@@ -482,8 +534,14 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [39, 41],
-        "answer": ["A. receiver", "C. appwidget-provider metadata"],
+        "answerId": [
+          39,
+          41
+        ],
+        "answer": [
+          "A. receiver",
+          "C. appwidget-provider metadata"
+        ],
         "explanation": "A receiver and appwidget-provider metadata are required in the AndroidManifest.xml, while layout and activity are not specific to Glance widget setup."
       }
     },
@@ -526,8 +584,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [44],
-        "answer": ["B. Column"],
+        "answerId": [
+          44
+        ],
+        "answer": [
+          "B. Column"
+        ],
         "explanation": "Column arranges elements vertically in a Glance widget, similar to Jetpack Compose."
       }
     },
@@ -556,8 +618,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [47],
-        "answer": ["A. True"],
+        "answerId": [
+          47
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "WorkManager can be used to schedule periodic updates for Glance widgets, such as every 15 minutes."
       }
     },
@@ -600,8 +666,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [50],
-        "answer": ["B. GlanceModifier.fillMaxSize"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. GlanceModifier.fillMaxSize"
+        ],
         "explanation": "GlanceModifier.fillMaxSize makes a composable fill the available space in a Glance widget."
       }
     },
@@ -644,8 +714,16 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [53, 54, 56],
-        "answer": ["A. Enable Jetpack Compose", "B. Add Glance dependencies", "D. Define appwidget-provider XML"],
+        "answerId": [
+          53,
+          54,
+          56
+        ],
+        "answer": [
+          "A. Enable Jetpack Compose",
+          "B. Add Glance dependencies",
+          "D. Define appwidget-provider XML"
+        ],
         "explanation": "Enabling Compose, adding Glance dependencies, and defining an appwidget-provider XML are required, while Room is optional."
       }
     },
@@ -688,8 +766,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [58],
-        "answer": ["B. Row"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Row"
+        ],
         "explanation": "Row arranges elements horizontally in a Glance widget, similar to Jetpack Compose."
       }
     },
@@ -718,8 +800,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [61],
-        "answer": ["A. True"],
+        "answerId": [
+          61
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Glance supports interoperability with RemoteViews using AndroidRemoteViews for existing widget layouts."
       }
     },
@@ -762,8 +848,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [64],
-        "answer": ["B. updateAll"],
+        "answerId": [
+          64
+        ],
+        "answer": [
+          "B. updateAll"
+        ],
         "explanation": "The updateAll method updates all instances of a Glance widget."
       }
     },
@@ -806,8 +896,14 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [67, 69],
-        "answer": ["A. PreferencesGlanceStateDefinition", "C. DataStore"],
+        "answerId": [
+          67,
+          69
+        ],
+        "answer": [
+          "A. PreferencesGlanceStateDefinition",
+          "C. DataStore"
+        ],
         "explanation": "PreferencesGlanceStateDefinition and DataStore are used for state management, while NavController and ViewModel are not."
       }
     },
@@ -850,8 +946,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [72],
-        "answer": ["B. Text"],
+        "answerId": [
+          72
+        ],
+        "answer": [
+          "B. Text"
+        ],
         "explanation": "Text is the composable used to display text in a Glance widget."
       }
     },
@@ -880,8 +980,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [75],
-        "answer": ["A. True"],
+        "answerId": [
+          75
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Glance provides a default loading layout (glance_default_loading_layout) for use in the appwidget-provider XML."
       }
     },
@@ -924,8 +1028,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [78],
-        "answer": ["B. SizeMode.Single"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. SizeMode.Single"
+        ],
         "explanation": "SizeMode.Single uses the minimum supported size and does not refresh the UI when the widget is resized."
       }
     },
@@ -968,8 +1076,16 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [81, 82, 84],
-        "answer": ["A. fillMaxSize", "B. padding", "D. clickable"],
+        "answerId": [
+          81,
+          82,
+          84
+        ],
+        "answer": [
+          "A. fillMaxSize",
+          "B. padding",
+          "D. clickable"
+        ],
         "explanation": "fillMaxSize, padding, and clickable are Glance modifiers, while weight is a Jetpack Compose modifier not used in Glance."
       }
     },
@@ -1012,8 +1128,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [86],
-        "answer": ["B. Button"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Button"
+        ],
         "explanation": "Button is used for clickable actions in a Glance widget, often with actions like actionStartActivity."
       }
     },
@@ -1042,8 +1162,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [89],
-        "answer": ["A. True"],
+        "answerId": [
+          89
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "WorkManager can be used to fetch images from the internet for Glance widgets, avoiding NetworkOnMainThreadException."
       }
     },
@@ -1086,8 +1210,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [92],
-        "answer": ["B. PreferencesGlanceStateDefinition"],
+        "answerId": [
+          92
+        ],
+        "answer": [
+          "B. PreferencesGlanceStateDefinition"
+        ],
         "explanation": "PreferencesGlanceStateDefinition defines how widget state is stored and serialized."
       }
     },
@@ -1130,8 +1258,16 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [95, 96, 98],
-        "answer": ["A. GlanceTheme", "B. glance-material", "D. glance-material3"],
+        "answerId": [
+          95,
+          96,
+          98
+        ],
+        "answer": [
+          "A. GlanceTheme",
+          "B. glance-material",
+          "D. glance-material3"
+        ],
         "explanation": "GlanceTheme, glance-material, and glance-material3 support theming, while MaterialTheme is not used in Glance."
       }
     },
@@ -1174,8 +1310,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [100],
-        "answer": ["B. Box"],
+        "answerId": [
+          100
+        ],
+        "answer": [
+          "B. Box"
+        ],
         "explanation": "Box is used to stack elements in a Glance widget, allowing overlapping layouts."
       }
     },
@@ -1204,8 +1344,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [104],
-        "answer": ["B. False"],
+        "answerId": [
+          104
+        ],
+        "answer": [
+          "B. False"
+        ],
         "explanation": "Dynamic resizing with SizeMode.Responsive is inconsistent on older API levels (below 33), making it unreliable across all APIs."
       }
     }

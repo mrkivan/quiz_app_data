@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. remember"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. remember"
+        ],
         "explanation": "remember caches a value across recompositions, preventing recalculation unless dependencies change."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. Layout Inspector"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. Layout Inspector"
+        ],
         "explanation": "Layout Inspector provides insights into recomposition and UI hierarchy in Compose apps."
       }
     },
@@ -114,8 +122,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [9],
-        "answer": ["A. True"],
+        "answerId": [
+          9
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Recomposition is triggered when a composable's state or parameters change, causing it to redraw."
       }
     },
@@ -158,8 +170,16 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [11, 12, 14],
-        "answer": ["A. remember", "B. derivedStateOf", "D. Stable data types"],
+        "answerId": [
+          11,
+          12,
+          14
+        ],
+        "answer": [
+          "A. remember",
+          "B. derivedStateOf",
+          "D. Stable data types"
+        ],
         "explanation": "remember, derivedStateOf, and stable data types reduce unnecessary recompositions, while mutableStateOf alone does not."
       }
     },
@@ -202,8 +222,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [16],
-        "answer": ["B. LaunchedEffect"],
+        "answerId": [
+          16
+        ],
+        "answer": [
+          "B. LaunchedEffect"
+        ],
         "explanation": "LaunchedEffect runs side effects when its keys change, optimizing performance by avoiding unnecessary executions."
       }
     },
@@ -232,8 +256,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [19],
-        "answer": ["A. True"],
+        "answerId": [
+          19
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "LazyColumn renders only visible items, improving performance for large lists compared to regular Column."
       }
     },
@@ -276,8 +304,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [22],
-        "answer": ["B. derivedStateOf"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. derivedStateOf"
+        ],
         "explanation": "derivedStateOf creates a state that updates only when its dependencies change, reducing recompositions."
       }
     },
@@ -320,8 +352,16 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [25, 26, 28],
-        "answer": ["A. Use lazy layouts", "B. Use stable data types", "D. Minimize state reads"],
+        "answerId": [
+          25,
+          26,
+          28
+        ],
+        "answer": [
+          "A. Use lazy layouts",
+          "B. Use stable data types",
+          "D. Minimize state reads"
+        ],
         "explanation": "Using lazy layouts, stable data types, and minimizing state reads optimize performance, but frequent recomposition is not ideal."
       }
     },
@@ -364,8 +404,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [30],
-        "answer": ["B. LazyColumn"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. LazyColumn"
+        ],
         "explanation": "LazyColumn renders only visible items, reducing memory and CPU usage for large lists."
       }
     },
@@ -394,8 +438,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [33],
-        "answer": ["A. True"],
+        "answerId": [
+          33
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Stable data types, marked with @Stable or immutable, allow Compose to skip recompositions when unchanged."
       }
     },
@@ -438,8 +486,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [36],
-        "answer": ["B. SideEffect"],
+        "answerId": [
+          36
+        ],
+        "answer": [
+          "B. SideEffect"
+        ],
         "explanation": "SideEffect runs on every recomposition, useful for non-lifecycle-aware operations, but should be used sparingly."
       }
     },
@@ -482,8 +534,16 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [39, 40, 42],
-        "answer": ["A. Unstable data types", "B. Frequent state updates", "D. Inline calculations in composables"],
+        "answerId": [
+          39,
+          40,
+          42
+        ],
+        "answer": [
+          "A. Unstable data types",
+          "B. Frequent state updates",
+          "D. Inline calculations in composables"
+        ],
         "explanation": "Unstable data types, frequent state updates, and inline calculations can cause excessive recompositions, while lazy layouts reduce them."
       }
     },
@@ -526,8 +586,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [44],
-        "answer": ["B. drawWithCache"],
+        "answerId": [
+          44
+        ],
+        "answer": [
+          "B. drawWithCache"
+        ],
         "explanation": "drawWithCache caches drawing operations, improving performance for complex graphics."
       }
     },
@@ -556,8 +620,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [47],
-        "answer": ["A. True"],
+        "answerId": [
+          47
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Moving complex logic to ViewModel reduces composable workload, improving performance by minimizing recompositions."
       }
     },
@@ -600,8 +668,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [50],
-        "answer": ["B. LazyVerticalGrid"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. LazyVerticalGrid"
+        ],
         "explanation": "LazyVerticalGrid renders only visible grid items, optimizing performance for large datasets."
       }
     },
@@ -644,8 +716,16 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [53, 54, 56],
-        "answer": ["A. Using lazy layouts", "B. Caching images", "D. Avoiding nested layouts"],
+        "answerId": [
+          53,
+          54,
+          56
+        ],
+        "answer": [
+          "A. Using lazy layouts",
+          "B. Caching images",
+          "D. Avoiding nested layouts"
+        ],
         "explanation": "Lazy layouts, image caching, and avoiding nested layouts reduce memory usage, while frequent state updates increase it."
       }
     },
@@ -688,8 +768,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [58],
-        "answer": ["B. @Stable"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. @Stable"
+        ],
         "explanation": "@Stable indicates a data type's equality is predictable, allowing Compose to skip recompositions."
       }
     },
@@ -718,8 +802,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [61],
-        "answer": ["A. True"],
+        "answerId": [
+          61
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Inline composables can cause parent composables to recompose, increasing the recomposition scope."
       }
     },
@@ -762,8 +850,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [64],
-        "answer": ["B. Profiler"],
+        "answerId": [
+          64
+        ],
+        "answer": [
+          "B. Profiler"
+        ],
         "explanation": "The Android Studio Profiler measures frame rendering time, helping identify performance bottlenecks."
       }
     },
@@ -806,8 +898,16 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [67, 68, 70],
-        "answer": ["A. Using drawWithCache", "B. Applying clipping", "D. Using hardware acceleration"],
+        "answerId": [
+          67,
+          68,
+          70
+        ],
+        "answer": [
+          "A. Using drawWithCache",
+          "B. Applying clipping",
+          "D. Using hardware acceleration"
+        ],
         "explanation": "drawWithCache, clipping, and hardware acceleration improve rendering, while frequent recompositions harm performance."
       }
     },
@@ -850,8 +950,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [72],
-        "answer": ["B. State hoisting"],
+        "answerId": [
+          72
+        ],
+        "answer": [
+          "B. State hoisting"
+        ],
         "explanation": "State hoisting moves state to a higher composable or ViewModel, reducing recomposition scope."
       }
     },
@@ -880,8 +984,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [75],
-        "answer": ["A. True"],
+        "answerId": [
+          75
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Nested layouts increase the complexity of the UI tree, leading to higher rendering overhead."
       }
     },
@@ -924,8 +1032,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [78],
-        "answer": ["B. wrapContentSize"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. wrapContentSize"
+        ],
         "explanation": "wrapContentSize skips measurement for fixed-size content, improving layout performance."
       }
     },
@@ -968,8 +1080,16 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [81, 82, 84],
-        "answer": ["A. Layout Inspector", "B. Profiler", "D. Macrobenchmark"],
+        "answerId": [
+          81,
+          82,
+          84
+        ],
+        "answer": [
+          "A. Layout Inspector",
+          "B. Profiler",
+          "D. Macrobenchmark"
+        ],
         "explanation": "Layout Inspector, Profiler, and Macrobenchmark help profile Compose performance, while Logcat is for logging."
       }
     },
@@ -1012,8 +1132,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [86],
-        "answer": ["B. remember"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. remember"
+        ],
         "explanation": "remember with keys memoizes calculations, recomputing only when keys change."
       }
     },
@@ -1042,8 +1166,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [89],
-        "answer": ["A. True"],
+        "answerId": [
+          89
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "@Immutable marks data as unchangeable, allowing Compose to skip recompositions for unchanged objects."
       }
     },
@@ -1086,8 +1214,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [92],
-        "answer": ["B. LazyRow"],
+        "answerId": [
+          92
+        ],
+        "answer": [
+          "B. LazyRow"
+        ],
         "explanation": "LazyRow renders only visible items in a horizontal list, optimizing performance."
       }
     },
@@ -1130,8 +1262,16 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [95, 96, 98],
-        "answer": ["A. Complex inline logic", "B. Large composable trees", "D. Unstable parameters"],
+        "answerId": [
+          95,
+          96,
+          98
+        ],
+        "answer": [
+          "A. Complex inline logic",
+          "B. Large composable trees",
+          "D. Unstable parameters"
+        ],
         "explanation": "Complex inline logic, large composable trees, and unstable parameters increase recomposition, while stable data types reduce it."
       }
     },
@@ -1174,8 +1314,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [100],
-        "answer": ["B. nestedScroll"],
+        "answerId": [
+          100
+        ],
+        "answer": [
+          "B. nestedScroll"
+        ],
         "explanation": "nestedScroll enables smooth scrolling integration with lazy layouts, improving performance."
       }
     },
@@ -1204,8 +1348,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [103],
-        "answer": ["A. True"],
+        "answerId": [
+          103
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "ViewModel manages state outside composables, reducing recomposition by centralizing state updates."
       }
     }

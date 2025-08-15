@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. Treats them as unchecked"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Treats them as unchecked"
+        ],
         "explanation": "Kotlin treats Java checked exceptions as unchecked, so try-catch is not mandatory."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [2],
-        "answer": ["B. @JvmField"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. @JvmField"
+        ],
         "explanation": "@JvmField exposes a Kotlin property as a public Java field, bypassing getters/setters."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [2],
-        "answer": ["B. Pass all parameters explicitly"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Pass all parameters explicitly"
+        ],
         "explanation": "Java requires all parameters to be passed explicitly, as it doesn't support default parameters."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [2],
-        "answer": ["B. Requires manual null checks"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Requires manual null checks"
+        ],
         "explanation": "Kotlin nullable types are treated as regular Java types, requiring manual null checks."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [2],
-        "answer": ["B. @JvmStatic"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. @JvmStatic"
+        ],
         "explanation": "@JvmStatic makes companion object or object functions accessible as static methods in Java."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [2],
-        "answer": ["B. Using getters and setters"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Using getters and setters"
+        ],
         "explanation": "Data classes generate standard getters, setters, and methods like toString(), accessible in Java."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [2],
-        "answer": ["B. Customizes function or file name"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Customizes function or file name"
+        ],
         "explanation": "@JvmName customizes the name of a Kotlin function or file in the generated Java bytecode."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [2],
-        "answer": ["B. As a static nested class"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. As a static nested class"
+        ],
         "explanation": "A companion object is accessible as a static nested class named 'Companion' in Java."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [2],
-        "answer": ["B. @Suppress"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. @Suppress"
+        ],
         "explanation": "@Suppress('UNCHECKED_CAST') or similar can suppress nullability warnings for Java code."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [2],
-        "answer": ["B. As static methods"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. As static methods"
+        ],
         "explanation": "Extension functions are compiled as static methods, called with the receiver as the first parameter."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [2],
-        "answer": ["B. Generates overloaded methods"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Generates overloaded methods"
+        ],
         "explanation": "@JvmOverloads generates overloaded methods for functions with default parameters for Java compatibility."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [2],
-        "answer": ["B. As a singleton with INSTANCE"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. As a singleton with INSTANCE"
+        ],
         "explanation": "A Kotlin 'object' is compiled as a singleton class with a static INSTANCE field in Java."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [2],
-        "answer": ["B. @Nullable/@NotNull"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. @Nullable/@NotNull"
+        ],
         "explanation": "@Nullable and @NotNull from libraries like JetBrains annotations clarify nullability for Java."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [2],
-        "answer": ["B. As abstract classes"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. As abstract classes"
+        ],
         "explanation": "Sealed classes are compiled as abstract classes with restricted subclasses in Java."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [2],
-        "answer": ["B. Hides from Java reflection"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Hides from Java reflection"
+        ],
         "explanation": "@JvmSynthetic hides a Kotlin declaration from Java reflection, keeping it internal."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [2],
-        "answer": ["B. As regular function calls"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. As regular function calls"
+        ],
         "explanation": "Inline functions are inlined at compile-time and can be called normally from Java."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [2],
-        "answer": ["B. Uses a functional interface"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Uses a functional interface"
+        ],
         "explanation": "Java passes a lambda or anonymous class implementing the corresponding functional interface."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [2],
-        "answer": ["B. As static methods"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. As static methods"
+        ],
         "explanation": "Top-level functions are compiled as static methods in a class named after the Kotlin file."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [2],
-        "answer": ["B. Specifies exceptions for Java"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Specifies exceptions for Java"
+        ],
         "explanation": "@Throws specifies exceptions for Java callers, as Kotlin doesn't use checked exceptions."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [2],
-        "answer": ["B. Via getters/setters"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Via getters/setters"
+        ],
         "explanation": "Java accesses 'lateinit' properties via getters/setters, but uninitialized access throws an exception."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [2],
-        "answer": ["B. None, handled by compiler"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. None, handled by compiler"
+        ],
         "explanation": "@JvmSignature is not a standard annotation; signatures are typically managed by the compiler."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [2],
-        "answer": ["B. Via getters and setters"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Via getters and setters"
+        ],
         "explanation": "Delegated properties are accessed via generated getters and setters in Java."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [2],
-        "answer": ["B. Enables default interface methods"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Enables default interface methods"
+        ],
         "explanation": "@JvmDefault enables default method implementations in interfaces for Java compatibility."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [2],
-        "answer": ["B. Through getters"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Through getters"
+        ],
         "explanation": "Java accesses 'by lazy' properties through their getters, which handle lazy initialization."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [2],
-        "answer": ["B. Extends normally"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Extends normally"
+        ],
         "explanation": "Java can extend a Kotlin open class normally, as it compiles to a regular Java class."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [2],
-        "answer": ["B. As static final fields"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. As static final fields"
+        ],
         "explanation": "'const' properties are compiled as static final fields in Java, accessible directly."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [2],
-        "answer": ["B. Combines multiple files into one class"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Combines multiple files into one class"
+        ],
         "explanation": "@JvmMultifileClass combines multiple Kotlin files into a single Java class for top-level declarations."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [2],
-        "answer": ["B. As switch or if-else"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. As switch or if-else"
+        ],
         "explanation": "Kotlin's 'when' expression is compiled to a switch or if-else statement in Java bytecode."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [2],
-        "answer": ["B. Underlying type is used"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Underlying type is used"
+        ],
         "explanation": "Type aliases are not visible in Java; the underlying type is used directly."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [2],
-        "answer": ["B. Ensures wildcard types"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Ensures wildcard types"
+        ],
         "explanation": "@JvmWildcard ensures proper wildcard types in Java for Kotlin's generic variance."
       }
     }

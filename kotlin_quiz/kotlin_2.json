@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": "B. if (condition) { }",
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. if (condition) { }"
+        ],
         "explanation": "In Kotlin, an if statement uses the syntax 'if (condition) { }' with curly braces for the block."
       }
     },
@@ -77,8 +81,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. By assigning its result to a variable"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. By assigning its result to a variable"
+        ],
         "explanation": "In Kotlin, an if expression can return a value and be used as an expression, e.g., 'val result = if (condition) value1 else value2'."
       }
     },
@@ -121,8 +129,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. Specifies an alternative code block"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. Specifies an alternative code block"
+        ],
         "explanation": "The 'else' keyword specifies the code block to execute when the if condition is false."
       }
     },
@@ -165,8 +177,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. Selects a code branch based on a value"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. Selects a code branch based on a value"
+        ],
         "explanation": "The 'when' expression in Kotlin is used to select a branch of code based on the value of an expression, similar to a switch statement in other languages."
       }
     },
@@ -209,12 +225,16 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. for"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. for"
+        ],
         "explanation": "The 'for' loop in Kotlin is used to iterate over a range of numbers, e.g., 'for (i in 1..10)'."
       }
     },
-   {
+    {
       "questionId": 6,
       "question": "What is the purpose of the 'break' statement in a Kotlin loop?",
       "answerCellType": 0,
@@ -231,7 +251,7 @@
         },
         {
           "answerId": 22,
-          "questionId":6,
+          "questionId": 6,
           "data": "B. Exits the loop",
           "isItAnswer": true,
           "position": 2
@@ -253,8 +273,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": "B. Exits the loop",
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. Exits the loop"
+        ],
         "explanation": "The 'break' statement is used to exit a loop prematurely in Kotlin."
       }
     },
@@ -297,8 +321,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. It is a concise alternative to if-else"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. It is a concise alternative to if-else"
+        ],
         "explanation": "The 'when' expression in Kotlin is a more concise alternative to a series of if-else statements and can return a value."
       }
     },
@@ -341,8 +369,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. Skips to the next iteration"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Skips to the next iteration"
+        ],
         "explanation": "The 'continue' statement skips the rest of the current iteration of a loop and proceeds to the next iteration."
       }
     },
@@ -385,8 +417,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [35],
-        "answer": ["C. do-while"],
+        "answerId": [
+          35
+        ],
+        "answer": [
+          "C. do-while"
+        ],
         "explanation": "The 'do-while' loop executes the block of code at least once before checking the condition."
       }
     },
@@ -429,8 +465,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. The loop body is not executed"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. The loop body is not executed"
+        ],
         "explanation": "If the condition in a 'while' loop is initially false, the loop body is not executed."
       }
     },
@@ -473,8 +513,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. for (item in list)"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. for (item in list)"
+        ],
         "explanation": "In Kotlin, a 'for' loop iterates over a list using 'for (item in list)'."
       }
     },
@@ -517,8 +561,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [45],
-        "answer": ["A. for has an iterator, while does not"],
+        "answerId": [
+          45
+        ],
+        "answer": [
+          "A. for has an iterator, while does not"
+        ],
         "explanation": "A 'for' loop iterates over a collection or range, while 'while' repeats as long as a condition is true."
       }
     },
@@ -561,8 +609,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. when"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. when"
+        ],
         "explanation": "The 'when' expression allows multiple conditions to be checked in a single statement."
       }
     },
@@ -605,8 +657,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Exits the loop and returns a value"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. Exits the loop and returns a value"
+        ],
         "explanation": "The 'return' statement exits the loop and returns a value."
       }
     },
@@ -649,8 +705,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [57],
-        "answer": ["A. while (true)"],
+        "answerId": [
+          57
+        ],
+        "answer": [
+          "A. while (true)"
+        ],
         "explanation": "A 'while (true)' loop runs indefinitely until a 'break' statement is used."
       }
     },
@@ -693,8 +753,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [61],
-        "answer": ["A. break exits the loop, continue skips one iteration"],
+        "answerId": [
+          61
+        ],
+        "answer": [
+          "A. break exits the loop, continue skips one iteration"
+        ],
         "explanation": "'break' exits the loop entirely, while 'continue' skips to the next iteration."
       }
     },
@@ -737,8 +801,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. while"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. while"
+        ],
         "explanation": "The 'while' loop executes a block of code repeatedly as long as a given condition is true."
       }
     },
@@ -781,8 +849,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. Checks multiple conditions"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. Checks multiple conditions"
+        ],
         "explanation": "The 'else if' statement allows multiple conditions to be checked sequentially."
       }
     },
@@ -825,8 +897,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. downTo"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. downTo"
+        ],
         "explanation": "The 'downTo' operator is used to iterate over a range in reverse order, e.g., 'for (i in 10 downTo 1)'."
       }
     },
@@ -869,8 +945,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [77],
-        "answer": ["A. 1"],
+        "answerId": [
+          77
+        ],
+        "answer": [
+          "A. 1"
+        ],
         "explanation": "The 'step' parameter in a 'for' loop specifies the increment or decrement value for each iteration."
       }
     },
@@ -913,8 +993,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. when"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. when"
+        ],
         "explanation": "The 'when' expression can replace multiple if statements by checking multiple conditions in a single expression."
       }
     },
@@ -957,8 +1041,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [85],
-        "answer": ["A. while checks the condition first"],
+        "answerId": [
+          85
+        ],
+        "answer": [
+          "A. while checks the condition first"
+        ],
         "explanation": "'while' checks the condition before the loop starts, 'do-while' checks it after the first iteration."
       }
     },
@@ -1001,8 +1089,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [91],
-        "answer": ["C. repeat"],
+        "answerId": [
+          91
+        ],
+        "answer": [
+          "C. repeat"
+        ],
         "explanation": "The 'repeat' loop executes a block of code a specific number of times, defined by an integer."
       }
     },
@@ -1045,8 +1137,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Specifies the collection or range"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Specifies the collection or range"
+        ],
         "explanation": "The 'in' keyword specifies the collection or range to iterate over in a 'for' loop."
       }
     },
@@ -1089,8 +1185,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. when"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. when"
+        ],
         "explanation": "The 'when' expression checks multiple conditions without an 'else' branch."
       }
     },
@@ -1129,12 +1229,16 @@
           "data": "D. Continues the loop",
           "isItAnswer": false,
           "position": 4
-          }
+        }
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Exits the loop"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Exits the loop"
+        ],
         "explanation": "The 'break' statement immediately exits a 'while' loop."
       }
     },
@@ -1177,8 +1281,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [107],
-        "answer": ["C. do-while"],
+        "answerId": [
+          107
+        ],
+        "answer": [
+          "C. do-while"
+        ],
         "explanation": "The 'do-while' loop executes the code block at least once before checking the condition."
       }
     },
@@ -1221,8 +1329,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [112],
-        "answer": ["D. do-while"],
+        "answerId": [
+          112
+        ],
+        "answer": [
+          "D. do-while"
+        ],
         "explanation": "The 'do-while' loop checks the condition at the end of the loop, executing the loop at least once."
       }
     },
@@ -1265,8 +1377,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. when { condition -> code }"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. when { condition -> code }"
+        ],
         "explanation": "In Kotlin, a 'when' expression with multiple branches can have multiple '->' branches with different conditions."
       }
     },
@@ -1308,8 +1424,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [120],
-        "answer": ["D. repeat"],
+        "answerId": [
+          120
+        ],
+        "answer": [
+          "D. repeat"
+        ],
         "explanation": "The 'repeat' loop is used to execute a block of code a specific number of times, defined by an integer."
       }
     }

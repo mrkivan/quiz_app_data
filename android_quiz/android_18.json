@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. To create shared UI across multiple platforms"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. To create shared UI across multiple platforms"
+        ],
         "explanation": "Compose Multiplatform, developed by JetBrains, extends Jetpack Compose to enable shared UI development across Android, iOS, desktop, and web using Kotlin Multiplatform."
       }
     },
@@ -84,8 +88,16 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [5, 6, 7],
-        "answer": ["A. Android", "B. iOS", "C. Desktop"],
+        "answerId": [
+          5,
+          6,
+          7
+        ],
+        "answer": [
+          "A. Android",
+          "B. iOS",
+          "C. Desktop"
+        ],
         "explanation": "Compose Multiplatform supports Android, iOS, desktop (Windows, macOS, Linux), and web, allowing developers to share UI code across these platforms."
       }
     },
@@ -114,8 +126,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [9],
-        "answer": ["A. True"],
+        "answerId": [
+          9
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Compose Multiplatform is built on Jetpack Compose and shares most of its APIs, enabling developers familiar with Jetpack Compose to easily transition to multiplatform development."
       }
     },
@@ -158,8 +174,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [12],
-        "answer": ["B. To enable code sharing across platforms"],
+        "answerId": [
+          12
+        ],
+        "answer": [
+          "B. To enable code sharing across platforms"
+        ],
         "explanation": "Kotlin Multiplatform enables Compose Multiplatform to share code across platforms by compiling common Kotlin code into platform-specific binaries (e.g., JVM for Android, Native for iOS)."
       }
     },
@@ -202,8 +222,16 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [15, 16, 18],
-        "answer": ["A. Reduced development time", "B. Consistent UI across platforms", "D. Reuse of Jetpack Compose APIs"],
+        "answerId": [
+          15,
+          16,
+          18
+        ],
+        "answer": [
+          "A. Reduced development time",
+          "B. Consistent UI across platforms",
+          "D. Reuse of Jetpack Compose APIs"
+        ],
         "explanation": "Compose Multiplatform reduces development time by reusing code, ensures consistent UI across platforms, and leverages Jetpack Compose APIs, but it does not directly manage databases."
       }
     },
@@ -232,8 +260,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [19],
-        "answer": ["A. True"],
+        "answerId": [
+          19
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Compose Multiplatform for iOS requires a macOS machine with Xcode installed due to iOS development limitations, as specified in JetBrains’ documentation."
       }
     },
@@ -276,8 +308,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [22],
-        "answer": ["B. UIKitView"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. UIKitView"
+        ],
         "explanation": "UIKitView enables embedding native iOS UIKit components, such as maps or media players, within a Compose Multiplatform UI."
       }
     },
@@ -320,8 +356,16 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [25, 26, 28],
-        "answer": ["A. Type-safe navigation", "B. Material3 adaptive modules", "D. iOS performance improvements"],
+        "answerId": [
+          25,
+          26,
+          28
+        ],
+        "answer": [
+          "A. Type-safe navigation",
+          "B. Material3 adaptive modules",
+          "D. iOS performance improvements"
+        ],
         "explanation": "Compose Multiplatform 1.7 introduced type-safe navigation, Material3 adaptive modules, and iOS performance improvements, but autofill support is part of Jetpack Compose 1.8."
       }
     },
@@ -364,8 +408,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [30],
-        "answer": ["B. To contain shared logic across platforms"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. To contain shared logic across platforms"
+        ],
         "explanation": "The composeApp module contains shared logic for Android, iOS, desktop, and web applications, including common and platform-specific source sets."
       }
     },
@@ -394,8 +442,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [33],
-        "answer": ["A. True"],
+        "answerId": [
+          33
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Compose Multiplatform uses Skia (via Skiko) for rendering on iOS, providing native-like performance and visuals."
       }
     },
@@ -438,8 +490,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [36],
-        "answer": ["B. dragAndDropSource"],
+        "answerId": [
+          36
+        ],
+        "answer": [
+          "B. dragAndDropSource"
+        ],
         "explanation": "The dragAndDropSource modifier specifies a composable as a drag starting point in Compose Multiplatform for desktop."
       }
     },
@@ -482,8 +538,16 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [39, 40, 42],
-        "answer": ["A. commonMain", "B. androidMain", "D. iosMain"],
+        "answerId": [
+          39,
+          40,
+          42
+        ],
+        "answer": [
+          "A. commonMain",
+          "B. androidMain",
+          "D. iosMain"
+        ],
         "explanation": "Compose Multiplatform projects include source sets like commonMain, androidMain, iosMain, and desktopMain for shared and platform-specific code."
       }
     },
@@ -526,8 +590,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [44],
-        "answer": ["B. To preview composables in the IDE"],
+        "answerId": [
+          44
+        ],
+        "answer": [
+          "B. To preview composables in the IDE"
+        ],
         "explanation": "The @Preview annotation allows developers to preview composables in the IDE for Android and other platforms, with parameters like widthDp and locale."
       }
     },
@@ -556,8 +624,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [47],
-        "answer": ["A. True"],
+        "answerId": [
+          47
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Compose Multiplatform supports Material Design 3 components via its material3 library, ensuring consistent theming across Android, iOS, desktop, and web."
       }
     },
@@ -600,8 +672,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [50],
-        "answer": ["B. Navigation"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Navigation"
+        ],
         "explanation": "Compose Multiplatform 1.7 adopts Jetpack Compose’s Navigation library for type-safe navigation, ensuring compile-time safety for navigation graphs."
       }
     },
@@ -644,8 +720,14 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [53, 54],
-        "answer": ["A. Window handling for desktop", "B. UIKit compatibility for iOS"],
+        "answerId": [
+          53,
+          54
+        ],
+        "answer": [
+          "A. Window handling for desktop",
+          "B. UIKit compatibility for iOS"
+        ],
         "explanation": "Compose Multiplatform includes platform-specific APIs like window handling for desktop and UIKit compatibility for iOS, but Material Design components are shared across platforms."
       }
     },
@@ -688,8 +770,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [58],
-        "answer": ["B. To support assets like drawables and fonts"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. To support assets like drawables and fonts"
+        ],
         "explanation": "The resource library supports assets like drawables, fonts, and strings, with features like density and theme support for cross-platform use."
       }
     },
@@ -718,8 +804,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [61],
-        "answer": ["A. True"],
+        "answerId": [
+          61
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Compose Multiplatform supports web development via Kotlin/Wasm, allowing UI code to run in browsers with WebAssembly."
       }
     },
@@ -762,8 +852,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [64],
-        "answer": ["B. BackHandler"],
+        "answerId": [
+          64
+        ],
+        "answer": [
+          "B. BackHandler"
+        ],
         "explanation": "BackHandler is implemented in Compose Multiplatform to manage back navigation across platforms, including material3 widgets."
       }
     },
@@ -806,8 +900,16 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [67, 68, 70],
-        "answer": ["A. Faster LazyGrid scrolling", "B. Reduced missed frames", "D. Better touch handling for interop views"],
+        "answerId": [
+          67,
+          68,
+          70
+        ],
+        "answer": [
+          "A. Faster LazyGrid scrolling",
+          "B. Reduced missed frames",
+          "D. Better touch handling for interop views"
+        ],
         "explanation": "Compose Multiplatform 1.7 improved iOS performance with faster LazyGrid scrolling, reduced missed frames, and better touch handling for interop views."
       }
     },
@@ -850,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [72],
-        "answer": ["B. To render composable content anywhere"],
+        "answerId": [
+          72
+        ],
+        "answer": [
+          "B. To render composable content anywhere"
+        ],
         "explanation": "GraphicsLayer allows rendering composable content anywhere, useful for animated content across different scenes."
       }
     },
@@ -880,8 +986,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [75],
-        "answer": ["A. True"],
+        "answerId": [
+          75
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Compose Multiplatform 1.7 introduced APIs for seamless transitions between composables, useful for navigation."
       }
     },
@@ -924,8 +1034,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [78],
-        "answer": ["B. IntelliJ IDEA"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. IntelliJ IDEA"
+        ],
         "explanation": "IntelliJ IDEA is recommended for Compose Multiplatform development, with support for project templates and multiplatform plugins."
       }
     },
@@ -968,8 +1082,16 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [81, 82, 84],
-        "answer": ["A. Drawables", "B. Fonts", "D. Strings"],
+        "answerId": [
+          81,
+          82,
+          84
+        ],
+        "answer": [
+          "A. Drawables",
+          "B. Fonts",
+          "D. Strings"
+        ],
         "explanation": "The resource library supports drawables, fonts, strings, and theme variations like light/dark modes, but not navigation graphs."
       }
     },
@@ -1012,8 +1134,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [86],
-        "answer": ["B. To provide adaptive layouts"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. To provide adaptive layouts"
+        ],
         "explanation": "WindowSizeClass provides adaptive layouts by determining the window size category for responsive UI design across platforms."
       }
     },
@@ -1042,8 +1168,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [89],
-        "answer": ["A. True"],
+        "answerId": [
+          89
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Compose Multiplatform supports hot reload, enabling faster UI iterations across platforms."
       }
     },
@@ -1086,8 +1216,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [92],
-        "answer": ["B. AndroidView"],
+        "answerId": [
+          92
+        ],
+        "answer": [
+          "B. AndroidView"
+        ],
         "explanation": "AndroidView allows embedding native Android views, such as WebView, within a Compose Multiplatform UI."
       }
     },
@@ -1130,8 +1264,14 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [95, 96],
-        "answer": ["A. Voyager", "B. moko"],
+        "answerId": [
+          95,
+          96
+        ],
+        "answer": [
+          "A. Voyager",
+          "B. moko"
+        ],
         "explanation": "Voyager and moko are community libraries for navigation and platform-specific features in Compose Multiplatform, while Room is a Jetpack library."
       }
     },
@@ -1174,8 +1314,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [100],
-        "answer": ["B. To provide platform-specific implementations"],
+        "answerId": [
+          100
+        ],
+        "answer": [
+          "B. To provide platform-specific implementations"
+        ],
         "explanation": "The expect/actual mechanism allows defining shared interfaces in common code and providing platform-specific implementations for features like database creation."
       }
     },
@@ -1204,8 +1348,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [103],
-        "answer": ["A. True"],
+        "answerId": [
+          103
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Compose Multiplatform 1.9 reached beta status in 2025, with features like enhanced preview support and dependency updates."
       }
     }

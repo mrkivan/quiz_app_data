@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. An event that disrupts program flow"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. An event that disrupts program flow"
+        ],
         "explanation": "An exception in Java is an event that disrupts the normal flow of a program's execution, typically caused by errors or unexpected conditions."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. try"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. try"
+        ],
         "explanation": "The 'try' keyword is used to define a block of code that will be tested for exceptions in Java."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. catch"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. catch"
+        ],
         "explanation": "The 'catch' block is used to catch and handle exceptions thrown in a try block."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. To execute code always"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. To execute code always"
+        ],
         "explanation": "The 'finally' block contains code that executes regardless of whether an exception is thrown or caught, often used for cleanup."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. throw"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. throw"
+        ],
         "explanation": "The 'throw' keyword is used to explicitly throw an exception in Java."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. throws"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. throws"
+        ],
         "explanation": "The 'throws' keyword is used in a method signature to declare exceptions that the method might throw."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. Throwable"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. Throwable"
+        ],
         "explanation": "The Throwable class is the root class of all exceptions and errors in Java."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. IOException"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. IOException"
+        ],
         "explanation": "IOException is a checked exception, which must be either caught or declared in the method signature."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. NullPointerException"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. NullPointerException"
+        ],
         "explanation": "NullPointerException is an unchecked exception, which does not need to be declared or caught explicitly."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. Exception"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. Exception"
+        ],
         "explanation": "The Exception class is the parent of all checked exceptions, excluding RuntimeException and its subclasses."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. RuntimeException"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. RuntimeException"
+        ],
         "explanation": "RuntimeException is the parent class of all unchecked exceptions in Java."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. No"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. No"
+        ],
         "explanation": "No, a try block must be followed by at least one catch or finally block in Java."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. The program terminates"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. The program terminates"
+        ],
         "explanation": "If an exception is not caught, it propagates up the call stack, and if unhandled, the program terminates with an error message."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Yes"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "Yes, multiple catch blocks can be used with a single try block to handle different types of exceptions."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. Most specific to most general"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Most specific to most general"
+        ],
         "explanation": "Catch blocks should be arranged from most specific to most general to prevent unreachable code errors."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. A statement to close resources automatically"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. A statement to close resources automatically"
+        ],
         "explanation": "The try-with-resources statement automatically closes resources that implement AutoCloseable, introduced in Java 7."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. AutoCloseable"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. AutoCloseable"
+        ],
         "explanation": "Resources used in try-with-resources must implement the AutoCloseable interface."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. Java 7"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. Java 7"
+        ],
         "explanation": "The try-with-resources statement was introduced in Java 7 to simplify resource management."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. To represent serious problems"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. To represent serious problems"
+        ],
         "explanation": "The Error class represents serious problems that a reasonable application should not try to catch, like OutOfMemoryError."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. OutOfMemoryError"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. OutOfMemoryError"
+        ],
         "explanation": "OutOfMemoryError is an example of an Error, indicating a serious problem with the JVM's memory."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Yes"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "Yes, a custom exception class can be created by extending Exception or RuntimeException."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. By extending Exception"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. By extending Exception"
+        ],
         "explanation": "A custom checked exception is created by extending the Exception class."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. By extending RuntimeException"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. By extending RuntimeException"
+        ],
         "explanation": "A custom unchecked exception is created by extending the RuntimeException class."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Code compiles fine"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Code compiles fine"
+        ],
         "explanation": "If a method declares a checked exception but does not throw it, the code compiles fine, as the declaration is a contract."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Yes"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "Yes, since Java 7, a catch block can catch multiple exception types using the pipe (|) operator."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. catch (Exception1 | Exception2 e)"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. catch (Exception1 | Exception2 e)"
+        ],
         "explanation": "The syntax is catch (Exception1 | Exception2 e), using the pipe operator to separate exception types."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. An exception from closing a resource"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. An exception from closing a resource"
+        ],
         "explanation": "A suppressed exception occurs in try-with-resources when an exception from closing a resource is suppressed by an exception from the try block."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Using getSuppressed()"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Using getSuppressed()"
+        ],
         "explanation": "Suppressed exceptions can be accessed using the getSuppressed() method of the Throwable class."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. To get the underlying cause"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. To get the underlying cause"
+        ],
         "explanation": "The getCause() method returns the underlying cause of an exception, if it was initialized with a cause."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. A report of method calls"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. A report of method calls"
+        ],
         "explanation": "The stack trace is a report of the method calls leading up to the point where an exception was thrown."
       }
     }

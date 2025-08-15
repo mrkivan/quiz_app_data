@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. class"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. class"
+        ],
         "explanation": "In Java, the 'class' keyword is used to define a class, which serves as a blueprint for creating objects."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. constructor"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. constructor"
+        ],
         "explanation": "A constructor is called automatically when an object is created. It has the same name as the class and no return type."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [12],
-        "answer": ["D. default"],
+        "answerId": [
+          12
+        ],
+        "answer": [
+          "D. default"
+        ],
         "explanation": "If no access modifier is specified for class members in Java, they are assigned the 'default' (package-private) access modifier."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. new"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. new"
+        ],
         "explanation": "The 'new' keyword is used to create an instance (object) of a class by allocating memory and calling the constructor."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. Current object"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. Current object"
+        ],
         "explanation": "The 'this' keyword refers to the current instance of the class, used to access its members or distinguish between instance and local variables."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. extends"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. extends"
+        ],
         "explanation": "The 'extends' keyword is used to inherit a class in Java, allowing a subclass to inherit properties and methods from a superclass."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [27],
-        "answer": ["C. To define class-level members"],
+        "answerId": [
+          27
+        ],
+        "answer": [
+          "C. To define class-level members"
+        ],
         "explanation": "The 'static' keyword indicates that a member belongs to the class rather than an instance, allowing access without creating an object."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. It cannot be extended"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. It cannot be extended"
+        ],
         "explanation": "A final class in Java cannot be extended, meaning it cannot have subclasses."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Hiding data with access control"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Hiding data with access control"
+        ],
         "explanation": "Encapsulation is the process of hiding data (fields) and providing controlled access through public methods, typically getters and setters."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. Object"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. Object"
+        ],
         "explanation": "All classes in Java implicitly extend the 'Object' class if no other superclass is specified."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. private"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. private"
+        ],
         "explanation": "The 'private' access modifier restricts access to members only within the same class."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. To initialize objects"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. To initialize objects"
+        ],
         "explanation": "A constructor initializes an object when it is created, setting initial values for its fields."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. super"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. super"
+        ],
         "explanation": "The 'super' keyword is used to call a superclass constructor or access superclass members."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. An instance of a class"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. An instance of a class"
+        ],
         "explanation": "A Java object is an instance of a class, created using the 'new' keyword, containing fields and methods defined in the class."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [57],
-        "answer": ["A. class MyClass {}"],
+        "answerId": [
+          57
+        ],
+        "answer": [
+          "A. class MyClass {}"
+        ],
         "explanation": "A valid class declaration uses the 'class' keyword followed by the class name, e.g., 'public class MyClass {}'."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Default constructor is provided"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Default constructor is provided"
+        ],
         "explanation": "If no constructor is defined, Java provides a default no-argument constructor that initializes fields to their default values."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. static"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. static"
+        ],
         "explanation": "The 'static' keyword makes a method belong to the class, allowing it to be called without creating an instance."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. Makes it constant"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. Makes it constant"
+        ],
         "explanation": "The 'final' keyword for a variable makes it a constant, meaning its value cannot be changed once assigned."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. It cannot be instantiated"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. It cannot be instantiated"
+        ],
         "explanation": "An abstract class cannot be instantiated and may contain abstract methods that must be implemented by subclasses."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Treating objects as their superclass type"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Treating objects as their superclass type"
+        ],
         "explanation": "Polymorphism allows objects of different classes to be treated as objects of a common superclass, often through method overriding or overloading."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. equals()"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. equals()"
+        ],
         "explanation": "The 'equals()' method is used to compare two objects for equality, checking if their contents are the same."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. To return a string representation"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. To return a string representation"
+        ],
         "explanation": "The 'toString()' method returns a string representation of an object, often used for debugging or display purposes."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [91],
-        "answer": ["C. protected"],
+        "answerId": [
+          91
+        ],
+        "answer": [
+          "C. protected"
+        ],
         "explanation": "The 'protected' access modifier allows access within the same package and in subclasses, even if they are in different packages."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Defining methods with different parameters"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Defining methods with different parameters"
+        ],
         "explanation": "Method overloading allows multiple methods with the same name but different parameter lists in the same class."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Redefining a superclass method"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Redefining a superclass method"
+        ],
         "explanation": "Method overriding allows a subclass to provide a specific implementation of a method already defined in its superclass."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. public MyClass(int x) {}"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. public MyClass(int x) {}"
+        ],
         "explanation": "A constructor has the same name as the class, no return type, and can have parameters, e.g., 'public MyClass(int x) {}'."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. To check object type"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. To check object type"
+        ],
         "explanation": "The 'instanceof' operator checks if an object is an instance of a specific class or interface."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. It cannot access instance variables directly"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. It cannot access instance variables directly"
+        ],
         "explanation": "A static method belongs to the class and cannot access instance variables or methods directly."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. 0"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. 0"
+        ],
         "explanation": "Instance variables of type int are automatically initialized to 0 if no value is assigned."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. They cannot be instantiated"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. They cannot be instantiated"
+        ],
         "explanation": "An interface defines a contract with abstract methods that implementing classes must provide, and it cannot be instantiated."
       }
     }

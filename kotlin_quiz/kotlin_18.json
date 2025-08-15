@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. A singleton object in a class"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. A singleton object in a class"
+        ],
         "explanation": "A companion object is a singleton object declared inside a class using the 'companion' keyword, used for static-like functionality."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. companion object"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. companion object"
+        ],
         "explanation": "A companion object is declared using the 'companion object' keywords inside a class, e.g., companion object { }."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. Companion"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. Companion"
+        ],
         "explanation": "If not explicitly named, the default name of a companion object is 'Companion'."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. MyClass.myFunction()"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. MyClass.myFunction()"
+        ],
         "explanation": "Companion object members are accessed using the class name, e.g., MyClass.myFunction(), similar to static members in Java."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. Yes, with a custom name"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. Yes, with a custom name"
+        ],
         "explanation": "A companion object can have a custom name, e.g., companion object Factory { }, allowing access like MyClass.Factory.create()."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. Factory methods"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. Factory methods"
+        ],
         "explanation": "Companion objects are commonly used for factory methods, e.g., companion object { fun create(): MyClass }, to create instances."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. Yes, with interface implementation"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. Yes, with interface implementation"
+        ],
         "explanation": "A companion object can implement an interface, e.g., companion object: MyInterface { }, allowing it to define interface methods."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. MyClass.Companion.myFunction()"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. MyClass.Companion.myFunction()"
+        ],
         "explanation": "In Java, companion object members are accessed via the Companion object, e.g., MyClass.Companion.myFunction(), unless annotated with @JvmStatic."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Enables static access in Java"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Enables static access in Java"
+        ],
         "explanation": "The @JvmStatic annotation makes companion object members accessible as static members in Java, e.g., MyClass.myFunction()."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. No, it cannot"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. No, it cannot"
+        ],
         "explanation": "A companion object cannot extend a class, as it is a singleton object tied to its containing class."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. Yes, with class scope"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. Yes, with class scope"
+        ],
         "explanation": "A companion object can have its own properties, e.g., companion object { val myProp = 42 }, accessible via the class name."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. Yes, in interfaces"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. Yes, in interfaces"
+        ],
         "explanation": "A companion object can be declared in an interface, e.g., interface MyInterface { companion object { } }, for shared functionality."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. Yes, within class scope"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Yes, within class scope"
+        ],
         "explanation": "A companion object can access private members of its containing class, as it is part of the same class scope."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. No, only one allowed"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. No, only one allowed"
+        ],
         "explanation": "A class can have only one companion object, as it is designed to be a single static-like entity per class."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. Exposes as static field in Java"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Exposes as static field in Java"
+        ],
         "explanation": "The @JvmField annotation exposes a companion object property as a static field in Java without getter/setter methods."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Yes, like regular classes"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Yes, like regular classes"
+        ],
         "explanation": "A companion object can be declared in a data class, just like in regular classes, for static-like functionality."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. No, it cannot"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. No, it cannot"
+        ],
         "explanation": "A companion object cannot have a constructor, as it is a singleton object created automatically by the Kotlin runtime."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. Yes, like regular classes"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. Yes, like regular classes"
+        ],
         "explanation": "A companion object can be declared in a sealed class, just like in regular classes, for shared functionality."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Defines compile-time constants"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Defines compile-time constants"
+        ],
         "explanation": "The 'const' keyword in a companion object defines compile-time constants, e.g., const val MY_CONST = 42, for better performance."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Yes, for initialization"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Yes, for initialization"
+        ],
         "explanation": "A companion object can have init blocks, executed when the companion object is initialized, e.g., companion object { init { } }."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. No, only in classes/interfaces"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. No, only in classes/interfaces"
+        ],
         "explanation": "A companion object cannot be declared in an object declaration, as it is meant for classes or interfaces."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Initialized with class"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Initialized with class"
+        ],
         "explanation": "The companion object is initialized when the containing class is loaded, ensuring it is available when accessed."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. Yes, with proper syntax"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. Yes, with proper syntax"
+        ],
         "explanation": "Extension functions can be defined for a companion object, e.g., fun MyClass.Companion.myExtension() {}, to extend its functionality."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Yes, like regular classes"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Yes, like regular classes"
+        ],
         "explanation": "A companion object can be declared in an abstract class, just like in regular classes, for shared functionality."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Tied to class scope"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Tied to class scope"
+        ],
         "explanation": "A companion object is tied to a class, allowing direct access to class members and providing a natural scope for class-related utilities."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Yes, for organization"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Yes, for organization"
+        ],
         "explanation": "A companion object can have nested objects, e.g., companion object { object Nested { } }, for additional organization."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Yes, as a singleton"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Yes, as a singleton"
+        ],
         "explanation": "A companion object is inherently a singleton, making it suitable for implementing the singleton pattern within a class."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Specifies JVM bytecode name"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Specifies JVM bytecode name"
+        ],
         "explanation": "The @JvmName annotation specifies a custom name for a companion object member in the generated JVM bytecode to avoid naming conflicts."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Yes, with properties"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Yes, with properties"
+        ],
         "explanation": "A companion object can store state using properties, e.g., companion object { var counter = 0 }, acting as a shared state for the class."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. No, only in classes/interfaces"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. No, only in classes/interfaces"
+        ],
         "explanation": "A companion object cannot be declared at the top level, as it must be associated with a class or interface."
       }
     }

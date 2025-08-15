@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. To retain state across recompositions"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. To retain state across recompositions"
+        ],
         "explanation": "The remember function retains state across recompositions, ensuring the state persists without resetting unless specified."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. mutableStateOf"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. mutableStateOf"
+        ],
         "explanation": "mutableStateOf creates a mutable state that triggers recomposition when its value changes."
       }
     },
@@ -114,8 +122,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [9],
-        "answer": ["A. True"],
+        "answerId": [
+          9
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "When a mutableStateOf value changes, Jetpack Compose triggers recomposition for composables reading that state."
       }
     },
@@ -158,8 +170,16 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [11, 12, 14],
-        "answer": ["A. mutableStateOf", "B. LiveData", "D. StateFlow"],
+        "answerId": [
+          11,
+          12,
+          14
+        ],
+        "answer": [
+          "A. mutableStateOf",
+          "B. LiveData",
+          "D. StateFlow"
+        ],
         "explanation": "mutableStateOf, LiveData, and StateFlow are used for state management, while Modifier is for UI customization."
       }
     },
@@ -202,8 +222,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [16],
-        "answer": ["B. To hold UI state and survive configuration changes"],
+        "answerId": [
+          16
+        ],
+        "answer": [
+          "B. To hold UI state and survive configuration changes"
+        ],
         "explanation": "ViewModel holds UI state and survives configuration changes, providing a robust way to manage state in Compose."
       }
     },
@@ -232,8 +256,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [20],
-        "answer": ["B. False"],
+        "answerId": [
+          20
+        ],
+        "answer": [
+          "B. False"
+        ],
         "explanation": "remember retains state across recompositions, not just for the current composition, unless the composable leaves the composition."
       }
     },
@@ -276,8 +304,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [22],
-        "answer": ["B. mutableStateOf"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. mutableStateOf"
+        ],
         "explanation": "mutableStateOf creates a state that triggers recomposition when updated, making it reactive in Compose."
       }
     },
@@ -320,8 +352,16 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [25, 26, 28],
-        "answer": ["A. LiveData", "B. StateFlow", "D. mutableStateOf"],
+        "answerId": [
+          25,
+          26,
+          28
+        ],
+        "answer": [
+          "A. LiveData",
+          "B. StateFlow",
+          "D. mutableStateOf"
+        ],
         "explanation": "ViewModel can expose LiveData and StateFlow for state management in Compose, but Modifier is unrelated to state."
       }
     },
@@ -364,8 +404,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [29],
-        "answer": ["A. Moving state to a higher level in the hierarchy"],
+        "answerId": [
+          29
+        ],
+        "answer": [
+          "A. Moving state to a higher level in the hierarchy"
+        ],
         "explanation": "State hoisting involves moving state management to a higher level in the composable hierarchy to make composables stateless and reusable."
       }
     },
@@ -394,8 +438,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [34],
-        "answer": ["B. False"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. False"
+        ],
         "explanation": "LiveData can be observed in Compose using observeAsState, not collectAsState, which is used for StateFlow."
       }
     },
@@ -438,8 +486,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [36],
-        "answer": ["B. collectAsState"],
+        "answerId": [
+          36
+        ],
+        "answer": [
+          "B. collectAsState"
+        ],
         "explanation": "collectAsState converts a StateFlow into a State object that triggers recomposition when updated."
       }
     },
@@ -482,8 +534,14 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [39, 40],
-        "answer": ["A. remember", "B. ViewModel"],
+        "answerId": [
+          39,
+          40
+        ],
+        "answer": [
+          "A. remember",
+          "B. ViewModel"
+        ],
         "explanation": "remember and ViewModel ensure state persistence across recompositions, while Modifier and Surface are unrelated to state."
       }
     },
@@ -526,8 +584,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [44],
-        "answer": ["B. It triggers recomposition on value change"],
+        "answerId": [
+          44
+        ],
+        "answer": [
+          "B. It triggers recomposition on value change"
+        ],
         "explanation": "Reading a State object’s value causes the composable to recompose when the value changes."
       }
     },
@@ -556,8 +618,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [47],
-        "answer": ["A. True"],
+        "answerId": [
+          47
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "ViewModel is designed to survive configuration changes, such as screen rotations, to maintain UI state."
       }
     },
@@ -600,8 +666,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [50],
-        "answer": ["B. observeAsState"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. observeAsState"
+        ],
         "explanation": "observeAsState converts LiveData into a State object for use in Compose, triggering recomposition on updates."
       }
     },
@@ -644,8 +714,16 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [53, 54, 56],
-        "answer": ["A. Improved composable reusability", "B. Better testability", "D. Separation of UI and logic"],
+        "answerId": [
+          53,
+          54,
+          56
+        ],
+        "answer": [
+          "A. Improved composable reusability",
+          "B. Better testability",
+          "D. Separation of UI and logic"
+        ],
         "explanation": "State hoisting improves composable reusability, testability, and separates UI from logic, but doesn’t handle navigation."
       }
     },
@@ -688,8 +766,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [58],
-        "answer": ["B. Re-executing composables on state change"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Re-executing composables on state change"
+        ],
         "explanation": "Recomposition is the process of re-executing composables when their state changes to update the UI."
       }
     },
@@ -718,8 +800,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [62],
-        "answer": ["B. False"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. False"
+        ],
         "explanation": "StateFlow can be used in Compose without a ViewModel, but ViewModel is often used for lifecycle-aware state management."
       }
     },
@@ -762,8 +848,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [64],
-        "answer": ["B. ViewModel"],
+        "answerId": [
+          64
+        ],
+        "answer": [
+          "B. ViewModel"
+        ],
         "explanation": "ViewModel is commonly used to manage complex UI state, surviving configuration changes and integrating with Compose."
       }
     },
@@ -806,8 +896,16 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [67, 68, 70],
-        "answer": ["A. Using stable state objects", "B. State hoisting", "D. Avoiding unnecessary state reads"],
+        "answerId": [
+          67,
+          68,
+          70
+        ],
+        "answer": [
+          "A. Using stable state objects",
+          "B. State hoisting",
+          "D. Avoiding unnecessary state reads"
+        ],
         "explanation": "Stable state objects, state hoisting, and avoiding unnecessary reads optimize recomposition, but animations don’t directly affect it."
       }
     },
@@ -850,8 +948,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [72],
-        "answer": ["B. To persist state across recompositions and process death"],
+        "answerId": [
+          72
+        ],
+        "answer": [
+          "B. To persist state across recompositions and process death"
+        ],
         "explanation": "rememberSaveable persists state across both recompositions and process death, such as during configuration changes."
       }
     },
@@ -880,8 +982,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [76],
-        "answer": ["B. False"],
+        "answerId": [
+          76
+        ],
+        "answer": [
+          "B. False"
+        ],
         "explanation": "mutableStateOf can be used outside composables, but it’s typically used with remember in composables to trigger recomposition."
       }
     },
@@ -924,8 +1030,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [78],
-        "answer": ["B. ViewModel"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. ViewModel"
+        ],
         "explanation": "ViewModel is ideal for managing UI state across multiple screens due to its lifecycle-aware nature and persistence."
       }
     },
@@ -968,8 +1078,16 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [81, 82, 84],
-        "answer": ["A. mutableStateOf", "B. LiveData", "D. StateFlow"],
+        "answerId": [
+          81,
+          82,
+          84
+        ],
+        "answer": [
+          "A. mutableStateOf",
+          "B. LiveData",
+          "D. StateFlow"
+        ],
         "explanation": "mutableStateOf, LiveData, and StateFlow are reactive, triggering UI updates, while Modifier is not."
       }
     },
@@ -1012,8 +1130,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [86],
-        "answer": ["B. Creates a State based on other state values"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Creates a State based on other state values"
+        ],
         "explanation": "derivedStateOf creates a State object based on other state values, recomposing only when the derived value changes."
       }
     },
@@ -1042,8 +1164,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [89],
-        "answer": ["A. True"],
+        "answerId": [
+          89
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "rememberSaveable persists state across recompositions and process death, such as during app restarts."
       }
     },
@@ -1086,8 +1212,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [92],
-        "answer": ["B. Using derivedStateOf"],
+        "answerId": [
+          92
+        ],
+        "answer": [
+          "B. Using derivedStateOf"
+        ],
         "explanation": "Using derivedStateOf minimizes recompositions by only triggering when the derived state changes."
       }
     },
@@ -1130,8 +1260,14 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [95, 97],
-        "answer": ["A. LiveData", "C. ViewModel"],
+        "answerId": [
+          95,
+          97
+        ],
+        "answer": [
+          "A. LiveData",
+          "C. ViewModel"
+        ],
         "explanation": "LiveData and ViewModel are lifecycle-aware, while mutableStateOf and derivedStateOf are not inherently lifecycle-aware."
       }
     },
@@ -1174,8 +1310,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [100],
-        "answer": ["B. They reduce unnecessary recompositions"],
+        "answerId": [
+          100
+        ],
+        "answer": [
+          "B. They reduce unnecessary recompositions"
+        ],
         "explanation": "Stable state objects reduce unnecessary recompositions by ensuring Compose skips unchanged state during recomposition."
       }
     },
@@ -1204,8 +1344,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [103],
-        "answer": ["A. True"],
+        "answerId": [
+          103
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "derivedStateOf ensures recomposition only occurs when the derived state’s value changes, not when dependent states are read."
       }
     }

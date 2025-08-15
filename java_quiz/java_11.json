@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. var"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. var"
+        ],
         "explanation": "In Kotlin, 'var' is used to declare a mutable variable that can be reassigned, while 'val' is used for immutable variables."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. Directly instantiate and use"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. Directly instantiate and use"
+        ],
         "explanation": "Kotlin can directly call Java classes without modifications due to seamless interoperability."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. Treats them as unchecked"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. Treats them as unchecked"
+        ],
         "explanation": "Kotlin does not have checked exceptions; Java's checked exceptions are treated as unchecked in Kotlin."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. As properties"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. As properties"
+        ],
         "explanation": "In Kotlin, Java getters and setters are accessed as properties, e.g., 'object.property' instead of 'object.getProperty()'."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. @JvmStatic"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. @JvmStatic"
+        ],
         "explanation": "The @JvmStatic annotation is used in Kotlin to expose a function as a static method to Java."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. As platform types"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. As platform types"
+        ],
         "explanation": "Kotlin treats Java types as platform types, allowing nullability unless annotated with @NotNull or @Nullable."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. @JvmOverloads"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. @JvmOverloads"
+        ],
         "explanation": "The @JvmOverloads annotation generates overloaded Java methods for Kotlin functions with default parameters."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. Mark as 'open' in Kotlin"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Mark as 'open' in Kotlin"
+        ],
         "explanation": "A Kotlin class must be marked with 'open' to be extended in Java, as Kotlin classes are final by default."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Unit"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Unit"
+        ],
         "explanation": "In Kotlin, 'Unit' is the equivalent of Java's 'void' for functions that return no value."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. Using class name"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. Using class name"
+        ],
         "explanation": "Kotlin accesses Java's static fields directly using the class name, similar to Java."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. All parameters required"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. All parameters required"
+        ],
         "explanation": "In Java, all parameters must be explicitly provided unless @JvmOverloads is used to generate overloaded methods."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. As regular classes"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. As regular classes"
+        ],
         "explanation": "Kotlin's data classes are accessed as regular Java classes with auto-generated getters, setters, and other methods."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [49],
-        "answer": ["A. Spread operator (*)"],
+        "answerId": [
+          49
+        ],
+        "answer": [
+          "A. Spread operator (*)"
+        ],
         "explanation": "Kotlin uses the spread operator (*) to pass an array to a Java method with varargs."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Directly call them"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. Directly call them"
+        ],
         "explanation": "Kotlin can call Java's synchronized methods directly, as they are treated as regular methods."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. Object expressions"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Object expressions"
+        ],
         "explanation": "Kotlin uses object expressions to create equivalents of Java's anonymous inner classes."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Using 'implement'"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Using 'implement'"
+        ],
         "explanation": "A Java interface can be implemented in Kotlin using the 'implement' keyword or by creating an object expression."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [65],
-        "answer": ["A. Renames for Java"],
+        "answerId": [
+          65
+        ],
+        "answer": [
+          "A. Renames for Java"
+        ],
         "explanation": "@JvmName changes the name of a Kotlin function or file as seen by Java to avoid naming conflicts."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. As Array type"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. As Array type"
+        ],
         "explanation": "Java arrays are mapped to Kotlin's Array type, allowing seamless use in Kotlin code."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. super"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. super"
+        ],
         "explanation": "Kotlin uses 'super' to refer to the parent class, similar to Java."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Via getters/setters"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Via getters/setters"
+        ],
         "explanation": "Kotlin properties are accessed in Java via auto-generated getter and setter methods."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Specifies exceptions"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Specifies exceptions"
+        ],
         "explanation": "@Throws specifies exceptions for Java interoperability, as Kotlin does not have checked exceptions."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Mapped to Kotlin types"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Mapped to Kotlin types"
+        ],
         "explanation": "Java's generic types are mapped to Kotlin's type system, with support for variance annotations."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. is"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. is"
+        ],
         "explanation": "Kotlin uses the 'is' operator as the equivalent of Java's 'instanceof'."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. @JvmField"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. @JvmField"
+        ],
         "explanation": "Using @JvmField annotation in Kotlin exposes a property as a Java field."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Delays initialization"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Delays initialization"
+        ],
         "explanation": "'lateinit' delays initialization of non-null properties, but Java sees them as regular fields."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. As read-only properties"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. As read-only properties"
+        ],
         "explanation": "Java's final fields are accessed as read-only properties in Kotlin."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. this"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. this"
+        ],
         "explanation": "Kotlin uses 'this' to refer to the current instance, similar to Java."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. As protected"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. As protected"
+        ],
         "explanation": "Kotlin maps Java's protected visibility to its own protected, accessible in subclasses and same package."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Throws NullPointerException"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Throws NullPointerException"
+        ],
         "explanation": "If a Java method returns null to a Kotlin non-null type, a NullPointerException is thrown at runtime."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Via 'Companion' field"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Via 'Companion' field"
+        ],
         "explanation": "A Kotlin companion object is accessed in Java using the class name followed by 'Companion'."
       }
     }

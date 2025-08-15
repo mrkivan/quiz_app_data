@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. Delegating interface implementation"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Delegating interface implementation"
+        ],
         "explanation": "Delegation in Kotlin allows a class to delegate the implementation of an interface to another object using the 'by' keyword."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. by"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. by"
+        ],
         "explanation": "The 'by' keyword is used to delegate interface implementation or property behavior in Kotlin, e.g., class MyClass: MyInterface by delegate."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. A property with delegated logic"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. A property with delegated logic"
+        ],
         "explanation": "A delegated property uses the 'by' keyword to delegate its getter/setter logic to a delegate object, e.g., val myProp by lazy { 42 }."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. lazy"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. lazy"
+        ],
         "explanation": "The 'lazy' delegate is used for lazy initialization, delaying property computation until first access, e.g., val myProp by lazy { compute() }."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. Property type"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. Property type"
+        ],
         "explanation": "The lambda passed to 'lazy' must return the property's type, as it computes the initial value, e.g., val myProp: Int by lazy { 42 }."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. Delegates.observable"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. Delegates.observable"
+        ],
         "explanation": "The 'Delegates.observable' delegate triggers a callback on property changes, e.g., var myProp by Delegates.observable(0) { _, old, new -> println(new) }."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. Delegates.vetoable"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. Delegates.vetoable"
+        ],
         "explanation": "The 'Delegates.vetoable' delegate allows validating a new value before assignment, e.g., var myProp by Delegates.vetoable(0) { _, _, new -> new >= 0 }."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. Delegates.notNull"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Delegates.notNull"
+        ],
         "explanation": "The 'Delegates.notNull' delegate ensures a var property is non-null when set, throwing an exception if accessed before initialization."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. ReadOnlyProperty or ReadWriteProperty"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. ReadOnlyProperty or ReadWriteProperty"
+        ],
         "explanation": "A custom delegate must implement the 'ReadOnlyProperty' or 'ReadWriteProperty' interface from the kotlin.properties package."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. getValue"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. getValue"
+        ],
         "explanation": "The 'getValue' function is required for a custom delegate to handle property reads, e.g., operator fun getValue(thisRef: Any?, property: KProperty<*>): T."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. setValue"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. setValue"
+        ],
         "explanation": "The 'setValue' function is required for a custom delegate to handle property writes, e.g., operator fun setValue(thisRef: Any?, property: KProperty<*>, value: T)."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. Yes, with getValue"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. Yes, with getValue"
+        ],
         "explanation": "A delegated property can be used with 'val' if the delegate provides only 'getValue', e.g., val myProp by lazy { 42 }."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. Yes, with getValue and setValue"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Yes, with getValue and setValue"
+        ],
         "explanation": "A delegated property can be used with 'var' if the delegate provides both 'getValue' and 'setValue', e.g., var myProp by Delegates.observable(0)."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Throws IllegalStateException"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. Throws IllegalStateException"
+        ],
         "explanation": "Accessing a 'Delegates.notNull' property before initialization throws an IllegalStateException."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. Yes, like regular properties"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Yes, like regular properties"
+        ],
         "explanation": "Delegated properties can be used in a companion object, e.g., companion object { val myProp by lazy { 42 } }, for static-like behavior."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. No, interfaces cannot have state"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. No, interfaces cannot have state"
+        ],
         "explanation": "Delegated properties cannot be declared in interfaces, as interfaces cannot have state or backing fields."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. Provides property metadata"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. Provides property metadata"
+        ],
         "explanation": "The 'KProperty' parameter provides metadata about the property, such as its name, in 'getValue' and 'setValue' functions."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. No, requires backing field"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. No, requires backing field"
+        ],
         "explanation": "Delegated properties cannot be used with local variables, as they require a backing field, which is not available for local variables."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Thread-safe by default"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Thread-safe by default"
+        ],
         "explanation": "The 'lazy' delegate is thread-safe by default (using LazyThreadSafetyMode.SYNCHRONIZED), ensuring safe initialization in multi-threaded environments."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Yes, like class properties"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Yes, like class properties"
+        ],
         "explanation": "A custom delegate can be used with top-level properties, e.g., val myProp by MyDelegate(), similar to class properties."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Refers to the containing instance"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Refers to the containing instance"
+        ],
         "explanation": "The 'thisRef' parameter in 'getValue' and 'setValue' refers to the containing class instance or null for top-level/companion properties."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Yes, but excluded from auto-generated methods"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Yes, but excluded from auto-generated methods"
+        ],
         "explanation": "Delegated properties can be used in data classes, but they are not included in auto-generated methods like toString or copy."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. Compilation error"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. Compilation error"
+        ],
         "explanation": "If a custom delegate does not provide 'setValue' for a 'var' property, a compilation error occurs, as 'var' requires both getValue and setValue."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Yes, like regular classes"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Yes, like regular classes"
+        ],
         "explanation": "Delegated properties can be used in sealed classes and their subclasses, just like in regular classes, for managing property behavior."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Reduces boilerplate code"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Reduces boilerplate code"
+        ],
         "explanation": "Delegated properties reduce boilerplate code by reusing common property behavior, such as lazy initialization or change observation."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Yes, with map delegate"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Yes, with map delegate"
+        ],
         "explanation": "A delegated property can be backed by a map using the map delegate, e.g., val myProp by map, where the property name is the map key."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Boolean"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Boolean"
+        ],
         "explanation": "The 'vetoable' delegate's lambda returns a Boolean, indicating whether the new value is accepted, e.g., Delegates.vetoable(0) { _, _, new -> new >= 0 }."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Yes, with careful state management"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Yes, with careful state management"
+        ],
         "explanation": "A delegate object can be reused for multiple properties, but it must manage state carefully to avoid conflicts, e.g., using a shared delegate instance."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Yes, like regular classes"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Yes, like regular classes"
+        ],
         "explanation": "Delegated properties can be used in abstract classes, just like in regular classes, for managing property behavior in subclasses."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Promotes code reuse"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Promotes code reuse"
+        ],
         "explanation": "Class delegation avoids repetitive code by delegating interface implementation to another object, promoting code reuse."
       }
     }

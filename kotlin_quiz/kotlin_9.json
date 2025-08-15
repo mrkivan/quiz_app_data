@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. List"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. List"
+        ],
         "explanation": "The List interface in Kotlin allows duplicate elements, maintaining their insertion order."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. listOf(1, 2, 3)"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. listOf(1, 2, 3)"
+        ],
         "explanation": "An immutable List is created using the listOf() function, e.g., listOf(1, 2, 3)."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. mutableListOf()"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. mutableListOf()"
+        ],
         "explanation": "The mutableListOf() function creates a mutable List that can be modified."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. Set"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. Set"
+        ],
         "explanation": "The Set interface does not allow duplicate elements, ensuring uniqueness."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. setOf(1, 2, 3)"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. setOf(1, 2, 3)"
+        ],
         "explanation": "An immutable Set is created using the setOf() function, e.g., setOf(1, 2, 3)."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. mutableSetOf()"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. mutableSetOf()"
+        ],
         "explanation": "The mutableSetOf() function creates a mutable Set that can be modified."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [27],
-        "answer": ["C. Map"],
+        "answerId": [
+          27
+        ],
+        "answer": [
+          "C. Map"
+        ],
         "explanation": "The Map interface represents a collection of key-value pairs, where keys are unique."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. mapOf(1 to 'a')"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. mapOf(1 to 'a')"
+        ],
         "explanation": "An immutable Map is created using the mapOf() function, e.g., mapOf(1 to 'a', 2 to 'b')."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. mutableMapOf()"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. mutableMapOf()"
+        ],
         "explanation": "The mutableMapOf() function creates a mutable Map that can be modified."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. list[0]"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. list[0]"
+        ],
         "explanation": "Elements in a List are accessed using square brackets, e.g., list[0]."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. list.add(4)"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. list.add(4)"
+        ],
         "explanation": "The add() function is used to add an element to a mutable List, e.g., list.add(4)."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. set.contains(1)"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. set.contains(1)"
+        ],
         "explanation": "The contains() function checks if an element exists in a Set, e.g., set.contains(1)."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. set.add(4)"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. set.add(4)"
+        ],
         "explanation": "The add() function is used to add an element to a mutable Set, e.g., set.add(4)."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. map[key]"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. map[key]"
+        ],
         "explanation": "Values in a Map are accessed using square brackets, e.g., map[key]."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. map[key] = value"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. map[key] = value"
+        ],
         "explanation": "The put() function or square bracket assignment is used to add a key-value pair, e.g., map[key] = value."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. toSet()"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. toSet()"
+        ],
         "explanation": "The toSet() function converts a List to a Set, removing duplicates."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. associate()"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. associate()"
+        ],
         "explanation": "The associate() function can convert a List to a Map by specifying key-value mappings, e.g., list.associate { it to it * 2 }."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. Returns elements matching a predicate"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. Returns elements matching a predicate"
+        ],
         "explanation": "The filter() function returns a new collection containing only elements that satisfy a given predicate."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Transforms elements"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Transforms elements"
+        ],
         "explanation": "The map() function transforms each element in a collection using a provided lambda and returns a new collection."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. sorted()"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. sorted()"
+        ],
         "explanation": "The sorted() function returns a new sorted List in ascending order."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. list.remove(1)"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. list.remove(1)"
+        ],
         "explanation": "The remove() function removes an element from a mutable List, e.g., list.remove(1)."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. set.remove(1)"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. set.remove(1)"
+        ],
         "explanation": "The remove() function removes an element from a mutable Set, e.g., set.remove(1)."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. map.remove(key)"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. map.remove(key)"
+        ],
         "explanation": "The remove() function removes a key-value pair from a mutable Map, e.g., map.remove(key)."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. size"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. size"
+        ],
         "explanation": "The size property returns the number of elements in a collection, e.g., list.size."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Removes duplicates"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Removes duplicates"
+        ],
         "explanation": "The distinct() function returns a new collection with duplicate elements removed."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. reversed()"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. reversed()"
+        ],
         "explanation": "The reversed() function returns a new List with elements in reverse order."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. for ((key, value) in map)"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. for ((key, value) in map)"
+        ],
         "explanation": "A Map can be iterated using a for loop with entries, e.g., for ((key, value) in map)."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Checks if at least one element matches"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Checks if at least one element matches"
+        ],
         "explanation": "The any() function checks if at least one element in a collection satisfies a given predicate."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Checks if all elements match"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Checks if all elements match"
+        ],
         "explanation": "The all() function checks if all elements in a collection satisfy a given predicate."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. joinToString()"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. joinToString()"
+        ],
         "explanation": "The joinToString() function joins collection elements into a string, with customizable separator, prefix, and postfix."
       }
     }

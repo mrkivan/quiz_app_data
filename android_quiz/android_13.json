@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. Text"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Text"
+        ],
         "explanation": "The Text composable is used to display text in Jetpack Compose with customizable styling."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. TextStyle"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. TextStyle"
+        ],
         "explanation": "TextStyle defines properties like font size, weight, and color for text in Compose."
       }
     },
@@ -114,8 +122,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [9],
-        "answer": ["A. True"],
+        "answerId": [
+          9
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "AnnotatedString allows applying different styles to parts of text within a single Text composable."
       }
     },
@@ -158,8 +170,16 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [11, 12, 14],
-        "answer": ["A. fontSize", "B. fontWeight", "D. color"],
+        "answerId": [
+          11,
+          12,
+          14
+        ],
+        "answer": [
+          "A. fontSize",
+          "B. fontWeight",
+          "D. color"
+        ],
         "explanation": "TextStyle includes fontSize, fontWeight, and color, but textOverflow is a Text composable parameter."
       }
     },
@@ -202,8 +222,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [16],
-        "answer": ["B. BasicTextField"],
+        "answerId": [
+          16
+        ],
+        "answer": [
+          "B. BasicTextField"
+        ],
         "explanation": "BasicTextField allows users to input and edit text in a Compose UI."
       }
     },
@@ -232,8 +256,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [19],
-        "answer": ["A. True"],
+        "answerId": [
+          19
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "TextOverflow.Ellipsis truncates overflowing text and adds '...' to indicate continuation."
       }
     },
@@ -276,8 +304,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [22],
-        "answer": ["B. textAlign"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. textAlign"
+        ],
         "explanation": "textAlign in TextStyle controls the alignment of text, such as start, center, or end."
       }
     },
@@ -320,8 +352,16 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [25, 26, 28],
-        "answer": ["A. TextStyle", "B. AnnotatedString", "D. SpanStyle"],
+        "answerId": [
+          25,
+          26,
+          28
+        ],
+        "answer": [
+          "A. TextStyle",
+          "B. AnnotatedString",
+          "D. SpanStyle"
+        ],
         "explanation": "TextStyle, AnnotatedString, and SpanStyle style text, but Modifier is for layout properties."
       }
     },
@@ -364,8 +404,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [30],
-        "answer": ["B. maxLines"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. maxLines"
+        ],
         "explanation": "maxLines limits the number of lines displayed in a Text composable."
       }
     },
@@ -394,8 +438,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [33],
-        "answer": ["A. True"],
+        "answerId": [
+          33
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Text with AnnotatedString supports clickable spans using clickable annotations."
       }
     },
@@ -438,8 +486,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [36],
-        "answer": ["B. AnnotatedString"],
+        "answerId": [
+          36
+        ],
+        "answer": [
+          "B. AnnotatedString"
+        ],
         "explanation": "AnnotatedString enables multiple text styles and annotations in a single Text composable."
       }
     },
@@ -482,8 +534,14 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [39, 40],
-        "answer": ["A. BasicTextField", "B. OutlinedTextField"],
+        "answerId": [
+          39,
+          40
+        ],
+        "answer": [
+          "A. BasicTextField",
+          "B. OutlinedTextField"
+        ],
         "explanation": "BasicTextField and OutlinedTextField handle text input, but Text and TextStyle are for display and styling."
       }
     },
@@ -526,8 +584,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [44],
-        "answer": ["B. textDecoration"],
+        "answerId": [
+          44
+        ],
+        "answer": [
+          "B. textDecoration"
+        ],
         "explanation": "textDecoration in TextStyle adds underlines or strikethrough to text."
       }
     },
@@ -556,8 +618,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [47],
-        "answer": ["A. True"],
+        "answerId": [
+          47
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "BasicTextField supports custom decorations via its decorationBox parameter."
       }
     },
@@ -600,8 +666,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [50],
-        "answer": ["B. OutlinedTextField"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. OutlinedTextField"
+        ],
         "explanation": "OutlinedTextField provides a Material Design-styled text input field in Compose."
       }
     },
@@ -644,8 +714,16 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [53, 54, 56],
-        "answer": ["A. Content descriptions", "B. Sufficient font size", "D. High contrast colors"],
+        "answerId": [
+          53,
+          54,
+          56
+        ],
+        "answer": [
+          "A. Content descriptions",
+          "B. Sufficient font size",
+          "D. High contrast colors"
+        ],
         "explanation": "Content descriptions, sufficient font size, and high contrast improve accessibility, but textDecoration does not."
       }
     },
@@ -688,8 +766,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [58],
-        "answer": ["B. lineHeight"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. lineHeight"
+        ],
         "explanation": "lineHeight in TextStyle controls the spacing between lines of text."
       }
     },
@@ -718,8 +800,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [61],
-        "answer": ["A. True"],
+        "answerId": [
+          61
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Text supports custom fonts via FontFamily in TextStyle."
       }
     },
@@ -762,8 +848,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [64],
-        "answer": ["B. textOverflow"],
+        "answerId": [
+          64
+        ],
+        "answer": [
+          "B. textOverflow"
+        ],
         "explanation": "textOverflow controls how text is truncated when it exceeds the available space."
       }
     },
@@ -806,8 +896,14 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [67, 68],
-        "answer": ["A. Clip", "B. Ellipsis"],
+        "answerId": [
+          67,
+          68
+        ],
+        "answer": [
+          "A. Clip",
+          "B. Ellipsis"
+        ],
         "explanation": "Clip and Ellipsis are TextOverflow options, but Fade and Truncate are not supported in Compose."
       }
     },
@@ -850,8 +946,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [72],
-        "answer": ["B. SpanStyle"],
+        "answerId": [
+          72
+        ],
+        "answer": [
+          "B. SpanStyle"
+        ],
         "explanation": "SpanStyle applies styles to specific ranges of an AnnotatedString."
       }
     },
@@ -880,8 +980,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [75],
-        "answer": ["A. True"],
+        "answerId": [
+          75
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "OutlinedTextField supports placeholder text via its placeholder parameter."
       }
     },
@@ -924,8 +1028,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [78],
-        "answer": ["B. letterSpacing"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. letterSpacing"
+        ],
         "explanation": "letterSpacing in TextStyle controls the spacing between characters in text."
       }
     },
@@ -968,8 +1076,16 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [81, 82, 84],
-        "answer": ["A. Use semantic properties", "B. Use scalable fonts", "D. Provide clear labels"],
+        "answerId": [
+          81,
+          82,
+          84
+        ],
+        "answer": [
+          "A. Use semantic properties",
+          "B. Use scalable fonts",
+          "D. Provide clear labels"
+        ],
         "explanation": "Semantic properties, scalable fonts, and clear labels enhance accessibility, but small font sizes do not."
       }
     },
@@ -1012,8 +1128,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [86],
-        "answer": ["B. textIndent"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. textIndent"
+        ],
         "explanation": "textIndent in ParagraphStyle indents the first line of a paragraph in a Text composable."
       }
     },
@@ -1042,8 +1162,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [89],
-        "answer": ["A. True"],
+        "answerId": [
+          89
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Text composable supports text selection when used with selection-enabled parameters."
       }
     },
@@ -1086,8 +1210,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [92],
-        "answer": ["B. FontFamily"],
+        "answerId": [
+          92
+        ],
+        "answer": [
+          "B. FontFamily"
+        ],
         "explanation": "FontFamily specifies a custom font family for text in TextStyle."
       }
     },
@@ -1130,8 +1258,16 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [95, 96, 98],
-        "answer": ["A. SpanStyle", "B. ParagraphStyle", "D. Annotations"],
+        "answerId": [
+          95,
+          96,
+          98
+        ],
+        "answer": [
+          "A. SpanStyle",
+          "B. ParagraphStyle",
+          "D. Annotations"
+        ],
         "explanation": "AnnotatedString supports SpanStyle, ParagraphStyle, and annotations, but fontSize is part of TextStyle."
       }
     },
@@ -1174,8 +1310,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [100],
-        "answer": ["B. clickable"],
+        "answerId": [
+          100
+        ],
+        "answer": [
+          "B. clickable"
+        ],
         "explanation": "The clickable modifier makes a Text composable interactive for click events."
       }
     },
@@ -1204,8 +1344,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [103],
-        "answer": ["A. True"],
+        "answerId": [
+          103
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "BasicTextField supports keyboard options to configure input types like text, number, or email."
       }
     }

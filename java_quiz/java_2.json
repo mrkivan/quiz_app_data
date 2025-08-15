@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [4],
-        "answer": ["D. default"],
+        "answerId": [
+          4
+        ],
+        "answer": [
+          "D. default"
+        ],
         "explanation": "If no access modifier is specified, class members have 'default' (package-private) access, meaning they are accessible only within the same package."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. private"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. private"
+        ],
         "explanation": "The 'private' access modifier restricts access to members only within the same class."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [9],
-        "answer": ["A. public"],
+        "answerId": [
+          9
+        ],
+        "answer": [
+          "A. public"
+        ],
         "explanation": "The 'public' access modifier allows a member to be accessible from anywhere in the program."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [15],
-        "answer": ["C. protected"],
+        "answerId": [
+          15
+        ],
+        "answer": [
+          "C. protected"
+        ],
         "explanation": "The 'protected' access modifier allows access within the same package and in subclasses, regardless of the package."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. Same package"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. Same package"
+        ],
         "explanation": "A method with the 'default' (package-private) access modifier is accessible only within the same package."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. No"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. No"
+        ],
         "explanation": "Top-level classes cannot be 'private' as they must be accessible to be used; only nested or inner classes can be private."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. private"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. private"
+        ],
         "explanation": "The 'private' access modifier is the most restrictive, limiting access to within the same class only."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [29],
-        "answer": ["A. Yes"],
+        "answerId": [
+          29
+        ],
+        "answer": [
+          "A. Yes"
+        ],
         "explanation": "Yes, a constructor can be 'private' to prevent instantiation from outside the class, often used in singleton patterns."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [35],
-        "answer": ["C. protected"],
+        "answerId": [
+          35
+        ],
+        "answer": [
+          "C. protected"
+        ],
         "explanation": "The 'protected' access modifier allows access by subclasses, even if they are in different packages, and within the same package."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. Accessible everywhere"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. Accessible everywhere"
+        ],
         "explanation": "A 'public' method can be accessed from any class or package in the program."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. No"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. No"
+        ],
         "explanation": "A 'private' field cannot be accessed directly by a subclass; access requires public or protected methods like getters/setters."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. private"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. private"
+        ],
         "explanation": "The 'private' access modifier is used for encapsulation, hiding fields and providing access through public methods."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. No"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. No"
+        ],
         "explanation": "Top-level classes cannot be 'protected'; only nested or inner classes can have this modifier."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [56],
-        "answer": ["D. default"],
+        "answerId": [
+          56
+        ],
+        "answer": [
+          "D. default"
+        ],
         "explanation": "A method with no access modifier has 'default' (package-private) access, accessible only within the same package."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [59],
-        "answer": ["C. protected"],
+        "answerId": [
+          59
+        ],
+        "answer": [
+          "C. protected"
+        ],
         "explanation": "The 'protected' access modifier allows a method to be overridden by subclasses, even in different packages."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. No"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. No"
+        ],
         "explanation": "A 'public' method cannot be overridden by a 'private' method, as 'private' methods are not inherited."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. public"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. public"
+        ],
         "explanation": "Constants are typically declared 'public' to allow access from anywhere, often combined with 'static' and 'final'."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. Same package and subclasses"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. Same package and subclasses"
+        ],
         "explanation": "A 'protected' field is accessible within the same package and in subclasses, even in different packages."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. No"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. No"
+        ],
         "explanation": "'Private' methods are not inherited, so they cannot be overridden in a subclass."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [80],
-        "answer": ["D. default"],
+        "answerId": [
+          80
+        ],
+        "answer": [
+          "D. default"
+        ],
         "explanation": "The 'default' (package-private) access modifier restricts access to within the same package."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. No"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. No"
+        ],
         "explanation": "A 'protected' method cannot be accessed from a different package unless through a subclass."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. To control visibility"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. To control visibility"
+        ],
         "explanation": "Access modifiers control the visibility and accessibility of class members to enforce encapsulation and security."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [89],
-        "answer": ["A. Yes"],
+        "answerId": [
+          89
+        ],
+        "answer": [
+          "A. Yes"
+        ],
         "explanation": "A 'public' class can be accessed from any package, provided it is imported or fully qualified."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [96],
-        "answer": ["D. It is default"],
+        "answerId": [
+          96
+        ],
+        "answer": [
+          "D. It is default"
+        ],
         "explanation": "A class with no access modifier has 'default' (package-private) access, accessible only within the same package."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. No"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. No"
+        ],
         "explanation": "A 'private' constructor cannot be used to create objects outside the class; it restricts instantiation to within the class."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. public"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. public"
+        ],
         "explanation": "The 'public' access modifier allows a method to be accessed by all classes in the application."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [105],
-        "answer": ["A. Yes"],
+        "answerId": [
+          105
+        ],
+        "answer": [
+          "A. Yes"
+        ],
         "explanation": "A 'protected' field can be accessed directly in a subclass, even in a different package."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Not accessible"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Not accessible"
+        ],
         "explanation": "A 'default' method is not accessible from a different package, as it is limited to the same package."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. private"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. private"
+        ],
         "explanation": "The 'private' access modifier ensures a field can only be modified within its own class."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. No"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. No"
+        ],
         "explanation": "A 'public' method in an interface cannot be implemented with a more restrictive access modifier, as it must remain 'public'."
       }
     }

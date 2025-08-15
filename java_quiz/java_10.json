@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. synchronized"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. synchronized"
+        ],
         "explanation": "The 'synchronized' keyword ensures that only one thread can execute a method or block at a time, preventing concurrent access issues."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. Runnable"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. Runnable"
+        ],
         "explanation": "The 'Runnable' interface defines a task that can be executed by a thread or executor, with a single 'run()' method."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. Callable"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. Callable"
+        ],
         "explanation": "The 'Callable' interface allows a task to return a result and throw checked exceptions, used with executors."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. Thread"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. Thread"
+        ],
         "explanation": "The 'Thread' class represents a thread of execution in Java, providing methods to start and manage threads."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. java.util.concurrent"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. java.util.concurrent"
+        ],
         "explanation": "The 'java.util.concurrent' package contains Java's concurrency utilities, including executors, locks, and concurrent collections."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. ExecutorService"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. ExecutorService"
+        ],
         "explanation": "The 'ExecutorService' interface manages a pool of threads, providing methods to execute tasks and control thread lifecycle."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. start()"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. start()"
+        ],
         "explanation": "The 'start()' method initiates the execution of a thread, invoking its 'run()' method in a separate thread of control."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. Ensures visibility across threads"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Ensures visibility across threads"
+        ],
         "explanation": "The 'volatile' keyword ensures that a variable's value is always read from and written to main memory, preventing thread-local caching."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Executors"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Executors"
+        ],
         "explanation": "The 'Executors' class provides factory methods to create different types of thread pools, such as fixed or cached thread pools."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. Future"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. Future"
+        ],
         "explanation": "The 'Future' interface represents the result of an asynchronous computation, allowing retrieval of the result when ready."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. Flexible locking mechanisms"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. Flexible locking mechanisms"
+        ],
         "explanation": "The 'Lock' interface provides more flexible locking mechanisms than 'synchronized', with methods like 'lock()' and 'unlock()'."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. ReentrantLock"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. ReentrantLock"
+        ],
         "explanation": "The 'ReentrantLock' class implements the 'Lock' interface, supporting reentrant locking where a thread can acquire the lock multiple times."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. Semaphore"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Semaphore"
+        ],
         "explanation": "The 'Semaphore' class controls access to a resource by maintaining a set of permits, allowing a fixed number of threads to proceed."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. CountDownLatch"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. CountDownLatch"
+        ],
         "explanation": "The 'CountDownLatch' class allows threads to wait until a specified number of events (countdowns) have occurred."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. CyclicBarrier"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. CyclicBarrier"
+        ],
         "explanation": "The 'CyclicBarrier' class allows a group of threads to wait until all reach a common barrier point before proceeding."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. wait()"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. wait()"
+        ],
         "explanation": "The 'wait()' method causes the current thread to wait until another thread calls 'notify()' or 'notifyAll()' on the same object."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. sleep()"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. sleep()"
+        ],
         "explanation": "The 'sleep()' method pauses the execution of the current thread for a specified duration without releasing locks."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. join()"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. join()"
+        ],
         "explanation": "The 'join()' method allows one thread to wait until another thread completes its execution."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. CopyOnWriteArrayList"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. CopyOnWriteArrayList"
+        ],
         "explanation": "The 'CopyOnWriteArrayList' class provides a thread-safe List implementation that creates a new copy of the underlying array on write operations."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. ConcurrentHashMap"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. ConcurrentHashMap"
+        ],
         "explanation": "The 'ConcurrentHashMap' class provides a thread-safe Map implementation with high concurrency for read and write operations."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Provides atomic operations on integers"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Provides atomic operations on integers"
+        ],
         "explanation": "The 'AtomicInteger' class provides atomic operations on an integer, such as increment and compare-and-set, for thread-safe updates."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. shutdown()"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. shutdown()"
+        ],
         "explanation": "The 'shutdown()' method initiates an orderly shutdown, allowing previously submitted tasks to complete but accepting no new tasks."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. shutdownNow()"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. shutdownNow()"
+        ],
         "explanation": "The 'shutdownNow()' method attempts to stop all executing tasks, halts processing of waiting tasks, and returns a list of tasks that were awaiting execution."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. BlockingQueue"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. BlockingQueue"
+        ],
         "explanation": "The 'BlockingQueue' interface provides thread-safe queue operations, ideal for producer-consumer patterns with blocking methods like 'put()' and 'take()'."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. CopyOnWriteArraySet"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. CopyOnWriteArraySet"
+        ],
         "explanation": "The 'CopyOnWriteArraySet' class provides a thread-safe Set implementation, using a copy-on-write mechanism for thread safety."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Executes recursive, divide-and-conquer tasks"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Executes recursive, divide-and-conquer tasks"
+        ],
         "explanation": "The 'ForkJoinPool' class is designed for parallel processing of recursive, divide-and-conquer tasks using the fork/join framework."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. ForkJoinTask"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. ForkJoinTask"
+        ],
         "explanation": "The 'ForkJoinTask' class is the base class for tasks executed in the fork/join framework, supporting fork and join operations."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. yield()"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. yield()"
+        ],
         "explanation": "The 'yield()' method suggests that the current thread give up its CPU time to allow other threads to run, though it’s not guaranteed."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. AtomicLong"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. AtomicLong"
+        ],
         "explanation": "The 'AtomicLong' class provides atomic operations for a long value, including decrement operations for thread-safe counting."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. newFixedThreadPool"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. newFixedThreadPool"
+        ],
         "explanation": "The 'newFixedThreadPool' executor is suitable for CPU-intensive tasks, as it uses a fixed number of threads to avoid excessive thread creation."
       }
     }

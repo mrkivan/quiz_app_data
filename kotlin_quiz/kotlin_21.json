@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. onCreate()"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. onCreate()"
+        ],
         "explanation": "The onCreate() method is called when an Activity is first created, used to initialize the UI and other components."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [5],
-        "answer": ["A. setContentView(R.layout.activity_main)"],
+        "answerId": [
+          5
+        ],
+        "answer": [
+          "A. setContentView(R.layout.activity_main)"
+        ],
         "explanation": "In a Kotlin Activity, setContentView(R.layout.activity_main) is used to set the layout resource for the Activity's UI."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. onCreateView()"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. onCreateView()"
+        ],
         "explanation": "The onCreateView() method is called when a Fragment's view is created, typically used to inflate the Fragment's layout."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. inflater.inflate(R.layout.fragment_layout, container, false)"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. inflater.inflate(R.layout.fragment_layout, container, false)"
+        ],
         "explanation": "In a Fragment, the layout is inflated using inflater.inflate(R.layout.fragment_layout, container, false) in onCreateView()."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. To provide type-safe view access"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. To provide type-safe view access"
+        ],
         "explanation": "View Binding generates a binding class for safe, type-safe access to views, eliminating the need for findViewById()."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [21],
-        "answer": ["A. Add viewBinding true in build.gradle"],
+        "answerId": [
+          21
+        ],
+        "answer": [
+          "A. Add viewBinding true in build.gradle"
+        ],
         "explanation": "View Binding is enabled by adding 'viewBinding true' in the build.gradle file and using the generated binding class, e.g., ActivityMainBinding.inflate(layoutInflater)."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. supportFragmentManager.beginTransaction()"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. supportFragmentManager.beginTransaction()"
+        ],
         "explanation": "The supportFragmentManager.beginTransaction() method is used to start a Fragment transaction in an Activity, e.g., supportFragmentManager.beginTransaction().add()."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. supportFragmentManager.beginTransaction().add()"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. supportFragmentManager.beginTransaction().add()"
+        ],
         "explanation": "To add a Fragment, use supportFragmentManager.beginTransaction().add(R.id.container, MyFragment()).commit()."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. lifecycleScope"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. lifecycleScope"
+        ],
         "explanation": "The lifecycleScope is used for coroutines in an Activity, ensuring coroutines are cancelled when the Activity is destroyed."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. lifecycleScope"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. lifecycleScope"
+        ],
         "explanation": "The lifecycleScope is used for coroutines in a Fragment, ensuring coroutines are tied to the Fragment's lifecycle."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. binding.textView"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. binding.textView"
+        ],
         "explanation": "With View Binding, views are accessed via the binding object, e.g., binding.textView.text = \"Hello\"."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. replace()"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. replace()"
+        ],
         "explanation": "The replace() method in a Fragment transaction replaces the current Fragment in a container, e.g., supportFragmentManager.beginTransaction().replace(R.id.container, MyFragment()).commit()."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [49],
-        "answer": ["A. addToBackStack()"],
+        "answerId": [
+          49
+        ],
+        "answer": [
+          "A. addToBackStack()"
+        ],
         "explanation": "The addToBackStack() method adds a Fragment transaction to the back stack, e.g., supportFragmentManager.beginTransaction().replace(R.id.container, MyFragment()).addToBackStack(null).commit()."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. onViewCreated()"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. onViewCreated()"
+        ],
         "explanation": "The onViewCreated() method is called after onCreateView(), allowing setup of view-related logic, such as binding click listeners."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. requireActivity()"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. requireActivity()"
+        ],
         "explanation": "The requireActivity() method safely retrieves the hosting Activity, throwing an exception if the Fragment is not attached."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Saves UI state"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Saves UI state"
+        ],
         "explanation": "The onSaveInstanceState() method saves UI state before configuration changes or process death, allowing state restoration in onCreate()."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [65],
-        "answer": ["A. Use setArguments() with a Bundle"],
+        "answerId": [
+          65
+        ],
+        "answer": [
+          "A. Use setArguments() with a Bundle"
+        ],
         "explanation": "Data is passed to a Fragment using a Bundle with setArguments(), e.g., fragment.arguments = Bundle().apply { putString(\"key\", \"value\") }."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. commit()"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. commit()"
+        ],
         "explanation": "The commit() method finalizes a Fragment transaction, e.g., supportFragmentManager.beginTransaction().replace(R.id.container, MyFragment()).commit()."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. requireContext()"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. requireContext()"
+        ],
         "explanation": "The requireContext() method safely retrieves the Context in a Fragment, throwing an exception if the Fragment is not attached."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Sets up Fragment after Activity creation"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Sets up Fragment after Activity creation"
+        ],
         "explanation": "The onActivityCreated() method is called after the Activity's onCreate() is complete, allowing Fragment setup that depends on the Activity."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. lifecycleScope.launch { }"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. lifecycleScope.launch { }"
+        ],
         "explanation": "Use lifecycleScope.launch { } to launch a coroutine in an Activity, ensuring it is lifecycle-aware, e.g., lifecycleScope.launch { delay(1000) }."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. remove()"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. remove()"
+        ],
         "explanation": "The remove() method in a Fragment transaction removes a Fragment, e.g., supportFragmentManager.beginTransaction().remove(fragment).commit()."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. requireArguments()"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. requireArguments()"
+        ],
         "explanation": "A Fragment's arguments are accessed using requireArguments(), e.g., val value = requireArguments().getString(\"key\")."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. onDestroy()"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. onDestroy()"
+        ],
         "explanation": "The onDestroy() method is called when an Activity is destroyed, used for cleanup tasks like releasing resources."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [97],
-        "answer": ["A. startActivity(Intent(this, NewActivity::class.java))"],
+        "answerId": [
+          97
+        ],
+        "answer": [
+          "A. startActivity(Intent(this, NewActivity::class.java))"
+        ],
         "explanation": "To start a new Activity, use startActivity(Intent(this, NewActivity::class.java)), leveraging Kotlin's class reference syntax."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Pauses operations"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Pauses operations"
+        ],
         "explanation": "The onPause() method is called when an Activity is partially obscured, used to pause operations like animations or save transient state."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. FragmentBinding.inflate(inflater, container, false)"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. FragmentBinding.inflate(inflater, container, false)"
+        ],
         "explanation": "In a Fragment, View Binding is used by inflating the binding in onCreateView(), e.g., val binding = FragmentBinding.inflate(inflater, container, false), and returning binding.root."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Dispatchers.Main"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Dispatchers.Main"
+        ],
         "explanation": "The Dispatchers.Main dispatcher is used for UI updates in a coroutine, ensuring operations run on the main thread, e.g., withContext(Dispatchers.Main) { binding.textView.text = \"Updated\" }."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. popBackStack()"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. popBackStack()"
+        ],
         "explanation": "The popBackStack() method navigates back in the Fragment back stack, e.g., supportFragmentManager.popBackStack()."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Cleans up view resources"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Cleans up view resources"
+        ],
         "explanation": "The onDestroyView() method is called when a Fragment's view is destroyed, used to clean up view-related resources, such as View Binding references."
       }
     }

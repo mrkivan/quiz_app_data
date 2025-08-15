@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. Manage UI-related data"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Manage UI-related data"
+        ],
         "explanation": "ViewModel stores and manages UI-related data in a lifecycle-aware manner, surviving configuration changes like screen rotations."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. Extend ViewModel class"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. Extend ViewModel class"
+        ],
         "explanation": "A ViewModel is created by extending the ViewModel class, e.g., class MyViewModel : ViewModel()."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. Observable lifecycle-aware data"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. Observable lifecycle-aware data"
+        ],
         "explanation": "LiveData is an observable data holder that is lifecycle-aware, notifying observers only when the lifecycle is active."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. ViewModelProvider(this).get(MyViewModel::class.java)"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. ViewModelProvider(this).get(MyViewModel::class.java)"
+        ],
         "explanation": "A ViewModel is obtained using ViewModelProvider(this).get(MyViewModel::class.java) in a Fragment."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. liveData.observe(viewLifecycleOwner, Observer)"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. liveData.observe(viewLifecycleOwner, Observer)"
+        ],
         "explanation": "LiveData is observed using liveData.observe(viewLifecycleOwner, Observer { value -> }) to ensure lifecycle awareness."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. Ties observers to view lifecycle"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. Ties observers to view lifecycle"
+        ],
         "explanation": "Using viewLifecycleOwner ensures LiveData observers are tied to the Fragment's view lifecycle, preventing updates when the view is destroyed."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. val liveData = MutableLiveData<Type>()"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. val liveData = MutableLiveData<Type>()"
+        ],
         "explanation": "MutableLiveData is created using val liveData = MutableLiveData<Type>() in a ViewModel to allow value updates."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. liveData.value = newValue"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. liveData.value = newValue"
+        ],
         "explanation": "A MutableLiveData value is updated using liveData.value = newValue in a ViewModel to trigger observer notifications."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Updates value from background thread"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Updates value from background thread"
+        ],
         "explanation": "postValue() updates MutableLiveData from a background thread, queuing the update to the main thread."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. Survives by lifecycle scoping"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. Survives by lifecycle scoping"
+        ],
         "explanation": "ViewModel survives configuration changes by being scoped to the activity or fragment, retaining data until the lifecycle ends."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. Transforms LiveData values"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. Transforms LiveData values"
+        ],
         "explanation": "Transformations.map applies a function to LiveData values, creating a new LiveData with transformed values."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. Switches to new LiveData"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. Switches to new LiveData"
+        ],
         "explanation": "Transformations.switchMap maps a LiveData to another LiveData, switching to the new LiveData when the source value changes."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. Use MediatorLiveData"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Use MediatorLiveData"
+        ],
         "explanation": "Multiple LiveData sources are combined using MediatorLiveData, adding sources with addSource() to combine their values."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Observers are removed"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. Observers are removed"
+        ],
         "explanation": "When a Fragment is destroyed, LiveData observers tied to viewLifecycleOwner are automatically removed, preventing memory leaks."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. ViewModelProvider(this, factory).get(MyViewModel::class.java)"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. ViewModelProvider(this, factory).get(MyViewModel::class.java)"
+        ],
         "explanation": "A ViewModelFactory is used with ViewModelProvider(ViewModelStoreOwner, factory).get(MyViewModel::class.java) to pass dependencies."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Cleans up resources"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Cleans up resources"
+        ],
         "explanation": "onCleared() is called when the ViewModel is no longer used and is destroyed, allowing cleanup of resources."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. Use viewModelScope to update LiveData"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. Use viewModelScope to update LiveData"
+        ],
         "explanation": "LiveData can be used with Coroutines by launching a coroutine in viewModelScope to update MutableLiveData values."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. A CoroutineScope for ViewModel"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. A CoroutineScope for ViewModel"
+        ],
         "explanation": "viewModelScope is a CoroutineScope tied to the ViewModel's lifecycle, automatically canceled when the ViewModel is cleared."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Use ViewModelProvider(requireActivity())"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Use ViewModelProvider(requireActivity())"
+        ],
         "explanation": "A ViewModel is shared by using ViewModelProvider(requireActivity()).get(MyViewModel::class.java) to scope it to the Activity."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Saves and restores state"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Saves and restores state"
+        ],
         "explanation": "SavedStateHandle allows ViewModel to save and restore state across process death, using key-value pairs."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Inject in constructor, use get()/set()"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Inject in constructor, use get()/set()"
+        ],
         "explanation": "SavedStateHandle is injected into the ViewModel constructor and used with get() and set() to manage state."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Recreated with SavedStateHandle"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Recreated with SavedStateHandle"
+        ],
         "explanation": "On process death, the ViewModel is recreated, but SavedStateHandle can restore its state if configured."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. liveData.removeObserver(observer)"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. liveData.removeObserver(observer)"
+        ],
         "explanation": "A LiveData observer is removed using liveData.removeObserver(observer) when no longer needed."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Lifecycle-aware observer management"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Lifecycle-aware observer management"
+        ],
         "explanation": "LiveData is lifecycle-aware, automatically managing observer subscriptions to prevent memory leaks and crashes."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Return LiveData from Room queries"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Return LiveData from Room queries"
+        ],
         "explanation": "Room queries can return LiveData, which is exposed in the ViewModel and observed in the UI for automatic updates."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Observes without LifecycleOwner"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Observes without LifecycleOwner"
+        ],
         "explanation": "observeForever() observes LiveData without a LifecycleOwner, requiring manual removal to avoid memory leaks."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Use nullable type or safe calls"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Use nullable type or safe calls"
+        ],
         "explanation": "Null values in LiveData are handled by making the LiveData type nullable, e.g., MutableLiveData<Type?>() or using safe calls in observers."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Use SingleLiveEvent or reset value"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Use SingleLiveEvent or reset value"
+        ],
         "explanation": "One-time events are handled using a wrapper like SingleLiveEvent or by resetting the LiveData value after consumption."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Fragment lifecycle"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Fragment lifecycle"
+        ],
         "explanation": "Using ViewModelProvider(this) in a Fragment scopes the ViewModel to the Fragment's lifecycle, destroyed when the Fragment is."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Use InstantTaskExecutorRule"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Use InstantTaskExecutorRule"
+        ],
         "explanation": "Testing involves using a test rule like InstantTaskExecutorRule and observing LiveData with a test observer to verify updates."
       }
     }

@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. Modifier.autofill"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Modifier.autofill"
+        ],
         "explanation": "Modifier.autofill enables autofill for a composable by associating it with an AutofillNode."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. AutofillNode"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. AutofillNode"
+        ],
         "explanation": "AutofillNode represents an autofillable field and handles data exchange with the autofill framework."
       }
     },
@@ -114,8 +122,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [9],
-        "answer": ["A. True"],
+        "answerId": [
+          9
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Autofill framework, used by Compose, requires Android API 26 (Oreo) or higher."
       }
     },
@@ -158,8 +170,16 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [11, 12, 14],
-        "answer": ["A. EmailAddress", "B. Username", "D. Password"],
+        "answerId": [
+          11,
+          12,
+          14
+        ],
+        "answer": [
+          "A. EmailAddress",
+          "B. Username",
+          "D. Password"
+        ],
         "explanation": "EmailAddress, Username, and Password are valid AutofillType values, but Text is not a specific autofill type."
       }
     },
@@ -202,8 +222,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [16],
-        "answer": ["B. BasicTextField"],
+        "answerId": [
+          16
+        ],
+        "answer": [
+          "B. BasicTextField"
+        ],
         "explanation": "BasicTextField is commonly used with Modifier.autofill for text input fields."
       }
     },
@@ -232,8 +256,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [19],
-        "answer": ["A. True"],
+        "answerId": [
+          19
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "AutofillNode requires a unique ID to identify each autofillable field in the UI."
       }
     },
@@ -276,8 +304,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [22],
-        "answer": ["B. AutofillManager"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. AutofillManager"
+        ],
         "explanation": "AutofillManager interacts with the autofill framework to process autofill requests."
       }
     },
@@ -320,8 +352,16 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [25, 26, 28],
-        "answer": ["A. Use specific AutofillType values", "B. Provide content descriptions", "D. Test with autofill services"],
+        "answerId": [
+          25,
+          26,
+          28
+        ],
+        "answer": [
+          "A. Use specific AutofillType values",
+          "B. Provide content descriptions",
+          "D. Test with autofill services"
+        ],
         "explanation": "Using AutofillType, providing content descriptions, and testing with autofill services are best practices, but using ViewModel is not directly related."
       }
     },
@@ -364,8 +404,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [30],
-        "answer": ["B. Modifier.autofill"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Modifier.autofill"
+        ],
         "explanation": "Modifier.autofill handles autofill events for a composable by linking it to an AutofillNode."
       }
     },
@@ -394,8 +438,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [34],
-        "answer": ["B. False"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. False"
+        ],
         "explanation": "Compose uses the Android autofill framework, which works with existing autofill services; a custom service is not required."
       }
     },
@@ -438,8 +486,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [36],
-        "answer": ["B. CreditCardNumber"],
+        "answerId": [
+          36
+        ],
+        "answer": [
+          "B. CreditCardNumber"
+        ],
         "explanation": "CreditCardNumber is the AutofillType for credit card input fields."
       }
     },
@@ -482,8 +534,16 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [39, 40, 42],
-        "answer": ["A. AutofillNode", "B. AutofillType", "D. Modifier.autofill"],
+        "answerId": [
+          39,
+          40,
+          42
+        ],
+        "answer": [
+          "A. AutofillNode",
+          "B. AutofillType",
+          "D. Modifier.autofill"
+        ],
         "explanation": "AutofillNode, AutofillType, and Modifier.autofill are required, but ViewModel is not necessary for autofill."
       }
     },
@@ -526,8 +586,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [44],
-        "answer": ["B. AutofillService"],
+        "answerId": [
+          44
+        ],
+        "answer": [
+          "B. AutofillService"
+        ],
         "explanation": "The autofill service must be enabled in system settings for autofill to function."
       }
     },
@@ -556,8 +620,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [47],
-        "answer": ["A. True"],
+        "answerId": [
+          47
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Autofill in Compose supports password fields using AutofillType.Password."
       }
     },
@@ -600,8 +668,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [50],
-        "answer": ["B. Content descriptions"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Content descriptions"
+        ],
         "explanation": "Content descriptions improve accessibility by providing context for autofill fields."
       }
     },
@@ -644,8 +716,16 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [53, 54, 56],
-        "answer": ["A. Avoid storing sensitive data", "B. Use secure input fields", "D. Inform users of autofill usage"],
+        "answerId": [
+          53,
+          54,
+          56
+        ],
+        "answer": [
+          "A. Avoid storing sensitive data",
+          "B. Use secure input fields",
+          "D. Inform users of autofill usage"
+        ],
         "explanation": "Avoiding sensitive data, using secure fields, and informing users are privacy considerations, but font styling is unrelated."
       }
     },
@@ -688,8 +768,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [58],
-        "answer": ["B. PhoneNumber"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. PhoneNumber"
+        ],
         "explanation": "PhoneNumber is the AutofillType for phone number input fields."
       }
     },
@@ -718,8 +802,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [61],
-        "answer": ["A. True"],
+        "answerId": [
+          61
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Autofill works with OutlinedTextField when paired with Modifier.autofill and an AutofillNode."
       }
     },
@@ -762,8 +850,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [64],
-        "answer": ["B. androidx.compose.ui:ui-autofill"],
+        "answerId": [
+          64
+        ],
+        "answer": [
+          "B. androidx.compose.ui:ui-autofill"
+        ],
         "explanation": "androidx.compose.ui:ui-autofill provides autofill support in Jetpack Compose."
       }
     },
@@ -806,8 +898,16 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [67, 68, 70],
-        "answer": ["A. Content descriptions", "B. Clear labels", "D. Semantic properties"],
+        "answerId": [
+          67,
+          68,
+          70
+        ],
+        "answer": [
+          "A. Content descriptions",
+          "B. Clear labels",
+          "D. Semantic properties"
+        ],
         "explanation": "Content descriptions, clear labels, and semantic properties enhance accessibility, but large fonts are not directly related to autofill."
       }
     },
@@ -850,8 +950,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [72],
-        "answer": ["B. PostalAddress"],
+        "answerId": [
+          72
+        ],
+        "answer": [
+          "B. PostalAddress"
+        ],
         "explanation": "PostalAddress is the AutofillType for address input fields."
       }
     },
@@ -880,8 +984,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [75],
-        "answer": ["A. True"],
+        "answerId": [
+          75
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "AutofillNode can be associated with multiple AutofillTypes to support various input types."
       }
     },
@@ -924,8 +1032,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [78],
-        "answer": ["B. AutofillNode"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. AutofillNode"
+        ],
         "explanation": "AutofillNode notifies the autofill framework of changes to the field's value."
       }
     },
@@ -968,8 +1080,16 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [81, 82, 84],
-        "answer": ["A. Ensuring compatibility with autofill services", "B. Handling dynamic fields", "D. Maintaining user privacy"],
+        "answerId": [
+          81,
+          82,
+          84
+        ],
+        "answer": [
+          "A. Ensuring compatibility with autofill services",
+          "B. Handling dynamic fields",
+          "D. Maintaining user privacy"
+        ],
         "explanation": "Ensuring compatibility, handling dynamic fields, and maintaining privacy are challenges, but using custom fonts is unrelated."
       }
     },
@@ -1012,8 +1132,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [86],
-        "answer": ["B. Modifier.autofill"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Modifier.autofill"
+        ],
         "explanation": "Modifier.autofill links a composable to the autofill framework via an AutofillNode."
       }
     },
@@ -1042,8 +1166,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [89],
-        "answer": ["A. True"],
+        "answerId": [
+          89
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Autofill supports custom input fields in Compose when configured with AutofillNode and Modifier.autofill."
       }
     },
@@ -1086,8 +1214,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [92],
-        "answer": ["B. EmailAddress"],
+        "answerId": [
+          92
+        ],
+        "answer": [
+          "B. EmailAddress"
+        ],
         "explanation": "EmailAddress is the AutofillType for email input fields."
       }
     },
@@ -1130,8 +1262,16 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [95, 96, 98],
-        "answer": ["A. Use secure input fields", "B. Avoid storing sensitive data", "D. Obtain user consent"],
+        "answerId": [
+          95,
+          96,
+          98
+        ],
+        "answer": [
+          "A. Use secure input fields",
+          "B. Avoid storing sensitive data",
+          "D. Obtain user consent"
+        ],
         "explanation": "Using secure fields, avoiding sensitive data storage, and user consent are privacy best practices, but large fonts are unrelated."
       }
     },
@@ -1174,8 +1314,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [100],
-        "answer": ["B. AutofillTree"],
+        "answerId": [
+          100
+        ],
+        "answer": [
+          "B. AutofillTree"
+        ],
         "explanation": "AutofillTree manages the hierarchy of AutofillNodes in a Compose UI."
       }
     },
@@ -1204,8 +1348,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [104],
-        "answer": ["B. False"],
+        "answerId": [
+          104
+        ],
+        "answer": [
+          "B. False"
+        ],
         "explanation": "Autofill in Compose is managed automatically by the framework, not requiring manual lifecycle handling."
       }
     }

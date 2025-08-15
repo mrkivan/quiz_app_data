@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. ConstraintLayout"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. ConstraintLayout"
+        ],
         "explanation": "ConstraintLayout is the composable used to create layouts with constraints in Jetpack Compose."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. ConstraintSet"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. ConstraintSet"
+        ],
         "explanation": "ConstraintSet defines the constraints for composables within a ConstraintLayout."
       }
     },
@@ -114,8 +122,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [9],
-        "answer": ["A. True"],
+        "answerId": [
+          9
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Each composable in ConstraintLayout needs a unique ID to reference in constraints."
       }
     },
@@ -158,8 +170,16 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [11, 12, 14],
-        "answer": ["A. Barriers", "B. Guidelines", "D. Chains"],
+        "answerId": [
+          11,
+          12,
+          14
+        ],
+        "answer": [
+          "A. Barriers",
+          "B. Guidelines",
+          "D. Chains"
+        ],
         "explanation": "Barriers, guidelines, and chains are used in ConstraintLayout, but spacers are not supported."
       }
     },
@@ -202,8 +222,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [16],
-        "answer": ["B. Guideline"],
+        "answerId": [
+          16
+        ],
+        "answer": [
+          "B. Guideline"
+        ],
         "explanation": "Guideline creates a reference line for positioning composables in ConstraintLayout."
       }
     },
@@ -232,8 +256,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [19],
-        "answer": ["A. True"],
+        "answerId": [
+          19
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "ConstraintLayout supports both horizontal and vertical chains to arrange composables."
       }
     },
@@ -276,8 +304,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [22],
-        "answer": ["B. Barrier"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. Barrier"
+        ],
         "explanation": "Barrier adjusts its position based on the size or position of referenced composables."
       }
     },
@@ -320,8 +352,16 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [25, 26, 28],
-        "answer": ["A. Spread", "B. SpreadInside", "D. Packed"],
+        "answerId": [
+          25,
+          26,
+          28
+        ],
+        "answer": [
+          "A. Spread",
+          "B. SpreadInside",
+          "D. Packed"
+        ],
         "explanation": "Spread, SpreadInside, and Packed are chain styles, but Weighted is not supported in Compose."
       }
     },
@@ -364,8 +404,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [30],
-        "answer": ["B. Modifier.constrainAs"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Modifier.constrainAs"
+        ],
         "explanation": "Modifier.constrainAs applies constraints to a composable using a reference ID."
       }
     },
@@ -394,8 +438,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [33],
-        "answer": ["A. True"],
+        "answerId": [
+          33
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "ConstraintLayout in Compose supports circular constraints for radial positioning."
       }
     },
@@ -438,8 +486,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [36],
-        "answer": ["B. Chain"],
+        "answerId": [
+          36
+        ],
+        "answer": [
+          "B. Chain"
+        ],
         "explanation": "Chain groups composables for even spacing or specific arrangements in ConstraintLayout."
       }
     },
@@ -482,8 +534,16 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [39, 40, 42],
-        "answer": ["A. Start", "B. Top", "D. End"],
+        "answerId": [
+          39,
+          40,
+          42
+        ],
+        "answer": [
+          "A. Start",
+          "B. Top",
+          "D. End"
+        ],
         "explanation": "Start, Top, and End are valid constraint types, but Center is not a direct constraint in Compose."
       }
     },
@@ -526,8 +586,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [44],
-        "answer": ["B. Margin"],
+        "answerId": [
+          44
+        ],
+        "answer": [
+          "B. Margin"
+        ],
         "explanation": "Margin sets the spacing between a composable and its constraint target."
       }
     },
@@ -556,8 +620,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [47],
-        "answer": ["A. True"],
+        "answerId": [
+          47
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "ConstraintLayout supports dynamic constraints by updating ConstraintSet based on state."
       }
     },
@@ -600,8 +668,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [50],
-        "answer": ["B. Barrier"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Barrier"
+        ],
         "explanation": "Barrier creates a dynamic reference based on multiple composables' positions."
       }
     },
@@ -644,8 +716,16 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [53, 54, 56],
-        "answer": ["A. Content descriptions", "B. Semantic properties", "D. Clear navigation order"],
+        "answerId": [
+          53,
+          54,
+          56
+        ],
+        "answer": [
+          "A. Content descriptions",
+          "B. Semantic properties",
+          "D. Clear navigation order"
+        ],
         "explanation": "Content descriptions, semantic properties, and clear navigation improve accessibility, but chain styles do not."
       }
     },
@@ -688,8 +768,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [58],
-        "answer": ["B. Width and height"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Width and height"
+        ],
         "explanation": "Width and height in ConstraintSet control the size of a composable."
       }
     },
@@ -718,8 +802,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [61],
-        "answer": ["A. True"],
+        "answerId": [
+          61
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Guidelines can be positioned using a percentage of the layout's width or height."
       }
     },
@@ -762,8 +850,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [64],
-        "answer": ["B. Spread"],
+        "answerId": [
+          64
+        ],
+        "answer": [
+          "B. Spread"
+        ],
         "explanation": "Spread evenly distributes composables across the chain's length."
       }
     },
@@ -806,8 +898,16 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [67, 68, 70],
-        "answer": ["A. Use clear constraint definitions", "B. Minimize nesting", "D. Ensure accessibility"],
+        "answerId": [
+          67,
+          68,
+          70
+        ],
+        "answer": [
+          "A. Use clear constraint definitions",
+          "B. Minimize nesting",
+          "D. Ensure accessibility"
+        ],
         "explanation": "Clear constraints, minimal nesting, and accessibility improve ConstraintLayout usage, but large fonts are unrelated."
       }
     },
@@ -850,8 +950,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [72],
-        "answer": ["B. LinkTo"],
+        "answerId": [
+          72
+        ],
+        "answer": [
+          "B. LinkTo"
+        ],
         "explanation": "LinkTo aligns a composable to another using constraints like start, end, top, or bottom."
       }
     },
@@ -880,8 +984,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [75],
-        "answer": ["A. True"],
+        "answerId": [
+          75
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "ConstraintLayout supports aspect ratio constraints to maintain proportional dimensions."
       }
     },
@@ -924,8 +1032,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [78],
-        "answer": ["B. Packed"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Packed"
+        ],
         "explanation": "Packed groups composables tightly together in a chain."
       }
     },
@@ -968,8 +1080,16 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [81, 82, 84],
-        "answer": ["A. Minimize constraints", "B. Avoid deep nesting", "D. Optimize chain usage"],
+        "answerId": [
+          81,
+          82,
+          84
+        ],
+        "answer": [
+          "A. Minimize constraints",
+          "B. Avoid deep nesting",
+          "D. Optimize chain usage"
+        ],
         "explanation": "Minimizing constraints, avoiding nesting, and optimizing chains improve performance, but font size is unrelated."
       }
     },
@@ -1012,8 +1132,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [86],
-        "answer": ["B. Guideline"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Guideline"
+        ],
         "explanation": "Guideline defines a fixed reference line for constraints in ConstraintLayout."
       }
     },
@@ -1042,8 +1166,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [89],
-        "answer": ["A. True"],
+        "answerId": [
+          89
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "ConstraintLayout supports nested layouts, though minimizing nesting is recommended for performance."
       }
     },
@@ -1086,8 +1214,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [92],
-        "answer": ["B. SpreadInside"],
+        "answerId": [
+          92
+        ],
+        "answer": [
+          "B. SpreadInside"
+        ],
         "explanation": "SpreadInside places the first and last composables at the chain's edges with even spacing between others."
       }
     },
@@ -1130,8 +1262,16 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [95, 96, 98],
-        "answer": ["A. Fixed", "B. Percent", "D. WrapContent"],
+        "answerId": [
+          95,
+          96,
+          98
+        ],
+        "answer": [
+          "A. Fixed",
+          "B. Percent",
+          "D. WrapContent"
+        ],
         "explanation": "Fixed, Percent, and WrapContent are valid dimension constraints, but Auto is not supported in Compose."
       }
     },
@@ -1174,8 +1314,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [100],
-        "answer": ["B. Circular"],
+        "answerId": [
+          100
+        ],
+        "answer": [
+          "B. Circular"
+        ],
         "explanation": "Circular positions a composable radially relative to another with an angle and distance."
       }
     },
@@ -1204,8 +1348,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [103],
-        "answer": ["A. True"],
+        "answerId": [
+          103
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "ConstraintLayout is generally more performant than deeply nested Column and Row layouts due to its flat structure."
       }
     }

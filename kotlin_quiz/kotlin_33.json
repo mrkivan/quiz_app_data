@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. A declarative UI toolkit"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. A declarative UI toolkit"
+        ],
         "explanation": "Jetpack Compose is Android's modern toolkit for building native UI using a declarative approach."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. A function annotated with @Composable"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. A function annotated with @Composable"
+        ],
         "explanation": "A Composable is a Kotlin function annotated with @Composable that describes a part of the UI."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. @Composable"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. @Composable"
+        ],
         "explanation": "@Composable is required to mark a function as a Composable in Jetpack Compose."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. Text(\"Hello\")"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. Text(\"Hello\")"
+        ],
         "explanation": "Use Text(\"Hello\") to create a basic Text composable in Jetpack Compose."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. Button"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. Button"
+        ],
         "explanation": "Button is used to create a clickable button in Jetpack Compose."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. Use remember { mutableStateOf(value) }"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. Use remember { mutableStateOf(value) }"
+        ],
         "explanation": "Use remember { mutableStateOf(value) } to manage state in Jetpack Compose."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. Column"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. Column"
+        ],
         "explanation": "Column is used to arrange UI elements vertically in Jetpack Compose."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. Row"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Row"
+        ],
         "explanation": "Row is used to arrange UI elements horizontally in Jetpack Compose."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Box"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Box"
+        ],
         "explanation": "Box is used to stack UI elements on top of each other in Jetpack Compose."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. clickable { }"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. clickable { }"
+        ],
         "explanation": "Use the clickable modifier to make a composable clickable in Jetpack Compose."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. setContent { }"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. setContent { }"
+        ],
         "explanation": "setContent is used to define the composable content for an Activity."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. padding()"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. padding()"
+        ],
         "explanation": "Use the padding modifier to add padding to a composable."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. TextField"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. TextField"
+        ],
         "explanation": "TextField is used to create a text input field in Jetpack Compose."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. viewModel() and collectAsState()"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. viewModel() and collectAsState()"
+        ],
         "explanation": "Use viewModel() and collectAsState() to observe ViewModel state in Jetpack Compose."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. LazyColumn"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. LazyColumn"
+        ],
         "explanation": "LazyColumn is used to display a scrollable vertical list in Jetpack Compose."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. LazyRow"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. LazyRow"
+        ],
         "explanation": "LazyRow is used to display a scrollable horizontal list in Jetpack Compose."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. MaterialTheme"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. MaterialTheme"
+        ],
         "explanation": "Use MaterialTheme to apply a theme to composables in Jetpack Compose."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. size()"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. size()"
+        ],
         "explanation": "Use the size modifier to set the width and height of a composable."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Image"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Image"
+        ],
         "explanation": "Use the Image composable to display an image in Jetpack Compose."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. BottomNavigation"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. BottomNavigation"
+        ],
         "explanation": "BottomNavigation is used to create a bottom navigation bar in Jetpack Compose."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. NavHost and NavController"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. NavHost and NavController"
+        ],
         "explanation": "Use NavHost and NavController to handle navigation in Jetpack Compose."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. align()"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. align()"
+        ],
         "explanation": "Use the align modifier within a Box to align a composable."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. MaterialTheme with custom colors, typography, shapes"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. MaterialTheme with custom colors, typography, shapes"
+        ],
         "explanation": "Use MaterialTheme with custom colors, typography, and shapes to create a custom theme."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. CircularProgressIndicator"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. CircularProgressIndicator"
+        ],
         "explanation": "CircularProgressIndicator is used to display a circular progress indicator in Jetpack Compose."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. LaunchedEffect or SideEffect"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. LaunchedEffect or SideEffect"
+        ],
         "explanation": "Use LaunchedEffect or SideEffect to handle side effects in Jetpack Compose."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. TopAppBar"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. TopAppBar"
+        ],
         "explanation": "TopAppBar is used to create a top app bar in Jetpack Compose."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. fillMaxWidth()"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. fillMaxWidth()"
+        ],
         "explanation": "Use fillMaxWidth() to make a composable fill the maximum available width."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Card"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Card"
+        ],
         "explanation": "Card is used to create a card layout with elevation and rounded corners in Jetpack Compose."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. AnimatedVisibility or animateFloatAsState"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. AnimatedVisibility or animateFloatAsState"
+        ],
         "explanation": "Use AnimatedVisibility or animateFloatAsState for animations in Jetpack Compose."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. FloatingActionButton"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. FloatingActionButton"
+        ],
         "explanation": "FloatingActionButton is used to create a floating action button in Jetpack Compose."
       }
     }

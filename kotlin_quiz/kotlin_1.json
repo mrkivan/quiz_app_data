@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. var"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. var"
+        ],
         "explanation": "In Kotlin, 'var' is used to declare a mutable variable that can be reassigned, while 'val' is used for immutable variables."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. const val"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. const val"
+        ],
         "explanation": "The 'const val' keyword is used to declare compile-time constants in Kotlin, typically used for top-level or object properties."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [11],
-        "answer": ["C. public"],
+        "answerId": [
+          11
+        ],
+        "answer": [
+          "C. public"
+        ],
         "explanation": "In Kotlin, the default visibility modifier is 'public' if none is specified."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. val"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. val"
+        ],
         "explanation": "The 'val' keyword is used to declare a read-only (immutable) variable in Kotlin, which cannot be reassigned after initialization."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. var name: String"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. var name: String"
+        ],
         "explanation": "In Kotlin, a String variable is declared using 'var' or 'val' followed by the variable name and ': String', like 'var name: String'."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. userName"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. userName"
+        ],
         "explanation": "Kotlin variable names must start with a letter or underscore and can include letters, digits, or underscores. 'userName' is valid."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [27],
-        "answer": ["C. Must be initialized"],
+        "answerId": [
+          27
+        ],
+        "answer": [
+          "C. Must be initialized"
+        ],
         "explanation": "In Kotlin, non-nullable variables must be initialized at declaration, or the code won't compile."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. var name: String?"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. var name: String?"
+        ],
         "explanation": "To declare a nullable variable in Kotlin, append '?' to the type, e.g., 'String?'."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Int"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Int"
+        ],
         "explanation": "In Kotlin, 'Int' is the primary type for whole numbers (32-bit integers)."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. val name = \"John\""],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. val name = \"John\""
+        ],
         "explanation": "Kotlin supports type inference, so you can omit the type when initializing, e.g., 'val name = \"John\"'."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. +"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. +"
+        ],
         "explanation": "In Kotlin, the '+' operator is used for string concatenation."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. To delay variable initialization"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. To delay variable initialization"
+        ],
         "explanation": "'lateinit' is used with 'var' to delay initialization of non-null variables, typically in classes."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. Double"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Double"
+        ],
         "explanation": "In Kotlin, 'Double' is a 64-bit floating-point type."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. var age: Int"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. var age: Int"
+        ],
         "explanation": "To declare a variable with an explicit type, use 'var' or 'val' followed by the variable name and ': Type', e.g., 'var age: Int'."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. Compilation error"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Compilation error"
+        ],
         "explanation": "Using 'val' declares an immutable variable, so reassigning 'x' will cause a compilation error."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. var"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. var"
+        ],
         "explanation": "Top-level variables in Kotlin are declared using 'var' or 'val' outside of any class or function."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. Int"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. Int"
+        ],
         "explanation": "In Kotlin, an integer literal like 42 is inferred as an 'Int' by default."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [69],
-        "answer": ["A. 42L"],
+        "answerId": [
+          69
+        ],
+        "answer": [
+          "A. 42L"
+        ],
         "explanation": "To specify a Long literal in Kotlin, append 'L' to the number, e.g., '42L'."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Throws UninitializedPropertyAccessException"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Throws UninitializedPropertyAccessException"
+        ],
         "explanation": "Accessing an uninitialized 'lateinit' variable throws an UninitializedPropertyAccessException."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. val flag: Boolean = true"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. val flag: Boolean = true"
+        ],
         "explanation": "A Boolean in Kotlin can be declared as 'val flag: Boolean = true'."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. // Comment"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. // Comment"
+        ],
         "explanation": "In Kotlin, single-line comments start with '//'."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. /* Comment */"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. /* Comment */"
+        ],
         "explanation": "Multi-line comments in Kotlin use '/* */'."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. 3.14F"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. 3.14F"
+        ],
         "explanation": "A Float literal in Kotlin is specified by appending 'F' or 'f', e.g., '3.14F'."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Visible within the same module"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Visible within the same module"
+        ],
         "explanation": "'internal' makes a declaration visible only within the same module in Kotlin."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Double"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Double"
+        ],
         "explanation": "In Kotlin, a decimal literal like 3.14 is inferred as a 'Double' by default."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. var count: Int = 0"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. var count: Int = 0"
+        ],
         "explanation": "In Kotlin, you can assign a default value directly, e.g., 'var count: Int = 0'."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. CharArray"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. CharArray"
+        ],
         "explanation": "'CharArray' is not a primitive type in Kotlin; it is an array type, while others are basic types."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. 'A'"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. 'A'"
+        ],
         "explanation": "A character literal in Kotlin is declared using single quotes, e.g., 'A'."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. private"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. private"
+        ],
         "explanation": "The 'private' modifier restricts access to the enclosing class only."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. To check if a variable is initialized"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. To check if a variable is initialized"
+        ],
         "explanation": "'isInitialized' checks if a 'lateinit' variable has been initialized to avoid accessing uninitialized variables."
       }
     }

@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. NotificationCompat.Builder"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. NotificationCompat.Builder"
+        ],
         "explanation": "NotificationCompat.Builder is used to create notifications in a backward-compatible way."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. NotificationManager"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. NotificationManager"
+        ],
         "explanation": "NotificationManager is responsible for displaying and managing notifications."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. A category for notifications"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. A category for notifications"
+        ],
         "explanation": "A Notification Channel categorizes notifications, allowing users to control their settings."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. Create NotificationChannel and register with NotificationManager"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. Create NotificationChannel and register with NotificationManager"
+        ],
         "explanation": "Create a NotificationChannel instance and register it with NotificationManager."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. notify()"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. notify()"
+        ],
         "explanation": "notify() is used to display a notification with a unique ID."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. Defines an action for user interaction"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. Defines an action for user interaction"
+        ],
         "explanation": "A PendingIntent defines an action to be performed when the user interacts with the notification."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. setContentTitle()"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. setContentTitle()"
+        ],
         "explanation": "Use setContentTitle() on NotificationCompat.Builder to set the notification title."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. setContentText()"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. setContentText()"
+        ],
         "explanation": "setContentText() sets the body text of the notification."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. setAutoCancel(true)"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. setAutoCancel(true)"
+        ],
         "explanation": "Use setAutoCancel(true) to allow the user to dismiss the notification."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. Sets the status bar icon"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. Sets the status bar icon"
+        ],
         "explanation": "setSmallIcon() sets the icon displayed in the status bar and notification."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. addAction()"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. addAction()"
+        ],
         "explanation": "Use addAction() with an icon, title, and PendingIntent to add an action button."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. NotificationCompat.BigTextStyle"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. NotificationCompat.BigTextStyle"
+        ],
         "explanation": "NotificationCompat.BigTextStyle is used to create a notification with expanded text content."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. setPriority()"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. setPriority()"
+        ],
         "explanation": "Use setPriority() to set the notification's priority level."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Sets the click action"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. Sets the click action"
+        ],
         "explanation": "setContentIntent() sets the PendingIntent triggered when the notification is clicked."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. cancel(id)"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. cancel(id)"
+        ],
         "explanation": "Use NotificationManager.cancel(id) to cancel a notification by its ID."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. setSound()"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. setSound()"
+        ],
         "explanation": "Use setSound() on NotificationCompat.Builder to set a custom sound for the notification."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. setLargeIcon()"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. setLargeIcon()"
+        ],
         "explanation": "setLargeIcon() sets a larger image displayed in the notification."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. NotificationCompat.InboxStyle"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. NotificationCompat.InboxStyle"
+        ],
         "explanation": "Use NotificationCompat.InboxStyle to create an expandable notification with multiple lines."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Makes the notification persistent"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Makes the notification persistent"
+        ],
         "explanation": "setOngoing(true) makes the notification persistent, preventing user dismissal."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. setVibrate()"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. setVibrate()"
+        ],
         "explanation": "Use setVibrate() with a long array to set a vibration pattern."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. POST_NOTIFICATIONS for Android 13+"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. POST_NOTIFICATIONS for Android 13+"
+        ],
         "explanation": "No specific permission is required for notifications, but POST_NOTIFICATIONS is needed for Android 13+."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. setGroup()"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. setGroup()"
+        ],
         "explanation": "Use setGroup() to assign notifications to a group and create a summary notification."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. Marks a notification as a group summary"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. Marks a notification as a group summary"
+        ],
         "explanation": "setGroupSummary(true) marks a notification as the summary for a group of notifications."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. setVisibility()"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. setVisibility()"
+        ],
         "explanation": "Use setVisibility() to control the notification's visibility on the lock screen."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. setCategory()"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. setCategory()"
+        ],
         "explanation": "setCategory() assigns a predefined category to the notification for system optimizations."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. setProgress()"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. setProgress()"
+        ],
         "explanation": "Use setProgress() to add a progress bar to the notification."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Sets default sound, vibration, and lights"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Sets default sound, vibration, and lights"
+        ],
         "explanation": "setDefaults() sets default notification behaviors like sound, vibration, and lights."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Use same ID with notify()"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Use same ID with notify()"
+        ],
         "explanation": "Use the same notification ID with notify() to update an existing notification."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. NotificationCompat.BigPictureStyle"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. NotificationCompat.BigPictureStyle"
+        ],
         "explanation": "Use NotificationCompat.BigPictureStyle to create a notification with a large image."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. areNotificationsEnabled()"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. areNotificationsEnabled()"
+        ],
         "explanation": "Use NotificationManager.areNotificationsEnabled() or check the channel's importance."
       }
     }

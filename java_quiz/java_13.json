@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. Enhance encapsulation"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Enhance encapsulation"
+        ],
         "explanation": "The Java Module System, introduced in Java 9, aims to provide better encapsulation and modularization of code by defining module boundaries and dependencies."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. module-info.java"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. module-info.java"
+        ],
         "explanation": "The module-info.java file defines a Java module, specifying its name, dependencies, and exported packages."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. module"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. module"
+        ],
         "explanation": "The 'module' keyword is used to declare a module in the module-info.java file, followed by the module name and its directives."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. requires"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. requires"
+        ],
         "explanation": "The 'requires' directive in module-info.java specifies that a module depends on another module."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. Exposes packages"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. Exposes packages"
+        ],
         "explanation": "The 'exports' directive makes a module's package accessible to other modules, allowing their public types to be used."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. Project Jigsaw"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. Project Jigsaw"
+        ],
         "explanation": "The Java Platform Module System (JPMS), also known as Project Jigsaw, is the module system introduced in Java 9."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. Allows reflection"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. Allows reflection"
+        ],
         "explanation": "The 'opens' directive allows reflective access to a module's package at runtime, typically for frameworks like Spring."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. provides"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. provides"
+        ],
         "explanation": "The 'provides' directive specifies that a module provides an implementation of a service interface."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Private"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Private"
+        ],
         "explanation": "Packages in a Java module are private by default and not accessible to other modules unless explicitly exported."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. uses"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. uses"
+        ],
         "explanation": "The 'uses' directive specifies that a module consumes a service interface, enabling service lookup via ServiceLoader."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. Improved maintainability"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. Improved maintainability"
+        ],
         "explanation": "The Java Module System improves maintainability by enforcing clear boundaries and dependencies between modules."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. JAR without module-info.java"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. JAR without module-info.java"
+        ],
         "explanation": "An automatic module is a JAR file without a module-info.java file, automatically assigned a module name based on its filename."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. jar"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. jar"
+        ],
         "explanation": "The 'jar' tool with the '--module-path' option is used to create a modular JAR file containing a module-info.class."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Implies dependencies"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. Implies dependencies"
+        ],
         "explanation": "The 'transitive' modifier in a 'requires' directive implies that dependent modules also require the specified module."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. jlink"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. jlink"
+        ],
         "explanation": "The 'jlink' tool creates a custom runtime image by linking a set of modules and their dependencies."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Restricts access"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Restricts access"
+        ],
         "explanation": "The 'to' clause in an 'exports' directive restricts package access to specific modules, enhancing encapsulation."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. Compilation error"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. Compilation error"
+        ],
         "explanation": "A compilation error occurs if a module tries to access a non-exported package, enforcing strong encapsulation."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. java.base"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. java.base"
+        ],
         "explanation": "The java.base module contains the core Java API classes, such as those in the java.lang package."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Package modules"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Package modules"
+        ],
         "explanation": "The 'jmod' tool is used to create and manipulate JMOD files, which are used for packaging modules."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Module path"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Module path"
+        ],
         "explanation": "The module path replaces the classpath in the Java Module System, specifying the location of module artifacts."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. --module-path"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. --module-path"
+        ],
         "explanation": "The '--module-path' option specifies the module path for locating module artifacts when running a Java application."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Module with module-info.java"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Module with module-info.java"
+        ],
         "explanation": "A named module is a module explicitly defined with a module-info.java file, specifying its name and directives."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. java.base"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. java.base"
+        ],
         "explanation": "The java.base module contains the Java Collections Framework, including classes like List and Map."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Restricts non-exported access"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Restricts non-exported access"
+        ],
         "explanation": "Strong encapsulation restricts access to non-exported packages, enforcing module boundaries at compile-time and runtime."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Load services"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Load services"
+        ],
         "explanation": "The ServiceLoader class is used to discover and load service implementations declared in modules via 'provides' and 'uses' directives."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. --module"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. --module"
+        ],
         "explanation": "The '--module' or '-m' option specifies the main module and class to run a modular Java application."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Exports packages at runtime"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Exports packages at runtime"
+        ],
         "explanation": "The '--add-exports' option allows a module to export a package at runtime, bypassing module restrictions."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. java.logging"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. java.logging"
+        ],
         "explanation": "The java.logging module contains Java's logging API, including classes like Logger."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Allows reflection at runtime"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Allows reflection at runtime"
+        ],
         "explanation": "The '--add-opens' option allows reflective access to a module's package at runtime, bypassing encapsulation."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Smaller runtime image"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Smaller runtime image"
+        ],
         "explanation": "Using 'jlink' creates a smaller runtime image by including only the required modules, reducing the application footprint."
       }
     }

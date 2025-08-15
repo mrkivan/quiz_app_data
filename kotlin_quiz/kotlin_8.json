@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. Restricts subclasses to a defined set"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Restricts subclasses to a defined set"
+        ],
         "explanation": "A sealed class restricts its subclasses to a defined set within the same file, useful for representing restricted hierarchies."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. sealed class Expr"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. sealed class Expr"
+        ],
         "explanation": "A sealed class is defined using the 'sealed' keyword before 'class', e.g., 'sealed class Expr'."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. In the same file"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. In the same file"
+        ],
         "explanation": "Subclasses of a sealed class must be defined in the same file as the sealed class."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. Ensures exhaustive handling"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. Ensures exhaustive handling"
+        ],
         "explanation": "A sealed class ensures exhaustive handling of all subclasses in a 'when' expression without requiring an 'else' branch."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. No"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. No"
+        ],
         "explanation": "A sealed class cannot be instantiated directly; only its subclasses can be instantiated."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. enum"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. enum"
+        ],
         "explanation": "The 'enum' keyword is used to define an enum class in Kotlin, e.g., 'enum class Color'."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. enum class Color { RED, GREEN }"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. enum class Color { RED, GREEN }"
+        ],
         "explanation": "An enum class is defined using 'enum class', e.g., 'enum class Color { RED, GREEN }'."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. Yes"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "Enum classes can have properties, which are defined in the enum entries, e.g., 'enum class Color(val rgb: Int)'."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Yes"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "Enum classes can have methods, which can be defined in the class body or as abstract methods implemented by each entry."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. Ensures exhaustive handling"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. Ensures exhaustive handling"
+        ],
         "explanation": "The 'when' expression with enum classes ensures all enum entries are handled exhaustively, improving type safety."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. Yes"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "A sealed class can have abstract methods, which must be implemented by its subclasses."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. Yes"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "An enum class can implement interfaces, providing implementations for interface methods in the class body or entries."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. Enum"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Enum"
+        ],
         "explanation": "A Kotlin enum class implicitly extends the 'Enum' class."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Yes"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "A sealed class can inherit from another sealed class, as long as the parent is in the same file or accessible."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. EnumClass.values()"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. EnumClass.values()"
+        ],
         "explanation": "Enum entries can be accessed using 'EnumClass.values()' or directly by their names, e.g., 'Color.RED'."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Compilation error"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Compilation error"
+        ],
         "explanation": "A 'when' expression on a sealed class requires all subclasses to be handled, or it results in a compilation error."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. No"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. No"
+        ],
         "explanation": "Enum classes cannot inherit from other classes, as they implicitly extend 'Enum'."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. Color.RED.name"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. Color.RED.name"
+        ],
         "explanation": "The name of an enum entry is accessed using the 'name' property, e.g., 'Color.RED.name'."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Color.RED.ordinal"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Color.RED.ordinal"
+        ],
         "explanation": "The ordinal of an enum entry is accessed using the 'ordinal' property, e.g., 'Color.RED.ordinal'."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Yes"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "A sealed class can have a companion object to define static-like members."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Yes"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "An enum class can have a companion object to define static-like members."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Compilation error"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Compilation error"
+        ],
         "explanation": "A 'when' expression on an enum class requires all entries to be handled, or it results in a compilation error."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. Yes"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "A sealed class can implement interfaces, just like regular classes."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. enum class Color(val rgb: Int) { RED(0xFF0000) }"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. enum class Color(val rgb: Int) { RED(0xFF0000) }"
+        ],
         "explanation": "Properties in an enum class are defined in the constructor, e.g., 'enum class Color(val rgb: Int) { RED(0xFF0000) }'."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Yes"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "A sealed class can be a data class, combining restricted inheritance with data class features."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. No"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. No"
+        ],
         "explanation": "An enum class cannot be a data class, as they serve different purposes and have conflicting characteristics."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. abstract fun method()"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. abstract fun method()"
+        ],
         "explanation": "An abstract method in an enum class is defined using 'abstract', and each entry must provide an implementation, e.g., 'abstract fun method()'."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Allows state and multiple instances"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Allows state and multiple instances"
+        ],
         "explanation": "Sealed classes allow subclasses to hold state and have multiple instances, unlike enum classes which are limited to predefined constants."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Yes"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Yes"
+        ],
         "explanation": "A sealed class can have a primary constructor, just like regular classes."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Color.valueOf(\"RED\")"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Color.valueOf(\"RED\")"
+        ],
         "explanation": "A string can be converted to an enum entry using 'EnumClass.valueOf(string)', e.g., 'Color.valueOf(\"RED\")'."
       }
     }

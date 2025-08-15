@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. To customize composable appearance and behavior"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. To customize composable appearance and behavior"
+        ],
         "explanation": "Modifiers customize the appearance and behavior of composables, such as setting size, padding, or click events."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. Column"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. Column"
+        ],
         "explanation": "Column arranges its children vertically, stacking them from top to bottom."
       }
     },
@@ -114,8 +122,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [9],
-        "answer": ["A. True"],
+        "answerId": [
+          9
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Modifiers are applied sequentially, so the order matters (e.g., padding before background affects the background’s area)."
       }
     },
@@ -158,8 +170,16 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [11, 12, 14],
-        "answer": ["A. Modifier.size", "B. Modifier.width", "D. Modifier.height"],
+        "answerId": [
+          11,
+          12,
+          14
+        ],
+        "answer": [
+          "A. Modifier.size",
+          "B. Modifier.width",
+          "D. Modifier.height"
+        ],
         "explanation": "Modifiers like size, width, and height adjust a composable’s dimensions, but clickable is for interaction."
       }
     },
@@ -202,8 +222,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [16],
-        "answer": ["B. Box"],
+        "answerId": [
+          16
+        ],
+        "answer": [
+          "B. Box"
+        ],
         "explanation": "Box stacks its children on top of each other, with the last child appearing on top."
       }
     },
@@ -232,8 +256,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [20],
-        "answer": ["B. False"],
+        "answerId": [
+          20
+        ],
+        "answer": [
+          "B. False"
+        ],
         "explanation": "Padding increases space around content but does not affect the clickable area unless combined with modifiers like clickable."
       }
     },
@@ -276,8 +304,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [22],
-        "answer": ["B. Modifier.fillMaxWidth"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. Modifier.fillMaxWidth"
+        ],
         "explanation": "fillMaxWidth makes a composable occupy the full available width of its parent."
       }
     },
@@ -320,8 +352,16 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [25, 26, 28],
-        "answer": ["A. Column", "B. Row", "D. Box"],
+        "answerId": [
+          25,
+          26,
+          28
+        ],
+        "answer": [
+          "A. Column",
+          "B. Row",
+          "D. Box"
+        ],
         "explanation": "Column, Row, and Box are layout composables for arranging children, while Text displays content."
       }
     },
@@ -364,8 +404,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [30],
-        "answer": ["B. Modifier.clickable"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Modifier.clickable"
+        ],
         "explanation": "The clickable Modifier adds click event handling to a composable."
       }
     },
@@ -394,8 +438,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [33],
-        "answer": ["A. True"],
+        "answerId": [
+          33
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Modifier.clip with a shape like RoundedCornerShape can clip a composable to create rounded corners."
       }
     },
@@ -438,8 +486,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [36],
-        "answer": ["B. LazyColumn"],
+        "answerId": [
+          36
+        ],
+        "answer": [
+          "B. LazyColumn"
+        ],
         "explanation": "LazyColumn creates efficient, scrollable lists by composing only visible items."
       }
     },
@@ -482,8 +534,16 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [39, 40, 42],
-        "answer": ["A. Modifier.background", "B. Modifier.clip", "D. Modifier.shadow"],
+        "answerId": [
+          39,
+          40,
+          42
+        ],
+        "answer": [
+          "A. Modifier.background",
+          "B. Modifier.clip",
+          "D. Modifier.shadow"
+        ],
         "explanation": "Modifiers like background, clip, and shadow apply visual effects, while size affects dimensions."
       }
     },
@@ -526,8 +586,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [44],
-        "answer": ["B. Aligns the composable within the Box"],
+        "answerId": [
+          44
+        ],
+        "answer": [
+          "B. Aligns the composable within the Box"
+        ],
         "explanation": "Modifier.align sets the alignment of a composable within a Box’s bounds."
       }
     },
@@ -556,8 +620,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [47],
-        "answer": ["A. True"],
+        "answerId": [
+          47
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "fillMaxSize makes a composable occupy the entire available width and height of its parent."
       }
     },
@@ -600,8 +668,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [50],
-        "answer": ["B. LazyRow"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. LazyRow"
+        ],
         "explanation": "LazyRow creates efficient, horizontally scrollable lists by composing only visible items."
       }
     },
@@ -644,8 +716,16 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [53, 54, 56],
-        "answer": ["A. Modifier.offset", "B. Modifier.padding", "D. Modifier.size"],
+        "answerId": [
+          53,
+          54,
+          56
+        ],
+        "answer": [
+          "A. Modifier.offset",
+          "B. Modifier.padding",
+          "D. Modifier.size"
+        ],
         "explanation": "Modifiers like offset, padding, and size affect layout, while clickable handles interaction."
       }
     },
@@ -688,8 +768,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [58],
-        "answer": ["B. Assigns proportional size"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Assigns proportional size"
+        ],
         "explanation": "Modifier.weight assigns a proportional size to a composable relative to others in a Row or Column."
       }
     },
@@ -718,8 +802,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [62],
-        "answer": ["B. False"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. False"
+        ],
         "explanation": "Modifier.padding does not accept negative values, as it’s meant to add space, not reduce it."
       }
     },
@@ -762,8 +850,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [64],
-        "answer": ["B. Modifier.background"],
+        "answerId": [
+          64
+        ],
+        "answer": [
+          "B. Modifier.background"
+        ],
         "explanation": "The background Modifier sets the background color or brush for a composable."
       }
     },
@@ -806,8 +898,14 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [67, 69],
-        "answer": ["A. LazyColumn", "C. LazyRow"],
+        "answerId": [
+          67,
+          69
+        ],
+        "answer": [
+          "A. LazyColumn",
+          "C. LazyRow"
+        ],
         "explanation": "LazyColumn and LazyRow use lazy loading to compose only visible items, while Column and Row compose all items."
       }
     },
@@ -850,8 +948,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [72],
-        "answer": ["B. Modifier.rotate"],
+        "answerId": [
+          72
+        ],
+        "answer": [
+          "B. Modifier.rotate"
+        ],
         "explanation": "The rotate Modifier rotates a composable by a specified angle in degrees."
       }
     },
@@ -880,8 +982,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [75],
-        "answer": ["A. True"],
+        "answerId": [
+          75
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Modifier.zIndex sets the stacking order in a Box, with higher values appearing on top."
       }
     },
@@ -924,8 +1030,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [78],
-        "answer": ["B. Surface"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Surface"
+        ],
         "explanation": "Surface provides a container with Material Design styling, such as background color, elevation, and shape."
       }
     },
@@ -968,8 +1078,14 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [81, 83],
-        "answer": ["A. Modifier.clickable", "C. Modifier.scrollable"],
+        "answerId": [
+          81,
+          83
+        ],
+        "answer": [
+          "A. Modifier.clickable",
+          "C. Modifier.scrollable"
+        ],
         "explanation": "Modifiers like clickable and scrollable handle user interactions, while size and background do not."
       }
     },
@@ -1012,8 +1128,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [86],
-        "answer": ["B. Scales the composable’s size"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Scales the composable’s size"
+        ],
         "explanation": "Modifier.scale adjusts the size of a composable by scaling it horizontally and/or vertically."
       }
     },
@@ -1042,8 +1162,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [89],
-        "answer": ["A. True"],
+        "answerId": [
+          89
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Modifier.weight in a Row distributes available horizontal space proportionally among children."
       }
     },
@@ -1086,8 +1210,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [92],
-        "answer": ["B. Modifier.shadow"],
+        "answerId": [
+          92
+        ],
+        "answer": [
+          "B. Modifier.shadow"
+        ],
         "explanation": "The shadow Modifier adds a shadow effect, often used with elevation for Material Design styling."
       }
     },
@@ -1130,8 +1258,14 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [95, 97],
-        "answer": ["A. Card", "C. ElevatedButton"],
+        "answerId": [
+          95,
+          97
+        ],
+        "answer": [
+          "A. Card",
+          "C. ElevatedButton"
+        ],
         "explanation": "Card and ElevatedButton are Material Design components, while Box and LazyColumn are layout composables."
       }
     },
@@ -1174,8 +1308,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [100],
-        "answer": ["B. Shifts the composable’s position"],
+        "answerId": [
+          100
+        ],
+        "answer": [
+          "B. Shifts the composable’s position"
+        ],
         "explanation": "Modifier.offset shifts a composable’s position by a specified amount without affecting layout measurements."
       }
     },
@@ -1204,8 +1342,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [103],
-        "answer": ["A. True"],
+        "answerId": [
+          103
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Modifier.align in a Column aligns children horizontally (e.g., start, center, end), not vertically."
       }
     }

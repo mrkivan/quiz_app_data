@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. Provide metadata about code"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Provide metadata about code"
+        ],
         "explanation": "Annotations in Java provide metadata about code, used by compilers, tools, or at runtime to process code or configure behavior."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. @Override"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. @Override"
+        ],
         "explanation": "The '@Override' annotation indicates that a method overrides a method in a superclass or interface, helping catch errors at compile time."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. @Deprecated"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. @Deprecated"
+        ],
         "explanation": "The '@Deprecated' annotation indicates that a program element is outdated and may be removed in future versions."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. @SuppressWarnings"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. @SuppressWarnings"
+        ],
         "explanation": "The '@SuppressWarnings' annotation suppresses specific compiler warnings, such as 'unchecked' or 'deprecation'."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. @FunctionalInterface"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. @FunctionalInterface"
+        ],
         "explanation": "The '@FunctionalInterface' annotation marks an interface as a functional interface, ensuring it has exactly one abstract method."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. @Retention"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. @Retention"
+        ],
         "explanation": "The '@Retention' annotation specifies the retention policy of an annotation, such as SOURCE, CLASS, or RUNTIME."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. @Target"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. @Target"
+        ],
         "explanation": "The '@Target' annotation restricts the types of program elements (e.g., METHOD, FIELD, TYPE) an annotation can be applied to."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. @Documented"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. @Documented"
+        ],
         "explanation": "The '@Documented' annotation indicates that an annotation should be included in the Javadoc of the annotated element."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. @Inherited"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. @Inherited"
+        ],
         "explanation": "The '@Inherited' annotation allows annotations on a superclass to be inherited by its subclasses."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. SOURCE"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. SOURCE"
+        ],
         "explanation": "The 'SOURCE' retention policy means the annotation is retained only in the source code and discarded during compilation."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. RUNTIME"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. RUNTIME"
+        ],
         "explanation": "The 'RUNTIME' retention policy allows annotations to be available at runtime via reflection."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. CLASS"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. CLASS"
+        ],
         "explanation": "The 'CLASS' retention policy is the default, meaning annotations are recorded in the class file but not necessarily available at runtime."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. java.lang.annotation"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. java.lang.annotation"
+        ],
         "explanation": "The 'java.lang.annotation' package contains core annotation types like '@Retention', '@Target', '@Documented', and '@Inherited'."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. @SafeVarargs"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. @SafeVarargs"
+        ],
         "explanation": "The '@SafeVarargs' annotation indicates that a method with a varargs parameter does not perform unsafe operations, preventing heap pollution warnings."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. Must be defined or provided"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Must be defined or provided"
+        ],
         "explanation": "Annotation elements must have a default value defined using the 'default' keyword, or they must be explicitly provided when the annotation is used."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. java.lang.annotation.Annotation"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. java.lang.annotation.Annotation"
+        ],
         "explanation": "All annotations implicitly extend the 'java.lang.annotation.Annotation' interface."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. Spring"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. Spring"
+        ],
         "explanation": "Spring uses annotations like '@Autowired', '@Component', and '@Service' for dependency injection and bean configuration."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. @Entity"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. @Entity"
+        ],
         "explanation": "The '@Entity' annotation in Hibernate marks a class as a persistent entity mapped to a database table."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. @Test"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. @Test"
+        ],
         "explanation": "The '@Test' annotation in JUnit marks a method as a test case to be executed by the test runner."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. @Controller"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. @Controller"
+        ],
         "explanation": "The '@Controller' annotation in Spring marks a class as a web controller, handling HTTP requests."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. @RequestParam"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. @RequestParam"
+        ],
         "explanation": "The '@RequestParam' annotation in Spring binds a web request parameter to a method parameter."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. @Id"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. @Id"
+        ],
         "explanation": "The '@Id' annotation in Hibernate marks a field as the primary key of an entity."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. @BeforeEach"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. @BeforeEach"
+        ],
         "explanation": "The '@BeforeEach' annotation in JUnit 5 (or '@Before' in JUnit 4) marks a method to run before each test method."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. @Service"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. @Service"
+        ],
         "explanation": "The '@Service' annotation in Spring marks a class as a service component, typically holding business logic."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. @Repository"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. @Repository"
+        ],
         "explanation": "The '@Repository' annotation in Spring marks a class as a repository, typically for database access and operations."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. @Column"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. @Column"
+        ],
         "explanation": "The '@Column' annotation in Hibernate maps a class field to a specific column in a database table."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. @AfterEach"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. @AfterEach"
+        ],
         "explanation": "The '@AfterEach' annotation in JUnit 5 (or '@After' in JUnit 4) marks a method to run after each test method."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. @Autowired"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. @Autowired"
+        ],
         "explanation": "The '@Autowired' annotation in Spring is used to automatically inject dependencies into fields, constructors, or methods."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. @Table"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. @Table"
+        ],
         "explanation": "The '@Table' annotation in Hibernate specifies the database table to which an entity class is mapped."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. @BeforeAll"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. @BeforeAll"
+        ],
         "explanation": "The '@BeforeAll' annotation in JUnit 5 (or '@BeforeClass' in JUnit 4) marks a method to run once before all test methods in a class."
       }
     }

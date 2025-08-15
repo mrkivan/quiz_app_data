@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. Collection"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Collection"
+        ],
         "explanation": "The Collection interface is the root interface of the Java Collections Framework, extended by interfaces like List, Set, and Queue."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. ArrayList"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. ArrayList"
+        ],
         "explanation": "ArrayList allows duplicate elements and maintains the order of insertion, making it a popular choice for ordered collections."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [12],
-        "answer": ["D. Map"],
+        "answerId": [
+          12
+        ],
+        "answer": [
+          "D. Map"
+        ],
         "explanation": "The Map interface does not extend the Collection interface; it is a separate part of the Java Collections Framework for key-value pairs."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. Vector"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. Vector"
+        ],
         "explanation": "Vector is a legacy collection class that is synchronized by default, making it thread-safe but slower than ArrayList."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. O(1)"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. O(1)"
+        ],
         "explanation": "ArrayList provides constant-time access (O(1)) for retrieving elements by index due to its underlying array structure."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. Stack"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. Stack"
+        ],
         "explanation": "Stack is a LIFO data structure, extending Vector, and is designed for last-in-first-out operations."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. Set"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. Set"
+        ],
         "explanation": "The Set interface represents a collection that does not allow duplicate elements, unlike List which allows duplicates."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. HashMap"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. HashMap"
+        ],
         "explanation": "HashMap implements a hash table-based Map, providing fast key-value lookups with average O(1) time complexity."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. TreeSet"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. TreeSet"
+        ],
         "explanation": "TreeSet maintains elements in a sorted order using a Red-Black tree, ensuring elements are stored in their natural order or a custom comparator."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [40],
-        "answer": ["D. HashMap allows null keys"],
+        "answerId": [
+          40
+        ],
+        "answer": [
+          "D. HashMap allows null keys"
+        ],
         "explanation": "Hashtable is synchronized and does not allow null keys or values, whereas HashMap is not synchronized and allows one null key and multiple null values."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. LinkedList"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. LinkedList"
+        ],
         "explanation": "LinkedList can be used as a Queue for FIFO operations, implementing the Queue interface with methods like offer() and poll()."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. poll()"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. poll()"
+        ],
         "explanation": "The poll() method retrieves and removes the head of a Queue, returning null if the Queue is empty."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. ConcurrentHashMap"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. ConcurrentHashMap"
+        ],
         "explanation": "ConcurrentHashMap is designed for concurrent access, providing thread-safety without locking the entire map."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. LinkedHashMap"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. LinkedHashMap"
+        ],
         "explanation": "LinkedHashMap maintains the insertion order of key-value pairs, unlike HashMap which does not guarantee any order."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. Deque"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Deque"
+        ],
         "explanation": "Deque (double-ended queue) allows elements to be added or removed from both ends, implemented by classes like LinkedList and ArrayDeque."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. size()"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. size()"
+        ],
         "explanation": "The size() method returns the number of elements in a collection, applicable to all Collection implementations."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. HashSet"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. HashSet"
+        ],
         "explanation": "HashSet uses a hash table for fast lookup operations, providing average O(1) time complexity for add, remove, and contains operations."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. ArrayDeque"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. ArrayDeque"
+        ],
         "explanation": "ArrayDeque is optimized for fast insertions and deletions at both ends, making it ideal for double-ended queue operations."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. get()"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. get()"
+        ],
         "explanation": "The get() method retrieves the value associated with a specified key in a Map without removing it."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. SortedSet"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. SortedSet"
+        ],
         "explanation": "SortedSet is an interface that extends Set and maintains elements in a sorted order, implemented by classes like TreeSet."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Hashtable"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Hashtable"
+        ],
         "explanation": "Hashtable is a legacy class similar to HashMap but is synchronized and does not allow null keys or values."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. 0.75"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. 0.75"
+        ],
         "explanation": "The default load factor of a HashMap is 0.75, which means it resizes when it is 75% full to maintain performance."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. TreeMap"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. TreeMap"
+        ],
         "explanation": "TreeMap uses a Red-Black tree to maintain key-value pairs in sorted order based on the keys."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. add(int index, E element)"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. add(int index, E element)"
+        ],
         "explanation": "The add(int index, E element) method in the List interface adds an element at the specified index, shifting subsequent elements."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. PriorityQueue"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. PriorityQueue"
+        ],
         "explanation": "PriorityQueue is a direct implementation of the Queue interface, ordering elements based on their natural ordering or a comparator."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Iterator"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Iterator"
+        ],
         "explanation": "The Iterator interface is used to iterate over elements in a collection, providing methods like hasNext() and next()."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. TreeMap"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. TreeMap"
+        ],
         "explanation": "TreeMap maintains key-value pairs sorted by keys, using a Red-Black tree for logarithmic time complexity operations."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. clear()"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. clear()"
+        ],
         "explanation": "The clear() method removes all elements from a collection, leaving it empty."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. LinkedHashSet"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. LinkedHashSet"
+        ],
         "explanation": "LinkedHashSet maintains the insertion order of elements in a Set, unlike HashSet which does not guarantee order."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. O(1)"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. O(1)"
+        ],
         "explanation": "Adding an element to a HashSet has an average time complexity of O(1) due to its hash table implementation."
       }
     },
@@ -1360,8 +1480,12 @@
       ],
       "correctAnswer": {
         "questionId": 31,
-        "answerId": [122],
-        "answer": ["B. ListIterator"],
+        "answerId": [
+          122
+        ],
+        "answer": [
+          "B. ListIterator"
+        ],
         "explanation": "ListIterator allows bidirectional iteration over a List, supporting both forward and backward traversal."
       }
     },
@@ -1404,8 +1528,12 @@
       ],
       "correctAnswer": {
         "questionId": 32,
-        "answerId": [126],
-        "answer": ["B. PriorityQueue"],
+        "answerId": [
+          126
+        ],
+        "answer": [
+          "B. PriorityQueue"
+        ],
         "explanation": "PriorityQueue orders elements based on their natural ordering or a custom comparator, suitable for priority-based queue operations."
       }
     },
@@ -1448,8 +1576,12 @@
       ],
       "correctAnswer": {
         "questionId": 33,
-        "answerId": [130],
-        "answer": ["B. contains()"],
+        "answerId": [
+          130
+        ],
+        "answer": [
+          "B. contains()"
+        ],
         "explanation": "The contains() method checks if a collection contains a specified element, returning true if found."
       }
     },
@@ -1492,8 +1624,12 @@
       ],
       "correctAnswer": {
         "questionId": 34,
-        "answerId": [134],
-        "answer": ["B. Vector"],
+        "answerId": [
+          134
+        ],
+        "answer": [
+          "B. Vector"
+        ],
         "explanation": "Vector is a synchronized legacy class similar to ArrayList, providing thread-safe operations."
       }
     },
@@ -1536,8 +1672,12 @@
       ],
       "correctAnswer": {
         "questionId": 35,
-        "answerId": [138],
-        "answer": ["B. put()"],
+        "answerId": [
+          138
+        ],
+        "answer": [
+          "B. put()"
+        ],
         "explanation": "The put() method adds a new key-value pair or updates the value for an existing key in a Map."
       }
     },
@@ -1580,8 +1720,12 @@
       ],
       "correctAnswer": {
         "questionId": 36,
-        "answerId": [142],
-        "answer": ["B. ConcurrentSkipListSet"],
+        "answerId": [
+          142
+        ],
+        "answer": [
+          "B. ConcurrentSkipListSet"
+        ],
         "explanation": "ConcurrentSkipListSet is a thread-safe Set implementation that maintains sorted order, suitable for concurrent applications."
       }
     },
@@ -1624,8 +1768,12 @@
       ],
       "correctAnswer": {
         "questionId": 37,
-        "answerId": [146],
-        "answer": ["B. Map"],
+        "answerId": [
+          146
+        ],
+        "answer": [
+          "B. Map"
+        ],
         "explanation": "SortedMap extends the Map interface to maintain keys in sorted order, implemented by classes like TreeMap."
       }
     },
@@ -1668,8 +1816,12 @@
       ],
       "correctAnswer": {
         "questionId": 38,
-        "answerId": [150],
-        "answer": ["B. addAll()"],
+        "answerId": [
+          150
+        ],
+        "answer": [
+          "B. addAll()"
+        ],
         "explanation": "The addAll() method adds all elements from a specified collection to the current collection."
       }
     },
@@ -1712,8 +1864,12 @@
       ],
       "correctAnswer": {
         "questionId": 39,
-        "answerId": [154],
-        "answer": ["B. CopyOnWriteArrayList"],
+        "answerId": [
+          154
+        ],
+        "answer": [
+          "B. CopyOnWriteArrayList"
+        ],
         "explanation": "CopyOnWriteArrayList is a thread-safe List implementation that creates a new copy of the underlying array for each modification, suitable for concurrent access."
       }
     },
@@ -1756,8 +1912,12 @@
       ],
       "correctAnswer": {
         "questionId": 40,
-        "answerId": [158],
-        "answer": ["B. O(1)"],
+        "answerId": [
+          158
+        ],
+        "answer": [
+          "B. O(1)"
+        ],
         "explanation": "Retrieving an element from a HashMap by key has an average time complexity of O(1) due to its hash table implementation."
       }
     }

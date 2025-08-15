@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. Garbage Collector"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Garbage Collector"
+        ],
         "explanation": "The Garbage Collector in the JVM manages memory allocation and deallocation by automatically reclaiming memory from objects that are no longer referenced."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. Heap"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. Heap"
+        ],
         "explanation": "The Heap is the memory area where Java objects and their instance variables are allocated."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. Stack"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. Stack"
+        ],
         "explanation": "The Stack memory stores local variables, method call information, and partial results for each thread."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. Allocate new objects"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. Allocate new objects"
+        ],
         "explanation": "The Young Generation is where new objects are allocated and is divided into Eden and Survivor spaces for minor garbage collection."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. Copying Collector"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. Copying Collector"
+        ],
         "explanation": "The Copying Collector is commonly used in the Young Generation for minor GC, moving live objects between Survivor spaces."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. OutOfMemoryError"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. OutOfMemoryError"
+        ],
         "explanation": "When the Java Heap runs out of memory, an OutOfMemoryError is thrown, causing the application to crash if unhandled."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. Metaspace"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. Metaspace"
+        ],
         "explanation": "Metaspace replaced the Permanent Generation in Java 8 to store class metadata, with dynamic allocation in native memory."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. Allocate new objects"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Allocate new objects"
+        ],
         "explanation": "Eden Space is where new objects are initially allocated in the Young Generation before garbage collection."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. -Xmx"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. -Xmx"
+        ],
         "explanation": "The -Xmx option is used to set the maximum heap size for the JVM, e.g., -Xmx512m for 512 MB."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [39],
-        "answer": ["C. Referenced unused objects"],
+        "answerId": [
+          39
+        ],
+        "answer": [
+          "C. Referenced unused objects"
+        ],
         "explanation": "A memory leak occurs when objects are no longer needed but are still referenced, preventing garbage collection."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. ZGC"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. ZGC"
+        ],
         "explanation": "The Z Garbage Collector (ZGC) is designed for low-latency applications, minimizing pause times."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. Hold surviving objects"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. Hold surviving objects"
+        ],
         "explanation": "Survivor Spaces hold objects that survive minor garbage collections, promoting them to the Old Generation if they persist."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. -Xms"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. -Xms"
+        ],
         "explanation": "The -Xms option sets the initial heap size for the JVM, e.g., -Xms256m for 256 MB."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Store long-lived objects"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. Store long-lived objects"
+        ],
         "explanation": "The Old Generation stores long-lived objects that have survived multiple minor garbage collections."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. Mark-Compact"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Mark-Compact"
+        ],
         "explanation": "The Mark-Compact algorithm is typically used in the Old Generation for major garbage collections to reduce fragmentation."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Cleanup resources"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Cleanup resources"
+        ],
         "explanation": "The finalize() method is called by the garbage collector before an object is reclaimed, allowing cleanup of resources."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. G1 GC"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. G1 GC"
+        ],
         "explanation": "The G1 Garbage Collector is the default in Java 11, designed for balanced performance in large heaps."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. Enables Parallel GC"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. Enables Parallel GC"
+        ],
         "explanation": "The -XX:+UseParallelGC option enables the Parallel Garbage Collector, optimized for throughput."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Memory leak"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Memory leak"
+        ],
         "explanation": "A memory leak, where objects remain referenced unnecessarily, is a common cause of OutOfMemoryError."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Metaspace"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Metaspace"
+        ],
         "explanation": "Metaspace stores class metadata in Java 8 and later, replacing the Permanent Generation."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Suggests garbage collection"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Suggests garbage collection"
+        ],
         "explanation": "System.gc() suggests that the JVM perform garbage collection, but it is not guaranteed to run immediately."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Parallel GC"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Parallel GC"
+        ],
         "explanation": "The Parallel Garbage Collector is optimized for throughput, using multiple threads for garbage collection."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. Store compiled code"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. Store compiled code"
+        ],
         "explanation": "The Code Cache stores compiled native code generated by the JIT compiler."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Young Generation collection"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Young Generation collection"
+        ],
         "explanation": "A minor garbage collection occurs in the Young Generation, reclaiming memory from short-lived objects."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Old Generation collection"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Old Generation collection"
+        ],
         "explanation": "A major garbage collection involves the Old Generation, often including the entire heap, to reclaim memory from long-lived objects."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. VisualVM"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. VisualVM"
+        ],
         "explanation": "VisualVM is a tool that can analyze Java heap dumps to diagnose memory issues."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Enables G1 GC"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Enables G1 GC"
+        ],
         "explanation": "The -XX:+UseG1GC option enables the G1 Garbage Collector, which balances throughput and latency."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Hold instruction address"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Hold instruction address"
+        ],
         "explanation": "The PC Register holds the address of the current instruction being executed for each thread."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Nullifying references"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Nullifying references"
+        ],
         "explanation": "Nullifying references to unused objects helps prevent memory leaks by allowing garbage collection."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. CMS GC"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. CMS GC"
+        ],
         "explanation": "The Concurrent Mark-Sweep (CMS) Garbage Collector was deprecated in Java 9."
       }
     }

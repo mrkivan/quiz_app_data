@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. mutableStateOf"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. mutableStateOf"
+        ],
         "explanation": "`mutableStateOf` is used to create a mutable state that triggers recomposition when updated in Jetpack Compose."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. Retains state across recompositions"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. Retains state across recompositions"
+        ],
         "explanation": "`remember` retains state across recompositions, preventing reinitialization unless the composable is removed."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. rememberSaveable"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. rememberSaveable"
+        ],
         "explanation": "`rememberSaveable` is used to persist state across configuration changes like screen rotations."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. value"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. value"
+        ],
         "explanation": "The `value` property of a State object is used to read its current value, triggering recomposition when it changes."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. remember { mutableStateOf(0) }"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. remember { mutableStateOf(0) }"
+        ],
         "explanation": "Use `remember { mutableStateOf(0) }` to create a mutable state for an integer."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. Triggers recomposition"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. Triggers recomposition"
+        ],
         "explanation": "Updating a `mutableStateOf` value triggers recomposition of the composables that read it."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. observeAsState()"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. observeAsState()"
+        ],
         "explanation": "`observeAsState()` is used to convert LiveData to a State object for use in Compose."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. collectAsState()"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. collectAsState()"
+        ],
         "explanation": "`collectAsState()` is used to collect values from a StateFlow and convert them to a State object."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. ViewModel"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. ViewModel"
+        ],
         "explanation": "ViewModel is used to manage UI-related state in a lifecycle-aware manner in Jetpack Compose apps."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. viewModel()"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. viewModel()"
+        ],
         "explanation": "Use `viewModel()` to obtain a ViewModel instance in a composable."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. Runs suspend code on composition"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. Runs suspend code on composition"
+        ],
         "explanation": "`LaunchedEffect` runs a suspend block of code when a composable enters the composition or when its key changes."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. Use LaunchedEffect with a unique key"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. Use LaunchedEffect with a unique key"
+        ],
         "explanation": "Use `LaunchedEffect` with a unique key to handle one-time events like showing a Snackbar."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. Runs non-composable code after recomposition"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Runs non-composable code after recomposition"
+        ],
         "explanation": "`SideEffect` runs non-composable code after every successful recomposition."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. remember { mutableStateListOf() }"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. remember { mutableStateListOf() }"
+        ],
         "explanation": "Use `remember { mutableStateListOf() }` to create a mutable state list that triggers recomposition when modified."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. Creates state from other states"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Creates state from other states"
+        ],
         "explanation": "`derivedStateOf` creates a state based on the computation of other states, updating only when dependencies change."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Move state to a higher-level composable or ViewModel"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Move state to a higher-level composable or ViewModel"
+        ],
         "explanation": "State hoisting involves moving state to a higher-level composable or ViewModel to make it reusable and testable."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. Makes composables reusable and testable"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. Makes composables reusable and testable"
+        ],
         "explanation": "State hoisting makes composables reusable, testable, and separates UI from logic."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. remember { mutableStateMapOf() }"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. remember { mutableStateMapOf() }"
+        ],
         "explanation": "Use `remember { mutableStateMapOf() }` to create a mutable state map that triggers recomposition when modified."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Converts State to Flow"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Converts State to Flow"
+        ],
         "explanation": "`snapshotFlow` converts a State object into a Flow to observe state changes in a coroutine."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Use ViewModel with StateFlow or LiveData"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Use ViewModel with StateFlow or LiveData"
+        ],
         "explanation": "Use a ViewModel with StateFlow or LiveData to manage complex state in a lifecycle-aware manner."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. State is reinitialized on recomposition"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. State is reinitialized on recomposition"
+        ],
         "explanation": "Without `remember`, the state is reinitialized on every recomposition, losing its previous value."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Use remember { mutableStateOf(\"\") }"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Use remember { mutableStateOf(\"\") }"
+        ],
         "explanation": "Use `remember { mutableStateOf(\"\") }` to manage the text state in a TextField."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. rememberSaveable persists across configuration changes"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. rememberSaveable persists across configuration changes"
+        ],
         "explanation": "`rememberSaveable` persists state across configuration changes, while `remember` does not."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Use remember { mutableStateOf(false) }"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Use remember { mutableStateOf(false) }"
+        ],
         "explanation": "Use `remember { mutableStateOf(false) }` to manage the state of a toggle switch."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Converts non-Compose state to State"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Converts non-Compose state to State"
+        ],
         "explanation": "`produceState` converts non-Compose state (like Flow) into a State object for use in composables."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Modify StateFlow or LiveData in ViewModel"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Modify StateFlow or LiveData in ViewModel"
+        ],
         "explanation": "Update the ViewModel's state by modifying its StateFlow or LiveData, which is observed in the composable."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Perform one-time side effects like fetching data"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Perform one-time side effects like fetching data"
+        ],
         "explanation": "`LaunchedEffect` is commonly used to perform one-time side effects like fetching data when a composable is first composed."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Use derivedStateOf or hoist state"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Use derivedStateOf or hoist state"
+        ],
         "explanation": "Use `derivedStateOf` or hoist state to avoid unnecessary recompositions when dependencies don't change."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Use ViewModel with StateFlow"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Use ViewModel with StateFlow"
+        ],
         "explanation": "Use a ViewModel with StateFlow to manage state across multiple screens in a lifecycle-aware manner."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Collects StateFlow with lifecycle awareness"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Collects StateFlow with lifecycle awareness"
+        ],
         "explanation": "`collectAsStateWithLifecycle` collects StateFlow values as State while respecting the composable's lifecycle."
       }
     }

@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. (parameters) -> expression"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. (parameters) -> expression"
+        ],
         "explanation": "A lambda expression in Java consists of parameters, an arrow token (->), and a body, e.g., (parameters) -> expression or (parameters) -> { statements; }."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. Functional interface"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. Functional interface"
+        ],
         "explanation": "A lambda expression must target a functional interface, which is an interface with exactly one abstract method."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. @FunctionalInterface"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. @FunctionalInterface"
+        ],
         "explanation": "The @FunctionalInterface annotation is used to mark an interface as a functional interface, ensuring it has exactly one abstract method."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. Supplier"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. Supplier"
+        ],
         "explanation": "Supplier is a functional interface with the method get(), used for lambdas that take no arguments and return a value."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. Predicate"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. Predicate"
+        ],
         "explanation": "Predicate is a functional interface with the method test(), used for lambdas that take an argument and return a boolean."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. A function that squares a number"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. A function that squares a number"
+        ],
         "explanation": "The lambda x -> x * x takes a single parameter x and returns its square, representing a function that squares a number."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. Consumer"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. Consumer"
+        ],
         "explanation": "Consumer is a functional interface with the method accept(), used for lambdas that take an argument and return nothing."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. Function"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Function"
+        ],
         "explanation": "Function is a functional interface with the method apply(), used for lambdas that take one argument and return a result."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. x -> System.out.println(x)"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. x -> System.out.println(x)"
+        ],
         "explanation": "The method reference System.out::println is equivalent to the lambda expression x -> System.out.println(x), which takes an argument and prints it."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. BiFunction"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. BiFunction"
+        ],
         "explanation": "BiFunction is a functional interface with the method apply(), used for lambdas that take two arguments and return a result."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. (x, y) -> x + y"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. (x, y) -> x + y"
+        ],
         "explanation": "(x, y) -> x + y is a valid lambda expression that takes two parameters and returns their sum."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. void"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. void"
+        ],
         "explanation": "The Runnable interface has a single method run() that returns void, used for lambdas that perform an action without returning a value."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. Comparator"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Comparator"
+        ],
         "explanation": "Comparator is a functional interface with the method compare(), used for lambdas that compare two objects."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. ClassName::staticMethod"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. ClassName::staticMethod"
+        ],
         "explanation": "ClassName::staticMethod is the syntax for a method reference to a static method, e.g., Integer::parseInt."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. Applies an action to each element"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Applies an action to each element"
+        ],
         "explanation": "The forEach method applies a lambda expression (typically a Consumer) to each element in a collection, allowing iteration and action on elements."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Runnable"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Runnable"
+        ],
         "explanation": "Runnable is a functional interface with the method run(), used for lambdas that take no arguments and return nothing."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. s -> s.toUpperCase()"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. s -> s.toUpperCase()"
+        ],
         "explanation": "The method reference String::toUpperCase is equivalent to the lambda expression s -> s.toUpperCase(), which takes a string and returns its uppercase version."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. java.util.function"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. java.util.function"
+        ],
         "explanation": "The java.util.function package contains standard functional interfaces like Predicate, Function, Consumer, and Supplier."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. BiConsumer"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. BiConsumer"
+        ],
         "explanation": "BiConsumer is a functional interface with the method accept(), used for lambdas that take two arguments and return nothing."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. 1 2 3 "],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. 1 2 3 "
+        ],
         "explanation": "The forEach method applies the lambda x -> System.out.print(x + ' ') to each element, printing '1 2 3 ' with spaces."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. BiPredicate"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. BiPredicate"
+        ],
         "explanation": "BiPredicate is a functional interface with the method test(), used for lambdas that take two arguments and return a boolean."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. (x, y) -> Integer.sum(x, y)"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. (x, y) -> Integer.sum(x, y)"
+        ],
         "explanation": "The method reference Integer::sum is equivalent to the lambda expression (x, y) -> Integer.sum(x, y), which sums two integers."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. It causes a compilation error"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. It causes a compilation error"
+        ],
         "explanation": "A functional interface must have exactly one abstract method; otherwise, it cannot be used with a lambda expression and will cause a compilation error if annotated with @FunctionalInterface."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. filter()"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. filter()"
+        ],
         "explanation": "The filter() method in the Stream API uses a Predicate lambda to select elements that match a condition."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. UnaryOperator"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. UnaryOperator"
+        ],
         "explanation": "UnaryOperator is a functional interface that extends Function, used for lambdas that take and return the same type."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. BinaryOperator"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. BinaryOperator"
+        ],
         "explanation": "BinaryOperator is a functional interface that extends BiFunction, used for lambdas that take two arguments of the same type and return the same type."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Transforms elements"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Transforms elements"
+        ],
         "explanation": "The map() method in the Stream API uses a Function lambda to transform each element into another value."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. ClassName::new"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. ClassName::new"
+        ],
         "explanation": "ClassName::new is the syntax for a constructor reference, e.g., String::new creates a new String object."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. None, depends on method signature"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. None, depends on method signature"
+        ],
         "explanation": "There is no specific functional interface in java.util.function that directly handles exceptions, but lambdas can throw checked exceptions if the abstract method declares them, or unchecked exceptions otherwise."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. 246"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. 246"
+        ],
         "explanation": "The map() method doubles each element (1, 2, 3) to (2, 4, 6), and forEach with System.out::print outputs '246' without spaces."
       }
     }

@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. fun"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. fun"
+        ],
         "explanation": "In Kotlin, the 'fun' keyword is used to declare a function."
       }
     },
@@ -84,8 +88,14 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6, 8],
-        "answer": ["B. fun myFunction(): Unit", "D. fun myFunction()"],
+        "answerId": [
+          6,
+          8
+        ],
+        "answer": [
+          "B. fun myFunction(): Unit",
+          "D. fun myFunction()"
+        ],
         "explanation": "A function with no return type in Kotlin uses 'Unit' implicitly or explicitly, e.g., 'fun myFunction(): Unit' or 'fun myFunction()'."
       }
     },
@@ -128,8 +138,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. fun add(a: Int, b: Int): Int"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. fun add(a: Int, b: Int): Int"
+        ],
         "explanation": "To define a function with a return type of Int, specify ': Int' after the parameter list, e.g., 'fun add(a: Int, b: Int): Int'."
       }
     },
@@ -172,8 +186,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [13],
-        "answer": ["A. To make parameters optional"],
+        "answerId": [
+          13
+        ],
+        "answer": [
+          "A. To make parameters optional"
+        ],
         "explanation": "Default parameters allow a function to be called without specifying all arguments, using predefined default values."
       }
     },
@@ -216,8 +234,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. greet(name = \"Alice\")"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. greet(name = \"Alice\")"
+        ],
         "explanation": "Named parameters allow specifying arguments by name, e.g., 'greet(name = \"Alice\")'."
       }
     },
@@ -260,8 +282,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. A function with a single expression"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. A function with a single expression"
+        ],
         "explanation": "A single-expression function uses a single expression with '=', omitting curly braces and 'return'."
       }
     },
@@ -304,8 +330,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [25],
-        "answer": ["A. fun greet(name: String = \"Guest\")"],
+        "answerId": [
+          25
+        ],
+        "answer": [
+          "A. fun greet(name: String = \"Guest\")"
+        ],
         "explanation": "Default parameters are defined by assigning a value in the parameter list, e.g., 'fun greet(name: String = \"Guest\")'."
       }
     },
@@ -348,8 +378,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. Exits the function"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Exits the function"
+        ],
         "explanation": "The 'return' keyword is used to exit a function and optionally return a value."
       }
     },
@@ -392,8 +426,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. fun square(x: Int) = x * x"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. fun square(x: Int) = x * x"
+        ],
         "explanation": "A single-expression function uses '=', e.g., 'fun square(x: Int) = x * x'."
       }
     },
@@ -436,8 +474,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. fun sum(vararg numbers: Int)"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. fun sum(vararg numbers: Int)"
+        ],
         "explanation": "Variable arguments are declared using the 'vararg' keyword, e.g., 'fun sum(vararg numbers: Int)'."
       }
     },
@@ -480,8 +522,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. Inlines the function code at call site"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. Inlines the function code at call site"
+        ],
         "explanation": "The 'inline' keyword inlines the function's code at the call site, reducing overhead for higher-order functions."
       }
     },
@@ -524,8 +570,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. fun getName(): String?"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. fun getName(): String?"
+        ],
         "explanation": "A nullable return type is defined by appending '?' to the type, e.g., 'fun getName(): String?'."
       }
     },
@@ -568,8 +618,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. fun greet()"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. fun greet()"
+        ],
         "explanation": "A function with no parameters uses empty parentheses, e.g., 'fun greet()'."
       }
     },
@@ -612,8 +666,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Returns Unit"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. Returns Unit"
+        ],
         "explanation": "If no return type is specified, the function implicitly returns 'Unit'."
       }
     },
@@ -656,8 +714,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. fun(args = *array)"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. fun(args = *array)"
+        ],
         "explanation": "To pass an array to a vararg parameter, use the spread operator '*', e.g., 'fun(args = *array)'."
       }
     },
@@ -693,8 +755,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Optimizes recursive functions"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Optimizes recursive functions"
+        ],
         "explanation": "The 'tailrec' keyword optimizes recursive functions by using tail recursion to prevent stack overflow."
       }
     },
@@ -737,8 +803,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. An anonymous function"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. An anonymous function"
+        ],
         "explanation": "A lambda expression is an anonymous function defined using curly braces, e.g., '{ x -> x * x }'."
       }
     },
@@ -781,8 +851,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [69],
-        "answer": ["A. fun process(lambda: (Int) -> Int)"],
+        "answerId": [
+          69
+        ],
+        "answer": [
+          "A. fun process(lambda: (Int) -> Int)"
+        ],
         "explanation": "A lambda parameter is defined using a function type, e.g., '(Int) -> Int'."
       }
     },
@@ -825,8 +899,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Indicates no return value"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Indicates no return value"
+        ],
         "explanation": "'Unit' indicates that a function does not return a meaningful value, similar to 'void' in other languages."
       }
     },
@@ -869,8 +947,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [77],
-        "answer": ["A. greet(name = \"Alice\")"],
+        "answerId": [
+          77
+        ],
+        "answer": [
+          "A. greet(name = \"Alice\")"
+        ],
         "explanation": "You can omit parameters with default values or use named parameters, e.g., 'greet(name = \"Alice\")'."
       }
     },
@@ -913,8 +995,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Allows pausing and resuming"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Allows pausing and resuming"
+        ],
         "explanation": "The 'suspend' keyword indicates that a function can be paused and resumed, used in coroutines."
       }
     },
@@ -957,8 +1043,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [85],
-        "answer": ["A. fun multiply(a: Int, b: Int): Int"],
+        "answerId": [
+          85
+        ],
+        "answer": [
+          "A. fun multiply(a: Int, b: Int): Int"
+        ],
         "explanation": "A valid function declaration includes 'fun', a name, parameters, and an optional return type, e.g., 'fun multiply(a: Int, b: Int): Int'."
       }
     },
@@ -1001,8 +1091,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. Unit"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. Unit"
+        ],
         "explanation": "If a function does not have a return statement, it implicitly returns 'Unit'."
       }
     },
@@ -1045,8 +1139,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [93],
-        "answer": ["A. Inside another function"],
+        "answerId": [
+          93
+        ],
+        "answer": [
+          "A. Inside another function"
+        ],
         "explanation": "A local function is defined inside another function using the 'fun' keyword."
       }
     },
@@ -1089,8 +1187,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Never returns"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Never returns"
+        ],
         "explanation": "'Nothing' indicates that a function never returns, typically used for functions that always throw an exception."
       }
     },
@@ -1133,8 +1235,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. They improve readability"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. They improve readability"
+        ],
         "explanation": "Named arguments allow specifying parameter names when calling a function, improving readability."
       }
     },
@@ -1177,8 +1283,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. fun <T> printItem(item: T)"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. fun <T> printItem(item: T)"
+        ],
         "explanation": "A generic function uses angle brackets for the type parameter, e.g., 'fun <T> printItem(item: T)'."
       }
     },
@@ -1221,8 +1331,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Compilation error"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Compilation error"
+        ],
         "explanation": "If a function with a specified return type lacks a return statement, it causes a compilation error."
       }
     },
@@ -1265,8 +1379,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. private"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. private"
+        ],
         "explanation": "The 'private' modifier restricts a function to be accessible only within the same class."
       }
     },
@@ -1309,8 +1427,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Allows infix notation"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Allows infix notation"
+        ],
         "explanation": "The 'infix' keyword allows a function to be called using infix notation, e.g., 'a plus b' instead of 'a.plus(b)'."
       }
     }

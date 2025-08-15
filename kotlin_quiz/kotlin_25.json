@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. Handle background tasks"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Handle background tasks"
+        ],
         "explanation": "WorkManager is designed to handle deferrable, guaranteed background tasks, such as syncing data or uploading logs, even if the app or device restarts."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. Extend Worker and override doWork()"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. Extend Worker and override doWork()"
+        ],
         "explanation": "A custom Worker is created by extending the Worker class and overriding the doWork() method."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. Result"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. Result"
+        ],
         "explanation": "The doWork() method returns a Result object, indicating success, failure, or retry for the work."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. Use OneTimeWorkRequestBuilder"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. Use OneTimeWorkRequestBuilder"
+        ],
         "explanation": "A one-time work request is scheduled using OneTimeWorkRequestBuilder and enqueued with WorkManager.getInstance(context).enqueue()."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. Use PeriodicWorkRequestBuilder"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. Use PeriodicWorkRequestBuilder"
+        ],
         "explanation": "A periodic work request is scheduled using PeriodicWorkRequestBuilder, specifying a repeat interval, and enqueued with WorkManager."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. 15 minutes"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. 15 minutes"
+        ],
         "explanation": "The minimum repeat interval for a PeriodicWorkRequest is 15 minutes, as defined by WorkManager constraints."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. Use Constraints.Builder().setRequiredNetworkType()"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. Use Constraints.Builder().setRequiredNetworkType()"
+        ],
         "explanation": "Network constraints are added using Constraints.Builder().setRequiredNetworkType(NetworkType.CONNECTED).build() and set on the WorkRequest."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. Use Data.Builder().put()"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Use Data.Builder().put()"
+        ],
         "explanation": "Data is passed to a Worker using Data.Builder().put(key, value).build() and set as input data on the WorkRequest."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Use inputData.getString(key)"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Use inputData.getString(key)"
+        ],
         "explanation": "Input data is retrieved in a Worker using inputData.getString(key) or similar methods within the doWork() method."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. Use Result.success(Data.Builder().put())"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. Use Result.success(Data.Builder().put())"
+        ],
         "explanation": "Output data is returned using Result.success(Data.Builder().put(key, value).build()) in the doWork() method."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. Use getWorkInfoByIdLiveData()"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. Use getWorkInfoByIdLiveData()"
+        ],
         "explanation": "The status is observed using WorkManager.getWorkInfoByIdLiveData(workRequest.id) to get a LiveData<WorkInfo>."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. A Worker for Coroutines"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. A Worker for Coroutines"
+        ],
         "explanation": "A CoroutineWorker is a Worker that supports Kotlin Coroutines, using suspend functions in doWork() for asynchronous tasks."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. Extend CoroutineWorker and override doWork()"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Extend CoroutineWorker and override doWork()"
+        ],
         "explanation": "A CoroutineWorker is created by extending CoroutineWorker and overriding the suspend doWork() function."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Use beginWith().then().enqueue()"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. Use beginWith().then().enqueue()"
+        ],
         "explanation": "Multiple WorkRequests are chained using WorkManager.beginWith().then().enqueue() to define a sequence of tasks."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. Provides work state and output"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Provides work state and output"
+        ],
         "explanation": "WorkInfo provides information about the state and output of a WorkRequest, such as whether it is running, succeeded, or failed."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Use cancelWorkById(workRequest.id)"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Use cancelWorkById(workRequest.id)"
+        ],
         "explanation": "A WorkRequest is canceled using WorkManager.getInstance(context).cancelWorkById(workRequest.id)."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. Retries the work"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. Retries the work"
+        ],
         "explanation": "Result.retry() signals WorkManager to retry the work according to the retry policy, such as backoff criteria."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. Use setBackoffCriteria()"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. Use setBackoffCriteria()"
+        ],
         "explanation": "A retry policy is set using setBackoffCriteria() on the WorkRequest, specifying backoff policy and delay."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Define conditions for work execution"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Define conditions for work execution"
+        ],
         "explanation": "Constraints define conditions under which a WorkRequest can run, such as network availability or battery level."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Use setInitialDelay()"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Use setInitialDelay()"
+        ],
         "explanation": "A delay is added using setInitialDelay() on the OneTimeWorkRequest, specifying the time and unit."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Provides WorkManager instance"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Provides WorkManager instance"
+        ],
         "explanation": "WorkManager.getInstance(context) provides a singleton instance of WorkManager to schedule and manage work requests."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Use addTag()"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Use addTag()"
+        ],
         "explanation": "A WorkRequest is tagged using addTag() on the WorkRequest builder, allowing grouping or canceling by tag."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [89],
-        "answer": ["A. Use cancelWorkByTag(tag)"],
+        "answerId": [
+          89
+        ],
+        "answer": [
+          "A. Use cancelWorkByTag(tag)"
+        ],
         "explanation": "All WorkRequests with a tag are canceled using WorkManager.getInstance(context).cancelAllWorkByTag(tag)."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Chains multiple WorkRequests"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Chains multiple WorkRequests"
+        ],
         "explanation": "WorkContinuation is used to chain multiple WorkRequests, allowing sequential or parallel execution of tasks."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Use beginWith(listOf(work1, work2))"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Use beginWith(listOf(work1, work2))"
+        ],
         "explanation": "Parallel execution is achieved using WorkManager.beginWith(listOf(work1, work2)).enqueue() to run multiple WorkRequests concurrently."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Work is scheduled"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Work is scheduled"
+        ],
         "explanation": "The ENQUEUED state indicates that the WorkRequest is scheduled and waiting to run when its constraints are met."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Use setRequiresBatteryNotLow(true)"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Use setRequiresBatteryNotLow(true)"
+        ],
         "explanation": "A battery constraint is set using Constraints.Builder().setRequiresBatteryNotLow(true).build() and applied to the WorkRequest."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Ensures single work instance"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Ensures single work instance"
+        ],
         "explanation": "UniqueWork ensures only one instance of a named work runs, using policies like REPLACE or KEEP for existing work."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Use enqueueUniqueWork()"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Use enqueueUniqueWork()"
+        ],
         "explanation": "UniqueWork is scheduled using WorkManager.getInstance(context).enqueueUniqueWork(name, policy, workRequest)."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Retains existing work"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Retains existing work"
+        ],
         "explanation": "The KEEP policy in enqueueUniqueWork() retains the existing work and ignores the new work if a work with the same name exists."
       }
     }

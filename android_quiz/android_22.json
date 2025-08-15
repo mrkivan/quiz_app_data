@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. LaunchedEffect"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. LaunchedEffect"
+        ],
         "explanation": "LaunchedEffect is used to run a coroutine when a composable enters the composition, scoped to the composable’s lifecycle."
       }
     },
@@ -84,8 +88,14 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [5, 7],
-        "answer": ["A. LaunchedEffect", "C. DisposableEffect"],
+        "answerId": [
+          5,
+          7
+        ],
+        "answer": [
+          "A. LaunchedEffect",
+          "C. DisposableEffect"
+        ],
         "explanation": "LaunchedEffect and DisposableEffect use keys to determine when their blocks should re-execute or clean up."
       }
     },
@@ -114,8 +124,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [9],
-        "answer": ["A. True"],
+        "answerId": [
+          9
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "SideEffect runs on every successful recomposition of a composable, making it suitable for non-idempotent operations."
       }
     },
@@ -158,8 +172,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [12],
-        "answer": ["B. To launch coroutines in a composable"],
+        "answerId": [
+          12
+        ],
+        "answer": [
+          "B. To launch coroutines in a composable"
+        ],
         "explanation": "rememberCoroutineScope provides a CoroutineScope tied to the composable’s lifecycle for launching coroutines outside of composition."
       }
     },
@@ -202,8 +220,16 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [15, 17, 18],
-        "answer": ["A. LaunchedEffect", "C. DisposableEffect", "D. rememberCoroutineScope"],
+        "answerId": [
+          15,
+          17,
+          18
+        ],
+        "answer": [
+          "A. LaunchedEffect",
+          "C. DisposableEffect",
+          "D. rememberCoroutineScope"
+        ],
         "explanation": "LaunchedEffect, DisposableEffect, and rememberCoroutineScope are lifecycle-aware, tying their operations to the composable’s lifecycle."
       }
     },
@@ -232,8 +258,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [19],
-        "answer": ["A. True"],
+        "answerId": [
+          19
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "DisposableEffect is used to set up resources when a composable enters the composition and clean them up when it leaves."
       }
     },
@@ -276,8 +306,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [22],
-        "answer": ["B. produceState"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. produceState"
+        ],
         "explanation": "produceState converts a Flow or other asynchronous data source into a State object that Compose can observe."
       }
     },
@@ -320,8 +354,14 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [26, 28],
-        "answer": ["B. SideEffect", "D. rememberCoroutineScope"],
+        "answerId": [
+          26,
+          28
+        ],
+        "answer": [
+          "B. SideEffect",
+          "D. rememberCoroutineScope"
+        ],
         "explanation": "SideEffect and rememberCoroutineScope are suitable for non-UI operations like analytics or logging, as they don’t directly affect UI rendering."
       }
     },
@@ -364,8 +404,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [30],
-        "answer": ["B. It runs on every recomposition"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. It runs on every recomposition"
+        ],
         "explanation": "If no key is provided to LaunchedEffect, the coroutine runs on every recomposition, which may lead to unintended behavior."
       }
     },
@@ -394,8 +438,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [33],
-        "answer": ["A. True"],
+        "answerId": [
+          33
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "snapshotFlow converts a Compose State or MutableState object into a Flow, emitting updates when the state changes."
       }
     },
@@ -438,8 +486,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [36],
-        "answer": ["B. derivedStateOf"],
+        "answerId": [
+          36
+        ],
+        "answer": [
+          "B. derivedStateOf"
+        ],
         "explanation": "derivedStateOf computes a value based on other State objects, updating only when dependencies change."
       }
     },
@@ -482,8 +534,14 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [39, 41],
-        "answer": ["A. LaunchedEffect", "C. produceState"],
+        "answerId": [
+          39,
+          41
+        ],
+        "answer": [
+          "A. LaunchedEffect",
+          "C. produceState"
+        ],
         "explanation": "LaunchedEffect and produceState are commonly used for asynchronous data fetching in Jetpack Compose."
       }
     },
@@ -526,8 +584,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [44],
-        "answer": ["B. Non-idempotent operations"],
+        "answerId": [
+          44
+        ],
+        "answer": [
+          "B. Non-idempotent operations"
+        ],
         "explanation": "SideEffect is used for non-idempotent operations like logging or updating external state on every recomposition."
       }
     },
@@ -556,8 +618,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [47],
-        "answer": ["A. True"],
+        "answerId": [
+          47
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "LaunchedEffect automatically cancels its coroutine when the composable leaves the composition, ensuring lifecycle safety."
       }
     },
@@ -600,8 +666,14 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [49, 51],
-        "answer": ["A. snapshotFlow", "C. derivedStateOf"],
+        "answerId": [
+          49,
+          51
+        ],
+        "answer": [
+          "A. snapshotFlow",
+          "C. derivedStateOf"
+        ],
         "explanation": "snapshotFlow and derivedStateOf are used to observe and react to state changes in Jetpack Compose."
       }
     },
@@ -644,8 +716,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [54],
-        "answer": ["B. To manage resource lifecycle"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. To manage resource lifecycle"
+        ],
         "explanation": "DisposableEffect sets up resources when a composable enters and cleans them up when it leaves the composition."
       }
     },
@@ -674,8 +750,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [57],
-        "answer": ["A. True"],
+        "answerId": [
+          57
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "produceState is lifecycle-aware, automatically stopping its coroutine when the composable leaves the composition."
       }
     },
@@ -718,8 +798,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [60],
-        "answer": ["B. rememberCoroutineScope"],
+        "answerId": [
+          60
+        ],
+        "answer": [
+          "B. rememberCoroutineScope"
+        ],
         "explanation": "rememberCoroutineScope provides a CoroutineScope for launching coroutines outside of composition, such as in response to user events."
       }
     },
@@ -762,8 +846,16 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [63, 65, 66],
-        "answer": ["A. LaunchedEffect", "C. produceState", "D. rememberCoroutineScope"],
+        "answerId": [
+          63,
+          65,
+          66
+        ],
+        "answer": [
+          "A. LaunchedEffect",
+          "C. produceState",
+          "D. rememberCoroutineScope"
+        ],
         "explanation": "LaunchedEffect, DisposableEffect, produceState, and rememberCoroutineScope are tied to the composable’s lifecycle."
       }
     },
@@ -792,8 +884,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [67],
-        "answer": ["A. True"],
+        "answerId": [
+          67
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "derivedStateOf recomputes its value only when its dependent State objects change, optimizing performance."
       }
     },
@@ -836,8 +932,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [70],
-        "answer": ["B. LaunchedEffect"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. LaunchedEffect"
+        ],
         "explanation": "LaunchedEffect runs a one-time side effect when its keys change, scoped to the composable’s lifecycle."
       }
     },
@@ -880,8 +980,14 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [73, 74],
-        "answer": ["A. DisposableEffect", "B. LaunchedEffect"],
+        "answerId": [
+          73,
+          74
+        ],
+        "answer": [
+          "A. DisposableEffect",
+          "B. LaunchedEffect"
+        ],
         "explanation": "DisposableEffect and LaunchedEffect are used for managing resources like listeners, with DisposableEffect handling cleanup."
       }
     },
@@ -924,8 +1030,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [78],
-        "answer": ["B. It is cancelled"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. It is cancelled"
+        ],
         "explanation": "Coroutines launched with rememberCoroutineScope are cancelled when the composable leaves the composition."
       }
     },
@@ -954,8 +1064,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [82],
-        "answer": ["B. False"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. False"
+        ],
         "explanation": "SideEffect is not suitable for launching coroutines, as it is meant for non-idempotent operations and runs synchronously on recomposition."
       }
     },
@@ -998,8 +1112,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [84],
-        "answer": ["B. produceState"],
+        "answerId": [
+          84
+        ],
+        "answer": [
+          "B. produceState"
+        ],
         "explanation": "produceState observes a Flow and converts it into a State object, triggering recomposition when the Flow emits new values."
       }
     },
@@ -1042,8 +1160,16 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [87, 88, 90],
-        "answer": ["A. LaunchedEffect", "B. produceState", "D. derivedStateOf"],
+        "answerId": [
+          87,
+          88,
+          90
+        ],
+        "answer": [
+          "A. LaunchedEffect",
+          "B. produceState",
+          "D. derivedStateOf"
+        ],
         "explanation": "LaunchedEffect, produceState, and derivedStateOf are used for UI-related operations like data fetching and state computation."
       }
     },
@@ -1086,8 +1212,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [92],
-        "answer": ["B. To convert State to Flow"],
+        "answerId": [
+          92
+        ],
+        "answer": [
+          "B. To convert State to Flow"
+        ],
         "explanation": "snapshotFlow converts a Compose State or MutableState object into a Flow, emitting updates when the state changes."
       }
     },
@@ -1116,8 +1246,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [95],
-        "answer": ["A. True"],
+        "answerId": [
+          95
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "DisposableEffect requires an onDispose block to define cleanup logic when the composable leaves the composition."
       }
     },
@@ -1160,8 +1294,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [98],
-        "answer": ["B. rememberCoroutineScope"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. rememberCoroutineScope"
+        ],
         "explanation": "rememberCoroutineScope is best for handling button click events with coroutines, as it allows launching coroutines outside composition."
       }
     },
@@ -1204,8 +1342,16 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [101, 102, 104],
-        "answer": ["A. produceState", "B. snapshotFlow", "D. derivedStateOf"],
+        "answerId": [
+          101,
+          102,
+          104
+        ],
+        "answer": [
+          "A. produceState",
+          "B. snapshotFlow",
+          "D. derivedStateOf"
+        ],
         "explanation": "produceState, snapshotFlow, and derivedStateOf are used for reactive state management in Jetpack Compose."
       }
     }

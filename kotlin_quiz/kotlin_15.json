@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. To provide type safety"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. To provide type safety"
+        ],
         "explanation": "Generics provide type safety by allowing type parameters to define classes, interfaces, and functions that work with specific types."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. class MyClass<T>"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. class MyClass<T>"
+        ],
         "explanation": "A generic class is declared using angle brackets with a type parameter, e.g., class MyClass<T>."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. The type can only be used as output"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. The type can only be used as output"
+        ],
         "explanation": "The 'out' keyword indicates covariance, allowing the generic type to be used as a producer, restricting it to return types."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. The type can only be used as input"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. The type can only be used as input"
+        ],
         "explanation": "The 'in' keyword indicates contravariance, allowing the generic type to be used as a consumer, restricting it to parameter types."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. No subtyping flexibility"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. No subtyping flexibility"
+        ],
         "explanation": "An invariant generic type has no variance annotation, meaning it can neither be a subtype nor a supertype of another generic type."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. fun <T> myFunction() {}"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. fun <T> myFunction() {}"
+        ],
         "explanation": "A generic function is declared with a type parameter in angle brackets before the function name, e.g., fun <T> myFunction() {}."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. A type accessible at runtime"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. A type accessible at runtime"
+        ],
         "explanation": "A reified type parameter, used with inline functions, allows access to the actual type at runtime, e.g., inline fun <reified T> myFunction() {}."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. The inline keyword"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. The inline keyword"
+        ],
         "explanation": "Reified type parameters require the function to be marked as inline, as this allows type information to be preserved at runtime."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Restricts to a subtype"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Restricts to a subtype"
+        ],
         "explanation": "An upper bound constraint, e.g., <T : Number>, restricts the generic type to be a subtype of the specified type."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. class MyClass<T : Number>"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. class MyClass<T : Number>"
+        ],
         "explanation": "An upper bound constraint is declared using a colon, e.g., class MyClass<T : Number>."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. Any?"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. Any?"
+        ],
         "explanation": "The default upper bound for a generic type in Kotlin is Any?, allowing any nullable type if no constraint is specified."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. Subtyping flexibility"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. Subtyping flexibility"
+        ],
         "explanation": "A covariant type, marked with 'out', allows a generic type to be treated as a subtype if its type parameter is a subtype, e.g., List<out Number>."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. Supertype flexibility"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Supertype flexibility"
+        ],
         "explanation": "A contravariant type, marked with 'in', allows a generic type to be treated as a supertype if its type parameter is a supertype, e.g., Comparator<in Number>."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. An unknown type parameter"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. An unknown type parameter"
+        ],
         "explanation": "A star projection, e.g., List<*>, is used when the specific type parameter is unknown, treating it as List<out Any?> for reading and restricting writing."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. To specify multiple constraints"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. To specify multiple constraints"
+        ],
         "explanation": "The 'where' clause allows multiple upper bound constraints for a type parameter, e.g., fun <T> myFunction() where T : Number, T : Comparable<T>."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Type information is removed at runtime"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Type information is removed at runtime"
+        ],
         "explanation": "Type erasure means generic type information is removed at runtime, so the JVM cannot access the actual type parameter."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. Using reified type in inline function"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. Using reified type in inline function"
+        ],
         "explanation": "To check the type of a generic parameter at runtime, use a reified type parameter in an inline function, e.g., inline fun <reified T> checkType(value: Any) = value is T."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. Variance defined at usage"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. Variance defined at usage"
+        ],
         "explanation": "Use-site variance allows specifying variance at the point of use, e.g., List<out Number> or Comparator<in Number>, rather than at declaration."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Variance defined at declaration"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Variance defined at declaration"
+        ],
         "explanation": "Declaration-site variance defines variance in the class or interface declaration, e.g., interface List<out T>, applying to all instances."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. A type with no instances"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. A type with no instances"
+        ],
         "explanation": "Nothing is a bottom type with no instances, used in generics to indicate a function never returns or to represent an empty type."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Checks type with reified types"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Checks type with reified types"
+        ],
         "explanation": "The 'is' operator checks if a value is an instance of a type, but with generics, it requires reified types in inline functions for runtime checks."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Restricts to non-nullable types"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Restricts to non-nullable types"
+        ],
         "explanation": "A type parameter bound to Any restricts the generic type to non-nullable types, e.g., <T : Any>."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. Yes, using where clause"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. Yes, using where clause"
+        ],
         "explanation": "A generic type can have multiple upper bounds using the 'where' clause, e.g., fun <T> myFunction() where T : Number, T : Comparable<T>."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Compilation error"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Compilation error"
+        ],
         "explanation": "Using a generic type without specifying a type parameter results in a compilation error unless a star projection or default type is allowed."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Allows any nullable type"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Allows any nullable type"
+        ],
         "explanation": "Any? is the default upper bound for generic types in Kotlin, allowing any nullable type, including null."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Yes, with type parameters"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Yes, with type parameters"
+        ],
         "explanation": "Generic types can be used with extension functions, e.g., fun <T> List<T>.myExtension() {}, providing type-safe functionality."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Simplifies complex generic types"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Simplifies complex generic types"
+        ],
         "explanation": "A type alias simplifies complex generic types, e.g., typealias MyMap<K, V> = Map<K, V>, improving code readability."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Compilation error"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Compilation error"
+        ],
         "explanation": "If a generic type violates its upper bound, it results in a compilation error, as the type must conform to the specified constraint."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Yes, with type parameters"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Yes, with type parameters"
+        ],
         "explanation": "A generic type can be used with a sealed class, allowing type-safe hierarchies, e.g., sealed class Result<T>."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Improves type safety"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Improves type safety"
+        ],
         "explanation": "Generics improve type safety, reduce casting, and enable reusable code by allowing type parameters in classes and functions."
       }
     }

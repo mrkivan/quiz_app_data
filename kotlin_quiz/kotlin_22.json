@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. To provide type-safe view access"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. To provide type-safe view access"
+        ],
         "explanation": "View Binding provides type-safe access to views, eliminating the need for findViewById() and reducing boilerplate code."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [5],
-        "answer": ["A. Add viewBinding { enabled = true } in build.gradle"],
+        "answerId": [
+          5
+        ],
+        "answer": [
+          "A. Add viewBinding { enabled = true } in build.gradle"
+        ],
         "explanation": "View Binding is enabled by adding 'viewBinding { enabled = true }' in the module-level build.gradle file."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. ActivityMainBinding.inflate(layoutInflater)"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. ActivityMainBinding.inflate(layoutInflater)"
+        ],
         "explanation": "In an Activity, View Binding is initialized using ActivityMainBinding.inflate(layoutInflater), and the root view is set with setContentView(binding.root)."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. binding.textView"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. binding.textView"
+        ],
         "explanation": "Views are accessed via the binding object, e.g., binding.textView.text = \"Hello\", using the generated binding class."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. FragmentBinding.inflate(inflater, container, false)"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. FragmentBinding.inflate(inflater, container, false)"
+        ],
         "explanation": "In a Fragment, View Binding is initialized in onCreateView() using FragmentBinding.inflate(inflater, container, false), and binding.root is returned."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. To prevent memory leaks"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. To prevent memory leaks"
+        ],
         "explanation": "Nullifying the binding reference in onDestroyView() prevents memory leaks, as the view may be destroyed while the Fragment instance persists."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. ActivityMainBinding"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. ActivityMainBinding"
+        ],
         "explanation": "The View Binding class for activity_main.xml is named ActivityMainBinding, following camel case with 'Binding' appended."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. binding.button.setOnClickListener { }"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. binding.button.setOnClickListener { }"
+        ],
         "explanation": "A click listener is set using binding.button.setOnClickListener { /* action */ }, accessing the view directly via the binding object."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Compilation error"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Compilation error"
+        ],
         "explanation": "If View Binding is not enabled, the binding classes (e.g., ActivityMainBinding) are not generated, causing a compilation error when referenced."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. Yes, with include ID"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. Yes, with include ID"
+        ],
         "explanation": "View Binding supports included layouts, generating binding classes for <include> tags with IDs, accessible via binding.includeId."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. binding.includeLayout.textView"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. binding.includeLayout.textView"
+        ],
         "explanation": "Views in an included layout are accessed via the binding object for the include tag, e.g., binding.includeLayout.textView."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. Type safety and null safety"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. Type safety and null safety"
+        ],
         "explanation": "View Binding provides type safety and null safety, reducing runtime errors compared to findViewById(), which requires manual ID lookup."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. Yes, with inflate in onCreateViewHolder"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Yes, with inflate in onCreateViewHolder"
+        ],
         "explanation": "View Binding can be used in a RecyclerView Adapter by inflating the binding in onCreateViewHolder(), e.g., ItemBinding.inflate(inflater, parent, false)."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. ItemBinding.inflate(inflater, parent, false)"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. ItemBinding.inflate(inflater, parent, false)"
+        ],
         "explanation": "In a RecyclerView ViewHolder, View Binding is inflated using ItemBinding.inflate(inflater, parent, false) in onCreateViewHolder(), and the binding is stored in the ViewHolder."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. The top-level view of the layout"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. The top-level view of the layout"
+        ],
         "explanation": "The root view in View Binding is the top-level view of the layout, accessed via binding.root, used to set the content view or return from onCreateView()."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. No, only view access"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. No, only view access"
+        ],
         "explanation": "View Binding does not support data binding expressions; it only provides direct view access. Data Binding is a separate library for binding data to views."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. Set binding to null in onDestroyView()"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. Set binding to null in onDestroyView()"
+        ],
         "explanation": "To avoid memory leaks in a Fragment, store the binding in a nullable property and set it to null in onDestroyView()."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. inflate() creates new views, bind() uses existing views"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. inflate() creates new views, bind() uses existing views"
+        ],
         "explanation": "ViewBinding.inflate() creates a new view instance, while ViewBinding.bind() binds to an existing view, used in cases like ViewHolder or custom views."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Yes, with ViewBinding.bind()"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Yes, with ViewBinding.bind()"
+        ],
         "explanation": "View Binding can be used with custom views by using ViewBinding.bind(view) to bind to an existing custom view instance."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Compilation error"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Compilation error"
+        ],
         "explanation": "If a view ID is not found, View Binding generates a null-safe binding class, but accessing a missing ID causes a compilation error."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. setContentView(binding.root)"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. setContentView(binding.root)"
+        ],
         "explanation": "The content view is set using setContentView(binding.root) after initializing the binding with ActivityMainBinding.inflate(layoutInflater)."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Yes, with parent layout ID"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Yes, with parent layout ID"
+        ],
         "explanation": "View Binding supports merge layouts, but they must be included in a parent layout with an ID to generate a binding class."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. lateinit var for Activity lifecycle"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. lateinit var for Activity lifecycle"
+        ],
         "explanation": "The binding in an Activity should be a lateinit var, initialized in onCreate() and used throughout the Activity lifecycle."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Nullable var set to null in onDestroyView()"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Nullable var set to null in onDestroyView()"
+        ],
         "explanation": "In a Fragment, the binding should be a nullable var, initialized in onCreateView() and set to null in onDestroyView() to avoid memory leaks."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Yes, similar to RecyclerView"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Yes, similar to RecyclerView"
+        ],
         "explanation": "View Binding can be used with ViewPager2 adapters by inflating the binding in createFragment() or ViewHolder, similar to RecyclerView."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Null pointer or null"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Null pointer or null"
+        ],
         "explanation": "Accessing a binding property after onDestroyView() causes a null pointer exception if the binding is not nullable, or null if properly set to null."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. this.textView"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. this.textView"
+        ],
         "explanation": "In an extension function, the binding is accessed via the receiver, e.g., fun ActivityMainBinding.setText(text: String) { textView.text = text }."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Yes, with tools:viewBindingIgnore=\"true\""],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Yes, with tools:viewBindingIgnore=\"true\""
+        ],
         "explanation": "View Binding can be disabled for specific layouts by adding tools:viewBindingIgnore=\"true\" to the layout's root tag."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Safer and more explicit"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Safer and more explicit"
+        ],
         "explanation": "View Binding is safer and more explicit than Kotlin synthetic properties, avoiding runtime errors from ID mismatches and supporting all layouts."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Yes, with inflate and setContentView"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Yes, with inflate and setContentView"
+        ],
         "explanation": "View Binding can be used with Dialogs by inflating the binding, e.g., DialogBinding.inflate(layoutInflater), and setting the dialog's content view with binding.root."
       }
     }

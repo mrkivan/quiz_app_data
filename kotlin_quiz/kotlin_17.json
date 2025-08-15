@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. Defining custom operator behavior"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Defining custom operator behavior"
+        ],
         "explanation": "Operator overloading allows defining custom behavior for operators like +, -, *, etc., by implementing specific functions in a class."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. operator"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. operator"
+        ],
         "explanation": "The 'operator' keyword is used to define a function that overloads an operator, e.g., operator fun plus(other: MyClass): MyClass."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. plus"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. plus"
+        ],
         "explanation": "The 'plus' function is used to overload the '+' operator, e.g., operator fun plus(other: MyClass): MyClass."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. minus"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. minus"
+        ],
         "explanation": "The 'minus' function is used to overload the '-' operator, e.g., operator fun minus(other: MyClass): MyClass."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. times"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. times"
+        ],
         "explanation": "The 'times' function is used to overload the '*' operator, e.g., operator fun times(other: MyClass): MyClass."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. div"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. div"
+        ],
         "explanation": "The 'div' function is used to overload the '/' operator, e.g., operator fun div(other: MyClass): MyClass."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. rem"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. rem"
+        ],
         "explanation": "The 'rem' function is used to overload the '%' operator, e.g., operator fun rem(other: MyClass): MyClass."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. inc"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. inc"
+        ],
         "explanation": "The 'inc' function is used to overload the '++' operator, e.g., operator fun inc(): MyClass."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. dec"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. dec"
+        ],
         "explanation": "The 'dec' function is used to overload the '--' operator, e.g., operator fun dec(): MyClass."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. equals"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. equals"
+        ],
         "explanation": "The 'equals' function is used to overload the '==' operator, e.g., override fun equals(other: Any?): Boolean."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. get"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. get"
+        ],
         "explanation": "The 'get' function is used to overload the '[]' indexing operator for reading, e.g., operator fun get(index: Int): T."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. set"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. set"
+        ],
         "explanation": "The 'set' function is used to overload the '[]=' assignment operator, e.g., operator fun set(index: Int, value: T)."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. contains"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. contains"
+        ],
         "explanation": "The 'contains' function is used to overload the 'in' operator, e.g., operator fun contains(element: T): Boolean."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. rangeTo"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. rangeTo"
+        ],
         "explanation": "The 'rangeTo' function is used to overload the '..' operator, e.g., operator fun rangeTo(other: MyClass): ClosedRange<MyClass>."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. compareTo"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. compareTo"
+        ],
         "explanation": "The 'compareTo' function is used to overload comparison operators, e.g., operator fun compareTo(other: MyClass): Int."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Yes, as extension functions"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Yes, as extension functions"
+        ],
         "explanation": "Operator functions can be defined as extension functions, e.g., operator fun MyClass.plus(other: MyClass): MyClass, to extend existing types."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. Int"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. Int"
+        ],
         "explanation": "The 'compareTo' function returns an Int, where negative means less than, zero means equal, and positive means greater than."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. unaryMinus"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. unaryMinus"
+        ],
         "explanation": "The 'unaryMinus' function is used to overload the unary minus operator, e.g., operator fun unaryMinus(): MyClass."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. unaryPlus"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. unaryPlus"
+        ],
         "explanation": "The 'unaryPlus' function is used to overload the unary plus operator, e.g., operator fun unaryPlus(): MyClass."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. not"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. not"
+        ],
         "explanation": "The 'not' function is used to overload the '!' operator, e.g., operator fun not(): MyClass."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Yes, via equals function"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Yes, via equals function"
+        ],
         "explanation": "The '==' operator, overloaded via 'equals', handles null comparisons automatically, as it takes an Any? parameter."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Allows function-like calls"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Allows function-like calls"
+        ],
         "explanation": "The 'invoke' operator allows an object to be called like a function, e.g., operator fun invoke(): T, enabling syntax like obj()."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. Yes, like regular classes"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. Yes, like regular classes"
+        ],
         "explanation": "Data classes can define operator functions to overload operators, just like regular classes, to customize behavior."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Compilation error for operator use"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Compilation error for operator use"
+        ],
         "explanation": "Without the 'operator' keyword, the function cannot be used to overload an operator and is treated as a regular function, causing a compilation error if used as an operator."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. plusAssign"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. plusAssign"
+        ],
         "explanation": "The 'plusAssign' function is used to overload the '+=' operator, e.g., operator fun plusAssign(other: MyClass)."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. minusAssign"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. minusAssign"
+        ],
         "explanation": "The 'minusAssign' function is used to overload the '-=' operator, e.g., operator fun minusAssign(other: MyClass)."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Yes, with implementation"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Yes, with implementation"
+        ],
         "explanation": "Interfaces can declare operator functions, and implementing classes must provide the implementation, e.g., interface MyInterface { operator fun plus(other: MyInterface): MyInterface }."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Boolean"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Boolean"
+        ],
         "explanation": "The 'contains' function for the 'in' operator returns a Boolean, indicating whether an element is in the collection."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Yes, like regular classes"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Yes, like regular classes"
+        ],
         "explanation": "Sealed classes and their subclasses can define operator functions to overload operators, similar to regular classes."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Improves code readability"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Improves code readability"
+        ],
         "explanation": "Operator overloading improves code readability and expressiveness by allowing intuitive operator syntax for custom types."
       }
     }

@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. To prevent UI thread blocking"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. To prevent UI thread blocking"
+        ],
         "explanation": "Background threads prevent blocking the UI thread, ensuring a responsive app."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. Coroutines"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. Coroutines"
+        ],
         "explanation": "Coroutines simplify asynchronous programming with structured concurrency."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. To perform background tasks"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. To perform background tasks"
+        ],
         "explanation": "A Service performs long-running operations in the background without a UI."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. Dispatchers.IO"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. Dispatchers.IO"
+        ],
         "explanation": "Dispatchers.IO is used for background tasks like I/O operations."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. Schedules deferrable tasks"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. Schedules deferrable tasks"
+        ],
         "explanation": "WorkManager schedules deferrable, asynchronous tasks with constraints."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. AsyncTask"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. AsyncTask"
+        ],
         "explanation": "AsyncTask is deprecated in favor of Coroutines or WorkManager."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. startService()"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. startService()"
+        ],
         "explanation": "Use startService() with an Intent to start a Service."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. Performs noticeable tasks with a notification"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Performs noticeable tasks with a notification"
+        ],
         "explanation": "A Foreground Service performs noticeable tasks with a notification."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Dispatchers.Main"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Dispatchers.Main"
+        ],
         "explanation": "Dispatchers.Main is used for UI-related tasks on the main thread."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. stopService()"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. stopService()"
+        ],
         "explanation": "Use stopService() or stopSelf() to stop a Service."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. Handles intents in a background thread"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. Handles intents in a background thread"
+        ],
         "explanation": "IntentService handles asynchronous intents sequentially in a background thread."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. onStartCommand()"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. onStartCommand()"
+        ],
         "explanation": "onStartCommand() handles start commands in a Service."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. lifecycleScope.launch"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. lifecycleScope.launch"
+        ],
         "explanation": "Use lifecycleScope.launch to launch a coroutine tied to the Activity's lifecycle."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Schedules messages and runnables"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. Schedules messages and runnables"
+        ],
         "explanation": "Handler schedules messages and runnables on a thread's message queue."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. startForeground()"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. startForeground()"
+        ],
         "explanation": "startForeground() starts a Foreground Service with a notification."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. CPU-intensive tasks"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. CPU-intensive tasks"
+        ],
         "explanation": "Dispatchers.Default is used for CPU-intensive tasks like computations."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. bindService()"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. bindService()"
+        ],
         "explanation": "bindService() is used to bind to a Service for communication."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. UI freezes or ANR"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. UI freezes or ANR"
+        ],
         "explanation": "Running long tasks on the main thread causes UI freezes or ANR errors."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Worker"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Worker"
+        ],
         "explanation": "Worker defines a single task in WorkManager."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. OneTimeWorkRequest"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. OneTimeWorkRequest"
+        ],
         "explanation": "Use OneTimeWorkRequest to schedule a one-time task in WorkManager."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Processes intents sequentially"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Processes intents sequentially"
+        ],
         "explanation": "onHandleIntent() processes each Intent in IntentService sequentially."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. CoroutineScope(Dispatchers.IO)"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. CoroutineScope(Dispatchers.IO)"
+        ],
         "explanation": "Use CoroutineScope(Dispatchers.IO) or a custom scope for background tasks in a Service."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. Manages message queue for a thread"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. Manages message queue for a thread"
+        ],
         "explanation": "Looper manages the message queue for a thread."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. cancel()"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. cancel()"
+        ],
         "explanation": "Use cancel() on the Job returned by launch or async."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. PeriodicWorkRequest"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. PeriodicWorkRequest"
+        ],
         "explanation": "PeriodicWorkRequest schedules tasks that repeat at intervals."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Provides client-service communication"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Provides client-service communication"
+        ],
         "explanation": "onBind() provides a client-service communication interface."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Handler.post()"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Handler.post()"
+        ],
         "explanation": "Use Handler(Looper.getMainLooper()).post() to run code on the main thread."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. FOREGROUND_SERVICE"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. FOREGROUND_SERVICE"
+        ],
         "explanation": "FOREGROUND_SERVICE permission is required for Foreground Services."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Switches coroutine context"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Switches coroutine context"
+        ],
         "explanation": "withContext() switches the coroutine context, e.g., to a different dispatcher."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. WorkManager.enqueue()"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. WorkManager.enqueue()"
+        ],
         "explanation": "Use WorkManager.getInstance().enqueue() to schedule a task."
       }
     }

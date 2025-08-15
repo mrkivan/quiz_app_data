@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. Handle HTTP requests"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Handle HTTP requests"
+        ],
         "explanation": "Retrofit is a type-safe HTTP client for Android and Java, used to make network requests and handle responses."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. Retrofit.Builder().baseUrl().build()"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. Retrofit.Builder().baseUrl().build()"
+        ],
         "explanation": "A Retrofit instance is created using Retrofit.Builder().baseUrl().addConverterFactory().build()."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. Sends GET request"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. Sends GET request"
+        ],
         "explanation": "@GET specifies that the API method performs an HTTP GET request to the specified endpoint."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. Create an interface with annotated methods"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. Create an interface with annotated methods"
+        ],
         "explanation": "A Retrofit API is defined using an interface with annotated methods, e.g., interface ApiService { @GET('path') fun getData() }."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. GsonConverterFactory"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. GsonConverterFactory"
+        ],
         "explanation": "GsonConverterFactory is commonly used with Retrofit to parse JSON responses into Kotlin objects."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. Use @Query"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. Use @Query"
+        ],
         "explanation": "Query parameters are added using the @Query annotation in the API method, e.g., @Query('key') value: String."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. Use @POST and @Body"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. Use @POST and @Body"
+        ],
         "explanation": "A POST request with a JSON body uses @POST and @Body annotations, e.g., @POST('path') fun postData(@Body data: Data)."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. Use suspend fun"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Use suspend fun"
+        ],
         "explanation": "Coroutines are used by marking the API method with suspend and returning the response, e.g., suspend fun getData(): Response<Data>."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Handles HTTP requests"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Handles HTTP requests"
+        ],
         "explanation": "OkHttpClient handles the underlying HTTP requests, allowing customization like timeouts, interceptors, and retries."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. Use @Header or OkHttpClient"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. Use @Header or OkHttpClient"
+        ],
         "explanation": "Headers are added using the @Header annotation or by configuring an OkHttpClient with an interceptor."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. Executes HTTP request"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. Executes HTTP request"
+        ],
         "explanation": "Call<T> represents an HTTP request that can be executed synchronously or asynchronously to get a response."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. Check Response.isSuccessful"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. Check Response.isSuccessful"
+        ],
         "explanation": "A Retrofit response is handled in a coroutine by calling the suspend function and checking Response.isSuccessful."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. Use OkHttpClient with timeouts"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Use OkHttpClient with timeouts"
+        ],
         "explanation": "Timeouts are set by configuring an OkHttpClient with .connectTimeout() and .readTimeout() when building Retrofit."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Replaces URL path placeholder"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. Replaces URL path placeholder"
+        ],
         "explanation": "@Path replaces a placeholder in the URL path, e.g., @GET('users/{id}') fun getUser(@Path('id') id: String)."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. Use try-catch with suspend call"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Use try-catch with suspend call"
+        ],
         "explanation": "Errors are handled using try-catch blocks around the suspend function call, catching exceptions like HttpException or IOException."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. retrofit.create(ApiService::class.java)"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. retrofit.create(ApiService::class.java)"
+        ],
         "explanation": "An API service is created using retrofit.create(ApiService::class.java) after building the Retrofit instance."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. Sends form-encoded data"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. Sends form-encoded data"
+        ],
         "explanation": "@FormUrlEncoded is used with POST requests to send form-encoded data, typically with @Field parameters."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. Use @Multipart and @Part"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. Use @Multipart and @Part"
+        ],
         "explanation": "File uploads use @Multipart and @Part annotations, e.g., @Part MultipartBody.Part file, to send files in a POST request."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Use OkHttpClient.addInterceptor()"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Use OkHttpClient.addInterceptor()"
+        ],
         "explanation": "An interceptor is added to OkHttpClient using .addInterceptor() when building the client for Retrofit."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Encapsulates HTTP response"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Encapsulates HTTP response"
+        ],
         "explanation": "Response<T> encapsulates the HTTP response, including status code, headers, and body, for handling success or error cases."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Use LiveDataCallAdapterFactory"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Use LiveDataCallAdapterFactory"
+        ],
         "explanation": "Retrofit with LiveData requires a CallAdapterFactory like LiveDataCallAdapterFactory to return LiveData from API methods."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Use OkHttpClient interceptor"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Use OkHttpClient interceptor"
+        ],
         "explanation": "Authentication is handled by adding an interceptor to OkHttpClient to include tokens or credentials in request headers."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. Defines root URL for endpoints"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. Defines root URL for endpoints"
+        ],
         "explanation": "The baseUrl defines the root URL for all API endpoints, appended with paths specified in API methods."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Check Response.code()"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Check Response.code()"
+        ],
         "explanation": "A 401 error is handled by checking Response.code() in a coroutine or callback and implementing token refresh logic."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Map JSON with data classes"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Map JSON with data classes"
+        ],
         "explanation": "Kotlin data classes are used with Gson or Moshi to automatically map JSON responses to objects in Retrofit API calls."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Converts Call<T> to other types"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Converts Call<T> to other types"
+        ],
         "explanation": "CallAdapter converts Retrofit's Call<T> into another type, like LiveData or suspend functions, for easier integration."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Use Call<T>.cancel()"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Use Call<T>.cancel()"
+        ],
         "explanation": "A Retrofit request is canceled by calling cancel() on the Call<T> object, e.g., call.cancel()."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Use FlowCallAdapterFactory"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Use FlowCallAdapterFactory"
+        ],
         "explanation": "Retrofit with Flow requires a FlowCallAdapterFactory and returning Flow<T> from the API method."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Maps JSON field to property"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Maps JSON field to property"
+        ],
         "explanation": "@SerializedName maps a JSON field name to a Kotlin data class property, handling mismatched names."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Use MockWebServer"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Use MockWebServer"
+        ],
         "explanation": "Retrofit API calls are tested using a MockWebServer to simulate responses and verify requests in unit tests."
       }
     }

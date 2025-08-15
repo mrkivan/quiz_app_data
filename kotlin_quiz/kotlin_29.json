@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. Load and display images"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Load and display images"
+        ],
         "explanation": "Glide and Picasso are libraries used to load and display images efficiently in Android applications."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. Glide.with(context).load(url).into(imageView)"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. Glide.with(context).load(url).into(imageView)"
+        ],
         "explanation": "Glide uses Glide.with(context).load(url).into(imageView) to load an image into an ImageView."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. Picasso.get().load(url).into(imageView)"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. Picasso.get().load(url).into(imageView)"
+        ],
         "explanation": "Picasso uses Picasso.get().load(url).into(imageView) to load an image into an ImageView."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. Memory and disk caching"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. Memory and disk caching"
+        ],
         "explanation": "Glide uses automatic caching, combining memory and disk caching to optimize performance."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. Memory and disk caching"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. Memory and disk caching"
+        ],
         "explanation": "Picasso uses memory and disk caching by default to optimize image loading performance."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. Use .placeholder(R.drawable.placeholder)"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. Use .placeholder(R.drawable.placeholder)"
+        ],
         "explanation": "Use .placeholder(R.drawable.placeholder) in the Glide request to set a placeholder image."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. Use .placeholder(R.drawable.placeholder)"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. Use .placeholder(R.drawable.placeholder)"
+        ],
         "explanation": "Use .placeholder(R.drawable.placeholder) in the Picasso request to set a placeholder image."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. Use .error(R.drawable.error) or .listener()"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Use .error(R.drawable.error) or .listener()"
+        ],
         "explanation": "Use .error(R.drawable.error) to set an error image or .listener() to handle errors in Glide."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Use .error(R.drawable.error) or Callback"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Use .error(R.drawable.error) or Callback"
+        ],
         "explanation": "Use .error(R.drawable.error) to set an error image or a Callback to handle errors in Picasso."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. Use .override(width, height)"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. Use .override(width, height)"
+        ],
         "explanation": "Use .override(width, height) to resize an image in Glide before loading it into an ImageView."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. Use .resize(width, height)"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. Use .resize(width, height)"
+        ],
         "explanation": "Use .resize(width, height) to resize an image in Picasso before loading it into an ImageView."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. Use .circleCrop()"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. Use .circleCrop()"
+        ],
         "explanation": "Use .circleCrop() to apply a circular transformation to an image in Glide."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. Use .transform(CircleTransformation())"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Use .transform(CircleTransformation())"
+        ],
         "explanation": "Use .transform(CircleTransformation()) to apply a circular transformation to an image in Picasso."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Use Glide.get(context).clearMemory()"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. Use Glide.get(context).clearMemory()"
+        ],
         "explanation": "Use Glide.get(context).clearMemory() to clear Glide's memory cache."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. Use Picasso.get().invalidate(url)"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Use Picasso.get().invalidate(url)"
+        ],
         "explanation": "Use Picasso.get().invalidate(url) to clear the cache for a specific URL or clear the entire cache manually."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Use .load(R.drawable.image)"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Use .load(R.drawable.image)"
+        ],
         "explanation": "Use .load(R.drawable.image) to load a local resource image with Glide."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. Use .load(R.drawable.image)"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. Use .load(R.drawable.image)"
+        ],
         "explanation": "Use .load(R.drawable.image) to load a local resource image with Picasso."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. Use .diskCacheStrategy(DiskCacheStrategy.NONE)"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. Use .diskCacheStrategy(DiskCacheStrategy.NONE)"
+        ],
         "explanation": "Use .diskCacheStrategy(DiskCacheStrategy.NONE) to disable caching for a specific Glide request."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. Use .memoryPolicy(MemoryPolicy.NO_CACHE)"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. Use .memoryPolicy(MemoryPolicy.NO_CACHE)"
+        ],
         "explanation": "Use .memoryPolicy(MemoryPolicy.NO_CACHE) to disable memory caching for a specific Picasso request."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Use .transition(DrawableTransitionOptions.withCrossFade())"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Use .transition(DrawableTransitionOptions.withCrossFade())"
+        ],
         "explanation": "Use .transition(DrawableTransitionOptions.withCrossFade()) to apply a fade animation in Glide."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. Use .rotate(degrees)"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. Use .rotate(degrees)"
+        ],
         "explanation": "Use .rotate(degrees) to apply a rotation transformation to an image in Picasso."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Use .load(file)"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Use .load(file)"
+        ],
         "explanation": "Use .load(file) to load an image from a File object in Glide."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. Use .load(file)"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. Use .load(file)"
+        ],
         "explanation": "Use .load(file) to load an image from a File object in Picasso."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. Use .centerCrop()"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. Use .centerCrop()"
+        ],
         "explanation": "Use .centerCrop() to center crop an image in Glide, filling the ImageView while cropping excess."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Use .centerCrop()"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Use .centerCrop()"
+        ],
         "explanation": "Use .centerCrop() to center crop an image in Picasso, filling the ImageView while cropping excess."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Use .load().into()"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Use .load().into()"
+        ],
         "explanation": "Glide loads images asynchronously by default using .load().into()."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Use .load().into()"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Use .load().into()"
+        ],
         "explanation": "Picasso loads images asynchronously by default using .load().into()."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. Use .apply(RequestOptions().centerCrop())"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. Use .apply(RequestOptions().centerCrop())"
+        ],
         "explanation": "Use .apply(RequestOptions().centerCrop()) to apply custom RequestOptions in Glide."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. Use Picasso.Builder(context).downloader(OkHttp3Downloader(client))"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. Use Picasso.Builder(context).downloader(OkHttp3Downloader(client))"
+        ],
         "explanation": "Use Picasso.Builder(context).downloader(OkHttp3Downloader(client)) to configure Picasso with a custom OkHttpClient."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Use .asGif()"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Use .asGif()"
+        ],
         "explanation": "Use .asGif() to load a GIF with Glide, ensuring it is displayed as an animated image."
       }
     }

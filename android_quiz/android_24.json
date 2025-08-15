@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [1],
-        "answer": ["A. Device Manager"],
+        "answerId": [
+          1
+        ],
+        "answer": [
+          "A. Device Manager"
+        ],
         "explanation": "The AVD Manager in Android Studio is used to create, configure, and manage Android Virtual Devices for testing apps."
       }
     },
@@ -84,8 +88,16 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [5, 6, 8],
-        "answer": ["A. Logcat", "B. Debugger", "D. Breakpoints"],
+        "answerId": [
+          5,
+          6,
+          8
+        ],
+        "answer": [
+          "A. Logcat",
+          "B. Debugger",
+          "D. Breakpoints"
+        ],
         "explanation": "Logcat, Debugger, and Breakpoints are key debugging tools in Android Studio for monitoring logs, stepping through code, and pausing execution."
       }
     },
@@ -114,8 +126,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [9],
-        "answer": ["A. True"],
+        "answerId": [
+          9
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "The Layout Inspector in Android Studio can display a view hierarchy in a 3D perspective, helping developers visualize UI structure."
       }
     },
@@ -158,8 +174,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [12],
-        "answer": ["B. Compose Preview"],
+        "answerId": [
+          12
+        ],
+        "answer": [
+          "B. Compose Preview"
+        ],
         "explanation": "The Compose Preview feature in Android Studio provides real-time previews of Jetpack Compose UI components."
       }
     },
@@ -202,8 +222,16 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [15, 16, 18],
-        "answer": ["A. build.gradle (Project)", "B. build.gradle (Module)", "D. settings.gradle"],
+        "answerId": [
+          15,
+          16,
+          18
+        ],
+        "answer": [
+          "A. build.gradle (Project)",
+          "B. build.gradle (Module)",
+          "D. settings.gradle"
+        ],
         "explanation": "Android Studio projects use build.gradle (Project), build.gradle (Module), and settings.gradle for build configurations and project settings."
       }
     },
@@ -232,8 +260,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [19],
-        "answer": ["A. True"],
+        "answerId": [
+          19
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "The Android Studio Profiler monitors CPU, memory, network, and battery usage to analyze app performance."
       }
     },
@@ -276,8 +308,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [22],
-        "answer": ["B. JUnit"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. JUnit"
+        ],
         "explanation": "JUnit is the primary framework used in Android Studio for creating and running unit tests."
       }
     },
@@ -320,8 +356,16 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [25, 26, 28],
-        "answer": ["A. Layout Editor", "B. Compose Preview", "D. Layout Validation"],
+        "answerId": [
+          25,
+          26,
+          28
+        ],
+        "answer": [
+          "A. Layout Editor",
+          "B. Compose Preview",
+          "D. Layout Validation"
+        ],
         "explanation": "Layout Editor, Compose Preview, and Layout Validation are key Android Studio features for designing and validating UI layouts."
       }
     },
@@ -364,8 +408,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [30],
-        "answer": ["B. API 21"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. API 21"
+        ],
         "explanation": "Android Studio Narwhal (2025.1.1) supports a minimum API level of 21 (Android 5.0 Lollipop) for app development."
       }
     },
@@ -394,8 +442,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [33],
-        "answer": ["A. True"],
+        "answerId": [
+          33
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "The Android Studio Emulator supports foldable device configurations, allowing developers to test apps on virtual foldable devices."
       }
     },
@@ -438,8 +490,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [36],
-        "answer": ["B. build.gradle (Module)"],
+        "answerId": [
+          36
+        ],
+        "answer": [
+          "B. build.gradle (Module)"
+        ],
         "explanation": "The build.gradle (Module) file defines dependencies, such as libraries and SDK versions, for an Android Studio project."
       }
     },
@@ -482,8 +538,16 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [39, 40, 42],
-        "answer": ["A. JUnit", "B. Espresso", "D. Robolectric"],
+        "answerId": [
+          39,
+          40,
+          42
+        ],
+        "answer": [
+          "A. JUnit",
+          "B. Espresso",
+          "D. Robolectric"
+        ],
         "explanation": "Android Studio supports JUnit, Espresso, and Robolectric for unit and UI testing of Android apps."
       }
     },
@@ -526,8 +590,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [44],
-        "answer": ["B. SDK versions and tools"],
+        "answerId": [
+          44
+        ],
+        "answer": [
+          "B. SDK versions and tools"
+        ],
         "explanation": "The SDK Manager manages Android SDK versions, platform tools, and system images for emulators."
       }
     },
@@ -556,8 +624,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [48],
-        "answer": ["B. False"],
+        "answerId": [
+          48
+        ],
+        "answer": [
+          "B. False"
+        ],
         "explanation": "The Layout Editor supports XML layouts, but Jetpack Compose layouts are managed via the Compose Preview tool."
       }
     },
@@ -600,8 +672,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [49],
-        "answer": ["A. Test Matrix"],
+        "answerId": [
+          49
+        ],
+        "answer": [
+          "A. Test Matrix"
+        ],
         "explanation": "The Test Matrix tool window in Android Studio visualizes test results across multiple device configurations."
       }
     },
@@ -644,8 +720,14 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [53, 54],
-        "answer": ["A. Virtual devices", "B. Physical devices"],
+        "answerId": [
+          53,
+          54
+        ],
+        "answer": [
+          "A. Virtual devices",
+          "B. Physical devices"
+        ],
         "explanation": "The Device Manager manages virtual devices and physical devices for testing and debugging apps."
       }
     },
@@ -674,8 +756,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [57],
-        "answer": ["A. True"],
+        "answerId": [
+          57
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "The Android Studio Debugger supports Kotlin Multiplatform projects, with enhanced features in the KMP plugin."
       }
     },
@@ -718,8 +804,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [60],
-        "answer": ["B. Profiler"],
+        "answerId": [
+          60
+        ],
+        "answer": [
+          "B. Profiler"
+        ],
         "explanation": "The Profiler in Android Studio analyzes app performance, including CPU, memory, network, and battery usage."
       }
     },
@@ -762,8 +852,16 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [63, 64, 66],
-        "answer": ["A. KMP plugin", "B. Compose Preview", "D. Debugger"],
+        "answerId": [
+          63,
+          64,
+          66
+        ],
+        "answer": [
+          "A. KMP plugin",
+          "B. Compose Preview",
+          "D. Debugger"
+        ],
         "explanation": "The KMP plugin, Compose Preview, and Debugger support Kotlin Multiplatform development in Android Studio."
       }
     },
@@ -792,8 +890,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [67],
-        "answer": ["A. True"],
+        "answerId": [
+          67
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "The Layout Validation tool in Android Studio allows previewing layouts across multiple screen sizes and configurations."
       }
     },
@@ -836,8 +938,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [70],
-        "answer": ["B. settings.gradle"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. settings.gradle"
+        ],
         "explanation": "The settings.gradle file specifies the project structure, including module names and configurations."
       }
     },
@@ -880,8 +986,16 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [73, 74, 76],
-        "answer": ["A. CPU Profiler", "B. Memory Profiler", "D. Network Profiler"],
+        "answerId": [
+          73,
+          74,
+          76
+        ],
+        "answer": [
+          "A. CPU Profiler",
+          "B. Memory Profiler",
+          "D. Network Profiler"
+        ],
         "explanation": "The CPU Profiler, Memory Profiler, and Network Profiler are used for performance profiling in Android Studio."
       }
     },
@@ -924,8 +1038,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [78],
-        "answer": ["B. To display system logs"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. To display system logs"
+        ],
         "explanation": "Logcat displays system and app logs, helping developers debug issues by viewing runtime messages."
       }
     },
@@ -954,8 +1072,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [81],
-        "answer": ["A. True"],
+        "answerId": [
+          81
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Android Studio supports running tests via the command line using Gradle or ADB for fine-grained control."
       }
     },
@@ -998,8 +1120,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [84],
-        "answer": ["B. SDK Manager"],
+        "answerId": [
+          84
+        ],
+        "answer": [
+          "B. SDK Manager"
+        ],
         "explanation": "The SDK Manager checks for SDK and environment issues, recommending fixes for missing or outdated components."
       }
     },
@@ -1042,8 +1168,16 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [87, 88, 90],
-        "answer": ["A. Drag-and-drop UI design", "B. XML editing", "D. Constraint adjustments"],
+        "answerId": [
+          87,
+          88,
+          90
+        ],
+        "answer": [
+          "A. Drag-and-drop UI design",
+          "B. XML editing",
+          "D. Constraint adjustments"
+        ],
         "explanation": "The Layout Editor supports drag-and-drop UI design, XML editing, and constraint adjustments for View-based layouts."
       }
     },
@@ -1086,8 +1220,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [92],
-        "answer": ["B. To communicate with devices"],
+        "answerId": [
+          92
+        ],
+        "answer": [
+          "B. To communicate with devices"
+        ],
         "explanation": "ADB enables communication between Android Studio and devices for debugging, testing, and installing apps."
       }
     },
@@ -1116,8 +1254,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [95],
-        "answer": ["A. True"],
+        "answerId": [
+          95
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "The Android Studio Emulator supports both ARM and x86 system images for different device architectures."
       }
     },
@@ -1160,8 +1302,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [98],
-        "answer": ["B. Layout Inspector"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Layout Inspector"
+        ],
         "explanation": "The Layout Inspector allows developers to inspect view properties and hierarchies during app debugging."
       }
     },
@@ -1204,8 +1350,16 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [101, 102, 104],
-        "answer": ["A. Device definitions", "B. System images", "D. Hardware profiles"],
+        "answerId": [
+          101,
+          102,
+          104
+        ],
+        "answer": [
+          "A. Device definitions",
+          "B. System images",
+          "D. Hardware profiles"
+        ],
         "explanation": "The AVD Manager allows configuring device definitions, system images, and hardware profiles for virtual devices."
       }
     }

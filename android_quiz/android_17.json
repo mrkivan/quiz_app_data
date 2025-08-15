@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. ComposeTestRule"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. ComposeTestRule"
+        ],
         "explanation": "ComposeTestRule provides the environment to test Compose UI components."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. createComposeRule"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. createComposeRule"
+        ],
         "explanation": "createComposeRule sets up a ComposeTestRule for testing Compose UI."
       }
     },
@@ -114,8 +122,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [9],
-        "answer": ["A. True"],
+        "answerId": [
+          9
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Screenshot testing verifies UI by comparing rendered output to a reference image."
       }
     },
@@ -158,8 +170,16 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [11, 12, 14],
-        "answer": ["A. Roborazzi", "B. Shot", "D. Paparazzi"],
+        "answerId": [
+          11,
+          12,
+          14
+        ],
+        "answer": [
+          "A. Roborazzi",
+          "B. Shot",
+          "D. Paparazzi"
+        ],
         "explanation": "Roborazzi, Shot, and Paparazzi are used for screenshot testing, but Espresso is for UI interaction testing."
       }
     },
@@ -202,8 +222,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [16],
-        "answer": ["B. findByText"],
+        "answerId": [
+          16
+        ],
+        "answer": [
+          "B. findByText"
+        ],
         "explanation": "findByText locates a composable based on its displayed text."
       }
     },
@@ -232,8 +256,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [20],
-        "answer": ["B. False"],
+        "answerId": [
+          20
+        ],
+        "answer": [
+          "B. False"
+        ],
         "explanation": "Screenshot tests can run on emulators or JVM with libraries like Paparazzi, not requiring a physical device."
       }
     },
@@ -276,8 +304,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [22],
-        "answer": ["B. findByTag"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. findByTag"
+        ],
         "explanation": "findByTag locates a composable using its assigned test tag."
       }
     },
@@ -320,8 +352,16 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [25, 26, 28],
-        "answer": ["A. Use test tags", "B. Test semantics", "D. Isolate composables"],
+        "answerId": [
+          25,
+          26,
+          28
+        ],
+        "answer": [
+          "A. Use test tags",
+          "B. Test semantics",
+          "D. Isolate composables"
+        ],
         "explanation": "Using test tags, testing semantics, and isolating composables are best practices, but large fonts are unrelated."
       }
     },
@@ -364,8 +404,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [30],
-        "answer": ["B. Paparazzi"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Paparazzi"
+        ],
         "explanation": "Paparazzi runs screenshot tests on the JVM without requiring a device or emulator."
       }
     },
@@ -394,8 +438,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [33],
-        "answer": ["A. True"],
+        "answerId": [
+          33
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Screenshot tests can be flaky on different devices due to variations in rendering, but libraries like Paparazzi mitigate this."
       }
     },
@@ -438,8 +486,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [36],
-        "answer": ["B. Modifier.testTag"],
+        "answerId": [
+          36
+        ],
+        "answer": [
+          "B. Modifier.testTag"
+        ],
         "explanation": "Modifier.testTag assigns a unique identifier for testing a composable."
       }
     },
@@ -482,8 +534,16 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [39, 40, 42],
-        "answer": ["A. Semantics", "B. Content descriptions", "D. Role properties"],
+        "answerId": [
+          39,
+          40,
+          42
+        ],
+        "answer": [
+          "A. Semantics",
+          "B. Content descriptions",
+          "D. Role properties"
+        ],
         "explanation": "Semantics, content descriptions, and role properties are used for accessibility testing, but font size is unrelated."
       }
     },
@@ -526,8 +586,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [44],
-        "answer": ["B. Shot"],
+        "answerId": [
+          44
+        ],
+        "answer": [
+          "B. Shot"
+        ],
         "explanation": "Shot is optimized for screenshot testing on devices and emulators."
       }
     },
@@ -556,8 +620,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [47],
-        "answer": ["A. True"],
+        "answerId": [
+          47
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "ComposeTestRule supports testing user interactions like clicks and text input."
       }
     },
@@ -600,8 +668,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [50],
-        "answer": ["B. assertIsDisplayed"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. assertIsDisplayed"
+        ],
         "explanation": "assertIsDisplayed verifies that a composable is visible in the UI."
       }
     },
@@ -644,8 +716,16 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [53, 54, 56],
-        "answer": ["A. Device rendering differences", "B. Dynamic content", "D. Image storage management"],
+        "answerId": [
+          53,
+          54,
+          56
+        ],
+        "answer": [
+          "A. Device rendering differences",
+          "B. Dynamic content",
+          "D. Image storage management"
+        ],
         "explanation": "Device differences, dynamic content, and image storage are challenges, but text alignment is unrelated."
       }
     },
@@ -688,8 +768,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [58],
-        "answer": ["B. Roborazzi"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. Roborazzi"
+        ],
         "explanation": "Roborazzi supports record and compare modes for screenshot testing."
       }
     },
@@ -718,8 +802,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [61],
-        "answer": ["A. True"],
+        "answerId": [
+          61
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Semantics properties like content descriptions are testable using ComposeTestRule."
       }
     },
@@ -762,8 +850,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [64],
-        "answer": ["B. performClick"],
+        "answerId": [
+          64
+        ],
+        "answer": [
+          "B. performClick"
+        ],
         "explanation": "performClick simulates a user click on a composable during testing."
       }
     },
@@ -806,8 +898,16 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [67, 68, 70],
-        "answer": ["A. Use fixed themes", "B. Use mock data", "D. Use JVM-based testing"],
+        "answerId": [
+          67,
+          68,
+          70
+        ],
+        "answer": [
+          "A. Use fixed themes",
+          "B. Use mock data",
+          "D. Use JVM-based testing"
+        ],
         "explanation": "Fixed themes, mock data, and JVM testing improve reliability, but large fonts do not."
       }
     },
@@ -850,8 +950,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [72],
-        "answer": ["B. assertTextEquals"],
+        "answerId": [
+          72
+        ],
+        "answer": [
+          "B. assertTextEquals"
+        ],
         "explanation": "assertTextEquals verifies the text content of a composable."
       }
     },
@@ -880,8 +984,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [75],
-        "answer": ["A. True"],
+        "answerId": [
+          75
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Screenshot tests can verify UI in dark mode by setting the appropriate theme."
       }
     },
@@ -924,8 +1032,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [78],
-        "answer": ["B. performTextInput"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. performTextInput"
+        ],
         "explanation": "performTextInput simulates text input in a composable during testing."
       }
     },
@@ -968,8 +1080,16 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [81, 82, 84],
-        "answer": ["A. Use fixed configurations", "B. Use mock data", "D. Version control reference images"],
+        "answerId": [
+          81,
+          82,
+          84
+        ],
+        "answer": [
+          "A. Use fixed configurations",
+          "B. Use mock data",
+          "D. Version control reference images"
+        ],
         "explanation": "Fixed configurations, mock data, and version control for images are best practices, but animations are avoided."
       }
     },
@@ -1012,8 +1132,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [86],
-        "answer": ["B. hasContentDescription"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. hasContentDescription"
+        ],
         "explanation": "hasContentDescription verifies a composable's semantics property for accessibility."
       }
     },
@@ -1042,8 +1166,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [89],
-        "answer": ["A. True"],
+        "answerId": [
+          89
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Screenshot tests can detect layout regressions by comparing UI to reference images."
       }
     },
@@ -1086,8 +1214,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [92],
-        "answer": ["B. performScrollTo"],
+        "answerId": [
+          92
+        ],
+        "answer": [
+          "B. performScrollTo"
+        ],
         "explanation": "performScrollTo scrolls to a composable in a scrollable layout during testing."
       }
     },
@@ -1130,8 +1262,16 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [95, 96, 98],
-        "answer": ["A. Ensure theme consistency", "B. Use static content", "D. Update reference images"],
+        "answerId": [
+          95,
+          96,
+          98
+        ],
+        "answer": [
+          "A. Ensure theme consistency",
+          "B. Use static content",
+          "D. Update reference images"
+        ],
         "explanation": "Theme consistency, static content, and reference image updates are considerations, but animations are avoided."
       }
     },
@@ -1174,8 +1314,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [100],
-        "answer": ["B. androidx.compose.ui:ui-test-junit4"],
+        "answerId": [
+          100
+        ],
+        "answer": [
+          "B. androidx.compose.ui:ui-test-junit4"
+        ],
         "explanation": "androidx.compose.ui:ui-test-junit4 provides testing support for Compose UI."
       }
     },
@@ -1204,8 +1348,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [103],
-        "answer": ["A. True"],
+        "answerId": [
+          103
+        ],
+        "answer": [
+          "A. True"
+        ],
         "explanation": "Screenshot tests can verify font rendering by comparing visual output to reference images."
       }
     }

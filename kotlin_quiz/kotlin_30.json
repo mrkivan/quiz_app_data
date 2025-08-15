@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. Provide cloud-based tools"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Provide cloud-based tools"
+        ],
         "explanation": "Firebase provides a suite of cloud-based tools for building and managing Android apps, including authentication, database, and analytics."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. FirebaseApp.initializeApp(context)"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. FirebaseApp.initializeApp(context)"
+        ],
         "explanation": "Firebase is initialized using FirebaseApp.initializeApp(context) in the Application class or Activity."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. Firebase Authentication"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. Firebase Authentication"
+        ],
         "explanation": "Firebase Authentication is used to manage user authentication in Android apps."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password)"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password)"
+        ],
         "explanation": "Use FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password) to sign in a user."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. Firestore"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. Firestore"
+        ],
         "explanation": "Firestore is Firebase's NoSQL cloud database for storing and syncing data."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. FirebaseFirestore.getInstance()"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. FirebaseFirestore.getInstance()"
+        ],
         "explanation": "Use FirebaseFirestore.getInstance() to get a Firestore instance in Kotlin."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. collection().add(data)"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. collection().add(data)"
+        ],
         "explanation": "Use collection().add(data) to add a document with an auto-generated ID to a Firestore collection."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. collection().get()"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. collection().get()"
+        ],
         "explanation": "Use collection().get() to retrieve data from a Firestore collection asynchronously."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Realtime Database"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Realtime Database"
+        ],
         "explanation": "Realtime Database is used for real-time data synchronization in Firebase."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. FirebaseDatabase.getInstance()"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. FirebaseDatabase.getInstance()"
+        ],
         "explanation": "Use FirebaseDatabase.getInstance() to get an instance of Firebase Realtime Database."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. reference.setValue(data)"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. reference.setValue(data)"
+        ],
         "explanation": "Use reference.setValue(data) to write data to a specific reference in Realtime Database."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. addValueEventListener()"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. addValueEventListener()"
+        ],
         "explanation": "Use addValueEventListener() to listen for real-time data changes in Realtime Database."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. Cloud Storage"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. Cloud Storage"
+        ],
         "explanation": "Cloud Storage is used for storing files such as images and videos in Firebase."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. storageReference.putFile(fileUri)"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. storageReference.putFile(fileUri)"
+        ],
         "explanation": "Use storageReference.putFile(fileUri) to upload a file to Cloud Storage."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. storageReference.downloadUrl or getFile()"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. storageReference.downloadUrl or getFile()"
+        ],
         "explanation": "Use storageReference.downloadUrl to get a downloadable URL or getFile() to download directly to a file."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Firebase Cloud Messaging"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Firebase Cloud Messaging"
+        ],
         "explanation": "Firebase Cloud Messaging (FCM) is used for sending push notifications in Android apps."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. Extend FirebaseMessagingService"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. Extend FirebaseMessagingService"
+        ],
         "explanation": "Extend FirebaseMessagingService and override onMessageReceived to handle FCM notifications."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. FirebaseAnalytics.getInstance(context).logEvent(eventName, bundle)"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. FirebaseAnalytics.getInstance(context).logEvent(eventName, bundle)"
+        ],
         "explanation": "Use FirebaseAnalytics.getInstance(context).logEvent(eventName, bundle) to log custom events."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. FirebaseAuth.getInstance().signOut()"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. FirebaseAuth.getInstance().signOut()"
+        ],
         "explanation": "Use FirebaseAuth.getInstance().signOut() to sign out a user from Firebase Authentication."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. FirebaseAuth.getInstance().currentUser"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. FirebaseAuth.getInstance().currentUser"
+        ],
         "explanation": "Use FirebaseAuth.getInstance().currentUser to check if a user is signed in and get their details."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. collection().whereEqualTo(field, value).get()"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. collection().whereEqualTo(field, value).get()"
+        ],
         "explanation": "Use collection().whereEqualTo(field, value).get() to query Firestore for documents matching specific criteria."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. addSnapshotListener()"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. addSnapshotListener()"
+        ],
         "explanation": "Use addSnapshotListener() to listen for real-time updates in Firestore collections or documents."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. FirebaseRemoteConfig.getInstance().setDefaultsAsync()"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. FirebaseRemoteConfig.getInstance().setDefaultsAsync()"
+        ],
         "explanation": "Use FirebaseRemoteConfig.getInstance() and set defaults with setDefaultsAsync() to configure Remote Config."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. FirebaseRemoteConfig.getInstance().fetchAndActivate()"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. FirebaseRemoteConfig.getInstance().fetchAndActivate()"
+        ],
         "explanation": "Use FirebaseRemoteConfig.getInstance().fetchAndActivate() to fetch and activate Remote Config values."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. FirestoreSettings.Builder().setPersistenceEnabled(true)"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. FirestoreSettings.Builder().setPersistenceEnabled(true)"
+        ],
         "explanation": "Use FirebaseFirestore.getInstance().firestoreSettings = FirestoreSettings.Builder().setPersistenceEnabled(true).build() to enable offline persistence."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. document().update(field, value)"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. document().update(field, value)"
+        ],
         "explanation": "Use document().update(field, value) to update specific fields in a Firestore document."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. document().delete()"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. document().delete()"
+        ],
         "explanation": "Use document().delete() to delete a specific document in Firestore."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. FirebaseAuth.getInstance().addAuthStateListener()"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. FirebaseAuth.getInstance().addAuthStateListener()"
+        ],
         "explanation": "Use FirebaseAuth.getInstance().addAuthStateListener() to listen for authentication state changes."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. FirebaseCrashlytics.getInstance()"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. FirebaseCrashlytics.getInstance()"
+        ],
         "explanation": "Enable Crashlytics with FirebaseCrashlytics.getInstance() and ensure it’s enabled in the Firebase console."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. FirebaseCrashlytics.getInstance().log(message)"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. FirebaseCrashlytics.getInstance().log(message)"
+        ],
         "explanation": "Use FirebaseCrashlytics.getInstance().log(message) to log custom messages for Crashlytics."
       }
     }

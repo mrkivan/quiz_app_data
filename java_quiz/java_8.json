@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. Stream"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. Stream"
+        ],
         "explanation": "The 'Stream' interface in the java.util.stream package is the core interface for stream operations in Java."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. stream()"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. stream()"
+        ],
         "explanation": "The 'stream()' method is used to create a sequential stream from a collection."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. filter()"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. filter()"
+        ],
         "explanation": "The 'filter()' method takes a predicate and returns a stream consisting of elements that match the predicate."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. Transforms elements"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. Transforms elements"
+        ],
         "explanation": "The 'map()' method transforms each element in the stream using a provided function and returns a new stream with the transformed elements."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. collect()"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. collect()"
+        ],
         "explanation": "The 'collect()' method is a terminal operation that gathers stream elements into a collection using a collector."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. Perform an action on each element"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. Perform an action on each element"
+        ],
         "explanation": "The 'forEach()' method is a terminal operation that performs an action for each element in the stream."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. parallelStream()"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. parallelStream()"
+        ],
         "explanation": "The 'parallelStream()' method creates a parallel stream from a collection, enabling parallel processing."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. Combines elements into a single result"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Combines elements into a single result"
+        ],
         "explanation": "The 'reduce()' method combines stream elements into a single result using a binary operator."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Collectors"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Collectors"
+        ],
         "explanation": "The 'Collectors' class provides static utility methods to create collectors for common operations like toList(), toSet(), etc."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. Sorts elements"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. Sorts elements"
+        ],
         "explanation": "The 'sorted()' method sorts the elements of the stream according to their natural order or a provided comparator."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. generate()"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. generate()"
+        ],
         "explanation": "The 'generate()' method creates an infinite stream using a supplier function."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. Removes duplicates"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. Removes duplicates"
+        ],
         "explanation": "The 'distinct()' method returns a stream with duplicate elements removed, based on their equals() method."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. limit()"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. limit()"
+        ],
         "explanation": "The 'limit()' method truncates the stream to a specified number of elements."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. Discards the first n elements"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. Discards the first n elements"
+        ],
         "explanation": "The 'skip()' method discards the first n elements of the stream and returns the remaining elements."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. allMatch()"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. allMatch()"
+        ],
         "explanation": "The 'allMatch()' method returns true if all elements in the stream satisfy the provided predicate."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. Checks if at least one element matches"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. Checks if at least one element matches"
+        ],
         "explanation": "The 'anyMatch()' method returns true if at least one element in the stream satisfies the provided predicate."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. findFirst()"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. findFirst()"
+        ],
         "explanation": "The 'findFirst()' method returns an Optional containing the first element of the stream, or an empty Optional if the stream is empty."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. Finds any element"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. Finds any element"
+        ],
         "explanation": "The 'findAny()' method returns an Optional containing any element of the stream, useful in parallel streams for performance."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. concat()"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. concat()"
+        ],
         "explanation": "The 'concat()' method is a static method in the Stream interface that concatenates two streams into one."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. Debug or inspect elements"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. Debug or inspect elements"
+        ],
         "explanation": "The 'peek()' method is used for debugging, allowing you to perform an action on each element without modifying the stream."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. toList()"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. toList()"
+        ],
         "explanation": "The 'toList()' collector from the Collectors class is used to collect stream elements into a List."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. Arrays.stream()"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. Arrays.stream()"
+        ],
         "explanation": "The 'Arrays.stream()' method is used to create a stream from an array."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. Checks if no elements match"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. Checks if no elements match"
+        ],
         "explanation": "The 'noneMatch()' method returns true if no elements in the stream satisfy the provided predicate."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. groupingBy()"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. groupingBy()"
+        ],
         "explanation": "The 'groupingBy()' collector groups stream elements by a classification function into a Map."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. Partitions elements based on a predicate"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. Partitions elements based on a predicate"
+        ],
         "explanation": "The 'partitioningBy()' collector partitions stream elements into two groups (true and false) based on a predicate."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. Stream.of()"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. Stream.of()"
+        ],
         "explanation": "The 'Stream.of()' method creates a stream from a sequence of values."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. Flattens nested streams"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. Flattens nested streams"
+        ],
         "explanation": "The 'flatMap()' method transforms each element into a stream and then flattens the resulting streams into a single stream."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. count()"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. count()"
+        ],
         "explanation": "The 'count()' method is a terminal operation that returns the number of elements in the stream."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. toMap()"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. toMap()"
+        ],
         "explanation": "The 'toMap()' collector creates a Map from stream elements using key and value mapper functions."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. Creates an infinite stream"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. Creates an infinite stream"
+        ],
         "explanation": "The 'iterate()' method creates an infinite stream by repeatedly applying a function to an initial value."
       }
     }

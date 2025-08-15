@@ -40,8 +40,12 @@
       ],
       "correctAnswer": {
         "questionId": 1,
-        "answerId": [2],
-        "answer": ["B. To execute code in an object's context"],
+        "answerId": [
+          2
+        ],
+        "answer": [
+          "B. To execute code in an object's context"
+        ],
         "explanation": "Scope functions provide a concise way to execute a block of code within the context of an object, improving readability and reducing boilerplate."
       }
     },
@@ -84,8 +88,12 @@
       ],
       "correctAnswer": {
         "questionId": 2,
-        "answerId": [6],
-        "answer": ["B. let"],
+        "answerId": [
+          6
+        ],
+        "answer": [
+          "B. let"
+        ],
         "explanation": "The let function executes a lambda with the object as 'it' and returns the lambda's result, useful for null safety and transformations."
       }
     },
@@ -128,8 +136,12 @@
       ],
       "correctAnswer": {
         "questionId": 3,
-        "answerId": [10],
-        "answer": ["B. apply"],
+        "answerId": [
+          10
+        ],
+        "answer": [
+          "B. apply"
+        ],
         "explanation": "The apply function executes a lambda with the object as 'this' and returns the object itself, ideal for configuration."
       }
     },
@@ -172,8 +184,12 @@
       ],
       "correctAnswer": {
         "questionId": 4,
-        "answerId": [14],
-        "answer": ["B. run"],
+        "answerId": [
+          14
+        ],
+        "answer": [
+          "B. run"
+        ],
         "explanation": "The run function executes a lambda with the object as 'this' and returns the lambda's result, useful for scoping and computation."
       }
     },
@@ -216,8 +232,12 @@
       ],
       "correctAnswer": {
         "questionId": 5,
-        "answerId": [18],
-        "answer": ["B. with"],
+        "answerId": [
+          18
+        ],
+        "answer": [
+          "B. with"
+        ],
         "explanation": "The with function takes an object as an argument, uses 'this' as the receiver, and returns the lambda's result, useful for grouping operations."
       }
     },
@@ -260,8 +280,12 @@
       ],
       "correctAnswer": {
         "questionId": 6,
-        "answerId": [22],
-        "answer": ["B. also"],
+        "answerId": [
+          22
+        ],
+        "answer": [
+          "B. also"
+        ],
         "explanation": "The also function executes a lambda with the object as 'it' and returns the object itself, useful for side effects like logging."
       }
     },
@@ -304,8 +328,12 @@
       ],
       "correctAnswer": {
         "questionId": 7,
-        "answerId": [26],
-        "answer": ["B. For null-safe operations"],
+        "answerId": [
+          26
+        ],
+        "answer": [
+          "B. For null-safe operations"
+        ],
         "explanation": "The let function is often used for null-safe operations, executing a lambda only if the object is non-null, e.g., obj?.let { it.method() }."
       }
     },
@@ -348,8 +376,12 @@
       ],
       "correctAnswer": {
         "questionId": 8,
-        "answerId": [30],
-        "answer": ["B. Object configuration"],
+        "answerId": [
+          30
+        ],
+        "answer": [
+          "B. Object configuration"
+        ],
         "explanation": "The apply function is commonly used for object configuration, initializing properties in a concise way, e.g., obj.apply { prop = value }."
       }
     },
@@ -392,8 +424,12 @@
       ],
       "correctAnswer": {
         "questionId": 9,
-        "answerId": [34],
-        "answer": ["B. Computing a result"],
+        "answerId": [
+          34
+        ],
+        "answer": [
+          "B. Computing a result"
+        ],
         "explanation": "The run function is used for scoping and computing a result from an object's properties, e.g., obj.run { prop1 + prop2 }."
       }
     },
@@ -436,8 +472,12 @@
       ],
       "correctAnswer": {
         "questionId": 10,
-        "answerId": [38],
-        "answer": ["B. To group object operations"],
+        "answerId": [
+          38
+        ],
+        "answer": [
+          "B. To group object operations"
+        ],
         "explanation": "The with function is used to group operations on an object, accessing its properties directly, e.g., with(obj) { prop1 + prop2 }."
       }
     },
@@ -480,8 +520,12 @@
       ],
       "correctAnswer": {
         "questionId": 11,
-        "answerId": [42],
-        "answer": ["B. Side effects like logging"],
+        "answerId": [
+          42
+        ],
+        "answer": [
+          "B. Side effects like logging"
+        ],
         "explanation": "The also function is used for side effects like logging or additional actions, e.g., obj.also { println(it) }."
       }
     },
@@ -524,8 +568,12 @@
       ],
       "correctAnswer": {
         "questionId": 12,
-        "answerId": [46],
-        "answer": ["B. apply"],
+        "answerId": [
+          46
+        ],
+        "answer": [
+          "B. apply"
+        ],
         "explanation": "The apply function is ideal for initializing an object's properties, as it returns the object itself, e.g., obj.apply { prop = value }."
       }
     },
@@ -568,8 +616,12 @@
       ],
       "correctAnswer": {
         "questionId": 13,
-        "answerId": [50],
-        "answer": ["B. let"],
+        "answerId": [
+          50
+        ],
+        "answer": [
+          "B. let"
+        ],
         "explanation": "The let function is ideal for null-safe operations, often used with the safe call operator, e.g., obj?.let { it.method() }."
       }
     },
@@ -612,8 +664,12 @@
       ],
       "correctAnswer": {
         "questionId": 14,
-        "answerId": [54],
-        "answer": ["B. also"],
+        "answerId": [
+          54
+        ],
+        "answer": [
+          "B. also"
+        ],
         "explanation": "The also function is ideal for side effects like logging, as it returns the object and uses 'it', e.g., obj.also { println(it) }."
       }
     },
@@ -656,8 +712,12 @@
       ],
       "correctAnswer": {
         "questionId": 15,
-        "answerId": [58],
-        "answer": ["B. with"],
+        "answerId": [
+          58
+        ],
+        "answer": [
+          "B. with"
+        ],
         "explanation": "The with function is ideal for grouping operations on an object without chaining, e.g., with(obj) { prop1 + prop2 }."
       }
     },
@@ -700,8 +760,12 @@
       ],
       "correctAnswer": {
         "questionId": 16,
-        "answerId": [62],
-        "answer": ["B. null"],
+        "answerId": [
+          62
+        ],
+        "answer": [
+          "B. null"
+        ],
         "explanation": "When used with a safe call (?.), the let function does not execute and returns null if the object is null."
       }
     },
@@ -744,8 +808,12 @@
       ],
       "correctAnswer": {
         "questionId": 17,
-        "answerId": [66],
-        "answer": ["B. The object itself"],
+        "answerId": [
+          66
+        ],
+        "answer": [
+          "B. The object itself"
+        ],
         "explanation": "The apply function always returns the object itself, regardless of the lambda's content."
       }
     },
@@ -788,8 +856,12 @@
       ],
       "correctAnswer": {
         "questionId": 18,
-        "answerId": [70],
-        "answer": ["B. The lambda's result"],
+        "answerId": [
+          70
+        ],
+        "answer": [
+          "B. The lambda's result"
+        ],
         "explanation": "The run function returns the result of the lambda, which is the last expression evaluated inside it."
       }
     },
@@ -832,8 +904,12 @@
       ],
       "correctAnswer": {
         "questionId": 19,
-        "answerId": [74],
-        "answer": ["B. The lambda's result"],
+        "answerId": [
+          74
+        ],
+        "answer": [
+          "B. The lambda's result"
+        ],
         "explanation": "The with function returns the result of the lambda, which is the last expression evaluated inside it."
       }
     },
@@ -876,8 +952,12 @@
       ],
       "correctAnswer": {
         "questionId": 20,
-        "answerId": [78],
-        "answer": ["B. The object itself"],
+        "answerId": [
+          78
+        ],
+        "answer": [
+          "B. The object itself"
+        ],
         "explanation": "The also function always returns the object itself, regardless of the lambda's content."
       }
     },
@@ -920,8 +1000,12 @@
       ],
       "correctAnswer": {
         "questionId": 21,
-        "answerId": [82],
-        "answer": ["B. As 'it'"],
+        "answerId": [
+          82
+        ],
+        "answer": [
+          "B. As 'it'"
+        ],
         "explanation": "The let function refers to the object as 'it' in its lambda, e.g., obj.let { it.prop }."
       }
     },
@@ -964,8 +1048,12 @@
       ],
       "correctAnswer": {
         "questionId": 22,
-        "answerId": [86],
-        "answer": ["B. As 'this'"],
+        "answerId": [
+          86
+        ],
+        "answer": [
+          "B. As 'this'"
+        ],
         "explanation": "The apply function refers to the object as 'this' in its lambda, allowing direct property access, e.g., obj.apply { prop = value }."
       }
     },
@@ -1008,8 +1096,12 @@
       ],
       "correctAnswer": {
         "questionId": 23,
-        "answerId": [90],
-        "answer": ["B. As 'this'"],
+        "answerId": [
+          90
+        ],
+        "answer": [
+          "B. As 'this'"
+        ],
         "explanation": "The run function refers to the object as 'this' in its lambda, allowing direct property access, e.g., obj.run { prop1 + prop2 }."
       }
     },
@@ -1052,8 +1144,12 @@
       ],
       "correctAnswer": {
         "questionId": 24,
-        "answerId": [94],
-        "answer": ["B. As 'this'"],
+        "answerId": [
+          94
+        ],
+        "answer": [
+          "B. As 'this'"
+        ],
         "explanation": "The with function refers to the object as 'this' in its lambda, allowing direct property access, e.g., with(obj) { prop1 + prop2 }."
       }
     },
@@ -1096,8 +1192,12 @@
       ],
       "correctAnswer": {
         "questionId": 25,
-        "answerId": [98],
-        "answer": ["B. As 'it'"],
+        "answerId": [
+          98
+        ],
+        "answer": [
+          "B. As 'it'"
+        ],
         "explanation": "The also function refers to the object as 'it' in its lambda, e.g., obj.also { println(it.prop) }."
       }
     },
@@ -1140,8 +1240,12 @@
       ],
       "correctAnswer": {
         "questionId": 26,
-        "answerId": [102],
-        "answer": ["B. with"],
+        "answerId": [
+          102
+        ],
+        "answer": [
+          "B. with"
+        ],
         "explanation": "The with function is not an extension function; it takes the object as an argument, e.g., with(obj) { ... }."
       }
     },
@@ -1184,8 +1288,12 @@
       ],
       "correctAnswer": {
         "questionId": 27,
-        "answerId": [106],
-        "answer": ["B. also"],
+        "answerId": [
+          106
+        ],
+        "answer": [
+          "B. also"
+        ],
         "explanation": "The also function is similar to apply, as both return the object itself, but also uses 'it' instead of 'this'."
       }
     },
@@ -1228,8 +1336,12 @@
       ],
       "correctAnswer": {
         "questionId": 28,
-        "answerId": [110],
-        "answer": ["B. with"],
+        "answerId": [
+          110
+        ],
+        "answer": [
+          "B. with"
+        ],
         "explanation": "The with function is similar to run, as both return the lambda's result and use 'this', but with takes the object as an argument."
       }
     },
@@ -1272,8 +1384,12 @@
       ],
       "correctAnswer": {
         "questionId": 29,
-        "answerId": [114],
-        "answer": ["B. apply"],
+        "answerId": [
+          114
+        ],
+        "answer": [
+          "B. apply"
+        ],
         "explanation": "The apply function is ideal for chaining, as it returns the object itself, allowing further method calls, e.g., obj.apply { prop = value }.method()."
       }
     },
@@ -1316,8 +1432,12 @@
       ],
       "correctAnswer": {
         "questionId": 30,
-        "answerId": [118],
-        "answer": ["B. run"],
+        "answerId": [
+          118
+        ],
+        "answer": [
+          "B. run"
+        ],
         "explanation": "The run function is ideal for computations that don't need temporary variables, as it returns the lambda's result, e.g., obj.run { prop1 * prop2 }."
       }
     }
