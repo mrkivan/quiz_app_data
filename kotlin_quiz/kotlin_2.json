@@ -1410,7 +1410,8 @@
         },
         {
           "answerId": 119,
-          "questionId": "C. do-while",
+          "questionId": 30,
+          "data": "C. do-while",
           "isItAnswer": false,
           "position": 3
         },
