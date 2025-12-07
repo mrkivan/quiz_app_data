@@ -1,79 +1,158 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy - Wealth Flow</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>WealthFlow — Privacy Policy</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background: #f9f9f9;
-      color: #333;
+    :root{
+      --bg:#f7f8fb;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --accent:#3f51b5;
+      --accent-2:#7986cb;
+      --radius:12px;
+      --max-width:900px;
+      --gap:18px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color: #111827;
     }
-    header {
-      background: #4CAF50;
-      color: #fff;
-      padding: 20px 10px;
-      text-align: center;
+    body{background:linear-gradient(180deg,var(--bg),#fff); margin:0; padding:32px; display:flex; justify-content:center;}
+    .wrap{width:100%; max-width:var(--max-width); }
+    header{display:flex; gap:12px; align-items:center; margin-bottom:18px;}
+    .logo{
+      width:56px;height:56px;border-radius:12px;
+      background:linear-gradient(135deg,var(--accent),var(--accent-2));
+      display:flex; align-items:center; justify-content:center; color:white; font-weight:700; font-size:18px;
+      box-shadow: 0 6px 18px rgba(63,81,181,0.12);
     }
-    header h1 {
-      margin: 0;
-      font-size: 28px;
-    }
-    main {
-      max-width: 800px;
-      margin: 30px auto;
-      background: #fff;
-      padding: 25px 30px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-    h2 {
-      color: #4CAF50;
-      margin-top: 25px;
-    }
-    p {
-      margin: 12px 0;
-    }
-    footer {
-      text-align: center;
-      font-size: 14px;
-      color: #555;
-      padding: 20px;
-      margin-top: 30px;
-    }
-    a {
-      color: #4CAF50;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
+    h1{margin:0; font-size:20px;}
+    p.lead{color:var(--muted); margin-top:6px; margin-bottom:20px;}
+    .card{background:var(--card); border-radius:var(--radius); padding:20px; box-shadow:0 6px 20px rgba(15,23,42,0.04); margin-bottom:16px;}
+    section + section{margin-top:12px;}
+    h2{font-size:16px; margin:0 0 8px 0;}
+    p{margin:6px 0; line-height:1.5; color:#111827;}
+    ul{margin:8px 0 8px 18px;}
+    code{background:#f3f4f6;padding:2px 6px;border-radius:6px;font-size:0.95em;}
+    .muted{color:var(--muted);}
+    .small{font-size:13px; color:var(--muted);}
+    .cta{display:inline-block; margin-top:12px; padding:10px 14px; background:linear-gradient(90deg,var(--accent),var(--accent-2)); color:white; border-radius:10px; text-decoration:none;}
+    footer{margin-top:18px; text-align:center; color:var(--muted); font-size:13px;}
+    @media (max-width:520px){
+      body{padding:18px;}
+      .logo{width:48px;height:48px}
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Privacy Policy</h1>
-  </header>
+  <div class="wrap">
+    <header>
+      <div class="logo">WF</div>
+      <div>
+        <h1>WealthFlow — Privacy Policy</h1>
+        <p class="lead">Effective date: <strong id="effectiveDate"></strong></p>
+      </div>
+    </header>
 
-  <main>
-    <p><strong>Effective date:</strong> August 18, 2025</p>
+    <div class="card">
+      <h2>Summary</h2>
+      <p class="muted">
+        WealthFlow is a local-first personal finance app. This policy explains what data the app uses and how it is handled.
+        In short: <strong>We do not collect or send your personal financial data to any server</strong>. All data is stored locally on your device and encrypted.
+      </p>
+    </div>
 
-    <p><strong>Wealth Flow - your personal asset management application!</strong> ("the App") is provided as a free application. 
-    This Privacy Policy explains how we handle information when you use the App.</p>
+    <section class="card">
+      <h2>App features</h2>
+      <p>WealthFlow provides tools that help you manage your personal finances on your device. Key features include:</p>
+      <ul>
+        <li>Assets, investments, and liabilities tracking.</li>
+        <li>Secure 6-digit passcode protection for the app.</li>
+        <li>Local currency formatting and multi-language UI options.</li>
+        <li>Local, on-device only storage of all finance records and profile info.</li>
+      </ul>
+    </section>
 
-   
+    <section class="card">
+      <h2>Data collection — none</h2>
+      <p class="muted">WealthFlow does not collect, transmit, or store your personal or financial data on our servers.</p>
+      <p>Specifically:</p>
+      <ul>
+        <li>There is <strong>no automatic upload</strong> or cloud backup of your finance data by WealthFlow.</li>
+        <li>There is <strong>no analytics or third-party tracking</strong> embedded in the app.</li>
+        <li>We do not read your device contacts, SMS, or other unrelated data.</li>
+      </ul>
+    </section>
 
-    <h2>Contact Us</h2>
-    <p>If you have any questions about this Privacy Policy, feel free to contact us:</p>
-    <p><a href="mailto:tnm.quizmaster@gmail.com">tnm.quizmaster@gmail.com</a></p>
-  </main>
+    <section class="card">
+      <h2>Local storage & encryption</h2>
+      <p>All user-entered data (assets, investments, liabilities, notes, and profile settings) is stored only on your device using the app's local storage mechanism.</p>
+      <p>Security details:</p>
+      <ul>
+        <li>Data at rest is encrypted using industry-standard symmetric encryption (for example, AES-256) provided by the platform or a secure cryptography library. The actual algorithm used depends on the app build and device capabilities.</li>
+        <li>Passcode: the app can protect access using a 6-digit passcode. When enabled, the passcode or a derived key is used to protect the encrypted store.</li>
+        <li>Key storage: cryptographic keys or passcode-derived secrets are stored using secure platform facilities when available (for example, Android Keystore or iOS Keychain).</li>
+      </ul>
+      <p class="small">
+        Note: encryption improves protection, but no system can be guaranteed 100% secure. Keep your device locked, updated, and avoid sharing passcodes.
+      </p>
+    </section>
 
-  <footer>
-    &copy; 2025 Quiz Master. All rights reserved.
-  </footer>
+    <section class="card">
+      <h2>No cloud services, no external tracking</h2>
+      <p>WealthFlow intentionally has no built-in cloud sync, remote servers, or telemetry. That means:</p>
+      <ul>
+        <li>Your financial entries never leave your device unless you explicitly export them (for example, via an export button or by sharing a file you create).</li>
+        <li>We do not integrate background analytics, crash-reporting, or third-party trackers which collect usage or content information.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Optional exports & sharing</h2>
+      <p>If you choose to export or share data from the app (for example, to backup manually or to send a CSV), that exported file is handled by the normal share/export process on your device and may be stored or transmitted by the sharing destination. The app will warn you and require your confirmation before creating shareable/export files.</p>
+    </section>
+
+    <section class="card">
+      <h2>Third-party libraries</h2>
+      <p>WealthFlow may use third-party libraries for UI, cryptography, or local storage. These libraries are used locally within the app and do not upload your personal data. Any library that performs network operations will only be added after careful review and will be described in this policy if used.</p>
+    </section>
+
+    <section class="card">
+      <h2>Children & minors</h2>
+      <p>WealthFlow does not knowingly target children under 13. If you are under 13, please use this app only with parental permission. Because the app does not collect personal data, it does not knowingly collect information from minors.</p>
+    </section>
+
+    <section class="card">
+      <h2>How to remove data</h2>
+      <p>You can remove all app data by using the app's built-in data deletion option or by uninstalling the app. Uninstalling the app will remove local files created by the app from your device (behavior depends on the device and OS version).</p>
+    </section>
+
+    <section class="card">
+      <h2>Contact & corrections</h2>
+      <p>If you have questions, need help, or want to request changes, contact us at:</p>
+      <p><a href="mailto:tnm.quizmaster@gmail.com">Click Here</a></p>
+    </section>
+
+    <section class="card">
+      <h2>Policy changes</h2>
+      <p>We may update this policy to reflect changes in the app. If we make material changes, we will update the effective date at the top of this page. Small clarifications may be made without notice.</p>
+    </section>
+
+    <footer>
+      <div class="small">WealthFlow — Local-first finance tracker</div>
+      <div class="small">No cloud sync • No tracking • Local encrypted storage</div>
+    </footer>
+  </div>
+
+  <script>
+    // Insert current date as effective date
+    (function(){
+      const el = document.getElementById('effectiveDate');
+      if(!el) return;
+      const now = new Date();
+      const options = { year: 'numeric', month: 'long', day: 'numeric' };
+      el.textContent = now.toLocaleDateString(undefined, options);
+    })();
+  </script>
 </body>
 </html>
