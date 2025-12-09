@@ -105,6 +105,24 @@
       <p class="muted">This permission is used strictly for app launch automation and nothing else.</p>
     </section>
 
+    <!-- ✅ NEW SECTION ADDED HERE -->
+    <section class="card">
+      <h2>Mandatory Notification Permission</h2>
+      <p>
+        App Scheduler also requires the <strong>Notification Permission</strong> to function properly. 
+        This permission is mandatory because:
+      </p>
+      <ul>
+        <li>The app must display a foreground service notification when scheduling or launching apps.</li>
+        <li>Without notification access, scheduled launches may fail on newer Android versions.</li>
+        <li>Notifications ensure the system does not stop or delay scheduled app launches.</li>
+      </ul>
+      <p class="muted">
+        The app does not send any data through notifications — they are used only to keep scheduling operations running reliably.
+      </p>
+    </section>
+    <!-- END NEW SECTION -->
+
     <section class="card">
       <h2>No cloud services, no external tracking</h2>
       <p>App Scheduler does not include:</p>
