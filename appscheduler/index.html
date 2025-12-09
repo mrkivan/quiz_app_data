@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>App Scheduler — Privacy Policy</title>
+  <style>
+    :root{
+      --bg:#f7f8fb;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --accent:#1e88e5;
+      --accent-2:#64b5f6;
+      --radius:12px;
+      --max-width:900px;
+      --gap:18px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color: #111827;
+    }
+    body{background:linear-gradient(180deg,var(--bg),#fff); margin:0; padding:32px; display:flex; justify-content:center;}
+    .wrap{width:100%; max-width:var(--max-width); }
+    header{display:flex; gap:12px; align-items:center; margin-bottom:18px;}
+    .logo{
+      width:56px;height:56px;border-radius:12px;
+      background:linear-gradient(135deg,var(--accent),var(--accent-2));
+      display:flex; align-items:center; justify-content:center; color:white; font-weight:700; font-size:18px;
+      box-shadow: 0 6px 18px rgba(30,136,229,0.12);
+    }
+    h1{margin:0; font-size:20px;}
+    p.lead{color:var(--muted); margin-top:6px; margin-bottom:20px;}
+    .card{background:var(--card); border-radius:var(--radius); padding:20px; box-shadow:0 6px 20px rgba(15,23,42,0.04); margin-bottom:16px;}
+    section + section{margin-top:12px;}
+    h2{font-size:16px; margin:0 0 8px 0;}
+    p{margin:6px 0; line-height:1.5; color:#111827;}
+    ul{margin:8px 0 8px 18px;}
+    .muted{color:var(--muted);}
+    .small{font-size:13px; color:var(--muted);}
+    footer{margin-top:18px; text-align:center; color:var(--muted); font-size:13px;}
+    @media (max-width:520px){
+      body{padding:18px;}
+      .logo{width:48px;height:48px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">AS</div>
+      <div>
+        <h1>App Scheduler — Privacy Policy</h1>
+        <p class="lead">Effective date: <strong id="effectiveDate"></strong></p>
+      </div>
+    </header>
+
+    <div class="card">
+      <h2>Summary</h2>
+      <p class="muted">
+        App Scheduler is a local, on-device automation tool that helps you schedule installed apps to open at specific times. 
+        This Privacy Policy explains how your data is handled.
+        In short: <strong>We do not collect, store, or share any personal data on any server</strong>. Everything remains on your device.
+      </p>
+    </div>
+
+    <section class="card">
+      <h2>App features</h2>
+      <p>App Scheduler allows users to automate app launches on their own device. Core features include:</p>
+      <ul>
+        <li>Scheduling any installed app to launch at a selected time.</li>
+        <li>Editing an existing schedule.</li>
+        <li>Cancelling a scheduled launch before it starts.</li>
+        <li>Supporting multiple schedules without time conflicts.</li>
+        <li>Automatically restoring schedules after device restart.</li>
+        <li>Local-only schedule records to track successful or failed launches.</li>
+        <li>Optional dark mode support.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Data collection — none</h2>
+      <p class="muted">App Scheduler does not collect or transmit any personal data to any server.</p>
+      <p>Specifically:</p>
+      <ul>
+        <li>No user information is stored outside your device.</li>
+        <li>No analytics, tracking SDKs, or advertising libraries are used.</li>
+        <li>No cloud backup or server communication is performed.</li>
+        <li>We do not access your contacts, messages, photos, or unrelated files.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Local storage only</h2>
+      <p>
+        All scheduling information (selected app, scheduled time, status, execution results) is stored only on your device.
+        This data is needed to ensure the scheduler works correctly, restores schedules after reboot, and shows schedule history.
+      </p>
+      <p>No data is synced, uploaded, or shared automatically.</p>
+    </section>
+
+    <section class="card">
+      <h2>Permissions used</h2>
+      <p>App Scheduler requires only one mandatory permission:</p>
+      <ul>
+        <li><strong>Draw Over Other Apps</strong> — required to reliably launch scheduled apps, even when the device is locked or running a different app.</li>
+      </ul>
+      <p class="muted">This permission is used strictly for app launch automation and nothing else.</p>
+    </section>
+
+    <section class="card">
+      <h2>No cloud services, no external tracking</h2>
+      <p>App Scheduler does not include:</p>
+      <ul>
+        <li>Cloud sync</li>
+        <li>Remote servers</li>
+        <li>Analytics or telemetry</li>
+        <li>Crash reporting services</li>
+        <li>Third-party advertising networks</li>
+      </ul>
+      <p>Your device never sends any schedule information to us.</p>
+    </section>
+
+    <section class="card">
+      <h2>Third-party libraries</h2>
+      <p>
+        App Scheduler may use open-source libraries for UI or local database storage. These libraries operate only on your device and 
+        do not send any personal data over the internet.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Children & minors</h2>
+      <p>App Scheduler does not target children under 13 and does not collect any personal information.</p>
+    </section>
+
+    <section class="card">
+      <h2>How to remove data</h2>
+      <p>You can delete all scheduling data by uninstalling the app. Uninstalling removes all locally stored files created by the app.</p>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>If you have questions or need support, contact us at:</p>
+      <p><a href="mailto:tnm.quizmaster@gmail.com">Click here</a></p>
+    </section>
+
+    <section class="card">
+      <h2>Policy changes</h2>
+      <p>
+        This policy may be updated to reflect improvements to the app. If changes are made, the effective date at the top of this page will be updated.
+      </p>
+    </section>
+
+    <footer>
+      <div class="small">App Scheduler — Local, private, and secure</div>
+      <div class="small">No servers • No tracking • No data collection</div>
+    </footer>
+  </div>
+
+  <script>
+    (function(){
+      const el = document.getElementById('effectiveDate');
+      if(!el) return;
+      const now = new Date();
+      const options = { year: 'numeric', month: 'long', day: 'numeric' };
+      el.textContent = now.toLocaleDateString(undefined, options);
+    })();
+  </script>
+</body>
+</html>
