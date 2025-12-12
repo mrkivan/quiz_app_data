@@ -49,7 +49,7 @@
     <header>
       <div class="logo">WF</div>
       <div>
-        <h1>WealthFlow — Privacy Policy</h1>
+        <h1>WealthFlow — Privacy Policy (Version 2.0)</h1>
         <p class="lead">Effective date: <strong id="effectiveDate"></strong></p>
       </div>
     </header>
@@ -57,95 +57,100 @@
     <div class="card">
       <h2>Summary</h2>
       <p class="muted">
-        WealthFlow is a local-first personal finance app. This policy explains what data the app uses and how it is handled.
-        In short: <strong>We do not collect or send your personal financial data to any server</strong>. All data is stored locally on your device and encrypted.
+        WealthFlow is a local-first personal finance app. Version 2.0 introduces limited analytics strictly for app stability and UI interaction improvement. These analytics <strong>do not include personal, financial, or identifiable user data</strong>. All your financial data remains stored locally on your device and encrypted.
       </p>
     </div>
 
     <section class="card">
       <h2>App features</h2>
-      <p>WealthFlow provides tools that help you manage your personal finances on your device. Key features include:</p>
+      <p>WealthFlow helps you manage your personal finances with features including:</p>
       <ul>
         <li>Assets, investments, and liabilities tracking.</li>
         <li>Secure 6-digit passcode protection for the app.</li>
         <li>Local currency formatting and multi-language UI options.</li>
         <li>Local, on-device only storage of all finance records and profile info.</li>
+        <li>Improved UI and optimized local database in version 2.0.</li>
       </ul>
     </section>
 
     <section class="card">
-      <h2>Data collection — none</h2>
-      <p class="muted">WealthFlow does not collect, transmit, or store your personal or financial data on our servers.</p>
-      <p>Specifically:</p>
+      <h2>Data collection (updated in v2.0)</h2>
+      <p class="muted">WealthFlow now collects minimal analytics for stability and performance improvements.</p>
+      <p>Specifically, the app collects:</p>
       <ul>
-        <li>There is <strong>no automatic upload</strong> or cloud backup of your finance data by WealthFlow.</li>
-        <li>There is <strong>no analytics or third-party tracking</strong> embedded in the app.</li>
-        <li>We do not read your device contacts, SMS, or other unrelated data.</li>
+        <li><strong>Crash reports</strong> — used only to identify technical issues and app errors.</li>
+        <li><strong>Anonymous screen visit events</strong> — to understand which screens are used most.</li>
+        <li><strong>Anonymous button-click events</strong> — only button identifiers, not the data entered.</li>
       </ul>
+      <p><strong>What is NOT collected:</strong></p>
+      <ul>
+        <li>No financial data (assets, investments, liabilities, notes).</li>
+        <li>No personal identity data.</li>
+        <li>No device contacts, SMS, files, or unrelated information.</li>
+        <li>No sensitive parameters or content from forms.</li>
+      </ul>
+      <p class="small">Analytics data is non-personal, non-sensitive, and cannot be used to identify you or reconstruct your financial data.</p>
     </section>
 
     <section class="card">
       <h2>Local storage & encryption</h2>
-      <p>All user-entered data (assets, investments, liabilities, notes, and profile settings) is stored only on your device using the app's local storage mechanism.</p>
+      <p>All finance-related data is stored only on your device and protected with encryption.</p>
       <p>Security details:</p>
       <ul>
-        <li>Data at rest is encrypted using industry-standard symmetric encryption (for example, AES-256) provided by the platform or a secure cryptography library. The actual algorithm used depends on the app build and device capabilities.</li>
-        <li>Passcode: the app can protect access using a 6-digit passcode. When enabled, the passcode or a derived key is used to protect the encrypted store.</li>
-        <li>Key storage: cryptographic keys or passcode-derived secrets are stored using secure platform facilities when available (for example, Android Keystore or iOS Keychain).</li>
+        <li>Data at rest is encrypted using platform-provided secure encryption (e.g., AES-based secure storage).</li>
+        <li>The 6-digit passcode, when enabled, protects access to the encrypted data store.</li>
+        <li>Keys are stored using secure platform facilities like Android Keystore or iOS Keychain.</li>
       </ul>
-      <p class="small">
-        Note: encryption improves protection, but no system can be guaranteed 100% secure. Keep your device locked, updated, and avoid sharing passcodes.
-      </p>
+      <p class="small">No financial or personal data is ever uploaded as part of analytics or any other service.</p>
     </section>
 
     <section class="card">
-      <h2>No cloud services, no external tracking</h2>
-      <p>WealthFlow intentionally has no built-in cloud sync, remote servers, or telemetry. That means:</p>
+      <h2>No cloud services for financial data</h2>
+      <p>WealthFlow does not upload your financial records to any cloud server. Crash logs and interaction analytics do not include any user-entered content.</p>
       <ul>
-        <li>Your financial entries never leave your device unless you explicitly export them (for example, via an export button or by sharing a file you create).</li>
-        <li>We do not integrate background analytics, crash-reporting, or third-party trackers which collect usage or content information.</li>
+        <li>Your finance data stays offline unless you manually export it.</li>
+        <li>No third-party tracking of financial or personal info.</li>
       </ul>
     </section>
 
     <section class="card">
       <h2>Optional exports & sharing</h2>
-      <p>If you choose to export or share data from the app (for example, to backup manually or to send a CSV), that exported file is handled by the normal share/export process on your device and may be stored or transmitted by the sharing destination. The app will warn you and require your confirmation before creating shareable/export files.</p>
+      <p>If you choose to export or share finance data, those exported files are handled by your device's sharing system. WealthFlow will always request confirmation before generating export files.</p>
     </section>
 
     <section class="card">
       <h2>Third-party libraries</h2>
-      <p>WealthFlow may use third-party libraries for UI, cryptography, or local storage. These libraries are used locally within the app and do not upload your personal data. Any library that performs network operations will only be added after careful review and will be described in this policy if used.</p>
+      <p>WealthFlow uses third-party libraries for UI, encryption, database storage, crash reporting, and non-personal analytics. These libraries do <strong>not</strong> access your financial or personal data.</p>
     </section>
 
     <section class="card">
       <h2>Children & minors</h2>
-      <p>WealthFlow does not knowingly target children under 13. If you are under 13, please use this app only with parental permission. Because the app does not collect personal data, it does not knowingly collect information from minors.</p>
+      <p>WealthFlow does not knowingly target children under 13. Because the app does not collect personal or financial data, it does not knowingly collect information from minors.</p>
     </section>
 
     <section class="card">
       <h2>How to remove data</h2>
-      <p>You can remove all app data by using the app's built-in data deletion option or by uninstalling the app. Uninstalling the app will remove local files created by the app from your device (behavior depends on the device and OS version).</p>
+      <p>You can remove all app data by using the in-app deletion options or by uninstalling the app. Uninstalling removes all local financial data stored by WealthFlow.</p>
     </section>
 
     <section class="card">
       <h2>Contact & corrections</h2>
-      <p>If you have questions, need help, or want to request changes, contact us at:</p>
+      <p>For questions or assistance, contact us at:</p>
       <p><a href="mailto:tnm.quizmaster@gmail.com">Click Here</a></p>
     </section>
 
     <section class="card">
       <h2>Policy changes</h2>
-      <p>We may update this policy to reflect changes in the app. If we make material changes, we will update the effective date at the top of this page. Small clarifications may be made without notice.</p>
+      <p>We may update this policy as the app evolves. Significant updates will change the effective date at the top of this page.</p>
     </section>
 
     <footer>
       <div class="small">WealthFlow — Local-first finance tracker</div>
-      <div class="small">No cloud sync • No tracking • Local encrypted storage</div>
+      <div class="small">Encrypted local data • Minimal anonymous analytics</div>
     </footer>
   </div>
 
   <script>
-    // Insert current date as effective date
     (function(){
       const el = document.getElementById('effectiveDate');
       if(!el) return;
